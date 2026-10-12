@@ -55,3 +55,40 @@ Track which template wins. Update after 7 days.
 | Video | Template | 7-day views | CTR |
 |---|---|---|---|
 | | | | |
+
+---
+
+## "Satisfying" decision (13 Oct 2026)
+
+**Evidence (mild, not proof):**
+- Idle Cub top-50: 6 titles say "satisfying" → average **409K** views (median 439K) vs 44 other titles → average **344K** (median 282K). Small sample; the list is his *top* videos, so it is biased toward winners.
+- Azrilich: "most satisfying cleaning game ever" 162K (above his usual), "shoot block = max satisfaction" 54K (below).
+- vidIQ search: "satisfying game" is mostly Roblox, Minecraft and tutorial searches → it is a **browse/feeling word, not a search keyword**.
+
+**Rules:**
+1. Use "satisfying" only when the screen is smooth, repeating progress (crush, mine, clean, sort, automate).
+2. Skip it for dark/horror, gambling, challenge/cheat, story and calm/relaxing games — use the matching feeling word (DISTURBING, BROKEN, RELAXING…).
+3. Put it **after a concrete idea**, never alone.
+4. At most **1 video in 3**. Overuse makes titles look the same.
+5. Test: after 10 videos, compare "satisfying" titles vs others (CTR and 7-day views) in the log below.
+
+**Plan for the games in the calendar:**
+
+| Video | Satisfying? | Title angle |
+|---|---|---|
+| I Am Plague (Fri 16 Oct) | **No** | DISTURBING / swarm eats the city |
+| Rock Crusher (Tue 20 Oct) | **Yes** | crushing rocks, numbers up |
+| Sorting Inc (Fri 23 Oct) | No | "I 100%…" (Azrilich's 320K shape) |
+| Cast n Chill (Tue 3 Nov) | No | RELAXING / sleep-friendly |
+| Scratch the Ticket (Fri 6 Nov) | No | cheat/odds angle (lottery) |
+| Keep on Mining! (Tue 10 Nov) | **Yes** | mining, deeper and richer |
+| Nodebuster (Fri 13 Nov) | No | BROKEN / destroy everything |
+| Sandustry (Sun 15 Nov) | **Yes** | factory/automation growing |
+| Another Game About Digging a Hole (Tue 17 Nov) | No | extreme result ("I dug…") |
+| Supermarket Simulator (Tue 24 Nov) | No | "$0 → mega supermarket" journey |
+
+Already published / scheduled (no change): Cookie Clicker, A Game About Digging a Hole.
+
+| Video | Used "satisfying"? | 7-day views | CTR |
+|---|---|---|---|
+| | | | |
