@@ -46,3 +46,7 @@ Last updated: 13 Oct 2026
 | CrossOver | Trial started early Oct 2026 — **decide to buy before the trial ends (around 23 Oct)**, so Next Fest is covered. |
 | Keymailer | Not yet. Register in week 4 (early Nov). |
 | Business email | Not yet. Create one and add it to the channel description. |
+
+## Niche (13 Oct 2026)
+
+Incremental / idle games **and** satisfying job-sims with upgrades (cleaning, restoring, junkyard, mining). Calm live commentary, one game per video. Details: [strategy.md](strategy.md).

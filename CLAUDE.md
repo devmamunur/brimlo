@@ -23,7 +23,7 @@ This repo is the brain of the YouTube channel **Brimlo** (@BrimloIdle). It holds
 | | |
 |---|---|
 | Name / handle | Brimlo / @BrimloIdle |
-| Niche | Long-form **incremental / idle / clicker / survivor-like** Steam indie games |
+| Niche | Long-form **incremental / idle / clicker / survivor-like** Steam indie games **+ satisfying job-sim games with upgrades** (cleaning, restoring, junkyard, mining, metal detector…). Rule: numbers and upgrades visibly grow. Plain sims with no progression → skip. Role model for games/titles: Azrilich — but Brimlo does it its own way: calm, honest, full-length live commentary. See channel/strategy.md. |
 | Format | One game per video, 60–120 min, live commentary, light edit. **No multi-part series.** |
 | Audience | US, English, not made for kids |
 | Uploads | Tue + Fri at 12 PM US Eastern (10 PM Dhaka; **11 PM Dhaka from 1 Nov 2026**). 3/week from 9 Nov. **Fast lane:** hot demo/playtest/launch → publish within 1–3 days. |

@@ -54,3 +54,10 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 - Desktop-pet idlers like Bongo Cat (nothing grows on screen).
 - Games with anti-cheat (won't run in CrossOver).
 - Fan games using someone else's brand (e.g. Pokémon).
+
+
+## Sim candidates — LATER (Azrilich study, 13 Oct 2026)
+
+Do these **after** the owned and planned games are finished. Not bought, not scheduled.
+
+Full table with prices, Mac status and evidence: [checklist.md → Satisfying job-sim picks](checklist.md). Short list: Carpet Cleaning Simulator ($4.69, native Mac) · Death by Taxes (free demo, Dec 2026) · Junkyard dream-car game · WHERE the F$CK is my BITCOIN · Museologist · Black Friday Janitor · Metal Detector Island · Restore Your Island. All unverified matches — see caveats there.

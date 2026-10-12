@@ -12,6 +12,10 @@ Data: vidIQ, 12 Oct 2026. Refresh with the `channel-analyst` agent (costs vidIQ 
 | [Idle Cub](https://www.youtube.com/@idlecub) | DE | 194K | Aug 2022 | 31 | 1.5–2.5 h | +6K subs / 30d | Game choice and title shapes. Non-native English. ~1 video/day. |
 | [Dex](https://www.youtube.com/@dextag) | DE | 312K | 2020 | 31 | 67–91 min | +34.5% / year | Most similar to Idle Cub. Non-native English. |
 
+## Azrilich — title and game study (vidIQ, 13 Oct 2026)
+
+Plays classic incrementals **and** satisfying job-sims (carpet cleaning, junkyard, abandoned safes, restoring properties, metal detector, organizing junk). Videos 20–50 min, ~1/day. Titles: first-person extreme result, 4–9 words, no game name, no "incremental". Top: "I made a fire so big it bullied the sun" 1.21M (52 min) · "I cheated the lottery with a FLASHLIGHT" 977K · "I scammed a billionaire with fake art" 750K (19 min) · "I turned my backyard into NASA" 520K · "I need to clean this carpet before the world ends" 458K (65 min) · "I Played 100% of Sorting Inc" 320K (46 min).
+
 ## Others to watch
 
 | Channel | Country | Subs | Notes |

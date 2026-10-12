@@ -51,3 +51,8 @@ The targets below are **guesses** for a brand-new channel. Replace them with you
 - Developer relationships: after 5–10 incremental videos, ask developers for early keys ("Early creator preview" titles broke out for Nerfed Reflexes).
 - Live streams: skip for now (US prime time = 5–8 AM Dhaka).
 - Shorts: optional for discovery only; they don't count toward watch hours.
+
+
+## Update 13 Oct 2026 — sim games added
+
+The channel now covers satisfying job-sims with upgrades as well as classic incrementals (target ~60/40). **Order: owned and planned games first** (through ~24 Nov). After that, scout picks can be sim games from the later queue in [games/checklist.md](../games/checklist.md), e.g. Carpet Cleaning Simulator (native Mac). First sim test: 1–2 sim videos in late Nov / Dec, then compare views, CTR and average view duration with the incremental videos.

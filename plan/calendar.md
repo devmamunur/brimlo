@@ -6,7 +6,7 @@
 - "Scout pick" = a free demo, playtest, free-to-play game or developer key chosen with `/pick-game` that week.
 - Status: ✅ published · 🕒 scheduled · 🎬 recorded · 📝 planned · ❓ open slot
 
-Last updated: 13 Oct 2026
+Last updated: 13 Oct 2026 · Sim games are a "later" queue: owned + planned games first (see games/backlog.md)
 
 ## Phase 1 — Launch + Next Fest
 

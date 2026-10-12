@@ -19,7 +19,7 @@ Return **6–10 candidates** (or what the caller asks for), prioritizing:
 3. **Free-to-play** incrementals with visible growth on screen.
 4. Paid games only if cheap or on sale (budget max $10–15/month).
 
-Themes that break out in this niche: dark/horror, swarm/army that grows from nothing, cozy satisfying cleanup, mining/digging/fishing.
+Themes that break out in this niche: dark/horror, swarm/army that grows from nothing, cozy satisfying cleanup, mining/digging/fishing. Also **satisfying job-sims with upgrades** (cleaning, restoring, junkyard, metal detector) — like those on @AzrilichIdle. Plain sims with no progression do not qualify.
 
 ## Sources
 

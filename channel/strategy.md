@@ -11,6 +11,14 @@ Growth in this niche comes from **hits**: 1–3 videos that do 10–40x better t
 2. Be **early** on new games (demos, playtests, launches — first 1–10 days).
 3. Make each video **easy to click**: one strange idea, one clear promise.
 
+## Niche (decided 13 Oct 2026)
+
+One channel, two game types. Both must have **upgrades and growing numbers**:
+1. **Classic incremental / idle / survivor-like** (rat swarm, mining, tower defense).
+2. **Satisfying job-sim with upgrades** (cleaning, restoring, junkyard, metal detector, organizing) — what Azrilich plays; Mamunur loves these and viewers want both.
+
+Aim for roughly 60% type 1 and 40% type 2 at first; shift to whichever gets more views after 10–20 videos. No second channel (see strategy: one clear idea, double work, double watch-hour bar). Plain simulators with no progression (e.g. Supermarket Simulator) stay at one video.
+
 ## Format rules
 
 - **One game per video.** 60–120 minutes. Never stretch to fill time.
@@ -64,3 +72,18 @@ Details: [games/backlog.md](../games/backlog.md), [games/checklist.md](../games/
 - RPM for US gaming long-form ≈ $2–6 per 1,000 views (median ~$3.50).
 
 Details: [playbook/monetization-and-policy.md](../playbook/monetization-and-policy.md).
+
+## Sim games "in my own way"
+
+Azrilich is the **game-choice and title-shape model**, not the copy target. Brimlo does it differently:
+
+| Azrilich | Brimlo (my way) |
+|---|---|
+| Fast edit, jokes, ~20–50 min, ~1 video/day | Calm live commentary, 60–120 min, 2–3 videos/week |
+| Skits and fast-talking | Explain what's on screen, why I choose, honest verdict |
+| Shows the "wow" result | Shows the **whole journey** and tells viewers if the game is worth buying |
+
+Brimlo's promise: *calm, honest, full-length — no fast cuts, see everything.* This is also the lower-risk path for monetization (real commentary, real gameplay).
+- Use his **title shape** (template I) and **game ideas**, in my own words.
+- Do not copy his exact titles or thumbnails.
+- Keep the first-30-seconds hook and the "tiny → huge" promise.
