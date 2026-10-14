@@ -8,7 +8,7 @@ This repo is the brain of the YouTube channel **Brimlo** (@BrimloIdle). It holds
 - English is a second language. He talks slower and translates in his head. **Write in simple English with short sentences.** No jargon.
 - Records with live commentary while playing ("talk when needed"). Does NOT want voice-over later.
 - Gear: Mac mini M4 (16 GB), 1 TB SSD for recordings, Windows PC with no GPU (backup). Windows-only games run through CrossOver.
-- Software: OBS, DaVinci Resolve (free) or CapCut, Canva, Steam (Mac + Windows Steam inside CrossOver), vidIQ.
+- Software: OBS, DaVinci Resolve (free) or CapCut, Canva, Steam (Mac + Windows Steam inside CrossOver), vidIQ, and our own free research tool (`tools/research/`, MCP tools `brimlo_*`).
 
 ## How to help
 
@@ -49,7 +49,8 @@ Full details: [channel/profile.md](channel/profile.md), [channel/strategy.md](ch
 | `games/checklist.md` | Game-picking checklist (score before recording) |
 | `playbook/` | How-to guides: titles, thumbnails, hooks & scripts, phrase bank, recording & editing, upload checklist, monetization & policy |
 | `research/competitors.md` | Channels to learn from, with numbers |
-| `research/keywords.md` | vidIQ keyword data |
+| `research/keywords.md` | Keyword data (vidIQ + `brimlo_*`) |
+| `tools/research/` | **Our own free research tool** (vidIQ replacement): MCP tools `brimlo_*`, CLI, dashboard. Read its [README](tools/research/README.md) |
 | `research/reports/`, `research/notes/` | Full deep-research reports and the notes behind them |
 | `analytics/weekly-reviews.md` | Weekly stats log and decisions |
 | `archive/` | Old plans. Read only for history; do not follow them. |
@@ -68,12 +69,15 @@ Full details: [channel/profile.md](channel/profile.md), [channel/strategy.md](ch
 ## Agents (in `.claude/agents/`)
 
 - **game-scout** — finds new Steam incremental demos, playtests and launches; checks Mac/CrossOver; returns a ranked shortlist. Uses web search only (no vidIQ credits).
-- **channel-analyst** — uses vidIQ for competitor uploads, outliers, keywords and title scores. Must respect the credit budget below.
+- **channel-analyst** — uses the free `brimlo_*` research tools first, and vidIQ only for what they cannot do. Must respect both budgets below.
 
 ## Rules you must follow
 
 1. **Keep the log true.** After any change to a video's status (planned → recorded → scheduled → published), update `videos/log.md`, the video's file, and `plan/calendar.md`. Update `games/backlog.md` when a game is used.
-2. **vidIQ credits are limited.** Free plan + small add-on pool. Check `vidiq_balance` (free) before paid calls. **Say the cost and ask before spending more than 10 credits in one task.** Most calls cost 5. Prefer web search when it can answer.
+2. **Research tools: use `brimlo_*` first.** They are free (our own tool, YouTube Data API). Use the vidIQ MCP only when `brimlo_*` cannot answer. Two separate budgets:
+   - **`brimlo_*` quota:** 10,000 API units per day; a search costs 100, most other calls 1–3. Call `brimlo_quota_status` before big jobs and `estimate_only` where a tool has it. **Say the cost and ask before spending more than 300 units in one task.** The tool stops itself at 90%. Check `source`: if it says `demo`, the numbers are fake — never use them.
+   - **vidIQ credits (vidIQ only):** Free plan + small add-on pool. Check `vidiq_balance` (free) before paid calls. **Say the cost and ask before spending more than 10 credits in one task.** Most calls cost 5. Prefer web search when it can answer.
+   - The `brimlo_*` scores (competition, opportunity, outlier ×, title score) are **estimates** — say so when you report them.
 3. **Never suggest tagging or naming other creators** in titles, tags or descriptions.
 4. **No multi-part series** of one game. One game, one video. (A demo video now + a "100% full release" video later is fine.)
 5. **No long silent idle stretches** in the final video: speed up or cut. That is the main monetization-policy risk.
@@ -91,5 +95,7 @@ When a session starts with a general request ("what should I do today?", "what's
 
 ## Known setup gaps
 
-- vidIQ is connected in Claude Code, but the YouTube channel (ID `UCXf8abbaSiOThD3YhX8nGjQ`) is **not directly authorized** for `vidiq_user_videos` / analytics. Fix: run `vidiq_connect_youtube_channel` / `vidiq_authorize_with_youtube` once, then own-channel stats can be pulled.
-- Titles of already-published videos must be filled in by hand in `videos/log.md` until then.
+- vidIQ is connected in Claude Code, but the YouTube channel (ID `UCXf8abbaSiOThD3YhX8nGjQ`, @brimloidle) is **not directly authorized** for `vidiq_user_videos` / analytics. Fix: run `vidiq_connect_youtube_channel` / `vidiq_authorize_with_youtube` once. **Workaround that works now:** `brimlo_own_channel` returns subs, views and recent upload titles/views from the public API (free, ~3 units). Watch hours need the optional OAuth step in `tools/research/README.md`.
+- **Impressions and CTR are not available from any API** (not vidIQ's, not ours). Read them in YouTube Studio.
+- An older version of this file had the wrong channel ID (`UCNwy…` is the personal channel "Mamunur Rashid"). The correct one is above.
+- Titles of already-published videos can be read with `brimlo_own_channel` (recent uploads) and filled into `videos/log.md`.

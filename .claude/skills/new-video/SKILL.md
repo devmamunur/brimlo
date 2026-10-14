@@ -45,4 +45,4 @@ Plan one video end to end and save it in the repo. Write in **simple English, sh
 - One game = one video. Never plan a "Part 2".
 - If the game is a demo/playtest with an end date, put the deadline in bold at the top and suggest the "fast lane" (publish within 1–3 days).
 - Upload time: 12 PM ET = 10 PM Dhaka before Sun 1 Nov 2026, 11 PM Dhaka after.
-- Do not spend vidIQ credits here unless he asks. If he asks to score titles, use `vidiq_score_title` and say the cost first.
+- Score the title options with `brimlo_score_title` (free, no quota) and note the score next to each option. Do not spend vidIQ credits here unless he asks. For a deeper check use `brimlo_idea_engine` (about 204 units, say the cost first).

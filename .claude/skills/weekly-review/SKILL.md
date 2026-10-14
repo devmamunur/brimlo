@@ -11,7 +11,7 @@ Honest, short, practical. One clear decision at the end.
 ## Steps
 
 1. Read `analytics/weekly-reviews.md` (last review + template), `videos/log.md`, `channel/status.md`, `plan/calendar.md` (this week + next week).
-2. **Get numbers.** First try vidIQ own-channel tools only if the channel is authorized (see CLAUDE.md "Known setup gaps"); check `vidiq_balance` (free) and say the cost before paid calls. Otherwise ask him to paste, in one message:
+2. **Get numbers.** First call `brimlo_own_channel` (free, ~3 units): subscribers, total views, recent uploads with views, and watch hours + per-video average view duration/percentage if OAuth is connected (it also saves a daily snapshot for the dashboard). If `source` is `demo`, ignore it. Do not use vidIQ own-channel tools unless the channel is authorized (see CLAUDE.md "Known setup gaps"). Then ask him to paste only what is still missing, in one message (impressions CTR is **not** available from any API — it must come from Studio):
    - Channel last 7 days: views, watch hours, subs gained, total subs, 365-day watch hours (Earn tab).
    - For each video from the last ~4 weeks: views, impressions CTR, average view duration, retention at 30 s and 5 min, subs gained, top traffic source.
    - Hours worked this week and energy (1–5).

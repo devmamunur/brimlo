@@ -1,7 +1,6 @@
 node_modules/
 .env
-tools/research/data/*.sqlite*
-tools/research/data/exports/
+tools/research/data/
 .DS_Store
 .venv/
 tools/research/apps/dashboard/dist/
