@@ -1,7 +1,12 @@
 import { z } from "zod";
 import { channelStats, channelStatsInput, channelVideos, channelVideosInput } from "./features/channels.ts";
 import { competitorsAdd, competitorsAddInput, competitorsList, competitorsListInput, competitorsRefresh, competitorsRefreshInput, competitorsRemove, competitorsRemoveInput, competitorsSeed, competitorsSeedInput } from "./features/competitors.ts";
+import { ideaEngine, ideaEngineInput } from "./features/ideaEngine.ts";
+import { ideaSave, ideaSaveInput, ideasList, ideasListInput, ideaUpdate, ideaUpdateInput } from "./features/ideas.ts";
 import { keywordInput, keywordResearch } from "./features/keywords.ts";
+import { descriptionAndTags, descriptionAndTagsInput } from "./features/tags.ts";
+import { scoreTitleInput, scoreTitleTool, titlePatterns, titlePatternsInput } from "./features/titles.ts";
+import { trending, trendingInput } from "./features/trending.ts";
 import { outliers, outliersInput } from "./features/outliers.ts";
 import { similarChannels, similarChannelsInput, similarVideos, similarVideosInput } from "./features/similar.ts";
 import { videoComments, videoCommentsInput, videoStats, videoStatsInput, videoTags, videoTagsInput, videoTranscript, videoTranscriptInput } from "./features/videos.ts";
@@ -101,5 +106,48 @@ export const tools: ToolDef[] = [
   { name: "video_transcript", title: "Video transcript", description: "Transcript with timestamps via yt-dlp (0 units). Long text is paged with max_chars/offset; the full text is saved under tools/research/data/transcripts/.", primary: "video", schema: videoTranscriptInput, run: videoTranscript },
   { name: "similar_videos", title: "Similar videos", description: "Videos similar to a given one by title words and tags. Local DB is free; online:true also searches YouTube (100 units).", primary: "video", schema: similarVideosInput, run: similarVideos },
   { name: "similar_channels", title: "Similar channels", description: "Channels similar to a given one by topic words. Local DB is free; online:true also searches YouTube (100 units).", primary: "channel", schema: similarChannelsInput, run: similarChannels },
+  {
+    name: "score_title",
+    title: "Score title",
+    description: "Free, local, no quota. Scores 1–5 titles 0–100 against playbook/titles.md (length, template A–I, keyword, CAPS, no emoji/creator names, power words, clarity, autocomplete demand, shape vs stored high-view titles). Returns reasons and 3 fixes. A checklist, not a prediction of views.",
+    primary: "title",
+    schema: scoreTitleInput,
+    run: scoreTitleTool,
+  },
+  {
+    name: "title_patterns",
+    title: "Title patterns",
+    description: "Mine the niche's outlier titles into shapes: playbook template counts, structure shares (first person, CAPS, '|' suffix...), common words and phrases, with examples. ~102 units, cached 24h (shared with outliers/trending/tags).",
+    primary: "query",
+    schema: titlePatternsInput,
+    run: titlePatterns,
+  },
+  {
+    name: "description_and_tags",
+    title: "Description and tags",
+    description: "From the niche's top videos: most common tags, a suggested tag list (max 500 chars), hashtags, description keywords and a draft of the first 2 description lines. Creator/channel names are filtered out. Optional `video` compares its tags to the niche. ~102 units, cached.",
+    primary: "keyword",
+    schema: descriptionAndTagsInput,
+    run: descriptionAndTags,
+  },
+  {
+    name: "trending",
+    title: "Trending in niche",
+    description: "Fast-growing videos in a niche published in the last N days (default 7), sorted by views/day (estimate). ~102 units, cached 24h.",
+    primary: "query",
+    schema: trendingInput,
+    run: trending,
+  },
+  {
+    name: "idea_engine",
+    title: "Idea engine",
+    description: "Evidence pack for a game or topic: keyword scores, outliers, title shapes, search gaps, competitor coverage, project rules. You (Claude) write the final ideas from it. ~204 units cold, 0 cached; use estimate_only first. save_as stores it as an idea.",
+    primary: "topic",
+    schema: ideaEngineInput,
+    run: ideaEngine,
+  },
+  { name: "ideas_list", title: "List ideas", description: "Free. Saved ideas (status idea/planned/recorded) with evidence.", schema: ideasListInput, run: ideasList },
+  { name: "idea_save", title: "Save idea", description: "Free. Save a video idea with evidence so it shows in the dashboard.", primary: "title", schema: ideaSaveInput, run: ideaSave },
+  { name: "idea_update", title: "Update idea", description: "Free. Change an idea's title/game/status/evidence, or delete it.", schema: ideaUpdateInput, run: ideaUpdate },
   quotaTool,
 ];

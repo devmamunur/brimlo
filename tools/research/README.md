@@ -16,7 +16,7 @@ All data goes into one SQLite file (`data/`). What Claude finds will show in the
 |---|---|---|
 | 1 | Core, quota guard, cache, `keyword_research`, `quota_status`, CLI, MCP | **Done** |
 | 2 | Channels, outliers, competitors, video tools | **Done and tested live** |
-| 3 | Title scoring, patterns, tags, trending, ideas | Planned |
+| 3 | Title scoring, patterns, tags, trending, ideas | **Done and tested live** |
 | 4 | API + dashboard | Planned |
 | 5 | Own-channel OAuth, update agents/skills | Planned |
 

@@ -25,7 +25,15 @@ function usage() {
   console.log('\nExample: brimlo-research keyword_research "incremental game" --limit 10 --estimate_only');
 }
 
-const coerce = (v: unknown) => (v === "true" ? true : v === "false" ? false : typeof v === "string" && v !== "" && !isNaN(Number(v)) ? Number(v) : v);
+const coerce = (v: unknown) => {
+  if (typeof v === "string" && /^[[{]/.test(v)) {
+    try {
+      return JSON.parse(v);
+    } catch {}
+  }
+  return coerceScalar(v);
+};
+const coerceScalar = (v: unknown) => (v === "true" ? true : v === "false" ? false : typeof v === "string" && v !== "" && !isNaN(Number(v)) ? Number(v) : v);
 
 const tool = tools.find((t) => t.name === cmd?.replace(/-/g, "_"));
 if (!tool) {
