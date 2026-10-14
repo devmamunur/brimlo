@@ -13,3 +13,6 @@ export { runAuthFlow, oauthConnected, oauthConfigured, startAuth, finishAuth, di
 export { getSetting, setSetting } from "./settings.ts";
 export { redditConfigured, redditCreds, saveRedditClient, removeRedditClient } from "./providers/reddit.ts";
 export { STEAM_TAGS } from "./providers/steam.ts";
+export { runDaily, lastRuns, ranToday, dailyPlan, DEFAULT_DAILY_BUDGET } from "./features/daily.ts";
+export { listWatch, addWatch, removeWatch } from "./features/watchlist.ts";
+export { listBackups, backupNow } from "./features/backup.ts";

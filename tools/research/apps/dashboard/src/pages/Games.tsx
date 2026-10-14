@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Bookmark, CalendarClock, Check, CircleX, ExternalLink, Gamepad2, Globe, MessagesSquare, Monitor, Newspaper, Quote, Rocket, Search, Sparkles, ThumbsDown, ThumbsUp, TrendingUp, UsersRound } from "lucide-react";
 import { Area, AreaChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { compact, n, post, runTool } from "../api";
+import { WatchButton } from "../automation";
 import { Badge, Btn, Card, ChartTip, cx, Empty, ErrorBox, Field, Input, Loading, PageTitle, Stat, useSettings, useToast, VideoLink, Warnings } from "../ui";
 
 const KINDS = [["new", "New releases"], ["demos", "Demos"], ["coming_soon", "Coming soon"], ["popular_new", "Popular new"], ["top_rated", "Top rated"]] as const;
@@ -165,6 +166,7 @@ function GameCard({ env }: { env: any }) {
             </div>
             <div className="mt-5 flex flex-wrap gap-2">
               <Btn variant="primary" icon={Bookmark} loading={save.isPending} onClick={() => save.mutate()}>Save as idea</Btn>
+              <WatchButton kind="game" value={String(g.appid)} label={g.name} />
               <a href={`#/keywords?q=${encodeURIComponent(g.name)}`} className="inline-flex min-h-11 items-center gap-2 rounded-xl bg-white/[0.05] px-4 font-medium text-ink no-underline ring-1 ring-inset ring-white/10 hover:bg-white/[0.09]"><Sparkles className="size-4" aria-hidden />YouTube research</a>
               {[["Steam", g.links.steam], ["SteamDB", g.links.steamdb], ["ProtonDB", g.links.protondb]].map(([l, u]) => <a key={l} href={u} target="_blank" rel="noreferrer noopener" className="inline-flex min-h-11 items-center gap-1.5 rounded-xl px-3 text-sm font-medium no-underline hover:bg-white/[0.05]">{l}<ExternalLink className="size-3.5" aria-hidden /></a>)}
             </div>

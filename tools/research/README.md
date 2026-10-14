@@ -88,6 +88,10 @@ Free limit: **10,000 units per day**, reset at midnight Pacific time.
 | `itch_new` | Newest / top-rated itch.io games for a tag | 0 |
 | `reddit_search` | Reddit posts and mood (official API, optional key) | 0 |
 | `web_fetch` | Read one public page as clean text (obeys robots.txt) | 0 |
+| `daily_update` | Run the daily update now (or `dry_run` to see the plan) | ~36 + 102 per due keyword |
+| `watch_add` / `watch_remove` / `watch_list` | Watch a keyword (refreshed weekly) or a Steam game (daily) | 0 |
+| `health_check` | Test every data source and page parser | ~1 |
+| `backup_now` | Copy the database to `data/backups` (keeps 10) | 0 |
 
 Examples:
 
@@ -102,6 +106,27 @@ pnpm research:demo "idle mining game"    # full session through the MCP server
 
 Tip: `pnpm` can break arguments that contain an apostrophe. For those, run `node_modules/.bin/tsx packages/cli/src/index.ts <command> ...` directly.
 
+## Automation (daily update)
+
+While the dashboard API is running (`pnpm research:dev` or `pnpm research:api`), the **daily update** runs once a day at the hour you pick (default 9:00 AM, this computer's time):
+
+1. Your channel (subs, views, uploads; watch hours if Google is connected) — 3 units
+2. Competitors: new uploads and outliers — about 3 units per channel
+3. Watched Steam games: players, reviews, price — free
+4. Watched keywords, once a week each — about 102 units each
+5. Source health check — free
+6. Backup of the database (newest 10 kept in `data/backups`)
+
+- **Budget:** never more than 300 units a day (change it in Settings → Automation). Steps that do not fit are skipped and the run is marked "partial".
+- **Highlights** list only *new* things (a competitor outlier is shown the first day it appears, a game with +10% reviews, a keyword whose opportunity moved 10+ points).
+- Turn it off in Settings → Automation. Run it now with the **Run now** button, `daily_update` in Claude, or the CLI.
+- **Always-on option** (runs even when the dashboard is closed, while the computer is on): add a cron line with `crontab -e`:
+  ```
+  15 9 * * * cd /home/devmamun/www/brimlo/tools/research && node_modules/.bin/tsx packages/cli/src/index.ts daily_update --trigger cli >> data/daily.log 2>&1
+  ```
+  It is safe to have both: the update runs only once per day.
+- **Restore a backup:** stop the dashboard and Claude Code, then copy a file from `data/backups/` over `data/brimlo.sqlite`.
+
 ## Research outside YouTube
 
 | Source | How | Rules we follow |
@@ -112,10 +137,12 @@ Tip: `pnpm` can break arguments that contain an apostrophe. For those, run `node
 | itch.io | RSS feeds | Allowed; itch's `/search` is disallowed, so we never use it |
 | Reddit | **Official API only** (free app key, Settings → Reddit) | Reddit's robots.txt forbids scraping. Without a key the tool just says "not connected" |
 | ProtonDB | **Not fetched**: link only | Its robots.txt blocks AI assistants, so we respect that |
-| Any page | `web_fetch`: Readability text extraction | Obeys robots.txt, blocks local/private addresses, rate-limited, cached 24 h |
+| Any page | `web_fetch`: Readability text extraction | Obeys robots.txt on every redirect hop, blocks local/private addresses (also after redirects), 3 MB cap, rate-limited, cached 24 h |
 | JavaScript pages | `playwright` MCP (in `.mcp.json`, Chrome headless, blocked from the local dashboard/API) | Use for pages `web_fetch` cannot read |
 
 The dashboard **Games** page shows all of this: Discover (new demos/releases by tag, Mac and price filters, "no YouTube yet" badge) and Check a game (rule checks, review sentiment, Reddit, news, players trend).
+
+The pause between requests to one site is shared by the dashboard and Claude (stored in the database), so using both at once does not double the rate.
 
 Sentiment is a small game-review word list with negation plus theme keywords (grind, bugs, price, satisfying progression…). It is an estimate: read the quotes.
 

@@ -77,3 +77,14 @@ describe("api: Google connection", () => {
     expect(denied.headers.location).toContain("access_denied");
   });
 });
+
+describe("api: automation", () => {
+  it("reads and updates automation settings, rejects bad input with 400", async () => {
+    const a = (await app.inject({ url: "/api/automation", headers: H })).json();
+    expect(a).toMatchObject({ auto_daily: true, daily_hour: 9, budget_units: 300 });
+    expect(a.plan.steps).toHaveLength(6);
+    const b = (await app.inject({ method: "PATCH", url: "/api/automation", headers: H, payload: { auto_daily: false, daily_hour: 20, budget_units: 150 } })).json();
+    expect(b).toMatchObject({ auto_daily: false, daily_hour: 20, budget_units: 150 });
+    expect((await app.inject({ method: "PATCH", url: "/api/automation", headers: H, payload: { daily_hour: 30 } })).statusCode).toBe(400);
+  });
+});

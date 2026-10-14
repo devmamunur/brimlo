@@ -57,3 +57,14 @@ CREATE TABLE IF NOT EXISTS steam_snapshots (
   appid INTEGER NOT NULL, taken_at TEXT NOT NULL, players INTEGER, reviews_total INTEGER,
   positive_pct REAL, owners TEXT, price_cents INTEGER, PRIMARY KEY (appid, taken_at)
 );
+CREATE TABLE IF NOT EXISTS watchlist (
+  kind TEXT NOT NULL CHECK (kind IN ('keyword', 'game')), value TEXT NOT NULL, label TEXT, added_at TEXT NOT NULL,
+  PRIMARY KEY (kind, value)
+);
+CREATE TABLE IF NOT EXISTS job_runs (
+  id INTEGER PRIMARY KEY AUTOINCREMENT, job TEXT NOT NULL, started_at TEXT NOT NULL, finished_at TEXT,
+  status TEXT NOT NULL, units INTEGER NOT NULL DEFAULT 0, trigger TEXT, report TEXT
+);
+CREATE TABLE IF NOT EXISTS http_gate (
+  host TEXT PRIMARY KEY, next_ms INTEGER NOT NULL
+);

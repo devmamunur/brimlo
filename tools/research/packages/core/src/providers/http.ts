@@ -1,5 +1,6 @@
 import { lookup } from "node:dns/promises";
 import net from "node:net";
+import { getDb } from "../db/client.ts";
 
 /**
  * Polite HTTP for research sources:
@@ -124,12 +125,33 @@ export interface PoliteOptions extends RequestInit {
   maxBytes?: number;
 }
 
+/**
+ * Reserve the next request slot for a host. The slot lives in the shared SQLite file, so the dashboard API and
+ * Claude's MCP server (two processes) take turns instead of each sending at full speed.
+ */
 async function waitTurn(host: string) {
   const override = process.env.BRIMLO_HTTP_GAP_MS;
   const gap = override !== undefined ? Number(override) : (GAP_MS[host] ?? 1000);
-  const wait = (lastHit.get(host) ?? 0) + gap - Date.now();
-  if (wait > 0) await sleep(wait);
-  lastHit.set(host, Date.now());
+  if (gap <= 0) return;
+  let at = Date.now();
+  try {
+    const db = getDb();
+    db.exec("BEGIN IMMEDIATE");
+    try {
+      const row = db.prepare("SELECT next_ms FROM http_gate WHERE host = ?").get(host) as { next_ms: number } | undefined;
+      at = Math.max(Date.now(), row?.next_ms ?? 0);
+      db.prepare("INSERT INTO http_gate (host, next_ms) VALUES (?, ?) ON CONFLICT(host) DO UPDATE SET next_ms = excluded.next_ms").run(host, at + gap);
+      db.exec("COMMIT");
+    } catch (e) {
+      db.exec("ROLLBACK");
+      throw e;
+    }
+  } catch {
+    // database busy or unavailable: fall back to this process only
+    at = Math.max(Date.now(), (lastHit.get(host) ?? 0) + gap);
+  }
+  lastHit.set(host, at);
+  if (at > Date.now()) await sleep(at - Date.now());
 }
 
 /**

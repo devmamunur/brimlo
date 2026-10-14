@@ -6,6 +6,7 @@ import {
   competitorsList, deleteIdea, exportTable, exportTables, IDEA_STATUSES, keywordDetail, listIdeas, listKeywords,
   outliersFromDb, overview, recentSearches, saveIdea, settingsInfo, tools, updateIdea, videoDetail, config, type ExportTable,
   startAuth, finishAuth, disconnect, saveClient, removeClient, oauthSummary, saveRedditClient, removeRedditClient,
+  getSetting, setSetting, lastRuns, dailyPlan, DEFAULT_DAILY_BUDGET, listWatch, listBackups,
 } from "@brimlo/core";
 import Fastify from "fastify";
 import { z } from "zod";
@@ -28,7 +29,10 @@ export function createServer() {
     }
   });
 
-  app.setErrorHandler((err: any, _req, reply) => reply.code(err.statusCode && err.statusCode < 500 ? err.statusCode : 500).send({ error: err.message ?? String(err) }));
+  app.setErrorHandler((err: any, _req, reply) => {
+    if (err instanceof z.ZodError) return reply.code(400).send({ error: err.issues.map((i) => `${i.path.join(".")}: ${i.message}`).join("; ") });
+    return reply.code(err.statusCode && err.statusCode < 500 ? err.statusCode : 500).send({ error: err.message ?? String(err) });
+  });
 
   app.get("/api/health", async () => ({ ok: true, mode: config().demo ? "demo" : "live" }));
   app.get("/api/overview", async () => overview());
@@ -117,7 +121,31 @@ export function createServer() {
   });
   app.delete("/api/reddit/client", async () => (removeRedditClient(), { configured: false }));
 
-  // ----- export -----
+  // ----- automation -----
+  const automation = () => {
+    const budget = Number(getSetting("daily_budget")) || DEFAULT_DAILY_BUDGET;
+    const health = getSetting("health_last");
+    return {
+      auto_daily: getSetting("auto_daily") !== "off",
+      daily_hour: Number(getSetting("daily_hour") ?? 9),
+      budget_units: budget,
+      plan: dailyPlan(budget),
+      runs: lastRuns(10),
+      watchlist: listWatch(),
+      backups: listBackups().slice(0, 10),
+      health_last: health ? JSON.parse(health) : null,
+    };
+  };
+  app.get("/api/automation", async () => automation());
+  app.patch("/api/automation", async (req) => {
+    const b = z.object({ auto_daily: z.boolean().optional(), daily_hour: z.number().int().min(0).max(23).optional(), budget_units: z.number().int().min(10).max(3000).optional() }).parse(req.body);
+    if (b.auto_daily !== undefined) setSetting("auto_daily", b.auto_daily ? "on" : "off");
+    if (b.daily_hour !== undefined) setSetting("daily_hour", String(b.daily_hour));
+    if (b.budget_units !== undefined) setSetting("daily_budget", String(b.budget_units));
+    return automation();
+  });
+
+    // ----- export -----
   app.get<{ Querystring: { table?: string; format?: string } }>("/api/export", async (req, reply) => {
     const table = req.query.table as ExportTable;
     if (!exportTables.includes(table)) return reply.code(400).send({ error: `table must be one of: ${exportTables.join(", ")}` });

@@ -25,6 +25,9 @@ export const n = (x: number | null | undefined) => (x === null || x === undefine
 export const compact = (x: number | null | undefined) => (x === null || x === undefined ? "–" : new Intl.NumberFormat("en-US", { notation: "compact", maximumFractionDigits: 1 }).format(x));
 export const ago = (iso: string | null | undefined) => {
   if (!iso) return "never";
-  const d = (Date.now() - Date.parse(iso)) / 86400000;
-  return d < 1 ? `${Math.max(1, Math.round(d * 24))}h ago` : `${Math.round(d)}d ago`;
+  const min = (Date.now() - Date.parse(iso)) / 60000;
+  if (min < 1) return "just now";
+  if (min < 60) return `${Math.round(min)}m ago`;
+  if (min < 24 * 60) return `${Math.round(min / 60)}h ago`;
+  return `${Math.round(min / 1440)}d ago`;
 };

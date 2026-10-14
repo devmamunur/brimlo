@@ -2,6 +2,7 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useEffect, useState } from "react";
 import { CircleCheck, Download, MessagesSquare, ExternalLink, KeyRound, LogIn, MonitorPlay, RefreshCw, RotateCcw, Save, Settings as SettingsIcon, ShieldCheck, Unlink, Wrench } from "lucide-react";
 import { api, compact, post, runTool } from "../api";
+import { AutomationSettings } from "../automation";
 import { Badge, Btn, Card, CostButton, ErrorBox, Field, Input, Loading, PageTitle, Progress, useToast, useToolToast, Warnings } from "../ui";
 
 const TABLES = ["videos", "channels", "keywords", "competitors", "ideas", "searches", "quota"] as const;
@@ -132,6 +133,9 @@ export function Settings() {
           )}
           <p className="mt-4 text-sm text-muted">Impressions and CTR are not in any YouTube API. Read them in YouTube Studio.</p>
         </Card>
+
+        {/* ---------- automation, watchlist, health, backups ---------- */}
+        <AutomationSettings />
 
         {/* ---------- reddit ---------- */}
         <Card title="Reddit" subtitle="Optional · community posts and mood (official API only)" icon={MessagesSquare} right={s.reddit.configured ? <Badge tone="teal" dot>connected</Badge> : <Badge dot>not set up</Badge>} className="lg:col-span-2">

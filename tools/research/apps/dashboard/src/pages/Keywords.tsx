@@ -3,6 +3,7 @@ import { useState } from "react";
 import { History, ListVideo, Search, Sparkles } from "lucide-react";
 import { CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { api, ago, compact, n, runTool } from "../api";
+import { WatchButton } from "../automation";
 import { Badge, Card, ChartTip, CostButton, cx, DataTable, Empty, ErrorBox, Input, Loading, PageTitle, Ring, useToolToast, VideoLink, Warnings } from "../ui";
 
 const label = (s: number) => (s < 34 ? "low" : s < 67 ? "medium" : "high");
@@ -74,7 +75,7 @@ function Detail({ id }: { id: number }) {
   const opp = Math.round(last.opportunity);
   return (
     <div className="space-y-5">
-      <Card title={<>“{d.keyword.query}”</>} subtitle="Estimates from the top 50 search results, not real search volume" right={d.source === "demo" ? <Badge tone="bad" dot>demo data</Badge> : <Badge tone="teal" dot>live</Badge>}>
+      <Card title={<>“{d.keyword.query}”</>} subtitle="Estimates from the top 50 search results, not real search volume" right={<div className="flex items-center gap-2">{d.source === "demo" ? <Badge tone="bad" dot>demo data</Badge> : <Badge tone="teal" dot>live</Badge>}<WatchButton kind="keyword" value={d.keyword.query} /></div>}>
         <div className="grid gap-4 sm:grid-cols-2">
           {[
             ["Competition", comp, "higher = harder", label(comp)],

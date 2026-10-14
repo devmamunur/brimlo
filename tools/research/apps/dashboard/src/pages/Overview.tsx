@@ -2,6 +2,7 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { Activity, Clock, Database, Flame, Gauge, LayoutDashboard, Lightbulb, RefreshCw, Search, Target, TrendingUp, Users } from "lucide-react";
 import { Area, AreaChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { api, ago, compact, n, runTool } from "../api";
+import { DailyCard } from "../automation";
 import { Badge, Card, ChartTip, CostButton, DataTable, Empty, ErrorBox, Loading, PageTitle, Progress, Ring, Stat, Thumb, useToolToast, VideoLink, Warnings } from "../ui";
 
 export function Overview() {
@@ -79,6 +80,8 @@ export function Overview() {
           )}
         </Card>
       </div>
+
+      <div className="mt-5"><DailyCard /></div>
 
       <Card className="mt-5" title="New outliers · last 30 days" subtitle="Videos ≥ 5× their channel's normal views" icon={Flame} right={<a href="#/outliers" className="text-sm font-medium no-underline hover:underline">See all →</a>}>
         <DataTable

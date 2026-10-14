@@ -71,3 +71,8 @@ export async function redditSearch(q: string, o: { subreddit?: string; sort?: st
     text: String(d.selftext ?? "").slice(0, 600),
   }));
 }
+
+/** Health check: can we log in? */
+export async function redditPing(): Promise<void> {
+  await accessToken();
+}

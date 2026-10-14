@@ -11,6 +11,10 @@ import { trending, trendingInput } from "./features/trending.ts";
 import { itchNew, itchNewInput, redditSearchInput, redditSearchTool } from "./features/community.ts";
 import { steamDiscover, steamDiscoverInput, steamGame, steamGameInput, steamReviews, steamReviewsInput } from "./features/steam.ts";
 import { webFetch, webFetchInput } from "./features/web.ts";
+import { backup, backupInput } from "./features/backup.ts";
+import { dailyInput, runDaily } from "./features/daily.ts";
+import { healthCheck, healthInput } from "./features/health.ts";
+import { watchAdd, watchAddInput, watchList, watchListInput, watchRemove, watchRemoveInput } from "./features/watchlist.ts";
 import { outliers, outliersInput } from "./features/outliers.ts";
 import { similarChannels, similarChannelsInput, similarVideos, similarVideosInput } from "./features/similar.ts";
 import { videoComments, videoCommentsInput, videoStats, videoStatsInput, videoTags, videoTagsInput, videoTranscript, videoTranscriptInput } from "./features/videos.ts";
@@ -217,5 +221,18 @@ export const tools: ToolDef[] = [
     schema: webFetchInput,
     run: webFetch,
   },
+  // ---------- automation ----------
+  {
+    name: "daily_update",
+    title: "Daily update",
+    description: "Run the daily update now: your channel, competitors, watched games (free), watched keywords (weekly), source health, backup. Capped by a unit budget (default 300). dry_run shows the plan. Usually runs by itself while the dashboard API is running.",
+    schema: dailyInput,
+    run: runDaily,
+  },
+  { name: "watch_add", title: "Watch keyword/game", description: "Track a keyword (refreshed weekly by the daily update, ~102 units) or a Steam game (daily, free) so its history builds by itself.", primary: "value", schema: watchAddInput, run: watchAdd },
+  { name: "watch_remove", title: "Stop watching", description: "Remove a keyword or game from the watchlist. Free.", primary: "value", schema: watchRemoveInput, run: watchRemove },
+  { name: "watch_list", title: "Watchlist", description: "Watched keywords and games. Free.", schema: watchListInput, run: watchList },
+  { name: "health_check", title: "Source health", description: "Test every data source (YouTube autocomplete + API, Steam store/search parser/reviews/players, SteamSpy, itch.io, Reddit, Google, yt-dlp) and report what is broken. ~1 unit.", schema: healthInput, run: healthCheck },
+  { name: "backup_now", title: "Backup database", description: "Save a consistent copy of the research database to data/backups (keeps the newest 10). Free.", schema: backupInput, run: backup },
   quotaTool,
 ];

@@ -69,6 +69,7 @@ Full details: [channel/profile.md](channel/profile.md), [channel/strategy.md](ch
 ## Agents (in `.claude/agents/`)
 
 - **game-scout** — finds new Steam incremental demos, playtests and launches; checks Mac/CrossOver; returns a ranked shortlist. Uses the free `brimlo_steam_*` / `brimlo_itch_new` tools plus web search (no vidIQ credits, no YouTube quota).
+- **Daily update** (automatic while the dashboard runs): refreshes our channel, competitors, watched games/keywords, checks sources, backs up. Before analysis, read the latest run (`brimlo_daily_update` with `dry_run`, or Settings → Automation) instead of re-fetching. Use `brimlo_watch_add` when Mamunur wants something tracked over time.
 - **channel-analyst** — uses both the free `brimlo_*` research tools and vidIQ (until the subscription ends in November 2026), and cross-checks them. Must respect both budgets below.
 
 ## Rules you must follow
