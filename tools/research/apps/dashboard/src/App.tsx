@@ -1,8 +1,9 @@
 import { useQuery } from "@tanstack/react-query";
-import { Command, Flame, LayoutDashboard, Lightbulb, Menu, Search, Settings as SettingsIcon, Users, WandSparkles, X, type LucideIcon } from "lucide-react";
+import { Command, Flame, Gamepad2, LayoutDashboard, Lightbulb, Menu, Search, Settings as SettingsIcon, Users, WandSparkles, X, type LucideIcon } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { api, compact } from "./api";
 import { Competitors } from "./pages/Competitors";
+import { Games } from "./pages/Games";
 import { Ideas } from "./pages/Ideas";
 import { Keywords } from "./pages/Keywords";
 import { Outliers } from "./pages/Outliers";
@@ -17,6 +18,7 @@ const NAV: [string, string, LucideIcon][] = [
   ["keywords", "Keywords", Search],
   ["outliers", "Outliers", Flame],
   ["competitors", "Competitors", Users],
+  ["games", "Games", Gamepad2],
   ["titles", "Title Lab", WandSparkles],
   ["ideas", "Ideas", Lightbulb],
   ["settings", "Settings", SettingsIcon],
@@ -113,6 +115,7 @@ export function App() {
     root === "outliers" ? <Outliers /> :
     root === "competitors" ? <Competitors /> :
     root === "titles" ? <TitleLab /> :
+    root === "games" ? <Games key={arg ?? "d"} appid={arg} /> :
     root === "video" && arg ? <VideoDetail id={arg} /> :
     root === "ideas" ? <Ideas /> :
     root === "settings" ? <Settings /> :

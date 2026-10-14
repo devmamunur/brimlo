@@ -2,7 +2,24 @@
   "mcpServers": {
     "brimlo": {
       "command": "tools/research/node_modules/.bin/tsx",
-      "args": ["tools/research/packages/mcp/src/index.ts"]
+      "args": [
+        "tools/research/packages/mcp/src/index.ts"
+      ]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@0.0.83",
+        "--browser",
+        "chrome",
+        "--headless",
+        "--isolated",
+        "--blocked-origins",
+        "http://127.0.0.1:8787;http://localhost:8787;http://127.0.0.1:5173;http://localhost:5173",
+        "--output-dir",
+        "tools/research/data/playwright"
+      ]
     }
   }
 }

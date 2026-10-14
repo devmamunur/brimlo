@@ -1,6 +1,6 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useEffect, useState } from "react";
-import { CircleCheck, Download, ExternalLink, KeyRound, LogIn, MonitorPlay, RefreshCw, RotateCcw, Save, Settings as SettingsIcon, ShieldCheck, Unlink, Wrench } from "lucide-react";
+import { CircleCheck, Download, MessagesSquare, ExternalLink, KeyRound, LogIn, MonitorPlay, RefreshCw, RotateCcw, Save, Settings as SettingsIcon, ShieldCheck, Unlink, Wrench } from "lucide-react";
 import { api, compact, post, runTool } from "../api";
 import { Badge, Btn, Card, CostButton, ErrorBox, Field, Input, Loading, PageTitle, Progress, useToast, useToolToast, Warnings } from "../ui";
 
@@ -21,6 +21,8 @@ export function Settings() {
   const [channel, setChannel] = useState("");
   const [cid, setCid] = useState("");
   const [secret, setSecret] = useState("");
+  const [rid, setRid] = useState("");
+  const [rsecret, setRsecret] = useState("");
   const refreshAll = () => ["settings", "overview"].forEach((k) => qc.invalidateQueries({ queryKey: [k] }));
 
   // Result of the Google login (the API redirects back here with ?oauth=ok|error).
@@ -41,12 +43,15 @@ export function Settings() {
   const connect = useMutation({ mutationFn: () => post<{ url: string }>("/api/oauth/start", {}), onSuccess: ({ url }) => { location.href = url; } });
   const disconnect = useMutation({ mutationFn: () => post<any>("/api/oauth/disconnect", {}), onSuccess: (r) => { toast({ title: "Disconnected", body: r.revoked ? "Access was also revoked at Google." : "Tokens deleted here.", tone: "info" }); refreshAll(); } });
 
+  const saveReddit = useMutation({ mutationFn: () => post("/api/reddit/client", { client_id: rid, client_secret: rsecret }), onSuccess: () => { toast({ title: "Reddit app saved", body: "Try reddit_search, or Games → Check a game.", tone: "ok" }); setRid(""); setRsecret(""); refreshAll(); } });
+  const removeReddit = useMutation({ mutationFn: () => api("/api/reddit/client", { method: "DELETE" }), onSuccess: refreshAll });
+
   if (error) return <ErrorBox error={error} />;
   if (!s) return <Loading rows={4} />;
   const own = s.own_channel;
   const o = s.oauth;
   const row = (k: string, v: React.ReactNode) => <div className="flex flex-wrap items-center justify-between gap-2 border-b border-white/[0.06] py-3 last:border-0"><span className="text-ink2">{k}</span><span className="text-ink">{v}</span></div>;
-  const err = setMine.error ?? updateMine.error ?? saveClient.error ?? removeClient.error ?? connect.error ?? disconnect.error;
+  const err = setMine.error ?? updateMine.error ?? saveClient.error ?? removeClient.error ?? connect.error ?? disconnect.error ?? saveReddit.error ?? removeReddit.error;
 
   return (
     <>
@@ -126,6 +131,30 @@ export function Settings() {
             </div>
           )}
           <p className="mt-4 text-sm text-muted">Impressions and CTR are not in any YouTube API. Read them in YouTube Studio.</p>
+        </Card>
+
+        {/* ---------- reddit ---------- */}
+        <Card title="Reddit" subtitle="Optional · community posts and mood (official API only)" icon={MessagesSquare} right={s.reddit.configured ? <Badge tone="teal" dot>connected</Badge> : <Badge dot>not set up</Badge>} className="lg:col-span-2">
+          {s.reddit.configured ? (
+            <div className="flex flex-wrap items-center justify-between gap-3">
+              <p className="text-ink2">Reddit app saved ({s.reddit.source === "env" ? ".env" : "this computer"}). Claude can use <code className="text-gold">reddit_search</code>; the Games page shows posts about each game.</p>
+              {s.reddit.source === "dashboard" && <Btn variant="ghost" onClick={() => confirm("Remove the Reddit app?") && removeReddit.mutate()}>Remove</Btn>}
+            </div>
+          ) : (
+            <div className="grid gap-6 md:grid-cols-2">
+              <ol className="space-y-3 text-sm text-ink2">
+                <li className="flex gap-3"><span className="grid size-7 shrink-0 place-items-center rounded-full bg-gold/15 text-sm font-bold text-gold ring-1 ring-gold/25">1</span><div>Open <a href="https://www.reddit.com/prefs/apps" target="_blank" rel="noreferrer noopener">reddit.com/prefs/apps</a> → <b className="text-ink">create another app</b>.</div></li>
+                <li className="flex gap-3"><span className="grid size-7 shrink-0 place-items-center rounded-full bg-gold/15 text-sm font-bold text-gold ring-1 ring-gold/25">2</span><div>Type <b className="text-ink">script</b>. Redirect URI: <code>http://localhost:8080</code> (required by the form, not used).</div></li>
+                <li className="flex gap-3"><span className="grid size-7 shrink-0 place-items-center rounded-full bg-gold/15 text-sm font-bold text-gold ring-1 ring-gold/25">3</span><div>Copy the short code under the app name (client id) and the <b className="text-ink">secret</b>.</div></li>
+                <li className="text-muted">Free for personal, non-commercial use (about 100 requests/minute). Reddit may ask you to request API access first. Reddit does not allow scraping, so there is no workaround.</li>
+              </ol>
+              <form className="space-y-3" onSubmit={(e) => { e.preventDefault(); saveReddit.mutate(); }}>
+                <Field label="Client id"><Input value={rid} onChange={(e) => setRid(e.target.value)} placeholder="e.g. a1B2c3D4e5F6g7" autoComplete="off" spellCheck={false} /></Field>
+                <Field label="Secret"><Input type="password" value={rsecret} onChange={(e) => setRsecret(e.target.value)} autoComplete="off" /></Field>
+                <Btn variant="primary" type="submit" icon={KeyRound} loading={saveReddit.isPending} disabled={!rid.trim() || !rsecret.trim()}>Save Reddit app</Btn>
+              </form>
+            </div>
+          )}
         </Card>
 
         {/* ---------- data api ---------- */}

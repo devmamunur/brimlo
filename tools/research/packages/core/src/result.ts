@@ -21,3 +21,8 @@ export function formatEnvelope(env: Envelope): string {
     .filter(Boolean)
     .join("\n\n");
 }
+
+/** Envelope for sources that do not use YouTube quota. */
+export function localEnvelope<T>(data: T, summary: string, source: string, o: { cached?: boolean; fetchedAt?: string; warnings?: string[] } = {}): Envelope<T> {
+  return { data, summary, source, fetched_at: o.fetchedAt ?? new Date().toISOString(), cached: o.cached ?? false, quota_used: 0, warnings: o.warnings ?? [] };
+}

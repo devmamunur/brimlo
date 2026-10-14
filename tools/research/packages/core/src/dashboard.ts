@@ -6,6 +6,7 @@ import { getChannelRow, getVideoRow, getVideosByChannel } from "./db/repo.ts";
 import { listIdeas } from "./features/ideas.ts";
 import { outliersFromDb } from "./features/outliers.ts";
 import { clientCreds, oauthConnected } from "./providers/oauth.ts";
+import { redditCreds } from "./providers/reddit.ts";
 import { quotaStatus } from "./quota/guard.ts";
 import { viewsPerDay } from "./scoring/keyword.ts";
 
@@ -119,6 +120,7 @@ export function settingsInfo() {
     quota: quotaStatus(),
     own_channel: ownChannelSummary(),
     oauth: oauthSummary(),
+    reddit: { configured: Boolean(redditCreds().id && redditCreds().secret), source: redditCreds().source },
   };
 }
 

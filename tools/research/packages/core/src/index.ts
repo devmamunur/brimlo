@@ -11,3 +11,5 @@ export { competitorsList } from "./features/competitors.ts";
 export { ownChannel, ownChannelInput } from "./features/ownChannel.ts";
 export { runAuthFlow, oauthConnected, oauthConfigured, startAuth, finishAuth, disconnect, saveClient, removeClient } from "./providers/oauth.ts";
 export { getSetting, setSetting } from "./settings.ts";
+export { redditConfigured, redditCreds, saveRedditClient, removeRedditClient } from "./providers/reddit.ts";
+export { STEAM_TAGS } from "./providers/steam.ts";

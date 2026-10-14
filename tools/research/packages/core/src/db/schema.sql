@@ -50,3 +50,10 @@ CREATE TABLE IF NOT EXISTS own_channel_snapshots (
 CREATE TABLE IF NOT EXISTS settings (
   key TEXT PRIMARY KEY, value TEXT NOT NULL, updated_at TEXT NOT NULL
 );
+CREATE TABLE IF NOT EXISTS steam_apps (
+  appid INTEGER PRIMARY KEY, name TEXT NOT NULL, data TEXT NOT NULL, fetched_at TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS steam_snapshots (
+  appid INTEGER NOT NULL, taken_at TEXT NOT NULL, players INTEGER, reviews_total INTEGER,
+  positive_pct REAL, owners TEXT, price_cents INTEGER, PRIMARY KEY (appid, taken_at)
+);

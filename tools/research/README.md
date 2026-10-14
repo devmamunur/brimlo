@@ -1,6 +1,6 @@
 # Brimlo Research Tool
 
-Our own free vidIQ. It finds keywords, outlier videos, competitor uploads, title and tag ideas, and tracks the channel. Claude Code can use it directly (MCP), you can use it in the terminal (CLI), and you can look at the same data in a dashboard.
+Our own free vidIQ. It finds keywords, outlier videos, competitor uploads, title and tag ideas, and tracks the channel. It also researches **outside YouTube**: Steam games, demos and reviews, itch.io, Reddit (official API) and any web page (polite scraper). Claude Code can use it directly (MCP), you can use it in the terminal (CLI), and you can look at the same data in a dashboard.
 
 | Way | How |
 |---|---|
@@ -82,6 +82,12 @@ Free limit: **10,000 units per day**, reset at midnight Pacific time.
 | `ideas_list / idea_save / idea_update` | Saved ideas (idea → planned → recorded) | 0 |
 | `own_channel` | Your channel's subs, views, recent uploads, YPP progress; watch hours with Google connected | ~3 |
 | `own_channel_set` | Choose which channel is yours | ~1 |
+| `steam_game` | One game: price, Mac build, demo, reviews, players now, owner estimate, news, Brimlo rule checks, stored YouTube coverage | 0 |
+| `steam_discover` | New releases / demos / coming soon / popular new / top rated by niche tag; Mac and price filters | 0 |
+| `steam_reviews` | Review sentiment: % positive, praise and complaint themes, quotes | 0 |
+| `itch_new` | Newest / top-rated itch.io games for a tag | 0 |
+| `reddit_search` | Reddit posts and mood (official API, optional key) | 0 |
+| `web_fetch` | Read one public page as clean text (obeys robots.txt) | 0 |
 
 Examples:
 
@@ -95,6 +101,23 @@ pnpm research:demo "idle mining game"    # full session through the MCP server
 ```
 
 Tip: `pnpm` can break arguments that contain an apostrophe. For those, run `node_modules/.bin/tsx packages/cli/src/index.ts <command> ...` directly.
+
+## Research outside YouTube
+
+| Source | How | Rules we follow |
+|---|---|---|
+| Steam store + reviews | Store JSON and search pages, no key | Allowed by Steam's robots.txt. 1.2 s between requests, cached 6–12 h |
+| Steam players + news | Official Steam Web API (documented, keyless) | Only these two methods |
+| SteamSpy | Public API | Owner numbers are **rough ranges** |
+| itch.io | RSS feeds | Allowed; itch's `/search` is disallowed, so we never use it |
+| Reddit | **Official API only** (free app key, Settings → Reddit) | Reddit's robots.txt forbids scraping. Without a key the tool just says "not connected" |
+| ProtonDB | **Not fetched**: link only | Its robots.txt blocks AI assistants, so we respect that |
+| Any page | `web_fetch`: Readability text extraction | Obeys robots.txt, blocks local/private addresses, rate-limited, cached 24 h |
+| JavaScript pages | `playwright` MCP (in `.mcp.json`, Chrome headless, blocked from the local dashboard/API) | Use for pages `web_fetch` cannot read |
+
+The dashboard **Games** page shows all of this: Discover (new demos/releases by tag, Mac and price filters, "no YouTube yet" badge) and Check a game (rule checks, review sentiment, Reddit, news, players trend).
+
+Sentiment is a small game-review word list with negation plus theme keywords (grind, bugs, price, satisfying progression…). It is an estimate: read the quotes.
 
 ## How the scores work (all estimates)
 

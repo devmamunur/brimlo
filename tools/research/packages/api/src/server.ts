@@ -5,7 +5,7 @@ import fastifyStatic from "@fastify/static";
 import {
   competitorsList, deleteIdea, exportTable, exportTables, IDEA_STATUSES, keywordDetail, listIdeas, listKeywords,
   outliersFromDb, overview, recentSearches, saveIdea, settingsInfo, tools, updateIdea, videoDetail, config, type ExportTable,
-  startAuth, finishAuth, disconnect, saveClient, removeClient, oauthSummary,
+  startAuth, finishAuth, disconnect, saveClient, removeClient, oauthSummary, saveRedditClient, removeRedditClient,
 } from "@brimlo/core";
 import Fastify from "fastify";
 import { z } from "zod";
@@ -103,6 +103,19 @@ export function createServer() {
     }
   });
   app.post("/api/oauth/disconnect", async () => ({ ...(await disconnect()), ...oauthSummary() }));
+
+  // ----- Reddit (official API, optional) -----
+  app.post("/api/reddit/client", async (req, reply) => {
+    const b = z.object({ client_id: z.string(), client_secret: z.string() }).safeParse(req.body);
+    if (!b.success) return reply.code(400).send({ error: "client_id and client_secret are required." });
+    try {
+      saveRedditClient(b.data.client_id, b.data.client_secret);
+    } catch (e) {
+      return reply.code(400).send({ error: e instanceof Error ? e.message : String(e) });
+    }
+    return { configured: true };
+  });
+  app.delete("/api/reddit/client", async () => (removeRedditClient(), { configured: false }));
 
   // ----- export -----
   app.get<{ Querystring: { table?: string; format?: string } }>("/api/export", async (req, reply) => {
