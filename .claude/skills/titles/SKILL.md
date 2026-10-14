@@ -20,7 +20,7 @@ argument-hint: "[game name or title to review]"
 
 If he wants fresh shapes, run `brimlo_title_patterns` for the genre (about 102 units; say the cost and ask if the task total goes over 300). Use the shapes, never the exact words.
 
-## vidIQ (optional — costs credits, only if `brimlo_*` is not enough)
+## vidIQ (optional — costs credits; the subscription runs until November 2026, so a cross-check on the final 2–3 titles is fine)
 
 Only if he asks to score/check: call `vidiq_balance` (free) first, then say the cost (`vidiq_score_title` — check its description for the current cost) and ask before spending more than 10 credits. Never use generation tools that cost credits when you can write titles yourself.
 

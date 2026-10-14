@@ -132,7 +132,7 @@ Scopes are read-only. Tokens are saved in `data/oauth.json` (ignored by git, mod
 
 ## How Claude should use this
 
-- Use `brimlo_*` tools first. They are free. Use the vidIQ MCP only when these cannot answer. The vidIQ credit rule in `CLAUDE.md` is for vidIQ only.
+- Until the vidIQ subscription ends (November 2026) use **both**: `brimlo_*` for bulk work (free), vidIQ for its own scores and to cross-check key decisions. After that, `brimlo_*` is the main tool. The vidIQ credit rule in `CLAUDE.md` is for vidIQ only.
 - Start big jobs with `brimlo_quota_status`. Ask before spending more than 300 units in one task.
 - Read `source`. `demo` means fake numbers: never use them for decisions.
 - Say that scores are estimates.

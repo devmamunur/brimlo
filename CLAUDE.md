@@ -69,14 +69,14 @@ Full details: [channel/profile.md](channel/profile.md), [channel/strategy.md](ch
 ## Agents (in `.claude/agents/`)
 
 - **game-scout** — finds new Steam incremental demos, playtests and launches; checks Mac/CrossOver; returns a ranked shortlist. Uses web search only (no vidIQ credits).
-- **channel-analyst** — uses the free `brimlo_*` research tools first, and vidIQ only for what they cannot do. Must respect both budgets below.
+- **channel-analyst** — uses both the free `brimlo_*` research tools and vidIQ (until the subscription ends in November 2026), and cross-checks them. Must respect both budgets below.
 
 ## Rules you must follow
 
 1. **Keep the log true.** After any change to a video's status (planned → recorded → scheduled → published), update `videos/log.md`, the video's file, and `plan/calendar.md`. Update `games/backlog.md` when a game is used.
-2. **Research tools: use `brimlo_*` first.** They are free (our own tool, YouTube Data API). Use the vidIQ MCP only when `brimlo_*` cannot answer. Two separate budgets:
+2. **Research tools: use BOTH `brimlo_*` and vidIQ while the vidIQ subscription lasts (until November 2026; check the exact end date in vidIQ billing).** `brimlo_*` is free and has no credits, so use it for the bulk work (scans, competitor refresh, title scoring, ideas). Use vidIQ for what it does better (its own scores, search-volume style keyword data, outlier score, thumbnail/title scores) and to **cross-check** important decisions (a game pick, a keyword, a title). After the subscription ends, `brimlo_*` becomes the main tool. Two separate budgets:
    - **`brimlo_*` quota:** 10,000 API units per day; a search costs 100, most other calls 1–3. Call `brimlo_quota_status` before big jobs and `estimate_only` where a tool has it. **Say the cost and ask before spending more than 300 units in one task.** The tool stops itself at 90%. Check `source`: if it says `demo`, the numbers are fake — never use them.
-   - **vidIQ credits (vidIQ only):** Free plan + small add-on pool. Check `vidiq_balance` (free) before paid calls. **Say the cost and ask before spending more than 10 credits in one task.** Most calls cost 5. Prefer web search when it can answer.
+   - **vidIQ credits (vidIQ only):** Paid plan until November 2026, but credits are still limited. Check `vidiq_balance` (free) before paid calls. **Say the cost and ask before spending more than 10 credits in one task.** Most calls cost 5. Prefer web search when it can answer.
    - The `brimlo_*` scores (competition, opportunity, outlier ×, title score) are **estimates** — say so when you report them.
 3. **Never suggest tagging or naming other creators** in titles, tags or descriptions.
 4. **No multi-part series** of one game. One game, one video. (A demo video now + a "100% full release" video later is fine.)
