@@ -91,5 +91,5 @@ When a session starts with a general request ("what should I do today?", "what's
 
 ## Known setup gaps
 
-- vidIQ is connected in Claude Code, but the YouTube channel (ID `UCNwyRD0Zs878saYiRu6vxNw`) is **not directly authorized** for `vidiq_user_videos` / analytics. Fix: run `vidiq_connect_youtube_channel` / `vidiq_authorize_with_youtube` once, then own-channel stats can be pulled.
+- vidIQ is connected in Claude Code, but the YouTube channel (ID `UCXf8abbaSiOThD3YhX8nGjQ`) is **not directly authorized** for `vidiq_user_videos` / analytics. Fix: run `vidiq_connect_youtube_channel` / `vidiq_authorize_with_youtube` once, then own-channel stats can be pulled.
 - Titles of already-published videos must be filled in by hand in `videos/log.md` until then.

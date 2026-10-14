@@ -102,7 +102,14 @@ export const youtubeApi: YouTubeProvider = {
     while (ids.length < max) {
       const params: Record<string, string> = { part: "contentDetails", playlistId, maxResults: String(Math.min(50, max - ids.length)) };
       if (pageToken) params.pageToken = pageToken;
-      const body = await call("playlistItems", params);
+      let body: any;
+      try {
+        body = await call("playlistItems", params);
+      } catch (e) {
+        // A channel with no public uploads has no uploads playlist yet.
+        if (e instanceof Error && /playlistNotFound/.test(e.message)) return ids;
+        throw e;
+      }
       for (const i of body.items ?? []) if (i.contentDetails?.videoId) ids.push(i.contentDetails.videoId);
       pageToken = body.nextPageToken;
       if (!pageToken) break;

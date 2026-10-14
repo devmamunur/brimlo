@@ -1,5 +1,5 @@
 #!/usr/bin/env tsx
-import { formatEnvelope, tools } from "@brimlo/core";
+import { formatEnvelope, runAuthFlow, tools } from "@brimlo/core";
 
 /** `--flag`, `--flag value`, `--flag=value`. Anything else is positional. */
 function parseCli(argv: string[]) {
@@ -22,6 +22,7 @@ const wantJson = values.json === true || values.json === "true";
 function usage() {
   console.log("Usage: brimlo-research <command> [main-arg] [--flag value] [--json]\n\nCommands:");
   for (const t of tools) console.log(`  ${t.name.padEnd(18)} ${t.description.split(". ")[0]}`);
+  console.log("  auth               Connect your Google account (optional, for watch hours)");
   console.log('\nExample: brimlo-research keyword_research "incremental game" --limit 10 --estimate_only');
 }
 
@@ -34,6 +35,17 @@ const coerce = (v: unknown) => {
   return coerceScalar(v);
 };
 const coerceScalar = (v: unknown) => (v === "true" ? true : v === "false" ? false : typeof v === "string" && v !== "" && !isNaN(Number(v)) ? Number(v) : v);
+
+if (cmd === "auth") {
+  try {
+    await runAuthFlow(console.log);
+    console.log("\nConnected. Tokens saved in tools/research/data/oauth.json. Now run: pnpm research:cli own_channel");
+    process.exit(0);
+  } catch (e) {
+    console.error(`Error: ${e instanceof Error ? e.message : e}`);
+    process.exit(1);
+  }
+}
 
 const tool = tools.find((t) => t.name === cmd?.replace(/-/g, "_"));
 if (!tool) {

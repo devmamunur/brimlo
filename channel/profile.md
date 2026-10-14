@@ -8,7 +8,7 @@ Last updated: 13 Oct 2026
 |---|---|
 | Channel name | **Brimlo** |
 | Handle | **@BrimloIdle** |
-| Channel ID | UCNwyRD0Zs878saYiRu6vxNw |
+| Channel ID | UCXf8abbaSiOThD3YhX8nGjQ |
 | Old name (before Oct 2026) | Idle Ascent (@IdleAscent) — do not use |
 | Tagline | "where the numbers only go up." |
 | Category | Gaming |

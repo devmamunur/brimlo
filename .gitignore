@@ -4,3 +4,4 @@ tools/research/data/*.sqlite*
 tools/research/data/exports/
 .DS_Store
 .venv/
+tools/research/apps/dashboard/dist/

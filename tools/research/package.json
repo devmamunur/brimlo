@@ -11,7 +11,9 @@
     "research:mcp": "tsx packages/mcp/src/index.ts",
     "test": "vitest run",
     "typecheck": "tsc --noEmit -p tsconfig.json",
-    "research:seed": "tsx packages/cli/src/index.ts competitors_seed"
+    "research:seed": "tsx packages/cli/src/index.ts competitors_seed",
+    "research:api": "tsx packages/api/src/index.ts",
+    "research:dev": "node scripts/dev.mjs"
   },
   "devDependencies": {
     "@types/node": "^26.6.5",

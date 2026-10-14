@@ -1,0 +1,30 @@
+export async function api<T = any>(path: string, init?: RequestInit): Promise<T> {
+  const r = await fetch(path, init);
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error((j as any).error ?? r.statusText);
+  return j as T;
+}
+
+export interface Envelope<T = any> {
+  data: T;
+  summary: string;
+  source: string;
+  fetched_at: string;
+  cached: boolean;
+  quota_used: number;
+  warnings: string[];
+}
+
+export const runTool = <T = any>(name: string, input: Record<string, unknown> = {}) =>
+  api<Envelope<T>>(`/api/tools/${name}`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(input) });
+
+export const post = <T = any>(path: string, body: unknown, method = "POST") =>
+  api<T>(path, { method, headers: { "content-type": "application/json" }, body: JSON.stringify(body) });
+
+export const n = (x: number | null | undefined) => (x === null || x === undefined ? "–" : Math.round(x).toLocaleString("en-US"));
+export const compact = (x: number | null | undefined) => (x === null || x === undefined ? "–" : new Intl.NumberFormat("en-US", { notation: "compact", maximumFractionDigits: 1 }).format(x));
+export const ago = (iso: string | null | undefined) => {
+  if (!iso) return "never";
+  const d = (Date.now() - Date.parse(iso)) / 86400000;
+  return d < 1 ? `${Math.max(1, Math.round(d * 24))}h ago` : `${Math.round(d)}d ago`;
+};

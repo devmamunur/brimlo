@@ -19,8 +19,8 @@ describe("parsing", () => {
   it("channel refs", () => {
     expect(parseChannelRef("@CGGrows")).toEqual({ handle: "@CGGrows" });
     expect(parseChannelRef("https://www.youtube.com/@cggrows")).toEqual({ handle: "@cggrows" });
-    expect(parseChannelRef("UCNwyRD0Zs878saYiRu6vxNw")).toEqual({ id: "UCNwyRD0Zs878saYiRu6vxNw" });
-    expect(parseChannelRef("https://www.youtube.com/channel/UCNwyRD0Zs878saYiRu6vxNw")).toEqual({ id: "UCNwyRD0Zs878saYiRu6vxNw" });
+    expect(parseChannelRef("UCXf8abbaSiOThD3YhX8nGjQ")).toEqual({ id: "UCXf8abbaSiOThD3YhX8nGjQ" });
+    expect(parseChannelRef("https://www.youtube.com/channel/UCXf8abbaSiOThD3YhX8nGjQ")).toEqual({ id: "UCXf8abbaSiOThD3YhX8nGjQ" });
     expect(parseChannelRef("cggrows")).toEqual({ handle: "@cggrows" });
   });
   it("video ids", () => {
