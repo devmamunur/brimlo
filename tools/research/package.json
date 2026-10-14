@@ -15,7 +15,8 @@
     "research:api": "tsx packages/api/src/index.ts",
     "research:dev": "node scripts/dev.mjs",
     "research:demo": "tsx packages/mcp/src/demo.ts",
-    "research:build": "pnpm --filter @brimlo/dashboard build"
+    "research:build": "pnpm --filter @brimlo/dashboard build",
+    "research:update": "tsx packages/cli/src/index.ts daily_update --trigger cli"
   },
   "devDependencies": {
     "@types/node": "^26.6.5",

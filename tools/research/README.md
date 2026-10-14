@@ -108,7 +108,7 @@ Tip: `pnpm` can break arguments that contain an apostrophe. For those, run `node
 
 ## Automation (daily update)
 
-While the dashboard API is running (`pnpm research:dev` or `pnpm research:api`), the **daily update** runs once a day at the hour you pick (default 9:00 AM, this computer's time):
+The **daily update** refreshes everything in one go. If "Update by itself" is on (Settings → Automation), it runs the first time you open the dashboard each day, after the hour you pick (default 9:00 AM). Or press **Update data** in the top bar whenever you start research:
 
 1. Your channel (subs, views, uploads; watch hours if Google is connected) — 3 units
 2. Competitors: new uploads and outliers — about 3 units per channel
@@ -120,11 +120,8 @@ While the dashboard API is running (`pnpm research:dev` or `pnpm research:api`),
 - **Budget:** never more than 300 units a day (change it in Settings → Automation). Steps that do not fit are skipped and the run is marked "partial".
 - **Highlights** list only *new* things (a competitor outlier is shown the first day it appears, a game with +10% reviews, a keyword whose opportunity moved 10+ points).
 - Turn it off in Settings → Automation. Run it now with the **Run now** button, `daily_update` in Claude, or the CLI.
-- **Always-on option** (runs even when the dashboard is closed, while the computer is on): add a cron line with `crontab -e`:
-  ```
-  15 9 * * * cd /home/devmamun/www/brimlo/tools/research && node_modules/.bin/tsx packages/cli/src/index.ts daily_update --trigger cli >> data/daily.log 2>&1
-  ```
-  It is safe to have both: the update runs only once per day.
+- **Local use (no server, no cron needed):** press **Update data** in the top bar when you start research. It shows "Updated 2h ago" when today's data is fresh; a second click is needed before it spends units. Or run `pnpm research:update` in a terminal.
+- **Optional, only if you ever want it while the dashboard is closed:** a cron line (`crontab -e`): `15 9 * * * cd /home/devmamun/www/brimlo/tools/research && node_modules/.bin/tsx packages/cli/src/index.ts daily_update --trigger cli >> data/daily.log 2>&1`. It is safe together with the button: the update runs once per day unless you press Run again.
 - **Restore a backup:** stop the dashboard and Claude Code, then copy a file from `data/backups/` over `data/brimlo.sqlite`.
 
 ## Research outside YouTube

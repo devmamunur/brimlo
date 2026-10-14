@@ -11,6 +11,7 @@ import { Overview } from "./pages/Overview";
 import { Settings } from "./pages/Settings";
 import { TitleLab } from "./pages/TitleLab";
 import { VideoDetail } from "./pages/VideoDetail";
+import { UpdateDataButton } from "./automation";
 import { Badge, cx } from "./ui";
 
 const NAV: [string, string, LucideIcon][] = [
@@ -165,6 +166,7 @@ export function App() {
                 <kbd className="pointer-events-none absolute right-3 top-1/2 hidden -translate-y-1/2 items-center gap-0.5 rounded-md border border-white/10 bg-white/5 px-1.5 py-0.5 text-[11px] text-muted sm:flex"><Command className="size-3" />K</kbd>
               </div>
             </form>
+            <UpdateDataButton />
             {s && <QuotaPill q={s.quota} />}
           </div>
         </div>

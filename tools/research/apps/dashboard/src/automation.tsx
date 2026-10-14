@@ -1,9 +1,72 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import { Bot, CalendarSync, Check, CircleDashed, CircleX, DatabaseBackup, Eye, EyeOff, HeartPulse, Play, Trash2 } from "lucide-react";
+import { useState } from "react";
+import { Bot, CalendarSync, Check, CircleCheck, CircleDashed, CircleX, DatabaseBackup, Eye, EyeOff, HeartPulse, LoaderCircle, Play, RefreshCw, Trash2, Zap } from "lucide-react";
 import { api, ago, post, runTool } from "./api";
 import { Badge, Btn, Card, cx, Empty, ErrorBox, Field, Input, Loading, useToast, useToolToast } from "./ui";
 
-export const useAutomation = () => useQuery({ queryKey: ["automation"], queryFn: () => api<any>("/api/automation"), staleTime: 15_000 });
+export const useAutomation = () =>
+  useQuery({
+    queryKey: ["automation"],
+    queryFn: () => api<any>("/api/automation"),
+    staleTime: 15_000,
+    // poll fast while an update is running (also one started by the automatic schedule), slowly otherwise
+    refetchInterval: (q) => (q.state.data?.runs?.[0]?.status === "running" ? 4000 : 60_000),
+  });
+
+const sameLocalDay = (iso: string) => new Date(iso).toDateString() === new Date().toDateString();
+
+/**
+ * Top-bar button: shows if today's data is fresh, and updates everything with one click.
+ * Asks for a second click before spending YouTube units (not in demo mode).
+ */
+export function UpdateDataButton() {
+  const qc = useQueryClient();
+  const toast = useToolToast();
+  const plainToast = useToast();
+  const { data: a } = useAutomation();
+  const { data: s } = useQuery({ queryKey: ["settings"], queryFn: () => api<any>("/api/settings"), staleTime: 15_000 });
+  const [armed, setArmed] = useState(false);
+  const last = a?.runs?.[0];
+  const running = last?.status === "running" && Date.now() - Date.parse(last.started_at) < 45 * 60_000;
+  const updatedToday = Boolean(last && (last.status === "ok" || last.status === "partial") && sameLocalDay(last.started_at));
+  const units = a?.plan?.estimated_units ?? 0;
+  const free = s?.mode === "demo";
+  const run = useMutation({
+    mutationFn: () => runTool("daily_update", { force: updatedToday }),
+    onSuccess: (env) => { toast("Data updated", env); invalidateAll(qc); },
+    onError: (e) => {
+      plainToast({ title: "Update failed", body: e instanceof Error ? e.message : String(e), tone: "bad" });
+      qc.invalidateQueries({ queryKey: ["automation"] });
+    },
+  });
+  const busy = running || run.isPending;
+  const click = () => {
+    if (busy) return;
+    if (armed || free) {
+      setArmed(false);
+      run.mutate();
+    } else {
+      setArmed(true);
+      setTimeout(() => setArmed(false), 6000);
+    }
+  };
+  const label = busy ? "Updating…" : armed ? `${updatedToday ? "Run again" : "Update"} · ~${units} units` : updatedToday ? `Updated ${ago(last.started_at)}` : "Update data";
+  const Icon = busy ? LoaderCircle : armed ? Zap : updatedToday ? CircleCheck : RefreshCw;
+  return (
+    <button
+      onClick={click}
+      disabled={busy}
+      title={busy ? "Updating your channel, competitors, watched games and keywords (1–3 minutes)" : updatedToday ? `Data was updated today. Click to run again (~${units} units).` : `Update your channel, competitors, watched games and keywords now (~${units} units)`}
+      className={cx(
+        "flex min-h-10 items-center gap-2 whitespace-nowrap rounded-xl px-3 text-sm font-medium ring-1 ring-inset transition disabled:cursor-wait",
+        armed ? "bg-bad/10 text-bad ring-bad/40" : busy ? "bg-white/[0.04] text-ink2 ring-white/10" : updatedToday ? "bg-teal/10 text-teal ring-teal/30 hover:bg-teal/15" : "bg-gradient-to-r from-gold to-gold2 text-bg ring-transparent shadow-lg shadow-gold2/20 hover:brightness-110",
+      )}
+    >
+      <Icon className={cx("size-4", busy && "animate-spin")} aria-hidden />
+      <span className={cx(!armed && "hidden sm:inline")}>{label}</span>
+    </button>
+  );
+}
 
 const statusTone = (s: string) => (s === "ok" ? "teal" : s === "partial" || s === "running" ? "gold" : "bad") as "teal" | "gold" | "bad";
 const hourLabel = (h: number) => `${((h + 11) % 12) + 1}:00 ${h < 12 ? "AM" : "PM"}`;
@@ -70,7 +133,7 @@ export function DailyCard() {
   const { data: a, error } = useAutomation();
   const last = a?.runs?.[0];
   return (
-    <Card title="Daily update" subtitle={a ? (a.auto_daily ? `Automatic at ${hourLabel(a.daily_hour)} while the dashboard runs · budget ${a.budget_units} units` : "Automatic update is off") : undefined} icon={CalendarSync} right={<RunNow size="sm" />}>
+    <Card title="Daily update" subtitle={a ? (a.auto_daily ? `By itself once a day when the dashboard is open (after ${hourLabel(a.daily_hour)}) · max ${a.budget_units} units` : "Manual: press Update data in the top bar") : undefined} icon={CalendarSync} right={<RunNow size="sm" />}>
       {error ? <ErrorBox error={error} /> : !a ? <Loading rows={2} /> : !last ? (
         <Empty icon={Bot}>Never ran yet. It runs by itself each day while the dashboard is open, or press <b className="text-ink">Run now</b>. Next plan: about {a.plan.estimated_units} units.</Empty>
       ) : (
@@ -104,7 +167,7 @@ export function AutomationSettings() {
         <div className="grid gap-6 lg:grid-cols-[1fr_1.3fr]">
           <div className="space-y-4">
             <label className="flex items-center justify-between gap-3 rounded-xl bg-white/[0.03] p-4 ring-1 ring-inset ring-white/[0.07]">
-              <span><span className="block font-medium text-ink">Run automatically every day</span><span className="text-sm text-muted">While the dashboard (API) is running on this computer</span></span>
+              <span><span className="block font-medium text-ink">Update by itself once a day</span><span className="text-sm text-muted">The first time you open the dashboard each day (after the time below). Off = only when you press <b className="text-ink">Update data</b>.</span></span>
               <button role="switch" aria-checked={a.auto_daily} onClick={() => save.mutate({ auto_daily: !a.auto_daily })} className={cx("relative h-7 w-12 shrink-0 rounded-full transition", a.auto_daily ? "bg-gold" : "bg-white/15")}>
                 <span className={cx("absolute top-1 size-5 rounded-full bg-white shadow transition-all", a.auto_daily ? "left-6" : "left-1")} />
               </button>
