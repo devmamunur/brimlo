@@ -43,7 +43,7 @@ export function createServer() {
   app.get("/api/tools", async () => tools.map((t) => ({ name: t.name, title: t.title, description: t.description, primary: t.primary ?? null })));
   app.post<{ Params: { name: string } }>("/api/tools/:name", async (req, reply) => {
     const t = tools.find((x) => x.name === req.params.name);
-    if (!t) return reply.code(404).send({ error: "Unknown tool" });
+    if (!t) return reply.code(404).send({ error: "Unknown tool", tool: req.params.name });
     try {
       return await t.run(t.schema.parse(req.body ?? {}));
     } catch (e) {
@@ -158,7 +158,7 @@ export function createServer() {
   const dist = path.join(path.dirname(fileURLToPath(import.meta.url)), "../../../apps/dashboard/dist");
   if (existsSync(dist)) {
     app.register(fastifyStatic, { root: dist });
-    app.setNotFoundHandler((req, reply) => (req.url.startsWith("/api/") ? reply.code(404).send({ error: "Not found" }) : reply.sendFile("index.html")));
+    app.setNotFoundHandler((req, reply) => (req.url.startsWith("/api/") ? reply.code(404).send({ error: "Unknown API route", route: req.url }) : reply.sendFile("index.html")));
   }
   return app;
 }
