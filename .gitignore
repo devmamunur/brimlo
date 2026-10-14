@@ -1,0 +1,5 @@
+node_modules/
+.env
+tools/research/data/*.sqlite*
+tools/research/data/exports/
+.DS_Store

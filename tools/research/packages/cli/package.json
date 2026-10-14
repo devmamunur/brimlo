@@ -1,0 +1,7 @@
+{
+  "name": "@brimlo/cli",
+  "private": true,
+  "type": "module",
+  "bin": { "brimlo-research": "./src/index.ts" },
+  "dependencies": { "@brimlo/core": "workspace:*" }
+}
