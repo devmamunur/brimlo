@@ -38,8 +38,8 @@ const coerceScalar = (v: unknown) => (v === "true" ? true : v === "false" ? fals
 
 if (cmd === "auth") {
   try {
-    await runAuthFlow(console.log);
-    console.log("\nConnected. Tokens saved in tools/research/data/oauth.json. Now run: pnpm research:cli own_channel");
+    const me = await runAuthFlow(console.log);
+    console.log(`\nConnected${me ? ` to ${me.title} (${me.handle ?? me.id}). It is now your channel` : ""}. Now run: pnpm research:cli own_channel`);
     process.exit(0);
   } catch (e) {
     console.error(`Error: ${e instanceof Error ? e.message : e}`);

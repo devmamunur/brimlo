@@ -4,7 +4,7 @@ import { competitorsAdd, competitorsAddInput, competitorsList, competitorsListIn
 import { ideaEngine, ideaEngineInput } from "./features/ideaEngine.ts";
 import { ideaSave, ideaSaveInput, ideasList, ideasListInput, ideaUpdate, ideaUpdateInput } from "./features/ideas.ts";
 import { keywordInput, keywordResearch } from "./features/keywords.ts";
-import { ownChannel, ownChannelInput } from "./features/ownChannel.ts";
+import { ownChannel, ownChannelInput, ownChannelSet, ownChannelSetInput } from "./features/ownChannel.ts";
 import { descriptionAndTags, descriptionAndTagsInput } from "./features/tags.ts";
 import { scoreTitleInput, scoreTitleTool, titlePatterns, titlePatternsInput } from "./features/titles.ts";
 import { trending, trendingInput } from "./features/trending.ts";
@@ -156,6 +156,14 @@ export const tools: ToolDef[] = [
     description: "Brimlo's own stats: subscribers, views, recent uploads, YPP progress (1,000 subs + 8,000 watch hours). Public part ~3 units. If OAuth is connected it also returns watch hours (365 days) and per-video views, average view duration and percentage. Impressions/CTR are NOT available from any API (read them in Studio).",
     schema: ownChannelInput,
     run: ownChannel,
+  },
+  {
+    name: "own_channel_set",
+    title: "Set my channel",
+    description: "Choose which YouTube channel is yours (@handle, id or URL). Saved in the database; used by own_channel and the dashboard. ~1 unit.",
+    primary: "channel",
+    schema: ownChannelSetInput,
+    run: ownChannelSet,
   },
   quotaTool,
 ];

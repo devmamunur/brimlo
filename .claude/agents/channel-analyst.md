@@ -29,6 +29,7 @@ The MCP server `brimlo` (tools named `mcp__brimlo__brimlo_*`, see `tools/researc
 | Game/topic evidence pack | `brimlo_idea_engine` (`estimate_only` first) | ~204 cold |
 | One video: stats / tags / comments / transcript | `brimlo_video_stats`, `_tags`, `_comments`, `_transcript` | 1–4 / 1 / 1 / 0 |
 | Our own channel | `brimlo_own_channel` | ~3 |
+| Change which channel is ours | `brimlo_own_channel_set` | ~1 |
 | Save a researched idea | `brimlo_idea_save` | 0 |
 
 Rules:

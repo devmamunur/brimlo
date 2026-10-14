@@ -28,7 +28,7 @@ async function call(endpoint: Endpoint, params: Record<string, string>): Promise
 
 const chunk = <T>(a: T[], n: number) => Array.from({ length: Math.ceil(a.length / n) }, (_, i) => a.slice(i * n, i * n + n));
 
-const mapChannel = (c: any): ChannelInfo => ({
+export const mapChannel = (c: any): ChannelInfo => ({
   id: c.id,
   title: c.snippet.title,
   handle: c.snippet.customUrl ?? null,

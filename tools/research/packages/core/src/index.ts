@@ -9,4 +9,5 @@ export { outliersFromDb } from "./features/outliers.ts";
 export { listIdeas, saveIdea, updateIdea, deleteIdea, IDEA_STATUSES } from "./features/ideas.ts";
 export { competitorsList } from "./features/competitors.ts";
 export { ownChannel, ownChannelInput } from "./features/ownChannel.ts";
-export { runAuthFlow, oauthConnected, oauthConfigured } from "./providers/oauth.ts";
+export { runAuthFlow, oauthConnected, oauthConfigured, startAuth, finishAuth, disconnect, saveClient, removeClient } from "./providers/oauth.ts";
+export { getSetting, setSetting } from "./settings.ts";

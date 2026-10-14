@@ -1,6 +1,6 @@
 import { z } from "zod";
 import { getDb } from "../db/client.ts";
-import { OWN_CHANNEL_ID, YPP } from "../dashboard.ts";
+import { getSetting, ownChannelId, setSetting, YPP } from "../settings.ts";
 import { analyticsReport, oauthConfigured, oauthConnected, rowsToObjects } from "../providers/oauth.ts";
 import { getYouTube } from "../providers/index.ts";
 import { quotaStatus, unitsCounter } from "../quota/guard.ts";
@@ -27,14 +27,20 @@ export async function ownChannel(input: z.infer<typeof ownChannelInput>, deps: D
   const yt = deps.yt ?? getYouTube();
   const before = unitsCounter();
   const warnings: string[] = [];
-  const ch = await loadChannel(yt.name === "demo" ? "democh_brimlo_0" : OWN_CHANNEL_ID, deps, i.refresh);
+  const ch = await loadChannel(yt.name === "demo" ? (getSetting("own_channel_id") ?? "democh_brimlo_0") : ownChannelId(), deps, i.refresh);
   const up = await loadUploads(ch, 20, deps, { refresh: i.refresh, ttlSec: 6 * 3600 });
   const now = new Date();
   const recent = up.value.filter((v) => !isShort(v.durationSec));
 
   let analytics: any = null;
   let watchHours: number | null = null;
-  if (oauthConnected() && yt.name !== "demo") {
+  const oauthCh = getSetting("oauth_channel");
+  const oauthId = oauthCh ? (JSON.parse(oauthCh).id as string) : null;
+  const sameChannel = !oauthId || oauthId === ch.id;
+  if (oauthConnected() && yt.name !== "demo" && !sameChannel) {
+    warnings.push(`Google is connected to another channel (${JSON.parse(oauthCh!).title}). Watch hours are skipped. Reconnect with this channel, or set that channel as yours.`);
+  }
+  if (oauthConnected() && yt.name !== "demo" && sameChannel) {
     try {
       const end = day(new Date(now.getTime() - 86400000));
       const total = rowsToObjects(await analyticsReport({ startDate: day(new Date(now.getTime() - 365 * 86400000)), endDate: end, metrics: "estimatedMinutesWatched,views,subscribersGained" }))[0] as any;
@@ -80,6 +86,32 @@ export async function ownChannel(input: z.infer<typeof ownChannelInput>, deps: D
     source: yt.name,
     fetched_at: up.fetchedAt,
     cached: up.cached,
+    quota_used: unitsCounter() - before,
+    warnings,
+  };
+}
+
+// ---------- own_channel_set ----------
+export const ownChannelSetInput = z.object({
+  channel: z.string().min(2).describe("Your channel: @handle, channel id (UC...) or URL"),
+});
+
+/** Choose which channel is "mine" (stored in the database). ~1 unit. */
+export async function ownChannelSet(input: z.infer<typeof ownChannelSetInput>, deps: Deps = {}): Promise<Envelope> {
+  const i = ownChannelSetInput.parse(input);
+  const yt = deps.yt ?? getYouTube();
+  const before = unitsCounter();
+  const ch = await loadChannel(i.channel, deps, true);
+  setSetting("own_channel_id", ch.id);
+  const warnings: string[] = [];
+  if (process.env.YOUTUBE_OWN_CHANNEL?.trim()) warnings.push("YOUTUBE_OWN_CHANNEL is set in .env and still wins. Remove it to use this choice.");
+  if (yt.name === "demo") warnings.push("DEMO DATA: this is a fake channel.");
+  return {
+    data: { channel: { id: ch.id, title: ch.title, handle: ch.handle, subscribers: ch.subscribers, videos: ch.videoCount } },
+    summary: `Your channel is now ${ch.title} (${ch.handle ?? ch.id}, ${ch.subscribers.toLocaleString("en-US")} subs).`,
+    source: yt.name,
+    fetched_at: new Date().toISOString(),
+    cached: false,
     quota_used: unitsCounter() - before,
     warnings,
   };

@@ -58,7 +58,7 @@ describe("oauth", () => {
     expect(f).not.toHaveBeenCalled();
   });
   it("not connected gives a clear error", async () => {
-    await expect(getAccessToken()).rejects.toThrow(/Run: pnpm research:cli auth/);
+    await expect(getAccessToken()).rejects.toThrow(/research:cli auth/);
   });
   it("analytics rows become objects", async () => {
     saveTokens({ refresh_token: "r", access_token: "a", expires_at: Date.now() + 600_000 });

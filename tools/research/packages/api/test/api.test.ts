@@ -53,3 +53,27 @@ describe("api", () => {
     expect((await app.inject({ url: "/api/export?table=users", headers: H })).statusCode).toBe(400);
   });
 });
+
+describe("api: Google connection", () => {
+  it("saves the client without echoing the secret, starts on the same host, and handles a bad callback", async () => {
+    const os = await import("node:os");
+    const fs = await import("node:fs");
+    const p = await import("node:path");
+    const dir = fs.mkdtempSync(p.join(os.tmpdir(), "brimlo-api-oauth-"));
+    process.env.BRIMLO_OAUTH_CLIENT_FILE = p.join(dir, "client.json");
+    process.env.BRIMLO_OAUTH_FILE = p.join(dir, "oauth.json");
+    const bad = await app.inject({ method: "POST", url: "/api/oauth/client", headers: H, payload: { client_id: "x", client_secret: "y" } });
+    expect(bad.statusCode).toBe(400);
+    expect(bad.json().error).toMatch(/googleusercontent/);
+    const ok = await app.inject({ method: "POST", url: "/api/oauth/client", headers: H, payload: { client_id: "1-a.apps.googleusercontent.com", client_secret: "GOCSPX-abcdefghij" } });
+    expect(ok.statusCode).toBe(200);
+    expect(ok.body).not.toContain("GOCSPX");
+    const start = (await app.inject({ method: "POST", url: "/api/oauth/start", headers: { host: "localhost:5173" }, payload: {} })).json();
+    expect(new URL(start.url).searchParams.get("redirect_uri")).toBe("http://localhost:5173/api/oauth/callback");
+    const cb = await app.inject({ url: "/api/oauth/callback?state=wrong&code=x", headers: H });
+    expect(cb.statusCode).toBe(302);
+    expect(cb.headers.location).toMatch(/^\/#\/settings\?oauth=error/);
+    const denied = await app.inject({ url: "/api/oauth/callback?error=access_denied", headers: H });
+    expect(denied.headers.location).toContain("access_denied");
+  });
+});

@@ -47,3 +47,6 @@ CREATE TABLE IF NOT EXISTS own_channel_snapshots (
   taken_at TEXT PRIMARY KEY, subscribers INTEGER, views INTEGER, video_count INTEGER,
   watch_hours_365d REAL, watch_hours_source TEXT, source TEXT
 );
+CREATE TABLE IF NOT EXISTS settings (
+  key TEXT PRIMARY KEY, value TEXT NOT NULL, updated_at TEXT NOT NULL
+);

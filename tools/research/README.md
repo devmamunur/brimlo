@@ -80,7 +80,8 @@ Free limit: **10,000 units per day**, reset at midnight Pacific time.
 | `trending` | Fast-growing videos in a niche | ~102 |
 | `idea_engine` | Evidence pack for a game/topic. Claude writes the ideas | ~204 cold |
 | `ideas_list / idea_save / idea_update` | Saved ideas (idea → planned → recorded) | 0 |
-| `own_channel` | Brimlo's own subs, views, recent uploads, YPP progress; watch hours with OAuth | ~3 |
+| `own_channel` | Your channel's subs, views, recent uploads, YPP progress; watch hours with Google connected | ~3 |
+| `own_channel_set` | Choose which channel is yours | ~1 |
 
 Examples:
 
@@ -115,18 +116,24 @@ pnpm research:build      # build the dashboard, then pnpm research:api serves ev
 
 Pages: Overview (YPP progress, quota, subscriber trend, new outliers), Keywords, Outliers (sortable, save as idea), Competitors, Title Lab (compare up to 5 titles), Video detail, Ideas (idea → planned → recorded), Settings (status, CSV/JSON export). Anything that spends quota asks you to confirm first. The API only accepts requests from your own computer.
 
-## Connect your own channel (optional)
+## Your channel and Google connection
 
-Without this, `own_channel` gives subscribers, views and recent uploads (no setup beyond the API key). OAuth adds **watch hours (365 days)** and per-video average view duration/percentage.
+**Pick your channel** (no Google login needed): Dashboard → **Settings → My channel** → paste `@handle` or the channel link → **Set as my channel** (~1 unit). Or ask Claude (`own_channel_set`), or run `pnpm research:cli own_channel_set @YourHandle`. Default: Brimlo (`@brimloidle`). `YOUTUBE_OWN_CHANNEL` in `.env` overrides the choice.
 
-1. Google Cloud Console → **APIs & Services → Library** → enable **YouTube Analytics API** (and Data API v3).
-2. **OAuth consent screen**: user type External, add yourself as a **Test user**.
-3. **Credentials → Create credentials → OAuth client ID → Desktop app**.
-4. Put `YOUTUBE_OAUTH_CLIENT_ID` and `YOUTUBE_OAUTH_CLIENT_SECRET` in `.env`.
-5. `pnpm research:cli auth` → open the link → **choose the Brimlo channel** (not your personal one) → allow.
-6. `pnpm research:cli own_channel`.
+Without Google login you get subscribers, views and recent uploads. **Connecting Google adds watch hours (365 days) and per-video average view duration/percentage.**
 
-Scopes are read-only. Tokens are saved in `data/oauth.json` (ignored by git, mode 600). **Not tested against real Google yet**: the logic is tested with a mocked Google (PKCE, token refresh, report parsing), so expect to fix small things on the first real run.
+**Connect Google (one time, all in the dashboard):** Settings → **Google connection** shows these 3 steps with direct links:
+
+1. Enable **YouTube Analytics API** in the same Google Cloud project as your API key.
+2. **Consent screen** (Google Auth Platform → Audience): add your Gmail as a **Test user**.
+3. **Credentials → Create credentials → OAuth client ID → Desktop app**. Paste the Client ID and Client secret into the dashboard and press **Save client**.
+
+Then press **Connect with Google**, pick **Brimlo** (not your personal channel), and allow. The tool asks Google which channel you picked and makes that your channel. You may see "Google hasn't verified this app": normal for your own app in testing. Click Continue.
+
+- Terminal alternative: put `YOUTUBE_OAUTH_CLIENT_ID` / `YOUTUBE_OAUTH_CLIENT_SECRET` in `.env` and run `pnpm research:cli auth`.
+- Secrets are saved only on this computer, with permission 600: `data/oauth-client.json` and `data/oauth.json` (ignored by git). The dashboard never shows them again.
+- **Disconnect** deletes the tokens and revokes access at Google.
+- Scopes are read-only. **Not tested against real Google yet** (tested with a mocked Google and in a browser up to the Google login page), so expect small fixes on the first real login.
 
 **Not available anywhere:** impressions and click-through rate (CTR). The YouTube Analytics API does not offer them. Read them in YouTube Studio.
 

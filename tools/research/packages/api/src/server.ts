@@ -5,6 +5,7 @@ import fastifyStatic from "@fastify/static";
 import {
   competitorsList, deleteIdea, exportTable, exportTables, IDEA_STATUSES, keywordDetail, listIdeas, listKeywords,
   outliersFromDb, overview, recentSearches, saveIdea, settingsInfo, tools, updateIdea, videoDetail, config, type ExportTable,
+  startAuth, finishAuth, disconnect, saveClient, removeClient, oauthSummary,
 } from "@brimlo/core";
 import Fastify from "fastify";
 import { z } from "zod";
@@ -70,6 +71,38 @@ export function createServer() {
   app.post("/api/ideas", async (req) => saveIdea(ideaBody.parse(req.body)));
   app.patch<{ Params: { id: string } }>("/api/ideas/:id", async (req, reply) => updateIdea(Number(req.params.id), ideaBody.partial().parse(req.body)) ?? reply.code(404).send({ error: "Not found" }));
   app.delete<{ Params: { id: string } }>("/api/ideas/:id", async (req) => ({ deleted: deleteIdea(Number(req.params.id)) }));
+
+  // ----- Google connection (OAuth) -----
+  app.post("/api/oauth/client", async (req, reply) => {
+    const b = z.object({ client_id: z.string(), client_secret: z.string() }).safeParse(req.body);
+    if (!b.success) return reply.code(400).send({ error: "client_id and client_secret are required." });
+    try {
+      saveClient(b.data.client_id, b.data.client_secret);
+    } catch (e) {
+      return reply.code(400).send({ error: e instanceof Error ? e.message : String(e) });
+    }
+    return oauthSummary(); // never echoes the secret
+  });
+  app.delete("/api/oauth/client", async () => (removeClient(), oauthSummary()));
+  app.post("/api/oauth/start", async (req, reply) => {
+    // Google sends the browser back to the same host the dashboard runs on (Vite proxies /api in dev).
+    try {
+      return { url: startAuth(`http://${req.headers.host}/api/oauth/callback`).url };
+    } catch (e) {
+      return reply.code(400).send({ error: e instanceof Error ? e.message : String(e) });
+    }
+  });
+  app.get<{ Querystring: { state?: string; code?: string; error?: string } }>("/api/oauth/callback", async (req, reply) => {
+    const back = (q: Record<string, string>) => reply.redirect(`/#/settings?${new URLSearchParams(q)}`);
+    if (req.query.error) return back({ oauth: "error", msg: `Google said: ${req.query.error}` });
+    try {
+      const me = await finishAuth(req.query.state ?? "", req.query.code ?? "");
+      return back({ oauth: "ok", channel: me?.title ?? "" });
+    } catch (e) {
+      return back({ oauth: "error", msg: e instanceof Error ? e.message : String(e) });
+    }
+  });
+  app.post("/api/oauth/disconnect", async () => ({ ...(await disconnect()), ...oauthSummary() }));
 
   // ----- export -----
   app.get<{ Querystring: { table?: string; format?: string } }>("/api/export", async (req, reply) => {

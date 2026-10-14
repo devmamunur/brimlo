@@ -5,7 +5,7 @@ import { getDb } from "./db/client.ts";
 import { getChannelRow, getVideoRow, getVideosByChannel } from "./db/repo.ts";
 import { listIdeas } from "./features/ideas.ts";
 import { outliersFromDb } from "./features/outliers.ts";
-import { oauthConnected } from "./providers/oauth.ts";
+import { clientCreds, oauthConnected } from "./providers/oauth.ts";
 import { quotaStatus } from "./quota/guard.ts";
 import { viewsPerDay } from "./scoring/keyword.ts";
 
@@ -15,8 +15,8 @@ const all = (sql: string, ...p: any[]) => getDb().prepare(sql).all(...p) as any[
 const one = (sql: string, ...p: any[]) => getDb().prepare(sql).get(...p) as any;
 
 /** Brimlo (@brimloidle). Override with YOUTUBE_OWN_CHANNEL if the channel ever changes. */
-export const OWN_CHANNEL_ID = process.env.YOUTUBE_OWN_CHANNEL?.trim() || "UCXf8abbaSiOThD3YhX8nGjQ";
-export const YPP = { subs: 1000, watchHours: 8000 };
+import { getSetting, ownChannelId, YPP } from "./settings.ts";
+export { YPP, ownChannelId } from "./settings.ts";
 
 export function ownSnapshots(limit = 30) {
   return all("SELECT * FROM own_channel_snapshots ORDER BY taken_at DESC LIMIT ?", limit).reverse();
@@ -78,6 +78,33 @@ export function videoDetail(id: string) {
   return { video: { ...v, views_per_day: Math.round(viewsPerDay(v.views, v.published_at)), url: `https://www.youtube.com/watch?v=${v.id}` }, channel: c ?? null, snapshots: snaps, channel_videos_stored: siblings.length, transcript_file: existsSync(path.join(RESEARCH_ROOT, "data", "transcripts", `${id}.en.txt`)) ? `data/transcripts/${id}.en.txt` : null };
 }
 
+export function ownChannelSummary() {
+  const id = ownChannelId();
+  const c = getChannelRow(id);
+  return {
+    id,
+    title: c?.title ?? null,
+    handle: c?.handle ?? null,
+    subscribers: c?.subscribers ?? null,
+    videos: c?.video_count ?? null,
+    source: process.env.YOUTUBE_OWN_CHANNEL?.trim() ? "env" : getSetting("own_channel_id") ? "chosen" : "default",
+  };
+}
+
+export function oauthSummary() {
+  const client = clientCreds();
+  const connectedChannel = getSetting("oauth_channel");
+  const conn = connectedChannel ? (JSON.parse(connectedChannel) as { id: string; title: string; handle: string | null }) : null;
+  return {
+    client_configured: Boolean(client.id),
+    client_source: client.source,
+    client_id_hint: client.id ? `${client.id.slice(0, 8)}…${client.id.slice(-28)}` : null,
+    connected: oauthConnected(),
+    connected_channel: conn,
+    mismatch: Boolean(conn && oauthConnected() && conn.id !== ownChannelId()),
+  };
+}
+
 export function recentSearches(limit = 30) {
   return all("SELECT * FROM searches ORDER BY id DESC LIMIT ?", limit);
 }
@@ -90,11 +117,8 @@ export function settingsInfo() {
     forced_demo: process.env.BRIMLO_DEMO === "1",
     database: path.relative(path.resolve(RESEARCH_ROOT, "../.."), c.dbPath),
     quota: quotaStatus(),
-    oauth: {
-      client_configured: Boolean(process.env.YOUTUBE_OAUTH_CLIENT_ID && process.env.YOUTUBE_OAUTH_CLIENT_SECRET),
-      connected: oauthConnected(),
-      own_channel_id: OWN_CHANNEL_ID,
-    },
+    own_channel: ownChannelSummary(),
+    oauth: oauthSummary(),
   };
 }
 
