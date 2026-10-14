@@ -102,9 +102,9 @@ async function robotsFor(origin: string): Promise<Rule[]> {
   if (hit && Date.now() - hit.at < 24 * 3600_000) return hit.rules;
   let rules: Rule[] = [];
   try {
-    const r = await fetch(`${origin}/robots.txt`, { headers: { "user-agent": USER_AGENT }, signal: AbortSignal.timeout(10_000), redirect: "follow" });
+    const { res: r } = await safeFetch(`${origin}/robots.txt`, {}, { robots: false, timeoutMs: 10_000, maxBytes: 512_000 });
     if (r.status === 401 || r.status === 403) rules = [{ allow: false, path: "/" }];
-    else if (r.ok) rules = parseRobots(await r.text());
+    else if (r.ok) rules = parseRobots(await readCapped(r, 512_000));
   } catch {
     rules = []; // unreachable robots.txt = no rules (standard behaviour)
   }
@@ -114,46 +114,100 @@ async function robotsFor(origin: string): Promise<Rule[]> {
 
 // ---------- fetch ----------
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+const REDIRECTS = new Set([301, 302, 303, 307, 308]);
+const MAX_HOPS = 5;
+export const DEFAULT_MAX_BYTES = 5_000_000;
 
 export interface PoliteOptions extends RequestInit {
   robots?: boolean;
   timeoutMs?: number;
+  maxBytes?: number;
+}
+
+async function waitTurn(host: string) {
+  const override = process.env.BRIMLO_HTTP_GAP_MS;
+  const gap = override !== undefined ? Number(override) : (GAP_MS[host] ?? 1000);
+  const wait = (lastHit.get(host) ?? 0) + gap - Date.now();
+  if (wait > 0) await sleep(wait);
+  lastHit.set(host, Date.now());
+}
+
+/**
+ * Follows redirects ourselves, one hop at a time, so EVERY hop is checked (public address + robots.txt)
+ * BEFORE it is requested. Node's automatic redirects would request a private address first and check later.
+ */
+async function safeFetch(url: string, init: RequestInit, o: { robots: boolean; timeoutMs: number; maxBytes: number }): Promise<{ res: Response; finalUrl: string }> {
+  let current = await assertPublicUrl(url);
+  let method = (init.method ?? "GET").toUpperCase();
+  let body = init.body;
+  for (let hop = 0; hop <= MAX_HOPS; hop++) {
+    if (o.robots) {
+      const rules = await robotsFor(current.origin);
+      if (!robotsAllows(rules, current.pathname + current.search)) throw new BlockedError(`${current.host} does not allow automated access to ${current.pathname} (robots.txt). Open it in your browser instead.`);
+    }
+    const once = async () => {
+      await waitTurn(current.hostname);
+      return fetch(current, { ...init, method, body, headers: { "user-agent": USER_AGENT, "accept-language": "en-US,en;q=0.8", ...(init.headers as Record<string, string>) }, signal: AbortSignal.timeout(o.timeoutMs), redirect: "manual" });
+    };
+    let res = await once();
+    if (res.status === 429) {
+      const after = Math.min(10, Number(res.headers.get("retry-after")) || 5);
+      await sleep(after * 1000);
+      res = await once();
+    }
+    const len = Number(res.headers.get("content-length"));
+    if (len && len > o.maxBytes) throw new BlockedError(`Response is ${(len / 1e6).toFixed(1)} MB; the limit is ${(o.maxBytes / 1e6).toFixed(1)} MB.`);
+    if (!REDIRECTS.has(res.status)) return { res, finalUrl: current.toString() };
+    const loc = res.headers.get("location");
+    if (!loc) return { res, finalUrl: current.toString() };
+    await res.body?.cancel().catch(() => {});
+    current = await assertPublicUrl(new URL(loc, current).toString());
+    if (res.status === 303 || ((res.status === 301 || res.status === 302) && method === "POST")) {
+      method = "GET";
+      body = undefined;
+    }
+  }
+  throw new BlockedError(`Too many redirects (more than ${MAX_HOPS}).`);
+}
+
+/** Read a body but stop at `maxBytes`, so a huge or endless response cannot fill memory. */
+export async function readCapped(res: Response, maxBytes: number): Promise<string> {
+  if (!res.body) return "";
+  const reader = res.body.getReader();
+  const chunks: Uint8Array[] = [];
+  let size = 0;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    size += value.byteLength;
+    if (size > maxBytes) {
+      await reader.cancel().catch(() => {});
+      throw new BlockedError(`Response is larger than ${(maxBytes / 1e6).toFixed(1)} MB.`);
+    }
+    chunks.push(value);
+  }
+  return new TextDecoder().decode(Buffer.concat(chunks));
+}
+
+export async function politeFetchUrl(url: string, opts: PoliteOptions = {}): Promise<{ res: Response; finalUrl: string }> {
+  const { robots = true, timeoutMs = 20_000, maxBytes = DEFAULT_MAX_BYTES, ...init } = opts;
+  return safeFetch(url, init, { robots, timeoutMs, maxBytes });
 }
 
 export async function politeFetch(url: string, opts: PoliteOptions = {}): Promise<Response> {
-  const { robots = true, timeoutMs = 20_000, ...init } = opts;
-  const u = await assertPublicUrl(url);
-  if (robots) {
-    const rules = await robotsFor(u.origin);
-    if (!robotsAllows(rules, u.pathname + u.search)) throw new BlockedError(`${u.host} does not allow automated access to ${u.pathname} (robots.txt). Open it in your browser instead.`);
-  }
-  const gap = GAP_MS[u.hostname] ?? 1000;
-  const wait = (lastHit.get(u.hostname) ?? 0) + gap - Date.now();
-  if (wait > 0) await sleep(wait);
-  lastHit.set(u.hostname, Date.now());
-  const doFetch = () => fetch(u, { ...init, headers: { "user-agent": USER_AGENT, "accept-language": "en-US,en;q=0.8", ...(init.headers as Record<string, string>) }, signal: AbortSignal.timeout(timeoutMs), redirect: "follow" });
-  let res = await doFetch();
-  if (res.status === 429) {
-    const after = Math.min(10, Number(res.headers.get("retry-after")) || 5);
-    await sleep(after * 1000);
-    lastHit.set(u.hostname, Date.now());
-    res = await doFetch();
-  }
-  // a redirect must not end on a private address either
-  if (res.url && res.url !== u.toString()) await assertPublicUrl(res.url);
-  return res;
+  return (await politeFetchUrl(url, opts)).res;
 }
 
 export async function getJson<T = any>(url: string, opts: PoliteOptions = {}): Promise<T> {
-  const res = await politeFetch(url, opts);
+  const { res } = await politeFetchUrl(url, opts);
   if (!res.ok) throw new Error(`${new URL(url).host} answered HTTP ${res.status}`);
-  return (await res.json()) as T;
+  return JSON.parse(await readCapped(res, opts.maxBytes ?? DEFAULT_MAX_BYTES)) as T;
 }
 
 export async function getText(url: string, opts: PoliteOptions = {}): Promise<{ text: string; finalUrl: string; contentType: string }> {
-  const res = await politeFetch(url, opts);
+  const { res, finalUrl } = await politeFetchUrl(url, opts);
   if (!res.ok) throw new Error(`${new URL(url).host} answered HTTP ${res.status}`);
-  return { text: await res.text(), finalUrl: res.url || url, contentType: res.headers.get("content-type") ?? "" };
+  return { text: await readCapped(res, opts.maxBytes ?? DEFAULT_MAX_BYTES), finalUrl, contentType: res.headers.get("content-type") ?? "" };
 }
 
 export function decodeEntities(s: string): string {

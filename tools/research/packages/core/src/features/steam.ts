@@ -64,7 +64,7 @@ export async function steamGame(input: z.infer<typeof steamGameInput>): Promise<
   const found = await resolveApp(i.game);
   if (!found) throw new Error(`No Steam game found for "${i.game}".`);
   const res = await cached(
-    `steam:game:v1:${found.appid}`,
+    `steam:game:v2:${found.appid}`,
     12 * HOUR,
     async () => {
       let d = await appDetails(found.appid);
@@ -74,7 +74,7 @@ export async function steamGame(input: z.infer<typeof steamGameInput>): Promise<
         demoOf = d;
         d = (await appDetails(d.fullgame_appid)) ?? d;
       }
-      const [rev, players, newsItems, spy] = [await reviews(d.appid, { filter: "all" }), await currentPlayers(d.appid), await news(d.appid, 3), await steamSpy(d.appid)];
+      const [rev, players, newsItems, spy] = [await reviews(d.appid, { filter: "all", language: "all" }), await currentPlayers(d.appid), await news(d.appid, 3), await steamSpy(d.appid)];
       return { value: { details: d, demo_of: demoOf ? { appid: demoOf.appid, name: demoOf.name } : null, reviews: rev.summary, players, news: newsItems, spy }, source: "steam" };
     },
     { refresh: i.refresh },
@@ -178,10 +178,13 @@ export async function steamReviews(input: z.infer<typeof steamReviewsInput>): Pr
   const i = steamReviewsInput.parse(input);
   const found = await resolveApp(i.game);
   if (!found) throw new Error(`No Steam game found for "${i.game}".`);
-  const res = await cached(`steam:reviews:v1:${found.appid}:${i.filter}:${i.limit}`, 12 * HOUR, async () => {
+  const res = await cached(`steam:reviews:v2:${found.appid}:${i.filter}:${i.limit}`, 12 * HOUR, async () => {
     const d = await appDetails(found.appid);
     const appid = d?.type === "demo" && d.fullgame_appid ? d.fullgame_appid : found.appid;
-    const r = await reviews(appid, { filter: i.filter, num: i.limit });
+    // Totals like the store page (all languages); review text in English so the word lists work.
+    const allLang = await reviews(appid, { filter: "all", language: "all" });
+    const r = await reviews(appid, { filter: i.filter, num: i.limit, language: "english" });
+    r.summary = allLang.summary;
     return { value: { appid, name: d?.type === "demo" && d.fullgame_appid ? ((await appDetails(appid))?.name ?? d.name) : (d?.name ?? String(appid)), ...r }, source: "steam" };
   }, { refresh: i.refresh });
   const v = res.value;

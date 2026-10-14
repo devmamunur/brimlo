@@ -17,7 +17,7 @@ export const THEMES: Record<string, string[]> = {
   "relaxing / cozy": ["relaxing", "chill", "cozy", "calm", "peaceful", "zen"],
   "balance": ["balance", "balanced", "unbalanced", "overpowered", "op", "too easy", "too hard"],
   "updates / developer": ["update", "updates", "dev", "devs", "developer", "roadmap", "abandoned", "patch"],
-  "ui / controls": ["ui", "interface", "controls", "menu", "menus", "clunky", "clicking", "click"],
+  "ui / controls": ["ui", "interface", "controls", "menu", "menus", "clunky", "hotkey", "hotkeys"],
 };
 
 const words = (t: string) => t.toLowerCase().replace(/[^a-z0-9'$ ]+/g, " ").split(/\s+/).filter(Boolean);

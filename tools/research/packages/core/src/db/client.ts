@@ -9,7 +9,13 @@ let current: DatabaseSync | undefined;
 function init(db: DatabaseSync) {
   db.exec("PRAGMA journal_mode = WAL; PRAGMA busy_timeout = 5000;");
   db.exec(schema);
+  pruneCache(db);
   return db;
+}
+
+/** Expired cache rows are never read again; drop them so the file does not grow forever. Runs when the DB opens. */
+export function pruneCache(db: DatabaseSync, now = Date.now()): number {
+  return Number(db.prepare("DELETE FROM cache WHERE fetched_at + ttl_sec * 1000 < ?").run(now).changes);
 }
 
 export function getDb(): DatabaseSync {

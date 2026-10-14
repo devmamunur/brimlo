@@ -63,8 +63,7 @@ export async function webFetch(input: z.infer<typeof webFetchInput>): Promise<En
     `web:v1:${i.url}`,
     24 * 3600,
     async () => {
-      const { text: body, finalUrl, contentType } = await getText(i.url);
-      if (body.length > 3_000_000) throw new Error("Page is larger than 3 MB.");
+      const { text: body, finalUrl, contentType } = await getText(i.url, { maxBytes: 3_000_000 });
       if (/json/.test(contentType)) return { value: { title: finalUrl, site: new URL(finalUrl).host, byline: null, text: body, links: [] as any[], url: finalUrl, kind: "json" }, source: "web" };
       if (!/html|xml/.test(contentType) && contentType) return { value: { title: finalUrl, site: new URL(finalUrl).host, byline: null, text: body, links: [], url: finalUrl, kind: "text" }, source: "web" };
       const { document } = parseHTML(body);
