@@ -39,3 +39,53 @@ export function saveKeywordSnapshot(s: { query: string; competition: number; opp
 export function logSearch(tool: string, input: unknown, quotaUsed: number, cached: boolean, source: string) {
   getDb().prepare("INSERT INTO searches (tool, input, created_at, quota_used, cached, source) VALUES (?,?,?,?,?,?)").run(tool, JSON.stringify(input), iso(), quotaUsed, cached ? 1 : 0, source);
 }
+
+export interface VideoRow {
+  id: string;
+  channel_id: string;
+  title: string;
+  description: string;
+  tags: string[];
+  published_at: string;
+  duration_sec: number;
+  views: number;
+  likes: number;
+  comments: number;
+  thumbnail: string;
+  fetched_at: string;
+  source: string;
+}
+export interface ChannelRow {
+  id: string;
+  handle: string | null;
+  title: string;
+  subscribers: number;
+  video_count: number;
+  view_count: number;
+  country: string | null;
+  uploads_playlist: string | null;
+  fetched_at: string;
+  source: string;
+}
+
+const parseVideo = (r: any): VideoRow => ({ ...r, tags: r.tags ? JSON.parse(r.tags) : [] });
+
+export const getVideoRow = (id: string): VideoRow | undefined => {
+  const r = getDb().prepare("SELECT * FROM videos WHERE id = ?").get(id);
+  return r ? parseVideo(r) : undefined;
+};
+export const getVideosByChannel = (channelId: string): VideoRow[] =>
+  getDb().prepare("SELECT * FROM videos WHERE channel_id = ? ORDER BY published_at DESC").all(channelId).map(parseVideo);
+export const getChannelRow = (id: string): ChannelRow | undefined => getDb().prepare("SELECT * FROM channels WHERE id = ?").get(id) as ChannelRow | undefined;
+export const findChannelRow = (q: string): ChannelRow | undefined => {
+  const n = q.trim().toLowerCase().replace(/^@/, "");
+  return getDb()
+    .prepare("SELECT * FROM channels WHERE id = ? OR lower(replace(handle,'@','')) = ? OR lower(title) = ? LIMIT 1")
+    .get(q.trim(), n, n) as ChannelRow | undefined;
+};
+export const allVideoRows = (liveOnly: boolean, limit = 5000): VideoRow[] =>
+  getDb()
+    .prepare(`SELECT * FROM videos ${liveOnly ? "WHERE source != 'demo'" : ""} ORDER BY views DESC LIMIT ?`)
+    .all(limit)
+    .map(parseVideo);
+export const allChannelRows = (): ChannelRow[] => getDb().prepare("SELECT * FROM channels").all() as unknown as ChannelRow[];

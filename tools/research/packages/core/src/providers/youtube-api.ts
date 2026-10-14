@@ -1,6 +1,6 @@
 import { config } from "../config.ts";
 import { assertQuota, COSTS, recordQuota, type Endpoint } from "../quota/guard.ts";
-import type { ChannelInfo, SearchOptions, VideoInfo, YouTubeProvider } from "./types.ts";
+import type { ChannelInfo, ChannelRef, CommentInfo, SearchOptions, VideoInfo, YouTubeProvider } from "./types.ts";
 
 const BASE = "https://www.googleapis.com/youtube/v3";
 
@@ -26,6 +26,17 @@ async function call(endpoint: Endpoint, params: Record<string, string>): Promise
 }
 
 const chunk = <T>(a: T[], n: number) => Array.from({ length: Math.ceil(a.length / n) }, (_, i) => a.slice(i * n, i * n + n));
+
+const mapChannel = (c: any): ChannelInfo => ({
+  id: c.id,
+  title: c.snippet.title,
+  handle: c.snippet.customUrl ?? null,
+  subscribers: Number(c.statistics?.subscriberCount ?? 0),
+  videoCount: Number(c.statistics?.videoCount ?? 0),
+  viewCount: Number(c.statistics?.viewCount ?? 0),
+  country: c.snippet.country ?? null,
+  uploadsPlaylist: c.contentDetails?.relatedPlaylists?.uploads ?? null,
+});
 
 export const youtubeApi: YouTubeProvider = {
   name: "youtube-api",
@@ -72,19 +83,57 @@ export const youtubeApi: YouTubeProvider = {
     const out: ChannelInfo[] = [];
     for (const batch of chunk([...new Set(ids)], 50)) {
       const body = await call("channels", { part: "snippet,statistics,contentDetails", id: batch.join(",") });
-      for (const c of body.items ?? []) {
-        out.push({
-          id: c.id,
-          title: c.snippet.title,
-          handle: c.snippet.customUrl ?? null,
-          subscribers: Number(c.statistics?.subscriberCount ?? 0),
-          videoCount: Number(c.statistics?.videoCount ?? 0),
-          viewCount: Number(c.statistics?.viewCount ?? 0),
-          country: c.snippet.country ?? null,
-          uploadsPlaylist: c.contentDetails?.relatedPlaylists?.uploads ?? null,
-        });
-      }
+      for (const c of body.items ?? []) out.push(mapChannel(c));
     }
     return out;
+  },
+
+  async resolveChannel(ref: ChannelRef) {
+    const params: Record<string, string> = { part: "snippet,statistics,contentDetails" };
+    if ("id" in ref) params.id = ref.id;
+    else params.forHandle = ref.handle.startsWith("@") ? ref.handle : `@${ref.handle}`;
+    const body = await call("channels", params);
+    return body.items?.[0] ? mapChannel(body.items[0]) : undefined;
+  },
+
+  async getUploadIds(playlistId: string, max: number) {
+    const ids: string[] = [];
+    let pageToken: string | undefined;
+    while (ids.length < max) {
+      const params: Record<string, string> = { part: "contentDetails", playlistId, maxResults: String(Math.min(50, max - ids.length)) };
+      if (pageToken) params.pageToken = pageToken;
+      const body = await call("playlistItems", params);
+      for (const i of body.items ?? []) if (i.contentDetails?.videoId) ids.push(i.contentDetails.videoId);
+      pageToken = body.nextPageToken;
+      if (!pageToken) break;
+    }
+    return ids.slice(0, max);
+  },
+
+  async getComments(videoId: string, max: number, order: "relevance" | "time") {
+    const out: CommentInfo[] = [];
+    let pageToken: string | undefined;
+    try {
+      while (out.length < max) {
+        const params: Record<string, string> = { part: "snippet", videoId, order, textFormat: "plainText", maxResults: String(Math.min(100, max - out.length)) };
+        if (pageToken) params.pageToken = pageToken;
+        const body = await call("commentThreads", params);
+        for (const t of body.items ?? []) {
+          const c = t.snippet.topLevelComment.snippet;
+          out.push({ id: t.id, author: c.authorDisplayName, text: c.textDisplay, likes: Number(c.likeCount ?? 0), publishedAt: c.publishedAt, replies: Number(t.snippet.totalReplyCount ?? 0) });
+        }
+        pageToken = body.nextPageToken;
+        if (!pageToken) break;
+      }
+    } catch (e) {
+      if (e instanceof Error && /commentsDisabled|forbidden/i.test(e.message)) return out;
+      throw e;
+    }
+    return out.slice(0, max);
+  },
+
+  async searchChannelIds(query: string, max: number) {
+    const body = await call("search", { part: "id", type: "channel", q: query, maxResults: String(Math.min(50, max)), regionCode: "US", relevanceLanguage: "en" });
+    return (body.items ?? []).map((i: any) => i.id?.channelId).filter(Boolean);
   },
 };

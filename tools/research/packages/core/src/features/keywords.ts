@@ -97,7 +97,7 @@ export async function keywordResearch(input: KeywordInput, deps: KeywordDeps = {
     channel_subs: subs.get(v.channelId)?.subscribers ?? 0,
     views: v.views,
     views_per_day: Math.round(viewsPerDay(v.views, v.publishedAt, now)),
-    age_days: Math.round(ageDays(v.publishedAt, now)),
+    age_days: Math.round(ageDays(v.publishedAt, now) * 10) / 10,
     duration_min: Math.round(v.durationSec / 60),
     url: `https://www.youtube.com/watch?v=${v.id}`,
   }));

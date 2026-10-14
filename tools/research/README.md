@@ -15,7 +15,7 @@ All data goes into one SQLite file (`data/`). What Claude finds will show in the
 | Slice | What | State |
 |---|---|---|
 | 1 | Core, quota guard, cache, `keyword_research`, `quota_status`, CLI, MCP | **Done** |
-| 2 | Channels, outliers, competitors, video tools | Next |
+| 2 | Channels, outliers, competitors, video tools | **Done and tested live** |
 | 3 | Title scoring, patterns, tags, trending, ideas | Planned |
 | 4 | API + dashboard | Planned |
 | 5 | Own-channel OAuth, update agents/skills | Planned |
@@ -54,6 +54,17 @@ When you add a key, it switches to live mode on its own.
 7. Run `pnpm research:cli quota_status`. It should say `Mode: live`.
 
 Never put the key in git. `.env` is in `.gitignore`.
+
+### yt-dlp (transcripts only)
+
+`video_transcript` needs a current yt-dlp. The system one (2024.04) is too old and fails. Install a private copy in this folder (it does not touch your system):
+
+```bash
+cd tools/research
+python3 -m venv .venv && .venv/bin/pip install -U yt-dlp
+```
+
+The tool uses `tools/research/.venv/bin/yt-dlp` automatically, or the path in `YT_DLP_PATH`. Update it now and then: `.venv/bin/pip install -U yt-dlp`.
 
 ## Quota (important)
 

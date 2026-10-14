@@ -19,7 +19,7 @@ export function median(xs: number[]): number {
   return s.length % 2 ? s[m]! : (s[m - 1]! + s[m]!) / 2;
 }
 
-export const ageDays = (publishedAt: string, now = new Date()) => Math.max(1, (now.getTime() - Date.parse(publishedAt)) / DAY);
+export const ageDays = (publishedAt: string, now = new Date()) => Math.max(0.25, (now.getTime() - Date.parse(publishedAt)) / DAY);
 export const viewsPerDay = (views: number, publishedAt: string, now = new Date()) => views / ageDays(publishedAt, now);
 
 const label = (score: number) => (score < 34 ? "low" : score < 67 ? "medium" : "high");

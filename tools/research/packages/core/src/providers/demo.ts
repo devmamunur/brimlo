@@ -1,9 +1,13 @@
-import type { ChannelInfo, SearchOptions, VideoInfo, YouTubeProvider } from "./types.ts";
+import type { ChannelInfo, ChannelRef, CommentInfo, SearchOptions, VideoInfo, YouTubeProvider } from "./types.ts";
 
 /**
  * DEMO provider: fake but realistic-looking data, fully derived from the id,
- * so the same query always gives the same result. Never used when an API key is set.
- * Costs no quota. Ids look like `demo_<slug>_<n>`.
+ * so the same input always gives the same result. Never used when an API key is set.
+ * Costs no quota.
+ *
+ * Ids:  demo_<slug>_<n>          search result n (each from its own channel n)
+ *       demoup_<slug>_<c>_<k>    upload k of channel c
+ *       democh_<slug>_<c>        channel c
  */
 
 function hash(s: string): number {
@@ -21,7 +25,7 @@ function rng(seed: number) {
   };
 }
 
-const slugify = (q: string) => q.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 30) || "x";
+export const slugify = (q: string) => q.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 30) || "x";
 const THEMES = ["rat swarm", "rock crusher", "tiny factory", "space mine", "ant colony", "lava forge", "robot farm", "pixel city", "deep cave", "cookie bakery"];
 const TEMPLATES = [
   (q: string, t: string) => `The ${t} incremental game where numbers go INSANE`,
@@ -29,50 +33,64 @@ const TEMPLATES = [
   (q: string, t: string) => `${q}: I Turned $1 Into a BILLION (${t})`,
   (q: string, t: string) => `A Game Where You Build a ${t} and It's ADDICTIVE!`,
   (q: string, t: string) => `Best ${q} of 2026 | ${t}`,
-  (q: string, t: string) => `I Beat the Hardest ${q} Level (${t})`,
+  (q: string, t: string) => `I made a ${t} so big it bullied the sun`,
 ];
 
-function parseId(id: string) {
-  const m = /^demo_(.+)_(\d+)$/.exec(id);
-  return m ? { slug: m[1]!, i: Number(m[2]) } : undefined;
+function channelSubs(slug: string, c: number) {
+  const r = rng(hash(`${slug}:ch:${c}`));
+  return Math.floor(10 ** (2.4 + r() * 3.6));
 }
 
-function makeVideo(slug: string, i: number): VideoInfo {
-  const r = rng(hash(`${slug}:${i}`));
-  const subs = Math.floor(10 ** (2.4 + r() * 3.6));
-  const ageDays = Math.floor(2 + r() * 400);
-  const views = Math.floor(subs * (0.1 + r() * r() * 60));
+function build(id: string, slug: string, c: number, k: number, kind: "search" | "upload"): VideoInfo {
+  const r = rng(hash(`${slug}:${c}:${k}:${kind}`));
+  const subs = channelSubs(slug, c);
+  const ageDays = kind === "upload" ? 1 + k * (2 + Math.floor(r() * 5)) + Math.floor(r() * 3) : Math.floor(2 + r() * 400);
+  // uploads: a steady base, with an occasional outlier
+  const outlier = kind === "upload" && r() < 0.12 ? 4 + r() * 25 : 1;
+  const views = Math.floor(subs * (kind === "upload" ? (0.05 + r() * 0.25) * outlier : 0.1 + r() * r() * 60));
   const theme = THEMES[Math.floor(r() * THEMES.length)]!;
   const tpl = TEMPLATES[Math.floor(r() * TEMPLATES.length)]!;
   const q = slug.replace(/-/g, " ");
   return {
-    id: `demo_${slug}_${i}`,
-    channelId: `democh_${slug}_${i}`,
+    id,
+    channelId: `democh_${slug}_${c}`,
     title: tpl(q, theme),
-    description: `[DEMO] Demo description about ${q}.`,
+    description: `[DEMO] Demo description about ${q}. ${theme} incremental game, idle, upgrades.`,
     tags: ["incremental game", "idle game", q, theme].slice(0, 2 + Math.floor(r() * 3)),
     publishedAt: new Date(Date.now() - ageDays * 86400000).toISOString(),
-    durationSec: Math.floor((8 + r() * 112) * 60),
+    durationSec: Math.floor((r() < 0.08 ? 0.5 : 8 + r() * 112) * 60),
     views,
     likes: Math.floor(views * 0.03),
     comments: Math.floor(views * 0.002),
-    thumbnail: `https://i.ytimg.com/vi/demo_${slug}_${i}/mqdefault.jpg`,
+    thumbnail: `https://i.ytimg.com/vi/${id}/mqdefault.jpg`,
   };
 }
 
-function makeChannel(slug: string, i: number): ChannelInfo {
-  const v = makeVideo(slug, i);
-  const r = rng(hash(`${slug}:${i}`));
-  const subs = Math.floor(10 ** (2.4 + r() * 3.6));
+function video(id: string): VideoInfo | undefined {
+  let m = /^demo_(.+)_(\d+)$/.exec(id);
+  if (m) return build(id, m[1]!, Number(m[2]), Number(m[2]), "search");
+  m = /^demoup_(.+)_(\d+)_(\d+)$/.exec(id);
+  if (m) return build(id, m[1]!, Number(m[2]), Number(m[3]), "upload");
+  return undefined;
+}
+
+function channel(id: string): ChannelInfo | undefined {
+  const m = /^democh_(.+)_(\d+)$/.exec(id);
+  if (!m) return undefined;
+  const slug = m[1]!;
+  const c = Number(m[2]);
+  const r = rng(hash(`${slug}:chx:${c}`));
+  const subs = channelSubs(slug, c);
+  const videoCount = 20 + Math.floor(r() * 400);
   return {
-    id: v.channelId,
-    title: `Demo Channel ${i + 1}`,
-    handle: `@demochannel${i + 1}`,
+    id,
+    title: `Demo Channel ${c + 1}`,
+    handle: `@${slug.replace(/-/g, "")}${c || ""}`,
     subscribers: subs,
-    videoCount: 20 + Math.floor(r() * 400),
-    viewCount: subs * Math.floor(20 + r() * 200),
+    videoCount,
+    viewCount: subs * Math.floor(5 + r() * 20) * videoCount / 10,
     country: "US",
-    uploadsPlaylist: null,
+    uploadsPlaylist: `demopl_${slug}_${c}`,
   };
 }
 
@@ -83,16 +101,30 @@ export const demoProvider: YouTubeProvider = {
     return Array.from({ length: Math.min(50, opts.maxResults ?? 50) }, (_, i) => `demo_${slug}_${i}`);
   },
   async getVideos(ids: string[]) {
-    return ids.flatMap((id) => {
-      const p = parseId(id);
-      return p ? [makeVideo(p.slug, p.i)] : [];
-    });
+    return ids.flatMap((id) => video(id) ?? []);
   },
   async getChannels(ids: string[]) {
-    return ids.flatMap((id) => {
-      const m = /^democh_(.+)_(\d+)$/.exec(id);
-      return m ? [makeChannel(m[1]!, Number(m[2]))] : [];
-    });
+    return ids.flatMap((id) => channel(id) ?? []);
+  },
+  async resolveChannel(ref: ChannelRef) {
+    if ("id" in ref) return channel(ref.id);
+    const slug = slugify(ref.handle.replace(/^@/, ""));
+    return channel(`democh_${slug}_0`);
+  },
+  async getUploadIds(playlistId: string, max: number) {
+    const m = /^demopl_(.+)_(\d+)$/.exec(playlistId);
+    if (!m) return [];
+    return Array.from({ length: Math.min(max, 60) }, (_, k) => `demoup_${m[1]}_${m[2]}_${k}`);
+  },
+  async getComments(videoId: string, max: number): Promise<CommentInfo[]> {
+    if (!videoId.startsWith("demo")) return [];
+    const r = rng(hash(videoId));
+    const lines = ["this game is so addictive", "what is the name of this game?", "the upgrade at 20:10 is broken lol", "great calm commentary", "please try the demo next", "numbers go brrr"];
+    return Array.from({ length: Math.min(max, 12) }, (_, i) => ({ id: `${videoId}_c${i}`, author: `demo_user_${i}`, text: `[DEMO] ${lines[Math.floor(r() * lines.length)]}`, likes: Math.floor(r() * 200), publishedAt: new Date(Date.now() - i * 86400000).toISOString(), replies: Math.floor(r() * 5) }));
+  },
+  async searchChannelIds(query: string, max: number) {
+    const slug = slugify(query);
+    return Array.from({ length: Math.min(max, 10) }, (_, i) => `democh_${slug}_${i}`);
   },
 };
 

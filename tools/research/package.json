@@ -10,7 +10,8 @@
     "research:cli": "tsx packages/cli/src/index.ts",
     "research:mcp": "tsx packages/mcp/src/index.ts",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit -p tsconfig.json"
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "research:seed": "tsx packages/cli/src/index.ts competitors_seed"
   },
   "devDependencies": {
     "@types/node": "^26.6.5",

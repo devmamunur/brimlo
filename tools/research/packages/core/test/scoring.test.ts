@@ -13,9 +13,9 @@ describe("median", () => {
 });
 
 describe("viewsPerDay", () => {
-  it("divides by age, minimum 1 day", () => {
+  it("divides by age, minimum 6 hours", () => {
     expect(viewsPerDay(1000, daysAgo(10), now)).toBeCloseTo(100);
-    expect(viewsPerDay(500, daysAgo(0), now)).toBe(500);
+    expect(viewsPerDay(500, daysAgo(0), now)).toBe(2000);
   });
 });
 
