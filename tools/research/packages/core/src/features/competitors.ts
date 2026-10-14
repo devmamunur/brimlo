@@ -150,7 +150,9 @@ export function parseSeedHandles(markdown: string): string[] {
 export async function competitorsSeed(input: z.infer<typeof competitorsSeedInput>, deps: Deps = {}): Promise<Envelope> {
   const i = competitorsSeedInput.parse(input);
   const before = unitsCounter();
-  const file = path.resolve(RESEARCH_ROOT, "../..", i.file);
+  const repoRoot = path.resolve(RESEARCH_ROOT, "../..");
+  const file = path.resolve(repoRoot, i.file);
+  if (!file.startsWith(repoRoot + path.sep) || !file.endsWith(".md")) throw new Error("file must be a .md file inside the repo.");
   const handles = parseSeedHandles(readFileSync(file, "utf8"));
   const have = new Set(rows().map((r) => r.handle?.toLowerCase()));
   const added: string[] = [];

@@ -16,12 +16,13 @@ async function call(endpoint: Endpoint, params: Record<string, string>): Promise
   const url = new URL(`${BASE}/${endpoint}`);
   for (const [k, v] of Object.entries({ ...params, key: config().apiKey })) url.searchParams.set(k, v);
   const res = await fetch(url, { signal: AbortSignal.timeout(15_000) });
+  // YouTube charges quota for invalid/failed requests too, so record every answered call.
+  recordQuota(endpoint, COSTS[endpoint], `${res.ok ? "" : `HTTP ${res.status} `}${params.q ?? params.id?.slice(0, 40) ?? params.playlistId ?? ""}`.trim());
   const body: any = await res.json().catch(() => ({}));
   if (!res.ok) {
     const reason = body?.error?.errors?.[0]?.reason ?? res.status;
     throw new Error(`YouTube API ${endpoint} failed (${reason}): ${body?.error?.message ?? res.statusText}`);
   }
-  recordQuota(endpoint, COSTS[endpoint], params.q ?? params.id?.slice(0, 40));
   return body;
 }
 

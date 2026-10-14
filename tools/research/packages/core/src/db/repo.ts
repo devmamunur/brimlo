@@ -88,4 +88,15 @@ export const allVideoRows = (liveOnly: boolean, limit = 5000): VideoRow[] =>
     .prepare(`SELECT * FROM videos ${liveOnly ? "WHERE source != 'demo'" : ""} ORDER BY views DESC LIMIT ?`)
     .all(limit)
     .map(parseVideo);
+/** Videos published since `sinceIso` (no views cut-off, so small-channel outliers are kept). */
+export const videosPublishedSince = (sinceIso: string, liveOnly: boolean): VideoRow[] =>
+  getDb()
+    .prepare(`SELECT * FROM videos WHERE published_at >= ? ${liveOnly ? "AND source != 'demo'" : ""}`)
+    .all(sinceIso)
+    .map(parseVideo);
+
+/** Light rows of every stored video, for per-channel baselines in one query. */
+export const baselineRows = (): { id: string; channel_id: string; views: number; published_at: string; duration_sec: number }[] =>
+  getDb().prepare("SELECT id, channel_id, views, published_at, duration_sec FROM videos").all() as any[];
+
 export const allChannelRows = (): ChannelRow[] => getDb().prepare("SELECT * FROM channels").all() as unknown as ChannelRow[];

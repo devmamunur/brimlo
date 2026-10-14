@@ -2,9 +2,9 @@
 
 @theme {
   --color-bg: #0b1023;
-  --color-panel: #121a36;
-  --color-panel2: #1a2347;
-  --color-line: #28345f;
+  --color-panel: #111834;
+  --color-panel2: #172045;
+  --color-line: #27325c;
   --color-ink: #eef1fb;
   --color-ink2: #b8c0dc;
   --color-muted: #8f98bd;
@@ -12,17 +12,36 @@
   --color-gold2: #ff8a00;
   --color-teal: #2ee6d6;
   --color-bad: #ff7a7a;
-  /* chart series: validated for the navy surface (scripts/validate_palette.js, dark) */
+  /* chart series: validated against the navy surface (dataviz validate_palette.js, dark mode) */
   --color-s1: #c98500;
   --color-s2: #18a89b;
-  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --animate-in: fade-up 0.35s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: none; }
+  }
 }
 
 @layer base {
-  html { font-size: 17px; color-scheme: dark; }
-  body { background: var(--color-bg); color: var(--color-ink); font-family: var(--font-sans); }
-  a { color: var(--color-teal); }
-  ::selection { background: #ffc83d44; }
-  :focus-visible { outline: 2px solid var(--color-teal); outline-offset: 2px; border-radius: 6px; }
+  html { font-size: 16.5px; color-scheme: dark; -webkit-font-smoothing: antialiased; }
+  body {
+    background-color: var(--color-bg);
+    background-image:
+      radial-gradient(60rem 30rem at -10% -10%, rgb(255 200 61 / 0.07), transparent 60%),
+      radial-gradient(50rem 28rem at 110% -5%, rgb(46 230 214 / 0.06), transparent 60%);
+    background-attachment: fixed;
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-feature-settings: "cv11", "ss01";
+  }
+  a { color: var(--color-teal); text-underline-offset: 3px; }
+  ::selection { background: rgb(255 200 61 / 0.3); }
+  :focus-visible { outline: 2px solid var(--color-teal); outline-offset: 2px; border-radius: 8px; }
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-thumb { background: var(--color-line); border-radius: 99px; border: 2px solid var(--color-bg); }
 }
-@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

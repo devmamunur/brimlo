@@ -1,6 +1,6 @@
 import { z } from "zod";
 import { cached } from "../cache.ts";
-import { allChannelRows, allVideoRows, getVideosByChannel } from "../db/repo.ts";
+import { allChannelRows, baselineRows, videosPublishedSince } from "../db/repo.ts";
 import { getYouTube, type ChannelInfo, type VideoInfo } from "../providers/index.ts";
 import { quotaStatus, unitsCounter } from "../quota/guard.ts";
 import type { Envelope } from "../result.ts";
@@ -93,11 +93,18 @@ export function findOutliers(
 export function outliersFromDb(f: OutlierFilters & { liveOnly?: boolean; limit?: number }): OutlierItem[] {
   const chRows = allChannelRows();
   const channels = new Map<string, ChannelInfo>(chRows.map((c) => [c.id, { id: c.id, title: c.title, handle: c.handle, subscribers: c.subscribers, videoCount: c.video_count, viewCount: c.view_count, country: c.country, uploadsPlaylist: c.uploads_playlist }]));
-  const videos: VideoInfo[] = allVideoRows(f.liveOnly ?? true).map((r) => ({ id: r.id, channelId: r.channel_id, title: r.title, description: r.description, tags: r.tags, publishedAt: r.published_at, durationSec: r.duration_sec, views: r.views, likes: r.likes, comments: r.comments, thumbnail: r.thumbnail }));
+  const since = new Date(Date.now() - f.days * 86400000).toISOString();
+  const videos: VideoInfo[] = videosPublishedSince(since, f.liveOnly ?? true).map((r) => ({ id: r.id, channelId: r.channel_id, title: r.title, description: r.description, tags: r.tags, publishedAt: r.published_at, durationSec: r.duration_sec, views: r.views, likes: r.likes, comments: r.comments, thumbnail: r.thumbnail }));
   const baselines = new Map<string, { value: number; type: OutlierItem["baseline_type"] }>();
+  const byChannel = new Map<string, { id: string; views: number; publishedAt: string; durationSec: number }[]>();
+  for (const r of baselineRows()) {
+    const list = byChannel.get(r.channel_id) ?? [];
+    list.push({ id: r.id, views: r.views, publishedAt: r.published_at, durationSec: r.duration_sec });
+    byChannel.set(r.channel_id, list);
+  }
   for (const c of channels.values()) {
-    const own = getVideosByChannel(c.id);
-    if (own.length >= 8) baselines.set(c.id, { value: medianBaseline(own.map((v) => ({ id: v.id, views: v.views, publishedAt: v.published_at, durationSec: v.duration_sec }))), type: "median_last_20" });
+    const own = byChannel.get(c.id) ?? [];
+    if (own.length >= 8) baselines.set(c.id, { value: medianBaseline(own), type: "median_last_20" });
     else baselines.set(c.id, { value: channelAverage(c.viewCount, c.videoCount), type: "channel_average" });
   }
   return findOutliers(videos, channels, baselines, f).slice(0, f.limit ?? 50);

@@ -132,7 +132,7 @@ export async function videoComments(input: z.infer<typeof videoCommentsInput>, d
 // ---------- video_transcript (yt-dlp) ----------
 export const videoTranscriptInput = z.object({
   video: z.string().min(1).describe("Video id or URL"),
-  lang: z.string().default("en"),
+  lang: z.string().regex(/^[a-z]{2,3}(-[A-Za-z0-9]{2,8})?$/, "Language code like en or en-US").default("en"),
   max_chars: z.number().int().min(500).max(20000).default(6000).describe("Characters to return. The full text is saved to a file"),
   offset: z.number().int().min(0).default(0).describe("Start position, to read the next part"),
   refresh: z.boolean().default(false),

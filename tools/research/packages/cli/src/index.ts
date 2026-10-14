@@ -53,8 +53,19 @@ if (!tool) {
   process.exit(cmd ? 1 : 0);
 }
 
+/** zod field type with default/optional/nullable unwrapped: "string" | "number" | "boolean" | "array" ... */
+function fieldType(field: any): string | undefined {
+  let def = field?._zod?.def;
+  while (def && ["default", "optional", "nullable"].includes(def.type)) def = def.innerType?._zod?.def;
+  return def?.type;
+}
+
 const input: Record<string, unknown> = {};
-for (const [k, v] of Object.entries(values)) if (k !== "json") input[k] = coerce(v);
+for (const [k, v] of Object.entries(values)) {
+  if (k === "json") continue;
+  const type = fieldType(tool.schema.shape[k]);
+  input[k] = type === "string" && typeof v === "string" ? v : type === "array" || type === "object" || type === "any" ? coerce(v) : coerceScalar(v);
+}
 if (tool.primary && rest.length) input[tool.primary] = rest.join(" ");
 
 try {
