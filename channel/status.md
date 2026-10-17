@@ -4,12 +4,13 @@ Update this every Sunday (`/weekly-review`) and after big events.
 
 ## Right now
 
-**Last updated:** Tue 13 Oct 2026
+**Last updated:** Sat 17 Oct 2026
 
 - Channel renamed to **Brimlo (@BrimloIdle)**.
 - 1 video published (Cookie Clicker, Mon 12 Oct). 1 scheduled (A Game About Digging a Hole, Wed 14 Oct).
 - I Am Plague playtest access: **granted** (Windows only → test in CrossOver). Playtest ends Mon 19 Oct.
-- Next: I Am Plague video for Fri 16 Oct. Steam Next Fest 19–26 Oct.
+- **I Am Plague published Sat 17 Oct 2026** ("I 100% the I Am Plague Playtest and the Rats Got OUT OF HAND"). Check 7-day results on Sat 24 Oct.
+- Next: Rock Crusher, Tue 20 Oct. Steam Next Fest 19–26 Oct.
 
 ## Numbers
 

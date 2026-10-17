@@ -10,7 +10,7 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 |---|---|---|---|---|
 | Cookie Clicker | Mac | Very high (old, evergreen) | Mon 12 Oct | ✅ used |
 | A Game About Digging a Hole | CrossOver | High | Wed 14 Oct | 🕒 scheduled |
-| I Am Plague **Playtest** (free, ends 19 Oct) | CrossOver ✅ 13 Oct (Graphics = **DXMT**; Auto crashes) | Low — 2 small channels | Fri 16 Oct | 📝 |
+| I Am Plague **Playtest** (free, ends 19 Oct) | CrossOver ✅ 13 Oct (Graphics = **DXMT**; Auto crashes) | Low — 2 small channels | Sat 17 Oct | ✅ used |
 | Rock Crusher | Mac (has demo too) | Medium (in Idle Cub's tags) | Tue 20 Oct | 📝 |
 | Sorting Inc | ? — test | Unknown | Fri 23 Oct | 📝 |
 | Cast n Chill | Mac | Medium (relaxing format) | Tue 3 Nov | 📝 |

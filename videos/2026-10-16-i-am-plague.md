@@ -2,12 +2,12 @@
 
 | | |
 |---|---|
-| Status | 📝 planned |
-| Upload | **Fri 16 Oct 2026, 10 PM Dhaka** (fallback: Sat 17 Oct, no later) |
+| Status | ✅ published |
+| Upload | Planned Fri 16 Oct 2026 · **Published Sat 17 Oct 2026** (Dhaka evening; one day late, the fallback date) |
 | Game | I Am Plague (Playtest) — in your Steam library as "I Am Plague Playtest" |
 | Source | Free open playtest. **Ends Mon 19 Oct.** |
 | Runs on | **Windows only** → CrossOver. **Works with CrossOver Graphics = DXMT** (13 Oct 2026). Crashed with Auto and with `-force-d3d11`. Keep DXMT for this game. |
-| Target length | 60–90 min |
+| Target length | 60–90 min (final length: _fill in_) |
 | YouTube link | |
 
 ## Game in one sentence
@@ -41,7 +41,12 @@
 | 2 | B (tiny → huge) | I Turned 10 Rats into a PLAGUE of Thousands \| I Am Plague |
 | 3 | D (feeling) | A Game Where You Are the Plague… and It's DISTURBING! \| I Am Plague Playtest |
 
-**Chosen:** 1 (game name + "Playtest" at the end, because it's a hyped pre-release roguelite — people search for it).
+| 4 | C (100%) | I 100% the I Am Plague Playtest and the Rats Got OUT OF HAND |
+| 5 | D (feeling) | A Game Where You Are the Plague… and It's DISTURBING! \| I Am Plague |
+
+Free score (17 Oct, estimate only): "I 100% I Am Plague and the Rats Got OUT OF HAND" 90, D 81, B 78, C-long 77, F 73.
+
+**Chosen and published (17 Oct):** 4 — "I 100% the I Am Plague Playtest and the Rats Got OUT OF HAND" (vidIQ title score 96). Thumbnail: "100% OUT OF CONTROL" + small Floor 50 boss box + Brimlo mark. Reason: 4 — keyword early, short, feeling words, and "100%" is true. Backup: 5.
 
 ## Thumbnail idea
 
@@ -52,42 +57,87 @@
 
 ## Recording script
 
-### Opening (first 30 seconds)
+Practice card. Do not read it word for word. Say it 2–3 times before you record. (Game facts: automatic combat, permanent upgrades, mutations with synergies, 200+ floors, "every death makes you stronger" — Steam page, 15 Oct 2026.)
 
-Show 5–15 seconds of your best late moment first (huge swarm). Then say:
+### Cold open (0:00–0:15)
 
-> "This started with a few small rats. One hour later… this.
-> This is I Am Plague. You are the plague. Your rats eat, grow, and mutate.
-> The playtest is free until October 19th, so let's see how big this swarm can get."
+Show 5–15 seconds of your biggest swarm first. No talking, or only one line.
 
-### Start of play (0:30 – 3:00)
+### Hook (pick ONE)
 
-> "Okay, I start with only a few rats. The goal is simple: eat everything and grow.
+1. **Tiny → huge (recommended):**
+   > "This started with a few small rats. One hour later… this.
+   > This is I Am Plague. Let's see how it happened."
+2. **Early / free:**
+   > "This game is not out yet. But the playtest is free right now.
+   > And it's a little bit disturbing. Let's play."
+3. **Question:**
+   > "Can a few rats really eat a whole fortress? Let's find out."
+
+### The idea (0:30–1:00)
+
+> "In this game, you are the plague. You lead a swarm of rats.
+> The fight is automatic. You choose the upgrades and the mutations.
+> When you die, you get stronger. The playtest ends on October 19th."
+
+### Start of play (1:00–3:00)
+
+> "Okay, I start with only a few rats. The goal is simple: grow the swarm and go deeper.
 > Let's look at the upgrades first… This one gives more rats. This one makes them faster.
-> I think more rats is better at the start. Let's buy it."
+> I think more rats is the best choice now. I'll buy it."
 
-### Lines for milestones
+### Milestone lines
 
-- **First upgrade:** "Okay, first upgrade. Before, I had [X] rats. Now I have [Y]. That's a big jump."
+- **First upgrade:** "Before, I had [X] rats. Now I have [Y]. That's a big jump."
 - **New mutation:** "New mutation! Let's read it… '[read the text]'. Hmm, this sounds strong. I'll take it."
+- **Mutation combo (synergy):** "Oh, these two work together. This is a nice combo."
 - **New floor:** "Floor [N]. The enemies are stronger now. Let's see if the swarm can handle it."
-- **Losing / reset:** "And… we lost. That's okay — this is a roguelite. We keep some upgrades. Let's spend them."
-- **Big swarm moment:** "Look at this. The whole screen is rats now. This is crazy."
-- **Speed-up:** "This part is slow, so let's speed it up." (add "x8" label in edit)
-- **Thinking out loud:** "I'm not sure about this one… I'll try it and see."
+- **Boss or hard fight:** "This enemy looks big. Let's see what happens."
+- **First death:** "And… we died. That's okay. In this game, every death makes you stronger. Let's spend our upgrades."
+- **Permanent upgrade:** "This upgrade stays forever. The next run will be faster."
+- **Better than last run:** "Last run I died on floor [X]. This time I'm on floor [Y]."
+- **Big swarm moment:** "Look at this. The whole screen is rats. This is crazy."
+- **New record:** "New record! Floor [N]."
+
+### Speed-up lines
+
+- "This part is slow, so let's speed it up."
+- "Nothing to do here. Let's skip ahead a few minutes."
+
+### Thinking-out-loud lines
+
+- "I'm not sure about this one. I'll try it and see."
+- "My plan is: first more rats, then the strong mutation."
+- "Hmm. That didn't work. Let's try something different."
+
+### Short lines for any moment
+
+- "Okay, let's start."
+- "Let's read this one…"
+- "I think this is the best one right now."
+- "That's a big jump."
+- "This is getting out of hand."
+- "Oh, wow. I didn't expect that."
+- "Oh no… okay, it's fine."
+- "That was a mistake. Let's fix it."
+- "This is really satisfying."
+- "Now we're getting somewhere."
+- "Sorry — let me say that again."
+- "While this runs, let me tell you my plan."
 
 ### Ending (last 1–2 minutes)
 
 > "So that's I Am Plague. I really [liked / didn't like] it.
-> The best part is [the swarm growing / the mutations]. The weak part is [one honest thing].
-> If you like incremental games where you start tiny and end huge, try the playtest before October 19th.
+> The best part is [the swarm growing / the mutation combos]. The weak part is [one honest thing].
+> If you like games where you start tiny and end huge, try the playtest before October 19th.
+> It's free right now. The link is in the description.
 > Thanks for watching, and I'll see you in the next video."
 
 ### Practice lines (say each 3 times before recording)
 
 1. "This started with a few small rats. One hour later… this."
 2. "Before, I had ten rats. Now I have two hundred."
-3. "Let's read this mutation."
+3. "We died. That's okay. Every death makes you stronger."
 4. "This part is slow, so let's speed it up."
 5. "If you like games where you start tiny and end huge, try this one."
 
@@ -118,11 +168,11 @@ Chapters
 
 ## Tags
 
-I Am Plague, I Am Plague playtest, incremental game, incremental roguelite, rat swarm game, idle game, brimlo
+I Am Plague, I Am Plague gameplay, I Am Plague playtest, I Am Plague 100%, I Am Plague incremental, incremental game, incremental roguelite, roguelite, rat swarm game, rats game, idle game, clicker game, steam playtest, new steam games 2026, brimlo
 
 ## Results
 
-| Check | 7 days (23 Oct) | 28 days (13 Nov) |
+| Check | 7 days (Sat 24 Oct 2026) | 28 days (Sat 14 Nov 2026) |
 |---|---|---|
 | Views | | |
 | Impressions CTR | | |

@@ -16,7 +16,7 @@ Last updated: 13 Oct 2026 · Sim games are a "later" queue: owned + planned game
 |---|---|---|---|
 | Mon 12 Oct | Cookie Clicker | Owned (Mac) | ✅ |
 | Wed 14 Oct | A Game About Digging a Hole | Owned (CrossOver) | 🕒 |
-| **Fri 16 Oct** | **I Am Plague — "\| Playtest"** — runs in CrossOver with Graphics = DXMT ✅ | Free playtest (CrossOver). **Playtest ends Mon 19 Oct.** | 📝 |
+| **Fri 16 Oct** | **I Am Plague — "\| Playtest"** — runs in CrossOver with Graphics = DXMT ✅ | Free playtest (CrossOver). **Playtest ends Mon 19 Oct.** Published Sat 17 Oct (1 day late). | ✅ |
 
 - **Tue 13 / Wed 14 evening:** install I Am Plague in CrossOver, 10-min test. Check its Discussions page for video rules. `/new-video I Am Plague`
 - **Wed 14 / Thu 15 evening:** record 60–90 min, light edit, schedule for Fri 16.
