@@ -8,7 +8,8 @@ Status: ✅ published · 🕒 scheduled · 🎬 recorded · 📝 planned · ❌ 
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | 1 | Mon 12 Oct 2026 | Cookie Clicker | _fill in_ | | ✅ | Owned (Mac) | | | | | [file](2026-10-12-cookie-clicker.md) |
 | 2 | Wed 14 Oct 2026 | A Game About Digging a Hole | _fill in_ | | 🕒 | Owned (CrossOver) | | | | | [file](2026-10-14-a-game-about-digging-a-hole.md) |
-| 3 | Sat 17 Oct 2026 | I Am Plague (playtest) | I 100% the I Am Plague Playtest and the Rats Got OUT OF HAND | _fill in_ | ✅ | Free playtest (CrossOver) | | | | | [file](2026-10-16-i-am-plague.md) |
+| 3 | Sat 17 Oct 2026 | I Am Plague (playtest) | I 100% the I Am Plague Playtest and the Rats Got OUT OF HAND | 1:53:37 | ✅ | Free playtest (CrossOver) | | | | | [file](2026-10-16-i-am-plague.md) |
+| 4 | Sun 18 Oct 2026 | Quadrillion Carrots (demo) | I Tried to Harvest QUADRILLION Carrots \| Quadrillion Carrots Demo | 1:04:12 | 🕒 | Free demo (CrossOver) | | | | | [file](2026-10-18-quadrillion-carrots.md) |
 
 ## Medians (update every Sunday)
 

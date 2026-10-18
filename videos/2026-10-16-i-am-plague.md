@@ -7,7 +7,7 @@
 | Game | I Am Plague (Playtest) — in your Steam library as "I Am Plague Playtest" |
 | Source | Free open playtest. **Ends Mon 19 Oct.** |
 | Runs on | **Windows only** → CrossOver. **Works with CrossOver Graphics = DXMT** (13 Oct 2026). Crashed with Auto and with `-force-d3d11`. Keep DXMT for this game. |
-| Target length | 60–90 min (final length: _fill in_) |
+| Target length | 60–90 min (final length: 1:53:37, seen in YouTube Studio 18 Oct) |
 | YouTube link | |
 
 ## Game in one sentence

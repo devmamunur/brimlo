@@ -15,6 +15,7 @@ Last updated: 13 Oct 2026 · Sim games are a "later" queue: owned + planned game
 | Upload | Video | Game source | Status |
 |---|---|---|---|
 | Mon 12 Oct | Cookie Clicker | Owned (Mac) | ✅ |
+| **Sun 18 Oct** | **Quadrillion Carrots — "\| Demo"** (fast lane, added 18 Oct) | Free demo (CrossOver) | 🕒 |
 | Wed 14 Oct | A Game About Digging a Hole | Owned (CrossOver) | 🕒 |
 | **Fri 16 Oct** | **I Am Plague — "\| Playtest"** — runs in CrossOver with Graphics = DXMT ✅ | Free playtest (CrossOver). **Playtest ends Mon 19 Oct.** Published Sat 17 Oct (1 day late). | ✅ |
 
