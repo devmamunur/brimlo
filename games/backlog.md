@@ -13,7 +13,7 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 | I Am Plague **Playtest** (free, ends 19 Oct) | CrossOver ✅ 13 Oct (Graphics = **DXMT**; Auto crashes) | Low — 2 small channels | Sat 17 Oct | ✅ used |
 | Quadrillion Carrots (free demo) | CrossOver | Low — 1 demo video by a 44K channel (18 Oct) | Sun 18 Oct | 🕒 scheduled |
 | Rock Crusher | Mac (has demo too) | Medium (in Idle Cub's tags) | Tue 20 Oct | 📝 |
-| Sorting Inc | ? — test | Unknown | Fri 23 Oct | 📝 |
+| Sorting Inc | ? — test | Unknown | was Fri 23 Oct; moved for Outbreak Z, needs a new slot | 📝 |
 | Cast n Chill | Mac | Medium (relaxing format) | Tue 3 Nov | 📝 |
 | Scratch the Ticket | CrossOver | High (Azrilich 956K) → need a fresh angle | Fri 6 Nov | 📝 |
 | Keep on Mining! | CrossOver | Low–medium (competition 29/100) | Tue 10 Nov | 📝 |

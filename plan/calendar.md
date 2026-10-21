@@ -29,7 +29,7 @@ Last updated: 13 Oct 2026 · Sim games are a "later" queue: owned + planned game
 | Upload | Video | Game source | Status |
 |---|---|---|---|
 | Tue 20 Oct | Rock Crusher | Owned (Mac) | 📝 |
-| Fri 23 Oct | Sorting Inc | Owned (CrossOver) | 📝 |
+| Fri 23 Oct | **Outbreak Z — "\| Demo"** (fast lane; record Wed 21 Oct evening). Sorting Inc moved: needs a new slot. | Free demo (Mac native) | 📝 |
 | **Sat 24 Oct** | **PAPERWORKS: Paper Shredder Inc. — "\| First Look Demo"** (fast lane: record + publish same night). Backup: Ant Clicker. Needs 10-min Mac test first. | Free demo (native Mac) | 📝 |
 
 - **Mon 19 – Thu 22 evenings:** test 4–6 incremental demos, ~20 min each. **Record these tests with commentary** (used in the week-3 round-up).
