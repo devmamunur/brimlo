@@ -124,6 +124,56 @@ export async function news(appid: number, count = 3): Promise<{ title: string; d
   }
 }
 
+export interface NewsItem { title: string; date: string; url: string; feed: string; text: string }
+/** Official Steam Web API (documented, keyless). Longer text, for announcement checks. */
+export async function newsWithText(appid: number, count = 20): Promise<NewsItem[]> {
+  try {
+    const j = await getJson<any>(`https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=${appid}&count=${count}&maxlength=1200`, { robots: false });
+    return (j?.appnews?.newsitems ?? []).map((n: any) => ({ title: String(n.title ?? ""), date: new Date(n.date * 1000).toISOString().slice(0, 10), url: n.url, feed: n.feedlabel ?? n.feedname ?? "", text: String(n.contents ?? "") }));
+  } catch {
+    return [];
+  }
+}
+
+const MONTHS = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"];
+const PLAYTEST = /\b(play\s?-?test(?:ing|s)?|closed beta|beta test)\b/i;
+/** Body text counts only with a call to action, so "join our Discord for playtests" does not match. */
+const PLAYTEST_CTA = /play\s?-?test[^.\n]{0,40}\b(is|are|now|goes|going|starts?|starting|open|live)\b|\b(join|sign up for|apply for|request access to)\s+(the|our|this|a|an|my)\s+(?:[\w-]+\s+)?play\s?-?test|play\s?-?test[^.\n]{0,60}\b(request access|sign up)\b/i;
+const ENDED = /\b(play\s?-?test(?:ing|s)?|beta)\b[^.\n]{0,60}\b(has ended|is over|ended|is closed|closed)\b|\bthank(?:s| you)[^.\n]{0,60}play\s?-?test/i;
+
+const daysBetween = (a: string, b: string) => Math.round((Date.parse(b) - Date.parse(a)) / 86400000);
+
+export interface PlaytestSignal {
+  title: string;
+  date: string;
+  url: string;
+  /** "live" = future end date, or a "live/join" title posted in the last 14 days with no end date; "ended" = past end date or ended wording; "announced" = mentioned, no clear state. */
+  state: "live" | "ended" | "announced";
+  ends: string | null;
+}
+
+/** Last day named after through/until/ends/by, as YYYY-MM-DD. The year comes from the post date (rolls over to next year if needed). */
+export function playtestEndDate(text: string, postDate: string): string | null {
+  const m = /\b(?:through|thru|until|till|ends?|ending|by|closes?)\s+(?:on\s+)?(?:(?:mon|tue|wed|thu|fri|sat|sun)[a-z]*,?\s+)?(?:(?:the\s+)?(\d{1,2})(?:st|nd|rd|th)?\s+(?:of\s+)?([a-z]{3,9})|([a-z]{3,9})\.?\s+(\d{1,2})(?:st|nd|rd|th)?)/i.exec(text);
+  if (!m) return null;
+  const day = Number(m[1] ?? m[4]);
+  const mon = MONTHS.indexOf((m[2] ?? m[3]!).slice(0, 3).toLowerCase());
+  if (mon < 0 || day < 1 || day > 31) return null;
+  const post = new Date(postDate + "T00:00:00Z");
+  let year = post.getUTCFullYear();
+  if (Date.UTC(year, mon, day) < post.getTime() - 7 * 86400000) year += 1;
+  return new Date(Date.UTC(year, mon, day)).toISOString().slice(0, 10);
+}
+
+/** Newest playtest announcement in a game's news, or null. Pure, tested with fixtures. */
+export function findPlaytest(items: NewsItem[], today = new Date().toISOString().slice(0, 10)): PlaytestSignal | null {
+  const hit = [...items].sort((a, b) => b.date.localeCompare(a.date)).find((n) => PLAYTEST.test(n.title) || (PLAYTEST.test(n.text.slice(0, 600)) && PLAYTEST_CTA.test(n.text.slice(0, 600))));
+  if (!hit) return null;
+  const ends = playtestEndDate(`${hit.title}. ${hit.text}`, hit.date);
+  const state = ends ? (ends < today ? "ended" : "live") : ENDED.test(`${hit.title}. ${hit.text}`) ? "ended" : /\b(is live|is now live|now live|open now|is open|live now|join)\b/i.test(hit.title) && daysBetween(hit.date, today) <= 14 ? "live" : "announced";
+  return { title: hit.title, date: hit.date, url: hit.url, state, ends };
+}
+
 export interface SpyData { owners: string | null; ccu: number | null; avg_playtime_hours: number | null; tags: { name: string; votes: number }[] }
 /** SteamSpy public API. Owner numbers are ESTIMATES in wide ranges. */
 export async function steamSpy(appid: number): Promise<SpyData | null> {

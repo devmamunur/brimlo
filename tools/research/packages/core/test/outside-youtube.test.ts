@@ -3,7 +3,7 @@ import { htmlToText } from "../src/features/web.ts";
 import { ruleChecks } from "../src/features/steam.ts";
 import { assertPublicUrl, BlockedError, decodeEntities, isPrivateIp, parseRobots, robotsAllows } from "../src/providers/http.ts";
 import { parseItchRss } from "../src/providers/itch.ts";
-import { parseSearchRows, searchUrl } from "../src/providers/steam.ts";
+import { findPlaytest, parseSearchRows, playtestEndDate, searchUrl } from "../src/providers/steam.ts";
 import { analyze, sentiment, themesIn } from "../src/scoring/sentiment.ts";
 
 const ROW = (o: { appid: number; href: number; title: string; mac?: boolean; price?: number; tip?: string }) =>
@@ -119,5 +119,28 @@ describe("htmlToText", () => {
     expect(text).toMatch(/- One\s*\n- Two/);
     expect(text).not.toContain("alert");
     expect(links).toEqual([{ text: "update", url: "https://example.com/news/1" }]);
+  });
+});
+
+describe("Steam playtest announcements", () => {
+  const item = (title: string, date: string, text = "") => ({ title, date, url: "https://x", feed: "Community Announcements", text });
+  it("reads end dates in common wordings", () => {
+    expect(playtestEndDate("Playtest is live through October 19!", "2026-10-02")).toBe("2026-10-19");
+    expect(playtestEndDate("Open until 5th Nov", "2026-10-30")).toBe("2026-11-05");
+    expect(playtestEndDate("ends Jan 3", "2026-12-20")).toBe("2027-01-03");
+    expect(playtestEndDate("Join our playtest soon", "2026-10-02")).toBeNull();
+  });
+  it("marks live, ended and announced", () => {
+    expect(findPlaytest([item("I Am Plague Playtest Is Live — Join Through October 19", "2026-10-02")], "2026-10-17")).toMatchObject({ state: "live", ends: "2026-10-19" });
+    expect(findPlaytest([item("I Am Plague Playtest Is Live — Join Through October 19", "2026-10-02")], "2026-10-21")).toMatchObject({ state: "ended" });
+    expect(findPlaytest([item("Playtest is now live", "2026-10-20")], "2026-10-21")).toMatchObject({ state: "live", ends: null });
+    expect(findPlaytest([item("Thank you for playing the playtest", "2026-10-20")], "2026-10-21")).toMatchObject({ state: "ended" });
+    expect(findPlaytest([item("Devlog 4", "2026-10-20", "Sign up for the playtest on our page.")], "2026-10-21")).toMatchObject({ state: "announced" });
+    expect(findPlaytest([item("Playtest is now live!", "2026-09-27")], "2026-10-21")).toMatchObject({ state: "announced" });
+    expect(findPlaytest([item("We hit 2000 Wishlists!", "2026-10-07", "Thanks all. Join our Discord for playtests and news.")], "2026-10-21")).toBeNull();
+  });
+  it("returns null with no playtest news and picks the newest", () => {
+    expect(findPlaytest([item("Devlog", "2026-10-01")])).toBeNull();
+    expect(findPlaytest([item("Playtest 1", "2026-09-01"), item("Playtest 2 is live", "2026-10-10")], "2026-10-11")?.title).toBe("Playtest 2 is live");
   });
 });

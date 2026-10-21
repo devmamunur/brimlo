@@ -9,7 +9,7 @@ import { descriptionAndTags, descriptionAndTagsInput } from "./features/tags.ts"
 import { scoreTitleInput, scoreTitleTool, titlePatterns, titlePatternsInput } from "./features/titles.ts";
 import { trending, trendingInput } from "./features/trending.ts";
 import { itchNew, itchNewInput, redditSearchInput, redditSearchTool } from "./features/community.ts";
-import { steamDiscover, steamDiscoverInput, steamGame, steamGameInput, steamReviews, steamReviewsInput } from "./features/steam.ts";
+import { steamDiscover, steamDiscoverInput, steamGame, steamGameInput, steamPlaytest, steamPlaytestInput, steamReviews, steamReviewsInput } from "./features/steam.ts";
 import { webFetch, webFetchInput } from "./features/web.ts";
 import { backup, backupInput } from "./features/backup.ts";
 import { dailyInput, runDaily } from "./features/daily.ts";
@@ -196,6 +196,14 @@ export const tools: ToolDef[] = [
     primary: "game",
     schema: steamReviewsInput,
     run: steamReviews,
+  },
+  {
+    name: "steam_playtest",
+    title: "Steam playtests",
+    description: "Find Steam playtests from the developer's own announcements (Steam hides the Request Access button from logged-out users). With a game: its newest playtest announcement, state (live / ended / announced) and end date. Without a game: scans recent coming-soon games for niche tags and lists live playtests first. Free (official news API), cached 6h.",
+    primary: "game",
+    schema: steamPlaytestInput,
+    run: steamPlaytest,
   },
   {
     name: "itch_new",

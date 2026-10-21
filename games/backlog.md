@@ -49,6 +49,25 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 | FEED THE AI | Big outlier, but already covered by Idle Cub and others | Windows only | Paid | Only with a fresh angle (100% run) |
 | My Fire Is Bigger Than Yours | 100% video got 174K | ? | Paid | Covered; fresh angle needed |
 
+### Next Fest scout, 21 Oct 2026 (game-scout; Steam data only, demo length and YouTube coverage NOT verified)
+
+Next Fest ends **Mon 26 Oct**. Record by Sun 25 Oct. Always do a 10-minute test first.
+
+| Game | Status / date | Mac | Notes |
+|---|---|---|---|
+| **PAPERWORKS: Paper Shredder Inc.** | Free demo; Early Access Q4 2026 | Native | Pick for Sat 24 Oct. Shred, upgrade, automate. Dark AI story. |
+| **PAYDIRT** | Free demo; release Nov 2026 | Native | Pick for Tue 27 Oct. Mining + debt loop. |
+| **Shattermine Idle** (Goop Games) | Free demo; release "coming soon" | CrossOver, untested | Pure incremental mining: ores, workers, prestige, abilities. 0 coverage in our DB. Found in an earlier session. Test tonight. |
+| 10 Million Pixels (Battle Lab) | Free demo (since 16 Oct); release Fri 13 Nov | CrossOver, untested | "Mine through millions of pixels." Backup for Shattermine. |
+| Ant Clicker | Full game $4.99 (10 Oct); free demo | Native | Backup for Sat 24. Rebirth loop. Only 3 reviews. |
+| My Dirty Little Lake | Free demo; release Mon 16 Nov | CrossOver | Cozy cleanup. Test; or hold for launch week 16 Nov. |
+| Slime Splitter | Free demo; Q4 2026 | CrossOver | Swarm / big numbers. Backup. |
+| The Black Hole Is Hungry! | Free demo; no date | CrossOver | Space incremental, big upgrade tree. |
+| Dig to Mole Dorado | Free demo; release Fri 27 Nov | CrossOver | May be too short for 60 min. |
+| The Idle Undead | Free demo; F2P coming soon | CrossOver | Zombie idle. Unknown quality. |
+| Hammer and Hoard | Free demo; EA Q4 2026 | Native | Tower defense; less idle. Backup only. |
+| Widget Idle | Free demo; release Thu 19 Nov | Native | Near the "desktop pet" avoid list. Skip. |
+
 ## Avoid
 
 - Roblox "incremental" games (different audience).

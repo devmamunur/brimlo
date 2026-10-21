@@ -85,6 +85,7 @@ Free limit: **10,000 units per day**, reset at midnight Pacific time.
 | `steam_game` | One game: price, Mac build, demo, reviews, players now, owner estimate, news, Brimlo rule checks, stored YouTube coverage | 0 |
 | `steam_discover` | New releases / demos / coming soon / popular new / top rated by niche tag; Mac and price filters | 0 |
 | `steam_reviews` | Review sentiment: % positive, praise and complaint themes, quotes | 0 |
+| `steam_playtest` | Playtests from the developer's own announcements (Steam hides the Request Access button when logged out): one game's state (live / ended / announced) and end date, or a scan of coming-soon niche games. Confirm on the store page | 0 |
 | `itch_new` | Newest / top-rated itch.io games for a tag | 0 |
 | `reddit_search` | Reddit posts and mood (official API, optional key) | 0 |
 | `web_fetch` | Read one public page as clean text (obeys robots.txt) | 0 |

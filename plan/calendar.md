@@ -30,7 +30,7 @@ Last updated: 13 Oct 2026 · Sim games are a "later" queue: owned + planned game
 |---|---|---|---|
 | Tue 20 Oct | Rock Crusher | Owned (Mac) | 📝 |
 | Fri 23 Oct | Sorting Inc | Owned (CrossOver) | 📝 |
-| **Sat 24 Oct** | **Next Fest demo #1 — "\| First Look Demo"** (fast lane: record + publish same night) | Free demo | ❓ |
+| **Sat 24 Oct** | **PAPERWORKS: Paper Shredder Inc. — "\| First Look Demo"** (fast lane: record + publish same night). Backup: Ant Clicker. Needs 10-min Mac test first. | Free demo (native Mac) | 📝 |
 
 - **Mon 19 – Thu 22 evenings:** test 4–6 incremental demos, ~20 min each. **Record these tests with commentary** (used in the week-3 round-up).
 - **Thu 22:** pick the 2 best demos with `/pick-game`.
@@ -41,7 +41,7 @@ Last updated: 13 Oct 2026 · Sim games are a "later" queue: owned + planned game
 
 | Upload | Video | Game source | Status |
 |---|---|---|---|
-| Tue 27 Oct | Next Fest demo #2 — "\| First Look Demo" | Free demo | ❓ |
+| Tue 27 Oct | **PAYDIRT — "\| First Look Demo"** (releases Nov 2026). Backup: My Dirty Little Lake (needs CrossOver test). | Free demo (native Mac) | 📝 |
 | Fri 30 Oct | **Best Incremental Demos of Steam Next Fest October 2026** (round-up from your test clips + new commentary) | Free demos | 📝 |
 
 - **Mon 26 – Thu 29 evenings:** edit the round-up.
