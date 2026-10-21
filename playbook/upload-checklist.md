@@ -23,7 +23,9 @@ Run through this before every upload. After uploading, run `/publish`.
 - [ ] One idea, 2–4 words or one number
 - [ ] Real late-game screenshot
 - [ ] Readable at phone size
-- [ ] Brimlo mark in the corner
+- [ ] No corner boxes and no mascot/logo stamp in any corner
+- [ ] No number on it that I did not read on screen
+- [ ] Title, thumbnail and first 30 seconds promise the same thing
 
 ## Description
 
