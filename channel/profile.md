@@ -20,7 +20,7 @@ Last updated: 13 Oct 2026
 
 - Colors: navy **#0B1023** (background), gold gradient **#FFC83D → #FF8A00** (main text, highlights), teal **#2EE6D6** (numbers, arrows).
 - Banner text: "BRIMLO."
-- Logo: **needs a new idea.** The old gold staircase was made for "Idle Ascent". Pick something that fits "Brimlo" and keep it as a small corner mark on every thumbnail.
+- Logo (chosen 23 Oct 2026): **the Brimlo mascot**, a smug gold money bag with a small gold crown, teal rope and teal outline. It replaces the old gold staircase made for "Idle Ascent". Use it for the profile picture and banner only. **Never put the logo on thumbnails** (no corner marks, stamps or boxes).
 - Voice: calm, friendly, honest. "Chill" is a strength, not a weakness.
 
 ## Channel description (draft — edit and paste into YouTube)

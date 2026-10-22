@@ -2,13 +2,14 @@
 
 | | |
 |---|---|
-| Status | 📝 planned (recording Wed 21 Oct 2026 evening) |
-| Upload | Fri 23 Oct 2026, 12 PM ET (10 PM Dhaka). Fast lane: 2 days after recording. |
+| Status | 🕒 scheduled |
+| Upload | **Fri 23 Oct 2026, 10:00 PM Dhaka** (= 12 PM ET). Fast lane. |
 | Game | Outbreak Z (Frozen Logic Studios): https://store.steampowered.com/app/4908120/ — demo app 5221090 |
 | Source | Free Next Fest demo. Next Fest ends Mon 26 Oct 2026. Release date not announced. |
-| Runs on | Mac native (Steam page shows macOS). 10-minute test: not done yet. |
+| Runs on | Mac native (Steam page shows macOS) |
+| Length | _add final length_ |
 | Target length | 60–120 min. Another creator played 1h 48m and reached about mission 310 without finishing (their video, Oct 2026). |
-| YouTube link | |
+| YouTube link | _add the full link_ |
 
 ## Game in one sentence
 
@@ -26,13 +27,13 @@
 | 2 | B (question) | Can 3 Survivors Beat a Zombie Horde on Their Own? \| Outbreak Z Demo |
 | 3 | A (tiny → huge) | I Looted a Dead City to Build the Strongest Squad \| Outbreak Z Demo |
 
-**Chosen:** 1 for now (not scored yet — run `/titles` to score). The title must match what the first 30 seconds show.
+**Chosen and scheduled (23 Oct 2026):** One Knife to MINIGUN: I Beat the Whole Outbreak Z Demo — free score 73, vidIQ 89 (estimates). Story: started with one knife, ended with a squad of 3, rifle, LMG and minigun, demo 100% done. Backups: "This Zombie Auto-Battler Starts With One Knife | Outbreak Z Demo" (72 / —), "Outbreak Z: How I Went From Weakling to Overpowered" (64 / vidIQ 91). Competitors (Ash Swoon, Hultigamer) use the plain Steam banner with the game logo; their title says "Auto-Battler".
 
 ## Thumbnail idea
 
-- Type: hero object (one big moment).
-- Words (2–4 max): decide after recording. Use only a number you read on screen.
-- Picture: a real screenshot of the squad firing at a huge horde. One big image, no corner boxes, no mascot stamp. See `playbook/thumbnails.md` rules 9–11.
+- **Final:** AI art (GPT, from Steam key art). Blood-red background, 3 survivors, minigun firing at a horde. Text: "KNIFE → MINIGUN" (white + gold) and a small "OUTBREAK Z" top-left. No corner box, no mascot.
+- vidIQ thumbnail score was 37 on the first version (estimate). Judge by real CTR after 48 h; if CTR is low, make a version 2 with a less busy background and a bigger face.
+- Check the AI minigun looks close to the real in-game minigun.
 
 ## Recording script
 
@@ -86,31 +87,54 @@ Before recording: play 15 minutes off camera. Learn the buttons (fire, R reload,
 
 ## Chapters
 
-```
-00:00 
-```
+See the Description. Fill in the times.
 
 ## Description
 
 ```
-Three survivors, one dead city, and a zombie horde. In the free Outbreak Z demo, I loot gear, upgrade my squad and see how far they get.
+I started the free Outbreak Z demo with one knife and one survivor. By the end I had a full squad of three, and I got the rifle, the LMG and the minigun. I played the demo to 100%, and this is the whole run.
 
-🎮 Game: Outbreak Z on Steam: https://store.steampowered.com/app/4908120/
+In Outbreak Z you loot a dead city, upgrade your gear, and send your survivors into zombie hordes. They fight on their own, so every upgrade you make shows right away.
+
+In this video:
+• Starting weak with one knife
+• Finding better guns and upgrading them
+• Building a squad of three survivors
+• Getting the rifle, the LMG and the minigun
+• Finishing 100% of the demo
+
+🎮 Outbreak Z on Steam (the demo is free): https://store.steampowered.com/app/4908120/
 Developer: Frozen Logic Studios
+The full game has no release date yet.
 
 Chapters
-00:00 ...
+00:00 Intro
+[time] Starting with one knife
+[time] First gun and first upgrades
+[time] Second and third survivor
+[time] Rifle
+[time] LMG
+[time] Minigun
+[time] Demo 100% complete + my thoughts
 
-#incremental #autobattler #outbreakz
+I play new Steam demos and idle, incremental and auto-battler games with calm, full-length live commentary. New video every Tuesday and Friday.
+
+Subscribe to Brimlo: where the numbers only go up.
+
+#OutbreakZ #SteamDemo #AutoBattler
 ```
+
+(Fill the `[time]` chapter lines from the timeline.)
 
 ## Tags
 
-outbreak z, outbreak z demo, auto battler, zombie game, steam demo, idle game, brimlo
+Outbreak Z, Outbreak Z demo, Outbreak Z gameplay, Outbreak Z Steam, Outbreak Z full demo, Outbreak Z minigun, zombie auto battler, auto battler game, zombie game, zombie survival game, loot and upgrade game, squad survival game, steam demo, new steam demos, steam next fest, steam next fest demos, new steam games 2026, idle game, incremental game, brimlo
+
+Hashtags: #OutbreakZ #SteamDemo #AutoBattler
 
 ## Results
 
-| Check | 7 days | 28 days |
+| Check | 7 days (Fri 30 Oct 2026) | 28 days (Fri 20 Nov 2026) |
 |---|---|---|
 | Views | | |
 | Impressions CTR | | |
