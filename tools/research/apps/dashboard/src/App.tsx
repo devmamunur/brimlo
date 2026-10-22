@@ -130,7 +130,7 @@ export function App() {
         <div className="mt-8 flex-1"><Nav active={root} /></div>
         <div className="space-y-3 rounded-2xl bg-white/[0.03] p-4 ring-1 ring-inset ring-white/[0.06]">
           {s && <Badge tone={s.mode === "demo" ? "bad" : "teal"} dot>{s.mode === "demo" ? "Demo data" : "Live data"}</Badge>}
-          <p className="text-xs leading-relaxed text-muted">“where the numbers only go up.”</p>
+          <p className="text-xs leading-relaxed text-muted">“You relax. I'll grind.”</p>
         </div>
       </aside>
 

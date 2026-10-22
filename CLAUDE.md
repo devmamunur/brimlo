@@ -30,7 +30,7 @@ This repo is the brain of the YouTube channel **Brimlo** (@BrimloIdle). It holds
 | Workflow | Record + edit one video on Saturday, one on Sunday. Weekday evenings: scout, test games, comments. |
 | Goal | YPP: 1,000 subs + **8,000 watch hours** (new rule for applicants from 1 Feb 2027). Then long-term income. |
 | Game budget | Max **$10–15/month**. Free first: demos, playtests, free-to-play, developer keys. |
-| Brand | Navy #0B1023, gold #FFC83D→#FF8A00, teal #2EE6D6. Tagline: "where the numbers only go up." |
+| Brand | Navy #0B1023, gold #FFC83D→#FF8A00, teal #2EE6D6. Tagline: "You relax. I'll grind." |
 
 Full details: [channel/profile.md](channel/profile.md), [channel/strategy.md](channel/strategy.md), current numbers: [channel/status.md](channel/status.md).
 

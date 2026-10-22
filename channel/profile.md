@@ -10,7 +10,7 @@ Last updated: 13 Oct 2026
 | Handle | **@BrimloIdle** |
 | Channel ID | UCXf8abbaSiOThD3YhX8nGjQ |
 | Old name (before Oct 2026) | Idle Ascent (@IdleAscent) — do not use |
-| Tagline | "where the numbers only go up." |
+| Tagline (chosen 23 Oct 2026) | "You relax. I'll grind." |
 | Category | Gaming |
 | Language | English |
 | Audience | US first (also UK, Canada, Australia). **Not made for kids.** |
@@ -19,13 +19,13 @@ Last updated: 13 Oct 2026
 ## Brand
 
 - Colors: navy **#0B1023** (background), gold gradient **#FFC83D → #FF8A00** (main text, highlights), teal **#2EE6D6** (numbers, arrows).
-- Banner text: "BRIMLO."
-- Logo (chosen 23 Oct 2026): **the Brimlo mascot**, a smug gold money bag with a small gold crown, teal rope and teal outline. It replaces the old gold staircase made for "Idle Ascent". Use it for the profile picture and banner only. **Never put the logo on thumbnails** (no corner marks, stamps or boxes).
+- Banner: mascot + "BRIMLO", tagline "You relax. I'll grind." (teal), small line "Idle • Incremental • Upgrade games". Canvas 2560 × 1440; keep everything inside the center 1235 × 338.
+- Logo (chosen 23 Oct 2026): **the Brimlo mascot**, a happy, calm gold money bag (soft smile, pink blush) with a small gold crown, teal rope and teal outline, on navy #0B1023. Locked: no logo changes before Apr 2027. It replaces the old gold staircase made for "Idle Ascent". Use it for the profile picture and banner only. **Never put the logo on thumbnails** (no corner marks, stamps or boxes).
 - Voice: calm, friendly, honest. "Chill" is a strength, not a weakness.
 
 ## Channel description (draft — edit and paste into YouTube)
 
-> Brimlo plays incremental, idle and clicker games on Steam — where the numbers only go up.
+> You relax. I'll grind. Brimlo plays incremental, idle, clicker and upgrade games on Steam.
 > Full playthroughs, new demos and 100% runs, with calm live commentary. New videos every Tuesday and Friday.
 >
 > Indie developers: I'd love to play your incremental game. Business email: [ADD EMAIL]
