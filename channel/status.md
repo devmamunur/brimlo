@@ -30,7 +30,9 @@ Update this every Sunday (`/weekly-review`) and after big events.
 
 - [ ] Fill in the published titles in [videos/log.md](../videos/log.md)
 - [ ] Authorize the YouTube channel in vidIQ (see CLAUDE.md → Known setup gaps)
-- [ ] Create a business email and add it to the channel description
+- [ ] Create a business email and add it to the channel description (Mamunur, 23 Oct 2026: add it later, after monetization)
 - [x] New logo for "Brimlo" (gold money-bag mascot, 23 Oct 2026)
+- [x] Logo uploaded as profile picture + new channel description live (23 Oct 2026)
+- [ ] Banner: replace "Subscribe" with BRIMLO + "You relax. I'll grind." (layout in [profile.md](profile.md))
 - [ ] Decide on CrossOver purchase before the trial ends (~23 Oct)
 - [ ] Set up OBS Hybrid MP4 + chapter-marker hotkey (see [playbook/recording-and-editing.md](../playbook/recording-and-editing.md))

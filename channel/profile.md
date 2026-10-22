@@ -25,10 +25,12 @@ Last updated: 13 Oct 2026
 
 ## Channel description (draft — edit and paste into YouTube)
 
-> You relax. I'll grind. Brimlo plays incremental, idle, clicker and upgrade games on Steam.
-> Full playthroughs, new demos and 100% runs, with calm live commentary. New videos every Tuesday and Friday.
+Style: simple, natural, lively. Not corporate (Mamunur's choice, 23 Oct 2026).
+
+> just a guy playing idle, clicker and upgrade games for fun 🎮
+> you relax, I'll grind. new videos every week!
 >
-> Indie developers: I'd love to play your incremental game. Business email: [ADD EMAIL]
+> game devs: I'd love to play your game → [ADD EMAIL]
 
 ## Creator
 
