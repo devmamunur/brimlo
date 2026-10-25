@@ -12,6 +12,7 @@ Status: ✅ published · 🕒 scheduled · 🎬 recorded · 📝 planned · ❌ 
 | 4 | Sun 18 Oct 2026 | Quadrillion Carrots (demo) | I Tried to Harvest QUADRILLION Carrots \| Quadrillion Carrots Demo | 1:04:12 | 🕒 | Free demo (CrossOver) | | | | | [file](2026-10-18-quadrillion-carrots.md) |
 | 5 | Fri 23 Oct 2026 | Outbreak Z (demo) | One Knife to MINIGUN: I Beat the Whole Outbreak Z Demo | 2:14:18 | ✅ | Free demo (Mac native) | | | | | [file](2026-10-23-outbreak-z.md) |
 | 6 | Sun 25 Oct 2026 | Rust & Shine (demo) | The SATISFYING Incremental Game Where You Restore Rusty Antiques \| Rust & Shine Demo | 1:21:59 | 🕒 | Free demo (CrossOver ✅) | | | | | [file](2026-10-25-rust-and-shine.md) |
+| 7 | Wed 28 Oct 2026 | Scrapecremental (itch.io demo) | A Game Where You Scrape Dust With Your FINGERNAIL… and It's So Satisfying \| Scrapecremental | | 📝 | Free itch.io browser game (Mac browser, not tested) | | | | | [file](2026-10-28-scrapecremental.md) |
 
 ## Medians (update every Sunday)
 

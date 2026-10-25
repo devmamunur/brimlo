@@ -17,9 +17,9 @@ The targets below are **guesses** for a brand-new channel. Replace them with you
 | Phase | Dates | Videos/week | Focus |
 |---|---|---|---|
 | **1. Launch + Next Fest** | 12 Oct – 1 Nov | 2–4 | I Am Plague playtest, Next Fest demos, first owned games. Learn OBS markers + light edit. |
-| **2. Rhythm** | 2 – 8 Nov | 2 | Owned games. First review. Keymailer + developer emails. |
-| **3. Scale to 3/week** | 9 Nov – 6 Dec | 3 | Two videos from the Saturday session. Test every title template at least twice. Steam Autumn Sale purchases. |
-| **4. Holidays** | 7 Dec – 10 Jan | 3 | Repeat winners. "Best Incremental Games of 2026" + "Games to Watch in 2027". 12-week decision. |
+| **2. Rhythm** | 2 – 8 Nov | 3–4 | Owned games. First review. Keymailer + developer emails. |
+| **3. Keep 3–4/week** | 9 Nov – 6 Dec | 3–4 | Two videos from the Saturday session. Test every title template at least twice. Steam Autumn Sale purchases. |
+| **4. Holidays** | 7 Dec – 10 Jan | 3–4 | Repeat winners. "Best Incremental Games of 2026" + "Games to Watch in 2027". 12-week decision. |
 
 ## Checkpoints
 
@@ -28,7 +28,7 @@ The targets below are **guesses** for a brand-new channel. Replace them with you
 | **Sun 1 Nov** | Phase 1 done | 8+ videos live; OBS markers working; one video per weekend day takes ≤ 8 h | Simplify the edit. Fewer cuts. |
 | **Sun 8 Nov** | First review | CTR compared across videos; best title template found; Keymailer registered | Redo the weakest thumbnail + title. |
 | **Sun 6 Dec** | Phase 3 done | 20+ videos; 1 video at 3x median views; subs growing every week | Shift more slots to new/demo games. |
-| **Sun 3 Jan** | **12-week decision** | 30+ videos; know your winning format | Decide: stay at 3/week, or test 4/week. |
+| **Sun 3 Jan** | **12-week decision** | 30+ videos; know your winning format | Decide: stay at 3–4/week, or test 5/week. |
 
 ## YPP path (honest)
 

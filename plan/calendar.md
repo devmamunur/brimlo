@@ -2,7 +2,7 @@
 
 **This is the source of truth for "what's next".** Update it whenever a plan changes (`/publish` does this for you).
 
-- Upload time: **12 PM US Eastern** = **10 PM Dhaka** until Sat 31 Oct, **11 PM Dhaka from Sun 1 Nov 2026**.
+- Publish time: always **10 PM Dhaka** (= 12 PM ET until Sat 31 Oct, 11 AM ET from Sun 1 Nov 2026). **No fixed days** (since 25 Oct 2026): make a video one day, publish it another day. Older rows below still show the old Tue/Fri plan.
 - "Scout pick" = a free demo, playtest, free-to-play game or developer key chosen with `/pick-game` that week.
 - Status: ✅ published · 🕒 scheduled · 🎬 recorded · 📝 planned · ❓ open slot
 
@@ -30,7 +30,7 @@ Last updated: 13 Oct 2026 · Sim games are a "later" queue: owned + planned game
 |---|---|---|---|
 | Tue 20 Oct | Rock Crusher | Owned (Mac) | 📝 |
 | Fri 23 Oct | **Outbreak Z — "One Knife to MINIGUN: I Beat the Whole Outbreak Z Demo"** (fast lane). Published 10 PM Dhaka. 12 views after 2 days (25 Oct). Sorting Inc moved: needs a new slot. | Free demo (Mac native) | ✅ |
-| **Sat 24 Oct** | **PAPERWORKS: Paper Shredder Inc. — "\| First Look Demo"** (fast lane: record + publish same night). Backup: Ant Clicker. Needs 10-min Mac test first. | Free demo (native Mac) | 📝 |
+| **Mon 26 Oct** | **My Dirty Little Lake (demo)** — if the CrossOver test passes; record Sun 25 Oct night, schedule Mon 26 Oct 10 PM Dhaka. (PAPERWORKS dropped 25 Oct: lag, low graphics.) Backup: **Seabun demo** (native Mac, free; see backlog scout 25 Oct), then Rock Crusher (owned, Mac). | Free demo (CrossOver) | 📝 |
 | **Sun 25 Oct** | **Rust & Shine — "The SATISFYING Incremental Game Where You Restore Rusty Antiques \| Rust & Shine Demo"** (fast lane, added 24 Oct). Scheduled 10 PM Dhaka (1:21:59). | Free demo (CrossOver) | 🕒 |
 
 - **Mon 19 – Thu 22 evenings:** test 4–6 incremental demos, ~20 min each. **Record these tests with commentary** (used in the week-3 round-up).
@@ -42,12 +42,13 @@ Last updated: 13 Oct 2026 · Sim games are a "later" queue: owned + planned game
 
 | Upload | Video | Game source | Status |
 |---|---|---|---|
-| Tue 27 Oct | **PAYDIRT — "\| First Look Demo"** (releases Nov 2026). Backup: My Dirty Little Lake (needs CrossOver test). | Free demo (native Mac) | 📝 |
+| Tue 27 Oct | **PAYDIRT — "\| First Look Demo"** (releases Nov 2026). **Optional:** weak signal (0 demo players on 25 Oct 2026, game-scout). Backup: My Dirty Little Lake (needs CrossOver test). | Free demo (native Mac) | 📝 |
+| **Wed 28 Oct** | **Scrapecremental — "A Game Where You Scrape Dust With Your FINGERNAIL… and It's So Satisfying \| Scrapecremental"**. Free itch.io browser game. Test in Chrome Mon 26/Tue 27, record Tue 27 Oct evening, schedule Wed 28 Oct 10 PM Dhaka. [file](../videos/2026-10-28-scrapecremental.md) | Free (itch.io, Mac browser) | 📝 |
 | Fri 30 Oct | **Best Incremental Demos of Steam Next Fest October 2026** (round-up from your test clips + new commentary) | Free demos | 📝 |
 
 - **Mon 26 – Thu 29 evenings:** edit the round-up.
 - **Sat 31:** record + edit **Cast n Chill** (calm 90–120 min video) → Tue 3 Nov.
-- **Sun 1 Nov:** record + edit **Scratch the Ticket** → Fri 6. ⏰ Upload time is now **11 PM Dhaka**.
+- **Sun 1 Nov:** record + edit **Scratch the Ticket** → Fri 6. ⏰ Publish time stays **10 PM Dhaka** (now 11 AM ET).
 - **Checkpoint Sun 1 Nov** (see [roadmap.md](roadmap.md)).
 
 ## Phase 2 — Rhythm
@@ -63,7 +64,7 @@ Last updated: 13 Oct 2026 · Sim games are a "later" queue: owned + planned game
 - **Sat 7:** record **two** 60–90 min videos: **Keep on Mining!** + **Nodebuster**.
 - **Sun 8:** record **Sandustry**. **First review** (`/weekly-review`).
 
-## Phase 3 — 3 videos a week (Tue · Fri · Sun)
+## Phase 3 — 3–4 videos a week (no fixed days, 10 PM Dhaka)
 
 ### Week 5 · 9–15 Nov
 
@@ -137,7 +138,7 @@ Last updated: 13 Oct 2026 · Sim games are a "later" queue: owned + planned game
 | Fri 1 Jan | Scout pick | ❓ |
 | Sun 3 Jan | Scout pick | ❓ |
 
-- **12-week decision Sun 3 Jan 2027:** 3/week or test 4/week.
+- **12-week decision Sun 3 Jan 2027:** 3–4/week or test 5/week.
 
 ### Week 13 · 4–10 Jan
 

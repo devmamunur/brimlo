@@ -38,7 +38,7 @@ Chapters
 2:09:51 Region cleared
 2:12:42 Demo 100% complete + my thoughts
 
-I play idle, incremental and auto-battler games on Steam with calm, full-length live commentary. New video every Tuesday and Friday.
+I play idle, incremental and auto-battler games on Steam with calm, full-length live commentary.
 
 Subscribe to Brimlo. You relax. I'll grind.
 

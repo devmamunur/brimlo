@@ -31,12 +31,11 @@ Aim for roughly 60% type 1 and 40% type 2 at first; shift to whichever gets more
 
 | Period | Videos / week | How |
 |---|---|---|
-| Now → 8 Nov 2026 | 2 (Tue + Fri) | One video per weekend day |
-| 9 Nov → early Jan | 3 (Tue + Fri + Sun) | Saturday session makes **two** 60–90 min videos on two different games |
-| After 12-week review | Test 4 only if energy is good | Decide on 3 Jan 2027 |
+| From 26 Oct 2026 | **3–4** | Mamunur's decision (25 Oct 2026): long videos, 3–4 a week. No fixed days: make a video one day, publish it another day at 10 PM Dhaka |
+| After 12-week review | Test 5 only if energy is good | Decide on 3 Jan 2027 |
 | Any time | +1 "fast lane" | Hot demo/playtest/launch → publish in 1–3 days |
 
-**Why not 2 forever?** Every growing small channel in this niche posts 4–7 long videos a week. None was found growing on 1–3. **Why not 5 now?** Full-time job + burnout risk (52–62% of creators report burnout). A channel that stops gets nothing.
+**Why 3–4?** Every growing small channel in this niche posts 4–7 long videos a week. None was found growing on 1–3. Ridiculously Random went 118 → 1,020 subs in 20 days with ~1 video/day (study 25 Oct 2026). **Why not 5 now?** Full-time job + burnout risk (52–62% of creators report burnout). A channel that stops gets nothing.
 
 ## Who to learn from
 
@@ -79,7 +78,7 @@ Azrilich is the **game-choice and title-shape model**, not the copy target. Brim
 
 | Azrilich | Brimlo (my way) |
 |---|---|
-| Fast edit, jokes, ~20–50 min, ~1 video/day | Calm live commentary, 60–120 min, 2–3 videos/week |
+| Fast edit, jokes, ~20–50 min, ~1 video/day | Calm live commentary, 60–120 min, 3–4 videos/week |
 | Skits and fast-talking | Explain what's on screen, why I choose, honest verdict |
 | Shows the "wow" result | Shows the **whole journey** and tells viewers if the game is worth buying |
 

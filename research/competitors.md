@@ -25,6 +25,7 @@ Plays classic incrementals **and** satisfying job-sims (carpet cleaning, junkyar
 | [FungalBrainRot](https://www.youtube.com/@fungalbrainrot) | US | 4.0K | 127 min, 37/month |
 | [Sifd](https://www.youtube.com/@sifd) | GR | 148K | Non-native leader, but stalled |
 | [Typical Tea](https://www.youtube.com/@typicalteagames) | GB | 5.5K | Calm, ~1/week, city builders — proof calm can grow (other genre) |
+| [Ridiculously Random](https://www.youtube.com/@Ridiculously-Random) | GB | 1.02K | 118 → 1,020 subs in 20 days (5–25 Oct 2026). ~1 long video/day, middle length 38 min, tiny itch.io/Steam games, "I did X until BILLIONS!!!" titles, big number + red arrow thumbnails. Beat our Quadrillion Carrots (7.2K vs 57) while publishing 4 days later. Full study: [reports/2026-10-25-ridiculously-random-study.md](reports/2026-10-25-ridiculously-random-study.md) |
 
 ## Warning cases
 

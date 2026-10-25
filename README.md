@@ -46,7 +46,7 @@ You can also just talk normally: *"I scheduled the Rock Crusher video for Tuesda
 | Sat | Record + edit + upload video A | |
 | Sun | Record + edit + upload video B, then weekly review | `/weekly-review` |
 
-Upload time: **12 PM US Eastern** = **10 PM Dhaka** (until 31 Oct) / **11 PM Dhaka** (from 1 Nov 2026).
+Publish time: always **10 PM Dhaka** (= 12 PM US Eastern until 31 Oct, 11 AM US Eastern from 1 Nov 2026). No fixed upload days.
 
 Full routine: [plan/weekly-routine.md](plan/weekly-routine.md)
 

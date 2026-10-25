@@ -228,7 +228,7 @@ Chapters
 1:18:00 Machine Overclock
 1:20:00 A Silver Band sells for $5,320
 
-I play idle, incremental and satisfying upgrade games on Steam with calm, full-length live commentary. New video every Tuesday and Friday.
+I play idle, incremental and satisfying upgrade games on Steam with calm, full-length live commentary.
 
 Subscribe to Brimlo. You relax. I'll grind.
 

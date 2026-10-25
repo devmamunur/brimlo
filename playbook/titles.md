@@ -26,6 +26,9 @@ Source: vidIQ outliers + keywords (12–13 Oct 2026), [research report](../resea
 | **G** | Best New Incremental Games of [Month / Next Fest / 2026] | Best Incremental Demos of Steam Next Fest October 2026 | Max once a month ("best incremental games" +240%) |
 | **H** | This [genre] Is Basically [known game]… But With [twist]! | This Is Basically Cookie Clicker… But With ROCKS! | Easy comparison exists |
 | **I** | I [did an extreme thing] (first person, short, lowercase OK, no game name) | I made a fire so big it bullied the sun · I cheated the lottery with a flashlight | Azrilich style. Works for both game types. Good for cheats, glitches, extreme goals |
+| **J** | [Doing a simple thing] Until [HUGE result] \| Game Name | Scratching Dust Until I Made MILLIONS \| Scrapecremental · Pulling Carrots Until I Had a QUADRILLION \| Quadrillion Carrots Demo | Simple everyday object + big money/level result. Ridiculously Random style ("Flipping Coins Until I'm A BILLIONAIRE!!!"). He drops the game name; we keep it at the end while the channel needs search |
+
+**Result first, game name last** (25 Oct 2026): the first 40 characters must make a stranger curious (the result, in CAPS). The game name goes after "|" for search. Ridiculously Random (118 → 1,020 subs in 20 days) never puts the game name in titles — see the [study](../research/reports/2026-10-25-ridiculously-random-study.md).
 
 Azrilich (vidIQ, 13 Oct 2026) uses template I on almost every video and does not put "incremental" or the game name in titles; top videos 1.2M, 977K, 750K views. Test I against A–H.
 

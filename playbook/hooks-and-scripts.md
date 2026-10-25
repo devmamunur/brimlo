@@ -15,6 +15,8 @@ Use `/script [game]` to make a card for a specific game. More ready-made sentenc
 | **Middle** | 10 min → end | Milestones as chapters. Talk at every decision. Speed up waits. |
 | **Ending** | last 1–2 min | Honest verdict + who it's for + price/demo + "see you in the next video". End screen. |
 
+**Play from second 0** (lesson from Ridiculously Random, 25 Oct 2026 — [study](../research/reports/2026-10-25-ridiculously-random-study.md)). No "hello, welcome", no menu tour, no reading story text before the first upgrade. **Your first sentence = the goal with a number:** "I have 100,000 unread emails. Let's delete them all." Our Quadrillion Carrots video lost viewers from impressions after 0:09 on average; his video of the same game got 7,230 views in 3 days.
+
 ## Hook formulas (first 30 seconds)
 
 Pick one. Fill the brackets.
@@ -25,6 +27,7 @@ Pick one. Fill the brackets.
 4. **New / early:** "This game isn't even out yet. The [demo / playtest] is free right now, and it's [surprising feeling]."
 5. **100% run:** "I played this game until I unlocked everything. Here's the whole journey, from zero to 100%."
 6. **Honest opinion:** "I didn't expect much from this game. I was wrong."
+7. **Goal + number (say it while already playing):** "I have [one fingernail] and [a whole town covered in dust]. Let's scrape all of it." / "I have [one knife]. I want [a minigun]."
 
 ## Ending formulas
 
@@ -41,6 +44,7 @@ Keep the ending short. Put an **end screen** to your most similar video.
 - **Say why.** "I buy this because it doubles my income."
 - **Compare numbers.** "Before: 10 per second. Now: 1,000 per second."
 - **Silence is OK for a few seconds.** If you have nothing to say, speed it up later.
+- **React out loud to every upgrade:** "Oh, that's much faster now!" / "Wait, what was that?" Small honest reactions keep viewers. Still calm, never fake.
 - **Mistake in a sentence?** Pause 2 seconds, say it again. Easy to cut.
 - **Don't fake excitement.** Calm and honest is your brand.
 - **Press the marker hotkey** at every milestone — these become chapters.

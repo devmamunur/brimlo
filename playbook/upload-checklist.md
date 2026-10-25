@@ -30,8 +30,10 @@ Run through this before every upload. After uploading, run `/publish`.
 ## Description
 
 ```
-[Line 1: game name + "incremental game" + the hook, one sentence]
-[Line 2: demo / playtest / launch info if relevant]
+[Line 1: one short personal line, e.g. "This one was really fun. Help Brimlo reach 100 subs :)"]
+[Line 2: game name + "incremental game" + the hook, one sentence]
+[Line 3: demo / playtest / launch info if relevant]
+CURRENT SUBS: [real number from Studio]
 
 🎮 [Game] on Steam: [link]
 Developer: [name]
@@ -40,8 +42,6 @@ Chapters
 00:00 [Cold open title]
 00:30 [...]
 ...
-
-New incremental game videos every Tuesday and Friday.
 
 #incrementalgame #[GameName] #idlegame
 ```

@@ -204,7 +204,7 @@ Chapters
 1:51:33 100% complete
 1:52:37 My thoughts
 
-I play idle, incremental and roguelite games on Steam with calm, full-length live commentary. New video every Tuesday and Friday.
+I play idle, incremental and roguelite games on Steam with calm, full-length live commentary.
 
 Subscribe to Brimlo. You relax. I'll grind.
 

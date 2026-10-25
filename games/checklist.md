@@ -4,7 +4,7 @@ Score every game before you plan a video. Record it only if it passes **all "Mus
 
 ## Must (all)
 
-- [ ] Incremental / idle / clicker / survivor-like / tower-defense game, **or a satisfying job-sim with upgrades** (cleaning, restoring, junkyard, mining…), on **Steam** (not Roblox, not mobile, not a fan game with someone else's brand).
+- [ ] Incremental / idle / clicker / survivor-like / tower-defense game, **or a satisfying job-sim with upgrades** (cleaning, restoring, junkyard, mining…), on **Steam or itch.io** (itch.io HTML5 browser games run on the Mac with no CrossOver). Not Roblox, not mobile, not a fan game with someone else's brand.
 - [ ] **Mac check passed:** Steam shows the macOS icon, OR CodeWeavers / AppleGamingWiki / MacGamingDB says it works, **AND** your own 10-minute CrossOver test worked (launch, one upgrade loop, OBS capture). No anti-cheat.
 - [ ] Numbers or the world **visibly grow** on screen.
 - [ ] It fits **one video**. No Part 2.
@@ -16,7 +16,8 @@ Score every game before you plan a video. Record it only if it passes **all "Mus
 - [ ] The idea fits in **one strange sentence** ("rats eat a city", "feed an AI").
 - [ ] Hot theme: dark/horror · swarm/army from nothing · cozy cleanup · mining/digging/fishing.
 - [ ] You can **100% it** in one 3–4 h session.
-- [ ] Idle Cub, Dex and MOREQUIS have **not** covered it yet — or you have a clearly different angle.
+- [ ] Idle Cub, Dex and MOREQUIS have **not** covered it yet, and **no English video has 10K+ views** — or you have a clearly different angle.
+- [ ] **Simple everyday idea** anyone gets in one second (emails, coins, dust, leaves, carrots). These were Ridiculously Random's hits (study 25 Oct 2026).
 - [ ] A clear thumbnail exists: before/after or a giant number.
 
 ## Money

@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | Status | 📝 planned / 🎬 recorded / 🕒 scheduled / ✅ published |
-| Upload | Day DD Mon YYYY, 12 PM ET (10/11 PM Dhaka) |
+| Upload | Day DD Mon YYYY, 10 PM Dhaka |
 | Game | [Name] — [Steam link] |
 | Source | Owned / free demo / playtest / free-to-play / dev key |
 | Runs on | Mac native / CrossOver (tested: yes/no, date) |
@@ -70,7 +70,9 @@
 ## Description
 
 ```
-[First line: game name + "incremental game" + the hook]
+[First line: one short personal line, e.g. "This one was really fun. Help Brimlo reach 100 subs :)"]
+[Game name + "incremental game" + the hook]
+CURRENT SUBS: [real number from Studio]
 
 🎮 Game: [Name] on Steam: [link]
 Developer: [name]
