@@ -14,7 +14,7 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 | Quadrillion Carrots (free demo) | CrossOver | Low — 1 demo video by a 44K channel (18 Oct) | Sun 18 Oct | 🕒 scheduled |
 | Rock Crusher | Mac (has demo too) | Medium (in Idle Cub's tags) | Tue 20 Oct | 📝 |
 | Outbreak Z (free demo) | Mac native | Low — 1 English video (Ash Swoon, 3.2K subs, ~14K views) + Korean/Japanese channels (21–23 Oct) | Fri 23 Oct | ✅ published 23 Oct |
-| Rust & Shine (free demo; full game "coming soon") | CrossOver, **not tested yet** (Windows only) | Low–medium — 1 demo playthrough seen on YouTube (24 Oct), views not checked | Sun 25 Oct | 📝 |
+| Rust & Shine (free demo; full game "coming soon") | CrossOver ✅ (recorded Oct 2026) | Low–medium — 1 demo playthrough seen on YouTube (24 Oct), views not checked | Sun 25 Oct | 🕒 scheduled |
 | Sorting Inc | ? — test | Unknown | was Fri 23 Oct; moved for Outbreak Z, needs a new slot | 📝 |
 | Cast n Chill | Mac | Medium (relaxing format) | Tue 3 Nov | 📝 |
 | Scratch the Ticket | CrossOver | High (Azrilich 956K) → need a fresh angle | Fri 6 Nov | 📝 |

@@ -2,13 +2,13 @@
 
 | | |
 |---|---|
-| Status | 📝 planned |
-| Upload | Sun 25 Oct 2026, 12 PM ET (10 PM Dhaka). Fast lane: record Sat 24 Oct, edit, publish within 1–3 days. |
+| Status | 🕒 scheduled |
+| Upload | **Sun 25 Oct 2026, 10:00 PM Dhaka** (= 12 PM ET). Scheduled. |
 | Game | Rust & Shine Demo — https://store.steampowered.com/app/5252990 (full game: https://store.steampowered.com/app/4857070/ — "Coming soon", no date found 24 Oct) |
 | Source | Free demo (Steam), by Enigma Games |
 | Runs on | **Windows only (no Mac build). CrossOver: NOT tested yet.** Do the 10-minute test first. |
-| Target length | 60–90 min (demo length unknown — check; if short, say so and finish early) |
-| YouTube link | |
+| Length | 1:21:59 |
+| YouTube link | https://www.youtube.com/watch?v=BkTTSxBYnyY |
 
 ## Game in one sentence
 
@@ -27,16 +27,26 @@
 | 2 | A | The Cozy Incremental Game Where You Clean RUSTY Junk Into Treasure \| Rust & Shine Demo | 73 |
 | 3 | B | I Turned a Pile of Rusty Junk into a Fully AUTOMATED Workshop \| Rust & Shine Demo | 55 |
 
-**Chosen:** #1. It has the keyword, the feeling word and the template. The screen is smooth, repeating cleaning, so "satisfying" is allowed by the rules (this is the first "satisfying" video; limit is 1 in 3).
+**Final (25 Oct 2026):** The SATISFYING Incremental Game Where You Restore Rusty Antiques | Rust & Shine — vidIQ 96 (estimate), 80 characters. Backups: "This Cozy Cleaning Game Turned My Rusty Junk Into a FORTUNE | Rust & Shine" (vidIQ 98, only if you made big money), "I Cleaned Rusty Junk Until Robots Ran My Whole Workshop | Rust & Shine Demo" (vidIQ 92, only if you got robots).
+Competition (25 Oct 2026, vidIQ search): demo out since ~23–25 Sep, ~20 videos. Best English: LiamsiL Chill 14.8K views on 530 subs (~10× outlier). Korean channels 8K–31K. We are late again — see the Outbreak Z lesson.
+
+**Old pick:** #1. It has the keyword, the feeling word and the template. The screen is smooth, repeating cleaning, so "satisfying" is allowed by the rules (this is the first "satisfying" video; limit is 1 in 3).
 Length is 84 characters. YouTube may cut it. Short version if you want: "The SATISFYING Incremental Game Where You Restore Rusty Antiques | Rust & Shine".
 Scores are estimates from `brimlo_score_title`, not a view prediction.
 
 ## Thumbnail idea
 
-- Type: before → after (one item, half rusty, half shining) OR one hero object.
-- Words (2–4 max): **RUST → SHINE** or **SO SATISFYING**
-- Picture: one big close-up of one item being cleaned: left side brown rust, right side bright and shiny. Use your own screenshot. No small boxes in any corner. No number on it unless you read it on screen.
-- While recording: take a screenshot of a rusty item **before** and the same item **after**.
+House style (see `playbook/thumbnails.md`). Text: **JUNK → TREASURE**. Left: one dull rusty item. Right: the same item fully restored and glowing. Right edge: a repair-bot at the workbench.
+
+Attach to GPT: (1) the Steam key art (store page header), (2) a screenshot of one rusty item **before** cleaning, (3) a screenshot of the **same item after** cleaning, (4) a screenshot of a repair-bot (if you unlocked them).
+
+```
+Make a YouTube thumbnail, exactly 1280x720 pixels (16:9), using the attached Rust & Shine images as the style and object reference. Keep the game's own art style and the real look of the item and the repair-bot from the attached screenshots. TOP: huge bold heavy text that fills the top 25% of the image from edge to edge with only small side margins, spelled exactly: "JUNK → TREASURE", gold gradient (#FFC83D to #FF8A00), thick dark navy (#0B1023) outline, soft glow, readable when shrunk to 160 px wide. LEFT: the item from the "before" screenshot, large but plain, covered in thick brown-orange rust and grime, dull, with a cold dim light. CENTER-RIGHT: the same item from the "after" screenshot, very big, taking about half of the image and slightly cropped by the bottom edge, fully restored and shining, with bright clean metal, small white sparkles and a warm gold glow around it like a legendary loot drop, resting on a wooden workbench. RIGHT EDGE: the repair-bot from the attached screenshot working at the bench, clearly visible and lit by the warm glow, smaller than the shining item, not covering the item or the text. BACKGROUND: a dark navy workshop at night with tool shelves, softly blurred, low detail, warm lamp light on the bench and a few floating dust sparkles for atmosphere. Only one arrow (the one in the text). No other text, no numbers, no logos, no mascot, no people, no borders, no frames or inset image boxes in any corner. High contrast, bold, cozy, phone-readable.
+```
+
+Checked 25 Oct 2026: a rusty sword is cleaned at 08:25 and robots work from 43:00, so the JUNK → TREASURE sword thumbnail is honest. **Live thumbnail (checked in Studio, Sun 25 Oct 2026):** the brush version (a wire brush scrubbing the rusty sword, rust flying off) — uploaded by Mamunur. The JPG in `thumbnails/` is the older version without the brush. Description (15 chapters) and 19 tags saved in Studio the same day.
+
+If you did not unlock repair-bots, delete the RIGHT EDGE sentence and the 4th attachment. After GPT: improve once with vidIQ, export 1280×720 JPG/PNG under 2 MB.
 
 ## Recording script
 
@@ -189,24 +199,49 @@ Show 10–15 seconds of the best moment: the sandblaster strips the rust and the
 
 ## Description
 
-```
-A calm, satisfying incremental game where you clean rusty antiques, sell them, and grow a tiny bench into a workshop run by robots. Rust & Shine demo, played with live commentary.
+**⚠️ Chapters removed (25 Oct 2026).** Mamunur checked them and they were not correct: they came from a sparse frame check (one frame every few minutes), not from captions. He removed them from YouTube.
+**To do after publish:** when auto-captions are ready, read the transcript (vidIQ `vidiq_video_transcript`), make real chapters, and add them to the description. The list below is the old, wrong one; do not reuse it.
 
-🎮 Game: Rust & Shine (Demo) on Steam: https://store.steampowered.com/app/5252990
-Full game page (coming soon): https://store.steampowered.com/app/4857070/
-Developer: Enigma Games
+```
+I played the free Rust & Shine demo with calm live commentary. Rusty mystery items arrive in crates. I scrub off the rust, find out what is hiding under it, and sell it. My first item sold for $43. By the end, one Silver Band sold for $5,320, and robots were running my workshop.
+
+Rust & Shine is a cozy, satisfying incremental restoration game. Better tools, better suppliers, rarer finds, and the numbers keep going up. If you like calm cleaning games with upgrades, try the demo.
+
+🎮 Rust & Shine Demo on Steam (free): https://store.steampowered.com/app/5252990/
+❤️ Wishlist the full game: https://store.steampowered.com/app/4857070/
+Developer: Enigma Games. The full game is "coming soon" (no release date yet).
 
 Chapters
-00:00 ...
+00:00 Intro
+02:00 Cleaning my first rusty item
+05:00 First sale: a Coal Lump for $43
+08:25 A rusty sword shines again
+09:00 Water gun unlocked
+14:00 First rare find: Frost Crystal
+18:00 The first cleaning station
+36:00 Auto delivery and better supplies
+43:00 My first repair robot
+47:00 Scraper unlocked
+54:00 Special orders
+1:06:00 Emerald Shards sell for $2,281
+1:12:00 Descaler unlocked
+1:18:00 Machine Overclock
+1:20:00 A Silver Band sells for $5,320
 
-You relax. I'll grind.
+I play idle, incremental and satisfying upgrade games on Steam with calm, full-length live commentary. New video every Tuesday and Friday.
 
-#incremental #idlegame #rustandshine #relaxinggames
+Subscribe to Brimlo. You relax. I'll grind.
+
+#RustAndShine #IncrementalGame #SatisfyingGames
 ```
 
 ## Tags
 
-Rust & Shine, Rust and Shine demo, incremental game, idle game, restoration game, cleaning game, satisfying game, cozy game, relaxing game, steam demo, brimlo
+```
+Rust & Shine, Rust and Shine, Rust and Shine demo, Rust & Shine gameplay, Rust and Shine full demo, restoration game, restoration incremental, antique restoration, satisfying restoration, cleaning game, rust cleaning game, satisfying game, cozy game, cozy incremental game, incremental game, incremental games, idle game, relaxing games, steam demo
+```
+
+Hashtags (end of description): #RustAndShine #IncrementalGame #SatisfyingGames
 
 ## Results
 

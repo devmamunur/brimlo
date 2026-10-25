@@ -170,6 +170,53 @@ Chapters
 
 I Am Plague, I Am Plague gameplay, I Am Plague playtest, I Am Plague 100%, I Am Plague incremental, incremental game, incremental roguelite, roguelite, rat swarm game, rats game, idle game, clicker game, steam playtest, new steam games 2026, brimlo
 
+## Update (Sun 25 Oct 2026): new description + tags
+
+**Saved in YouTube Studio on Sun 25 Oct 2026** (checked after reload: description with 15 chapters, 17 tags; title and thumbnail unchanged). Compare retention and search traffic on the next weekly review.
+
+**Studio, since publish (read 25 Oct 2026):** 1.8K impressions · CTR 4.2% · 548 views · 102 unique viewers · 13.7 watch hours · avg view 6:15 (lifetime retention: 4:26, 3.9% viewed). Traffic: Browse 88%, Search 7.9% ("i am plague"), Suggested 1.8% (mostly from other I Am Plague videos).
+→ Title and thumbnail work (YouTube pushed it on Browse). Weak point: retention. Keep the title and thumbnail.
+
+Chapter times come from the YouTube transcript (caption start times, can be a few seconds early).
+
+```
+I played the I Am Plague playtest to 100%, from the first Goblin boss all the way to the final boss on floor 50. It started with a few rats. At the end, the rats were out of control.
+
+I Am Plague is a dark incremental roguelite. You lead a rat swarm, pick mutations, grow your organs and bone tree, and go deeper into a fortress, floor by floor. The fight is automatic, and every run makes you stronger.
+
+The playtest ended on October 19, 2026. The full game is planned for 2027, so wishlist it on Steam if you liked this:
+🎮 I Am Plague on Steam: https://store.steampowered.com/app/5131690/I_Am_Plague/
+
+Chapters
+00:00 Intro
+03:45 First boss: the Goblin
+11:57 New bone tree unlocked
+12:12 Mutation mode unlocked
+21:38 My first golden mutation
+23:05 Floor 10 boss
+28:32 New character: the Mage
+30:58 Brain unlocked: auto-pick
+54:48 My first elite floor
+1:11:31 The floor 30 boss beats me
+1:25:14 Two bosses at once on floor 30
+1:32:43 Floor 40 boss
+1:48:30 Floor 50: the final boss
+1:51:33 100% complete
+1:52:37 My thoughts
+
+I play idle, incremental and roguelite games on Steam with calm, full-length live commentary. New video every Tuesday and Friday.
+
+Subscribe to Brimlo. You relax. I'll grind.
+
+#IAmPlague #IncrementalGame #Roguelite
+```
+
+**Tags v2 (314 characters):**
+
+```
+I Am Plague, I Am Plague gameplay, I Am Plague playtest, I Am Plague 100%, I Am Plague full playthrough, I Am Plague final boss, I Am Plague floor 50, I Am Plague mutations, incremental roguelite, roguelite, rat swarm game, rats game, incremental game, idle game, auto battler, steam playtest, new steam games 2026
+```
+
 ## Results
 
 | Check | 7 days (Sat 24 Oct 2026) | 28 days (Sat 14 Nov 2026) |

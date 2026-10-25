@@ -72,6 +72,8 @@ Make a YouTube thumbnail, 1280x720 (16:9), using the attached Outbreak Z images 
 | Watch hours | 2.0 | | |
 | Subs gained | | | |
 
+**Thumbnail changed on Sun 25 Oct 2026** to the vidIQ-improved house-style version ([v3](../playbook/thumbnail-examples/2026-10-23-outbreak-z-v3-vidiq.webp)). Swapped directly, not via Test & Compare. Before the change: 56 impressions, 8.9% CTR. Compare CTR on Fri 30 Oct 2026.
+
 ## Lessons
 
 - The problem was reach, not packaging: CTR was good, but a 2-sub channel got only 56 impressions.
