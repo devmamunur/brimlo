@@ -7,7 +7,7 @@ This repo is the brain of the YouTube channel **Brimlo** (@BrimloIdle). It holds
 - **Mamunur Rashid**, solo creator in Dhaka, Bangladesh. Full-time job; works on the channel on weekends and some evenings.
 - English is a second language. He talks slower and translates in his head. **Write in simple English with short sentences.** No jargon.
 - Records with live commentary while playing ("talk when needed"). Does NOT want voice-over later.
-- Gear: Mac mini M4 (16 GB), 1 TB SSD for recordings, Windows PC with no GPU (backup). Windows-only games run through CrossOver.
+- Gear: Mac mini M4 (16 GB), 1 TB SSD for recordings, Windows PC with no GPU (backup). Windows-only games run through CrossOver. **CrossOver Steam is the main way to play** (Mamunur, 25 Oct 2026): it often runs smoother than Mac Steam. Never drop, rank down or skip a game because it is Windows-only, and never prefer a game because it is "Mac native".
 - Software: OBS, DaVinci Resolve (free) or CapCut, Canva, Steam (Mac + Windows Steam inside CrossOver), vidIQ, and our own free research tool (`tools/research/`, MCP tools `brimlo_*`).
 
 ## How to help
@@ -82,7 +82,7 @@ Full details: [channel/profile.md](channel/profile.md), [channel/strategy.md](ch
 3. **Never suggest tagging or naming other creators** in titles, tags or descriptions.
 4. **No multi-part series** of one game. One game, one video. (A demo video now + a "100% full release" video later is fine.)
 5. **No long silent idle stretches** in the final video: speed up or cut. That is the main monetization-policy risk.
-6. **Mac check first.** Never plan a game until it passes the Mac/CrossOver test in `games/checklist.md`.
+6. **Run check first.** Never plan a game until it runs well in **CrossOver Steam** (main) or Mac Steam — the 10-minute test in `games/checklist.md`. Windows-only is fine. Mac native is not a plus.
 7. Do not recommend Steam refunds as free rentals.
 8. Dates: write real dates (e.g. "Fri 16 Oct 2026"), never "next Friday". Publish time is fixed at **10 PM Dhaka** (UTC+6); in US Eastern that is 12 PM until 31 Oct 2026 and 11 AM from 1 Nov 2026 (until US DST starts in March 2027).
 9. Mark guesses as guesses. Facts need a source or a date.

@@ -30,8 +30,8 @@ Last updated: 13 Oct 2026 · Sim games are a "later" queue: owned + planned game
 |---|---|---|---|
 | Tue 20 Oct | Rock Crusher | Owned (Mac) | 📝 |
 | Fri 23 Oct | **Outbreak Z — "One Knife to MINIGUN: I Beat the Whole Outbreak Z Demo"** (fast lane). Published 10 PM Dhaka. 12 views after 2 days (25 Oct). Sorting Inc moved: needs a new slot. | Free demo (Mac native) | ✅ |
-| **Mon 26 Oct** | **My Dirty Little Lake (demo)** — if the CrossOver test passes; record Sun 25 Oct night, schedule Mon 26 Oct 10 PM Dhaka. (PAPERWORKS dropped 25 Oct: lag, low graphics.) Backup: **Seabun demo** (native Mac, free; see backlog scout 25 Oct), then Rock Crusher (owned, Mac). | Free demo (CrossOver) | 📝 |
-| **Sun 25 Oct** | **Rust & Shine — "The SATISFYING Incremental Game Where You Restore Rusty Antiques \| Rust & Shine Demo"** (fast lane, added 24 Oct). Scheduled 10 PM Dhaka (1:21:59). | Free demo (CrossOver) | 🕒 |
+| **Mon 26 Oct** | **Seabun (Next Fest demo)** — runs in CrossOver Steam ✅ (25 Oct; the Mac Steam version did not work). Record Sun 25 Oct night, schedule Mon 26 Oct 10 PM Dhaka. Next Fest ends Mon 26 Oct 11 PM Dhaka. (My Dirty Little Lake → launch Mon 16 Nov.) | Free demo (CrossOver) | 📝 |
+| **Sun 25 Oct** | **Rust & Shine — "The SATISFYING Incremental Game Where You Restore Rusty Antiques \| Rust & Shine Demo"** (fast lane, added 24 Oct). Published 10 PM Dhaka (1:21:59). Chapters from captions added 25 Oct. | Free demo (CrossOver) | ✅ |
 
 - **Mon 19 – Thu 22 evenings:** test 4–6 incremental demos, ~20 min each. **Record these tests with commentary** (used in the week-3 round-up).
 - **Thu 22:** pick the 2 best demos with `/pick-game`.

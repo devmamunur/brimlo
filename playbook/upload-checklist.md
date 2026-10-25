@@ -50,6 +50,7 @@ Chapters
 
 - [ ] First one is **00:00**
 - [ ] At least **3** chapters, each at least **10 seconds**
+- [ ] **Max 10 chapters, only the important moments**, made from the real captions after publish (Mamunur, 25 Oct 2026). Never guess times.
 - [ ] Named by progress ("First Prestige", "1 Million Gold"), not "Part 1"
 
 ## Settings

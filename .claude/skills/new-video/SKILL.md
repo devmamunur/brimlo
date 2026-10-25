@@ -17,7 +17,7 @@ Plan one video end to end and save it in the repo. Write in **simple English, sh
    - `playbook/titles.md`, `playbook/hooks-and-scripts.md`, `playbook/phrase-bank.md`.
 
 2. **Check the game** (if not already known):
-   - Web search the Steam page: one-sentence idea, release status (demo / playtest / early access / full), price, macOS support, developer video policy, any end date.
+   - Web search the Steam page: one-sentence idea, release status (demo / playtest / early access / full), price, developer video policy, any end date.
    - If Mac status is unknown or not tested → tell him to do the 10-minute test from `games/checklist.md` **before** recording.
    - If the game fails a "Must" in `games/checklist.md`, say so and suggest the next backlog game instead.
 

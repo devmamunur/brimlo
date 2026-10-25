@@ -2,11 +2,11 @@
 
 | | |
 |---|---|
-| Status | 🕒 scheduled |
-| Upload | **Sun 25 Oct 2026, 10:00 PM Dhaka** (= 12 PM ET). Scheduled. |
+| Status | ✅ published |
+| Upload | **Sun 25 Oct 2026, 10:00 PM Dhaka** (= 12 PM ET). Published. |
 | Game | Rust & Shine Demo — https://store.steampowered.com/app/5252990 (full game: https://store.steampowered.com/app/4857070/ — "Coming soon", no date found 24 Oct) |
 | Source | Free demo (Steam), by Enigma Games |
-| Runs on | **Windows only (no Mac build). CrossOver: NOT tested yet.** Do the 10-minute test first. |
+| Runs on | Windows only → CrossOver Steam ✅ |
 | Length | 1:21:59 |
 | YouTube link | https://www.youtube.com/watch?v=BkTTSxBYnyY |
 
@@ -199,11 +199,10 @@ Show 10–15 seconds of the best moment: the sandblaster strips the rust and the
 
 ## Description
 
-**⚠️ Chapters removed (25 Oct 2026).** Mamunur checked them and they were not correct: they came from a sparse frame check (one frame every few minutes), not from captions. He removed them from YouTube.
-**To do after publish:** when auto-captions are ready, read the transcript (vidIQ `vidiq_video_transcript`), make real chapters, and add them to the description. The list below is the old, wrong one; do not reuse it.
+**v2, Sun 25 Oct 2026 (after publish):** 10 chapters (Mamunur: max 10, only the important ones) made from the real YouTube captions (vidIQ transcript). The first paragraph was also fixed: the old one said "first item $43" and "Silver Band $5,320"; the captions show the first item sold for $25 and the video ends at $1,000,000. Saved in Studio by Mamunur and checked after reload (Sun 25 Oct 2026).
 
 ```
-I played the free Rust & Shine demo with calm live commentary. Rusty mystery items arrive in crates. I scrub off the rust, find out what is hiding under it, and sell it. My first item sold for $43. By the end, one Silver Band sold for $5,320, and robots were running my workshop.
+I played the free Rust & Shine demo with calm live commentary. Rusty mystery items arrive in crates. I scrub off the rust, find out what is hiding under it, and sell it. My first item sold for $25. By the end I had four robots, every tool maxed, and ONE MILLION dollars.
 
 Rust & Shine is a cozy, satisfying incremental restoration game. Better tools, better suppliers, rarer finds, and the numbers keep going up. If you like calm cleaning games with upgrades, try the demo.
 
@@ -212,21 +211,16 @@ Rust & Shine is a cozy, satisfying incremental restoration game. Better tools, b
 Developer: Enigma Games. The full game is "coming soon" (no release date yet).
 
 Chapters
-00:00 Intro
-02:00 Cleaning my first rusty item
-05:00 First sale: a Coal Lump for $43
-08:25 A rusty sword shines again
-09:00 Water gun unlocked
-14:00 First rare find: Frost Crystal
-18:00 The first cleaning station
-36:00 Auto delivery and better supplies
-43:00 My first repair robot
-47:00 Scraper unlocked
-54:00 Special orders
-1:06:00 Emerald Shards sell for $2,281
-1:12:00 Descaler unlocked
-1:18:00 Machine Overclock
-1:20:00 A Silver Band sells for $5,320
+00:00 My first rusty crate
+11:55 I buy the water gun
+17:14 My first cleaning station
+26:17 Auto delivery: no more button pressing
+42:28 My first cleaning robot
+47:15 Special orders pay double
+1:08:17 Flame Crystal for $4,000
+1:11:39 Four robots
+1:17:33 Everything maxed
+1:21:45 ONE MILLION dollars
 
 I play idle, incremental and satisfying upgrade games on Steam with calm, full-length live commentary.
 

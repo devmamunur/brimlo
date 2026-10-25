@@ -14,7 +14,7 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 | Quadrillion Carrots (free demo) | CrossOver | Low — 1 demo video by a 44K channel (18 Oct) | Sun 18 Oct | 🕒 scheduled |
 | Rock Crusher | Mac (has demo too) | Medium (in Idle Cub's tags) | Tue 20 Oct | 📝 |
 | Outbreak Z (free demo) | Mac native | Low — 1 English video (Ash Swoon, 3.2K subs, ~14K views) + Korean/Japanese channels (21–23 Oct) | Fri 23 Oct | ✅ published 23 Oct |
-| Rust & Shine (free demo; full game "coming soon") | CrossOver ✅ (recorded Oct 2026) | Low–medium — 1 demo playthrough seen on YouTube (24 Oct), views not checked | Sun 25 Oct | 🕒 scheduled |
+| Rust & Shine (free demo; full game "coming soon") | CrossOver ✅ (recorded Oct 2026) | Low–medium — 1 demo playthrough seen on YouTube (24 Oct), views not checked | Sun 25 Oct | ✅ published |
 | Sorting Inc | ? — test | Unknown | was Fri 23 Oct; moved for Outbreak Z, needs a new slot | 📝 |
 | Cast n Chill | Mac | Medium (relaxing format) | Tue 3 Nov | 📝 |
 | Scratch the Ticket | CrossOver | High (Azrilich 956K) → need a fresh angle | Fri 6 Nov | 📝 |
@@ -63,7 +63,7 @@ Next Fest ends **Mon 26 Oct**. Record by Sun 25 Oct. Always do a 10-minute test 
 | **Shattermine Idle** (Goop Games) | Free demo; release "coming soon" | CrossOver, untested | Pure incremental mining: ores, workers, prestige, abilities. 0 coverage in our DB. Found in an earlier session. Test tonight. |
 | 10 Million Pixels (Battle Lab) | Free demo (since 16 Oct); release Fri 13 Nov | CrossOver, untested | Demo already covered by Dex, Blitz, InterndotGif, Nerfed Reflexes (80K–274K, Oct 2026). Skip the demo; maybe launch day 13 Nov. |
 | Ant Clicker | Full game $4.99 (10 Oct); free demo | Native | Backup for Sat 24. Rebirth loop. Only 3 reviews. |
-| My Dirty Little Lake | Free demo (app 5426290, out 20 Oct); release Mon 16 Nov | Windows only → CrossOver, **test 25 Oct** | **Next pick (25 Oct) if CrossOver works.** Cozy cleanup with dogs, net, treasures, upgrades. YouTube (25 Oct): no English video, 1 Japanese 11K. |
+| My Dirty Little Lake | Free demo (app 5426290, out 20 Oct); release Mon 16 Nov | Windows only → CrossOver, **test 25 Oct** | **Moved to launch week (Mon 16 Nov)**; Seabun took Mon 26 Oct. Cozy cleanup with dogs, net, treasures, upgrades. YouTube (25 Oct): no English video, 1 Japanese 11K. |
 | Slime Splitter | Free demo; Q4 2026 | CrossOver | Swarm / big numbers. Backup. |
 | The Black Hole Is Hungry! | Free demo; no date | CrossOver | Space incremental, big upgrade tree. |
 | Dig to Mole Dorado | Free demo; release Fri 27 Nov | CrossOver | May be too short for 60 min. |
@@ -88,7 +88,7 @@ Next Fest ends **Mon 26 Oct**. Record by Sun 25 Oct. Always do a 10-minute test 
 
 | Game | Status / date | Mac | Notes |
 |---|---|---|---|
-| **Seabun** (demo 5398240) | Next Fest demo since Mon 19 Oct; full game "coming soon" | **Native** | **Best backup for Mon 26 Oct.** Incremental survivor-like, bunny sub, fish mounts, lab. 132 demo players. English top video: Wrath of Zalis 3.9K (Korean 10K, Russian 7K). Risk: demo may come down after Next Fest (Mon 26 Oct 11 PM Dhaka). |
+| **Seabun** (demo 5398240) | Next Fest demo since Mon 19 Oct; full game "coming soon" | **Native** | **📝 Picked for Mon 26 Oct 2026** (record Sun 25 Oct night). **CrossOver Steam ✅ 25 Oct 2026** (Mac Steam version did not work). Incremental survivor-like, bunny sub, fish mounts, lab. 132 demo players. English top video: Wrath of Zalis 3.9K (Korean 10K, Russian 7K). Risk: demo may come down after Next Fest (Mon 26 Oct 11 PM Dhaka). |
 | ShredDead (4704520) | Full launch Mon 26 Oct; demo since 1 Sep | Native | ❌ Saturated: Idle cub 422K, Real Civil Engineer 404K, Dex 107K. |
 | Big Dig (4304900) | Launched Mon 19 Oct, $5.99 until Mon 2 Nov | Check Apple icon | ❌ FungalBrainRot "100%" 14K already. 95% of 499 reviews. |
 | Can 'Em All (5133900) | Full launch Fri 30 Oct; demo since 9 Oct | CrossOver | ❌ Saturated: Grizzy 725K, Idle cub 176K, Azrilich 116K. |

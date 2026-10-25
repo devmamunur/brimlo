@@ -5,7 +5,7 @@ Score every game before you plan a video. Record it only if it passes **all "Mus
 ## Must (all)
 
 - [ ] Incremental / idle / clicker / survivor-like / tower-defense game, **or a satisfying job-sim with upgrades** (cleaning, restoring, junkyard, mining…), on **Steam or itch.io** (itch.io HTML5 browser games run on the Mac with no CrossOver). Not Roblox, not mobile, not a fan game with someone else's brand.
-- [ ] **Mac check passed:** Steam shows the macOS icon, OR CodeWeavers / AppleGamingWiki / MacGamingDB says it works, **AND** your own 10-minute CrossOver test worked (launch, one upgrade loop, OBS capture). No anti-cheat.
+- [ ] **Run check passed:** your own 10-minute test in **CrossOver Steam** worked (launch, one upgrade loop, smooth, OBS capture). CrossOver Steam is the main way; Mac Steam only if it is smoother. Windows-only is fine. No anti-cheat.
 - [ ] Numbers or the world **visibly grow** on screen.
 - [ ] It fits **one video**. No Part 2.
 - [ ] The developer allows videos and monetization (Steam page, press kit, or Discussions; email if unsure).
@@ -27,8 +27,8 @@ Score every game before you plan a video. Record it only if it passes **all "Mus
 
 ## Mac test (10 minutes)
 
-1. Steam page → look for the Apple icon. If yes → Mac Steam.
-2. If not → CodeWeavers compatibility DB / AppleGamingWiki / macgamingdb.app.
+1. **Start in CrossOver Steam** (the main way, Mamunur 25 Oct 2026: it often runs smoother than Mac Steam; Seabun failed on Mac Steam but runs in CrossOver). Use Mac Steam only if CrossOver has problems.
+2. Problems in CrossOver? Check the CodeWeavers compatibility DB for tips.
 3. CrossOver → Windows Steam → install → launch.
 4. Play one upgrade loop. Check sound and mouse.
 5. OBS: is the game window captured? Is the mic on its own track?
