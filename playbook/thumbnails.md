@@ -1,61 +1,64 @@
 # Thumbnails
 
-Made in Canva, 1280×720.
+1280×720. Made with GPT image (from the game's key art + screenshots), finished in Canva if needed.
 
-## Rules
+## House style (the default for every video, from 25 Oct 2026)
+
+Mamunur's chosen pattern. Example: [Outbreak Z v2](thumbnail-examples/2026-10-23-outbreak-z-v2.webp) ("KNIFE → MINIGUN").
+
+```
+┌──────────────────────────────────────────┐
+│   BIG GOLD HOOK TEXT ACROSS THE TOP      │  ← 2–3 words, fills the full width
+│                                          │
+│  [before]        [HERO / after]   [game  │
+│  small/dull      big, glowing,    context│
+│  item, left      center-right     right] │
+│                                          │
+│   dark, blurred, calm background         │
+└──────────────────────────────────────────┘
+```
+
+1. **Hook text on top:** 2–3 words (or "A → B"), huge, fills the full width of the top third. Gold gradient #FFC83D → #FF8A00, thick navy #0B1023 outline, soft glow. The text is the hook. It does not repeat the title.
+2. **One clean image under it:** one clear before → after story. The "before" is small, grey and dull on the left. The "after" (the hero) is big, center-right, with a warm glow (like a legendary loot drop).
+3. **Show the game type:** add a little context on the right (zombies, rats, coins, rocks…), so a viewer knows the genre in one second. Keep it smaller than the hero.
+4. **Calm background:** dark navy, softly blurred, low detail. No crowd filling every pixel.
+5. **Only one arrow:** if the text has an arrow, do not add a second arrow in the picture.
+6. **Must match the game:** the hero, items and colors must look like the real game (check against your footage). Never show something the video does not have.
+
+## Rules (always)
 
 1. **One idea only.** Pick one:
-   - before → after with an arrow
+   - before → after (the house style)
    - "0%" vs "100%" split
-   - one giant number ("160,000 RATS")
+   - one giant number ("160,000 RATS"), only if read on screen
    - one hero object grown huge
 2. **2–4 words max**, or one number. Heavy font. Do not repeat the title.
-3. **Real late-game screenshots.** Never promise what the video doesn't show (Test & Compare picks by watch time, not clicks).
-4. **Strong contrast:** red vs green, or dark vs bright.
-5. Brand colors: gold **#FFC83D → #FF8A00** text on navy **#0B1023**; teal **#2EE6D6** for numbers and arrows.
+3. **Use the real game look.** AI art is fine, but it must be built from the game's key art and screenshots. Never promise what the video doesn't show (Test & Compare picks by watch time, not clicks).
+4. **Strong contrast:** dark background, bright hero, gold text.
+5. Brand colors: gold **#FFC83D → #FF8A00** text on navy **#0B1023**; teal **#2EE6D6** only for small accents.
 6. **No Brimlo mascot or logo mark in the corner** of every thumbnail (Mamunur's decision, 21 Oct 2026). Use the mascot only when it is part of the idea (for example a reaction face), never as a stamp.
 7. **Phone test:** shrink to ~160 px wide. Can't read it? Cut words.
-8. If Test & Compare is available, test 2–3 thumbnails per video.
+8. If Test & Compare is available, test the new thumbnail against the old one instead of swapping it.
 9. **Never add a small square or framed image box in the bottom-left corner** (or any corner). Most successful channels do not. One big subject fills the picture. If you need a "before", make it a big part of the picture, not a tiny inset.
 10. **Never put a number on the thumbnail that you did not read on screen in the video.** If you did not count, use a word ("I'M RICH!") not a count.
 11. The thumbnail, title and first 30 seconds must promise the same thing (see the Digging a Hole video: scary eye thumbnail, no scary moment, 1:14 average watch).
+12. **Don't replace a thumbnail that works.** If the real CTR is good (above ~5%), keep it. Use Test & Compare for a new version.
 
 ## Screenshot plan while recording
 
 Take screenshots (or note timestamps) at:
-- the very start (tiny) — for "before"
-- the biggest moment (huge) — for "after"
-- any moment with a giant number on screen
+- the very start (the weak "before" item or state)
+- the biggest moment (the "after" hero: best weapon, giant number, final upgrade)
+- the hero character / item card up close (so GPT can match the real look)
 
-## Canva template layout
+## One prompt for GPT (house style)
 
-```
-┌─────────────────────────────────────┐
-│  BIG WORD / NUMBER (gold)           │
-│  (upper-left, dark empty area)      │
-│                                     │
-│        ONE BIG HERO IMAGE           │
-│        (fills the right + middle)   │
-│                                     │
-└─────────────────────────────────────┘
-```
-
-No small inset boxes. Save it as a Canva template so each new thumbnail takes ~20 minutes.
-
-## One prompt for GPT (image edit)
-
-When he asks for a thumbnail prompt, give **ONE single detailed prompt**, not several short ones. Say which files to attach. Template:
+When he asks for a thumbnail prompt, give **ONE single detailed prompt**, not several short ones. Say which files to attach: (1) the Steam key art, (2) a screenshot of the "after" hero item/character, (3) optional: a screenshot of the "before" item. Fill the `[ ]` parts:
 
 ```
-Edit the attached image into a YouTube thumbnail, 1280x720 (16:9). Keep the
-[hero image] exactly as it is. Do not change its objects or colors.
-Add: (1) [position] huge bold text "[2–3 WORDS]" in gold gradient
-(#FFC83D to #FF8A00), thick dark navy (#0B1023) outline, soft glow, spelled
-exactly. (2) Optional small teal (#2EE6D6) label "[$ or number]" and one thick
-teal arrow pointing to the hero. (3) Optional: the Brimlo mascot as part of the
-scene (reaction face), only if the idea needs it, unchanged. No logo or mascot
-stamp in any corner. No inset image boxes, no frames in any corner, no other
-text, no people, no extra logos. Strong contrast, clean layout, phone-readable.
+Make a YouTube thumbnail, 1280x720 (16:9), using the attached [GAME] images as the style and character reference. Keep the game's own art style and the real look of [HERO] and [AFTER ITEM] from the attached screenshots. TOP: huge bold heavy text across the full width of the top third, spelled exactly: "[BEFORE] → [AFTER]" (or "[2–3 WORD HOOK]"), gold gradient (#FFC83D to #FF8A00), thick dark navy (#0B1023) outline, soft glow, readable when shrunk to 160 px wide. LEFT: [BEFORE ITEM], large but plain, grey and dull, with a cold dim light. CENTER-RIGHT: [HERO] with [AFTER ITEM], big and powerful, [ACTION, e.g. firing toward the right edge], with a warm gold glow around [AFTER ITEM] like a legendary loot drop. RIGHT EDGE: 3 or 4 [GAME CONTEXT, e.g. zombies] clearly visible but smaller than the hero, lit by the action, not covering the hero, the item or the text. BACKGROUND: dark navy [SETTING, e.g. ruined city at night], softly blurred, low detail. Only one arrow (the one in the text). No other text, no numbers, no logos, no mascot, no borders, no frames or inset image boxes in any corner. High contrast, clean, phone-readable.
 ```
 
-After GPT answers: check the spelling of the text, that nothing was redrawn, and the phone test.
+To fix a version GPT already made: attach it, say "Keep everything exactly as it is" and list only the 1–3 changes.
+
+After GPT answers: check the spelling of the text, that the hero and item match the game, and do the phone test.

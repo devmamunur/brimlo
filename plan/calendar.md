@@ -29,8 +29,9 @@ Last updated: 13 Oct 2026 · Sim games are a "later" queue: owned + planned game
 | Upload | Video | Game source | Status |
 |---|---|---|---|
 | Tue 20 Oct | Rock Crusher | Owned (Mac) | 📝 |
-| Fri 23 Oct | **Outbreak Z — "One Knife to MINIGUN: I Beat the Whole Outbreak Z Demo"** (fast lane). Scheduled 10 PM Dhaka. Sorting Inc moved: needs a new slot. | Free demo (Mac native) | 🕒 |
+| Fri 23 Oct | **Outbreak Z — "One Knife to MINIGUN: I Beat the Whole Outbreak Z Demo"** (fast lane). Published 10 PM Dhaka. 12 views after 2 days (25 Oct). Sorting Inc moved: needs a new slot. | Free demo (Mac native) | ✅ |
 | **Sat 24 Oct** | **PAPERWORKS: Paper Shredder Inc. — "\| First Look Demo"** (fast lane: record + publish same night). Backup: Ant Clicker. Needs 10-min Mac test first. | Free demo (native Mac) | 📝 |
+| **Sun 25 Oct** | **Rust & Shine — "The SATISFYING Incremental Game Where You Restore Rusty Antiques \| Rust & Shine Demo"** (fast lane, added 24 Oct). Needs 10-min CrossOver test first (Windows only). | Free demo (CrossOver) | 📝 |
 
 - **Mon 19 – Thu 22 evenings:** test 4–6 incremental demos, ~20 min each. **Record these tests with commentary** (used in the week-3 round-up).
 - **Thu 22:** pick the 2 best demos with `/pick-game`.

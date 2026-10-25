@@ -24,7 +24,7 @@ Plan one video end to end and save it in the repo. Write in **simple English, sh
 3. **Write the plan** using `videos/_template.md`. Save as `videos/YYYY-MM-DD-game-slug.md` (upload date, lowercase, hyphens). Fill:
    - Header table and "Game in one sentence".
    - **3 titles** from different templates in `playbook/titles.md`, and pick one with a one-line reason. Follow the title rules (incremental word, "| Demo/Playtest/Name" rule, no creator names).
-   - Thumbnail idea following `playbook/thumbnails.md` (type, 2–4 words, which screenshot). One big hero image, **no small inset boxes in any corner**, no counts he cannot read on screen.
+   - Thumbnail idea in the **house style** from `playbook/thumbnails.md`: big gold hook text across the top (2–3 words or "A → B"), one clean before → after image under it, a little game context on the right, calm dark background. Say which screenshots to take. **No small inset boxes in any corner**, no counts he cannot read on screen.
    - **Recording script card** — this is the most important part for him:
      - Cold open note + hook (2–3 short sentences, one hook formula).
      - Start-of-play lines (3–5 sentences).
