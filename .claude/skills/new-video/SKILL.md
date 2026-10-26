@@ -20,9 +20,10 @@ Plan one video end to end and save it in the repo. Write in **simple English, sh
    - Web search the Steam page: one-sentence idea, release status (demo / playtest / early access / full), price, developer video policy, any end date.
    - If Mac status is unknown or not tested → tell him to do the 10-minute test from `games/checklist.md` **before** recording.
    - If the game fails a "Must" in `games/checklist.md`, say so and suggest the next backlog game instead.
+   - **Upload speed label** (CLAUDE.md rule 11, thresholds in `channel/strategy.md` → "Upload speed label"): check the release/demo date and end date, then search YouTube for the game name (last 14 days): how many videos, the biggest channel and its views. Decide 🔥 FAST / 🟡 SOON / 🟢 RELAXED. If FAST, pick the earliest free upload date (the day after the last video is fine).
 
 3. **Write the plan** using `videos/_template.md`. Save as `videos/YYYY-MM-DD-game-slug.md` (upload date, lowercase, hyphens). Fill:
-   - Header table and "Game in one sentence".
+   - Header table (including the **Upload speed** row) and "Game in one sentence".
    - **3 titles** from different templates in `playbook/titles.md`, and pick one with a one-line reason. Follow the title rules (incremental word, game name rule, **never the word "Demo" in a title** — it goes in the description and tags, no creator names).
    - Thumbnail idea in the **house style** from `playbook/thumbnails.md`: big gold hook text across the top (2–3 words or "A → B"), one clean before → after image under it, a little game context on the right, **bright, colorful, well-lit picture** (no dark backgrounds, Mamunur 25 Oct 2026). Say which screenshots to take. **No small inset boxes in any corner**, no counts he cannot read on screen.
    - **Recording script card** — this is the most important part for him:
@@ -38,11 +39,11 @@ Plan one video end to end and save it in the repo. Write in **simple English, sh
    - Update the slot in `plan/calendar.md` (game name, status 📝).
    - Update the game's row in `games/backlog.md` (planned slot).
 
-5. **Reply** briefly: chosen title, the hook to practice, what to test before recording, and the file path. Don't paste the whole file.
+5. **Reply** briefly: **the upload speed label first** (e.g. "🔥 FAST — publish within 1–2 days after recording, because …"), then the chosen title, the hook to practice, what to test before recording, and the file path. Don't paste the whole file.
 
 ## Rules
 
 - One game = one video. Never plan a "Part 2".
-- If the game is a demo/playtest with an end date, put the deadline in bold at the top and suggest the "fast lane" (publish within 1–3 days).
+- If the game is a demo/playtest with an end date, put the deadline in bold at the top; that usually makes it 🔥 FAST (publish within 1–2 days).
 - Publish time: always 10 PM Dhaka (12 PM ET before Sun 1 Nov 2026, 11 AM ET after). No fixed upload days, and never write upload days in the description.
 - Score the title options with `brimlo_score_title` (free, no quota) and note the score next to each option. Do not spend vidIQ credits here unless he asks. For a deeper check use `brimlo_idea_engine` (about 204 units, say the cost first).

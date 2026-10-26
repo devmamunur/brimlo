@@ -41,9 +41,9 @@ Last updated: 13 Oct 2026 · Sim games are a "later" queue: owned + planned game
 
 | Upload | Video | Game source | Status |
 |---|---|---|---|
-| **Mon 26 Oct** | **Seabun — "I Beat the GIANT Crab Boss in Seabun and Got a LEGENDARY Shark"**. Published Mon 26 Oct 10:28 PM Dhaka (https://youtu.be/1DX3Xl_XbXI). Chapters still to add from captions. Runs in CrossOver Steam ✅. Check 7-day results Mon 2 Nov. [file](../videos/2026-10-26-seabun.md). (My Dirty Little Lake → launch Mon 16 Nov.) | Free demo (CrossOver) | ✅ |
-| Tue 27 Oct | **PAYDIRT — "… \| PAYDIRT"** (title later; no "Demo" in the title) (releases Nov 2026). **Optional:** weak signal (0 demo players on 25 Oct 2026, game-scout). Backup: My Dirty Little Lake (needs CrossOver test). | Free demo (native Mac) | 📝 |
-| **Wed 28 Oct** | **Scrapecremental — "A Game Where You Scrape Dust With Your FINGERNAIL… and It's So Satisfying \| Scrapecremental"**. Free itch.io browser game. Test in Chrome Mon 26/Tue 27, record Tue 27 Oct evening, schedule Wed 28 Oct 10 PM Dhaka. [file](../videos/2026-10-28-scrapecremental.md) | Free (itch.io, Mac browser) | 📝 |
+| **Mon 26 Oct** | **Seabun — "I Beat the GIANT Crab Boss in Seabun and Got a LEGENDARY Shark"**. Published Mon 26 Oct 10:28 PM Dhaka (https://youtu.be/1DX3Xl_XbXI). 10 chapters from captions added Tue 27 Oct. Runs in CrossOver Steam ✅. Check 7-day results Mon 2 Nov. [file](../videos/2026-10-26-seabun.md). (My Dirty Little Lake → launch Mon 16 Nov.) | Free demo (CrossOver) | ✅ |
+| **Tue 27 Oct** | **Scrapecremental — "A Game Where You Scrape Dust With Your FINGERNAIL… and It's So Satisfying \| Scrapecremental"**. Scheduled Tue 27 Oct 2026, 10 PM Dhaka (moved from Wed 28 Oct), 30:31, https://youtu.be/XdfTIK_jv9U. Chapters from captions after publish. Check 7-day results Tue 3 Nov. [file](../videos/2026-10-27-scrapecremental.md) | Free (itch.io, Chrome) | 🕒 |
+| Wed 28 Oct | **Empty now** (Scrapecremental moved to Tue 27). Optional: PAYDIRT (weak signal, 0 demo players on 25 Oct 2026) or My Dirty Little Lake (needs CrossOver test), or leave it free. | | 📝 |
 | Fri 30 Oct | **Best Incremental Demos of Steam Next Fest October 2026** (round-up from your test clips + new commentary) | Free demos | 📝 |
 
 - **Mon 26 – Thu 29 evenings:** edit the round-up.

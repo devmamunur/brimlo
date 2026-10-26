@@ -33,7 +33,23 @@ Aim for roughly 60% type 1 and 40% type 2 at first; shift to whichever gets more
 |---|---|---|
 | From 26 Oct 2026 | **3–4** | Mamunur's decision (25 Oct 2026): long videos, 3–4 a week. No fixed days: make a video one day, publish it another day at 10 PM Dhaka |
 | After 12-week review | Test 5 only if energy is good | Decide on 3 Jan 2027 |
-| Any time | +1 "fast lane" | Hot demo/playtest/launch → publish in 1–3 days |
+| Any time | +1 "fast lane" | Hot demo/playtest/launch → publish in 1–2 days (🔥 FAST label, see below) |
+
+### Upload speed label (every planned video)
+
+Every time a video is planned or picked, Claude gives it **one** label so Mamunur knows if he must hurry (Mamunur, 27 Oct 2026):
+
+| Label | Publish | When |
+|---|---|---|
+| 🔥 **FAST** | Within **1–2 days** after recording, even the day right after another video | The game/demo/playtest/launch came out in the last ~2 weeks **and** YouTube has few videos on it (about 10 or fewer English videos, or no big channel yet); **or** a demo/playtest/sale ends soon; **or** Next Fest is running. Others are starting to post → every day counts. |
+| 🟡 **SOON** | Within about **1 week** | New-ish game (2–6 weeks), some videos already but no big channel; or a demo that ends in more than 2 weeks. |
+| 🟢 **RELAXED** | Any free slot; can wait in the buffer | Owned or older games, full games out for months, many videos already. Evergreen. |
+
+**How to decide (check, don't guess):** release or demo date and any end date (Steam / itch page), then search YouTube for the game name (`vidiq_youtube_search` with `publishedAfter` 14 days ago, or `brimlo_keyword_research`): count the videos and note the biggest channel and views. Write the label, the date checked and the reason in one line (e.g. "🔥 FAST — itch release 17 Oct, 3 videos, biggest 3.9K views (27 Oct 2026)").
+
+Example: Scrapecremental (27 Oct 2026) was 🔥 FAST → published the same night it was finished, the day after Seabun.
+
+FAST videos jump the queue; RELAXED videos fill quiet days and build a 2–3 video buffer. This does **not** mean a video every day: 3–4 a week stays the base.
 
 **Why 3–4?** Every growing small channel in this niche posts 4–7 long videos a week. None was found growing on 1–3. Ridiculously Random went 118 → 1,020 subs in 20 days with ~1 video/day (study 25 Oct 2026). **Why not 5 now?** Full-time job + burnout risk (52–62% of creators report burnout). A channel that stops gets nothing.
 

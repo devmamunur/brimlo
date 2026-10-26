@@ -4,7 +4,7 @@ Update this every Sunday (`/weekly-review`) and after big events.
 
 ## Right now
 
-**Last updated:** Mon 26 Oct 2026
+**Last updated:** Tue 27 Oct 2026
 
 - Channel renamed to **Brimlo (@BrimloIdle)**.
 - 1 video published (Cookie Clicker, Mon 12 Oct). 1 scheduled (A Game About Digging a Hole, Wed 14 Oct).
@@ -13,8 +13,10 @@ Update this every Sunday (`/weekly-review`) and after big events.
 - **Quadrillion Carrots demo scheduled for Sun 18 Oct 2026, 10 PM Dhaka** (1:04:12).
 - **Outbreak Z demo scheduled for Fri 23 Oct 2026, 10 PM Dhaka** ("One Knife to MINIGUN: I Beat the Whole Outbreak Z Demo"). Check CTR in YouTube Studio after 48 h; check 7-day results on Fri 30 Oct.
 - **Rust & Shine demo published Sun 25 Oct 2026** (1:21:59). Check 7-day results Sun 1 Nov.
-- **Seabun published Mon 26 Oct 2026, 10:28 PM Dhaka** ("I Beat the GIANT Crab Boss in Seabun and Got a LEGENDARY Shark", ~1:17:42, https://youtu.be/1DX3Xl_XbXI). To do: chapters from captions. Check 7-day results Mon 2 Nov.
-- Next: **Scrapecremental**, Wed 28 Oct (10-minute test in Chrome first, record Tue 27 Oct). Then Next Fest round-up, Fri 30 Oct.
+- **Seabun published Mon 26 Oct 2026, 10:28 PM Dhaka** ("I Beat the GIANT Crab Boss in Seabun and Got a LEGENDARY Shark", 1:17:38, https://youtu.be/1DX3Xl_XbXI). 10 chapters from captions added Tue 27 Oct. Check 7-day results Mon 2 Nov.
+- **Scrapecremental scheduled for Tue 27 Oct 2026, 10 PM Dhaka** ("A Game Where You Scrape Dust With Your FINGERNAIL… and It's So Satisfying | Scrapecremental", 30:31, https://youtu.be/XdfTIK_jv9U). Chapters from captions after publish. Check 7-day results Tue 3 Nov.
+- Publish time stays 10 PM Dhaka until ~27 Nov 2026, then review (Studio shows viewers most active ~8 PM Dhaka).
+- Next: Wed 28 Oct slot is empty (optional). Next Fest round-up, Fri 30 Oct.
 
 ## Numbers
 

@@ -11,7 +11,7 @@ About 10–12 hours a week. Most of it on Saturday and Sunday.
 | **Fri** | — | Video goes live. Install the weekend games. Charge/check mic. | `/publish` |
 | **Sat** | 7–8 h with breaks | Session A: record (3–4 h) → edit (2 h) → thumbnail + title + description (1 h) → export, upload, schedule. From 9 Nov this session makes **two** videos (two different games). | |
 | **Sun** | 7–8 h with breaks | Session B, same steps. Then **weekly review** (20 min). Delete raw files of videos live for 1+ week. | `/weekly-review` |
-| **Any day** | | **Fast lane:** a demo/playtest/launch is hot → record and publish within 1–3 days. | `/new-video` |
+| **Any day** | | **Fast lane (🔥 FAST label):** a demo/playtest/launch is hot → record and publish within 1–2 days. | `/new-video` |
 
 ## One recording day (example)
 

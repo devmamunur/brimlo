@@ -4,6 +4,7 @@
 |---|---|
 | Status | 📝 planned / 🎬 recorded / 🕒 scheduled / ✅ published |
 | Upload | Day DD Mon YYYY, 10 PM Dhaka |
+| Upload speed | 🔥 FAST (1–2 days after recording) / 🟡 SOON (~1 week) / 🟢 RELAXED (any slot) — reason + date checked |
 | Game | [Name] — [Steam link] |
 | Source | Owned / free demo / playtest / free-to-play / dev key |
 | Runs on | Mac native / CrossOver (tested: yes/no, date) |
