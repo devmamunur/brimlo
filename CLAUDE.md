@@ -63,6 +63,7 @@ Full details: [channel/profile.md](channel/profile.md), [channel/strategy.md](ch
 | `/script [game or video file]` | Only the recording script + practice card (opening, mid-video lines, ending). |
 | `/titles [game]` | Title + thumbnail ideas from the playbook templates. |
 | `/pick-game` | Choosing what to record next. Scores games with the checklist. |
+| `/hook [game] [timecodes]` | After recording: builds the 10 s picture hook in DaVinci Resolve (4–5 stills, zoom, dissolves, gold text) + a short voice-over script. Helper: `tools/hook/make_text.py`. |
 | `/publish [video]` | After uploading or scheduling. Updates log, calendar, backlog, status. |
 | `/weekly-review` | Sunday review. Logs stats, compares videos, suggests changes. |
 

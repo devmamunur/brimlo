@@ -88,7 +88,7 @@ Next Fest ends **Mon 26 Oct**. Record by Sun 25 Oct. Always do a 10-minute test 
 
 | Game | Status / date | Mac | Notes |
 |---|---|---|---|
-| **Seabun** (demo 5398240) | Next Fest demo since Mon 19 Oct; full game "coming soon" | **Native** | **📝 Picked for Mon 26 Oct 2026** (record Sun 25 Oct night). **CrossOver Steam ✅ 25 Oct 2026** (Mac Steam version did not work). Incremental survivor-like, bunny sub, fish mounts, lab. 132 demo players. English top video: Wrath of Zalis 3.9K (Korean 10K, Russian 7K). Risk: demo may come down after Next Fest (Mon 26 Oct 11 PM Dhaka). |
+| **Seabun** (demo 5398240) | Next Fest demo since Mon 19 Oct; full game "coming soon" | **Native** | **✅ Covered — published Mon 26 Oct 2026.** **CrossOver Steam ✅ 25 Oct 2026** (Mac Steam version did not work). Incremental survivor-like, bunny sub, fish mounts, lab. 132 demo players. English top video: Wrath of Zalis 3.9K (Korean 10K, Russian 7K). Risk: demo may come down after Next Fest (Mon 26 Oct 11 PM Dhaka). |
 | ShredDead (4704520) | Full launch Mon 26 Oct; demo since 1 Sep | Native | ❌ Saturated: Idle cub 422K, Real Civil Engineer 404K, Dex 107K. |
 | Big Dig (4304900) | Launched Mon 19 Oct, $5.99 until Mon 2 Nov | Check Apple icon | ❌ FungalBrainRot "100%" 14K already. 95% of 499 reviews. |
 | Can 'Em All (5133900) | Full launch Fri 30 Oct; demo since 9 Oct | CrossOver | ❌ Saturated: Grizzy 725K, Idle cub 176K, Azrilich 116K. |

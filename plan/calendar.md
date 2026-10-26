@@ -30,7 +30,6 @@ Last updated: 13 Oct 2026 · Sim games are a "later" queue: owned + planned game
 |---|---|---|---|
 | Tue 20 Oct | Rock Crusher | Owned (Mac) | 📝 |
 | Fri 23 Oct | **Outbreak Z — "One Knife to MINIGUN: I Beat the Whole Outbreak Z Demo"** (fast lane). Published 10 PM Dhaka. 12 views after 2 days (25 Oct). Sorting Inc moved: needs a new slot. | Free demo (Mac native) | ✅ |
-| **Mon 26 Oct** | **Seabun (Next Fest demo)** — runs in CrossOver Steam ✅ (25 Oct; the Mac Steam version did not work). Record Sun 25 Oct night, schedule Mon 26 Oct 10 PM Dhaka. Next Fest ends Mon 26 Oct 11 PM Dhaka. (My Dirty Little Lake → launch Mon 16 Nov.) | Free demo (CrossOver) | 📝 |
 | **Sun 25 Oct** | **Rust & Shine — "The SATISFYING Incremental Game Where You Restore Rusty Antiques \| Rust & Shine Demo"** (fast lane, added 24 Oct). Published 10 PM Dhaka (1:21:59). Chapters from captions added 25 Oct. | Free demo (CrossOver) | ✅ |
 
 - **Mon 19 – Thu 22 evenings:** test 4–6 incremental demos, ~20 min each. **Record these tests with commentary** (used in the week-3 round-up).
@@ -42,7 +41,8 @@ Last updated: 13 Oct 2026 · Sim games are a "later" queue: owned + planned game
 
 | Upload | Video | Game source | Status |
 |---|---|---|---|
-| Tue 27 Oct | **PAYDIRT — "\| First Look Demo"** (releases Nov 2026). **Optional:** weak signal (0 demo players on 25 Oct 2026, game-scout). Backup: My Dirty Little Lake (needs CrossOver test). | Free demo (native Mac) | 📝 |
+| **Mon 26 Oct** | **Seabun — "I Beat the GIANT Crab Boss in Seabun and Got a LEGENDARY Shark"**. Published Mon 26 Oct 10:28 PM Dhaka (https://youtu.be/1DX3Xl_XbXI). Chapters still to add from captions. Runs in CrossOver Steam ✅. Check 7-day results Mon 2 Nov. [file](../videos/2026-10-26-seabun.md). (My Dirty Little Lake → launch Mon 16 Nov.) | Free demo (CrossOver) | ✅ |
+| Tue 27 Oct | **PAYDIRT — "… \| PAYDIRT"** (title later; no "Demo" in the title) (releases Nov 2026). **Optional:** weak signal (0 demo players on 25 Oct 2026, game-scout). Backup: My Dirty Little Lake (needs CrossOver test). | Free demo (native Mac) | 📝 |
 | **Wed 28 Oct** | **Scrapecremental — "A Game Where You Scrape Dust With Your FINGERNAIL… and It's So Satisfying \| Scrapecremental"**. Free itch.io browser game. Test in Chrome Mon 26/Tue 27, record Tue 27 Oct evening, schedule Wed 28 Oct 10 PM Dhaka. [file](../videos/2026-10-28-scrapecremental.md) | Free (itch.io, Mac browser) | 📝 |
 | Fri 30 Oct | **Best Incremental Demos of Steam Next Fest October 2026** (round-up from your test clips + new commentary) | Free demos | 📝 |
 

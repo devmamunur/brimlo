@@ -23,7 +23,7 @@ Plan one video end to end and save it in the repo. Write in **simple English, sh
 
 3. **Write the plan** using `videos/_template.md`. Save as `videos/YYYY-MM-DD-game-slug.md` (upload date, lowercase, hyphens). Fill:
    - Header table and "Game in one sentence".
-   - **3 titles** from different templates in `playbook/titles.md`, and pick one with a one-line reason. Follow the title rules (incremental word, "| Demo/Playtest/Name" rule, no creator names).
+   - **3 titles** from different templates in `playbook/titles.md`, and pick one with a one-line reason. Follow the title rules (incremental word, game name rule, **never the word "Demo" in a title** — it goes in the description and tags, no creator names).
    - Thumbnail idea in the **house style** from `playbook/thumbnails.md`: big gold hook text across the top (2–3 words or "A → B"), one clean before → after image under it, a little game context on the right, **bright, colorful, well-lit picture** (no dark backgrounds, Mamunur 25 Oct 2026). Say which screenshots to take. **No small inset boxes in any corner**, no counts he cannot read on screen.
    - **Recording script card** — this is the most important part for him:
      - Cold open note + hook (2–3 short sentences, one hook formula).

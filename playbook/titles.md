@@ -8,7 +8,7 @@ Source: vidIQ outliers + keywords (12–13 Oct 2026), [research report](../resea
 2. One clear promise: **tiny → huge**, a strange idea, or a feeling.
 3. 1–3 words in CAPS. No emoji. Simple English.
 4. **Pure incremental** → sell the idea, put the game name in the description.
-5. **Hyped launch / Next Fest demo / playtest / roguelite / tower defense** → add "| Game Name" or "| First Look Demo" / "| Playtest" at the end.
+5. **Hyped launch / Next Fest demo / playtest / roguelite / tower defense** → put the game name in the title ("| Game Name" at the end, or inside the sentence). **Do not write "Demo" in the title** (Mamunur, 26 Oct 2026: it looks cheap, and it gets old when the full game comes out). Put "demo" in the description and tags instead. If the title says "100%", make it true without the word: "before release", or name the real goal (the boss, the max level).
 6. Never put other creators' names in titles or tags.
 7. Don't copy another channel's exact words. Copy the *shape*.
 8. Write 3 options for every video. Test with Test & Compare if your Studio has it.
@@ -22,11 +22,11 @@ Source: vidIQ outliers + keywords (12–13 Oct 2026), [research report](../resea
 | **C** | I 100% [game or idea] | I 100% the Incremental Game Where You Feed an AI | Can finish 100% in one session |
 | **D** | A Game Where You [strange idea]… and It's [FEELING]! | A Game Where You Grow a Parasite Army and It's DISTURBING! | Dark or weird ideas |
 | **E** | Will [thing] [A] or [B] in This Incremental Game? | Will This City Survive the Swarm in This Incremental Game? | Real choice or risk |
-| **F** | [A or B] \| First Look Demo / Playtest / Game Name | The Rat Swarm Incremental Game Where You EAT the Whole City \| I Am Plague Playtest | Demos, playtests, hyped launches |
-| **G** | Best New Incremental Games of [Month / Next Fest / 2026] | Best Incremental Demos of Steam Next Fest October 2026 | Max once a month ("best incremental games" +240%) |
+| **F** | [A or B] \| Game Name (or \| Playtest) | The Rat Swarm Incremental Game Where You EAT the Whole City \| I Am Plague Playtest | Demos, playtests, hyped launches. Never "Demo" or "First Look Demo" in the title |
+| **G** | Best New Incremental Games of [Month / Next Fest / 2026] | Best New Incremental Games of Steam Next Fest October 2026 | Max once a month ("best incremental games" +240%) |
 | **H** | This [genre] Is Basically [known game]… But With [twist]! | This Is Basically Cookie Clicker… But With ROCKS! | Easy comparison exists |
 | **I** | I [did an extreme thing] (first person, short, lowercase OK, no game name) | I made a fire so big it bullied the sun · I cheated the lottery with a flashlight | Azrilich style. Works for both game types. Good for cheats, glitches, extreme goals |
-| **J** | [Doing a simple thing] Until [HUGE result] \| Game Name | Scratching Dust Until I Made MILLIONS \| Scrapecremental · Pulling Carrots Until I Had a QUADRILLION \| Quadrillion Carrots Demo | Simple everyday object + big money/level result. Ridiculously Random style ("Flipping Coins Until I'm A BILLIONAIRE!!!"). He drops the game name; we keep it at the end while the channel needs search |
+| **J** | [Doing a simple thing] Until [HUGE result] \| Game Name | Scratching Dust Until I Made MILLIONS \| Scrapecremental · Pulling Carrots Until I Had a QUADRILLION \| Quadrillion Carrots | Simple everyday object + big money/level result. Ridiculously Random style ("Flipping Coins Until I'm A BILLIONAIRE!!!"). He drops the game name; we keep it at the end while the channel needs search |
 
 **Result first, game name last** (25 Oct 2026): the first 40 characters must make a stranger curious (the result, in CAPS). The game name goes after "|" for search. Ridiculously Random (118 → 1,020 subs in 20 days) never puts the game name in titles — see the [study](../research/reports/2026-10-25-ridiculously-random-study.md).
 

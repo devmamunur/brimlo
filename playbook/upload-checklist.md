@@ -14,7 +14,7 @@ Run through this before every upload. After uploading, run `/publish`.
 
 - [ ] Uses a template from [titles.md](titles.md)
 - [ ] "incremental" in the title (unless it really doesn't fit)
-- [ ] Demo / playtest / hyped game → "| First Look Demo" / "| Playtest" / "| Game Name" at the end
+- [ ] Demo / playtest / hyped game → "| Game Name" (or "| Playtest") at the end. **Never the word "Demo" in the title**; put "demo" in the description and tags
 - [ ] 1–3 CAPS words, no emoji
 - [ ] No other creators' names
 

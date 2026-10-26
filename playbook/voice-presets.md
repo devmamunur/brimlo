@@ -93,7 +93,7 @@ Q: Band 2 and 5 = 0.8 (gentle shelf), Band 3 and 4 = 1.0.
 | Output mode | **Advanced** (Simple mode records only one mixed audio track) |
 | Recording path | `/Volumes/WD Black/Videos/obs` |
 | Format | Hybrid MOV |
-| Video encoder | Apple VT H.264 Hardware, CBR **12000 Kbps**, keyframe 2 s |
+| Video encoder | Apple VT **HEVC** Hardware, CBR **10000 Kbps**, keyframe 2 s, 60 fps (set Mon 26 Oct 2026, not tested yet). Old setting if the test fails: Apple VT H.264 Hardware, CBR 12000 Kbps. See [recording-and-editing.md](recording-and-editing.md). |
 | Recording audio tracks | **1 + 2** on. Names: 1 = **Voice**, 2 = **Game** |
 | Video | 1920×1080 canvas and output, 60 fps |
 | Audio | 48 kHz, stereo. Global audio devices disabled (sources used instead) |

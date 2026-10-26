@@ -4,7 +4,7 @@ Update this every Sunday (`/weekly-review`) and after big events.
 
 ## Right now
 
-**Last updated:** Fri 23 Oct 2026
+**Last updated:** Mon 26 Oct 2026
 
 - Channel renamed to **Brimlo (@BrimloIdle)**.
 - 1 video published (Cookie Clicker, Mon 12 Oct). 1 scheduled (A Game About Digging a Hole, Wed 14 Oct).
@@ -12,7 +12,9 @@ Update this every Sunday (`/weekly-review`) and after big events.
 - **I Am Plague published Sat 17 Oct 2026** ("I 100% the I Am Plague Playtest and the Rats Got OUT OF HAND"). Check 7-day results on Sat 24 Oct.
 - **Quadrillion Carrots demo scheduled for Sun 18 Oct 2026, 10 PM Dhaka** (1:04:12).
 - **Outbreak Z demo scheduled for Fri 23 Oct 2026, 10 PM Dhaka** ("One Knife to MINIGUN: I Beat the Whole Outbreak Z Demo"). Check CTR in YouTube Studio after 48 h; check 7-day results on Fri 30 Oct.
-- Next (older note): Rock Crusher, Tue 20 Oct. Steam Next Fest 19–26 Oct.
+- **Rust & Shine demo published Sun 25 Oct 2026** (1:21:59). Check 7-day results Sun 1 Nov.
+- **Seabun published Mon 26 Oct 2026, 10:28 PM Dhaka** ("I Beat the GIANT Crab Boss in Seabun and Got a LEGENDARY Shark", ~1:17:42, https://youtu.be/1DX3Xl_XbXI). To do: chapters from captions. Check 7-day results Mon 2 Nov.
+- Next: **Scrapecremental**, Wed 28 Oct (10-minute test in Chrome first, record Tue 27 Oct). Then Next Fest round-up, Fri 30 Oct.
 
 ## Numbers
 
