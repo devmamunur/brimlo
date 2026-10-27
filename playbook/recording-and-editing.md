@@ -36,6 +36,8 @@ Storage: ~5.4 GB per recorded hour at H.264 12000 Kbps (~4.5 GB/h at HEVC 10000 
 
 ## Light edit (DaVinci Resolve free) — ~2 hours
 
+New to Resolve? Watch the short video list in [learn-davinci.md](learn-davinci.md) first (~50 min, only what we need).
+
 1. Import. Markers appear on the clip.
 2. **Cut the first 2 minutes hard** (see "The first 2 minutes rule" in [hooks-and-scripts.md](hooks-and-scripts.md)). Remove every menu, settings screen, language screen, story text and "what is this?" tour before the first real action. The video must start on gameplay plus the goal line.
 3. **Cut:** loading screens, menus, mistakes, and **every silence longer than ~3 seconds**, in the whole video. Winners have no gaps; our videos had 9–20 gaps each (28 Oct review). You don't need to talk faster. Just remove the quiet parts.

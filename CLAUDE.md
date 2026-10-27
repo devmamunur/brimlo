@@ -47,7 +47,7 @@ Full details: [channel/profile.md](channel/profile.md), [channel/strategy.md](ch
 | `videos/_template.md` | Template for a new video file |
 | `games/backlog.md` | Owned games, free games, candidates, Mac/CrossOver status, covered or not |
 | `games/checklist.md` | Game-picking checklist (score before recording) |
-| `playbook/` | How-to guides: titles, thumbnails, hooks & scripts, phrase bank, recording & editing, **audio setup (OBS + Resolve voice presets: `voice-presets.md`)**, upload checklist, monetization & policy |
+| `playbook/` | How-to guides: titles, thumbnails, hooks & scripts, phrase bank, recording & editing (**DaVinci learning videos: `learn-davinci.md`**), **audio setup (OBS + Resolve voice presets: `voice-presets.md`)**, upload checklist, monetization & policy |
 | `research/competitors.md` | Channels to learn from, with numbers |
 | `research/keywords.md` | Keyword data (vidIQ + `brimlo_*`) |
 | `tools/research/` | **Our own free research tool** (vidIQ replacement): MCP tools `brimlo_*`, CLI, dashboard. YouTube + Steam + itch.io + Reddit (official API) + polite web reader. Read its [README](tools/research/README.md) |
