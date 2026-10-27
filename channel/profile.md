@@ -27,7 +27,7 @@ Last updated: 13 Oct 2026
 
 Style: simple, natural, lively. Not corporate (Mamunur's choice, 23 Oct 2026).
 
-**28 Oct 2026:** added the "relax or fall asleep to" line. JonnyBebop's channel says "Gaming videos to sleep to" and his comments show people play him at bedtime ("calm but funny… subbed"). Our calm voice and long videos fit this audience. Paste the new text into YouTube → Customization → Basic info.
+**28 Oct 2026:** added the "relax or fall asleep to" line. JonnyBebop's channel says "Gaming videos to sleep to" and his comments show people play him at bedtime ("calm but funny… subbed"). Our calm voice and long videos fit this audience. Live on YouTube since 28 Oct 2026.
 
 > just a guy playing idle, clicker and upgrade games for fun 🎮
 > calm, full-length gameplay to relax or fall asleep to.

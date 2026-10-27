@@ -1,0 +1,34 @@
+[
+[
+"(?i)\\bC1 (demo|game)\\b",
+"Seabun \\1"
+],
+[
+"(?i)\\bsea one\\b",
+"Seabun ~DEL~"
+],
+[
+"(?i)\\b(saban|sabun|seaborn|siban|seabean)\\b",
+"Seabun"
+],
+[
+"(?i)\\bi am plague\\b",
+"I Am Plague"
+],
+[
+"(?i)\\boutbreak (rt|zed|said|set)\\b",
+"Outbreak Z"
+],
+[
+"(?i)\\bsea ?bun\\b",
+"Seabun"
+],
+[
+"\\bi\\b",
+"I"
+],
+[
+"  +",
+" "
+]
+]

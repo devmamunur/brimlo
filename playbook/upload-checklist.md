@@ -70,7 +70,7 @@ Chapters
 
 ## After it's live
 
-- [ ] **Fix the subtitles** (same day): Studio → Subtitles → English (automatic) → Duplicate and edit → fix wrong words, game names and numbers → Publish. Auto captions get an accent wrong; good subtitles help viewers understand you (JonnyBebop's viewers praise his). The chapters are made from these captions too.
+- [ ] **Fix the subtitles** (same day, once the automatic captions exist): run the subtitle cleaner in [tools/subtitles/](../tools/subtitles/README.md) and upload the file in Studio (Edit subtitles → ⋮ → Upload file → Publish). Auto captions get an accent wrong; good subtitles help viewers understand you (JonnyBebop's viewers praise his). The chapters are made from these captions too.
 - [ ] **Pin your own comment** right after publishing: one funny moment or extra fact from the video + "Which game should I play next?"
 - [ ] **Reply to every comment** in the first 48 h, short and friendly. marqujj does this and gets 150–376 comments per video.
 - [ ] Game suggestions from comments → write them in `games/backlog.md`. When you play one, say "You suggested this one" in the video and the description.
