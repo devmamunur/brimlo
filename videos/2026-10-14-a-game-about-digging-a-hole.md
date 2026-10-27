@@ -35,3 +35,12 @@ Quick check before it goes live (from [playbook/upload-checklist.md](../playbook
 | Watch hours | | |
 
 **Lessons:** 
+
+## Thumbnail test (started Wed 28 Oct 2026)
+
+YouTube Studio A/B test (Test & Compare), running with 3 thumbnails in house style v2 ("$10 HOUSE"):
+1. ChatGPT first version (busy backyard with patio): `playbook/thumbnail-examples/2026-10-28-digging-hole-v2-chatgpt-first.jpg`
+2. ChatGPT final (simpler background, radial lines): `playbook/thumbnail-examples/2026-10-28-digging-hole-v2-chatgpt.jpg`
+3. Gemini (flatter cartoon, smaller text): `playbook/thumbnail-examples/2026-10-28-digging-hole-v2-gemini.jpg`
+
+The old "GOT RICH!" thumbnail (CTR 1.6%) was already replaced before the test, so it is not part of it. Low traffic: check the result in 1–2 weeks (Studio → video → Analytics or the thumbnail test). Write the winner and its watch-time share here.
