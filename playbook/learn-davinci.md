@@ -54,7 +54,7 @@ Skip the rest of that video (LUTs, color, B-roll, transitions, captions, "advanc
 
 - **Step 1 (start here):** only the goal sentence + the text pop. No preview. Easy and already much better.
 - **Step 2 (when you feel ready):** add the 10-second preview. Seabun (our best opening) used this idea.
-- `/hook` can build the preview from still pictures and make the gold text PNGs for you (`tools/hook/make_text.py`). Real video clips also work.
+- **Backup:** if you get stuck, ask Claude Desktop `/hook` — it drives Resolve for you: **mode A** text pop, **mode B** 10 s clip preview, **mode C** still pictures (tested with Seabun). Modes A and B are new (28 Oct 2026) and not tested yet, so save your project first.
 
 ### What to learn for it (~5 min of videos)
 
