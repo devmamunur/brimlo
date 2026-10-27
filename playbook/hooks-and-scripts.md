@@ -8,14 +8,28 @@ Use `/script [game]` to make a card for a specific game. More ready-made sentenc
 
 | Part | Time | What happens |
 |---|---|---|
-| **Cold open** | 0:00–0:15 | 5–15 s of the best late-game moment. No logo, no intro. |
-| **Hook line** | 0:15–0:30 | One promise: "This started with X. [time] later… this. Let's see how." |
-| **The idea** | 0:30–1:00 | The game in one sentence + why it's interesting (new demo, strange idea). |
-| **Early game** | 1–10 min | Explain the first upgrades simply. Viewers decide in the first ~5 minutes. |
-| **Middle** | 10 min → end | Milestones as chapters. Talk at every decision. Speed up waits. |
+| **Cold open** (optional) | 0:00–0:10 | `/hook` picture hook, **max 10 s**. The voice-over says the goal with a number. No logo, no intro. |
+| **Goal line** | first sentence | The goal with a big number, **said while already playing**: "There are 1 quadrillion carrots here. I'm going to get all of them." |
+| **First action** | by 0:05 (0:10 after a cold open) | Click, dig, shoot, harvest. Real gameplay, never a menu. |
+| **Where it ends** | 0:10–0:30 | "In one hour I'll have [X]. This is how I got there." (Seabun opening.) |
+| **Subscribe line** | ~2:00 | One sentence: "If you like watching numbers go up, subscribe. I finish a new one every few days." |
+| **Early game** | 2–10 min | First upgrades, said short, with numbers. Keep the score out loud. |
+| **Middle** | 10 min → end | Milestones as chapters. React at every decision. Speed up waits. |
 | **Ending** | last 1–2 min | Honest verdict + who it's for + price/demo + "see you in the next video". End screen. |
 
-**Play from second 0** (lesson from Ridiculously Random, 25 Oct 2026 — [study](../research/reports/2026-10-25-ridiculously-random-study.md)). No "hello, welcome", no menu tour, no reading story text before the first upgrade. **Your first sentence = the goal with a number:** "I have 100,000 unread emails. Let's delete them all." Our Quadrillion Carrots video lost viewers from impressions after 0:09 on average; his video of the same game got 7,230 views in 3 days.
+## The first 2 minutes rule (most important rule)
+
+**Data, 28 Oct 2026** ([full review](../research/reports/2026-10-28-head-to-head-review.md)). People click our videos. On I Am Plague, 95% were still watching at 0:30. Then **80% left in the next 40 seconds**: 21% left at 1:08 (I Am Plague, menu reading), 17% at 1:17 (Quadrillion Carrots, "what is this?" room tour). After minute 5 the curve is flat. LuckyLemon posted Quadrillion Carrots on the same day as us with a 2-day-old channel and got 26,342 views. Its first sentence was the goal; its first carrot came at 0:05. Ours came at 1:38.
+
+Three rules, every video:
+
+1. **First sentence = the goal with a big number**, while you are already playing. (Hook formula 7.)
+2. **Gameplay within 5 seconds** (within 10 s if there is a `/hook` cold open). Start OBS after the menus, or cut them.
+3. **No menu reading in the first 2 minutes.** Not settings, not language screens, not story text, not skill-tree descriptions.
+
+**Banned in the first 2 minutes:** "Hello, welcome" · "Today I'm going to…" followed by a tour · "What is this? Maybe this is…" · reading upgrade or story text aloud · settings and language screens · walking around a house before the real action.
+
+Lesson first seen with Ridiculously Random on 25 Oct 2026 ([study](../research/reports/2026-10-25-ridiculously-random-study.md)). Confirmed by our own retention curves on 28 Oct.
 
 ## Hook formulas (first 30 seconds)
 
@@ -27,7 +41,7 @@ Pick one. Fill the brackets.
 4. **New / early:** "This game isn't even out yet. The [demo / playtest] is free right now, and it's [surprising feeling]."
 5. **100% run:** "I played this game until I unlocked everything. Here's the whole journey, from zero to 100%."
 6. **Honest opinion:** "I didn't expect much from this game. I was wrong."
-7. **Goal + number (say it while already playing):** "I have [one fingernail] and [a whole town covered in dust]. Let's scrape all of it." / "I have [one knife]. I want [a minigun]."
+7. **Goal + number (say it while already playing) — the default. Use it first in every video, then add another formula if you like:** "There are [1,000,000 coins] here. I'm going to pick up every single one." / "I have [one fingernail] and [a whole town covered in dust]. Let's scrape all of it." / "I have [one knife]. I want [a minigun]."
 
 ## Ending formulas
 
@@ -40,10 +54,14 @@ Keep the ending short. Put an **end screen** to your most similar video.
 
 ## Commentary rules
 
-- **Say what you see.** Read upgrade text out loud. That's easy English and useful for viewers.
+- **Say the upgrade short, not the whole text.** "Double damage. Buying it." Never read a full menu or description aloud (that is where viewers left on 28 Oct).
 - **Say why.** "I buy this because it doubles my income."
 - **Compare numbers.** "Before: 10 per second. Now: 1,000 per second."
-- **Silence is OK for a few seconds.** If you have nothing to say, speed it up later.
+- **Keep the score out loud every few minutes.** "2 million now. Next goal: 1 billion." / "20 out of 283 carrots."
+- **Stay positive when it is slow.** Say "Okay, patience. We'll get there." Don't say "my bad luck… nothing, only stones."
+- **One running joke per video.** Plan it before recording. Simple is fine: a name for your character, a "rival", or one line you repeat when something goes wrong.
+- **Skip the grind out loud.** Say "Let me skip ahead a bit", then speed it up or cut it in the edit.
+- **Silence is OK for a few seconds.** It gets cut in the edit (see [recording-and-editing.md](recording-and-editing.md)).
 - **React out loud to every upgrade:** "Oh, that's much faster now!" / "Wait, what was that?" Small honest reactions keep viewers. Still calm, never fake.
 - **Mistake in a sentence?** Pause 2 seconds, say it again. Easy to cut.
 - **Don't fake excitement.** Calm and honest is your brand.

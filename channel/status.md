@@ -23,12 +23,14 @@ Update this every Sunday (`/weekly-review`) and after big events.
 | Date | Subs | Total views | Watch hours (365 days) | Videos | Notes |
 |---|---|---|---|---|---|
 | 13 Oct 2026 | ? | ? | ? | 1 public + 1 scheduled | Fill from YouTube Studio |
+| 26 Oct 2026 | 2 (own accounts) | 1,074 | 25.4 (lifetime) | 7 public + 1 scheduled | Studio lifetime: 6,128 impressions, CTR 3.3% (Browse 2.5%), avg view 4:41. Retention falls to 17–45% by ~1:10. See [research/reports/2026-10-28-head-to-head-review.md](../research/reports/2026-10-28-head-to-head-review.md) |
 
 ## YPP progress (target: 1,000 subs + 8,000 hours)
 
 | Date | Subs | % of 1,000 | Watch hours | % of 8,000 |
 |---|---|---|---|---|
 | 13 Oct 2026 | ? | | ? | |
+| 26 Oct 2026 | 2 | 0.2% | 25.4 | 0.3% |
 
 ## Open to-dos
 

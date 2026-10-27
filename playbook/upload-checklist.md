@@ -4,9 +4,11 @@ Run through this before every upload. After uploading, run `/publish`.
 
 ## Video
 
-- [ ] First 15 s = best late-game moment (cold open)
-- [ ] Hook line in the first 30 s
-- [ ] No long silent idle parts (sped up or cut)
+- [ ] First sentence = the goal with a big number (cold open, if any, max 10 s)
+- [ ] Real gameplay by 0:05 (0:10 with a cold open)
+- [ ] No menus, story text or "what is this?" tour in the first 2 minutes
+- [ ] Subscribe line near 2:00
+- [ ] No silence longer than ~3 s; grind sped up or cut
 - [ ] Voice clear over game sound
 - [ ] Short honest verdict at the end
 

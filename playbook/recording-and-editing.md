@@ -37,18 +37,23 @@ Storage: ~5.4 GB per recorded hour at H.264 12000 Kbps (~4.5 GB/h at HEVC 10000 
 ## Light edit (DaVinci Resolve free) — ~2 hours
 
 1. Import. Markers appear on the clip.
-2. **Cut:** loading screens, menus, mistakes, long silence.
-3. **Speed up idle waits** 4x–16x and add a small "x8" label. Never leave minutes of silent waiting (monetization risk).
-4. **Cold open:** run `/hook` with 4–5 timecodes of the best moments. It builds a 10 s picture hook (stills, zoom, dissolves, gold text) and gives you a short voice-over script to record on Audio 1.
-5. Audio: Fairlight → Presets Library → apply **Brimlo Voice B Warm** to Audio 1 and **Brimlo Master** to Bus 1 (see [voice-presets.md](voice-presets.md)). Check A2 (game) is not muted. Voice clear over game sound (lower the game track if needed).
-6. Write chapters from your markers.
-7. Export: render preset **Brimlo YouTube** (YouTube loudness -14 LUFS), H.264/H.265, 1080p60.
+2. **Cut the first 2 minutes hard** (see "The first 2 minutes rule" in [hooks-and-scripts.md](hooks-and-scripts.md)). Remove every menu, settings screen, language screen, story text and "what is this?" tour before the first real action. The video must start on gameplay plus the goal line.
+3. **Cut:** loading screens, menus, mistakes, and **every silence longer than ~3 seconds**, in the whole video. Winners have no gaps; our videos had 9–20 gaps each (28 Oct review). You don't need to talk faster. Just remove the quiet parts.
+4. **Speed up the grind and idle waits** 4x–16x and add a small "x8" label. Say "Let me skip ahead a bit" live before it. Never leave minutes of silent waiting (monetization risk).
+5. **Cold open (optional):** run `/hook` with 4–5 timecodes of the best moments. It builds a 10 s picture hook (stills, zoom, dissolves, gold text) and gives you a short voice-over script to record on Audio 1. **Max 10 s.** The voice-over must say the goal with a number. Right after it: gameplay, not a menu.
+6. Audio: Fairlight → Presets Library → apply **Brimlo Voice B Warm** to Audio 1 and **Brimlo Master** to Bus 1 (see [voice-presets.md](voice-presets.md)). Check A2 (game) is not muted. Voice clear over game sound (lower the game track if needed).
+7. Write chapters from your markers.
+8. **First 2 minutes check before export:** watch 0:00–2:00 once. ✅ The goal with a number is in the first sentence. ✅ The first real action is by 0:05 (0:10 with a cold open). ✅ No menu, no reading aloud, no tour. ✅ The subscribe line is near 2:00. If any check fails, cut more.
+9. Export: render preset **Brimlo YouTube** (YouTube loudness -14 LUFS), H.264/H.265, 1080p60.
 
-Silence removal: one source says Resolve 20.2+/21 free has *Clip → Audio Operations → Ripple Delete Silence* — check your version. Use it on menu parts only, not on gameplay. CapCut's auto silence removal is mostly a paid feature.
+Silence removal: one source says Resolve 20.2+/21 free has *Clip → Audio Operations → Ripple Delete Silence* — check your version. Run it on the voice track (Audio 1) so it finds the gaps in your talking, then watch the result for jumpy cuts in the middle of a big moment. If it is not in your version, cut gaps by hand with the blade tool (B). CapCut's auto silence removal is mostly a paid feature.
+
+**After 7 days, check:** Studio → video → Engagement → hover the retention curve at 1:00. Before the new rules it was 17–45%; the target is **60%+**.
 
 ## Length guide
 
 - 60–120 minutes. Shorter is fine if the game is short. **Never stretch.**
+- The length is whatever is left **after** the cuts above. Do not keep quiet parts just to reach a length. A busy 50 min video is better than a 90 min video with gaps.
 - From 9 Nov: the Saturday session makes **two** 60–90 min videos on **two different games**.
 
 ## Upload

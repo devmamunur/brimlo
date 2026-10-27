@@ -27,8 +27,9 @@ Plan one video end to end and save it in the repo. Write in **simple English, sh
    - **3 titles** from different templates in `playbook/titles.md`, and pick one with a one-line reason. Follow the title rules (incremental word, game name rule, **never the word "Demo" in a title** — it goes in the description and tags, no creator names).
    - Thumbnail idea in the **house style** from `playbook/thumbnails.md`: big gold hook text across the top (2–3 words or "A → B"), one clean before → after image under it, a little game context on the right, **bright, colorful, well-lit picture** (no dark backgrounds, Mamunur 25 Oct 2026). Say which screenshots to take. **No small inset boxes in any corner**, no counts he cannot read on screen.
    - **Recording script card** — this is the most important part for him:
-     - Cold open note + hook (2–3 short sentences, one hook formula).
-     - Start-of-play lines (3–5 sentences).
+     - Follow "The first 2 minutes rule" in `playbook/hooks-and-scripts.md`: **first sentence = the goal with a big number** (said while playing), first action by 0:05, what to finish before pressing record (menus, settings, story text), no menu reading.
+     - Optional cold open note (max 10 s) + where-it-ends line (Seabun style).
+     - Start-of-play lines (3–5 sentences), subscribe line for ~2:00, one running joke.
      - 6–8 milestone lines specific to this game's mechanics (first upgrade, new resource, prestige, big number, speed-up…). Use `[X]` placeholders for numbers.
      - Ending (verdict + who it's for + price/demo + close).
      - **5 practice lines** to say 3 times each before recording.
