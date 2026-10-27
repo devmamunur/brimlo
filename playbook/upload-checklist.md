@@ -37,6 +37,9 @@ Run through this before every upload. After uploading, run `/publish`.
 [Line 3: demo / playtest / launch info if relevant]
 CURRENT SUBS: [real number from Studio]
 
+Calm, full-length gameplay to relax or fall asleep to. You relax. I'll grind.
+Which game should I play next? Tell me in the comments.
+
 🎮 [Game] on Steam: [link]
 Developer: [name]
 
@@ -57,16 +60,18 @@ Chapters
 
 ## Settings
 
-- [ ] Tags: game name, genre words (incremental game, idle game, bullet heaven / tower defense if true), brimlo
+- [ ] Tags (10–15, they matter little): game name in 3–4 forms + 1–2 common misspellings + "[game] gameplay / full playthrough" + genre words (incremental game, idle game, bullet heaven / tower defense if true) + brimlo. No junk tags.
 - [ ] Category: Gaming · Language: English · **Not made for kids**
 - [ ] Altered/synthetic content: No (unless you used AI visuals)
 - [ ] End screen: most similar video + subscribe
 - [ ] Add to playlist (New Incremental Games / 100% Runs / Demos & Playtests / Relaxing Long Videos)
 - [ ] Test & Compare (if available): 2–3 thumbnails or titles
-- [ ] **Scheduled for 12 PM ET** (10 PM Dhaka; 11 PM from 1 Nov)
+- [ ] **Scheduled for 10 PM Dhaka** (12 PM ET until 31 Oct 2026; 11 AM ET from 1 Nov 2026)
 
 ## After it's live
 
-- [ ] Reply to every comment in the first 24 h
-- [ ] Pin a comment (question to viewers, e.g. "What upgrade would you buy first?")
+- [ ] **Fix the subtitles** (same day): Studio → Subtitles → English (automatic) → Duplicate and edit → fix wrong words, game names and numbers → Publish. Auto captions get an accent wrong; good subtitles help viewers understand you (JonnyBebop's viewers praise his). The chapters are made from these captions too.
+- [ ] **Pin your own comment** right after publishing: one funny moment or extra fact from the video + "Which game should I play next?"
+- [ ] **Reply to every comment** in the first 48 h, short and friendly. marqujj does this and gets 150–376 comments per video.
+- [ ] Game suggestions from comments → write them in `games/backlog.md`. When you play one, say "You suggested this one" in the video and the description.
 - [ ] Run `/publish` so the log and calendar stay true

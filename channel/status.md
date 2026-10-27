@@ -39,6 +39,8 @@ Update this every Sunday (`/weekly-review`) and after big events.
 - [ ] Create a business email and add it to the channel description (Mamunur, 23 Oct 2026: add it later, after monetization)
 - [x] New logo for "Brimlo" (gold money-bag mascot, 23 Oct 2026)
 - [x] Logo uploaded as profile picture + new channel description live (23 Oct 2026)
+- [ ] Paste the new channel description with the "relax or fall asleep to" line (draft in [profile.md](profile.md), 28 Oct 2026)
+- [ ] Fix English subtitles on the published videos, best ones first (I Am Plague, Outbreak Z, Seabun)
 - [ ] Banner: replace "Subscribe" with BRIMLO + "You relax. I'll grind." (layout in [profile.md](profile.md))
 - [ ] Decide on CrossOver purchase before the trial ends (~23 Oct)
 - [ ] Set up OBS Hybrid MP4 + chapter-marker hotkey (see [playbook/recording-and-editing.md](../playbook/recording-and-editing.md))

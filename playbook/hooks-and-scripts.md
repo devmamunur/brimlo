@@ -48,7 +48,7 @@ Pick one. Fill the brackets.
 1. **Verdict:** "So that's [game]. The best part is [X]. The weak part is [Y]. I'd give it [score/10]."
 2. **Who it's for:** "If you like games where you start tiny and end huge, this one is for you."
 3. **Price / demo:** "It's [$price / free as a demo] on Steam. Link in the description."
-4. **Close:** "Thanks for watching. If you want more games like this, subscribe. See you in the next one."
+4. **Close:** "Thanks for watching. Which game should I play next? Tell me in the comments. If you want more games like this, subscribe. See you in the next one."
 
 Keep the ending short. Put an **end screen** to your most similar video.
 

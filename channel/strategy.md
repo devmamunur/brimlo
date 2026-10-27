@@ -47,6 +47,8 @@ Every time a video is planned or picked, Claude gives it **one** label so Mamunu
 
 **How to decide (check, don't guess):** release or demo date and any end date (Steam / itch page), then search YouTube for the game name (`vidiq_youtube_search` with `publishedAfter` 14 days ago, or `brimlo_keyword_research`): count the videos and note the biggest channel and views. Write the label, the date checked and the reason in one line (e.g. "🔥 FAST — itch release 17 Oct, 3 videos, biggest 3.9K views (27 Oct 2026)").
 
+**Game wave check (28 Oct 2026, [study](../research/reports/2026-10-28-four-channels-success-study.md)).** A big channel posting a game is **not** a reason to skip it. In the first ~7 days after a big video, small channels still got 9K–38K on the same game (LuckyLemon posted One Million Coins 8 h after Azrilich: 38K; Ridiculously Random posted Quadrillion Carrots the same day as Azrilich: 9.4K). About 4 weeks later the same game gets only 1–3K. So: **new incremental game on Azrilich / JonnyBebop in the last 7 days + it runs in CrossOver or Mac Steam → 🔥 FAST.** Older than ~3 weeks → no wave, judge it normally.
+
 Example: Scrapecremental (27 Oct 2026) was 🔥 FAST → published the same night it was finished, the day after Seabun.
 
 FAST videos jump the queue; RELAXED videos fill quiet days and build a 2–3 video buffer. This does **not** mean a video every day: 3–4 a week stays the base.
@@ -98,7 +100,7 @@ Azrilich is the **game-choice and title-shape model**, not the copy target. Brim
 | Skits and fast-talking | Explain what's on screen, why I choose, honest verdict |
 | Shows the "wow" result | Shows the **whole journey** and tells viewers if the game is worth buying |
 
-Brimlo's promise: *calm, honest, full-length — no fast cuts, see everything.* This is also the lower-risk path for monetization (real commentary, real gameplay).
+Brimlo's promise: *calm, honest, full-length — no fast cuts, see everything. Good to relax or fall asleep to.* This is also the lower-risk path for monetization (real commentary, real gameplay).
 - Use his **title shape** (template I) and **game ideas**, in my own words.
 - Do not copy his exact titles or thumbnails.
 - Keep the first-30-seconds hook and the "tiny → huge" promise.
