@@ -36,7 +36,10 @@ Quick check before it goes live (from [playbook/upload-checklist.md](../playbook
 
 **Lessons:** 
 
-## Thumbnail test (started Wed 28 Oct 2026)
+## Thumbnail test (started and stopped Wed 28 Oct 2026)
+
+**Update 28 Oct 2026:** Mamunur stopped the test and uploaded #2 (ChatGPT final) as the only thumbnail. Check its CTR in Studio on Wed 11 Nov 2026 (before: 1.6% with "GOT RICH!").
+
 
 YouTube Studio A/B test (Test & Compare), running with 3 thumbnails in house style v2 ("$10 HOUSE"):
 1. ChatGPT first version (busy backyard with patio): `playbook/thumbnail-examples/2026-10-28-digging-hole-v2-chatgpt-first.jpg`
