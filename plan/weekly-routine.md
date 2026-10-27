@@ -4,7 +4,7 @@ About 10–12 hours a week. Most of it on Saturday and Sunday.
 
 | Day | Time | Task | Command |
 |---|---|---|---|
-| **Mon** | 30 min, evening | **Scout.** Steam Upcoming + New & Trending (tags: Incremental, Idler, Clicker), SteamDB, r/incremental_games, last 7 days of uploads from Azrilich, JonnyBebop, LuckyLemon, Ridiculously Random, CG Grows, Nerfed Reflexes, MOREQUIS, Idle Cub, Dex (**game wave check**: a new incremental game on a big channel in the last 7 days → 🔥 FAST, see [strategy.md](../channel/strategy.md)). Add game suggestions from comments. Write 3–5 candidates in `games/backlog.md`. | `/pick-game` |
+| **Mon** | 30 min, evening | **Scout.** Steam Upcoming + New & Trending (tags: Incremental, Idler, Clicker), SteamDB, r/incremental_games, last 7 days of uploads from **ksyliki (Korean, plays new demos 1–3 weeks before English channels: early radar, always check English YouTube coverage after)**, Azrilich, JonnyBebop, LuckyLemon, Ridiculously Random, CG Grows, Nerfed Reflexes, MOREQUIS, Idle Cub, Dex (**game wave check**: a new incremental game on a big channel in the last 7 days → 🔥 FAST, see [strategy.md](../channel/strategy.md)). Add game suggestions from comments. Write 3–5 candidates in `games/backlog.md`. | `/pick-game` |
 | **Tue** | — | Video goes live at 10 PM Dhaka. Pin your comment, fix subtitles, reply to first comments. | `/publish` |
 | **Wed** | 30–40 min | **Mac test** the top 2 candidates in CrossOver: launch, one upgrade loop, OBS capture. Pick the weekend games. Keep one Mac-native backup. | |
 | **Thu** | 20–30 min | Reply to every comment. Prepare the weekend videos: titles, thumbnail idea, recording script. **Practice the opening out loud 2–3 times.** | `/new-video`, `/script` |

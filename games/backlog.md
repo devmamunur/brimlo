@@ -95,6 +95,19 @@ Next Fest ends **Mon 26 Oct**. Record by Sun 25 Oct. Always do a 10-minute test 
 | Selkie's Salvage&Co. (4984870) | Full launch Tue 27 Oct; demo since 7 Oct | CrossOver | Scrap fishing + upgrades. YouTube not checked. |
 | CRACK (4312190) | Full launch Mon 26 Oct; no demo | Native | Crack a giant egg, upgrade tools. Paid; YouTube not checked. |
 
+### From ksyliki's list (Korean early-radar channel, Wed 28 Oct 2026)
+
+Steam store search + English YouTube search (vidIQ) on 28 Oct 2026. **No run test yet** (rule 6: 10-minute test in CrossOver Steam or Mac Steam first). Demo release dates not verified.
+
+| Game | Status / date | Mac | Notes |
+|---|---|---|---|
+| **Deforest a Planet** (5326060; itch.io demo) | Free demo on itch.io (browser) + Steam; **full launch Fri 30 Oct 2026** | **Steam: Mac ✅** · itch.io: browser | **🔥 FAST** (checked 28 Oct): launches 30 Oct, **no English video found**; ksyliki 16K (16 Oct). Cut every tree on a small planet, the counter goes down to zero, workers + lumbermills. Recommended first. https://venusian-games.itch.io/deforest-a-planet |
+| **Pack Ripper** (5071620; demo 5436300) | Free demo (first English video 23 Oct) | **Mac ✅** | **🔥 FAST** (checked 28 Oct): only 1 English no-commentary video (Zhain, 2K); ksyliki 13.7K (27 Oct). Card-pack incremental: the same idea as Crack the Pack, which got 140–194K on English channels in Oct. |
+| **Summer for ANT** (5162770; demo 5268240) | Free demo (Next Fest); full game Mac ✅ | Demo **Windows only → CrossOver** | **🔥 FAST** (checked 28 Oct): no English commentary video found; Hurtig (BR, 1.3M subs) 51K, French 7.9K, Indonesian 6K, ksyliki 20K. Next Fest trailer 64K. Cozy ant job-sim: collect food, hire ants, upgrades, 7 areas. Not the same game as "Ant Clicker" above. |
+| **The Woodman** (4064810) | Full game out 16 Oct 2026, **$4.99** | **Mac ✅** | **🔥 FAST if bought** (checked 28 Oct): game wave — **Idle cub 274K on 24 Oct**, Idle Gamer 196 (27 Oct), ksyliki 41K. Chop a tree that grew into space, gnomes, shop. Paid: fits the $10–15/month budget. |
+| Dwarven Shift 98 (4657930; demo 5402900) | Free demo (trailer 19 Oct); release Q1 2027 | **Windows only → CrossOver** | **🟡 SOON / backup** (checked 28 Oct): almost no English coverage (one 23-view video), so no competition but also no proven demand; ksyliki 10K. Mining incremental in short timed shifts, prestige. |
+| Siege of Incrementalia (5083130) | Free demo | Windows → CrossOver | ❌ Skip: Wanderbots 30K + CG Grows More 23K already (Oct 2026); strategy-heavy. |
+
 ## Avoid
 
 - Roblox "incremental" games (different audience).
