@@ -6,7 +6,7 @@
 - "Scout pick" = a free demo, playtest, free-to-play game or developer key chosen with `/pick-game` that week.
 - Status: ✅ published · 🕒 scheduled · 🎬 recorded · 📝 planned · ❓ open slot
 
-Last updated: 13 Oct 2026 · Sim games are a "later" queue: owned + planned games first (see games/backlog.md)
+Last updated: 28 Oct 2026 · Sim games are a "later" queue: owned + planned games first (see games/backlog.md)
 
 ## Phase 1 — Launch + Next Fest
 
@@ -43,12 +43,12 @@ Last updated: 13 Oct 2026 · Sim games are a "later" queue: owned + planned game
 |---|---|---|---|
 | **Mon 26 Oct** | **Seabun — "I Beat the GIANT Crab Boss in Seabun and Got a LEGENDARY Shark"**. Published Mon 26 Oct 10:28 PM Dhaka (https://youtu.be/1DX3Xl_XbXI). 10 chapters from captions added Tue 27 Oct. Runs in CrossOver Steam ✅. Check 7-day results Mon 2 Nov. [file](../videos/2026-10-26-seabun.md). (My Dirty Little Lake → launch Mon 16 Nov.) | Free demo (CrossOver) | ✅ |
 | **Tue 27 Oct** | **Scrapecremental — "A Game Where You Scrape Dust With Your FINGERNAIL… and It's So Satisfying \| Scrapecremental"**. Scheduled Tue 27 Oct 2026, 10 PM Dhaka (moved from Wed 28 Oct), 30:31, https://youtu.be/XdfTIK_jv9U. Chapters from captions after publish. Check 7-day results Tue 3 Nov. [file](../videos/2026-10-27-scrapecremental.md) | Free (itch.io, Chrome) | 🕒 |
-| Wed 28 Oct | **Empty now** (Scrapecremental moved to Tue 27). Optional: PAYDIRT (weak signal, 0 demo players on 25 Oct 2026) or My Dirty Little Lake (needs CrossOver test), or leave it free. | | 📝 |
-| Fri 30 Oct | **Best Incremental Demos of Steam Next Fest October 2026** (round-up from your test clips + new commentary) | Free demos | 📝 |
+| Wed 28 Oct | No upload. **Test day:** 10-minute run test of Deforest a Planet (itch.io browser demo or Steam demo, Mac ✅). Practice the first sentence. | | — |
+| **Fri 30 Oct** | **Deforest a Planet** 🔥 FAST (checked 28 Oct: full game launches Fri 30 Oct, no English video yet). **Record: Thu 29 Oct · Publish: Fri 30 Oct, 10 PM Dhaka (12 PM ET)** — launch day. Start the thumbnail A/B test on publish day. | Free demo (itch.io / Steam, Mac ✅) — run test pending | 📝 |
+| **Sun 1 Nov** | **Pack Ripper** 🔥 FAST (checked 28 Oct: only 1 English no-commentary video; card-pack idea proven at 140–194K). **Record: Sat 31 Oct · Publish: Sun 1 Nov, 10 PM Dhaka (11 AM ET)** | Free demo (Steam, Mac ✅) — run test pending | 📝 |
 
-- **Mon 26 – Thu 29 evenings:** edit the round-up.
-- **Sat 31:** record + edit **Cast n Chill** (calm 90–120 min video) → Tue 3 Nov.
-- **Sun 1 Nov:** record + edit **Scratch the Ticket** → Fri 6. ⏰ Publish time stays **10 PM Dhaka** (now 11 AM ET).
+- **Dropped (28 Oct 2026):** the "Best Incremental Demos of Steam Next Fest" round-up. A clip compilation breaks the one-game rule, the goal-number opening and the no-silence rule, and Next Fest ended 26 Oct. Deforest a Planet's launch day takes the slot.
+- ⏰ Publish time stays **10 PM Dhaka** (11 AM ET from Sun 1 Nov).
 - **Checkpoint Sun 1 Nov** (see [roadmap.md](roadmap.md)).
 
 ## Phase 2 — Rhythm
@@ -57,8 +57,10 @@ Last updated: 13 Oct 2026 · Sim games are a "later" queue: owned + planned game
 
 | Upload | Video | Game source | Status |
 |---|---|---|---|
-| Tue 3 Nov | Cast n Chill | Owned (Mac) | 📝 |
-| Fri 6 Nov | Scratch the Ticket | Owned (CrossOver) | 📝 |
+| **Tue 3 Nov** | **Summer for ANT** 🔥 FAST (checked 28 Oct: no English commentary video yet; big in BR/FR/ID/KR). **Record: Mon 2 Nov · Publish: Tue 3 Nov, 10 PM Dhaka (11 AM ET)** | Free demo — Windows only → CrossOver, run test pending | 📝 |
+| Later (buffer) | Cast n Chill 🟢 RELAXED — moved from Tue 3 Nov on 28 Oct; fill a quiet day | Owned (Mac) | 📝 |
+| Later (buffer) | Scratch the Ticket 🟢 RELAXED — moved from Fri 6 Nov on 28 Oct; crowded (Azrilich 956K), needs a fresh angle | Owned (CrossOver) | 📝 |
+| Backups | The Woodman 🔥 ($4.99, Idle cub wave 24 Oct) · Dwarven Shift 98 🟡 (CrossOver) | see games/backlog.md | 📝 |
 
 - Register on **Keymailer**. Email 3 developers whose Next Fest demos you covered (link your video, be honest about size).
 - **Sat 7:** record **two** 60–90 min videos: **Keep on Mining!** + **Nodebuster**.
