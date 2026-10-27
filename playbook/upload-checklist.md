@@ -22,8 +22,8 @@ Run through this before every upload. After uploading, run `/publish`.
 
 ## Thumbnail
 
-- [ ] One idea, 2–4 words or one number
-- [ ] Real late-game screenshot
+- [ ] House style v2: bright 2D cartoon, POV hands (navy sleeves, gold cuff), one huge object, max 3 words or one number
+- [ ] Made with the master prompt + AVOID part in [thumbnails.md](thumbnails.md); object looks like the real game
 - [ ] Readable at phone size
 - [ ] No corner boxes and no mascot/logo stamp in any corner
 - [ ] No number on it that I did not read on screen
