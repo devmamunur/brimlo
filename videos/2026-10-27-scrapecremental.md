@@ -182,6 +182,14 @@ Scrapecremental, Scrapecremental gameplay, Scrapecremental demo, Scrapecremental
 
 (351 characters, under the 500 limit. "incremental games", "relaxing games", "cozy gaming", "chill games" have the best vidIQ numbers of the related keywords, 27 Oct 2026.)
 
+## Review and fix plan (Wed 28 Oct 2026)
+
+Numbers (vidIQ, ~27 h after publish): 19 views, 1 like. Too early to judge (7-day check Tue 3 Nov), and impressions/CTR must come from Studio. Search "scrapecremental" (vidIQ, 28 Oct): **we are #2**, after a 20-view video; Ridiculously Random "Scratching Dust To Make MILLIONS!!!" now 6.7K.
+
+- **Title:** change to "They Gave Me ONE Fingernail and Told Me to Clean a Whole Town | Scrapecremental" (vidIQ 94, estimate; "I Cleaned a Dinosaur Skull With Only My Fingernail | Scrapecremental" 89). Tiny tool + huge job is the proven pattern (toothbrush/moon 71.8K and 259K). True: the game starts with the whole town under dust (captions 0:17). **Keep "| Scrapecremental"**: we rank #2 for it, so the name earns search views here (exception to the head-to-head "no game name" rule).
+- **Thumbnail:** old style (FILTHY → SPOTLESS, darker museum, small finger). New: house style v2, one navy-sleeve hand with a giant fingernail on a huge dino skull, bright teal, text "100% CLEAN" (the skull reached 100% at 30:00 in the captions). Prompt in chat 28 Oct. **Made (GPT, 28 Oct):** `thumbnails/2026-10-27-scrapecremental-v3-fingernail.jpg` (1280×720, 344 KB, after one GPT fix that added a proper hand). Reads well at 160 px. Trade-off: the fingernail is smaller than in the first try. Mamunur uploads it himself.
+- **Opening:** the voice-over says "One **rusty** ceiling fan" (should be "dusty"), then Gary's story. Can't fix without a re-edit; Studio trim would cut the hook. Leave it.
+
 ## Results
 
 | Check | 7 days (Tue 3 Nov 2026) | 28 days (Tue 24 Nov 2026) |

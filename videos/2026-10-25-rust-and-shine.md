@@ -7,7 +7,7 @@
 | Game | Rust & Shine Demo — https://store.steampowered.com/app/5252990 (full game: https://store.steampowered.com/app/4857070/ — "Coming soon", no date found 24 Oct) |
 | Source | Free demo (Steam), by Enigma Games |
 | Runs on | Windows only → CrossOver Steam ✅ |
-| Length | 1:21:59 |
+| Length | 1:21:23 after the trim (was 1:21:59). First 35 s cut in Studio on Wed 28 Oct 2026; processing. |
 | YouTube link | https://www.youtube.com/watch?v=BkTTSxBYnyY |
 
 ## Game in one sentence
@@ -212,15 +212,15 @@ Developer: Enigma Games. The full game is "coming soon" (no release date yet).
 
 Chapters
 00:00 My first rusty crate
-11:55 I buy the water gun
-17:14 My first cleaning station
-26:17 Auto delivery: no more button pressing
-42:28 My first cleaning robot
-47:15 Special orders pay double
-1:08:17 Flame Crystal for $4,000
-1:11:39 Four robots
-1:17:33 Everything maxed
-1:21:45 ONE MILLION dollars
+11:20 I buy the water gun
+16:39 My first cleaning station
+25:42 Auto delivery: no more button pressing
+41:53 My first cleaning robot
+46:40 Special orders pay double
+1:07:42 Flame Crystal for $4,000
+1:11:04 Four robots
+1:16:58 Everything maxed
+1:21:10 ONE MILLION dollars
 
 I play idle, incremental and satisfying upgrade games on Steam with calm, full-length live commentary.
 
@@ -236,6 +236,15 @@ Rust & Shine, Rust and Shine, Rust and Shine demo, Rust & Shine gameplay, Rust a
 ```
 
 Hashtags (end of description): #RustAndShine #IncrementalGame #SatisfyingGames
+
+## Fix plan (Wed 28 Oct 2026)
+
+Why it is weak (Studio + vidIQ, 28 Oct): 22 views in 3 days, only **39 impressions**, CTR 10.3% (too few impressions to trust), **average view 0:22**. Captions show the video starts with the game's phone-call story read aloud (0:00–0:35): the "no story text" rule. Big channels covered the game a month earlier (GrayStillPlays 284K, ImCade 174K, Idle Cub 119K), so we are late. A new title and thumbnail give YouTube a reason to test it again, but there is no promise.
+
+1. ✅ **Trim saved in Studio Wed 28 Oct 2026:** cut 0:00:00–0:00:35 (the phone call); the video now starts on the workshop. New length 1:21:23. Processing can take hours. The chapters above are already moved back 35 s: paste them into Studio **after** processing ends.
+2. ✅ **New title saved in Studio Wed 28 Oct 2026:** "I Cleaned Rusty Junk Until I Made $1,000,000" (vidIQ 94, estimate; the old title also scored 96, so the score doesn't decide). Number formula from the head-to-head review. $1,000,000 is real: captions 1:21:45.
+3. **New thumbnail:** house style v2, text "$1,000,000" (GPT, one fix round for the sword shape). File: `thumbnails/2026-10-25-rust-and-shine-v2-million.jpg` (1280×720, 448 KB). Mamunur uploads it himself (28 Oct 2026).
+4. ✅ **Tags saved in Studio Wed 28 Oct 2026 (20 tags):** removed "Rust and Shine full demo", "steam demo", "restoration incremental"; added "cleaning simulator", "restoration simulator", "rust removal game", "satisfying cleaning game".
 
 ## Results
 
