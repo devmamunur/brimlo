@@ -66,77 +66,89 @@ Make 2 versions (ChatGPT + Gemini), check them (10-second check in `playbook/thu
 
 ## Recording script
 
-### Before you press record
+**Format: run sheet.** This is how many YouTubers plan a live-commentary video. Read the table from top to bottom. Each row is one part of the video: **what you do on screen**, **what you say**, and a **cue** (a small note). You don't read it word for word. Only the 🎯 lines are learned by heart. Everything else is natural talk.
 
-- Open the itch.io page in Chrome, start the game, close any pop-ups, set the sound. **Start OBS after the menus**, when you see the planet and can click.
-- Look at the tree counter once, so you know the starting number for the first sentence.
-- Plan your running joke (below).
+Game facts (itch.io page, checked 28 Oct 2026): one woodcutter + small axe at the start · upgrades for axe, movement, carrying capacity, critical hits · bigger crews · lumbermills on a round planet · permanent prestige upgrades · tree counter goes down to zero · demo = first 3 of 5 planets · Steam full game Tue 15 Dec 2026.
 
-### First sentence (say it while already chopping, first click by 0:05)
+### A. Before you press record (5 min)
 
-> "This planet has [X] trees. I have one woodcutter and one small axe. I'm going to cut down every single tree."
+| ✓ | Check |
+|---|---|
+| ☐ | Chrome open on the itch.io page. Game started. Pop-ups closed. Sound set. |
+| ☐ | OBS: mic preset on, game sound lower than voice. Test 10 s and listen back. |
+| ☐ | Read the **tree counter** once. Write the number here: ________ trees. |
+| ☐ | **Start OBS only now**, when you can see the planet and click. No menus in the video. |
+| ☐ | Marker hotkey ready (press it at every milestone = chapters later). |
+| ☐ | Water next to you. Say the 🎯 first sentence 3 times out loud. |
 
-### Where it ends (0:10–0:30)
+### B. Run sheet
 
-> "In about one hour, I'll have hundreds of workers, and three bald planets. This is how I got there."
+| # | Time | On screen (do) | Say | Cue |
+|---|---|---|---|---|
+| 1 | 0:00 | Already chopping. First click by **0:05**. | 🎯 "This planet has **[X]** trees. I have one woodcutter and one small axe. I'm going to cut down every single tree." | Goal + number. No "hello". |
+| 2 | 0:10 | **Slowly spin the full planet once**, then move the mouse to the tree counter for 1 s. | 🎯 "By the end of this video, this whole planet will be bald. Let's see how I get there." | Future tense (said live). In the edit you may swap in a past-tense line with the real result: "In one hour, I went from one woodcutter to [X] workers. This is how I got there." over a `/hook` mode B clip preview. |
+| 3 | 0:20 | Point at your woodcutter. | 🎯 "This is Bob. Bob has a small axe and a big dream." | Running joke starts. |
+| 4 | 0:30 | Point at the counter, then the money. | "The counter at the top is the trees left. Every tree gives wood. Wood is money." | Max 2 sentences of explaining. |
+| 5 | 0:45 | Buy the first axe upgrade. | "First upgrade: a sharper axe. Buying it." → "Okay, Bob is faster now." | Say the upgrade short. Never read the text. |
+| 6 | 1:00–2:00 | Hire workers, buy speed. | "Let's hire more workers." / "Now I have **[X]** workers. Look at them go!" | Keep clicking. No silence. |
+| 7 | ~2:00 | Workers chopping. | 🎯 "If you like watching numbers go down for once, subscribe. I finish a new game every few days." | One line only. Then back to the game. |
+| 8 | 2–10 min | Early upgrades. | Milestone lines (C). Score line every few minutes. | Compare numbers: before → now. |
+| 9 | 10 min → | Mills, crits, prestige, planets 2 and 3. | Milestone lines (C). React to every upgrade. | Long wait? Use a skip line (E). |
+| 10 | Middle | Many workers. | "Bob is a manager now. He has **[X]** workers." | Joke #2. |
+| 11 | Last tree | The counter hits 0. | 🎯 "The last tree… and it's gone. Zero trees!" | Press the marker. Pause 2 s. |
+| 12 | End | Bald planet on screen. | "Bob, we did it. There are no trees left. Bob is very tired." → Ending (F). | Joke #3. Keep the ending under 1 min. |
 
-(Say "three planets" only if you really clear all 3 demo planets. Otherwise say "a bald planet".)
+### C. Milestone lines (say them when they happen)
 
-### Subscribe line (~2:00)
+| When | Say |
+|---|---|
+| Axe upgrade | "Sharper axe. Before: **[X]** hits per tree. Now: **[Y]**." |
+| Movement upgrade | "Faster walking. Less walking, more chopping." |
+| Carrying capacity | "Now each worker carries **[X]** logs at once." |
+| More workers | "**[X]** workers now. The planet doesn't stand a chance." |
+| First lumbermill | "A new lumbermill. The workers walk less, so the wood comes faster." |
+| Mill placement | "There's a river here, so I put the mill on this side." |
+| Critical hits | "Critical hits! Some trees fall in one hit now." |
+| Counter at half | 🎯 "Half the planet is bald. **[X]** trees left." |
+| First prestige | "Time to prestige. I lose this planet, but I keep permanent upgrades." |
+| New planet | "Planet **[two / three]**. It's much bigger. **[X]** trees." |
 
-> "If you like watching numbers go down for once, subscribe. I finish a new game every few days."
+### D. Score lines (every 3–5 minutes)
 
-### Running joke
+- "**[X]** trees left. Next goal: **[Y]**."
+- "I'm making **[X]** wood per second now."
+- "Planet **[N]** out of 3."
 
-Name your first woodcutter **Bob**. Use it 2–3 times:
-- Start: "This is Bob. Bob has a small axe and a big dream."
-- When you have many workers: "Bob is a manager now. He has [X] workers."
-- At the end: "Bob, we did it. There are no trees left. Bob is very tired."
+### E. Speed-up and thinking lines
 
-### Start of play (0:30 – 3:00)
+| Type | Say |
+|---|---|
+| Skip | "Let me skip ahead a bit." (speed up 4–8× in the edit, "x8" label) |
+| Skip | "The workers are doing everything now, so let's speed this up." |
+| Thinking | "Should I buy more workers, or a better axe? …I think the axe." |
+| Thinking | "My plan: first a new mill, then more workers." |
+| Slow part | "Okay, patience. We'll get there." |
 
-> "So the counter at the top shows the trees left. Every tree gives me wood, and wood is money."
-> "First upgrade: a sharper axe. More damage. Buying it."
-> "Okay, Bob is faster now. Let's hire more workers."
+### F. Ending (last 1 minute)
 
-### Milestone lines (say them when they happen)
+1. **Verdict:** "So that's Deforest a Planet. The best part is watching the whole planet go bald. The weak part is **[your honest weak point]**."
+2. **Who it's for:** "If you like games where you start tiny and end huge, this one is for you."
+3. **Price:** "The demo is free on itch.io. The full game comes to Steam on December 15th. Links are in the description."
+4. **Close:** "Which game should I play next? Tell me in the comments. Thanks for watching. See you in the next one."
 
-- First axe upgrade: "Sharper axe. Before: [X] hits per tree. Now: [Y]."
-- More workers / crew size: "Now I have [X] workers. Look at them go!"
-- First lumbermill: "A new lumbermill. Now the workers walk less, so the wood comes faster."
-- River or mountain in the way: "There's a river here, so I put the mill on this side."
-- Critical hits: "Critical hits! Some trees fall in one hit now."
-- Counter at half: "Half the planet is bald. [X] trees left."
-- First prestige: "Time to prestige. I lose this planet, but I get permanent upgrades. Let's go."
-- New planet: "Planet two. It's much bigger. [X] trees."
-- Last tree: "The last tree… and it's gone. Zero trees!"
+### G. Do not say (first 2 minutes)
 
-### Speed-up / skip lines
+"Hello, welcome…" · "Today I'm going to…" · "What is this? Maybe…" · reading upgrade or menu text aloud · settings screens.
 
-- "Let me skip ahead a bit." (then speed up 4–8× in the edit)
-- "The workers are doing everything now, so let's speed this up."
+### H. Practice lines (say each 3 times before recording)
 
-### Score lines (every few minutes)
-
-- "[X] trees left. Next goal: [Y]."
-- "I'm making [X] wood per second now."
-
-### Ending (last 1–2 minutes)
-
-> "So that's Deforest a Planet. The best part is watching the whole planet go bald. The weak part is [your honest weak point]."
-> "If you like games where you start tiny and end huge, this one is for you."
-> "The demo is free on itch.io, and the full game comes to Steam on December 15th. Links are in the description."
-> "Which game should I play next? Tell me in the comments. Thanks for watching, see you in the next one."
-
-### Practice lines (say each 3 times before recording)
-
-1. "This planet has [X] trees. I have one woodcutter and one small axe. I'm going to cut down every single tree."
-2. "In about one hour, I'll have hundreds of workers. This is how I got there."
+1. "This planet has **[X]** trees. I have one woodcutter and one small axe. I'm going to cut down every single tree."
+2. "By the end of this video, this whole planet will be bald. Let's see how I get there."
 3. "This is Bob. Bob has a small axe and a big dream."
-4. "Half the planet is bald. [X] trees left."
+4. "Half the planet is bald. **[X]** trees left."
 5. "The last tree… and it's gone. Zero trees!"
 
-### Edit checklist (playbook/recording-and-editing.md)
+### I. Edit checklist (playbook/recording-and-editing.md)
 
 - Cut every silence longer than ~3 s. Speed up long waits 4–8× with an "x8" label.
 - First 2 minutes check: goal sentence first, chopping by 0:05, no menus, subscribe line near 2:00.
