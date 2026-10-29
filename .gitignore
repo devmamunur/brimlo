@@ -4,3 +4,5 @@ tools/research/data/
 .DS_Store
 .venv/
 tools/research/apps/dashboard/dist/
+tools/transcribe/out/
+tools/transcribe/.venv/

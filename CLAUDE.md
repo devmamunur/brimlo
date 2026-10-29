@@ -51,6 +51,7 @@ Full details: [channel/profile.md](channel/profile.md), [channel/strategy.md](ch
 | `research/competitors.md` | Channels to learn from, with numbers |
 | `research/keywords.md` | Keyword data (vidIQ + `brimlo_*`) |
 | `tools/research/` | **Our own free research tool** (vidIQ replacement): MCP tools `brimlo_*`, CLI, dashboard. YouTube + Steam + itch.io + Reddit (official API) + polite web reader. Read its [README](tools/research/README.md) |
+| `tools/transcribe/` | **Video reader:** full local transcript (mlx-whisper), subtitles, quiet stretches and screenshots from a recording. When Mamunur sends a video path, run `tools/transcribe/run.sh "<path>" --game "<game>" --name <video-file-name>` (~5 min per hour of video), then read `by-minute.md` + `contact.jpg` before suggesting titles, description, chapters or thumbnail. [README](tools/transcribe/README.md) |
 | `research/reports/`, `research/notes/` | Full deep-research reports and the notes behind them |
 | `analytics/weekly-reviews.md` | Weekly stats log and decisions |
 | `archive/` | Old plans. Read only for history; do not follow them. |

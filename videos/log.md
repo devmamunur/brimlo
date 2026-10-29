@@ -14,7 +14,7 @@ Status: ✅ published · 🕒 scheduled · 🎬 recorded · 📝 planned · ❌ 
 | 6 | Sun 25 Oct 2026 | Rust & Shine (demo) | I Cleaned Rusty Junk Until I Made $1,000,000 (renamed 28 Oct; was "The SATISFYING Incremental Game Where You Restore Rusty Antiques \| Rust & Shine") | 1:21:23 (first 35 s trimmed 28 Oct) | ✅ | Free demo (CrossOver ✅) | | | | | [file](2026-10-25-rust-and-shine.md) |
 | 7 | Mon 26 Oct 2026 | Seabun (Next Fest demo) | I Beat the GIANT Crab Boss in Seabun and Got a LEGENDARY Shark | 1:17:38 | ✅ | Free demo (CrossOver ✅) | | | | | [file](2026-10-26-seabun.md) |
 | 8 | Tue 27 Oct 2026 | Scrapecremental (itch.io demo) | A Game Where You Scrape Dust With Your FINGERNAIL… and It's So Satisfying \| Scrapecremental | 30:31 | 🕒 | Free itch.io browser game (Chrome) | | | | | [file](2026-10-27-scrapecremental.md) |
-| 9 | Fri 30 Oct 2026 | Deforest a Planet (itch.io demo) | I Cut Down [X] TREES on One Planet (fill the real number) | | 📝 | Free itch.io browser demo (run test pending) | | | | | [file](2026-10-30-deforest-a-planet.md) |
+| 9 | Fri 30 Oct 2026 | Deforest a Planet (itch.io demo) | I Cut Down [X] TREES on One Planet (fill the real number) | | 🎬 | Free itch.io browser demo (Chrome ✅) | | | | | [file](2026-10-30-deforest-a-planet.md) |
 
 ## Medians (update every Sunday)
 

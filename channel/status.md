@@ -4,7 +4,7 @@ Update this every Sunday (`/weekly-review`) and after big events.
 
 ## Right now
 
-**Last updated:** Tue 27 Oct 2026
+**Last updated:** Fri 30 Oct 2026
 
 - Channel renamed to **Brimlo (@BrimloIdle)**.
 - 1 video published (Cookie Clicker, Mon 12 Oct). 1 scheduled (A Game About Digging a Hole, Wed 14 Oct).
@@ -16,7 +16,8 @@ Update this every Sunday (`/weekly-review`) and after big events.
 - **Seabun published Mon 26 Oct 2026, 10:28 PM Dhaka** ("I Beat the GIANT Crab Boss in Seabun and Got a LEGENDARY Shark", 1:17:38, https://youtu.be/1DX3Xl_XbXI). 10 chapters from captions added Tue 27 Oct. Check 7-day results Mon 2 Nov.
 - **Scrapecremental scheduled for Tue 27 Oct 2026, 10 PM Dhaka** ("A Game Where You Scrape Dust With Your FINGERNAIL… and It's So Satisfying | Scrapecremental", 30:31, https://youtu.be/XdfTIK_jv9U). Chapters from captions after publish. Check 7-day results Tue 3 Nov.
 - Publish time stays 10 PM Dhaka until ~27 Nov 2026, then review (Studio shows viewers most active ~8 PM Dhaka).
-- Next (plan from 28 Oct 2026): **Deforest a Planet** — record Thu 29 Oct, publish Fri 30 Oct 10 PM Dhaka (itch.io demo; Steam full game 15 Dec) · **Pack Ripper** — record Sat 31 Oct, publish Sun 1 Nov · **Summer for ANT** — record Mon 2 Nov, publish Tue 3 Nov. Run tests first. Next Fest round-up dropped.
+- **Deforest a Planet recorded + edited (Fri 30 Oct 2026).** Upload + schedule for Fri 30 Oct, 10 PM Dhaka (12 PM ET). Start the thumbnail A/B test on publish day.
+- Next (plan from 28 Oct 2026): **Pack Ripper** — record Sat 31 Oct, publish Sun 1 Nov · **Summer for ANT** — record Mon 2 Nov, publish Tue 3 Nov. Run tests first. Next Fest round-up dropped.
 
 ## Numbers
 

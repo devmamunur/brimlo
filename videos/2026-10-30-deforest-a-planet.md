@@ -2,23 +2,24 @@
 
 | | |
 |---|---|
-| Status | 📝 planned |
+| Status | 🎬 recorded + edited (done Fri 30 Oct 2026). Not uploaded yet. |
 | Record | Thu 29 Oct 2026 |
 | Upload | Fri 30 Oct 2026, 10 PM Dhaka (12 PM ET) |
 | Upload speed | 🟡 SOON — publish within about a week. Checked Wed 28 Oct 2026: no English YouTube video found (only ksyliki, Korean, 16K on 16 Oct); the itch.io demo is already out; Steam full game **Tue 15 Dec 2026**, Steam demo "coming soon". No deadline, but being the first English video matters. |
 | Game | Deforest a Planet (Venusian Games) — itch.io demo: https://venusian-games.itch.io/deforest-a-planet · Steam: https://store.steampowered.com/app/5326060/ |
 | Source | Free itch.io browser demo (first 3 of 5 planets). Full game free on Android. |
-| Runs on | Browser (Chrome on Mac). **Run test not done yet** — do the 10-minute test Wed 28 Oct. |
+| Runs on | Browser (Chrome on Mac) ✅ — the full recording worked. |
 | Target length | Record ~2–2.5 h (ksyliki's demo run was 3.5 h), edit to about 60–90 min. Length = whatever is left after the cuts. |
-| YouTube link | |
+| Final length | _fill in_ |
+| YouTube link | _fill in after upload_ |
 
 ## Game in one sentence
 
 > You start with one woodcutter and a small axe, and you grow a lumber company until every tree on a round little planet is gone.
 
-- Mechanics (itch + Steam page, 28 Oct 2026): sell timber → sharper axes, faster workers, bigger crews, new lumbermills; rivers and mountains split the land, so where you place a mill matters; critical hits; permanent prestige upgrades; challenges (time limits, few mills); a **tree counter that goes down to zero**; leaderboard at the end.
+- Mechanics (itch + Steam page, 28 Oct 2026): sell timber → sharper axes, faster workers, bigger crews, new lumbermills; rivers and mountains split the land, so where you place a mill matters; critical hits; permanent prestige upgrades; challenges (time limits, few mills); a **felled counter that goes up to the total** (screen shows "62 of 7,735 trees felled" and "0.8% deforested", seen 29 Oct 2026); leaderboard at the end.
 - Video policy: not stated on the itch or Steam page (checked 28 Oct). Normal for small games. Link the game in the description.
-- Theme: cozy cleanup / satisfying (a counter going down instead of up).
+- Theme: cozy cleanup / satisfying (the "% deforested" bar slowly fills to 100%).
 - itch note: version 2.0 is in development; saves won't carry over. Doesn't matter for one video.
 
 ## Titles
@@ -27,20 +28,20 @@ Score = `brimlo_score_title` checklist (estimate, not a view prediction). "defor
 
 | # | Template | Title | Score |
 |---|---|---|---|
-| 1 | Number formula (I, our steady formula) | I Cut Down [X] TREES on One Planet | 67 (with a number) |
+| 1 | Number formula (I, our steady formula) | I Cut Down 7,735 TREES on One Planet | 67 (with a number) |
 | 2 | A | The Incremental Game Where You Cut Down an ENTIRE Planet | 86 |
 | 3 | J | Cutting Trees Until the Whole PLANET Was Bald | 68 |
 
-**Chosen:** #1, **"I Cut Down [X] TREES on One Planet"**. Put in the **real total you saw** on the tree counter (for example the count on planet 1, or all 3 planets added up), written in digits: "I Cut Down 1,240,000 TREES on One Planet". This is the steady number formula from the head-to-head review (28 Oct). The scorer likes #2 more because it has "incremental", but the channels that grow (LuckyLemon, Azrilich, Ridiculously Random) use a number or a result, not the genre word. **If you can't read a clear number, use #2.**
+**Chosen:** #1, **"I Cut Down 7,735 TREES on One Planet"**. 7,735 is the real total on the tree counter of the planet **Verdance** (seen in the game, 29 Oct 2026). The video is about bald-ing this one planet. If the real total is different when you record, change the number. This is the steady number formula from the head-to-head review (28 Oct). The scorer likes #2 more because it has "incremental", but the channels that grow (LuckyLemon, Azrilich, Ridiculously Random) use a number or a result, not the genre word. **If you can't read a clear number, use #2.**
 
 ## Thumbnail idea (house style v2)
 
 - Center idea: **Hands + tool on the object** (default).
-- Text: **"[X] TREES"** with the real number from the counter. If you don't have a clear number: **"EVERY TREE"**.
+- Text: **"7,735 TREES"** (real number from the counter). Fallback: **"EVERY TREE"**.
 - Picture: navy-sleeve hands with axes, a tiny round planet in the center, half thick forest and half bald, tiny workers, logs flying.
 - Screenshots to attach: (1) the planet early, full of trees; (2) the planet late, mostly bald, with workers and mills; (3) the tree counter if you use a number.
 
-**Master prompt (copy, fill the number, attach the screenshots):**
+**Master prompt (copy, attach the screenshots):**
 
 ```
 Create a YouTube thumbnail, exactly 1280x720 pixels (16:9).
@@ -55,7 +56,7 @@ AROUND IT: a big messy pile of cut wooden logs floating around the planet, with 
 
 BACKGROUND: simple, bright and clean light teal sky with a few soft white clouds, with soft white radial lines pointing to the planet. Daylight colors, no dark areas, no black space.
 
-TEXT: at the top center, write exactly "[X] TREES" in big bold yellow-gold cartoon letters (gold to orange gradient) with a thick black outline and a small drop shadow, readable when the image is shrunk to 160 px wide. This is the only text in the image.
+TEXT: at the top center, write exactly "7,735 TREES" in big bold yellow-gold cartoon letters (gold to orange gradient) with a thick black outline and a small drop shadow, readable when the image is shrunk to 160 px wide. This is the only text in the image.
 
 AVOID (negative prompt): photorealism, 3D render, realistic skin, realistic hands, photo, DSLR, cinematic lighting, dark background, black or dark navy areas, outer space with stars, gloomy colors, fire, white gloves, extra fingers, more than two hands, any other text, extra words, misspelled text, fake logos, watermarks, signatures, the YouTube logo, a mascot or logo stamp in any corner, borders, frames, small inset image boxes in any corner, split screens, arrows, emoji, crowded scenes, tiny details, many small objects competing with the planet, blurry or muddy colors.
 ```
@@ -68,7 +69,7 @@ Make 2 versions (ChatGPT + Gemini), check them (10-second check in `playbook/thu
 
 **Format: run sheet.** This is how many YouTubers plan a live-commentary video. Read the table from top to bottom. Each row is one part of the video: **what you do on screen**, **what you say**, and a **cue** (a small note). You don't read it word for word. Only the 🎯 lines are learned by heart. Everything else is natural talk.
 
-Game facts (itch.io page, checked 28 Oct 2026): one woodcutter + small axe at the start · upgrades for axe, movement, carrying capacity, critical hits · bigger crews · lumbermills on a round planet · permanent prestige upgrades · tree counter goes down to zero · demo = first 3 of 5 planets · Steam full game Tue 15 Dec 2026.
+Game facts (itch.io page, checked 28 Oct 2026): one woodcutter + small axe at the start · upgrades for axe, movement, carrying capacity, critical hits · bigger crews · lumbermills on a round planet · permanent prestige upgrades · felled counter goes up to the total (7,735 on Verdance) · demo = first 3 of 5 planets · Steam full game Tue 15 Dec 2026.
 
 ### A. Before you press record (5 min)
 
@@ -76,7 +77,7 @@ Game facts (itch.io page, checked 28 Oct 2026): one woodcutter + small axe at th
 |---|---|
 | ☐ | Chrome open on the itch.io page. Game started. Pop-ups closed. Sound set. |
 | ☐ | OBS: mic preset on, game sound lower than voice. Test 10 s and listen back. |
-| ☐ | Read the **tree counter** once. Write the number here: ________ trees. |
+| ☐ | Read the **tree counter** once. Planet Verdance should show **7,735 trees** (seen 29 Oct). If different, fix the number in the title and thumbnail. |
 | ☐ | **Start OBS only now**, when you can see the planet and click. No menus in the video. |
 | ☐ | Marker hotkey ready (press it at every milestone = chapters later). |
 | ☐ | Water next to you. Say the 🎯 first sentence 3 times out loud. |
@@ -85,17 +86,17 @@ Game facts (itch.io page, checked 28 Oct 2026): one woodcutter + small axe at th
 
 | # | Time | On screen (do) | Say | Cue |
 |---|---|---|---|---|
-| 1 | 0:00 | Already chopping. First click by **0:05**. | 🎯 "This planet has **[X]** trees. I have one woodcutter and one small axe. I'm going to cut down every single tree." | Goal + number. No "hello". |
+| 1 | 0:00 | Already chopping. First click by **0:05**. | 🎯 "This planet has **7,735** trees. I have one woodcutter and one small axe. I'm going to cut down every single tree." | Goal + number (planet Verdance, from the counter). No "hello". |
 | 2 | 0:10 | **Slowly spin the full planet once**, then move the mouse to the tree counter for 1 s. | 🎯 "By the end of this video, this whole planet will be bald. Let's see how I get there." | Future tense (said live). In the edit you may swap in a past-tense line with the real result: "In one hour, I went from one woodcutter to [X] workers. This is how I got there." over a `/hook` mode B clip preview. |
 | 3 | 0:20 | Point at your woodcutter. | 🎯 "This is Bob. Bob has a small axe and a big dream." | Running joke starts. |
-| 4 | 0:30 | Point at the counter, then the money. | "The counter at the top is the trees left. Every tree gives wood. Wood is money." | Max 2 sentences of explaining. |
+| 4 | 0:30 | Point at the counter, then the money. | "At the top you see how many trees I cut, out of 7,735. Every tree gives money." | Max 2 sentences of explaining. |
 | 5 | 0:45 | Buy the first axe upgrade. | "First upgrade: a sharper axe. Buying it." → "Okay, Bob is faster now." | Say the upgrade short. Never read the text. |
 | 6 | 1:00–2:00 | Hire workers, buy speed. | "Let's hire more workers." / "Now I have **[X]** workers. Look at them go!" | Keep clicking. No silence. |
-| 7 | ~2:00 | Workers chopping. | 🎯 "If you like watching numbers go down for once, subscribe. I finish a new game every few days." | One line only. Then back to the game. |
+| 7 | ~2:00 | Workers chopping. | 🎯 "If you like watching a planet go bald, subscribe. I finish a new game every few days." | One line only. Then back to the game. |
 | 8 | 2–10 min | Early upgrades. | Milestone lines (C). Score line every few minutes. | Compare numbers: before → now. |
 | 9 | 10 min → | Mills, crits, prestige, planets 2 and 3. | Milestone lines (C). React to every upgrade. | Long wait? Use a skip line (E). |
 | 10 | Middle | Many workers. | "Bob is a manager now. He has **[X]** workers." | Joke #2. |
-| 11 | Last tree | The counter hits 0. | 🎯 "The last tree… and it's gone. Zero trees!" | Press the marker. Pause 2 s. |
+| 11 | Last tree | The counter hits 7,735 of 7,735 (100%). | 🎯 "The last tree… and it's gone. All 7,735 trees are cut!" | Press the marker. Pause 2 s. |
 | 12 | End | Bald planet on screen. | "Bob, we did it. There are no trees left. Bob is very tired." → Ending (F). | Joke #3. Keep the ending under 1 min. |
 
 ### C. Milestone lines (say them when they happen)
@@ -109,13 +110,13 @@ Game facts (itch.io page, checked 28 Oct 2026): one woodcutter + small axe at th
 | First lumbermill | "A new lumbermill. The workers walk less, so the wood comes faster." |
 | Mill placement | "There's a river here, so I put the mill on this side." |
 | Critical hits | "Critical hits! Some trees fall in one hit now." |
-| Counter at half | 🎯 "Half the planet is bald. **[X]** trees left." |
+| Counter at half | 🎯 "Half the planet is bald. **[X]** trees cut, **[Y]** to go." |
 | First prestige | "Time to prestige. I lose this planet, but I keep permanent upgrades." |
 | New planet | "Planet **[two / three]**. It's much bigger. **[X]** trees." |
 
 ### D. Score lines (every 3–5 minutes)
 
-- "**[X]** trees left. Next goal: **[Y]**."
+- "**[X]** trees cut out of 7,735. Next goal: **[Y]**."
 - "I'm making **[X]** wood per second now."
 - "Planet **[N]** out of 3."
 
@@ -142,11 +143,11 @@ Game facts (itch.io page, checked 28 Oct 2026): one woodcutter + small axe at th
 
 ### H. Practice lines (say each 3 times before recording)
 
-1. "This planet has **[X]** trees. I have one woodcutter and one small axe. I'm going to cut down every single tree."
+1. "This planet has **7,735** trees. I have one woodcutter and one small axe. I'm going to cut down every single tree."
 2. "By the end of this video, this whole planet will be bald. Let's see how I get there."
 3. "This is Bob. Bob has a small axe and a big dream."
-4. "Half the planet is bald. **[X]** trees left."
-5. "The last tree… and it's gone. Zero trees!"
+4. "Half the planet is bald. **[X]** trees cut, **[Y]** to go."
+5. "The last tree… and it's gone. All 7,735 trees are cut!"
 
 ### I. Edit checklist (playbook/recording-and-editing.md)
 
@@ -158,7 +159,7 @@ Game facts (itch.io page, checked 28 Oct 2026): one woodcutter + small axe at th
 Make them from the real captions after publish (max 10). Skeleton:
 
 ```
-00:00 One Woodcutter, [X] Trees
+00:00 One Woodcutter, 7,735 Trees
 [ ] First Upgrades
 [ ] Hiring a Crew
 [ ] First Lumbermill
@@ -174,7 +175,7 @@ Make them from the real captions after publish (max 10). Skeleton:
 ```
 Bob had one small axe. Now there are no trees left. Help Brimlo reach 100 subs :)
 
-I played Deforest a Planet, a cozy incremental game where you start with one woodcutter and grow a lumber company until the tree counter hits zero. Sharper axes, bigger crews, lumbermills, prestige, and an alarming number of trees.
+I played Deforest a Planet, a cozy incremental game where you start with one woodcutter and grow a lumber company until all 7,735 trees on the planet are cut. Sharper axes, bigger crews, lumbermills, prestige, and an alarming number of trees.
 
 CURRENT SUBS: [real number from Studio]
 
@@ -186,7 +187,7 @@ Which game should I play next? Tell me in the comments.
 Developer: Venusian Games
 
 Chapters
-00:00 One Woodcutter, [X] Trees
+00:00 One Woodcutter, 7,735 Trees
 ...
 
 #DeforestAPlanet #IncrementalGame #IdleGame
