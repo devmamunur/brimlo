@@ -29,7 +29,7 @@ Free score (18 Oct, estimate): D-template "A Game Where You Pull Carrots… ADDI
 
 ## Tags
 
-Quadrillion Carrots, Quadrillion Carrots demo, Quadrillion Carrots gameplay, Quadrillion Carrots Steam, carrot game, carrot harvesting game, incremental game, incremental game demo, idle game, clicker game, farming incremental, steam demo, new steam demos, new steam games 2026, steam next fest, brimlo
+Quadrillion Carrots, Quadrillion Carrots demo, Quadrillion Carrots gameplay, Quadrillion Carrots Steam, carrot game, carrot harvesting game, incremental game, incremental game demo, idle game, clicker game, farming incremental, steam demo, new steam demos, new steam games 2026, steam next fest, relaxing gameplay, gameplay to fall asleep to, brimlo
 
 Hashtags: #QuadrillionCarrots #IncrementalGame #SteamDemo
 

@@ -33,7 +33,7 @@ Plan one video end to end and save it in the repo. Write in **simple English, sh
      - 6–8 milestone lines specific to this game's mechanics (first upgrade, new resource, prestige, big number, speed-up…). Use `[X]` placeholders for numbers.
      - Ending (verdict + who it's for + price/demo + close).
      - **5 practice lines** to say 3 times each before recording.
-   - Chapter skeleton (names by progress), description draft, tags (game name, genre words, brimlo — never other creators).
+   - Chapter skeleton (names by progress), description draft, tags (game name, genre words, "relaxing gameplay", "gameplay to fall asleep to", brimlo — never other creators; see `playbook/upload-checklist.md`).
 
 4. **Update the repo:**
    - Add/update the row in `videos/log.md` (status 📝 planned, link to the file).

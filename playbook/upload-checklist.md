@@ -60,7 +60,7 @@ Chapters
 
 ## Settings
 
-- [ ] Tags (10–15, they matter little): game name in 3–4 forms + 1–2 common misspellings + "[game] gameplay / full playthrough" + genre words (incremental game, idle game, bullet heaven / tower defense if true) + brimlo. No junk tags.
+- [ ] Tags (10–15, they matter little): game name in 3–4 forms + 1–2 common misspellings + "[game] gameplay / full playthrough" + genre words (incremental game, idle game, bullet heaven / tower defense if true) + "relaxing gameplay" + "gameplay to fall asleep to" (true for every Brimlo video: calm, full-length; matches the description line) + brimlo. No junk tags. Never "ASMR", "no talking" or "sleep" alone: we talk all video.
 - [ ] Category: Gaming · Language: English · **Not made for kids**
 - [ ] Altered/synthetic content: No (unless you used AI visuals)
 - [ ] End screen: most similar video + subscribe

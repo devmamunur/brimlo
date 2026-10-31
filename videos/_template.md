@@ -86,7 +86,7 @@ Chapters
 
 ## Tags
 
-game name, incremental game, idle game, [genre words], brimlo
+game name, incremental game, idle game, [genre words], relaxing gameplay, gameplay to fall asleep to, brimlo
 
 ## Results
 

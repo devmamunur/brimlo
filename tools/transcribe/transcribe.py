@@ -129,13 +129,23 @@ def clean(segs):
     return out
 
 
+def cues(segs, max_words=8):
+    """Short subtitle cues (max ~8 words) timed with the word timestamps."""
+    for s in segs:
+        words, times = s["text"].split(), s.get("words") or []
+        if len(times) != len(words):  # can't match words to times: split evenly
+            step = (s["end"] - s["start"]) / max(1, len(words))
+            times = [[s["start"] + k * step, s["start"] + (k + 1) * step] for k in range(len(words))]
+        for k in range(0, len(words), max_words):
+            chunk = words[k:k + max_words]
+            yield times[k][0], times[k + len(chunk) - 1][1], " ".join(chunk)
+
+
 def write_texts(segs, total, out, gap):
     lines = [f"[{hms(s['start'])}] {s['text']}" for s in segs]
     (out / "transcript.txt").write_text("\n".join(lines) + "\n")
 
-    srt = []
-    for i, s in enumerate(segs, 1):
-        srt.append(f"{i}\n{hms(s['start'], True)} --> {hms(s['end'], True)}\n{s['text']}\n")
+    srt = [f"{i}\n{hms(a, True)} --> {hms(b, True)}\n{t}\n" for i, (a, b, t) in enumerate(cues(segs), 1)]
     (out / "subtitles.srt").write_text("\n".join(srt))
 
     minutes = {}

@@ -232,7 +232,7 @@ Subscribe to Brimlo. You relax. I'll grind.
 ## Tags
 
 ```
-Rust & Shine, Rust and Shine, Rust and Shine demo, Rust & Shine gameplay, Rust and Shine full demo, restoration game, restoration incremental, antique restoration, satisfying restoration, cleaning game, rust cleaning game, satisfying game, cozy game, cozy incremental game, incremental game, incremental games, idle game, relaxing games, steam demo
+Rust & Shine, Rust and Shine, Rust and Shine demo, Rust & Shine gameplay, Rust and Shine full demo, restoration game, restoration incremental, antique restoration, satisfying restoration, cleaning game, rust cleaning game, satisfying game, cozy game, cozy incremental game, incremental game, incremental games, idle game, relaxing games, steam demo, relaxing gameplay, gameplay to fall asleep to
 ```
 
 Hashtags (end of description): #RustAndShine #IncrementalGame #SatisfyingGames

@@ -178,7 +178,7 @@ Subscribe to Brimlo. You relax. I'll grind.
 
 ## Tags
 
-Scrapecremental, Scrapecremental gameplay, Scrapecremental demo, Scrapecremental dinosaur skull, scraping game, dust cleaning game, fingernail game, satisfying cleaning game, cleaning game, cozy incremental game, incremental games, idle game, clicker game, satisfying game, relaxing games, cozy gaming, chill games, browser game, itch.io games, brimlo
+Scrapecremental, Scrapecremental gameplay, Scrapecremental demo, Scrapecremental dinosaur skull, scraping game, dust cleaning game, fingernail game, satisfying cleaning game, cleaning game, cozy incremental game, incremental games, idle game, clicker game, satisfying game, relaxing games, cozy gaming, chill games, browser game, itch.io games, relaxing gameplay, gameplay to fall asleep to, brimlo
 
 (351 characters, under the 500 limit. "incremental games", "relaxing games", "cozy gaming", "chill games" have the best vidIQ numbers of the related keywords, 27 Oct 2026.)
 

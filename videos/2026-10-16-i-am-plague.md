@@ -168,7 +168,7 @@ Chapters
 
 ## Tags
 
-I Am Plague, I Am Plague gameplay, I Am Plague playtest, I Am Plague 100%, I Am Plague incremental, incremental game, incremental roguelite, roguelite, rat swarm game, rats game, idle game, clicker game, steam playtest, new steam games 2026, brimlo
+I Am Plague, I Am Plague gameplay, I Am Plague playtest, I Am Plague 100%, I Am Plague incremental, incremental game, incremental roguelite, roguelite, rat swarm game, rats game, idle game, clicker game, steam playtest, new steam games 2026, relaxing gameplay, gameplay to fall asleep to, brimlo
 
 ## Update (Sun 25 Oct 2026): new description + tags
 
