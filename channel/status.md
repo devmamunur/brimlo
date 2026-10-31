@@ -16,7 +16,7 @@ Update this every Sunday (`/weekly-review`) and after big events.
 - **Scrapecremental published Tue 27 Oct 2026** ("They Gave Me ONE Fingernail and Told Me to Clean a Whole Town | Scrapecremental", 30:31, https://youtu.be/XdfTIK_jv9U). Check 7-day results Tue 3 Nov.
 - Publish time stays 10 PM Dhaka until ~27 Nov 2026, then review (Studio shows viewers most active ~8 PM Dhaka).
 - **Deforest a Planet published Fri 30 Oct 2026** ("I Cut Down All 7,066 TREES on One Planet", 56:04, https://youtu.be/jTXAVEs0CQA). Check 7-day results Fri 6 Nov.
-- Next (plan from 28 Oct 2026): **Pack Ripper** — record Sat 31 Oct, publish Sun 1 Nov · **Summer for ANT** — record Mon 2 Nov, publish Tue 3 Nov. Run tests first. Next Fest round-up dropped.
+- Next (plan from 28 Oct 2026): **Pack Ripper** — record Sat 31 Oct, publish Sun 1 Nov (run test passed in CrossOver, 31 Oct 2026) · **Summer for ANT** — record Mon 2 Nov, publish Tue 3 Nov. Run test first. Next Fest round-up dropped.
 
 ## Numbers
 

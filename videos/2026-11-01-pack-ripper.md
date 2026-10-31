@@ -2,13 +2,13 @@
 
 | | |
 |---|---|
-| Status | 📝 planned. **10-minute run test still to do before recording.** |
+| Status | 📝 planned. Run test passed in CrossOver Steam (31 Oct 2026). Test save removed, so the game starts fresh. |
 | Record | Sat 31 Oct 2026 |
 | Upload | Sun 1 Nov 2026, 10 PM Dhaka (11 AM ET) |
 | Upload speed | 🔥 FAST — checked Sat 31 Oct 2026: demo out Thu 22 Oct 2026 (Steam API). No big English commentary video yet. English top: Slow Mo 9.1K (1.8K subs). Born 2 Game (171K subs) posted a no-commentary video on 30 Oct, so others are starting. Korean: ksyliki 30.9K. |
 | Game | Pack Ripper (BigBonk Studio) — https://store.steampowered.com/app/5071620/ · Demo: https://store.steampowered.com/app/5436300/ |
 | Source | Free Steam demo, 4 card sets. No end date on the page. Full game Q1 2027. |
-| Runs on | Try CrossOver Steam first. Mac Steam if CrossOver has problems. **Not tested yet.** |
+| Runs on | CrossOver Steam ✅ (Mamunur, 31 Oct 2026). |
 | Target length | 90–100 min of play, then speed up the last card hunt. Other runs reached the end at about 88 min and 97 min. |
 | Final file | |
 | YouTube link | |
@@ -112,7 +112,7 @@ Check the real ticket and pack in your screenshots after recording, and fix the 
 
 ### Before you press record
 
-- Do the 10-minute test. **Test turning the binder page** (a Steam Discussions title says "Cannot turn album page on windows").
+- 10-minute test passed (31 Oct 2026). **Check that the binder page turns** when you first open it (a Steam Discussions title says "Cannot turn album page on windows"). This one point was not confirmed in the test.
 - Start a **new game**, so the test save is not in the video.
 - Finish settings and language before OBS starts.
 - Start OBS with the first pack ready to rip.
