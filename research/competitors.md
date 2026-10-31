@@ -14,6 +14,8 @@ Data: vidIQ, 12 Oct 2026. Refresh with the `channel-analyst` agent (costs vidIQ 
 
 ## Azrilich — title and game study (vidIQ, 13 Oct 2026)
 
+How he talks and opens his videos (13 videos, 31 Oct 2026): [notes/azrilich-voice.md](notes/azrilich-voice.md).
+
 Plays classic incrementals **and** satisfying job-sims (carpet cleaning, junkyard, abandoned safes, restoring properties, metal detector, organizing junk). Videos 20–50 min, ~1/day. Titles: first-person extreme result, 4–9 words, no game name, no "incremental". Top: "I made a fire so big it bullied the sun" 1.21M (52 min) · "I cheated the lottery with a FLASHLIGHT" 977K · "I scammed a billionaire with fake art" 750K (19 min) · "I turned my backyard into NASA" 520K · "I need to clean this carpet before the world ends" 458K (65 min) · "I Played 100% of Sorting Inc" 320K (46 min).
 
 ## Others to watch

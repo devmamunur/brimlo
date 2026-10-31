@@ -6,7 +6,7 @@
 - "Scout pick" = a free demo, playtest, free-to-play game or developer key chosen with `/pick-game` that week.
 - Status: ✅ published · 🕒 scheduled · 🎬 recorded · 📝 planned · ❓ open slot
 
-Last updated: 28 Oct 2026 · Sim games are a "later" queue: owned + planned games first (see games/backlog.md)
+Last updated: 31 Oct 2026 · Sim games are a "later" queue: owned + planned games first (see games/backlog.md)
 
 ## Phase 1 — Launch + Next Fest
 
@@ -15,8 +15,8 @@ Last updated: 28 Oct 2026 · Sim games are a "later" queue: owned + planned game
 | Upload | Video | Game source | Status |
 |---|---|---|---|
 | Mon 12 Oct | Cookie Clicker | Owned (Mac) | ✅ |
-| **Sun 18 Oct** | **Quadrillion Carrots — "\| Demo"** (fast lane, added 18 Oct) | Free demo (CrossOver) | 🕒 |
-| Wed 14 Oct | A Game About Digging a Hole | Owned (CrossOver) | 🕒 |
+| **Sun 18 Oct** | **Quadrillion Carrots — "\| Demo"** (fast lane, added 18 Oct) | Free demo (CrossOver) | ✅ |
+| Wed 14 Oct | A Game About Digging a Hole | Owned (CrossOver) | ✅ |
 | **Fri 16 Oct** | **I Am Plague — "\| Playtest"** — runs in CrossOver with Graphics = DXMT ✅ | Free playtest (CrossOver). **Playtest ends Mon 19 Oct.** Published Sat 17 Oct (1 day late). | ✅ |
 
 - **Tue 13 / Wed 14 evening:** install I Am Plague in CrossOver, 10-min test. Check its Discussions page for video rules. `/new-video I Am Plague`
@@ -42,10 +42,10 @@ Last updated: 28 Oct 2026 · Sim games are a "later" queue: owned + planned game
 | Upload | Video | Game source | Status |
 |---|---|---|---|
 | **Mon 26 Oct** | **Seabun — "I Beat the GIANT Crab Boss in Seabun and Got a LEGENDARY Shark"**. Published Mon 26 Oct 10:28 PM Dhaka (https://youtu.be/1DX3Xl_XbXI). 10 chapters from captions added Tue 27 Oct. Runs in CrossOver Steam ✅. Check 7-day results Mon 2 Nov. [file](../videos/2026-10-26-seabun.md). (My Dirty Little Lake → launch Mon 16 Nov.) | Free demo (CrossOver) | ✅ |
-| **Tue 27 Oct** | **Scrapecremental — "A Game Where You Scrape Dust With Your FINGERNAIL… and It's So Satisfying \| Scrapecremental"**. Scheduled Tue 27 Oct 2026, 10 PM Dhaka (moved from Wed 28 Oct), 30:31, https://youtu.be/XdfTIK_jv9U. Chapters from captions after publish. Check 7-day results Tue 3 Nov. [file](../videos/2026-10-27-scrapecremental.md) | Free (itch.io, Chrome) | 🕒 |
+| **Tue 27 Oct** | **Scrapecremental — "A Game Where You Scrape Dust With Your FINGERNAIL… and It's So Satisfying \| Scrapecremental"**. Published Tue 27 Oct 2026; title now "They Gave Me ONE Fingernail and Told Me to Clean a Whole Town \| Scrapecremental"; was scheduled for 10 PM Dhaka (moved from Wed 28 Oct), 30:31, https://youtu.be/XdfTIK_jv9U. Chapters from captions after publish. Check 7-day results Tue 3 Nov. [file](../videos/2026-10-27-scrapecremental.md) | Free (itch.io, Chrome) | ✅ |
 | Wed 28 Oct | No upload. **Test day:** 10-minute run test of Deforest a Planet (itch.io browser demo or Steam demo, Mac ✅). Practice the first sentence. | | — |
-| **Fri 30 Oct** | **Deforest a Planet** 🟡 SOON (checked 28 Oct: no English video yet; Steam full game **Tue 15 Dec 2026**, not 30 Oct — corrected). **Record: Thu 29 Oct · Publish: Fri 30 Oct, 10 PM Dhaka (12 PM ET)**. **Scheduled ✅ Fri 30 Oct 10 PM Dhaka** — "I Cut Down All 7,066 TREES on One Planet", 56:03, https://youtu.be/jTXAVEs0CQA. Check 7-day results Fri 6 Nov. Start the thumbnail A/B test on publish day. [file](../videos/2026-10-30-deforest-a-planet.md) | Free itch.io browser demo (3 planets), Chrome ✅ | 🕒 |
-| **Sun 1 Nov** | **Pack Ripper** 🔥 FAST (checked 28 Oct: only 1 English no-commentary video; card-pack idea proven at 140–194K). **Record: Sat 31 Oct · Publish: Sun 1 Nov, 10 PM Dhaka (11 AM ET)** | Free demo (Steam, Mac ✅) — run test pending | 📝 |
+| **Fri 30 Oct** | **Deforest a Planet** 🟡 SOON (checked 28 Oct: no English video yet; Steam full game **Tue 15 Dec 2026**, not 30 Oct — corrected). **Record: Thu 29 Oct · Publish: Fri 30 Oct, 10 PM Dhaka (12 PM ET)**. **Published Fri 30 Oct** — "I Cut Down All 7,066 TREES on One Planet", 56:03, https://youtu.be/jTXAVEs0CQA. Check 7-day results Fri 6 Nov. Start the thumbnail A/B test on publish day. [file](../videos/2026-10-30-deforest-a-planet.md) | Free itch.io browser demo (3 planets), Chrome ✅ | ✅ |
+| **Sun 1 Nov** | **Pack Ripper** 🔥 FAST (checked 31 Oct: demo out 22 Oct, no big English commentary video; top English 9.1K, Korean 30.9K; card-pack idea proven at 140–194K). **Record: Sat 31 Oct · Publish: Sun 1 Nov, 10 PM Dhaka (11 AM ET)**. Check 7-day results Sun 8 Nov. [file](../videos/2026-11-01-pack-ripper.md) | Free demo (Steam, Windows + Mac) — run test pending | 📝 |
 
 - **Dropped (28 Oct 2026):** the "Best Incremental Demos of Steam Next Fest" round-up. A clip compilation breaks the one-game rule, the goal-number opening and the no-silence rule, and Next Fest ended 26 Oct. Deforest a Planet takes the slot.
 - ⏰ Publish time stays **10 PM Dhaka** (11 AM ET from Sun 1 Nov).
@@ -155,7 +155,7 @@ Last updated: 28 Oct 2026 · Sim games are a "later" queue: owned + planned game
 | Game | Slot |
 |---|---|
 | Cookie Clicker | ✅ Mon 12 Oct |
-| A Game About Digging a Hole | 🕒 Wed 14 Oct |
+| A Game About Digging a Hole | ✅ Wed 14 Oct |
 | Rock Crusher | Tue 20 Oct |
 | Sorting Inc | Fri 23 Oct |
 | Cast n Chill | Tue 3 Nov |

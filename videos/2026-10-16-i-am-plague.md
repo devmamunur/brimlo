@@ -206,7 +206,7 @@ Chapters
 
 I play idle, incremental and roguelite games on Steam with calm, full-length live commentary.
 
-Subscribe to Brimlo. You relax. I'll grind.
+Subscribe to Brimlo. You rest. I'll keep going.
 
 #IAmPlague #IncrementalGame #Roguelite
 ```

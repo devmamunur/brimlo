@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| Status | 🕒 scheduled |
+| Status | ✅ published (public, checked on YouTube 31 Oct 2026) |
 | Upload | **Sun 18 Oct 2026, 10:00 PM Dhaka** (= 12 PM ET). Set in YouTube Studio on 18 Oct. |
 | Game | Quadrillion Carrots (demo) — https://store.steampowered.com/app/5152560/Quadrillion_Carrots/ (demo app 5283980) |
 | Source | Free Steam demo (fast lane, Next Fest opens Mon 19 Oct) |
@@ -71,7 +71,7 @@ Chapters
 
 I play idle, incremental and satisfying upgrade games on Steam with calm, full-length live commentary.
 
-Subscribe to Brimlo. You relax. I'll grind.
+Subscribe to Brimlo. You rest. I'll keep going.
 
 #QuadrillionCarrots #IncrementalGame #SteamDemo
 ```

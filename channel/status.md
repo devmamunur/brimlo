@@ -4,19 +4,18 @@ Update this every Sunday (`/weekly-review`) and after big events.
 
 ## Right now
 
-**Last updated:** Fri 30 Oct 2026
+**Last updated:** Sat 31 Oct 2026
 
 - Channel renamed to **Brimlo (@BrimloIdle)**.
-- 1 video published (Cookie Clicker, Mon 12 Oct). 1 scheduled (A Game About Digging a Hole, Wed 14 Oct).
-- I Am Plague playtest access: **granted** (Windows only → test in CrossOver). Playtest ends Mon 19 Oct.
+- **9 videos public** (checked on YouTube, Sat 31 Oct 2026). Full list: [videos/log.md](../videos/log.md).
 - **I Am Plague published Sat 17 Oct 2026** ("I 100% the I Am Plague Playtest and the Rats Got OUT OF HAND"). Check 7-day results on Sat 24 Oct.
-- **Quadrillion Carrots demo scheduled for Sun 18 Oct 2026, 10 PM Dhaka** (1:04:12).
-- **Outbreak Z demo scheduled for Fri 23 Oct 2026, 10 PM Dhaka** ("One Knife to MINIGUN: I Beat the Whole Outbreak Z Demo"). Check CTR in YouTube Studio after 48 h; check 7-day results on Fri 30 Oct.
-- **Rust & Shine demo published Sun 25 Oct 2026** (1:21:59). Check 7-day results Sun 1 Nov.
+- **Quadrillion Carrots demo published** (1:04:12).
+- **Outbreak Z demo published** ("One Knife to MINIGUN: I Beat the Whole Outbreak Z Demo").
+- **Rust & Shine demo published Sun 25 Oct 2026** (1:21:18). Check 7-day results Sun 1 Nov.
 - **Seabun published Mon 26 Oct 2026, 10:28 PM Dhaka** ("I Beat the GIANT Crab Boss in Seabun and Got a LEGENDARY Shark", 1:17:38, https://youtu.be/1DX3Xl_XbXI). 10 chapters from captions added Tue 27 Oct. Check 7-day results Mon 2 Nov.
-- **Scrapecremental scheduled for Tue 27 Oct 2026, 10 PM Dhaka** ("A Game Where You Scrape Dust With Your FINGERNAIL… and It's So Satisfying | Scrapecremental", 30:31, https://youtu.be/XdfTIK_jv9U). Chapters from captions after publish. Check 7-day results Tue 3 Nov.
+- **Scrapecremental published Tue 27 Oct 2026** ("They Gave Me ONE Fingernail and Told Me to Clean a Whole Town | Scrapecremental", 30:31, https://youtu.be/XdfTIK_jv9U). Check 7-day results Tue 3 Nov.
 - Publish time stays 10 PM Dhaka until ~27 Nov 2026, then review (Studio shows viewers most active ~8 PM Dhaka).
-- **Deforest a Planet scheduled for Fri 30 Oct 2026, 10 PM Dhaka** ("I Cut Down All 7,066 TREES on One Planet", 56:03, https://youtu.be/jTXAVEs0CQA). Check 7-day results Fri 6 Nov.
+- **Deforest a Planet published Fri 30 Oct 2026** ("I Cut Down All 7,066 TREES on One Planet", 56:04, https://youtu.be/jTXAVEs0CQA). Check 7-day results Fri 6 Nov.
 - Next (plan from 28 Oct 2026): **Pack Ripper** — record Sat 31 Oct, publish Sun 1 Nov · **Summer for ANT** — record Mon 2 Nov, publish Tue 3 Nov. Run tests first. Next Fest round-up dropped.
 
 ## Numbers
@@ -42,6 +41,6 @@ Update this every Sunday (`/weekly-review`) and after big events.
 - [x] Logo uploaded as profile picture + new channel description live (23 Oct 2026)
 - [x] Paste the new channel description with the "relax or fall asleep to" line (draft in [profile.md](profile.md), 28 Oct 2026)
 - [x] Clean English subtitles uploaded for I Am Plague, Outbreak Z and Seabun (28 Oct 2026, `tools/subtitles/`; names fixed, fillers removed; other misheard words not checked by ear)
-- [ ] Banner: replace "Subscribe" with BRIMLO + "You relax. I'll grind." (layout in [profile.md](profile.md))
+- [ ] Banner: replace "Subscribe" with BRIMLO + "You rest. I'll keep going." (layout in [profile.md](profile.md))
 - [ ] Decide on CrossOver purchase before the trial ends (~23 Oct)
 - [ ] Set up OBS Hybrid MP4 + chapter-marker hotkey (see [playbook/recording-and-editing.md](../playbook/recording-and-editing.md))

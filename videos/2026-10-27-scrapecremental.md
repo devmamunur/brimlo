@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| Status | 🕒 scheduled (30:31 with the 10 s hook, thumbnail v2). Studio checked Tue 27 Oct 2026: title, description, 20 tags, not made for kids, Gaming, English. |
+| Status | ✅ published (public, checked on YouTube 31 Oct 2026). Title now: "They Gave Me ONE Fingernail and Told Me to Clean a Whole Town \| Scrapecremental". Before publishing: scheduled (30:31 with the 10 s hook, thumbnail v2). Studio checked Tue 27 Oct 2026: title, description, 20 tags, not made for kids, Gaming, English. |
 | Upload | **Tue 27 Oct 2026, 10 PM Dhaka** (= 12 PM ET). Moved from Wed 28 Oct (no video that day; last one Mon 26 Oct). |
 | Game | Scrapecremental by Halo Games — https://halogamesofficial.itch.io/scrapecremental · Steam (full game, "December 2026"): https://store.steampowered.com/app/5436650/ |
 | Source | Free itch.io HTML5 game (out ~17 Oct 2026, updated 24 Oct) |
@@ -169,7 +169,7 @@ Chapters
 [from the captions after publish]
 
 I play incremental, idle and satisfying upgrade games with calm, full-length live commentary.
-Subscribe to Brimlo. You relax. I'll grind.
+Subscribe to Brimlo. You rest. I'll keep going.
 
 #Scrapecremental #IncrementalGame #SatisfyingGames
 ```

@@ -37,7 +37,7 @@ Run through this before every upload. After uploading, run `/publish`.
 [Line 3: demo / playtest / launch info if relevant]
 CURRENT SUBS: [real number from Studio]
 
-Calm, full-length gameplay to relax or fall asleep to. You relax. I'll grind.
+Calm, full-length gameplay to relax or fall asleep to. You rest. I'll keep going.
 Which game should I play next? Tell me in the comments.
 
 🎮 [Game] on Steam: [link]

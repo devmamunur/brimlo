@@ -113,7 +113,7 @@ Optional: OBS → Profile → Rename the profile from "Untitled" to "Brimlo", th
 
 ## 7. Voice target and free tips
 
-Brimlo videos are long and relaxing ("You relax. I'll grind."). The voice must be easy on the ears, warm and close, steady in volume, and still sound like you. A voice that sounds fake is worse than a slightly young one.
+Brimlo videos are long and relaxing ("You rest. I'll keep going."). The voice must be easy on the ears, warm and close, steady in volume, and still sound like you. A voice that sounds fake is worse than a slightly young one.
 
 EQ and pitch change **tone**, not **accent**. The biggest free wins:
 - One hand from the mic (closer = warmer, deeper).

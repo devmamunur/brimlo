@@ -40,7 +40,7 @@ Chapters
 
 I play idle, incremental and auto-battler games on Steam with calm, full-length live commentary.
 
-Subscribe to Brimlo. You relax. I'll grind.
+Subscribe to Brimlo. You rest. I'll keep going.
 
 #OutbreakZ #AutoBattler #IdleGame
 ```

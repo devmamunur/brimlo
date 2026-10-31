@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| Status | 🕒 scheduled — Fri 30 Oct 2026, 10:00 PM Dhaka (12 PM ET). Checked in Studio 30 Oct: title, description, chapters, 16 tags, thumbnail "0 TREES LEFT" (fewer-logs version), Gaming, English, file v2. |
+| Status | ✅ published (public, checked on YouTube 31 Oct 2026). Scheduled for Fri 30 Oct 2026, 10:00 PM Dhaka (12 PM ET). Checked in Studio 30 Oct: title, description, chapters, 16 tags, thumbnail "0 TREES LEFT" (fewer-logs version), Gaming, English, file v2. |
 | Record | Thu 29 Oct 2026 |
 | Upload | Fri 30 Oct 2026, 10 PM Dhaka (12 PM ET) |
 | Upload speed | 🟡 SOON — checked Wed 28 Oct 2026: no English YouTube video yet (only ksyliki, Korean, 16K on 16 Oct). Steam full game **Tue 15 Dec 2026**. |
@@ -80,7 +80,7 @@ I played Deforest a Planet, a cozy incremental game where you start with one woo
 
 CURRENT SUBS: [real number from Studio]
 
-Calm, full-length gameplay to relax or fall asleep to. You relax. I'll grind.
+Calm, full-length gameplay to relax or fall asleep to. You rest. I'll keep going.
 Which game should I play next? Tell me in the comments.
 
 🎮 Play the free demo in your browser (itch.io): https://venusian-games.itch.io/deforest-a-planet
