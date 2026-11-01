@@ -15,7 +15,7 @@ Status: ✅ published · 🕒 scheduled · 🎬 recorded · 📝 planned · ❌ 
 | 7 | Mon 26 Oct 2026 | Seabun (Next Fest demo) | I Beat the GIANT Crab Boss in Seabun and Got a LEGENDARY Shark | 1:17:38 | ✅ | Free demo (CrossOver ✅) | | | | | [file](2026-10-26-seabun.md) |
 | 8 | Tue 27 Oct 2026 | Scrapecremental (itch.io demo) | They Gave Me ONE Fingernail and Told Me to Clean a Whole Town \| Scrapecremental (renamed after publishing; was "A Game Where You Scrape Dust With Your FINGERNAIL… and It's So Satisfying \| Scrapecremental") | 30:31 | ✅ | Free itch.io browser game (Chrome) | | | | | [file](2026-10-27-scrapecremental.md) |
 | 9 | Fri 30 Oct 2026 | Deforest a Planet (itch.io demo) | I Cut Down All 7,066 TREES on One Planet ([link](https://youtu.be/jTXAVEs0CQA)) | 56:04 | ✅ | Free itch.io browser demo (Chrome ✅) | | | | | [file](2026-10-30-deforest-a-planet.md) |
-| 10 | Sun 1 Nov 2026 | Pack Ripper (demo) | Ripping Card Packs Until I Found the GOLDEN TICKET \| Pack Ripper (planned) | | 📝 | Free demo (CrossOver ✅) | | | | | [file](2026-11-01-pack-ripper.md) |
+| 10 | Sun 1 Nov 2026 | Pack Ripper (demo) | I Spent My Rent on Card Packs to Find the GOLDEN TICKET \| Pack Ripper | 1:53:16 (timeline, not exported) | 🎬 | Free demo (CrossOver ✅) | | | | | [file](2026-11-01-pack-ripper.md) |
 
 ## Medians (update every Sunday)
 

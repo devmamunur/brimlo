@@ -1,8 +1,8 @@
-# Pack Ripper — Ripping Card Packs Until I Found the GOLDEN TICKET
+# Pack Ripper — I Spent My Rent on Card Packs to Find the GOLDEN TICKET
 
 | | |
 |---|---|
-| Status | 📝 planned. Run test passed in CrossOver Steam (31 Oct 2026). Test save removed, so the game starts fresh. |
+| Status | 🎬 recorded Sat 31 Oct 2026, raw file 2:48:08, golden ticket reached. **Edited Sun 1 Nov 2026: DaVinci timeline "Pack Ripper Final" (project "New Project 5"), 1:53:16, code covered, presets on, subscribe line added. Not exported, not uploaded.** Raw file: `/Volumes/WD Black/Videos/obs/2026-10-31 20-46-06.mov` |
 | Record | Sat 31 Oct 2026 |
 | Upload | Sun 1 Nov 2026, 10 PM Dhaka (11 AM ET) |
 | Upload speed | 🔥 FAST — checked Sat 31 Oct 2026: demo out Thu 22 Oct 2026 (Steam API). No big English commentary video yet. English top: Slow Mo 9.1K (1.8K subs). Born 2 Game (171K subs) posted a no-commentary video on 30 Oct, so others are starting. Korean: ksyliki 30.9K. |
@@ -12,6 +12,65 @@
 | Target length | 90–100 min of play, then speed up the last card hunt. Other runs reached the end at about 88 min and 97 min. |
 | Final file | |
 | YouTube link | |
+
+## Edit plan (times are from the raw file)
+
+Made from the transcript and screenshots on Sun 1 Nov 2026. **Done in DaVinci on Sun 1 Nov 2026** as timeline "Pack Ripper Final", 1:53:16. The exact final cuts are below in "Left for Mamunur" and in the timeline itself; the tables here are the plan it came from. Also cut: 23 silences of 3 s or more inside the kept parts, as the playbook says.
+
+**Left for Mamunur:**
+- [x] Voice preset: Brimlo Voice B Warm stays on A1 (Mamunur, 1 Nov 2026).
+- [x] Subscribe line: "If you like this, subscribe." recorded 1 Nov 2026 and placed on A1 at 1:59:18–2:03:06 (the line starts at about 2:00). It replaces the filler "okay yes successfully". File: `/Volumes/WD Black/Videos/da-vinci/pack-ripper-subscribe-voice.wav`.
+- [x] Mamunur cut about 6 s himself at 0:55. The timeline is now 1:53:16:52, so the times below are 6 s earlier than the first plan.
+- [ ] Listen to the jumps at 1:37:20, 1:38:11, 1:38:32, 1:38:55, 1:39:29, 1:46:30, 1:46:36, 1:48:47, 1:48:53, and to the new line at 2:00. Checked with Whisper, not by ear.
+- [ ] Optional: add a small "skip ahead" text at 1:37:20. No skip line was recorded there except "I can speed it up".
+- [ ] The first rip is at 0:11, not 0:02. Leave it or change it.
+- [ ] Optional: `/hook` cold open. Not made.
+- [ ] Export with render preset **Brimlo YouTube**, then check 1:52:07–1:52:23 frame by frame for the code.
+
+**1. Hide the private code (must do).** The raffle code and Steam ID are on screen from about 2:43:57 to 2:45:20.
+- Keep to "keys on 30 November" (2:44:11). A solid navy picture (`/Volumes/WD Black/Videos/da-vinci/pack-ripper-code-cover.png`) on V2 covers the "YOUR CODE" panel: x 470–970, y 615–890 in the 1920x1080 frame.
+- Cut from there to 2:45:23. This also removes the ticket card, which shows the code too, and the wrong raffle date he read aloud (the screen says 15 Nov). The next thing you see is "You finished the demo".
+- Game sound in the timeline comes from `/Volumes/WD Black/Videos/da-vinci/pack-ripper-game-audio.m4a`, a copy of track 2. Keep this file until the video is exported.
+
+**2. Cut the retakes and mic checks.**
+
+| Raw time | What | Do |
+|---|---|---|
+| 0:00 – 1:10 | Opening retakes | Cut |
+| 1:10 – 1:21 | Clean opening take | **Keep** |
+| 1:21 – 1:43 | Third take, plus the first "first I need to rip" | Cut |
+| 16:49 – 16:58 | "Canopy… hello hello" | Cut |
+| 21:33 – 22:02 | "I'll be back", 23 s quiet, "hello" | Cut |
+| 52:03 – 52:08 | "Hello, one two three four, mic testing" | Cut |
+| 1:27:42 – 1:27:55 | Calls a golden pack a "golden ticket". This confuses the title | Cut |
+| 2:41:15 – 2:41:24 | "I have golden ticket" before he has it | Cut |
+| 2:45:56 – 2:46:57 | Ending retakes | Cut |
+| 2:46:57 – 2:47:12 | "So that's Pack Ripper… feels really good" | **Keep** |
+| 2:47:12 – 2:47:38 | Retake | Cut |
+| 2:47:38 – 2:48:00 | "If you like starting with nothing…" to the end | **Keep** |
+
+**3. Shorten the repeated part.** Everything up to 1:40:00 stays, apart from the cuts above. Commentary is about 90% of the file, so cut these parts and do not speed them up.
+
+| Raw time | Keep only | Cut down to |
+|---|---|---|
+| 1:40 – 2:04 | The $10K moment (1:54), the first Deluxe unlock (2:03–2:04) | about 3 min |
+| 2:04 – 2:11 | All: Deluxe Pack, The Landlord card, mouse wheel finding | 7 min |
+| 2:11 – 2:40 | The big mail payouts (2:14, 2:17), free golden pack (2:19) | about 3 min |
+| 2:40 – 2:43:53 | All: "one card left", last card, the last pack | 3–4 min |
+
+Say one line where you jump: "Let me skip ahead a bit. More packs, same idea."
+
+**Note (guess):** OBS was probably paused for about 1h 33m. The game shows 4h 18m played, and the Mac clock on the ticket screen also shows about 1h 33m more than the file length. The "hello" spots at 16:49, 21:56 and 52:03 look like the restarts, so money may jump there.
+
+## What really happened (from the recording)
+
+- Went broke twice: 23:55 ("I am broke", $15 left) and 35:05 ($0).
+- Binder unlocked at about 6:00, Canopy Pack 16:40, Collector's Box 57:00, auto-ripper (Rip-O-Matic, $1,500) 1:01. He did not like it: "slow… if I rip manually I feel more satisfying" (1:06).
+- Abyss Pack ($420) at 1:14. **Deluxe Pack ($1,000)** unlocked at 2:04. This is the last pack in the demo. The Landlord card came right after it (2:04).
+- Binder pages turn with the **mouse wheel**. He found this at 2:11.
+- Golden ticket at about 2:43:55, right after the last card.
+- End screen: binder complete 32/32, 225 packs, 4h 18m played, $9,876. It says you can keep chasing the Foil and Eclipse pockets, so **only the base slots are needed for the ticket**.
+- Raffle on the screen: 20 Pack Ripper keys on 30 Nov, enter before 15 Nov 2026 with the code and Steam ID on the game's Discord. Never post the code in public.
 
 ## Game in one sentence
 
@@ -67,15 +126,17 @@ Translated names in the Korean transcript: Kisser = Sluggo the Smoocher · Joy-K
 
 ## Titles
 
-Not scored: the `brimlo_*` tools were offline on 31 Oct 2026.
+Scored Sun 1 Nov 2026. Both scores are estimates, not view predictions. "–" means not scored with vidIQ.
 
-| # | Template | Title |
-|---|---|---|
-| 1 | J | Ripping Card Packs Until I Found the GOLDEN TICKET \| Pack Ripper |
-| 2 | A | The Card Pack Incremental Game Where One Bad Rip RUINS Your Best Card \| Pack Ripper |
-| 3 | D | A Game Where You Rip Card Packs by Hand… and It's So ADDICTIVE \| Pack Ripper |
+| # | Template | Title | brimlo | vidIQ |
+|---|---|---|---|---|
+| 1 | I + F | I Spent My Rent on Card Packs to Find the GOLDEN TICKET \| Pack Ripper | 70 | 98 |
+| 2 | J | Ripping Card Packs Until I Found the GOLDEN TICKET \| Pack Ripper | 78 | 90 |
+| 3 | I + F | I Ripped 225 Card Packs to Find ONE Golden Ticket \| Pack Ripper | 78 | 90 |
+| 4 | A | The Card Pack Incremental Game Where You Hunt a GOLDEN TICKET \| Pack Ripper | 77 | – |
+| 5 | D | A Game Where You Rip Card Packs by Hand… and It's So ADDICTIVE \| Pack Ripper | 75 | – |
 
-**Chosen: 1.** A golden ticket makes people curious, and the video has a real ending to pay it off. Use it **only if you reach the ticket**. If not, use title 2.
+**Chosen: 1.** It is the same joke as the first line of the video ("I spent all my rent money on one pack of cards") and the first line of the description, so title and opening match. The golden ticket is real and shown at the end. The lower brimlo score comes from length (69 characters) and word count, not from the idea.
 
 Do not use "satisfying": this is a gambling-style game (title rule). Do not write "Demo" in the title.
 
@@ -84,7 +145,7 @@ Do not use "satisfying": this is a gambling-style game (title rule). Do not writ
 - Center idea: **Hands + tool on the object**. The hands tear open one huge pack, and a golden ticket comes out.
 - Text: **"GOLDEN TICKET"**. Fallback if you don't reach it: **"PERFECT RIP"**, and remove the ticket from the prompt.
 - What the real game looks like (Steam screenshots): pixel art on a warm wooden table. The Canopy pack is dark green with pale green leaves and vines. Cards have orange or green monsters, and foil cards have a rainbow shine.
-- Take these while recording: the pack up close while ripping · the golden ticket screen (**with the code hidden**) · the full binder. Attach 2 of them to the prompt.
+- Reference pictures from the recording, in `tools/transcribe/out/2026-11-01-pack-ripper/thumb-refs/`: `canopy-rip.jpg` · `golden-ticket-no-code.jpg` (cropped, the code is not in it) · `binder.jpg`. Attach `canopy-rip.jpg` and `golden-ticket-no-code.jpg` to the prompt. **Do not use `contact.jpg` or the `frames/` folder for the ticket: the last frames show the code.**
 
 **Master prompt (copy, attach the 2 screenshots):**
 
@@ -95,7 +156,7 @@ STYLE: bright 2D cartoon vector illustration, like a flash game. Thick bold blac
 
 COMPOSITION: first-person view. Two cartoon hands come in from the bottom-left and bottom-right corners. The hands wear dark navy blue sleeves (#0B1023) with a thin gold cuff (#FFC83D). Both hands grip the top of the pack and tear it open.
 
-CENTER: one huge, oversized trading card pack in the exact center, taking up about 50% of the image. The pack is bright green with pale green leaves and vines on the front. Its top seal is ripped open with a jagged tear and a curled strip of foil. One big shining golden ticket rises out of the opening with a strong gold glow. The ticket has no writing on it. The pack and the ticket are the brightest and clearest things in the picture.
+CENTER: one huge, oversized trading card pack in the exact center, taking up about 50% of the image. The pack is bright green with pale green leaves and vines on the front. Its top seal is ripped open with a jagged tear and a curled strip of foil. One big shining golden ticket rises out of the opening with a strong gold glow. The ticket is bright yellow-gold with one pale star in the middle and a dark slot near the bottom, and it has no writing on it. The pack and the ticket are the brightest and clearest things in the picture.
 
 AROUND IT: a big messy burst of trading cards flying out of the pack and piled behind it, so it looks like an absurd amount. The biggest cards show simple cartoon monster faces in orange and green, and some are rainbow foil. The cards have no writing on them.
 
@@ -106,7 +167,7 @@ TEXT: at the top center, write exactly "GOLDEN TICKET" in big bold yellow-gold c
 AVOID (negative prompt): photorealism, 3D render, pixel art, realistic skin, realistic hands, photo, DSLR, cinematic lighting, dark background, black or dark navy areas, gloomy colors, white gloves, extra fingers, more than two hands, any other text, writing on the cards or the ticket, extra words, misspelled text, fake logos, real trading card brands, Pokémon, Willy Wonka, chocolate, watermarks, signatures, the YouTube logo, a mascot or logo stamp in any corner, borders, frames, small inset image boxes in any corner, split screens, arrows, emoji, crowded scenes, tiny details, many small objects competing with the pack, blurry or muddy colors.
 ```
 
-Check the real ticket and pack in your screenshots after recording, and fix the color if needed. Do the 10-second check in `playbook/thumbnails.md`.
+Pack and ticket colors checked against the recording (1 Nov 2026). Do the 10-second check in `playbook/thumbnails.md`.
 
 ## Recording script
 
@@ -225,31 +286,32 @@ It comes from the opening story. "The Landlord" is a real card in the game (Stea
 
 ## Chapters
 
-Names only for now. Make the final list from the real captions after the edit: max 10, never guess times.
+Moments from the raw transcript. **These times will change after the edit, so do not paste them.** Run the video reader on the edited export to get the final times.
 
 ```
-00:00 One Starter Pack, 4 Sets to Finish
-??:?? The Binder Unlocks
-??:?? First Graded Card
-??:?? I Went Broke
-??:?? First Grade 10
-??:?? Canopy Pack
-??:?? First Eclipse Card
-??:?? Abyss Pack
-??:?? One Card Left
-??:?? The Golden Ticket
+Raw time → name
+00:00   One $7 Pack, 4 Sets to Finish
+06:00   The Binder Unlocks
+16:40   Canopy Pack
+23:55   I Went Broke
+57:00   First Collector's Box
+1:01    The Auto-Ripper
+1:14    Abyss Pack
+2:04    Deluxe Pack and The Landlord
+2:41    One Card Left
+2:43    The Golden Ticket
 ```
 
 ## Description
 
-Draft. Fill it in from what really happens in the video. Mention the raffle only if you see it on your screen.
+Filled from the recording. Add the real sub count and the final chapters.
 
 ```
 I spent my rent on card packs. Help Brimlo reach 100 subs :)
 
-I played Pack Ripper, a trading card incremental game where you rip packs by hand, sell the cheap cards and fill a binder with one of every card. [What really happened: when I went broke, best grade, biggest pull, how long the last card took, the golden ticket.]
+I played Pack Ripper, a trading card incremental game where you rip packs by hand, sell the cheap cards and fill a binder with one of every card. I started with one pack, went broke twice, made more than $20,000, and ripped 225 packs. Then one last card finished the binder, and I found the golden ticket.
 
-This is the free demo with 4 card sets. The full game comes in Q1 2027.
+This is the free demo with 4 card sets. The full game comes in Q1 2027. If you find the golden ticket too, the game has a raffle for 20 keys on its Discord. Enter before 15 Nov 2026.
 
 CURRENT SUBS: [real number from Studio]
 
