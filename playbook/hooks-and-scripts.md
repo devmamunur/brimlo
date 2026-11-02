@@ -59,7 +59,7 @@ Keep the ending short. Put an **end screen** to your most similar video.
 - **Compare numbers.** "Before: 10 per second. Now: 1,000 per second."
 - **Keep the score out loud every few minutes.** "2 million now. Next goal: 1 billion." / "20 out of 283 carrots."
 - **Stay positive when it is slow.** Say "Okay, patience. We'll get there." Don't say "my bad luck… nothing, only stones."
-- **One running joke per video.** Plan it before recording. Simple is fine: a name for your character, a "rival", or one line you repeat when something goes wrong.
+- **One running joke per video, new every time.** Plan it before recording. It must come from this game: its mechanics, its theme or what happens on screen. Never reuse a joke from another video (Mamunur, 1 Nov 2026). Simple is fine: a name for your character, a "rival", or one line you repeat when something goes wrong.
 - **Skip the grind out loud.** Say "Let me skip ahead a bit", then speed it up or cut it in the edit.
 - **Silence is OK for a few seconds.** It gets cut in the edit (see [recording-and-editing.md](recording-and-editing.md)).
 - **React out loud to every upgrade:** "Oh, that's much faster now!" / "Wait, what was that?" Small honest reactions keep viewers. Still calm, never fake.

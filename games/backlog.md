@@ -8,7 +8,7 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 
 | Game | Runs via | Big-channel coverage | Planned slot | Status |
 |---|---|---|---|---|
-| Cookie Clicker | Mac | Very high (old, evergreen) | Mon 12 Oct | ✅ used |
+| Cookie Clicker | Mac | Very high (old, evergreen) | Mon 12 Oct (private since 1 Nov 2026; can re-record later) | ✅ used |
 | A Game About Digging a Hole | CrossOver | High | Wed 14 Oct | ✅ used |
 | I Am Plague **Playtest** (free, ends 19 Oct) | CrossOver ✅ 13 Oct (Graphics = **DXMT**; Auto crashes) | Low — 2 small channels | Sat 17 Oct | ✅ used |
 | Quadrillion Carrots (free demo) | CrossOver | Low — 1 demo video by a 44K channel (18 Oct) | Sun 18 Oct | ✅ used |
@@ -51,6 +51,18 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 | Needle In A Haystack Simulator | Huge Sep 2026 wave; full release "later this year" | ? | ? | Only on full release — the wave is over |
 | FEED THE AI | Big outlier, but already covered by Idle Cub and others | Windows only | Paid | Only with a fresh angle (100% run) |
 | My Fire Is Bigger Than Yours | 100% video got 174K | ? | Paid | Covered; fresh angle needed |
+
+### Trending free demos, checked Sun 1 Nov 2026 (Steam store API + vidIQ; none run-tested yet)
+
+| Game | Free demo / full game | Speed | YouTube evidence (1 Nov 2026) |
+|---|---|---|---|
+| **Ant Mill Inc** (recorded Mon 2 Nov, cut Tue 3 Nov, publish Tue 3 Nov; [file](../videos/2026-11-03-ant-mill-inc.md)) | Demo 5343570, out 18 Oct; full Fri 18 Dec 2026 | 🔥 FAST | Haikrazon (3,950 subs) 101K in 3 days; Russian, Spanish and Portuguese channels also strong |
+| **Way Too Many Fish!** | Demo 5400640, out 20 Oct; full Mon 16 Nov 2026 | 🔥 FAST | Azrilich posted today (1,267 VPH); Slow Mo 1.8K. Sorting game with upgrades |
+| **Diversion** | Demo 5401660, out 16 Oct; full game 5198730 | 🔥 FAST | Azrilich 31 Oct 26K; CG Grows 24K. Creepy flesh-wall theme |
+| Bean in a Ball Pit | Demo 5400740, out 20 Oct; full Thu 12 Nov 2026 | 🔥 FAST | Azrilich 28 Oct 75.8K (wave until about Wed 4 Nov); IdleAlex (320 subs) 12.2K |
+| Wipe Them Out! | Demo 5402280, out 16 Oct; full game 5154590 | 🟡 SOON | Mr Falcon 44.7K; Ash Swoon (3,330 subs) 23.7K. One player cleared the demo in 35 min |
+
+Skip for now: Alien Archeologist (demo 5309920, many big channels, 100K+ videos since 10 Oct).
 
 ### Next Fest scout, 21 Oct 2026 (game-scout; Steam data only, demo length and YouTube coverage NOT verified)
 
@@ -102,8 +114,8 @@ Steam store search + English YouTube search (vidIQ) on 28 Oct 2026. **No run tes
 | Game | Status / date | Mac | Notes |
 |---|---|---|---|
 | **Deforest a Planet** (5326060; itch.io demo) | Free itch.io browser demo (first 3 of 5 planets); full game free on Android; **Steam full game Tue 15 Dec 2026** (Steam API, 28 Oct; an earlier "30 Oct" note was wrong); Steam demo "coming soon" | **Steam: Mac ✅** · itch.io: browser | **🟡 SOON** (checked 28 Oct) · **Used — published Fri 30 Oct 2026** (https://youtu.be/jTXAVEs0CQA) ([file](../videos/2026-10-30-deforest-a-planet.md)): **no English video found**; ksyliki 16K (16 Oct). Cut every tree on a small planet, the counter goes down to zero, workers + lumbermills. Recommended first. https://venusian-games.itch.io/deforest-a-planet |
-| **Pack Ripper** (5071620; demo 5436300) | Free demo on Steam since Thu 22 Oct 2026, 4 card sets; full game Q1 2027; no browser version (Steam, 31 Oct); developer BigBonk Studio; [file](../videos/2026-11-01-pack-ripper.md) | **CrossOver ✅** (run test passed 31 Oct 2026) | **🔥 FAST** (checked 31 Oct) · **Used: recorded Sat 31 Oct, publish Sun 1 Nov 10 PM Dhaka**: English top: Slow Mo 9.1K (1.8K subs, 26 Oct; captions confirm it is this game), Zhain 2.1K and Born 2 Game no commentary, other commentary videos under 400; ksyliki 30.9K (27 Oct). No big English channel yet. Card-pack incremental: the same idea as Crack the Pack, which got 140–194K on English channels in Oct. |
-| **Summer for ANT** (5162770; demo 5268240) | Free demo (Next Fest); full game Mac ✅ | Demo **Windows only → CrossOver** | **🔥 FAST** (checked 28 Oct) · **Planned: record Mon 2 Nov, publish Tue 3 Nov 10 PM Dhaka**: no English commentary video found; Hurtig (BR, 1.3M subs) 51K, French 7.9K, Indonesian 6K, ksyliki 20K. Next Fest trailer 64K. Cozy ant job-sim: collect food, hire ants, upgrades, 7 areas. Not the same game as "Ant Clicker" above. |
+| **Pack Ripper** (5071620; demo 5436300) | Free demo on Steam since Thu 22 Oct 2026, 4 card sets; full game Q1 2027; no browser version (Steam, 31 Oct); developer BigBonk Studio; [file](../videos/2026-11-01-pack-ripper.md) | **CrossOver ✅** (run test passed 31 Oct 2026) | **🔥 FAST** (checked 31 Oct) · **Used: published Sun 1 Nov 2026 (https://youtu.be/56WpR7ubEHY)**: English top: Slow Mo 9.1K (1.8K subs, 26 Oct; captions confirm it is this game), Zhain 2.1K and Born 2 Game no commentary, other commentary videos under 400; ksyliki 30.9K (27 Oct). No big English channel yet. Card-pack incremental: the same idea as Crack the Pack, which got 140–194K on English channels in Oct. |
+| **Summer for ANT** (5162770; demo 5268240) | Free demo (Next Fest); full game Mac ✅ | Demo **Windows only → CrossOver** | **🔥 FAST** (checked 28 Oct) · **Moved to later on 1 Nov (Ant Mill Inc took Tue 3 Nov); re-check before planning**: no English commentary video found; Hurtig (BR, 1.3M subs) 51K, French 7.9K, Indonesian 6K, ksyliki 20K. Next Fest trailer 64K. Cozy ant job-sim: collect food, hire ants, upgrades, 7 areas. Not the same game as "Ant Clicker" above. |
 | **The Woodman** (4064810) | Full game out 16 Oct 2026, **$4.99** | **Mac ✅** | **🔥 FAST if bought** (checked 28 Oct): game wave — **Idle cub 274K on 24 Oct**, Idle Gamer 196 (27 Oct), ksyliki 41K. Chop a tree that grew into space, gnomes, shop. Paid: fits the $10–15/month budget. |
 | Dwarven Shift 98 (4657930; demo 5402900) | Free demo (trailer 19 Oct); release Q1 2027 | **Windows only → CrossOver** | **🟡 SOON / backup** (checked 28 Oct): almost no English coverage (one 23-view video), so no competition but also no proven demand; ksyliki 10K. Mining incremental in short timed shifts, prestige. |
 | Siege of Incrementalia (5083130) | Free demo | Windows → CrossOver | ❌ Skip: Wanderbots 30K + CG Grows More 23K already (Oct 2026); strategy-heavy. |

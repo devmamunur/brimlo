@@ -44,8 +44,8 @@ Last updated: 31 Oct 2026 · Sim games are a "later" queue: owned + planned game
 | **Mon 26 Oct** | **Seabun — "I Beat the GIANT Crab Boss in Seabun and Got a LEGENDARY Shark"**. Published Mon 26 Oct 10:28 PM Dhaka (https://youtu.be/1DX3Xl_XbXI). 10 chapters from captions added Tue 27 Oct. Runs in CrossOver Steam ✅. Check 7-day results Mon 2 Nov. [file](../videos/2026-10-26-seabun.md). (My Dirty Little Lake → launch Mon 16 Nov.) | Free demo (CrossOver) | ✅ |
 | **Tue 27 Oct** | **Scrapecremental — "A Game Where You Scrape Dust With Your FINGERNAIL… and It's So Satisfying \| Scrapecremental"**. Published Tue 27 Oct 2026; title now "They Gave Me ONE Fingernail and Told Me to Clean a Whole Town \| Scrapecremental"; was scheduled for 10 PM Dhaka (moved from Wed 28 Oct), 30:31, https://youtu.be/XdfTIK_jv9U. Chapters from captions after publish. Check 7-day results Tue 3 Nov. [file](../videos/2026-10-27-scrapecremental.md) | Free (itch.io, Chrome) | ✅ |
 | Wed 28 Oct | No upload. **Test day:** 10-minute run test of Deforest a Planet (itch.io browser demo or Steam demo, Mac ✅). Practice the first sentence. | | — |
-| **Fri 30 Oct** | **Deforest a Planet** 🟡 SOON (checked 28 Oct: no English video yet; Steam full game **Tue 15 Dec 2026**, not 30 Oct — corrected). **Record: Thu 29 Oct · Publish: Fri 30 Oct, 10 PM Dhaka (12 PM ET)**. **Published Fri 30 Oct** — "I Cut Down All 7,066 TREES on One Planet", 56:03, https://youtu.be/jTXAVEs0CQA. Check 7-day results Fri 6 Nov. Start the thumbnail A/B test on publish day. [file](../videos/2026-10-30-deforest-a-planet.md) | Free itch.io browser demo (3 planets), Chrome ✅ | ✅ |
-| **Sun 1 Nov** | **Pack Ripper** 🔥 FAST (checked 31 Oct: demo out 22 Oct, no big English commentary video; top English 9.1K, Korean 30.9K; card-pack idea proven at 140–194K). **Recorded Sat 31 Oct (raw 2:48:08, golden ticket reached) · Publish: Sun 1 Nov, 10 PM Dhaka (11 AM ET)**. Edit first: hide the raffle code. Check 7-day results Sun 8 Nov. [file](../videos/2026-11-01-pack-ripper.md) | Free demo (CrossOver ✅, run test passed 31 Oct 2026) | 🎬 |
+| **Fri 30 Oct** | **Deforest a Planet** 🟡 SOON (checked 28 Oct: no English video yet; Steam full game **Tue 15 Dec 2026**, not 30 Oct — corrected). **Record: Thu 29 Oct · Publish: Fri 30 Oct, 10 PM Dhaka (12 PM ET)**. **Published Fri 30 Oct** — "I Cut Down All 7,066 TREES on One Planet | Deforest a Planet" (game name added Sun 1 Nov), 56:03, https://youtu.be/jTXAVEs0CQA. Check 7-day results Fri 6 Nov. Start the thumbnail A/B test on publish day. [file](../videos/2026-10-30-deforest-a-planet.md) | Free itch.io browser demo (3 planets), Chrome ✅ | ✅ |
+| **Sun 1 Nov** | **Pack Ripper** 🔥 FAST (checked 31 Oct: demo out 22 Oct, no big English commentary video; top English 9.1K, Korean 30.9K; card-pack idea proven at 140–194K). **Recorded Sat 31 Oct (raw 2:48:08, golden ticket reached) · Publish: Sun 1 Nov, 10 PM Dhaka (11 AM ET)**. **Published Sun 1 Nov**, 1:50:53, https://youtu.be/56WpR7ubEHY. Subtitles and chapters added. Check 7-day results Sun 8 Nov. [file](../videos/2026-11-01-pack-ripper.md) | Free demo (CrossOver ✅, run test passed 31 Oct 2026) | ✅ |
 
 - **Dropped (28 Oct 2026):** the "Best Incremental Demos of Steam Next Fest" round-up. A clip compilation breaks the one-game rule, the goal-number opening and the no-silence rule, and Next Fest ended 26 Oct. Deforest a Planet takes the slot.
 - ⏰ Publish time stays **10 PM Dhaka** (11 AM ET from Sun 1 Nov).
@@ -57,10 +57,11 @@ Last updated: 31 Oct 2026 · Sim games are a "later" queue: owned + planned game
 
 | Upload | Video | Game source | Status |
 |---|---|---|---|
-| **Tue 3 Nov** | **Summer for ANT** 🔥 FAST (checked 28 Oct: no English commentary video yet; big in BR/FR/ID/KR). **Record: Mon 2 Nov · Publish: Tue 3 Nov, 10 PM Dhaka (11 AM ET)** | Free demo — Windows only → CrossOver, run test pending | 📝 |
+| **Tue 3 Nov** | **Ant Mill Inc** 🔥 FAST (checked 1 Nov: demo out 18 Oct, full game Fri 18 Dec 2026; Haikrazon 101K in 3 days, other big videos mostly not in English). **Record: Mon 2 Nov · Publish: Tue 3 Nov, 10 PM Dhaka (11 AM ET)**. Replaced Summer for ANT on 1 Nov (Mamunur). [file](../videos/2026-11-03-ant-mill-inc.md) | Free demo (5343570). Recorded Mon 2 Nov, hand edited and exported Tue 3 Nov (32:27), not uploaded yet | 🎬 |
+| Later | Summer for ANT — moved from Tue 3 Nov on 1 Nov, so two ant games are not close together. Re-check the speed label before planning it (checked 1 Nov: no English video in the top results; Portuguese and Korean videos are growing) | Free demo — Windows only → CrossOver, run test pending | 📝 |
 | Later (buffer) | Cast n Chill 🟢 RELAXED — moved from Tue 3 Nov on 28 Oct; fill a quiet day | Owned (Mac) | 📝 |
 | Later (buffer) | Scratch the Ticket 🟢 RELAXED — moved from Fri 6 Nov on 28 Oct; crowded (Azrilich 956K), needs a fresh angle | Owned (CrossOver) | 📝 |
-| Backups | The Woodman 🔥 ($4.99, Idle cub wave 24 Oct) · Dwarven Shift 98 🟡 (CrossOver) | see games/backlog.md | 📝 |
+| Backups | **New picks, checked 1 Nov (run test first):** Way Too Many Fish! 🔥 · Diversion 🔥 · Bean in a Ball Pit 🔥 (all free demos). Older: The Woodman 🔥 ($4.99, Idle cub wave 24 Oct) · Dwarven Shift 98 🟡 (CrossOver) | see games/backlog.md | 📝 |
 
 - Register on **Keymailer**. Email 3 developers whose Next Fest demos you covered (link your video, be honest about size).
 - **Sat 7:** record **two** 60–90 min videos: **Keep on Mining!** + **Nodebuster**.
@@ -154,7 +155,7 @@ Last updated: 31 Oct 2026 · Sim games are a "later" queue: owned + planned game
 
 | Game | Slot |
 |---|---|
-| Cookie Clicker | ✅ Mon 12 Oct |
+| Cookie Clicker | 🔒 Mon 12 Oct, private since Sun 1 Nov 2026 |
 | A Game About Digging a Hole | ✅ Wed 14 Oct |
 | Rock Crusher | Tue 20 Oct |
 | Sorting Inc | Fri 23 Oct |

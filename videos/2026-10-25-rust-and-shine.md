@@ -245,6 +245,7 @@ Why it is weak (Studio + vidIQ, 28 Oct): 22 views in 3 days, only **39 impressio
 2. ✅ **New title saved in Studio Wed 28 Oct 2026:** "I Cleaned Rusty Junk Until I Made $1,000,000" (vidIQ 94, estimate; the old title also scored 96, so the score doesn't decide). Number formula from the head-to-head review. $1,000,000 is real: captions 1:21:45.
 3. **New thumbnail:** house style v2, text "$1,000,000" (GPT, one fix round for the sword shape). File: `thumbnails/2026-10-25-rust-and-shine-v2-million.jpg` (1280×720, 448 KB). Mamunur uploads it himself (28 Oct 2026).
 4. ✅ **Tags saved in Studio Wed 28 Oct 2026 (20 tags):** removed "Rust and Shine full demo", "steam demo", "restoration incremental"; added "cleaning simulator", "restoration simulator", "rust removal game", "satisfying cleaning game".
+5. ✅ **Game name added back, saved in Studio Sun 1 Nov 2026:** "I Cleaned Rusty Junk Until I Made $1,000,000 | Rust & Shine". Studio that day: 114 impressions, 39 views, 19 unique viewers; other Rust & Shine videos were already suggesting this one. Judge it on Sun 8 Nov 2026.
 
 ## Results
 

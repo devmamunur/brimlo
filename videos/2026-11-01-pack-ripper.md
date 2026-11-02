@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| Status | 🎬 recorded Sat 31 Oct 2026, raw file 2:48:08, golden ticket reached. **Edited Sun 1 Nov 2026: DaVinci timeline "Pack Ripper Final" (project "New Project 5"), 1:53:16, code covered, presets on, subscribe line added. Not exported, not uploaded.** Raw file: `/Volumes/WD Black/Videos/obs/2026-10-31 20-46-06.mov` |
+| Status | ✅ published Sun 1 Nov 2026, 10 PM Dhaka (checked on YouTube). Final length 1:50:53. Clean subtitles and 10 chapters added 1 Nov 2026 (both confirmed from YouTube). |
 | Record | Sat 31 Oct 2026 |
 | Upload | Sun 1 Nov 2026, 10 PM Dhaka (11 AM ET) |
 | Upload speed | 🔥 FAST — checked Sat 31 Oct 2026: demo out Thu 22 Oct 2026 (Steam API). No big English commentary video yet. English top: Slow Mo 9.1K (1.8K subs). Born 2 Game (171K subs) posted a no-commentary video on 30 Oct, so others are starting. Korean: ksyliki 30.9K. |
@@ -10,8 +10,8 @@
 | Source | Free Steam demo, 4 card sets. No end date on the page. Full game Q1 2027. |
 | Runs on | CrossOver Steam ✅ (Mamunur, 31 Oct 2026). |
 | Target length | 90–100 min of play, then speed up the last card hunt. Other runs reached the end at about 88 min and 97 min. |
-| Final file | |
-| YouTube link | |
+| Final file | `packriper-video.mov` (name in Studio), 1:50:53 |
+| YouTube link | https://youtu.be/56WpR7ubEHY |
 
 ## Edit plan (times are from the raw file)
 
@@ -286,21 +286,22 @@ It comes from the opening story. "The Landlord" is a real card in the game (Stea
 
 ## Chapters
 
-Moments from the raw transcript. **These times will change after the edit, so do not paste them.** Run the video reader on the edited export to get the final times.
+Final, from YouTube's captions of the published video (1 Nov 2026). YouTube shows all 10.
 
 ```
-Raw time → name
-00:00   One $7 Pack, 4 Sets to Finish
-06:00   The Binder Unlocks
-16:40   Canopy Pack
-23:55   I Went Broke
-57:00   First Collector's Box
-1:01    The Auto-Ripper
-1:14    Abyss Pack
-2:04    Deluxe Pack and The Landlord
-2:41    One Card Left
-2:43    The Golden Ticket
+00:00 All My Rent on One Pack
+04:23 The Binder Unlocks
+14:21 Canopy Pack Unlocks
+26:29 My First Golden Pack
+32:19 Broke Again, $0 Left
+57:26 The Rip-O-Matic
+1:10:25 First Abyss Pack
+1:37:58 Deluxe Pack and The Landlord
+1:48:12 One Card Left
+1:50:14 The Golden Ticket
 ```
+
+Subtitles: made with `tools/subtitles/` and `tools/subtitles/fixes-pack-ripper.json`. Fixed from captions only, not checked by ear. Card names are unsure, for example Snake Gator or Snack Gator.
 
 ## Description
 

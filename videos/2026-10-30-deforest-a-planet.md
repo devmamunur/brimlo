@@ -1,4 +1,4 @@
-# Deforest a Planet — I Cut Down All 7,066 TREES on One Planet
+# Deforest a Planet — I Cut Down All 7,066 TREES on One Planet | Deforest a Planet
 
 | | |
 |---|---|
@@ -20,8 +20,13 @@
 
 ## Title
 
-**"I Cut Down All 7,066 TREES on One Planet"** — true number from the counter; "All" shows the finished result.
+**Now (saved in Studio Sun 1 Nov 2026): "I Cut Down All 7,066 TREES on One Planet | Deforest a Planet"** — true number from the counter; "All" shows the finished result. Added the game name for search and to appear next to other videos of this game.
+Old title (30 Oct – 1 Nov): "I Cut Down All 7,066 TREES on One Planet". Live for a few minutes on 1 Nov, then replaced: "One Woodcutter vs 7,066 TREES | Deforest a Planet" (not true: Mamunur hired 24 woodcutters).
 Back-up: "The Incremental Game Where You Cut Down an ENTIRE Planet".
+
+**Why it changed (Studio, 1 Nov 2026, 2 days after publishing):** 227 impressions, CTR 0.9%, 6 views, 4 unique viewers. Too little data for retention. Other videos of the game: 리키리킹 16.9K (11,300 subs), AnxiGames 1.6K in about 1 day (1,190 subs). Both use real-game before/after thumbnails.
+
+**Still open:** thumbnail test "7,066 → 0" (two planets, stronger contrast); description first line with the game name. Judge the title on Fri 6 Nov 2026. Do not change it again before then.
 
 ## Thumbnail (house style v2)
 
