@@ -20,7 +20,7 @@ Last updated: 13 Oct 2026
 
 - Colors: navy **#0B1023** (background), gold gradient **#FFC83D → #FF8A00** (main text, highlights), teal **#2EE6D6** (numbers, arrows).
 - Banner: mascot + "BRIMLO", tagline "You rest. I'll keep going." (teal), small line "Idle • Incremental • Upgrade games". Canvas 2560 × 1440; keep everything inside the center 1235 × 338.
-- Logo (chosen 23 Oct 2026): **the Brimlo mascot**, a happy, calm gold money bag (soft smile, pink blush) with a small gold crown, teal rope and teal outline, on navy #0B1023. Locked: no logo changes before Apr 2027. It replaces the old gold staircase made for "Idle Ascent". Use it for the profile picture and banner only. **Never put the logo on thumbnails** (no corner marks, stamps or boxes).
+- Logo (chosen 23 Oct 2026): **the Brimlo mascot**, a happy, calm gold money bag (soft smile, pink blush) with a small gold crown, teal rope and teal outline, on navy #0B1023. **v2 (3 Nov 2026):** same mascot, thicker black outline, on a full-square bright teal #2EE6D6 background with soft sunburst rays (navy disappeared on YouTube dark mode). No drawn circle: YouTube crops it. Locked: no mascot changes before Apr 2027. It replaces the old gold staircase made for "Idle Ascent". Use it for the profile picture and banner only. **Never put the logo on thumbnails** (no corner marks, stamps or boxes). Files: current [brand/logo-v2-2026-11-03.png](brand/logo-v2-2026-11-03.png); old [brand/logo-v1-2026-10-23.jpg](brand/logo-v1-2026-10-23.jpg) (600 × 600, navy).
 - Voice: calm, friendly, honest. "Chill" is a strength, not a weakness.
 
 ## Channel description (draft — edit and paste into YouTube)
