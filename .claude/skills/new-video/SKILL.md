@@ -24,7 +24,7 @@ Plan one video end to end and save it in the repo. Write in **simple English, sh
 
 3. **Write the plan** using `videos/_template.md`. Save as `videos/YYYY-MM-DD-game-slug.md` (upload date, lowercase, hyphens). Fill:
    - Header table (including the **Upload speed** row) and "Game in one sentence".
-   - **3 titles** from different templates in `playbook/titles.md`, and pick one with a one-line reason. Follow the title rules (incremental word, game name rule, **never the word "Demo" in a title** — it goes in the description and tags, no creator names).
+   - **A/B/C title test set** (`playbook/titles.md` → "A/B/C test set"): 3 titles, each a different pattern (P1–P7) of the **Brimlo title system**; A = best pick (live title), B and C = test titles, one-line reason each. Rules: no game name, no "Demo", no "incremental", no "|" in the title (game name + "demo" go in the description and tags), Title Case, 30–55 characters, no creator names. These are **drafts**: mark the number/claim to confirm after recording.
    - Thumbnail idea in **house style v2** from `playbook/thumbnails.md` (from 28 Oct 2026): bright 2D cartoon, first-person hands in **navy sleeves with a gold cuff** holding the game's tool, **one huge object** in the center, a pile of the resource, max 3 words / one number on top. Pick one of the 3 center ideas, fill the **master prompt (with its AVOID part)** for this game, and say which screenshots to attach. **No inset boxes, no corner stamps, no "100%" badge for demos**, no counts he cannot read on screen.
    - **Recording script card** — this is the most important part for him:
      - Follow "The first 2 minutes rule" in `playbook/hooks-and-scripts.md`: **first sentence = the goal with a big number** (said while playing), first action by 0:05, what to finish before pressing record (menus, settings, story text), no menu reading.
@@ -40,7 +40,7 @@ Plan one video end to end and save it in the repo. Write in **simple English, sh
    - Update the slot in `plan/calendar.md` (game name, status 📝).
    - Update the game's row in `games/backlog.md` (planned slot).
 
-5. **Reply** briefly: **the upload speed label first** (e.g. "🔥 FAST — publish within 1–2 days after recording, because …"), then the chosen title, the hook to practice, what to test before recording, and the file path. Don't paste the whole file.
+5. **Reply** briefly: **the upload speed label first** (e.g. "🔥 FAST — publish within 1–2 days after recording, because …"), then the **A/B/C titles in one code block** (ready for Studio → A/B Testing), the hook to practice, what to test before recording, and the file path. Don't paste the whole file.
 
 ## Rules
 

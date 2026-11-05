@@ -6,7 +6,7 @@
 - "Scout pick" = a free demo, playtest, free-to-play game or developer key chosen with `/pick-game` that week.
 - Status: ✅ published · 🕒 scheduled · 🎬 recorded · 📝 planned · ❓ open slot
 
-Last updated: 31 Oct 2026 · Sim games are a "later" queue: owned + planned games first (see games/backlog.md)
+Last updated: Thu 5 Nov 2026 (/pick-game) · Sim games are a "later" queue: owned + planned games first (see games/backlog.md)
 
 ## Phase 1 — Launch + Next Fest
 
@@ -58,7 +58,8 @@ Last updated: 31 Oct 2026 · Sim games are a "later" queue: owned + planned game
 | Upload | Video | Game source | Status |
 |---|---|---|---|
 | **Tue 3 Nov** | **Ant Mill Inc** 🔥 FAST (checked 1 Nov: demo out 18 Oct, full game Fri 18 Dec 2026; Haikrazon 101K in 3 days, other big videos mostly not in English). **Record: Mon 2 Nov · Publish: Tue 3 Nov, 10 PM Dhaka (11 AM ET)**. Replaced Summer for ANT on 1 Nov (Mamunur). [file](../videos/2026-11-03-ant-mill-inc.md) | Free demo (5343570). Recorded Mon 2 Nov, hand edited and exported Tue 3 Nov (32:27), scheduled for 10 PM Dhaka Tue 3 Nov | ⏰ |
-| **Fri 6 Nov** | **Way Too Many Fish!** 🔥 FAST (checked 3 Nov: demo out 20 Oct, full game Mon 16 Nov 2026; a big English channel posted it 1 Nov, 68.7K in 2 days, so the wave runs to about Sun 8 Nov; other English videos 1.8K and 195). **Recorded Wed 4 Nov (edited, 1:25:31) · Publish: Fri 6 Nov, 10 PM Dhaka (11 AM ET)** (moved from Thu 5 Nov). [file](../videos/2026-11-05-way-too-many-fish.md) | Free demo (5400640). CrossOver ✅ | 🎬 |
+| **Thu 5 Nov** | **Way Too Many Fish!** 🔥 FAST (checked 3 Nov: demo out 20 Oct, full game Mon 16 Nov 2026; a big English channel posted it 1 Nov, 68.7K in 2 days, so the wave runs to about Sun 8 Nov; other English videos 1.8K and 195). **Recorded Wed 4 Nov (edited, 1:25:31) · Published Thu 5 Nov 2026, 10 PM Dhaka (11 AM ET)** ([link](https://youtu.be/mun4UOwRM8w)). Chapters added to the description Thu 5 Nov. Renamed Fri 6 Nov to "I Sorted WAY TOO MANY Fish and Bought EVERY Upgrade". [file](../videos/2026-11-05-way-too-many-fish.md) | Free demo (5400640). CrossOver ✅ | ✅ |
+| **Sun 8 Nov** | **Mycelarium** 🔥 FAST (checked Thu 5 Nov: full game out Tue 3 Nov; Yusterday, 190 subs, 31K in 2 days; FungalBrainRot "100%" 9.4K in 14 h. Wave is now). **Run test ✅ Fri 6 Nov (demo, CrossOver) · Record Sat 7 Nov · Publish Sun 8 Nov, 10 PM Dhaka (11 AM ET)**. Backup: Slime Splitter | Paid ~$2.39–2.99 on sale (check your Steam price). Full game gift purchase 6 Nov ($2.39), Steam status Pending. Demo ran in CrossOver ✅ (6 Nov); test the full game once before recording | 📝 |
 | Later | Summer for ANT — moved from Tue 3 Nov on 1 Nov, so two ant games are not close together. Re-check the speed label before planning it (checked 1 Nov: no English video in the top results; Portuguese and Korean videos are growing) | Free demo — Windows only → CrossOver, run test pending | 📝 |
 | Later (buffer) | Cast n Chill 🟢 RELAXED — moved from Tue 3 Nov on 28 Oct; fill a quiet day | Owned (Mac) | 📝 |
 | Later (buffer) | Scratch the Ticket 🟢 RELAXED — moved from Fri 6 Nov on 28 Oct; crowded (Azrilich 956K), needs a fresh angle | Owned (CrossOver) | 📝 |
@@ -76,6 +77,7 @@ Last updated: 31 Oct 2026 · Sim games are a "later" queue: owned + planned game
 |---|---|---|---|
 | Tue 10 Nov | Keep on Mining! | Owned (CrossOver) | 📝 |
 | Fri 13 Nov | Nodebuster | Owned | 📝 |
+| **Sat 14 Nov** | **Bottle Flip Inc — full release** 🔥 FAST (checked Thu 5 Nov: full game Thu 12 Nov; Azrilich demo video 4 Nov, 31K). Launch-day 100% run, not a copy of his demo video. **Record Fri 13 Nov · Publish Sat 14 Nov, 10 PM Dhaka**. Test the free demo (4966120) first. Backup: Bean in a Ball Pit (also launches Thu 12 Nov) | Paid at launch (price not shown yet). Windows → CrossOver | 📝 |
 | Sun 15 Nov | Sandustry | Owned (Mac) | 📝 |
 
 - Sat 14: two videos — **Another Game About Digging a Hole** + scout pick. Sun 15: one scout pick.
@@ -85,8 +87,9 @@ Last updated: 31 Oct 2026 · Sim games are a "later" queue: owned + planned game
 | Upload | Video | Game source | Status |
 |---|---|---|---|
 | Tue 17 Nov | Another Game About Digging a Hole | Owned (CrossOver) | 📝 |
-| Fri 20 Nov | Scout pick | Free / key | ❓ |
-| Sun 22 Nov | Scout pick | Free / key | ❓ |
+| Wed 18 Nov | My Dirty Little Lake — launch week (full game Mon 16 Nov). Re-check speed label before recording | Free demo now / paid at launch. CrossOver, test pending | 📝 |
+| Fri 20 Nov | Summer for ANT 🟡 SOON (planned game; re-check coverage before recording) | Free demo, Windows → CrossOver, run test pending | 📝 |
+| Sun 22 Nov | Cast n Chill 🟢 RELAXED (owned, calm; breaks up the mining run) | Owned | 📝 |
 
 ### Week 7 · 23–29 Nov — Steam Autumn Sale (usually around US Thanksgiving, Thu 26 Nov — confirm dates)
 
@@ -102,7 +105,7 @@ Last updated: 31 Oct 2026 · Sim games are a "later" queue: owned + planned game
 
 | Upload | Video | Game source | Status |
 |---|---|---|---|
-| Tue 1 Dec | Scout pick (or "100% full release" of a Next Fest demo that launched) | | ❓ |
+| Tue 1 Dec | **Diversion — full release** (launches Mon 30 Nov) 🟢 RELAXED for now; re-check on launch | Demo free now / paid at launch | 📝 |
 | Fri 4 Dec | Scout pick | | ❓ |
 | Sun 6 Dec | Scout pick | | ❓ |
 

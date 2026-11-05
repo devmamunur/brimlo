@@ -20,13 +20,14 @@
 
 ## Titles
 
-| # | Template | Title |
+| Test | Pattern (P1–P7) | Title |
 |---|---|---|
-| 1 | | |
-| 2 | | |
-| 3 | | |
+| A (main, live title) | | |
+| B | | |
+| C | | |
 
-**Chosen:** 
+**A/B test in Studio:** started [date] / not yet · check report on [date + 7]
+**Winner:** 
 
 ## Thumbnail idea
 

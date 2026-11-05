@@ -16,6 +16,7 @@ This repo is the brain of the YouTube channel **Brimlo** (@BrimloIdle). It holds
 - Keep answers short and practical unless he asks for depth.
 - For anything about the present day (game releases, prices, YouTube policy, trends), **search first**. Do not trust memory.
 - When he asks something you already answered in a file, point to the file.
+- **Titles always come as an A/B/C set** (6 Nov 2026): whenever you write a title, description or script for a video, give 3 titles (A = live title, B + C = test titles, each a different pattern) in one code block for YouTube Studio → A/B Testing. Rules: `playbook/titles.md`.
 - Ask for his latest stats (views, watch time, subs, CTR, retention) when reviewing performance.
 
 ## The channel in one screen
@@ -100,7 +101,7 @@ When a session starts with a general request ("what should I do today?", "what's
 
 ## Known setup gaps
 
-- vidIQ is connected in Claude Code, but the YouTube channel (ID `UCXf8abbaSiOThD3YhX8nGjQ`, @brimloidle) is **not directly authorized** for `vidiq_user_videos` / analytics. Fix: run `vidiq_connect_youtube_channel` / `vidiq_authorize_with_youtube` once. **Workaround that works now:** `brimlo_own_channel` returns subs, views and recent upload titles/views from the public API (free, ~3 units). Watch hours need the optional OAuth step in `tools/research/README.md`.
+- **vidIQ is authorized for the Brimlo channel (since Fri 6 Nov 2026).** `vidiq_user_channels` lists it; `vidiq_channel_analytics` (channelId `UCXf8abbaSiOThD3YhX8nGjQ`) gives watch hours, avg view duration, retention curves and traffic sources. In the API, traffic source `SUBSCRIBER` = Browse features (Home). Use `engagedViews` (views count from the first frame since Aug 2026).
 - **Impressions and CTR are not available from any API** (not vidIQ's, not ours). Read them in YouTube Studio.
 - An older version of this file had the wrong channel ID (`UCNwy…` is the personal channel "Mamunur Rashid"). The correct one is above.
 - Titles of already-published videos can be read with `brimlo_own_channel` (recent uploads) and filled into `videos/log.md`.

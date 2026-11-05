@@ -1,16 +1,16 @@
-# Way Too Many Fish! — Sorting Fish Until I Bought EVERY Upgrade
+# Way Too Many Fish! — I Sorted WAY TOO MANY Fish and Bought EVERY Upgrade
 
 | | |
 |---|---|
-| Status | 🎬 recorded Wed 4 Nov 2026, edited and exported (1:25:31). Upload: **Fri 6 Nov 2026, 10 PM Dhaka (11 AM ET)**. |
+| Status | ✅ **Published Thu 5 Nov 2026, 10 PM Dhaka (11 AM ET)**. Recorded Wed 4 Nov 2026, edited and exported (1:25:31). Chapters added to the YouTube description Thu 5 Nov 2026. |
 | Record | Wed 4 Nov 2026 |
-| Upload | **Fri 6 Nov 2026, 10 PM Dhaka (11 AM ET)** (moved from Thu 5 Nov) |
+| Upload | **Thu 5 Nov 2026, 10 PM Dhaka (11 AM ET)** (public) |
 | Upload speed | 🔥 FAST — checked Tue 3 Nov 2026: demo out 20 Oct, full game **Mon 16 Nov 2026** (Steam page). A big English incremental channel posted it on Sun 1 Nov (46 min, 68.7K views in 2 days), so the game wave runs until about Sun 8 Nov. Other English commentary videos are small: Slow Mo 1.8K (24 Oct), ShifoPlays 195 (25 Oct). Publish 1 day after recording. |
 | Game | Way Too Many Fish! by samyam, published by RAWGRAB (Steam, 5 Nov 2026) — https://store.steampowered.com/app/4564070/ · Demo: https://store.steampowered.com/app/5400640/ |
 | Source | Free Steam demo. No end date found. After 16 Nov, the full game may replace the demo, so do not wait. |
 | Runs on | **Windows only → CrossOver Steam ✅** (full run recorded 4 Nov 2026). Do the 10-minute test from `games/checklist.md` before Wed 4 Nov. Watch for: mouse grab and throw feels right, no lag when the net drops a big pile of fish (DirectX 12 game). |
 | Target length | 45–70 min. Other full runs of the demo took 45 min, 46 min and 70 min. Do not pad it with silence. |
-| YouTube link | |
+| YouTube link | https://youtu.be/mun4UOwRM8w |
 
 ## Game in one sentence
 
@@ -39,7 +39,16 @@ Scores are from our free checker (estimates, not a promise of views).
 | 2 | B | I Turned One Tiny Net Into a MOUNTAIN of Fish \| Way Too Many Fish | 76 |
 | 3 | A/F | The SATISFYING Sorting Game Where the Ocean Never Stops \| Way Too Many Fish | 77 (before CAPS fix) |
 
-**Chosen:** #1. The last three titles all start with "I…" (Deforest, Pack Ripper, Ant Mill). Template J is different, and it is a simple promise: a simple job until a big result. **Check it after recording:** keep it only if you really bought every upgrade in the demo (one other player did in 45 min). If not, use #2.
+**Renamed Fri 6 Nov 2026** (about 3 hours after publish, 5 views) to **"I Sorted WAY TOO MANY Fish and Bought EVERY Upgrade"** — new title rule: no "| Game Name" (see playbook/titles.md). True in the video: every upgrade and every license bought at 1:20 and 1:24. Description and tags unchanged.
+
+**Title A/B test started Fri 6 Nov 2026** (YouTube Studio, title only, status "Running"):
+- A: I Sorted WAY TOO MANY Fish and Bought EVERY Upgrade
+- B: I Sorted Fish Until I Had $2,000 and Every License
+- C: I Found 16 of 18 Fish… Where Are the Last Two?
+
+Very few views so far, so the test may not find a winner. Check "View test report" in Studio on Thu 12 Nov 2026 and log the result in playbook/titles.md → Title test log.
+
+**First chosen:** #1. The last three titles all start with "I…" (Deforest, Pack Ripper, Ant Mill). Template J is different, and it is a simple promise: a simple job until a big result. **Check it after recording:** keep it only if you really bought every upgrade in the demo (one other player did in 45 min). If not, use #2.
 
 Do not use the big channel's title words ("sort the entire ocean").
 
@@ -140,7 +149,7 @@ Use it 3–4 times. Do not use the girlfriend joke in this video (it was in Ant 
 
 ## Chapters
 
-Times come from the transcript of the final export (1:25:31).
+Times come from the transcript of the final export (1:25:31). Checked against the YouTube auto-captions on Thu 5 Nov 2026: all 10 match. Live in the description since Thu 5 Nov 2026.
 
 ```
 00:00 One Net, Way Too Many Fish

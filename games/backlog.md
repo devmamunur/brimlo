@@ -1,6 +1,6 @@
 # Game backlog
 
-Last updated: 13 Oct 2026. Mac info for owned games is from Steam store data (6 Oct 2026) unless marked "?". **Always do your own 10-minute test before planning.**
+Last updated: Thu 5 Nov 2026 (scout section).  Mac info for owned games is from Steam store data (6 Oct 2026) unless marked "?". **Always do your own 10-minute test before planning.**
 
 Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md](checklist.md) passes. Free first.
 
@@ -57,12 +57,33 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 | Game | Free demo / full game | Speed | YouTube evidence (1 Nov 2026) |
 |---|---|---|---|
 | **Ant Mill Inc** (recorded Mon 2 Nov, cut Tue 3 Nov, publish Tue 3 Nov; [file](../videos/2026-11-03-ant-mill-inc.md)) | Demo 5343570, out 18 Oct; full Fri 18 Dec 2026 | 🔥 FAST | Haikrazon (3,950 subs) 101K in 3 days; Russian, Spanish and Portuguese channels also strong |
-| **Way Too Many Fish!** | Demo 5400640, out 20 Oct; full Mon 16 Nov 2026 | 🔥 FAST — **planned Thu 5 Nov 2026** (record Wed 4 Nov; run test pending) | Azrilich posted today (1,267 VPH); Slow Mo 1.8K. Sorting game with upgrades |
+| **Way Too Many Fish!** | Demo 5400640, out 20 Oct; full Mon 16 Nov 2026 | 🔥 FAST — **✅ Covered — published Thu 5 Nov 2026** ([link](https://youtu.be/mun4UOwRM8w)); CrossOver ✅ | Azrilich posted today (1,267 VPH); Slow Mo 1.8K. Sorting game with upgrades |
 | **Diversion** | Demo 5401660, out 16 Oct; full game 5198730 | 🔥 FAST | Azrilich 31 Oct 26K; CG Grows 24K. Creepy flesh-wall theme |
 | Bean in a Ball Pit | Demo 5400740, out 20 Oct; full Thu 12 Nov 2026 | 🔥 FAST | Azrilich 28 Oct 75.8K (wave until about Wed 4 Nov); IdleAlex (320 subs) 12.2K |
 | Wipe Them Out! | Demo 5402280, out 16 Oct; full game 5154590 | 🟡 SOON | Mr Falcon 44.7K; Ash Swoon (3,330 subs) 23.7K. One player cleared the demo in 35 min |
 
 Skip for now: Alien Archeologist (demo 5309920, many big channels, 100K+ videos since 10 Oct).
+
+### Scout, Thu 5 Nov 2026 (game-scout + brimlo coverage check; no run tests yet)
+
+Prices are US prices unless marked. His Steam (Bangladesh) may show lower prices — check before buying. No developer video policy found for any of these.
+
+| Game | Status / date | Price | Speed (checked 5 Nov) | Notes |
+|---|---|---|---|---|
+| **Mycelarium** (5181520) | Full game out Tue 3 Nov, 85% of 356 reviews | ~$2.99, now ~$2.39 (seen on Steam home page; US price not checked) | 🔥 FAST → **Sun 8 Nov** | One mushroom grows into an underground network. Yusterday (190 subs) 31K in 2 days, FungalBrainRot "100%" 9.4K in 14 h (116 min), Japanese 12.8K. Proven, small channels win. **Demo: CrossOver ✅ Fri 6 Nov 2026** (graphics mode default). **Gift purchase Fri 6 Nov 2026, $2.39 — Steam status "Pending"** (from second account; the direct purchase on the main account failed on Steam's side). Nov game spend so far: $2.39. Controls: left-click shoots hyphae; to add a node, **click the "ADD NODE" text** that appears on the branch (costs 5 food; grey = not enough food → touch salt). The Yusterday video is the full game (recorded launch day, 3 Nov) |
+| **Bottle Flip Inc** (4932820, demo 4966120) | Free demo; full game **Thu 12 Nov** | Not shown yet | 🔥 FAST → **Sat 14 Nov** (launch 100% run) | Azrilich demo video 4 Nov, 31K (strong guess it is this game). Windows → CrossOver |
+| Slime Splitter (5409790, demo 5419620) | Full game out Sat 31 Oct | $4.49 (10% off) | 🟡 SOON — backup | Swarm, big numbers. YouTube not checked |
+| Potato Please (5266240) | Full game out Tue 3 Nov, 88% of 685 | $8.99 (10% off) | 🟡 — skip for now | Azrilich posted it Thu 5 Nov. Too much of the monthly budget |
+| Playrooms (5037510) | Full game out Wed 4 Nov; demo | $3.75 until Wed 11 Nov | ❌ skip | Horror audience, already big: 8-BitRyan 290K, Insym 212K, Sonoket multi-part. Game is 3–6 h, does not fit one video |
+| 500 FINGER FILLET (4602120, demo 4973880) | Full game Thu 12 Nov | Demo free | ❌ skip | Horror roguelite, light incremental. JonnyBebop 100% 35K (1 Nov) |
+| Diversion (full 5198730) | Demo up; full game **Mon 30 Nov** | — | 🟢 → Tue 1 Dec launch video | |
+| Incremental Traffic (5475960) | Full game out Sun 1 Nov, 88% | $6.99 | 🟢 backup | YouTube not checked |
+| Shattermine Idle (4110920, demo 5265870) | Demo up; full "coming soon" | Free demo | 🟢 backup | Mining — wait, Nov already has 3 mining/digging videos |
+| Clean 'Em Ocean (demo 5320660) | Demo since 1 Oct (~40 min); full March 2027 | Free | ❌ demo too short | Guess: Azrilich's "ocean trash" video (2 Nov) |
+
+Other status changes (Steam, 5 Nov): Wipe Them Out! full game → Tue 12 Jan 2027 · PAYDIRT → "coming soon" · Alien Archeologist full → Thu 21 Jan 2027 · The Woodman still $4.99.
+Unknown game to identify: Idle cub "hammering in 10,000 nails" — 194K in 1 day (seen 5 Nov). Possible 🔥 if free/cheap.
+New itch.io browser games (untested): Feed The Queen DEMO · Mold inc. · Hamsi · Twisty Infinity.
 
 ### Next Fest scout, 21 Oct 2026 (game-scout; Steam data only, demo length and YouTube coverage NOT verified)
 
@@ -73,7 +94,7 @@ Next Fest ends **Mon 26 Oct**. Record by Sun 25 Oct. Always do a 10-minute test 
 | **PAPERWORKS: Paper Shredder Inc.** | Free demo (app 5364250, out 20 Oct 2026); full game Q4 2026 | Native (Steam API, 25 Oct) | ❌ **Dropped 25 Oct** (Mamunur's test: lags, low graphics, not fun). Shred, upgrade, automate. Dark AI story. YouTube (vidIQ, 25 Oct): 1 English long video — FungalBrainRot 26.7K views in 3 days (243 VPH). Don't mix up with "Paper Shredder" by Embers (Xbox, winter 2026). |
 | **PAYDIRT** | Free demo; release Nov 2026 | Native | Pick for Tue 27 Oct. Mining + debt loop. |
 | **Shattermine Idle** (Goop Games) | Free demo; release "coming soon" | CrossOver, untested | Pure incremental mining: ores, workers, prestige, abilities. 0 coverage in our DB. Found in an earlier session. Test tonight. |
-| 10 Million Pixels (Battle Lab) | Free demo (since 16 Oct); release Fri 13 Nov | CrossOver, untested | Demo already covered by Dex, Blitz, InterndotGif, Nerfed Reflexes (80K–274K, Oct 2026). Skip the demo; maybe launch day 13 Nov. |
+| 10 Million Pixels (Battle Lab) | Free demo (since 16 Oct); release **Fri 27 Nov** (moved; Steam, 5 Nov) | CrossOver, untested | Demo already covered by Dex, Blitz, InterndotGif, Nerfed Reflexes (80K–274K, Oct 2026). Skip the demo; maybe launch day 13 Nov. |
 | Ant Clicker | Full game $4.99 (10 Oct); free demo | Native | Backup for Sat 24. Rebirth loop. Only 3 reviews. |
 | My Dirty Little Lake | Free demo (app 5426290, out 20 Oct); release Mon 16 Nov | Windows only → CrossOver, **test 25 Oct** | **Moved to launch week (Mon 16 Nov)**; Seabun took Mon 26 Oct. Cozy cleanup with dogs, net, treasures, upgrades. YouTube (25 Oct): no English video, 1 Japanese 11K. |
 | Slime Splitter | Free demo; Q4 2026 | CrossOver | Swarm / big numbers. Backup. |

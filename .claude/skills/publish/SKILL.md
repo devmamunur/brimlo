@@ -12,8 +12,9 @@ Keep the log true. Ask only for what's missing (title, date, status, YouTube lin
 
 1. Find the video file in `videos/` (by game name). If none exists (e.g. made outside the system), create it from `videos/_template.md` with the facts he gives.
 2. Ask for missing facts in **one** short question: final title, upload date/time, status, link, length.
-3. Run a quick check against `playbook/upload-checklist.md` — mention only items that look missing (e.g. no "incremental" in the title, no chapters). Don't block.
+3. Run a quick check against `playbook/upload-checklist.md` — mention only items that look missing (e.g. game name or "|" in the title, title not true to the video, no chapters). Don't block.
 4. Update:
+   - **Title test**: ask if he started the A/B/C title test in Studio. If yes, note "Title A/B test started [date]" with the 3 titles in the video file, add a row to the Title test log in `playbook/titles.md`, and a check date (+7 days). If not, remind him once (it is free).
    - **Video file**: status, upload date, final title ("Chosen"), link, length, chapters/description if given. Add result check dates (upload + 7 days, + 28 days) in the Results table header.
    - **`videos/log.md`**: the row (status ✅/🕒/🎬, title, length, file link). Keep rows in upload-date order. Number new rows.
    - **`plan/calendar.md`**: the slot's status; move things if the date changed.

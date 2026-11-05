@@ -66,9 +66,8 @@ Full list: [research/competitors.md](../research/competitors.md).
 
 ## Packaging
 
-- Put **"incremental"** in most titles (search "incremental game" +71%; "idle games" −54%).
-- Pure incremental → sell the idea, game name in description.
-- Hyped launch / Next Fest demo / roguelite / tower defense → add "| Game Name" at the end. **Never the word "Demo" in a title** (Mamunur, 26 Oct 2026); "demo" goes in the description and tags.
+- **Titles from 6 Nov 2026 (Mamunur): the Brimlo title system** — short first-person story or joke titles like Azrilich and LuckyLemon (patterns P1–P7), **no game name, no "incremental", no "|"**, Title Case, 30–55 characters. Game name in the description and tags. Test on the next 3 videos, then review. Details: [playbook/titles.md](../playbook/titles.md).
+- **Never the word "Demo" in a title** (Mamunur, 26 Oct 2026); "demo" goes in the description and tags.
 - Thumbnails: one idea, 2–4 words or one big number, before→after or 0%→100%.
 
 Details: [playbook/titles.md](../playbook/titles.md), [playbook/thumbnails.md](../playbook/thumbnails.md).

@@ -28,7 +28,8 @@ Mamunur records **live commentary** in English (second language). He needs a **c
    - **Ending**: verdict + who it's for + price/demo + close (4–5 sentences).
    - **Practice lines**: 5, the hardest/most important ones.
    - The **first sentence** must always be one of the practice lines.
-5. Reply with the first sentence, the "before you press record" list and the practice lines (so he can start practicing), plus the file path.
+5. **Titles:** if the video file has an A/B/C title set, repeat it; if not, make one (`playbook/titles.md` → "A/B/C test set") and save it in the file. The first sentence of the script must fit title A.
+6. Reply with the A/B/C titles (one code block), the first sentence, the "before you press record" list and the practice lines (so he can start practicing), plus the file path.
 
 ## Style rules
 

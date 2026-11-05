@@ -14,15 +14,16 @@ Run through this before every upload. After uploading, run `/publish`.
 
 ## Title
 
-- [ ] Uses a template from [titles.md](titles.md)
-- [ ] "incremental" in the title (unless it really doesn't fit)
-- [ ] Demo / playtest / hyped game → "| Game Name" (or "| Playtest") at the end. **Never the word "Demo" in the title**; put "demo" in the description and tags
-- [ ] 1–3 CAPS words, no emoji
+- [ ] Uses a pattern P1–P7 from the Brimlo title system in [titles.md](titles.md)
+- [ ] No game name, no "|", no "incremental", no "Demo" in the title (game name + "demo" go in the description and tags)
+- [ ] True to the video (every number/claim happens on screen)
+- [ ] Title Case, 30–55 characters, max one CAPS word, no emoji
+- [ ] Title A/B test set up in Studio (A = live title, B + C from the video file)
 - [ ] No other creators' names
 
 ## Thumbnail
 
-- [ ] House style v2: bright 2D cartoon, POV hands (navy sleeves, gold cuff), one huge object, max 3 words or one number
+- [ ] House style v3: 2D cartoon, navy+gold POV hands **doing the job**, one big object close up, background full of the game world/resource, **no text** (or a true progress number / in-game word), never the title's words
 - [ ] Made with the master prompt + AVOID part in [thumbnails.md](thumbnails.md); object looks like the real game
 - [ ] Readable at phone size
 - [ ] No corner boxes and no mascot/logo stamp in any corner
