@@ -16,7 +16,8 @@ Status: ✅ published · 🕒 scheduled · 🎬 recorded · 📝 planned · 🔒
 | 8 | Tue 27 Oct 2026 | Scrapecremental (itch.io demo) | They Gave Me ONE Fingernail and Told Me to Clean a Whole Town \| Scrapecremental (renamed after publishing; was "A Game Where You Scrape Dust With Your FINGERNAIL… and It's So Satisfying \| Scrapecremental") | 30:31 | ✅ | Free itch.io browser game (Chrome) | | | | | [file](2026-10-27-scrapecremental.md) |
 | 9 | Fri 30 Oct 2026 | Deforest a Planet (itch.io demo) | I Cut Down All 7,066 TREES on One Planet \| Deforest a Planet (game name added 1 Nov) ([link](https://youtu.be/jTXAVEs0CQA)) | 56:04 | ✅ | Free itch.io browser demo (Chrome ✅) | | | | | [file](2026-10-30-deforest-a-planet.md) |
 | 10 | Sun 1 Nov 2026 | Pack Ripper (demo) | I Spent My Rent on Card Packs to Find the GOLDEN TICKET \| Pack Ripper ([link](https://youtu.be/56WpR7ubEHY)) | 1:50:53 | ✅ | Free demo (CrossOver ✅) | | | | | [file](2026-11-01-pack-ripper.md) |
-| 11 | Tue 3 Nov 2026 | Ant Mill Inc (demo) | I Feed a Giant WORM So It Will Not Eat My Ants \| Ant Mill Inc | 32:27 | 🎬 | Free demo | | | | | [file](2026-11-03-ant-mill-inc.md) |
+| 11 | Tue 3 Nov 2026 | Ant Mill Inc (demo) | I Feed a Giant WORM So It Will Not Eat My Ants \| Ant Mill Inc | 32:27 | ⏰ | Free demo | | | | | [file](2026-11-03-ant-mill-inc.md) |
+| 12 | Fri 6 Nov 2026 | Way Too Many Fish! (demo) | Sorting Fish Until I Bought EVERY Upgrade \| Way Too Many Fish | 1:25:31 | 🎬 | Free demo (CrossOver ✅) | | | | | [file](2026-11-05-way-too-many-fish.md) |
 
 ## Medians (update every Sunday)
 

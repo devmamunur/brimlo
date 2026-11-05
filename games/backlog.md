@@ -57,7 +57,7 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 | Game | Free demo / full game | Speed | YouTube evidence (1 Nov 2026) |
 |---|---|---|---|
 | **Ant Mill Inc** (recorded Mon 2 Nov, cut Tue 3 Nov, publish Tue 3 Nov; [file](../videos/2026-11-03-ant-mill-inc.md)) | Demo 5343570, out 18 Oct; full Fri 18 Dec 2026 | 🔥 FAST | Haikrazon (3,950 subs) 101K in 3 days; Russian, Spanish and Portuguese channels also strong |
-| **Way Too Many Fish!** | Demo 5400640, out 20 Oct; full Mon 16 Nov 2026 | 🔥 FAST | Azrilich posted today (1,267 VPH); Slow Mo 1.8K. Sorting game with upgrades |
+| **Way Too Many Fish!** | Demo 5400640, out 20 Oct; full Mon 16 Nov 2026 | 🔥 FAST — **planned Thu 5 Nov 2026** (record Wed 4 Nov; run test pending) | Azrilich posted today (1,267 VPH); Slow Mo 1.8K. Sorting game with upgrades |
 | **Diversion** | Demo 5401660, out 16 Oct; full game 5198730 | 🔥 FAST | Azrilich 31 Oct 26K; CG Grows 24K. Creepy flesh-wall theme |
 | Bean in a Ball Pit | Demo 5400740, out 20 Oct; full Thu 12 Nov 2026 | 🔥 FAST | Azrilich 28 Oct 75.8K (wave until about Wed 4 Nov); IdleAlex (320 subs) 12.2K |
 | Wipe Them Out! | Demo 5402280, out 16 Oct; full game 5154590 | 🟡 SOON | Mr Falcon 44.7K; Ash Swoon (3,330 subs) 23.7K. One player cleared the demo in 35 min |
