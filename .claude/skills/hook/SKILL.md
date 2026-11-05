@@ -1,6 +1,6 @@
 ---
 name: hook
-description: Build the first seconds of a recorded Brimlo video in DaVinci Resolve with computer use — mode A a gold text pop over the goal sentence, mode B a 10-second preview of real video clips from the end, mode C 4–5 still pictures with zoom and gold text — and write the short voice-over lines. Use for "/hook", "make the hook", "edit the first seconds", "add the first 10 seconds", "intro", "preview", "text pop", "cold open" after a video is recorded and edited.
+description: Build the first seconds of a recorded Brimlo video in DaVinci Resolve with computer use — mode A a gold text pop over the goal sentence, mode B a 10-second preview of real clips from the end, mode C 4–5 still pictures with zoom and gold text — and write the short voice-over lines. Use when Mamunur says "make the hook", "edit the first seconds", "first 10 seconds", "intro", "preview", "cold open", "text pop", "fix the start of the video", "people leave at the start", or "/hook" — after the video is recorded and edited.
 argument-hint: "[game or videos/ file] [timecodes]"
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: pick-game
-description: Choose the next game(s) for Brimlo — scout new Steam incremental demos, playtests and launches, check Mac/CrossOver, score each with the game checklist, and recommend picks for open calendar slots. Use for "/pick-game", "what game should I play", "find new games", "scout", "Next Fest demos".
+description: Choose the next game(s) for Brimlo — scout new Steam incremental/idle/clicker/survivor-like and job-sim demos, playtests and launches, check CrossOver/Mac, game wave on big channels, score with the game checklist, recommend picks with upload speed labels for open calendar slots. Use for "what game should I play", "find new games", "which game next", "any hot game", "scout", "new demos", "Next Fest", "is [game] good for the channel", "should I play [game]", or "/pick-game".
 argument-hint: "[optional: number of games, slot date, or 'next fest']"
 ---
 

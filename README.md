@@ -23,32 +23,23 @@ Type these in Claude Code.
 
 | Command | When | Example |
 |---|---|---|
-| `/new-video` | Planning a video (titles, thumbnail, hook, recording script, chapters, description) | `/new-video Rock Crusher` |
+| `/today` | What to do now, this week, what is overdue | `/today` |
+| `/new-video` | Planning a video before recording (A/B/C titles, thumbnail, script) | `/new-video Rock Crusher` |
 | `/script` | Only the recording script + practice lines | `/script I Am Plague` |
+| `/finish-video` | After recording: A/B/C titles, description, chapters, thumbnail prompt from the real video | `/finish-video /Volumes/WD Black/Videos/Game.mov` |
 | `/titles` | Title and thumbnail ideas, or check your title | `/titles Sorting Inc` |
+| `/hook` | Build the first 10 seconds in DaVinci Resolve | `/hook Pack Ripper` |
 | `/pick-game` | Choosing the next game (scouts new demos, checks Mac, scores games) | `/pick-game next fest` |
 | `/publish` | After you record, schedule or publish a video | `/publish Digging a Hole scheduled "My title" 14 Oct` |
 | `/weekly-review` | Every Sunday — paste your Studio numbers or a screenshot | `/weekly-review` |
 
-You can also just talk normally: *"I scheduled the Rock Crusher video for Tuesday"* — Claude will update the log.
+You can also just talk normally (*"I scheduled the Rock Crusher video"*, *"what should I do today?"*). Claude picks the right command by itself (table in `CLAUDE.md`).
 
 ---
 
 ## 3. Your week
 
-| Day | What | Command |
-|---|---|---|
-| Mon | Scout new games (30 min) | `/pick-game` |
-| Tue | Video goes live | `/publish` |
-| Wed | Test weekend games on Mac / CrossOver (30 min) | |
-| Thu | Prepare titles + script, **practice the opening** (30 min) | `/new-video`, `/script` |
-| Fri | Video goes live | `/publish` |
-| Sat | Record + edit + upload video A | |
-| Sun | Record + edit + upload video B, then weekly review | `/weekly-review` |
-
-Publish time: always **10 PM Dhaka** (= 12 PM US Eastern until 31 Oct, 11 AM US Eastern from 1 Nov 2026). No fixed upload days.
-
-Full routine: [plan/weekly-routine.md](plan/weekly-routine.md)
+3–4 videos a week, **no fixed days**, always published at **10 PM Dhaka**. Make a video on one day, publish it on another. Hot games go first (🔥 FAST). Full routine: [plan/weekly-routine.md](plan/weekly-routine.md)
 
 ---
 
@@ -64,63 +55,13 @@ Full routine: [plan/weekly-routine.md](plan/weekly-routine.md)
 
 ## 5. Folders
 
-```
-CLAUDE.md            Claude's brain (rules + where things are)
-README.md            This guide
-
-channel/
-  profile.md         Name, handle, brand, description, tools
-  strategy.md        How the channel wins (format, frequency, games, packaging)
-  status.md          Current numbers, YPP progress, open to-dos
-
-plan/
-  roadmap.md         3-month plan (Oct 2026 – Jan 2027) and checkpoints
-  calendar.md        Week-by-week upload calendar  ← what's next
-  weekly-routine.md  What to do each day
-
-videos/
-  log.md             Full log of every video + results
-  _template.md       Template for a new video
-  2026-10-16-....md  One file per video (titles, script, chapters, results)
-
-games/
-  backlog.md         Owned games, free sources, candidates, Mac status
-  checklist.md       Score a game before recording it
-
-playbook/
-  titles.md          Title templates and rules
-  thumbnails.md      Thumbnail rules
-  hooks-and-scripts.md   How to start, run and end a video
-  phrase-bank.md     Simple English sentences for live commentary
-  recording-and-editing.md   OBS setup, markers, light edit, storage
-  upload-checklist.md        Check before every upload
-  monetization-and-policy.md YPP, money, Bangladesh tax, policy risks
-
-research/
-  competitors.md     Channels to learn from
-  keywords.md        vidIQ keyword data
-  reports/           Full research reports
-  notes/             Notes behind the reports
-
-analytics/
-  weekly-reviews.md  Sunday review log
-
-archive/             Old plans (history only — don't follow)
-
-.claude/
-  skills/            The slash commands above
-  agents/            Research helpers:
-                       game-scout      (finds new games, web only)
-                       channel-analyst (vidIQ data — uses credits)
-```
+The full map (folders, tools, which command for which request) is in [CLAUDE.md](CLAUDE.md).
 
 ---
 
-## 6. vidIQ credits
+## 6. vidIQ
 
-vidIQ is connected, but credits are limited. Claude checks the balance first and **asks before spending more than 10 credits**. Most vidIQ calls cost 5 credits.
-
-To let Claude read your own channel stats, authorize the channel once: ask Claude *"connect my YouTube channel to vidIQ"*.
+vidIQ is connected and authorized for the Brimlo channel (6 Nov 2026). Claude uses it freely for analytics, keywords and title checks. Impressions and CTR are only in YouTube Studio.
 
 ---
 
@@ -134,8 +75,8 @@ The system only works if the log is correct. After every upload or schedule, run
 
 - One game = one video. **No series.**
 - Talk while you play. **No long silent parts** — speed them up.
-- Put **"incremental"** in titles. Never use other creators' names.
+- Titles: the Brimlo title system (no game name, A/B/C test every video). Never use other creators' names.
 - New games first (demos, playtests, launches). Be early.
 - Free games first. Max **$10–15 a month** on games.
-- Test every game on Mac / CrossOver before planning it.
+- Test every game in CrossOver Steam (main) or Mac Steam before planning it.
 - Tired two weeks in a row? Drop one video a week. **Don't stop.**

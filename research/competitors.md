@@ -1,6 +1,6 @@
 # Competitors and role models
 
-Data: vidIQ, 12 Oct 2026. Refresh with the `channel-analyst` agent (costs vidIQ credits) about once a month.
+Data: vidIQ + brimlo tools, 12 Oct – 6 Nov 2026. Refresh with the `channel-analyst` agent; new uploads and outliers also come from `brimlo_competitors_refresh` (tracked list, ~3 units per channel).
 
 ## Role models (study these)
 

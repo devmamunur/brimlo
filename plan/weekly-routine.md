@@ -5,11 +5,11 @@ About 10–12 hours a week. Most of it on Saturday and Sunday.
 | Day | Time | Task | Command |
 |---|---|---|---|
 | **Mon** | 30 min, evening | **Scout.** Steam Upcoming + New & Trending (tags: Incremental, Idler, Clicker), SteamDB, r/incremental_games, last 7 days of uploads from **ksyliki (Korean, plays new demos 1–3 weeks before English channels: early radar, always check English YouTube coverage after)**, Azrilich, JonnyBebop, LuckyLemon, Ridiculously Random, CG Grows, Nerfed Reflexes, MOREQUIS, Idle Cub, Dex (**game wave check**: a new incremental game on a big channel in the last 7 days → 🔥 FAST, see [strategy.md](../channel/strategy.md)). Add game suggestions from comments. Write 3–5 candidates in `games/backlog.md`. | `/pick-game` |
-| **Tue** | — | Video goes live at 10 PM Dhaka. Pin your comment, fix subtitles, reply to first comments. | `/publish` |
-| **Wed** | 30–40 min | **Mac test** the top 2 candidates in CrossOver: launch, one upgrade loop, OBS capture. Pick the weekend games. Keep one Mac-native backup. | |
-| **Thu** | 20–30 min | Reply to every comment. Prepare the weekend videos: titles, thumbnail idea, recording script. **Practice the opening out loud 2–3 times.** | `/new-video`, `/script` |
-| **Fri** | — | Video goes live. Install the weekend games. Charge/check mic. | `/publish` |
-| **Sat** | 7–8 h with breaks | Session A: record (3–4 h) → edit (2 h) → thumbnail + title + description (1 h) → export, upload, schedule. From 9 Nov this session makes **two** videos (two different games). | |
+| **Any publish day** (3–4 a week, no fixed days) | — | Video goes live at 10 PM Dhaka. Start the A/B/C title test, pin your comment, fix subtitles, reply to first comments. | `/publish` |
+| **Wed** | 30–40 min | **Run test** the top 2 candidates in CrossOver Steam (main) or Mac Steam: launch, one upgrade loop, OBS capture. Pick the weekend games and one backup. | |
+| **Thu** | 20–30 min | Reply to every comment. Prepare the weekend videos: A/B/C titles, thumbnail idea, recording script. **Practice the opening out loud 2–3 times.** | `/new-video`, `/script` |
+| **Fri** | — | Install the weekend games. Charge/check mic. | |
+| **Sat** | 7–8 h with breaks | Session A: record (3–4 h) → edit (2 h) → `/finish-video` for titles, description, chapters, thumbnail prompt (1 h) → export, upload, schedule. From 9 Nov this session makes **two** videos (two different games). | |
 | **Sun** | 7–8 h with breaks | Session B, same steps. Then **weekly review** (20 min). Delete raw files of videos live for 1+ week. | `/weekly-review` |
 | **Any day** | 5 min | **Game wave check:** open the dashboard's daily update (or YouTube) and look at Azrilich's and JonnyBebop's newest video. New incremental game that runs in CrossOver → **fast lane (🔥 FAST)**: record and publish within 1–3 days. Also any hot demo/playtest/launch. | `/new-video` |
 
@@ -21,7 +21,7 @@ About 10–12 hours a week. Most of it on Saturday and Sunday.
 | 9:30–12:30 | Record. 5-min voice break every hour. Press the marker hotkey at every milestone. |
 | 12:30–1:30 | Lunch + rest |
 | 1:30–3:30 | Edit: jump marker to marker, cut dead time, speed up idle waits, add chapters |
-| 3:30–4:30 | Thumbnail (Canva), title, description |
+| 3:30–4:30 | `/finish-video`: A/B/C titles, description, thumbnail (GPT/Gemini prompt) |
 | 4:30 → | Export, upload, schedule. Big uploads can run overnight. |
 
 ## Energy rule

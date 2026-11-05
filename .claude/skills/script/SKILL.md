@@ -1,6 +1,6 @@
 ---
 name: script
-description: Make or refresh a short recording script card for a Brimlo video — hook, opening, game-specific milestone lines, speed-up lines, ending and practice lines in simple English — so Mamunur can rehearse before live-commentary recording. Use for "/script", "write script", "what should I say", "practice lines", "how do I start/end the video".
+description: Make or refresh a short recording script card for a Brimlo video — first sentence, opening, game-specific milestone lines, running joke, speed-up lines, ending and practice lines in simple English — plus the A/B/C titles. Use for "write script", "what should I say", "practice lines", "how do I start the video", "how do I end the video", "help me talk in the video", "opening line", or "/script" — before recording.
 argument-hint: "[game name or videos/ file]"
 ---
 

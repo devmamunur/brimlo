@@ -100,6 +100,6 @@ Azrilich is the **game-choice and title-shape model**, not the copy target. Brim
 | Shows the "wow" result | Shows the **whole journey** and tells viewers if the game is worth buying |
 
 Brimlo's promise: *calm, honest, full-length — no fast cuts, see everything. Good to relax or fall asleep to.* This is also the lower-risk path for monetization (real commentary, real gameplay).
-- Use his **title shape** (template I) and **game ideas**, in my own words.
+- Use his **title shapes** (Brimlo title system P1–P7 in playbook/titles.md) and **game ideas**, in my own words.
 - Do not copy his exact titles or thumbnails.
 - Keep the first-30-seconds hook and the "tiny → huge" promise.

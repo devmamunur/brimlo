@@ -1,6 +1,6 @@
 ---
 name: new-video
-description: Plan the next Brimlo YouTube video for a game — title options, thumbnail idea, hook, recording script card with practice lines, chapters and description — then create the video file and add it to the log and calendar. Use when Mamunur says "new video", "plan a video", "prepare [game]", or "/new-video".
+description: Plan the next Brimlo video BEFORE recording — upload speed label, A/B/C draft titles, thumbnail prompt, recording script card with practice lines, description draft — then create the video file and add it to the log and calendar. Use when Mamunur says "new video", "plan a video", "prepare [game]", "I want to make a video about [game]", "next video is [game]", "set up [game]", "get ready for recording", or "/new-video".
 argument-hint: "[game name] [optional upload date]"
 ---
 
@@ -25,7 +25,7 @@ Plan one video end to end and save it in the repo. Write in **simple English, sh
 3. **Write the plan** using `videos/_template.md`. Save as `videos/YYYY-MM-DD-game-slug.md` (upload date, lowercase, hyphens). Fill:
    - Header table (including the **Upload speed** row) and "Game in one sentence".
    - **A/B/C title test set** (`playbook/titles.md` → "A/B/C test set"): 3 titles, each a different pattern (P1–P7) of the **Brimlo title system**; A = best pick (live title), B and C = test titles, one-line reason each. Rules: no game name, no "Demo", no "incremental", no "|" in the title (game name + "demo" go in the description and tags), Title Case, 30–55 characters, no creator names. These are **drafts**: mark the number/claim to confirm after recording.
-   - Thumbnail idea in **house style v2** from `playbook/thumbnails.md` (from 28 Oct 2026): bright 2D cartoon, first-person hands in **navy sleeves with a gold cuff** holding the game's tool, **one huge object** in the center, a pile of the resource, max 3 words / one number on top. Pick one of the 3 center ideas, fill the **master prompt (with its AVOID part)** for this game, and say which screenshots to attach. **No inset boxes, no corner stamps, no "100%" badge for demos**, no counts he cannot read on screen.
+   - Thumbnail idea in **house style v3** from `playbook/thumbnails.md`: 2D cartoon, first-person hands in **navy sleeves with a gold cuff** **doing the game's main action**, one big object close up, background full of the game world/resource, **no text by default** (only a true progress number or an in-game word, never the title's words). Fill the **master prompt (with its AVOID part)** for this game and say which screenshots to attach. **No inset boxes, no corner stamps, no "100%" badge for demos**, no counts he cannot read on screen.
    - **Recording script card** — this is the most important part for him:
      - Follow "The first 2 minutes rule" in `playbook/hooks-and-scripts.md`: **first sentence = the goal with a big number** (said while playing), first action by 0:05, what to finish before pressing record (menus, settings, story text), no menu reading.
      - Optional cold open note (max 10 s) + where-it-ends line (Seabun style).

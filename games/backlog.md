@@ -24,7 +24,7 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 | Another Game About Digging a Hole | CrossOver | Medium | Tue 17 Nov | 📝 |
 | Supermarket Simulator | Mac | Very high (different audience) | Tue 24 Nov — **one video only** | 📝 |
 
-"Big-channel coverage" is a rough guess. Check with `/pick-game` (vidIQ, ~5 credits per check) when it matters.
+"Big-channel coverage" is a rough guess. Check with `/pick-game` (brimlo tools + vidIQ) when it matters.
 
 ## Free sources (check every Monday)
 

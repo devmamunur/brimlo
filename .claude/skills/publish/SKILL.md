@@ -1,6 +1,6 @@
 ---
 name: publish
-description: Record that a Brimlo video was recorded, scheduled or published — update the video file, the full video log, the calendar, the game backlog and channel status so the repo stays true. Use for "/publish", "I uploaded", "I scheduled", "video is live", "I recorded".
+description: Record that a Brimlo video was recorded, uploaded, scheduled, published, renamed or made private — update the video file, video log, calendar, game backlog and channel status, and log the title A/B test. Use when Mamunur says "I uploaded", "I scheduled", "video is live", "I published", "I recorded", "I changed the title", "I set it private", "here is the link", or "/publish".
 argument-hint: "[game or video file] [status: recorded|scheduled|published] [title] [date] [link]"
 ---
 

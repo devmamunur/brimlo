@@ -1,6 +1,6 @@
 ---
 name: titles
-description: Generate title and thumbnail ideas for a Brimlo video using the channel's title templates and thumbnail rules, scored for free with the brimlo_score_title tool (vidIQ optional, costs credits). Use for "/titles", "title ideas", "thumbnail idea", "is this title good", "review my title".
+description: Title and thumbnail ideas or reviews for a Brimlo video — A/B/C test titles from the Brimlo title system (P1–P7), scored with brimlo_score_title, and thumbnail concepts / an AI image prompt in house style v3. Use for "title ideas", "give me titles", "better title", "is this title good", "review my title", "change the title", "thumbnail idea", "thumbnail prompt", "make a thumbnail", "A/B test titles", or "/titles". After a recording with a video path, prefer /finish-video.
 argument-hint: "[game name or title to review]"
 ---
 

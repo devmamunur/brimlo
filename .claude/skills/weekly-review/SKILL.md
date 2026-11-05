@@ -1,6 +1,6 @@
 ---
 name: weekly-review
-description: Run Brimlo's Sunday weekly review — collect YouTube Studio stats, log them per video and for the channel, find the best/worst video and why, track YPP progress, check energy, and decide changes for next week. Use for "/weekly-review", "weekly review", "check my stats", "how is the channel doing".
+description: Run Brimlo's weekly review — pull real stats with vidIQ analytics (views, engaged views, watch hours, retention, traffic sources) plus CTR from Studio, log them per video and for the channel, find the best/worst video and why, check title A/B tests, track YPP progress and energy, and decide changes for next week. Use for "weekly review", "check my stats", "how is the channel doing", "how did my videos do", "analytics", "my numbers", "why no views", or "/weekly-review". Default on Sundays.
 argument-hint: "[optional: paste stats]"
 ---
 
@@ -26,7 +26,7 @@ Honest, short, practical. One clear decision at the end.
    - Patterns across videos (which template/theme/length wins). Say how sure you are — with < 10 videos, patterns are weak.
    - YPP pace: hours per week now vs needed for 8,000 in 365 days.
    - Energy: if ≤ 2 two weeks in a row → recommend dropping one video/week, not stopping.
-5. **Decide**: 1–3 concrete changes for next week (e.g. "use template A on both videos", "fix first 30 s", "pick a demo for Friday"). Update `plan/calendar.md` if slots change.
+5. **Decide**: 1–3 concrete changes for next week (e.g. "use title pattern P2 on both videos", "fix the first 15 s", "pick a hot demo for the next slot"). Pull real numbers with `vidiq_channel_analytics` (channel `UCXf8abbaSiOThD3YhX8nGjQ`: views, engagedViews, avg view duration, retention, traffic sources); only impressions and CTR must come from Studio.. Update `plan/calendar.md` if slots change.
 6. On checkpoint dates (Sun 1 Nov, Sun 8 Nov, Sun 6 Dec, Sun 3 Jan 2027) also compare against the targets in `plan/roadmap.md`.
 
 ## Rules

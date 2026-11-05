@@ -7,7 +7,7 @@
 | Upload speed | 🔥 FAST (1–2 days after recording) / 🟡 SOON (~1 week) / 🟢 RELAXED (any slot) — reason + date checked |
 | Game | [Name] — [Steam link] |
 | Source | Owned / free demo / playtest / free-to-play / dev key |
-| Runs on | Mac native / CrossOver (tested: yes/no, date) |
+| Runs on | CrossOver Steam / Mac Steam (10-minute run test: yes/no, date) |
 | Target length | 60–120 min |
 | YouTube link | |
 
