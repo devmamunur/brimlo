@@ -3,6 +3,8 @@
 | | |
 |---|---|
 | Status | ✅ published (public, checked on YouTube 31 Oct 2026). Title: "Bought a House for $10 and Dug for DIAMONDS \| A Game About Digging a Hole" |
+| End screen | Best for viewer + genre playlist (first in Playlists row) + Subscribe — set Fri 6 Nov 2026 |
+| Playlists | Satisfying Upgrade Games (added in Studio Fri 6 Nov 2026) |
 | Upload | Wed 14 Oct 2026, 10 PM Dhaka |
 | Game | A Game About Digging a Hole — https://store.steampowered.com/app/3244220/ |
 | Source | Owned ($4.99) |

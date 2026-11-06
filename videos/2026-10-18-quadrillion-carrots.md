@@ -3,6 +3,8 @@
 | | |
 |---|---|
 | Status | ✅ published (public, checked on YouTube 31 Oct 2026) |
+| End screen | Best for viewer + genre playlist (first in Playlists row) + Subscribe — set Fri 6 Nov 2026 |
+| Playlists | Incremental Games: Numbers Go UP + New Steam Demos Played to 100% (added in Studio Fri 6 Nov 2026) |
 | Upload | **Sun 18 Oct 2026, 10:00 PM Dhaka** (= 12 PM ET). Set in YouTube Studio on 18 Oct. |
 | Game | Quadrillion Carrots (demo) — https://store.steampowered.com/app/5152560/Quadrillion_Carrots/ (demo app 5283980) |
 | Source | Free Steam demo (fast lane, Next Fest opens Mon 19 Oct) |

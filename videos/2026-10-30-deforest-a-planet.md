@@ -3,6 +3,8 @@
 | | |
 |---|---|
 | Status | ✅ published (public, checked on YouTube 31 Oct 2026). Scheduled for Fri 30 Oct 2026, 10:00 PM Dhaka (12 PM ET). Checked in Studio 30 Oct: title, description, chapters, 16 tags, thumbnail "0 TREES LEFT" (fewer-logs version), Gaming, English, file v2. |
+| End screen | Best for viewer + genre playlist (first in Playlists row) + Subscribe — set Fri 6 Nov 2026 |
+| Playlists | Incremental Games: Numbers Go UP + New Steam Demos Played to 100% (added in Studio Fri 6 Nov 2026) |
 | Record | Thu 29 Oct 2026 |
 | Upload | Fri 30 Oct 2026, 10 PM Dhaka (12 PM ET) |
 | Upload speed | 🟡 SOON — checked Wed 28 Oct 2026: no English YouTube video yet (only ksyliki, Korean, 16K on 16 Oct). Steam full game **Tue 15 Dec 2026**. |

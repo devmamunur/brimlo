@@ -3,6 +3,8 @@
 | | |
 |---|---|
 | Status | ✅ published |
+| End screen | Best for viewer + genre playlist (first in Playlists row) + Subscribe — set Fri 6 Nov 2026 |
+| Playlists | Incremental Games: Numbers Go UP + New Steam Demos Played to 100% (added in Studio Fri 6 Nov 2026) |
 | Upload | Planned Fri 16 Oct 2026 · **Published Sat 17 Oct 2026** (Dhaka evening; one day late, the fallback date) |
 | Game | I Am Plague (Playtest) — in your Steam library as "I Am Plague Playtest" |
 | Source | Free open playtest. **Ends Mon 19 Oct.** |

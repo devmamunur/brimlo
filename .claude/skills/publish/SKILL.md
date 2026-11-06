@@ -15,6 +15,7 @@ Keep the log true. Ask only for what's missing (title, date, status, YouTube lin
 3. Run a quick check against `playbook/upload-checklist.md` — mention only items that look missing (e.g. game name or "|" in the title, title not true to the video, no chapters). Don't block.
 4. Update:
    - **Title test**: ask if he started the A/B/C title test in Studio. If yes, note "Title A/B test started [date]" with the 3 titles in the video file, add a row to the Title test log in `playbook/titles.md`, and a check date (+7 days). If not, remind him once (it is free).
+   - **Playlists + end screen**: ask if he added the video to the playlist(s) in its Playlists row and set the end screen (Best for viewer + its genre playlist + Subscribe; fastest: Import from video, from one in the same genre playlist — `playbook/upload-checklist.md` → Settings). Mark the End screen row in the video file. If the row is empty, pick them by the rule in `playbook/upload-checklist.md` → Settings and tell him.
    - **Video file**: status, upload date, final title ("Chosen"), link, length, chapters/description if given. Add result check dates (upload + 7 days, + 28 days) in the Results table header.
    - **`videos/log.md`**: the row (status ✅/🕒/🎬, title, length, file link). Keep rows in upload-date order. Number new rows.
    - **`plan/calendar.md`**: the slot's status; move things if the date changed.

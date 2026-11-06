@@ -15,7 +15,7 @@ argument-hint: "[game name or title to review]"
 5. Give **2 thumbnail concepts** in **house style v3** from `playbook/thumbnails.md` (2D cartoon, POV hands in navy sleeves with a gold cuff **doing the job**, one big object close up, background full of the game world/resource, **no text by default**; text only for a true progress number or an in-game word, never the title's words; which screenshot). **No inset boxes, no corner stamps, no "100%" badge for demos**, and no counts he did not read on screen. If he asks for an AI image prompt, give **one single filled master prompt including the AVOID (negative prompt) part** from `playbook/thumbnails.md`, and list the files to attach.
 6. If he gave a title to review: say what works, what to fix, and give a better version. Check against the Brimlo title system rules (story/joke shape P1–P7, no game name, no "incremental", no "|", Title Case with max one CAPS word, true to the video, **never the word "Demo" in a title** (put it in the description and tags), no creator names, short — aim 30–55 characters).
 7. If a video file exists, update its Titles section (the A/B/C set) + Thumbnail section.
-8. **Reply format:** always end with the A/B/C block, even for a title review (the improved title becomes A).
+8. **Reply format:** always end with the A/B/C block, even for a title review (the improved title becomes A), then one line with the **playlist(s)** (exact names from `playbook/upload-checklist.md` → Settings; also fill the video file's Playlists row).
 
 ## Optional: what is winning in the niche (costs YouTube API units)
 

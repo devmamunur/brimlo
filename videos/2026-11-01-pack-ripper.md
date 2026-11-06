@@ -3,6 +3,8 @@
 | | |
 |---|---|
 | Status | ✅ published Sun 1 Nov 2026, 10 PM Dhaka (checked on YouTube). Final length 1:50:53. Clean subtitles and 10 chapters added 1 Nov 2026 (both confirmed from YouTube). |
+| End screen | Best for viewer + genre playlist (first in Playlists row) + Subscribe — set Fri 6 Nov 2026 |
+| Playlists | Incremental Games: Numbers Go UP + New Steam Demos Played to 100% (added in Studio Fri 6 Nov 2026) |
 | Record | Sat 31 Oct 2026 |
 | Upload | Sun 1 Nov 2026, 10 PM Dhaka (11 AM ET) |
 | Upload speed | 🔥 FAST — checked Sat 31 Oct 2026: demo out Thu 22 Oct 2026 (Steam API). No big English commentary video yet. English top: Slow Mo 9.1K (1.8K subs). Born 2 Game (171K subs) posted a no-commentary video on 30 Oct, so others are starting. Korean: ksyliki 30.9K. |

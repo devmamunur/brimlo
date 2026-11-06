@@ -3,6 +3,7 @@
 | | |
 |---|---|
 | Status | 🔒 private since Sun 1 Nov 2026 (Mamunur's choice: weak first video, bad voice). Not deleted, so it can go public again. Studio that day: 983 impressions, CTR 2.6%, 64 views, 35 unique viewers, 0:20 average view from impressions. A new recording of this game is allowed later, not soon. |
+| Playlists | none (video is private). If made public again: Incremental Games: Numbers Go UP |
 | Upload | Mon 12 Oct 2026 |
 | Game | Cookie Clicker — https://store.steampowered.com/app/1454400/ |
 | Source | Owned ($4.99) |

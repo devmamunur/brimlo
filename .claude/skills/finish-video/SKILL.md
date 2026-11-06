@@ -21,6 +21,7 @@ Turns a finished recording into everything needed for upload. Everything must be
 7. **Thumbnail:** one filled master prompt in house style v3 (`playbook/thumbnails.md`, with the AVOID part) + which frames from `frames/` to attach. No text unless a true progress number or an in-game word.
 8. **Description** in the format of `playbook/upload-checklist.md` → Description. Game name + "demo" in the first lines (search brings 1/3 of watch time). Real numbers only.
 9. **Chapters:** max 10, only from the transcript times (never guessed), named by progress. If the export may still change, say the chapters are final only after the edit is final.
-10. **Tags:** per the checklist (game name forms, genre words, "relaxing gameplay", "gameplay to fall asleep to", brimlo).
-11. Save it all in the video file (Titles, Thumbnail, Description, Chapters, Tags) and reply with: A/B/C block, thumbnail prompt, description (with chapters) ready to paste, quiet parts to fix. Plain text, no HTML.
-12. Remind him: after upload run `/publish` and start the title A/B test in Studio.
+10. **Playlists:** pick them by the rule in `playbook/upload-checklist.md` → Settings (1 genre list + "New Steam Demos Played to 100%" if it is a demo, playtest or itch.io game). Exact names only, never new ones. Fill the **Playlists** row of the video file. Check the genre against what really happens in the video.
+11. **Tags:** per the checklist (game name forms, genre words, "relaxing gameplay", "gameplay to fall asleep to", brimlo).
+12. Save it all in the video file (Titles, Playlists, Thumbnail, Description, Chapters, Tags) and reply with: A/B/C block, **playlist(s) in one line** (+ "End screen: import from [a video in the same genre playlist]"), thumbnail prompt, description (with chapters) ready to paste, quiet parts to fix. Plain text, no HTML.
+13. Remind him: after upload run `/publish` and start the title A/B test in Studio.
