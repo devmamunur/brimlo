@@ -3,11 +3,11 @@
 | | |
 |---|---|
 | Status | 📝 planned |
-| Upload | Sun 8 Nov 2026, 10 PM Dhaka (11 AM ET) |
-| Record | Sat 7 Nov 2026 |
-| Upload speed | 🔥 FAST — full game out Tue 3 Nov 2026; small channels win now (Yusterday 31K in 2 days; FungalBrainRot "100%" 11.2K in ~1.5 days, checked 5 Nov 2026). Publish 1 day after recording |
+| Upload | Fri 6 Nov 2026, at night as soon as the edit is done (FAST game: skip the fixed 10 PM slot; any time 6 PM–9 AM Dhaka is fine — Mamunur, Fri 6 Nov) |
+| Record | Fri 6 Nov 2026 |
+| Upload speed | 🔥 FAST — full game out Tue 3 Nov 2026; small channels win now (Yusterday 31K in 2 days; FungalBrainRot "100%" 11.2K in ~1.5 days, checked 5 Nov 2026). Moved 1 day earlier on Fri 6 Nov (Mamunur): the wave is ending (late videos on 5 Nov get only 150–760 views). Publish the same night |
 | Game | Mycelarium — https://store.steampowered.com/app/5181520/ |
-| Source | Paid, $2.39 (gift purchase Fri 6 Nov 2026, Steam status "Pending" — check it is in your library before Sat) |
+| Source | Paid, $2.39 (gift purchase Fri 6 Nov 2026, Steam status "Pending" — check it is in your library before recording) |
 | Runs on | CrossOver Steam — demo run test ✅ Fri 6 Nov 2026. Test the full game for 10 minutes before recording |
 | Target length | 60–120 min (a full run to the ending is ~2 h for other players) |
 | YouTube link | |
