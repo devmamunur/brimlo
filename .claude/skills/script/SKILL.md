@@ -43,6 +43,7 @@ Mamunur must understand every word on first read and say it without stopping. Wr
 
 - Max ~10–12 words per line. One idea per line. Present tense.
 - Use the most common word. Swap hard words (full list in `playbook/hooks-and-scripts.md` → "Simple words"), e.g. somewhere → "under / here", bully/enemy → "bad guys / animals", network → "roots / [hero]", patience → "Okay. Slowly.", honestly → drop it, thirsty → "needs water", reached → "got to", tasks for "evolution tasks".
+- **Simple words everywhere in the file** — game facts, research notes and tables too, not only the spoken lines.
 - Use plain words for game actions, not the game's jargon: "water", "food", "grow", "roots" — not "shots", "hyphae", "yield". Use the game's word only if it's on screen all the time (e.g. "node"), and explain it once in the word list.
 - No idioms, no slang, no wordplay that needs native timing. Light jokes only ("Smart crow.", "Sorry, worm.").
 - No words that are hard to say for a Bangla speaker if an easy one works (avoid long words with many "th", "r" + "l" clusters).

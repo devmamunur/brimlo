@@ -14,16 +14,16 @@
 
 ## Game in one sentence
 
-> You are one tiny mushroom. You shoot roots under the ground, drink water, eat food, and grow until your network owns the whole forest.
+> You are one tiny mushroom. You grow roots under the ground. The roots drink water and eat food. You grow and grow, until your roots are under the whole forest.
 
 Game facts (from 2 transcripts, read 6 Nov 2026: FungalBrainRot "100%" 116 min [a_SW1Oz8dww], Yusterday 46 min, 31K views [iX-AqoIdHwM] — check on your screen):
-- **Shoot** a root (hypha) with left-click drag. One shot costs **5 water**. **Rain = free shots.**
-- **ADD NODE** on a branch costs **5 food** (salt). New shots start from nodes.
-- Rock blocks you. Clay makes shots shorter. Worms, leaves, bones, flies and later **whole trees** become food.
-- Growing the network gives **upgrade points** (skill tree).
+- **Grow a root**: left-click and drag. Every root costs **5 water**. **When it rains, roots cost no water.** (The game calls a root a "hypha shot".)
+- **ADD NODE** on a root costs **5 food** (salt). New roots grow from nodes.
+- Roots can't go through rock. In clay, roots are shorter. Worms, leaves, bones, flies and later **whole trees** become food.
+- More roots = more **upgrade points** (for the upgrade menu).
 - "Your mycelium size is your experience": more length = more upgrade points. Each skill costs more (1, then 2…).
 - Surface mushrooms can only grow where your roots reach the surface.
-- **Evolution tasks** first: drink water, shoot spores, produce 30 food, build 5 mushrooms, scare off the hedgehog, build 2 mushrooms on trees, build 2 stinky mushrooms, grow 10,000 cm.
+- **Evolution tasks** first: drink water, send out spores, make 30 food, build 5 mushrooms, scare off the hedgehog, build 2 mushrooms on trees, build 2 stinky mushrooms, grow 10,000 cm.
 - Surface mushrooms: experience, stinky (scares squirrels and crows), predator (eats flies), consumer (eats trees), water, spore, digging (breaks stone), exploding.
 - Enemies that eat your mushrooms: **hedgehog, crow, squirrel, boar**.
 - **Endings:** find all **5 magic mushrooms** (one is "cosmos", one scares squirrels forever) and/or **the great migration** (a mushroom count, e.g. "40 out of 100"). Deep down you hit the **water table** (water becomes free). You can keep growing after the ending.
@@ -32,15 +32,15 @@ When things happened in their videos (your times will differ):
 
 | Moment | Yusterday | FungalBrainRot |
 |---|---|---|
-| First rain (free shots) | 2:44 | 2:06 |
+| First rain (roots cost no water) | 2:44 | 2:06 |
 | First hedgehog (only watches at first) | 6:00 | ~12:00 |
-| Clay ("new level", shorter shots) | 8:35 | 6:21 |
+| Clay ("new level", shorter roots) | 8:35 | 6:21 |
 | First crow | 17:39 — **it took the repeller mushroom**, the one made to scare it | ~24:00 |
 | All evolution tasks done → endings open | 45:05 | 29:57 |
 | First tree eaten | — | 30:29 (200 food) |
 | Water table | — | 60:11 |
 | All 5 magic mushrooms | — | 95:29 |
-| Great migration + full skill tree | — | 110:22–115:13 (170,000 network) |
+| Great migration + full skill tree | — | 110:22–115:13 (170,000 cm of roots) |
 
 So a full run is ~2 hours of play. That fits one video. Yusterday stopped at 46 min and said "maybe another episode" — **we finish it in one video. That is our promise and our edge.**
 
@@ -55,7 +55,7 @@ What both did that we don't do: "Welcome back… I don't know anything about thi
 | C | P5 — clear finish (5 magic mushrooms) | I Can't Leave Until I Find 5 Magic Mushrooms |
 
 `brimlo_score_title` (estimate, 6 Nov 2026): A 77 · B 77 · C 74. Close, so the test decides.
-**Check after recording:** A only if the network really covers most of the map. B only if a tree is really eaten on screen. C only if you find all 5.
+**Check after recording:** A only if the roots really cover most of the map. B only if a tree is really eaten on screen. C only if you find all 5.
 
 **A/B test in Studio:** not yet · check report 7 days after publish
 **Winner:**
@@ -117,7 +117,7 @@ Voice-over: "This was one tiny mushroom. Two hours later… look at him."
 | Time | On screen | Say |
 |---|---|---|
 | 0:00 | Move the mouse in a small circle around the small red mushroom | "This is Kevin. Kevin is one tiny mushroom." |
-| 0:03 | **Shoot the first root** into the ground | "Under this forest, there are five magic mushrooms." |
+| 0:03 | **Grow the first root** into the ground | "Under this forest, there are five magic mushrooms." |
 | 0:07 | Root goes down, water number goes down | "Kevin wants all five. Then he wants the whole forest." |
 
 ### 0:10 – 0:30

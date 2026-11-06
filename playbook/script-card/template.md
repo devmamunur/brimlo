@@ -9,7 +9,7 @@ The format for every Brimlo recording script. `/script` and `/new-video` copy th
 ## How to fill it
 
 1. **Research first.** Learn the game from real play: `brimlo_steam_game` / `brimlo_steam_reviews`, and **1–2 YouTube transcripts** of the game (`brimlo_video_transcript`, free). Write the facts and the timing table in the video file, above the script (see "Research block" at the bottom).
-2. **Simple English.** A learner (A2–B1) must understand every word. Max ~10–12 words per line. One idea per line. Present tense. Plain action words (water, food, grow, coins) instead of game jargon.
+2. **Simple English.** A learner (A2–B1) must understand every word. Max ~10–12 words per line. One idea per line. Present tense. Plain action words (water, food, grow, coins) instead of game jargon. **This is for the whole file** — game facts, notes, tables and research too, not only the spoken lines. Example: "grow a root", never "shoot a hypha".
 3. **True to the game.** Every line must fit something that really happens. Use `[X]` for numbers he reads from the screen.
 4. **New every video.** New hero name, new story, new joke. Check the last 3 video files.
 5. Replace every `[ … ]` and every *italic note*. Delete notes that don't apply.
@@ -56,7 +56,7 @@ Voice-over: "This was [tiny start]. [Time] later… [result]."
 | Time | On screen | Say |
 |---|---|---|
 | 0:00 | [Point the mouse at the hero / start object] | "This is [Hero]. [Hero] is [tiny thing]." |
-| 0:03 | **[First action: click / dig / shoot]** | "[The goal with a number from this game.]" |
+| 0:03 | **[First action: click / dig / grow]** | "[The goal with a number from this game.]" |
 | 0:07 | [What changes on screen] | "[The big dream in one line.]" |
 
 ### 0:10 – 0:30
