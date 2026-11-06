@@ -17,6 +17,7 @@ This repo is the brain of the YouTube channel **Brimlo** (@BrimloIdle). It holds
 - For anything about the present day (game releases, prices, YouTube policy, trends), **search first**. Do not trust memory.
 - When he asks something you already answered in a file, point to the file.
 - **Titles always come as an A/B/C set** (6 Nov 2026): whenever you write a title, description or script for a video, give 3 titles (A = live title, B + C = test titles, each a different pattern) in one code block for YouTube Studio → A/B Testing. Rules: `playbook/titles.md`.
+- **Playlists always come with it** (6 Nov 2026): every title/description answer also says which playlist(s) to pick, using the exact names in `playbook/upload-checklist.md` → Settings (Incremental Games: Numbers Go UP · Satisfying Upgrade Games · Survivor-Like Games: Weak to OP · New Steam Demos Played to 100%). Save it in the video file's **Playlists** row. The **end screen** uses the genre playlist (Best for viewer + genre playlist + Subscribe, same checklist).
 - Ask for his latest stats (views, watch time, subs, CTR, retention) when reviewing performance.
 
 ## The channel in one screen
@@ -76,7 +77,7 @@ Mamunur often writes in plain English without a slash command. **Match his reque
 | "weekly review", "check my stats", "how did my videos do", "why no views", Sunday | `/weekly-review` |
 | "check competitors", "analyze this channel", "find my gaps", "keyword research", "outliers" | agent `channel-analyst` (or do it inline for one quick channel) |
 
-After a skill, keep the repo true (rule 1). Every title/description/script answer includes the **A/B/C titles**.
+After a skill, keep the repo true (rule 1). Every title/description/script answer includes the **A/B/C titles** and the **playlist(s)**.
 
 ## Tool map
 

@@ -3,6 +3,8 @@
 | | |
 |---|---|
 | Status | ✅ published |
+| End screen | Best for viewer + genre playlist (first in Playlists row) + Subscribe — set Fri 6 Nov 2026 |
+| Playlists | Survivor-Like Games: Weak to OP + New Steam Demos Played to 100% (added in Studio Fri 6 Nov 2026) |
 | Upload | Fri 23 Oct 2026, 10:00 PM Dhaka (= 12 PM ET) |
 | Title (keep) | One Knife to MINIGUN: I Beat the Whole Outbreak Z Demo |
 | Length | 2:14:18 |

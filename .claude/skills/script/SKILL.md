@@ -35,7 +35,7 @@ Mamunur records **live commentary** in English. English is his second language (
    13. **Ending**: 4 short, warm lines, like finishing a story for friends: "And that's it! [Hero] was just [tiny start]. And look at him now. [result with numbers]." → "My favorite part? [X]." (good part only) → "If you like calm games where something small gets really big, you'll like this one." → "Thanks for watching. See you next time." **Don't add** (Mamunur, 6 Nov 2026): a bad part, price or "link in the description", a joke/story close line, "Which game should I play next? Tell me in the comments", or "You rest. I'll keep going."
    14. **Practice lines**: 5 (the first 10 seconds lines + the hardest ones). The first line of the video is always line 1.
 5. **Titles:** if the file has an A/B/C set, repeat it; if not, make one (`playbook/titles.md` → "A/B/C test set"), score with `brimlo_score_title`, and save it. The first 10 seconds must fit title A. Note which claim each title needs to be true.
-6. **Reply** in chat as plain text (no HTML): the A/B/C titles (one code block), the first 10 seconds, the "before you press record" list, the 5 practice lines, and the file path. Keep the reply short; the full card is in the file.
+6. **Reply** in chat as plain text (no HTML): the A/B/C titles (one code block), the **playlist(s)** in one line (exact names from `playbook/upload-checklist.md` → Settings), the first 10 seconds, the "before you press record" list, the 5 practice lines, and the file path. Keep the reply short; the full card is in the file.
 
 ## Simple English (most important style rule)
 

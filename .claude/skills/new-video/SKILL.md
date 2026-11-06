@@ -23,7 +23,7 @@ Plan one video end to end and save it in the repo. Write in **simple English, sh
    - **Upload speed label** (CLAUDE.md rule 11, thresholds in `channel/strategy.md` → "Upload speed label"): check the release/demo date and end date, then search YouTube for the game name (last 14 days): how many videos, the biggest channel and its views. Decide 🔥 FAST / 🟡 SOON / 🟢 RELAXED. If FAST, pick the earliest free upload date (the day after the last video is fine).
 
 3. **Write the plan** using `videos/_template.md`. Save as `videos/YYYY-MM-DD-game-slug.md` (upload date, lowercase, hyphens). Fill:
-   - Header table (including the **Upload speed** row) and "Game in one sentence".
+   - Header table (including the **Upload speed** and **Playlists** rows) and "Game in one sentence". **Playlists:** pick them by the rule in `playbook/upload-checklist.md` → Settings (1 genre list + "New Steam Demos Played to 100%" if it is a demo, playtest or itch.io game). Exact names only, never new ones. Fill the **Playlists** row of the video file.
    - **A/B/C title test set** (`playbook/titles.md` → "A/B/C test set"): 3 titles, each a different pattern (P1–P7) of the **Brimlo title system**; A = best pick (live title), B and C = test titles, one-line reason each. Rules: no game name, no "Demo", no "incremental", no "|" in the title (game name + "demo" go in the description and tags), Title Case, 30–55 characters, no creator names. These are **drafts**: mark the number/claim to confirm after recording.
    - Thumbnail idea in **house style v3** from `playbook/thumbnails.md`: 2D cartoon, first-person hands in **navy sleeves with a gold cuff** **doing the game's main action**, one big object close up, background full of the game world/resource, **no text by default** (only a true progress number or an in-game word, never the title's words). Fill the **master prompt (with its AVOID part)** for this game and say which screenshots to attach. **No inset boxes, no corner stamps, no "100%" badge for demos**, no counts he cannot read on screen.
    - **Recording script card** — this is the most important part for him. **Write it exactly like the `/script` skill** (`.claude/skills/script/SKILL.md`): fill `playbook/script-card/template.md` (examples in `playbook/script-card/examples/`) (story, Bangla word list, first 10 seconds table, first 2 minutes table with "Not yet" promises, timing table from 1–2 real YouTube transcripts of the game), in **very simple English** (`playbook/hooks-and-scripts.md` → "Simple words"). Short version of the rules:
@@ -40,7 +40,7 @@ Plan one video end to end and save it in the repo. Write in **simple English, sh
    - Update the slot in `plan/calendar.md` (game name, status 📝).
    - Update the game's row in `games/backlog.md` (planned slot).
 
-5. **Reply** briefly: **the upload speed label first** (e.g. "🔥 FAST — publish within 1–2 days after recording, because …"), then the **A/B/C titles in one code block** (ready for Studio → A/B Testing), the hook to practice, what to test before recording, and the file path. Don't paste the whole file.
+5. **Reply** briefly: **the upload speed label first** (e.g. "🔥 FAST — publish within 1–2 days after recording, because …"), then the **A/B/C titles in one code block** (ready for Studio → A/B Testing), the **playlist(s)** in one line, the hook to practice, what to test before recording, and the file path. Don't paste the whole file.
 
 ## Rules
 

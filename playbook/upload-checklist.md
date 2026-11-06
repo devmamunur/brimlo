@@ -64,8 +64,17 @@ Chapters
 - [ ] Tags (10–15, they matter little): game name in 3–4 forms + 1–2 common misspellings + "[game] gameplay / full playthrough" + genre words (incremental game, idle game, bullet heaven / tower defense if true) + "relaxing gameplay" + "gameplay to fall asleep to" (true for every Brimlo video: calm, full-length; matches the description line) + brimlo. No junk tags. Never "ASMR", "no talking" or "sleep" alone: we talk all video.
 - [ ] Category: Gaming · Language: English · **Not made for kids**
 - [ ] Altered/synthetic content: No (unless you used AI visuals)
-- [ ] End screen: most similar video + subscribe
-- [ ] Add to playlist (New Incremental Games / 100% Runs / Demos & Playtests / Relaxing Long Videos)
+- [ ] **End screen** (set on all 11 public videos, Fri 6 Nov 2026). Same 3 elements on every video, last 20 seconds:
+  1. Video → **Best for viewer** (YouTube picks the best next video for this person)
+  2. Playlist → the video's **genre playlist** (the first name in its Playlists row; never the demo list)
+  3. Subscribe
+  - Fast way: End screen → **Import from video** → pick a video that is in the same genre playlist → Save.
+  - The last 20 seconds must not hide anything important: keep talking ("thanks for watching…") over gameplay, no text there.
+- [ ] Add to playlists — the video file's **Playlists** row says which. Use the 4 names below **exactly** (made in Studio 6 Nov 2026). Never rename them and never invent a new one; if a game fits none, ask Mamunur before making a 5th. Rule: **1 genre list** + the demo list if it is a demo, playtest or itch.io game:
+  - **Incremental Games: Numbers Go UP** — idle, incremental, clicker
+  - **Satisfying Upgrade Games** — cleaning, restoring, digging, sorting, job sims with upgrades
+  - **Survivor-Like Games: Weak to OP** — survivor-like, bullet heaven
+  - **New Steam Demos Played to 100%** — every demo, playtest or itch.io game (extra list, on top of the genre list)
 - [ ] Test & Compare (if available): 2–3 thumbnails or titles
 - [ ] **Scheduled for 10 PM Dhaka** (12 PM ET until 31 Oct 2026; 11 AM ET from 1 Nov 2026)
 

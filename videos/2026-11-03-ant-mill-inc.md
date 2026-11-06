@@ -3,6 +3,8 @@
 | | |
 |---|---|
 | Status | ⏰ scheduled Tue 3 Nov 2026, 10 PM Dhaka (11 AM ET). Exported after Mamunur's hand edit, 32:27. |
+| End screen | Best for viewer + genre playlist (first in Playlists row) + Subscribe — set Fri 6 Nov 2026 |
+| Playlists | Incremental Games: Numbers Go UP + New Steam Demos Played to 100% (added in Studio Fri 6 Nov 2026) |
 | Record | Mon 2 Nov 2026 |
 | Upload | Tue 3 Nov 2026, 10 PM Dhaka (11 AM ET) |
 | Upload speed | 🔥 FAST — checked Sun 1 Nov 2026: demo out 18 Oct (Steam API), about 2 weeks old. Top English video: Haikrazon 101K in 3 days (3,950 subs). Other big videos are mostly not in English (perpetuumworld 158K, Danielsan 69K, Balota SZ 33K). I found no video from the big English incremental channels yet. Publish 1–2 days after recording. |

@@ -3,6 +3,8 @@
 | | |
 |---|---|
 | Status | ✅ **Published Thu 5 Nov 2026, 10 PM Dhaka (11 AM ET)**. Recorded Wed 4 Nov 2026, edited and exported (1:25:31). Chapters added to the YouTube description Thu 5 Nov 2026. |
+| End screen | Best for viewer + genre playlist (first in Playlists row) + Subscribe — set Fri 6 Nov 2026 |
+| Playlists | Satisfying Upgrade Games + New Steam Demos Played to 100% (added in Studio Fri 6 Nov 2026) |
 | Record | Wed 4 Nov 2026 |
 | Upload | **Thu 5 Nov 2026, 10 PM Dhaka (11 AM ET)** (public) |
 | Upload speed | 🔥 FAST — checked Tue 3 Nov 2026: demo out 20 Oct, full game **Mon 16 Nov 2026** (Steam page). A big English incremental channel posted it on Sun 1 Nov (46 min, 68.7K views in 2 days), so the game wave runs until about Sun 8 Nov. Other English commentary videos are small: Slow Mo 1.8K (24 Oct), ShifoPlays 195 (25 Oct). Publish 1 day after recording. |
@@ -205,6 +207,10 @@ Chapters
 | Subs gained | | |
 | Watch hours | | |
 
-**Lessons:** 
+**Day 1 check (Fri 6 Nov 2026, ~16 h after publish, YouTube Studio):** 171 impressions · CTR 2.9% · 14 views · 1:11 average view duration from impressions · traffic: YouTube search 71%, other YouTube 14%, direct 7%, browse 7%.
+
+**Same game on YouTube (vidIQ search, 6 Nov 2026):** IdleAlex (483 subs), "I Get Paid to Deal With Way Too Many Fish", 55:52, published Tue 3 Nov → 6,584 views in ~2.5 days (outlier ×4.8). Kei Joga (PT, 193 subs) 24 min, 70 views in ~5 h. IstneZero (PL) 18 min, 179 views. Big English channel from Sun 1 Nov (see Upload speed row).
+
+**Lessons:** Late by 2 days on a FAST game: the small channel that came out first got the wave. Very few impressions (171) at 2 subs, and a low CTR (2.9%) gave YouTube no reason to show it more. Viewers left fast (1:11 average).
 
 Sources (checked 3 Nov 2026): [Steam full game](https://store.steampowered.com/app/4564070/) · [Steam demo](https://store.steampowered.com/app/5400640/) · YouTube search via vidIQ (videos since 15 Oct 2026).

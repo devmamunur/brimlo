@@ -3,6 +3,8 @@
 | | |
 |---|---|
 | Status | ✅ published |
+| End screen | Best for viewer + genre playlist (first in Playlists row) + Subscribe — set Fri 6 Nov 2026 |
+| Playlists | Satisfying Upgrade Games + New Steam Demos Played to 100% (added in Studio Fri 6 Nov 2026) |
 | Upload | **Sun 25 Oct 2026, 10:00 PM Dhaka** (= 12 PM ET). Published. |
 | Game | Rust & Shine Demo — https://store.steampowered.com/app/5252990 (full game: https://store.steampowered.com/app/4857070/ — "Coming soon", no date found 24 Oct) |
 | Source | Free demo (Steam), by Enigma Games |
