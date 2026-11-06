@@ -37,31 +37,7 @@
 
 ## Recording script
 
-### Opening (first 30 seconds — say this after showing 5–15 s of late-game footage)
-
-> 
-
-### Start of play (0:30 – 3:00)
-
-> 
-
-### Lines for milestones (use when they happen)
-
-- First upgrade: 
-- First automation: 
-- First prestige / reset: 
-- Big number moment: 
-- Speed-up: 
-
-### Ending (last 1–2 minutes)
-
-> 
-
-### Practice lines (say each 3 times before recording)
-
-1. 
-2. 
-3. 
+Write with `/script`. Same sections and the same simple English as the model card in [2026-11-08-mycelarium.md](2026-11-08-mycelarium.md): story · words you will use (with Bangla) · before you press record · cold open · first 10 seconds · 0:10–0:30 · first 2 minutes · subscribe line · running joke · score lines · lines for big moments · thinking out loud · ending · practice lines.
 
 ## Chapters
 

@@ -31,6 +31,34 @@ Three rules, every video:
 
 Lesson first seen with Ridiculously Random on 25 Oct 2026 ([study](../research/reports/2026-10-25-ridiculously-random-study.md)). Confirmed by our own retention curves on 28 Oct.
 
+## Simple words (script language, 6 Nov 2026)
+
+Mamunur is from Bangladesh; English is his second language. Every script line must use words he knows and can say without stopping. Model card: [videos/2026-11-08-mycelarium.md](../videos/2026-11-08-mycelarium.md).
+
+- Lines of max ~10–12 words. One idea per line. Present tense.
+- Plain words for game actions: **water, food, grow, roots, coins** — not the game's jargon (shots, hyphae, yield, throughput). If a game word is on screen all the time (e.g. "node"), keep it and explain it once.
+- Every card has a **word list with Bangla meanings** and "say it like" (game name, animals, objects).
+- No idioms, no slang, no jokes that need native timing.
+
+| Don't write | Write |
+|---|---|
+| somewhere under | under |
+| bully / enemy / rival | bad guy / the animals / [name] |
+| network / mycelium | roots / [hero's name] |
+| patience | Okay. Slowly. |
+| honestly / actually / basically | (drop it) |
+| thirsty | needs water |
+| reached | got to |
+| evolution tasks / objectives | the tasks / the goal |
+| water table | deep water |
+| directions | ways |
+| incredible / insane | big / so big / wow |
+| purchase / acquire | buy / get |
+| approximately | about |
+| eventually | later |
+| consume / devour | eat |
+| efficient | fast / good |
+
 ## Hook formulas (first 30 seconds)
 
 Pick one. Fill the brackets.
