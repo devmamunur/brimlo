@@ -205,6 +205,10 @@ Chapters
 | Subs gained | | |
 | Watch hours | | |
 
-**Lessons:** 
+**Day 1 check (Fri 6 Nov 2026, ~16 h after publish, YouTube Studio):** 171 impressions · CTR 2.9% · 14 views · 1:11 average view duration from impressions · traffic: YouTube search 71%, other YouTube 14%, direct 7%, browse 7%.
+
+**Same game on YouTube (vidIQ search, 6 Nov 2026):** IdleAlex (483 subs), "I Get Paid to Deal With Way Too Many Fish", 55:52, published Tue 3 Nov → 6,584 views in ~2.5 days (outlier ×4.8). Kei Joga (PT, 193 subs) 24 min, 70 views in ~5 h. IstneZero (PL) 18 min, 179 views. Big English channel from Sun 1 Nov (see Upload speed row).
+
+**Lessons:** Late by 2 days on a FAST game: the small channel that came out first got the wave. Very few impressions (171) at 2 subs, and a low CTR (2.9%) gave YouTube no reason to show it more. Viewers left fast (1:11 average).
 
 Sources (checked 3 Nov 2026): [Steam full game](https://store.steampowered.com/app/4564070/) · [Steam demo](https://store.steampowered.com/app/5400640/) · YouTube search via vidIQ (videos since 15 Oct 2026).
