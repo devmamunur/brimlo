@@ -12,10 +12,10 @@ Use `/script [game]` to make a card for a specific game. More ready-made sentenc
 | **Goal line** | first sentence | The goal with a big number, **said while already playing**: "There are 1 quadrillion carrots here. I'm going to get all of them." |
 | **First action** | by 0:05 (0:10 after a cold open) | Click, dig, shoot, harvest. Real gameplay, never a menu. |
 | **Where it ends** | 0:10–0:30 | "In one hour I'll have [X]. This is how I got there." (Seabun opening.) |
-| **Subscribe line** | ~2:00 | One sentence: "If you like watching numbers go up, subscribe. I finish a new one every few days." |
+| **Subscribe line** | ~2:00 | Short and tied to the story: "Want to see how big [Hero] gets? Subscribe and stay with me." No upload-plan sentence ("I finish a new one every few days" ✗, 6 Nov 2026). |
 | **Early game** | 2–10 min | First upgrades, said short, with numbers. Keep the score out loud. |
 | **Middle** | 10 min → end | Milestones as chapters. React at every decision. Speed up waits. |
-| **Ending** | last 1–2 min | Honest verdict + who it's for + price/demo + "see you in the next video". End screen. |
+| **Ending** | last 1–2 min | What happened + favorite part + who it's for + "See you next time." End screen. |
 
 ## The first 2 minutes rule (most important rule)
 
@@ -35,7 +35,8 @@ Lesson first seen with Ridiculously Random on 25 Oct 2026 ([study](../research/r
 
 Mamunur is from Bangladesh; English is his second language. Every script line must use words he knows and can say without stopping. Card format: [script-card/template.md](script-card/template.md) · approved examples: [script-card/examples/](script-card/examples/).
 
-- Lines of max ~10–12 words. One idea per line. Present tense.
+- **Talk like telling a story to friends, not a university presentation** (Mamunur, 6 Nov 2026): full casual sentences with "I", "we", "you" or the hero's name; small reactions ("Oh no.", "Nice!", "Wait…", "Hmm."); little opinions ("I love it."). No slogan fragments ("Start to end, in one video." ✗), no announcing lines ("In this video we will…" ✗), no formal words. Read each line after the line before it: would a friend say it like that?
+- Lines of max ~10–12 words. One idea per line. Present tense for what happens now; "will" for the future ("At the end, his roots will be everywhere"), never present tense for a future thing.
 - Plain words for game actions: **water, food, grow, roots, coins** — not the game's jargon (shots, hyphae, yield, throughput). If a game word is on screen all the time (e.g. "node"), keep it and explain it once.
 - Every card has a **word list with Bangla meanings** and "say it like" (game name, animals, objects).
 - No idioms, no slang, no jokes that need native timing.
@@ -73,10 +74,14 @@ Pick one. Fill the brackets.
 
 ## Ending formulas
 
-1. **Verdict:** "So that's [game]. The best part is [X]. The weak part is [Y]. I'd give it [score/10]."
-2. **Who it's for:** "If you like games where you start tiny and end huge, this one is for you."
-3. **Price / demo:** "It's [$price / free as a demo] on Steam. Link in the description."
-4. **Close:** "Thanks for watching. Which game should I play next? Tell me in the comments. If you want more games like this, subscribe. See you in the next one."
+Updated 6 Nov 2026 (Mamunur): 4 warm lines, good part only.
+
+1. **What happened:** "And that's it! [Hero] was just [tiny start]. And look at him now. [Result with numbers]."
+2. **Favorite part:** "My favorite part? [X]."
+3. **Who it's for:** "If you like calm games where something small gets really big, you'll like this one."
+4. **Close:** "Thanks for watching. See you next time."
+
+Don't say: a bad part, a score, the price or "link in the description", "Which game should I play next? Tell me in the comments", "You rest. I'll keep going."
 
 Keep the ending short. Put an **end screen** to your most similar video.
 

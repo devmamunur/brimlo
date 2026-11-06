@@ -99,7 +99,7 @@ if tl:GetTrackCount('video')<2 then tl:AddTrack('video') end
 
 ## 5. Voice-over script
 
-Write one short line per still, in order, plus a bridge line into the gameplay. Simple English, 2–5 words a line, so it fits 2–2.5 s when spoken slowly. Example (Seabun):
+Write one short line per still, in order, plus a bridge line into the gameplay. Simple English, 2–5 words a line, so it fits 2–2.5 s when spoken slowly. **Correct tense** (Mamunur, 6 Nov 2026): the stills show the end, so done things are past ("This was one tiny mushroom."), the bridge says what comes next with "will" / "going to" ("This is how it will happen.") or past ("This is how I got here."). Never present tense for a future thing. **Sound like telling friends, not a presentation**: a casual line like "This was one tiny mushroom. Two hours later… look at him." ✓, not a slogan like "From zero to hero." ✗ Example (Seabun):
 
 > "Full skill tree." · "A team of fish mounts." · "A legendary white shark." · "And a giant crab boss." · "This is how I got here."
 

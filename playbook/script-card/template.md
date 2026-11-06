@@ -9,10 +9,11 @@ The format for every Brimlo recording script. `/script` and `/new-video` copy th
 ## How to fill it
 
 1. **Research first.** Learn the game from real play: `brimlo_steam_game` / `brimlo_steam_reviews`, and **1–2 YouTube transcripts** of the game (`brimlo_video_transcript`, free). Write the facts and the timing table in the video file, above the script (see "Research block" at the bottom).
-2. **Simple English.** A learner (A2–B1) must understand every word. Max ~10–12 words per line. One idea per line. Present tense. Plain action words (water, food, grow, coins) instead of game jargon. **This is for the whole file** — game facts, notes, tables and research too, not only the spoken lines. Example: "grow a root", never "shoot a hypha".
-3. **True to the game.** Every line must fit something that really happens. Use `[X]` for numbers he reads from the screen.
-4. **New every video.** New hero name, new story, new joke. Check the last 3 video files.
-5. Replace every `[ … ]` and every *italic note*. Delete notes that don't apply.
+2. **Simple English.** A learner (A2–B1) must understand every word. Max ~10–12 words per line. One idea per line. Present tense for what happens now; "will" for the future ("At the end, his roots will be everywhere"), never present tense for a future thing. Plain action words (water, food, grow, coins) instead of game jargon. **This is for the whole file** — game facts, notes, tables and research too, not only the spoken lines. Example: "grow a root", never "shoot a hypha".
+3. **Friends, not a presentation.** full casual sentences with "I", "we", "you" or the hero's name; small reactions ("Oh no.", "Nice!", "Wait…", "Hmm."); little opinions ("I love it."). No slogan fragments ("Start to end, in one video." ✗), no announcing lines ("In this video we will…" ✗), no formal words. Read each line after the line before it: would a friend say it like that? Tense: now = present, later/end = "will" / "going to", done = past.
+4. **True to the game.** Every line must fit something that really happens. Use `[X]` for numbers he reads from the screen.
+5. **New every video.** New hero name, new story, new joke. Check the last 3 video files.
+6. Replace every `[ … ]` and every *italic note*. Delete notes that don't apply.
 
 ---
 
@@ -61,7 +62,7 @@ Voice-over: "This was [tiny start]. [Time] later… [result]."
 
 ### 0:10 – 0:30
 
-> "Right now, [Hero] is very small. At the end of this video, [result]. Start to end, in one video."
+> "Right now, [Hero] is very small. At the end of this video, [Hero] will [result]. I'll play the whole game today, all the way to the end."
 > ([Action again.]) "[The main cost or rule in one sentence.] Let's go, [Hero]."
 
 ### First 2 minutes (keep moving)
@@ -72,8 +73,8 @@ Do something new every 15–20 seconds. Say one short line.
 |---|---|---|
 | First [resource] | [action] | "[short line]" |
 | First [build / buy] | [action] | "[short line]" |
-| First [blocker] | [what stops you] | "[It]. [Hero] can't [do it]. Not yet." |
-| First [thing you can't use yet] | [see it] | "[Thing]. We don't [use it]. …Not yet." |
+| First [blocker] | [what stops you] | "Oh no, [it]. [Hero] can't [do it]. Not yet." |
+| First [thing you can't use yet] | [see it] | "Hey, [thing]. We don't [use it]. …Not yet." |
 | First [bonus event, from the timing table] | [action] | "[short excited line]" |
 | If [bonus event] is late | [keep doing the main action] | "[calm filler line]" |
 | ~2:00 | [keep playing] | Subscribe line (below) |
@@ -82,7 +83,9 @@ Do something new every 15–20 seconds. Say one short line.
 
 ### Subscribe line (~2:00)
 
-> "Do you want to see how big [Hero] gets? Subscribe. I finish a new game every few days."
+> "Want to see how big [Hero] gets? Subscribe and stay with me."
+
+*Keep it this short. No upload-plan sentence ("I finish a new game every few days" ✗).*
 
 ### Running joke: [one-line name of the joke]
 
@@ -99,8 +102,8 @@ Use it 4–5 times, not more. Don't reuse: [jokes from the last 3 videos].
 ### Score lines (say the real number)
 
 - "[Hero] is [X] [unit] now." (*the counter at [place on screen]*)
-- "The goal is [Y]. We have [X]."
-- "[Thing]: [X] out of [Y]. Next: number [X+1]."
+- "We need [Y]. We're at [X]. Getting close."
+- "That's [X] [things]. Only [Y minus X] more to find."
 
 ### Lines for big moments (with your real numbers)
 
@@ -109,30 +112,31 @@ Use it 4–5 times, not more. Don't reuse: [jokes from the last 3 videos].
 | Moment | Say |
 |---|---|
 | First points / money | "[line]" |
-| First upgrade (say it short) | "[Upgrade in 2–3 words]. I buy it. [Effect in simple words]." |
+| First upgrade (say it short) | "[Upgrade in 2–3 words]? Yes, I'm buying that. [Effect in simple words]." |
 | New area | "[line]" |
 | [Main building / helper] | "[line]" |
-| [Pay off "Not yet" #1] | "Remember the [thing]? Now [Hero] [does it]." |
-| [Pay off "Not yet" #2] | "Remember that [thing]? Now [Hero] [does it]." |
-| First [big goal item] | "[Thing]! One out of [Y]." |
-| Before and after | "At the start, [small]. Now I have [X]." |
-| Last goal | "[Y] out of [Y]! [Hero] is the boss of [place] now." |
+| [Pay off "Not yet" #1] | "Remember that [thing] from the start? Watch this. [Hero] [does it] now." |
+| [Pay off "Not yet" #2] | "Remember the [thing]? Well… now [Hero] [does it]." |
+| First [big goal item] | "Wait, wait… yes! [Thing]! That's one. [Y minus 1] more to find." |
+| Before and after | "You know, at the start [small] was a big deal. Now I have [X]." |
+| Last goal | "That's all [Y]! I can't believe it. [Hero] is the boss of [place] now." |
 | Slow part | "This part is the same. Let me skip ahead a bit." (speed up or cut) |
-| Waiting | "Okay. Slowly. [Hero] is [working]. We'll get there." |
+| Waiting | "Okay, [Hero] is [working]. Slowly, slowly. We'll get there." |
 
 ### Thinking out loud
 
-- "[Choice A] or [choice B]? I need [A] more."
-- "[Left/right] has more [resource], but there is [problem]. Let's go [other way] first."
-- "More [X] first. Then [Y]."
+- "Hmm, [choice A] or [choice B]? I think I need [A] more."
+- "[Left/right] has more [resource], but look, there's [problem]. Let's go [other way] first."
+- "I'll do more [X] first. Then [Y]."
 
 ### Ending (last 1–2 minutes)
 
-> "So that's [Game]. [Hero] was [tiny start]. Now [result with numbers]."
-> "The best part is [X]. The bad part is [your honest answer]."
-> "If you like calm games where small things get big, try this one. It's [only a few dollars / a free demo] on Steam. The link is in the description."
-> "[Close the joke/story in one line.]"
-> "Thanks for watching. Which game should I play next? Tell me in the comments. You rest. I'll keep going. See you next time."
+> "And that's it! [Hero] was just [tiny start]. And look at him now. [Result with numbers]."
+> "My favorite part? [X]. [Why, in one short line.]"
+> "If you like calm games where something small gets really big, you'll like this one."
+> "Thanks for watching. See you next time."
+
+*Keep only these 4 lines. Good part only — no bad part, no price or link, no joke close, no "which game next?" question, no tagline (Mamunur, 6 Nov 2026).*
 
 ### Practice lines (say each 3 times before recording)
 

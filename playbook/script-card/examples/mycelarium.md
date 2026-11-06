@@ -9,7 +9,7 @@ Why it is good: a named hero with a small story ("Kevin" the mushroom), a goal w
 > You are one tiny mushroom. You grow roots under the ground. The roots drink water and eat food. You grow and grow, until your roots are under the whole forest.
 
 Game facts (from 2 transcripts, read 6 Nov 2026: FungalBrainRot "100%" 116 min [a_SW1Oz8dww], Yusterday 46 min, 31K views [iX-AqoIdHwM] — check on your screen):
-- **Grow a root**: left-click and drag. Every root costs **5 water**. **When it rains, roots cost no water.** (The game calls a root a "hypha shot".)
+- **Grow a root**: left-click and drag. Every root costs **food** (Mamunur played the demo, 6 Nov 2026: roots cost food. The other videos say water — maybe a different version. On recording day, look at which number goes down and say that). **When it rains, growing is free.** (The game calls a root a "hypha shot".)
 - **ADD NODE** on a root costs **5 food** (salt). New roots grow from nodes.
 - Roots can't go through rock. In clay, roots are shorter. Worms, leaves, bones, flies and later **whole trees** become food.
 - More roots = more **upgrade points** (for the upgrade menu).
@@ -24,7 +24,7 @@ When things happened in their videos (your times will differ):
 
 | Moment | Yusterday | FungalBrainRot |
 |---|---|---|
-| First rain (roots cost no water) | 2:44 | 2:06 |
+| First rain (growing is free) | 2:44 | 2:06 |
 | First hedgehog (only watches at first) | 6:00 | ~12:00 |
 | Clay ("new level", shorter roots) | 8:35 | 6:21 |
 | First crow | 17:39 — **it took the repeller mushroom**, the one made to scare it | ~24:00 |
@@ -44,7 +44,7 @@ Simple words only (rewritten Fri 6 Nov 2026). Short lines. Say them slowly. Smal
 
 ### The story of this video
 
-Kevin is one tiny mushroom. The forest animals want to eat his mushrooms. Kevin is small, but he wants to be big. At the end, Kevin is under the whole forest. Talk about Kevin like a small friend. Calm and kind.
+Kevin is one tiny mushroom. The forest animals want to eat his mushrooms. Kevin is small, but he wants to be big. At the end, Kevin will be under the whole forest. Talk about Kevin like a small friend. Calm and kind.
 
 ### Words you will use (with Bangla)
 
@@ -92,12 +92,12 @@ Voice-over: "This was one tiny mushroom. Two hours later… look at him."
 |---|---|---|
 | 0:00 | Move the mouse in a small circle around the small red mushroom | "This is Kevin. Kevin is one tiny mushroom." |
 | 0:03 | **Grow the first root** into the ground | "Under this forest, there are five magic mushrooms." |
-| 0:07 | Root goes down, water number goes down | "Kevin wants all five. Then he wants the whole forest." |
+| 0:07 | Root goes down, food number goes down | "Kevin wants all five. Then he wants the whole forest." |
 
 ### 0:10 – 0:30
 
-> "Right now, Kevin is very small. At the end of this video, his roots are everywhere. Start to end, in one video."
-> (Grow again.) "Every root costs five water. So first, we find water. Let's go, Kevin."
+> "Right now, Kevin is very small. At the end of this video, his roots will be everywhere. I'll play the whole game today, all the way to the end."
+> (Grow again.) "Every root costs [X] food. So first, let's find some food. Let's go, Kevin."
 
 ### First 2 minutes (keep moving)
 
@@ -105,78 +105,76 @@ Do something new every 15–20 seconds. Say one short line.
 
 | When | Do | Say |
 |---|---|---|
-| First water | Grow into the blue water | "Water! Kevin drinks. Good boy." |
-| First salt | Grow into the white salt | "Salt is food. Kevin eats it." |
-| First node | Click ADD NODE | "A new node. Five food. Now Kevin can grow from here too." |
-| First rock | Root stops at a rock | "A rock. Kevin can't go through rock. Not yet." |
-| First worm | See a worm | "A worm. We don't eat worms. …Not yet." |
-| First rain | Grow a lot, fast | "It's raining! When it rains, growing costs no water. Go, Kevin, go!" |
-| If no rain yet | Keep growing | "Grow. Eat. Drink. Kevin has a simple life." |
+| First water | Grow into the blue water | "Oh, water! Drink up, Kevin. Good boy." |
+| First salt | Grow into the white salt | "See this white stuff? That's salt. For Kevin, salt is food." |
+| First node | Click ADD NODE | "Okay, a new node. Now Kevin can grow from here too." |
+| First rock | Root stops at a rock | "Oh no, a rock. Kevin can't go through rock. Not yet." |
+| First worm | See a worm | "Hey, a worm. Don't worry, little worm. We don't eat worms. …Not yet." |
+| First rain | Grow a lot, fast | "It's raining! Now growing is free. Go, Kevin, go!" |
+| If no rain yet | Keep growing | "Grow, eat, drink. Kevin has a nice, easy life." |
 | ~2:00 | Keep growing | Subscribe line (below) |
 
 "Not yet" is a small promise. Later, Kevin eats worms and goes through rock. Then you say "Remember?" (lines below). This keeps people watching.
 
 ### Subscribe line (~2:00)
 
-> "Do you want to see how big Kevin gets? Subscribe. I finish a new game every few days."
+> "Want to see how big Kevin gets? Subscribe and stay with me."
 
 ### Running joke: the animals want Kevin's mushrooms
 
 Animals come and eat your mushrooms: hedgehog, crow, squirrel, boar. Kevin is small and nice. The animals are the bad guys. Say only what happens on screen. Use it 4–5 times, not more.
 
-- First hedgehog (at first it only looks): "A hedgehog. He is only looking. For now."
+- First hedgehog (at first it only looks): "Look, a hedgehog. He is only looking… for now."
 - Hedgehog comes back: "The hedgehog is back. I don't trust him."
 - Hedgehog eats a mushroom: "He ate Kevin's mushroom! Kevin will not forget this."
 - If a crow eats the mushroom that scares animals: "The crow ate the mushroom that scares crows. Smart crow."
-- You scare it away: "Go away, hedgehog. Not today."
-- Crow / squirrel / boar: "Another animal. Everybody wants Kevin's food."
-- Late, when animals can't come close: "Now nobody can touch Kevin."
+- You scare it away: "Go away, hedgehog! Not today."
+- Crow / squirrel / boar: "Another one? Everybody wants Kevin's food."
+- Late, when animals can't come close: "Look at that. Now nobody can touch Kevin."
 
 No girlfriend joke. No cat joke.
 
 ### Score lines (say the real number)
 
 - "Kevin is [X] cm now." (the cm number at the top middle)
-- "The task says 10,000 cm. We have [X]."
-- "Magic mushrooms: [X] out of 5. Next: number [X+1]."
+- "We need 10,000 cm. We're at [X]. Getting close."
+- "That's [X] magic mushrooms. Only [Y] more to find." ([Y] = 5 minus [X])
 - "[X] out of 100 mushrooms." (only if this number shows on screen)
 
 ### Lines for big moments (with your real numbers)
 
 | Moment | Say |
 |---|---|
-| First points | "Growing gives points. So the plan is easy: grow, grow, grow." |
-| First upgrade (say it short) | "Longer roots. I buy it. Kevin has long arms now." |
-| Clay | "Clay. Roots are shorter here. New area." |
-| First mushroom on the ground | "Kevin made his first house. A small mushroom on the ground." |
-| Stinky mushroom | "The stinky mushroom. Animals hate the smell. Perfect." |
-| Experience mushroom | "This one gives one free point every 3 minutes. But crows love it. So we keep it safe." |
-| First tasks all done | "All tasks done. Now the big goal: five magic mushrooms." |
-| Worms (later) | "Remember the worm? Now Kevin eats worms. Sorry, worm." |
-| Rock (digging mushroom) | "Remember that rock? Now Kevin goes through rock." |
-| First tree eaten | "Kevin is eating a tree. A full tree! [X] food. He is not small now." |
-| First magic mushroom | "A magic mushroom! One out of five." |
-| Deep water at the bottom | "Water everywhere down here. Kevin never needs water again." |
-| Before and after | "At the start, one root was a big deal. Now I have [X] water and [X] food." |
-| All 5 magic mushrooms | "Five out of five! Kevin is the boss of the forest now." |
-| Slow part | "This part is the same. Let me skip ahead a bit." (speed up or cut) |
-| Waiting for food | "Okay. Slowly. Kevin is eating. We'll get there." |
+| First points | "Oh, growing gives points. So my plan is easy: grow, grow, grow." |
+| First upgrade (say it short) | "Longer roots? Yes, I'm buying that. Kevin has long arms now." |
+| Clay | "Hmm, this is clay. Kevin's roots get short here. Okay, slowly." |
+| First mushroom on the ground | "Look! Kevin made his first little house up there." |
+| Stinky mushroom | "A stinky mushroom. Animals hate the smell. I love it." |
+| Experience mushroom | "This one gives a free point every 3 minutes. But crows love it too. So I have to keep it safe." |
+| First tasks all done | "Okay, all the tasks are done! Now the real goal: the five magic mushrooms." |
+| Worms (later) | "Remember that little worm? Well… now Kevin eats worms. Sorry, worm." |
+| Rock (digging mushroom) | "Remember that rock from the start? Watch this. Kevin goes right through it now." |
+| First tree eaten | "Wait… Kevin is eating a tree? A whole tree! [X] food. He is not small anymore." |
+| First magic mushroom | "Wait, wait… yes! A magic mushroom! That's one. Four more to find." |
+| Deep water at the bottom | "Look at all this water down here. Kevin has all the water he wants now." |
+| Before and after | "You know, at the start one root was a big deal. Now I have [X] food." |
+| All 5 magic mushrooms | "That's all five! I can't believe it. Kevin is the boss of the forest now." |
+| Slow part | "This part is a bit slow, so let me skip ahead." (speed up or cut) |
+| Waiting for food | "Okay, Kevin is eating. Slowly, slowly. We'll get there." |
 
 ### Thinking out loud
 
-- "Food or water? I need food more."
-- "Left has more food, but there is rock. Let's go right first."
-- "More mushrooms first. Then longer roots."
+- "Hmm, food or water? I think I need food more."
+- "Left has more food, but look, there's rock. Let's go right first."
+- "I'll build more mushrooms first. Then longer roots."
 
 ### Ending (last 1–2 minutes)
 
-> "So that's Mycelarium. Kevin was one tiny mushroom. Now his roots are under the whole forest. [X] cm, and all five magic mushrooms."
-> "The best part is the rain. Everything is free, and you grow everywhere. The bad part is [your honest answer]."
-> "If you like calm games where small things get big, try this one. It's only a few dollars on Steam. The link is in the description."
-> "And the hedgehog? He is still out there. But Kevin is not scared now."
-> "Thanks for watching. Which game should I play next? Tell me in the comments. You rest. I'll keep going. See you next time."
+> "And that's it! Kevin was just one tiny mushroom. And look at him now. His roots are under the whole forest. [X] cm, and all five magic mushrooms."
+> "My favorite part? The rain. Growing is free, and Kevin goes everywhere."
+> "If you like calm games where something small gets really big, you'll like this one."
+> "Thanks for watching. See you next time."
 
-(Price: Yusterday said $3.99 on 3 Nov; you paid $2.39. So say "a few dollars".)
 
 ### Practice lines (say each 3 times before recording)
 
@@ -184,4 +182,4 @@ No girlfriend joke. No cat joke.
 2. Under this forest, there are five magic mushrooms.
 3. Kevin wants all five. Then he wants the whole forest.
 4. A rock. Kevin can't go through rock. Not yet.
-5. It's raining! When it rains, growing costs no water.
+5. It's raining! Now growing is free.

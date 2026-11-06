@@ -25,14 +25,14 @@ Mamunur records **live commentary** in English. English is his second language (
    3. **Before you press record**: what to finish before OBS (purchase/run check, new save, naming screen, settings, language, story text), where OBS starts, "don't read the help text", "don't open the upgrade menu in the first 2 minutes", which screenshots to take.
    4. **Cold open** (optional, for `/hook` later): which end moment to show, max 10 s, one voice-over line.
    5. **First 10 seconds**: a table `Time | On screen | Say` with 3 rows (0:00, ~0:03, ~0:07). Row 1 introduces the hero while the mouse points at it. Row 2 = the first action + the goal with a number. Row 3 = the big dream.
-   6. **0:10 – 0:30**: "Right now X is small. At the end of this video… Start to end, in one video." + a line that explains the main cost in one sentence.
+   6. **0:10 – 0:30**: "Right now X is small. At the end of this video… I'll play the whole game today, all the way to the end." + a line that explains the main cost in one sentence.
    7. **First 2 minutes**: a table `When | Do | Say` — something new every 15–20 seconds (first resource, first build, first blocker, first enemy, first free/bonus event from the timing table), plus a backup line if the event comes late. Plant 1–2 **"Not yet"** promises (a blocker or thing you can't use yet) that you pay off later with "Remember…?".
-   8. **Subscribe line (~2:00)**: tied to the story ("Do you want to see how big Kevin gets? Subscribe…").
+   8. **Subscribe line (~2:00)**: tied to the story, short, then back to playing: "Want to see how big Kevin gets? Subscribe and stay with me." **Don't add an upload-plan sentence** ("I finish a new game every few days" ✗, Mamunur, 6 Nov 2026) — it turns the line into an ad.
    9. **Running joke**: from this game's real events (enemies, a rival, a strange rule). 5–7 lines for different moments; "use it 4–5 times, not more". Say which jokes not to reuse (check the last 3 video files).
    10. **Score lines**: 3–4, reading the real on-screen counter with `[X]`.
    11. **Lines for big moments**: a table `Moment | Say`, 12–16 rows named after the game's real mechanics, with `[X]` numbers, including the "Remember…?" payoffs, a before-and-after line, a slow-part skip line and a waiting line.
    12. **Thinking out loud**: 3 lines.
-   13. **Ending**: 5 short lines: what happened (with numbers) → best part / bad part → who it's for + price → close the story/joke → "Thanks for watching… You rest. I'll keep going. See you next time." Price: say "a few dollars" or "free demo" unless the US price is checked.
+   13. **Ending**: 4 short, warm lines, like finishing a story for friends: "And that's it! [Hero] was just [tiny start]. And look at him now. [result with numbers]." → "My favorite part? [X]." (good part only) → "If you like calm games where something small gets really big, you'll like this one." → "Thanks for watching. See you next time." **Don't add** (Mamunur, 6 Nov 2026): a bad part, price or "link in the description", a joke/story close line, "Which game should I play next? Tell me in the comments", or "You rest. I'll keep going."
    14. **Practice lines**: 5 (the first 10 seconds lines + the hardest ones). The first line of the video is always line 1.
 5. **Titles:** if the file has an A/B/C set, repeat it; if not, make one (`playbook/titles.md` → "A/B/C test set"), score with `brimlo_score_title`, and save it. The first 10 seconds must fit title A. Note which claim each title needs to be true.
 6. **Reply** in chat as plain text (no HTML): the A/B/C titles (one code block), the first 10 seconds, the "before you press record" list, the 5 practice lines, and the file path. Keep the reply short; the full card is in the file.
@@ -41,13 +41,23 @@ Mamunur records **live commentary** in English. English is his second language (
 
 Mamunur must understand every word on first read and say it without stopping. Write like for a learner at about A2–B1 level.
 
-- Max ~10–12 words per line. One idea per line. Present tense.
+**The voice: telling a story to friends, not giving a university presentation** (Mamunur, 6 Nov 2026). Use "I", "we", "you" and the hero's name. Use small reactions ("Oh no.", "Nice!", "Wait…", "Okay, okay."), little opinions ("I like this part.") and talk to the viewer ("Look at this."). No announcing or summary lines ("In this video we will explore…", "Start to end, in one video."), no lists of features, no formal words.
+
+**Keep it clean** (Mamunur, 6 Nov 2026): every line must earn its place. No extra sentences, no ad-like add-ons (upload plans, price, "link in the description", "tell me in the comments", taglines), no filler. When in doubt, cut the line. Short and warm beats long and complete.
+
+- Max ~10–12 words per line. One idea per line.
+- **Correct tense in every line, from the first second to the end** (Mamunur, 6 Nov 2026). Ask for each line: is this happening now, will it happen later, or did it already happen?
+  - **Now** (what is on screen) → present: "This is Kevin. Kevin is one tiny mushroom." · "It's raining!"
+  - **Later in the video / at the end** (the hook, the first 10 seconds, the 0:10–0:30 promise, "Not yet" lines) → **will** or **going to**: "At the end of this video, his roots will be everywhere." · "Kevin is going to eat the whole forest." Never present tense for a future thing ("his roots are everywhere" ✗).
+  - **Already done** (payoffs, before-and-after, ending) → past: "Remember the rock? Kevin couldn't go through it." · "Kevin was one tiny mushroom. Now…"
+  - Before saving, read every line of the hook, first 10 seconds and 0:10–0:30 once only for tense.
 - Use the most common word. Swap hard words (full list in `playbook/hooks-and-scripts.md` → "Simple words"), e.g. somewhere → "under / here", bully/enemy → "bad guys / animals", network → "roots / [hero]", patience → "Okay. Slowly.", honestly → drop it, thirsty → "needs water", reached → "got to", tasks for "evolution tasks".
 - **Simple words everywhere in the file** — game facts, research notes and tables too, not only the spoken lines.
 - Use plain words for game actions, not the game's jargon: "water", "food", "grow", "roots" — not "shots", "hyphae", "yield". Use the game's word only if it's on screen all the time (e.g. "node"), and explain it once in the word list.
 - No idioms, no slang, no wordplay that needs native timing. Light jokes only ("Smart crow.", "Sorry, worm.").
 - No words that are hard to say for a Bangla speaker if an easy one works (avoid long words with many "th", "r" + "l" clusters).
 - Calm, kind, honest voice. No hype.
+- **Sound like a person talking, not an AI script** (Mamunur, 6 Nov 2026). No slogan-like fragments with no subject or verb ("Start to end, in one video." ✗). Write a full, casual sentence with "I" or the hero ("I'll play the whole game today, all the way to the end." ✓). Read each line aloud in your head after the line before it: if a friend wouldn't say it like that, rewrite it.
 - Never in the first 2 minutes: "Hello, welcome", "what is this?" tours, reading menus, help text or story text (retention data, 28 Oct 2026).
 - Slow parts: positive lines ("Okay. Slowly. We'll get there."), never complaints.
 - Before saving, re-read every line once and ask: "Would a Bangladeshi learner know every word?" If not, change the word.

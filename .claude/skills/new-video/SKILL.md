@@ -6,7 +6,7 @@ argument-hint: "[game name] [optional upload date]"
 
 # /new-video
 
-Plan one video end to end and save it in the repo. Write in **simple English, short sentences** (Mamunur is a non-native speaker).
+Plan one video end to end and save it in the repo. Write in **simple English, short sentences** (Mamunur is a non-native speaker). Spoken lines sound like **telling a story to friends, not a presentation**, with correct tense (future = "will") — the full rules are in `/script` → "Simple English".
 
 ## Steps
 
