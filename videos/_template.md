@@ -37,7 +37,7 @@
 
 ## Recording script
 
-Write with `/script`. Same sections and the same simple English as the model card in [2026-11-08-mycelarium.md](2026-11-08-mycelarium.md): story · words you will use (with Bangla) · before you press record · cold open · first 10 seconds · 0:10–0:30 · first 2 minutes · subscribe line · running joke · score lines · lines for big moments · thinking out loud · ending · practice lines.
+Write with `/script`. Fill [../playbook/script-card/template.md](../playbook/script-card/template.md) (examples: [../playbook/script-card/examples/](../playbook/script-card/examples/)): story · words you will use (with Bangla) · before you press record · cold open · first 10 seconds · 0:10–0:30 · first 2 minutes · subscribe line · running joke · score lines · lines for big moments · thinking out loud · ending · practice lines.
 
 ## Chapters
 

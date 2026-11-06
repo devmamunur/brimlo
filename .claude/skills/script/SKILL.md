@@ -8,7 +8,7 @@ argument-hint: "[game name or videos/ file]"
 
 Mamunur records **live commentary** in English. English is his second language (Bangladesh). He needs a **card**, not a full script: a simple story, a strong first 10 seconds, a busy first 2 minutes, lines for big moments and a clean ending. He practices it 2–3 times before recording.
 
-**Model card (copy its shape and its level of English):** [videos/2026-11-08-mycelarium.md](../../../videos/2026-11-08-mycelarium.md) → "Recording script". Mamunur approved this format on Fri 6 Nov 2026.
+**Format:** [playbook/script-card/template.md](../../../playbook/script-card/template.md) — copy it and fill every `[ … ]`. **Approved examples** (learn the shape and English level, never copy lines or jokes): [playbook/script-card/examples/](../../../playbook/script-card/examples/). Format approved by Mamunur on Fri 6 Nov 2026.
 
 ## Steps
 
@@ -17,9 +17,9 @@ Mamunur records **live commentary** in English. English is his second language (
 3. **Learn the game from real play, not from memory:**
    - `brimlo_steam_game` / `brimlo_steam_reviews` for facts. If they fail, use a web search.
    - **Read 1–2 YouTube transcripts of the game** with `brimlo_video_transcript` (free). Pick the biggest recent English videos (Mamunur may send links). Use them to learn the real mechanics, the order of events and the timings.
-   - Write in the file: a short "Game facts" list (resources, costs, enemies, goals, ending), a **timing table** ("When things happened in their videos": first rain/enemy/new area/big unlock/ending, with times), and one line on **what they did badly that we don't do** (e.g. "Welcome…", reading help text, reading the whole upgrade menu, stopping halfway).
+   - Write in the file (template → "Research block"): a short "Game facts" list (resources, costs, enemies, goals, ending), a **timing table** ("When things happened in their videos": first rain/enemy/new area/big unlock/ending, with times), and one line on **what they did badly that we don't do** (e.g. "Welcome…", reading help text, reading the whole upgrade menu, stopping halfway).
    - Note the on-screen counter (e.g. "333 cm", "coins", "fish 12/18"). Score lines read it aloud.
-4. **Write the card** into the "Recording script" section (replace the old one). Same sections, same order as the model card:
+4. **Write the card** into the "Recording script" section (replace the old one), using `playbook/script-card/template.md`. Put the research (facts + timing table) in the template's "Research block" above the script. The 14 sections, in order:
    1. **The story of this video** (3–5 short lines): a small hero, a small problem, a big end. Often: give the main thing a funny human name (e.g. "Kevin" the mushroom) if the game lets you name it. **Never name it Brimlo** (Brimlo is the channel; it confuses the story). A new name and story every video.
    2. **Words you will use (with Bangla)**: a table of the 12–20 game words he will say: `Word | Bangla | Say it like`. Include the game name's pronunciation and any hard animal/object names. Explain game words in a few words ("node (a stop point on the root, game word)").
    3. **Before you press record**: what to finish before OBS (purchase/run check, new save, naming screen, settings, language, story text), where OBS starts, "don't read the help text", "don't open the upgrade menu in the first 2 minutes", which screenshots to take.

@@ -50,6 +50,7 @@ Full details: [channel/profile.md](channel/profile.md), [channel/strategy.md](ch
 | `playbook/titles.md` | **Brimlo title system P1–P7 + A/B/C test set** |
 | `playbook/thumbnails.md` | **Thumbnail house style v3 + master prompt** (`thumbnail-examples/` = references) |
 | `playbook/hooks-and-scripts.md` · `phrase-bank.md` | First 15 seconds rules · simple sentences for live commentary |
+| `playbook/script-card/` | **Script card format**: `template.md` (fill for every video) + `examples/` (approved cards, shape only) |
 | `playbook/upload-checklist.md` | Description format, chapters, tags, settings, after-publish steps |
 | `playbook/recording-and-editing.md` · `voice-presets.md` · `learn-davinci.md` | OBS, Resolve edit, audio presets, DaVinci learning list |
 | `playbook/monetization-and-policy.md` | YPP, money, Bangladesh tax, policy risks |

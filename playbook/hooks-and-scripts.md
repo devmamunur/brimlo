@@ -33,7 +33,7 @@ Lesson first seen with Ridiculously Random on 25 Oct 2026 ([study](../research/r
 
 ## Simple words (script language, 6 Nov 2026)
 
-Mamunur is from Bangladesh; English is his second language. Every script line must use words he knows and can say without stopping. Model card: [videos/2026-11-08-mycelarium.md](../videos/2026-11-08-mycelarium.md).
+Mamunur is from Bangladesh; English is his second language. Every script line must use words he knows and can say without stopping. Card format: [script-card/template.md](script-card/template.md) · approved examples: [script-card/examples/](script-card/examples/).
 
 - Lines of max ~10–12 words. One idea per line. Present tense.
 - Plain words for game actions: **water, food, grow, roots, coins** — not the game's jargon (shots, hyphae, yield, throughput). If a game word is on screen all the time (e.g. "node"), keep it and explain it once.
