@@ -97,7 +97,7 @@ Voice-over: "This was one tiny mushroom. Two hours later… look at him."
 ### 0:10 – 0:30
 
 > "Right now, Kevin is very small. At the end of this video, his roots will be everywhere. I'll play the whole game today, all the way to the end."
-> (Grow again.) "Every root costs [X] food. So first, let's find some food. Let's go, Kevin."
+> (Grow again.) "Growing costs food. So first, let's find some food. Let's go, Kevin."
 
 ### First 2 minutes (keep moving)
 
