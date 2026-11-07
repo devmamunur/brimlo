@@ -1,6 +1,6 @@
 # Game backlog
 
-Last updated: Thu 5 Nov 2026 (scout section).  Mac info for owned games is from Steam store data (6 Oct 2026) unless marked "?". **Always do your own 10-minute test before planning.**
+Last updated: Sat 7 Nov 2026 (scout section).  Mac info for owned games is from Steam store data (6 Oct 2026) unless marked "?". **Always do your own 10-minute test before planning.**
 
 Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md](checklist.md) passes. Free first.
 
@@ -16,11 +16,11 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 | Outbreak Z (free demo) | Mac native | Low — 1 English video (Ash Swoon, 3.2K subs, ~14K views) + Korean/Japanese channels (21–23 Oct) | Fri 23 Oct | ✅ published 23 Oct |
 | Rust & Shine (free demo; full game "coming soon") | CrossOver ✅ (recorded Oct 2026) | Low–medium — 1 demo playthrough seen on YouTube (24 Oct), views not checked | Sun 25 Oct | ✅ published |
 | Sorting Inc | ? — test | Unknown | was Fri 23 Oct; moved for Outbreak Z, needs a new slot | 📝 |
-| Cast n Chill | Mac | Medium (relaxing format) | Buffer (moved from Tue 3 Nov on 28 Oct) | 📝 |
+| Cast n Chill | Mac | Medium (relaxing format) | Fri 27 Nov (moved 7 Nov) | 📝 |
 | Scratch the Ticket | CrossOver | High (Azrilich 956K) → need a fresh angle | Buffer (moved from Fri 6 Nov on 28 Oct) | 📝 |
-| Keep on Mining! | CrossOver | Low–medium (competition 29/100) | Tue 10 Nov | 📝 |
+| Keep on Mining! | CrossOver | Low–medium (competition 29/100) | Fri 4 Dec (moved 7 Nov) | 📝 |
 | Nodebuster | ? — test | Medium | Fri 13 Nov | 📝 |
-| Sandustry | Mac | Medium, cooling down | Sun 15 Nov | 📝 |
+| Sandustry | Mac | Medium, cooling down | Sun 29 Nov (moved 7 Nov) | 📝 |
 | Another Game About Digging a Hole | CrossOver | Medium | Tue 17 Nov | 📝 |
 | Supermarket Simulator | Mac | Very high (different audience) | Tue 24 Nov — **one video only** | 📝 |
 
@@ -52,6 +52,30 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 | FEED THE AI | Big outlier, but already covered by Idle Cub and others | Windows only | Paid | Only with a fresh angle (100% run) |
 | My Fire Is Bigger Than Yours | 100% video got 174K | ? | Paid | Covered; fresh angle needed |
 
+### Scout, Sat 7 Nov 2026 (game-scout + game wave check + vidIQ YouTube search; no run tests yet)
+
+Steam data via the fixed `brimlo_steam_game` (CLI). US prices. Nov game spend so far: $2.39.
+
+| Game | Status / date | Price | Speed (checked 7 Nov) | Notes |
+|---|---|---|---|---|
+| **The Big Suck** (4901860, demo 5191500) | Demo since 22 Sep; **full game Mon 9 Nov 2026** | Not shown yet | 🔥 FAST → **Wed 11 Nov** launch video | A tiny tornado grows until it tears the planet apart. Big skill tree. Demo is proven: **JustPatrick-Idle (4.0K subs) 67K** ('Start as a Tiny Dust Devil… PERFECT Tornado', ~early Oct, 4.7x), official trailer 89K, Korean 17.2K, Russian 13.1K, Ash Swoon 3.0K (corrected 7 Nov from Mamunur's YouTube screenshot; my first vidIQ search missed the 67K video). No full-game video yet: big channels will likely post on launch day, so speed matters. Angle: full game, eat the WHOLE planet (not the demo story). Windows → CrossOver. Buy only if the price fits the budget (≤ ~$7) |
+| **Wreck & Profit** (4999440, demo 5421310) | Free demo **out Sat 7 Nov 2026**; full game Q1 2027 | Free | 🟡 SOON → Sun 22 Nov | Wrecking ball, money per brick, sell the company and restart in a bigger city. **Chrome YouTube check 7 Nov:** only the developer trailer (28 views, 1 month) and one playtest video (25 views). No competition, but also no proven demand yet. Demo length unknown. Windows → CrossOver |
+| Void Demolition Co. (5496770, demo 5496780) | Free demo out Fri 6 Nov; full "coming soon" | Free | 🟡 backup for Wreck & Profit | Tear a voxel town apart and feed it to your black hole. Chrome YouTube check 7 Nov: no video about this game |
+| BIGGER BANG (5359600, demo 5455020) | Full game out ~5 Nov + free demo | $3.39 | 🟢 backup | Hammer through the noisy neighbor's wall… to space-time. Digging again (Nov is full of digging) |
+| Frankenmine (4481330) | Full launch Mon 9 Nov; no demo | Not shown | 🟢 watch | Dig cursed tombs, build a monster. Mac ✓. No demo to test before buying |
+| Mine It All! (3941350) | Full launch Sun 8 Nov | Not shown | 🟢 backup | Mining again |
+| Poopcremental Farm (5243300) | Full launch Tue 10 Nov | Not shown | 🟢 watch | Short by its own page |
+| **Round and Round Inc.** (5455960, demo 5520370) | Free demo out ~2 Nov; **full game Thu 12 Nov 2026** | Free demo | 🔥 FAST → **Mon 9 Nov** | Black-and-white incremental: one revolving door grows until it swallows the city; goal = all 8.2 billion people. **Chrome YouTube check 7 Nov:** no English video; Hultutigamer (JP, 48.5K subs) 13K in 2 days, 22 min, 2.0x. Demo length unknown (maybe ~30–40 min). Windows → CrossOver |
+| Feed The Pond (5347210 / demo 5389450) | Free demo out 3 Nov, 100% of 10 reviews; full "coming soon" | Free | 🟡 backup for Mon 9 Nov | Hire frogs, brew potions, feed a Wart that is never full. Chrome YouTube check 7 Nov: only the trailer (514 views) |
+| Marchling Idle (demo 5483660) | Free demo out 3 Nov | Free | 🟢 backup | Army grows and crushes the enemy. Chrome YouTube check 7 Nov: no video |
+| Other free demos seen 7 Nov (not checked) | Zombie Incremental: The Last Outpost · Island Crusade · Smash & Settle · Particle Collectotron · Pigeon Idle · Sam, We Talked About This (AI eats the internet, Mac ✓, 2 Dec) | Free | — | Free-to-play full games found were idle RPG/cultivation/desktop pets: skip |
+| Too Many Roaches (demo 5504490) | Free demo out 5 Nov | Free | ❌ probably too short | ~10 min to the boss, then endless |
+| How Many Tickets Does It Take To Win The Lottery? | Not released on Steam | — | 🟢 watch | Azrilich 34K (3 Nov) — maybe a playtest/early build. Re-check on release |
+| Hammer these nails! (5229450) | Full game out Wed 4 Nov, Positive (19 reviews) | $3.59 | ❌ skip | **Solved: the Idle cub "10,000 nails" game.** Crowded: Idle cub 347K, ImCade 1.19M-sub channel, FungalBrainRot "100%" 41.7K, Azrilich 53K, GameEdged 23K |
+| Leaf it Alone (3981100) | Out; big update 30 Oct (2 new maps) | $2.99 | ❌ skip | Crowded: DangerouslyFunny 268K, ImCade 190K, Sonoket 86K, Skoottie 55.6K, Azrilich today |
+| Selkie's Salvage&Co. | Out, 98% of 873 | $7.99 | ❌ skip | Azrilich 25.7K (2 Nov); too much of the budget |
+| Pile Bop! (itch.io, browser) | Out 7 Nov | Free | 🟢 backup | 30–90 min, digging |
+
 ### Trending free demos, checked Sun 1 Nov 2026 (Steam store API + vidIQ; none run-tested yet)
 
 | Game | Free demo / full game | Speed | YouTube evidence (1 Nov 2026) |
@@ -82,7 +106,7 @@ Prices are US prices unless marked. His Steam (Bangladesh) may show lower prices
 | Clean 'Em Ocean (demo 5320660) | Demo since 1 Oct (~40 min); full March 2027 | Free | ❌ demo too short | Guess: Azrilich's "ocean trash" video (2 Nov) |
 
 Other status changes (Steam, 5 Nov): Wipe Them Out! full game → Tue 12 Jan 2027 · PAYDIRT → "coming soon" · Alien Archeologist full → Thu 21 Jan 2027 · The Woodman still $4.99.
-Unknown game to identify: Idle cub "hammering in 10,000 nails" — 194K in 1 day (seen 5 Nov). Possible 🔥 if free/cheap.
+Idle cub "hammering in 10,000 nails" = **Hammer these nails!** (solved 7 Nov, skip: crowded).
 New itch.io browser games (untested): Feed The Queen DEMO · Mold inc. · Hamsi · Twisty Infinity.
 
 ### Next Fest scout, 21 Oct 2026 (game-scout; Steam data only, demo length and YouTube coverage NOT verified)

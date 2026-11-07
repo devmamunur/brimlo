@@ -6,7 +6,7 @@
 - "Scout pick" = a free demo, playtest, free-to-play game or developer key chosen with `/pick-game` that week.
 - Status: ✅ published · 🕒 scheduled · 🎬 recorded · 📝 planned · ❓ open slot
 
-Last updated: Thu 5 Nov 2026 (/pick-game) · Sim games are a "later" queue: owned + planned games first (see games/backlog.md)
+Last updated: Sat 7 Nov 2026 (/pick-game) · Sim games are a "later" queue: owned + planned games first (see games/backlog.md)
 
 ## Phase 1 — Launch + Next Fest
 
@@ -75,10 +75,12 @@ Last updated: Thu 5 Nov 2026 (/pick-game) · Sim games are a "later" queue: owne
 
 | Upload | Video | Game source | Status |
 |---|---|---|---|
-| Tue 10 Nov | Keep on Mining! | Owned (CrossOver) | 📝 |
+| **Mon 9 Nov** | **Round and Round Inc. (demo)** 🔥 FAST (checked Sat 7 Nov: free demo out ~2 Nov, full game Thu 12 Nov; only a Japanese video, Hultutigamer 13K in 2 days (22 min, 2.0x); no English video in Chrome YouTube search). One revolving door swallows the whole city — goal: let in all 8.2 billion people. **Record Sun 8 Nov · Publish Mon 9 Nov, 10 PM Dhaka**. Risk: the demo may be short (~30–40 min); if it ends in under 30 min, switch to the backup. Backup: Feed The Pond demo (cozy frogs, no coverage) | Free demo (5520370). Windows → CrossOver, run test pending | 📝 |
+| ~~Tue 10 Nov~~ | Keep on Mining! → moved to Fri 4 Dec on 7 Nov (keeps this week at 4 videos) | Owned (CrossOver) | — |
+| **Wed 11 Nov** | **The Big Suck — full launch** 🔥 FAST (checked Sat 7 Nov: full game Mon 9 Nov; demo proven — JustPatrick-Idle 4K subs got 67K, trailer 89K; no full-game video yet). **Record Tue 10 Nov · Publish as soon as the edit is done, Wed 11 Nov 10 PM Dhaka at the latest** (fast lane). Angle: full game, eat the whole planet. Run test the free demo (5191500) first. Backup: Wreck & Profit demo | Paid at launch (price not shown yet; buy only if ≤ ~$7). Windows → CrossOver | 📝 |
 | Fri 13 Nov | Nodebuster | Owned | 📝 |
 | **Sat 14 Nov** | **Bottle Flip Inc — full release** 🔥 FAST (checked Thu 5 Nov: full game Thu 12 Nov; Azrilich demo video 4 Nov, 31K). Launch-day 100% run, not a copy of his demo video. **Record Fri 13 Nov · Publish Sat 14 Nov, 10 PM Dhaka**. Test the free demo (4966120) first. Backup: Bean in a Ball Pit (also launches Thu 12 Nov) | Paid at launch (price not shown yet). Windows → CrossOver | 📝 |
-| Sun 15 Nov | Sandustry | Owned (Mac) | 📝 |
+| ~~Sun 15 Nov~~ | Sandustry → moved to Sun 29 Nov on 7 Nov (keeps this week at 4 videos) | Owned (Mac) | — |
 
 - Sat 14: two videos — **Another Game About Digging a Hole** + scout pick. Sun 15: one scout pick.
 
@@ -89,15 +91,15 @@ Last updated: Thu 5 Nov 2026 (/pick-game) · Sim games are a "later" queue: owne
 | Tue 17 Nov | Another Game About Digging a Hole | Owned (CrossOver) | 📝 |
 | Wed 18 Nov | My Dirty Little Lake — launch week (full game Mon 16 Nov). Re-check speed label before recording | Free demo now / paid at launch. CrossOver, test pending | 📝 |
 | Fri 20 Nov | Summer for ANT 🟡 SOON (planned game; re-check coverage before recording) | Free demo, Windows → CrossOver, run test pending | 📝 |
-| Sun 22 Nov | Cast n Chill 🟢 RELAXED (owned, calm; breaks up the mining run) | Owned | 📝 |
+| Sun 22 Nov | **Wreck & Profit** 🟡 SOON (checked Sat 7 Nov: free demo out 7 Nov, no YouTube video yet, no end date). Re-check coverage before recording. Backup: Void Demolition Co. demo | Free demo (5421310). Windows → CrossOver, run test pending | 📝 |
 
 ### Week 7 · 23–29 Nov — Steam Autumn Sale (usually around US Thanksgiving, Thu 26 Nov — confirm dates)
 
 | Upload | Video | Game source | Status |
 |---|---|---|---|
 | Tue 24 Nov | Supermarket Simulator — **one video only** ("Empty shop → MEGA supermarket") | Owned (Mac) | 📝 |
-| Fri 27 Nov | Scout pick | Free / key / sale buy | ❓ |
-| Sun 29 Nov | Scout pick | Free / key / sale buy | ❓ |
+| Fri 27 Nov | Cast n Chill 🟢 RELAXED (moved from Sun 22 Nov on 7 Nov) | Owned | 📝 |
+| Sun 29 Nov | Sandustry 🟢 RELAXED (moved from Sun 15 Nov on 7 Nov) | Owned (Mac) | 📝 |
 
 - Buy 2–3 games on sale, max $15 total, only after the checklist passes.
 
@@ -106,7 +108,7 @@ Last updated: Thu 5 Nov 2026 (/pick-game) · Sim games are a "later" queue: owne
 | Upload | Video | Game source | Status |
 |---|---|---|---|
 | Tue 1 Dec | **Diversion — full release** (launches Mon 30 Nov) 🟢 RELAXED for now; re-check on launch | Demo free now / paid at launch | 📝 |
-| Fri 4 Dec | Scout pick | | ❓ |
+| Fri 4 Dec | Keep on Mining! 🟢 RELAXED (moved from Tue 10 Nov on 7 Nov) | Owned (CrossOver) | 📝 |
 | Sun 6 Dec | Scout pick | | ❓ |
 
 - **Checkpoint Sun 6 Dec.**
@@ -163,10 +165,10 @@ Last updated: Thu 5 Nov 2026 (/pick-game) · Sim games are a "later" queue: owne
 | A Game About Digging a Hole | ✅ Wed 14 Oct |
 | Rock Crusher | Tue 20 Oct |
 | Sorting Inc | Fri 23 Oct |
-| Cast n Chill | Tue 3 Nov |
+| Cast n Chill | Fri 27 Nov |
 | Scratch the Ticket | Fri 6 Nov |
-| Keep on Mining! | Tue 10 Nov |
+| Keep on Mining! | Fri 4 Dec |
 | Nodebuster | Fri 13 Nov |
-| Sandustry | Sun 15 Nov |
+| Sandustry | Sun 29 Nov |
 | Another Game About Digging a Hole | Tue 17 Nov |
 | Supermarket Simulator | Tue 24 Nov (one video) |

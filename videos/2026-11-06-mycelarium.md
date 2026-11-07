@@ -13,6 +13,7 @@
 | Runs on | CrossOver Steam — demo run test ✅ Fri 6 Nov 2026. Test the full game for 10 minutes before recording |
 | Target length | 60–120 min (a full run to the ending is ~2 h for other players) |
 | YouTube link | https://youtu.be/yQRl1LxMz7s |
+| After publish | Pinned comment Sun 8 Nov 2026: "My recording died right before the last magic mushroom 😭" · Clean subtitles published Sun 8 Nov 2026 (English US, 1,153 lines; fixed boar, hedgehog, spores, skills, nodes) |
 
 ## Game in one sentence
 

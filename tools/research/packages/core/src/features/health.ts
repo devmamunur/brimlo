@@ -80,8 +80,8 @@ export async function healthCheck(input: z.infer<typeof healthInput>): Promise<E
   }));
   checks.push(await check("Steam reviews", async () => {
     const r = await reviews(1454400, { filter: "recent", num: 5, language: "all" });
-    must(r.summary.total > 0 && r.reviews.length > 0, "no reviews returned");
-    return `${r.summary.total.toLocaleString("en-US")} reviews, ${r.reviews.length} texts`;
+    must(r.summary.total > 0, "no reviews returned");
+    return `${r.summary.total.toLocaleString("en-US")} reviews, ${r.texts_unavailable ? "texts unavailable (store-page summary only)" : `${r.reviews.length} texts`}`;
   }));
   checks.push(await check("Steam players (Web API)", async () => {
     const p = await currentPlayers(1454400);

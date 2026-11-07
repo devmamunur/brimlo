@@ -1,4 +1,4 @@
-import { decodeEntities, getJson, getText } from "./http.ts";
+import { DEFAULT_MAX_BYTES, decodeEntities, getJson, getText, politeFetchUrl, readCapped } from "./http.ts";
 
 /**
  * Steam data, all free and keyless:
@@ -93,9 +93,34 @@ export async function appDetails(appid: number): Promise<AppDetails | null> {
 export interface ReviewSummary { score_desc: string; total: number; positive: number; negative: number; positive_pct: number | null }
 export interface Review { text: string; voted_up: boolean; playtime_hours: number; created: string; helpful: number }
 
-export async function reviews(appid: number, opts: { filter?: "recent" | "all"; num?: number; language?: string } = {}): Promise<{ summary: ReviewSummary; reviews: Review[] }> {
+/**
+ * Review summary read from the store page ("84% of the 19 user reviews for this game are positive.").
+ * Used when the /appreviews JSON endpoint is unavailable (since ~7 Nov 2026 it redirects every app to the store home page).
+ */
+export async function storePageReviewSummary(appid: number): Promise<ReviewSummary> {
+  const { text } = await getText(`${STORE}/app/${appid}/?${CC}`);
+  const tips = [...text.matchAll(/data-tooltip-html="(\d+)% of the ([\d,]+) user reviews/g)];
+  const last = tips.at(-1); // the page lists "Recent" first, then "All"
+  const descs = [...text.matchAll(/game_review_summary[^"]*"[^>]*>([^<]+)</g)].map((m) => m[1]!.trim());
+  if (!last) return { score_desc: /No user reviews/i.test(text) ? "No user reviews" : (descs.at(-1) ?? "No reviews"), total: 0, positive: 0, negative: 0, positive_pct: null };
+  const pct = Number(last[1]);
+  const total = Number(last[2]!.replace(/,/g, ""));
+  const positive = Math.round((total * pct) / 100);
+  return { score_desc: descs.at(-1) ?? "", total, positive, negative: total - positive, positive_pct: pct };
+}
+
+export async function reviews(appid: number, opts: { filter?: "recent" | "all"; num?: number; language?: string } = {}): Promise<{ summary: ReviewSummary; reviews: Review[]; texts_unavailable?: boolean }> {
   const num = Math.min(100, opts.num ?? 0);
-  const j = await getJson<any>(`${STORE}/appreviews/${appid}?json=1&language=${opts.language ?? "english"}&purchase_type=all&num_per_page=${num}&filter=${opts.filter ?? "recent"}&review_type=all`);
+  let j: any;
+  try {
+    const { res, finalUrl } = await politeFetchUrl(`${STORE}/appreviews/${appid}?json=1&language=${opts.language ?? "english"}&purchase_type=all&num_per_page=${num}&filter=${opts.filter ?? "recent"}&review_type=all`);
+    const body = await readCapped(res, DEFAULT_MAX_BYTES);
+    if (!res.ok || !finalUrl.includes("/appreviews/")) throw new Error(`appreviews redirected to ${finalUrl} (HTTP ${res.status})`);
+    j = JSON.parse(body);
+  } catch {
+    // Steam's review JSON is down or changed: keep the tool working with the store-page summary (no review texts).
+    return { summary: await storePageReviewSummary(appid), reviews: [], texts_unavailable: true };
+  }
   const q = j.query_summary ?? {};
   const total = q.total_reviews ?? 0;
   return {
