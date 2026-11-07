@@ -70,13 +70,13 @@ What both did that we don't do: "Welcome back… I don't know anything about thi
 ```
 A (main): I Grew One Tiny Mushroom Under an Entire Forest
 B: I Reincarnated as a Mushroom and Built an Army
-C: These Mushrooms Aren't Going to Grow Themselves
+C: I 100%'d This Mushroom Game and Then My Recording Died
 ```
 - A = P1 tiny → huge. True: roots cover the whole ground at 1:32 (918,999 cm).
 - B = P2 crazy thing + result. Same words as the first line of the video; mushroom army all video.
-- C = P4 one huge job. Different shape, so the test teaches us something.
+- C = P2 with a twist. True: game finished 100% (Mamunur, 7 Nov 2026); the recording stopped before the end and he says so at 1:34. The test shows if "100%" brings clicks. No "100%" badge on the thumbnail (not on screen).
 
-`brimlo_score_title` (estimate, 7 Nov 2026): A 78 · B 78 · C 67. Spare true title (P1 number): "I Grew One Mushroom Into 9 Kilometers of Roots" (78).
+`brimlo_score_title` (estimate, 7 Nov 2026): A 78 · B 78 · (old C "These Mushrooms Aren't Going to Grow Themselves" 67). Spare true title (P1 number): "I Grew One Mushroom Into 9 Kilometers of Roots" (78).
 Old drafts dropped: "…Until It Ate the Forest" (no tree eaten on screen), "…Find 5 Magic Mushrooms" (only 4 on screen).
 
 **A/B test in Studio:** not yet · check report 7 days after publish
@@ -270,7 +270,7 @@ Times from the transcript of the final export (1:35:27), Sat 7 Nov 2026. Check a
 ```
 I was one tiny mushroom. Then I built a mushroom army. Help Brimlo reach 100 subs :)
 I played Mycelarium, a calm mushroom incremental game. Grow roots under the forest, drink water, eat salt and leaves, and build mushrooms on the ground while hedgehogs, crows, squirrels and a giant boar try to eat them. My roots grew from 839 cm to 918,999 cm, I maxed every skill, found 4 magic mushrooms on camera and started the great migration.
-Sad news: my recording stopped in the last few minutes, so you don't see the last magic mushroom. But I did finish the game.
+I finished the game 100%, but my recording stopped right before the last magic mushroom. Sorry, you don't see that part.
 CURRENT SUBS: 3
 
 Calm, full-length gameplay to relax or fall asleep to. You rest. I'll keep going.
@@ -296,7 +296,7 @@ Chapters
 
 ## Tags
 
-mycelarium, mycelarium gameplay, mycelarium full game, mycellarium, mycelium game, mushroom game, fungus game, incremental game, idle game, relaxing gameplay, gameplay to fall asleep to, brimlo
+mycelarium, mycelarium 100%, mycelarium gameplay, mycelarium full game, mycellarium, mycelium game, mushroom game, fungus game, incremental game, idle game, relaxing gameplay, gameplay to fall asleep to, brimlo
 
 ## Results
 
