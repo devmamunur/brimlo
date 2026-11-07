@@ -2,9 +2,9 @@
 
 | | |
 |---|---|
-| Status | 🎬 **Recorded Fri 6 Nov 2026, edited + exported Sat 7 Nov 2026 (1:35:27).** Not uploaded Fri 6 Nov. Uploading Sat 7 Nov 2026 (started ~9 PM Dhaka). |
-| Playlists | Incremental Games: Numbers Go UP (full game, not a demo → no demo list) |
-| End screen | Best for viewer + Incremental Games: Numbers Go UP + Subscribe (Import from video: Ant Mill Inc) |
+| Status | ✅ **Published Sat 7 Nov 2026, 10 PM Dhaka (11 AM ET)**, public. Recorded Fri 6 Nov 2026, edited Sat 7 Nov 2026 (1:35:27). Missed the Fri 6 Nov upload. |
+| Playlists | Incremental Games: Numbers Go UP (added in Studio Sat 7 Nov 2026; full game → no demo list) |
+| End screen | Best for viewer + Incremental Games: Numbers Go UP + Subscribe — imported from Ant Mill Inc, saved Sat 7 Nov 2026 (last 20 s, 1:35:07–1:35:27) |
 | Upload | **Sat 7 Nov 2026**, as soon as the upload and HD processing finish (FAST game: any time 6 PM–9 AM Dhaka is fine — Mamunur, Fri 6 Nov) |
 | Record | Fri 6 Nov 2026 |
 | Upload speed | 🔥 FAST — full game out Tue 3 Nov 2026; small channels win now (Yusterday 31K in 2 days; FungalBrainRot "100%" 11.2K in ~1.5 days, checked 5 Nov 2026). Moved 1 day earlier on Fri 6 Nov (Mamunur): the wave is ending (late videos on 5 Nov get only 150–760 views). Publish the same night |
@@ -12,7 +12,7 @@
 | Source | Paid, $2.39 (gift purchase Fri 6 Nov 2026, Steam status "Pending" — check it is in your library before recording) |
 | Runs on | CrossOver Steam — demo run test ✅ Fri 6 Nov 2026. Test the full game for 10 minutes before recording |
 | Target length | 60–120 min (a full run to the ending is ~2 h for other players) |
-| YouTube link | |
+| YouTube link | https://youtu.be/yQRl1LxMz7s |
 
 ## Game in one sentence
 
@@ -82,7 +82,7 @@ C: I 100%'d Mycelarium and Built a Fungal Empire
 Old drafts dropped: "…Until It Ate the Forest" (no tree eaten on screen), "…Find 5 Magic Mushrooms" (only 4 on screen).
 
 **A/B test (vidIQ A/B Testing, title + thumbnail), set Sat 7 Nov 2026:** variant 1 = A + thumbnail without text · variant 2 = C (game name exception, see playbook/titles.md) + thumbnail with "100%" top-right · variant 3 (optional) = B + thumbnail without text.
-**Status:** set up, not checked yet · check report 7 days after publish
+**Status:** set up Sat 7 Nov 2026. Check the report on Sat 14 Nov 2026 and log the winner in playbook/titles.md → Title test log. · check report 7 days after publish
 **Winner:**
 
 ## Thumbnail idea
