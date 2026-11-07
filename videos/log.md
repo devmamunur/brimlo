@@ -18,7 +18,7 @@ Status: ✅ published · 🕒 scheduled · 🎬 recorded · 📝 planned · 🔒
 | 10 | Sun 1 Nov 2026 | Pack Ripper (demo) | I Spent My Rent on Card Packs to Find the GOLDEN TICKET \| Pack Ripper ([link](https://youtu.be/56WpR7ubEHY)) | 1:50:53 | ✅ | Free demo (CrossOver ✅) | | | | | [file](2026-11-01-pack-ripper.md) |
 | 11 | Tue 3 Nov 2026 | Ant Mill Inc (demo) | I Feed a Giant WORM So It Will Not Eat My Ants \| Ant Mill Inc | 32:27 | ⏰ | Free demo | | | | | [file](2026-11-03-ant-mill-inc.md) |
 | 12 | Thu 5 Nov 2026 | Way Too Many Fish! (demo) | I Sorted WAY TOO MANY Fish and Bought EVERY Upgrade (renamed Fri 6 Nov 2026, ~3 h after publish; was "Sorting Fish Until I Bought EVERY Upgrade \| Way Too Many Fish") ([link](https://youtu.be/mun4UOwRM8w)) | 1:25:31 | ✅ | Free demo (CrossOver ✅) | | | | | [file](2026-11-05-way-too-many-fish.md) |
-| 13 | Fri 6 Nov 2026 | Mycelarium | (draft A) I Grew One Tiny Mushroom Under an Entire Forest | | 📝 (record + publish Fri 6 Nov) | Paid $2.39 (CrossOver, demo ✅) | | | | | [file](2026-11-06-mycelarium.md) |
+| 13 | Sat 7 Nov 2026 | Mycelarium | I Grew One Tiny Mushroom Under an Entire Forest | 1:35:27 | 🎬 recorded Fri 6 Nov, edited Sat 7 Nov; uploading Sat 7 Nov (missed Fri 6 Nov) | Paid $2.39 (CrossOver, demo ✅) | | | | | [file](2026-11-06-mycelarium.md) |
 
 ## Medians (update every Sunday)
 

@@ -2,8 +2,10 @@
 
 | | |
 |---|---|
-| Status | 📝 planned |
-| Upload | Fri 6 Nov 2026, at night as soon as the edit is done (FAST game: skip the fixed 10 PM slot; any time 6 PM–9 AM Dhaka is fine — Mamunur, Fri 6 Nov) |
+| Status | 🎬 **Recorded Fri 6 Nov 2026, edited + exported Sat 7 Nov 2026 (1:35:27).** Not uploaded Fri 6 Nov. Uploading Sat 7 Nov 2026 (started ~9 PM Dhaka). |
+| Playlists | Incremental Games: Numbers Go UP (full game, not a demo → no demo list) |
+| End screen | Best for viewer + Incremental Games: Numbers Go UP + Subscribe (Import from video: Ant Mill Inc) |
+| Upload | **Sat 7 Nov 2026**, as soon as the upload and HD processing finish (FAST game: any time 6 PM–9 AM Dhaka is fine — Mamunur, Fri 6 Nov) |
 | Record | Fri 6 Nov 2026 |
 | Upload speed | 🔥 FAST — full game out Tue 3 Nov 2026; small channels win now (Yusterday 31K in 2 days; FungalBrainRot "100%" 11.2K in ~1.5 days, checked 5 Nov 2026). Moved 1 day earlier on Fri 6 Nov (Mamunur): the wave is ending (late videos on 5 Nov get only 150–760 views). Publish the same night |
 | Game | Mycelarium — https://store.steampowered.com/app/5181520/ |
@@ -46,23 +48,59 @@ So a full run is ~2 hours of play. That fits one video. Yusterday stopped at 46 
 
 What both did that we don't do: "Welcome back… I don't know anything about this game", reading every tutorial line, and reading the whole skill tree aloud (~9–10 min). We start with Kevin and the goal, and say skills in 3–4 words.
 
+## What really happened (from the transcript of the final export, 1:35:27)
+
+- **Opening (0:00):** "This small mushroom is me. I just reincarnated in this world as a mushroom… maybe I am going to be the king of this world or make a full mushroom army." Goal + gameplay from second 0. No Kevin name, no big number.
+- Roots: **839 cm at ~2:00 → 918,999 cm (~9.2 km) at 1:33**. Root length per shot 34 cm in red soil → 250 cm at the end.
+- 7:45 the hedgehog takes the first mushroom. 27:10 first crow. 32:23 a giant boar ("it will destroy my mushrooms").
+- 46:20 finds the underground water ("I found the ocean") → water 1,000,000, infinite water.
+- Magic mushrooms on screen: **Water 26:34, Flora 52:38, Cosmos 1:07:26 (roots glow), Fauna 1:21:06 (scares squirrels forever)** = 4 of 5.
+- 54:16 can eat worms now. 58:26 alien ship ("family reunion").
+- 1:22 has 416 points → **1:23:26 every skill maxed**.
+- **1:32:05 "You are ready for the great migration"** (100/100 spore mushrooms, 10,000 water, 10,000 food) → earth shakes, spores everywhere, roots cover the whole ground under the forest.
+- **1:34 honest ending:** the recording stopped in the last few minutes. He found the 5th magic mushroom (Light Shroom) and finished the game off-camera. So: **4 of 5 magic mushrooms on screen.** Never claim "all 5" in a title or thumbnail.
+- No tree eaten on screen → the old "Ate the Forest" title is not true.
+- Running joke: the animals take his mushrooms; his answer: "No problem, I'll make 10 more… a mushroom army."
+- Quiet parts: only one, 55:07–55:29 (22 s). Talk is 80% of the video. OK to leave this time.
+
 ## Titles
 
-| Test | Pattern (P1–P7) | Title |
-|---|---|---|
-| A (main, live title) | P1 — tiny → huge, true end result | I Grew One Tiny Mushroom Under an Entire Forest |
-| B | P2 — "until" + funny result (consumer mushrooms eat trees) | I Fed One Mushroom Until It Ate the Forest |
-| C | P5 — clear finish (5 magic mushrooms) | I Can't Leave Until I Find 5 Magic Mushrooms |
+**Final, Sat 7 Nov 2026 (checked against the final export):**
 
-`brimlo_score_title` (estimate, 6 Nov 2026): A 77 · B 77 · C 74. Close, so the test decides.
-**Check after recording:** A only if the roots really cover most of the map. B only if a tree is really eaten on screen. C only if you find all 5.
+```
+A (main): I Grew One Tiny Mushroom Under an Entire Forest
+B: I Reincarnated as a Mushroom and Built an Army
+C: These Mushrooms Aren't Going to Grow Themselves
+```
+- A = P1 tiny → huge. True: roots cover the whole ground at 1:32 (918,999 cm).
+- B = P2 crazy thing + result. Same words as the first line of the video; mushroom army all video.
+- C = P4 one huge job. Different shape, so the test teaches us something.
+
+`brimlo_score_title` (estimate, 7 Nov 2026): A 78 · B 78 · C 67. Spare true title (P1 number): "I Grew One Mushroom Into 9 Kilometers of Roots" (78).
+Old drafts dropped: "…Until It Ate the Forest" (no tree eaten on screen), "…Find 5 Magic Mushrooms" (only 4 on screen).
 
 **A/B test in Studio:** not yet · check report 7 days after publish
 **Winner:**
 
 ## Thumbnail idea
 
-House style v3 (see playbook/thumbnails.md). Make the prompt with `/finish-video` from the real end screen.
+House style v3. Action: feed / grow. Attach frames `tools/transcribe/out/2026-11-06-mycelarium/frames/24_01-33-28.jpg` (glowing roots + mushrooms on top) and `16_01-01-39.jpg` (forest + big mushrooms).
+
+```
+Create a YouTube thumbnail, exactly 1280x720 pixels (16:9).
+
+STYLE: bright 2D cartoon vector illustration. Thick bold black ink outlines on everything, flat cel-shaded colors, very high saturation, clean shapes, low detail, and a thin white edge around the hands and the main object so they pop. Use the attached Mycelarium screenshots only as a reference for the shape and colors of the mushrooms, the glowing white roots and the dark green pixel forest, and redraw them in this cartoon style. Do not copy any text, numbers or menus from the screenshots.
+
+HANDS: first-person view. Two big cartoon hands come in from the bottom-left and bottom-right corners. The hands wear dark navy blue sleeves (#0B1023) with a thin gold cuff (#FFC83D). They are pouring water from a small watering can onto one tiny mushroom, and its glowing roots spread out under the ground right now.
+
+CENTER: one cute small red-brown mushroom with a white stem, very close to the camera, standing on the ground line, about half of the image tall with its roots. Under it, bright glowing white-gold roots spread down and sideways through brown soil like lightning. It is the brightest and clearest thing in the picture. One small funny detail: the mushroom has a tiny proud smile, and a small hedgehog at the edge of the forest stares at it with big worried eyes.
+
+BACKGROUND: the top third is a dark green pixel-style forest with tall tree trunks and many small mushrooms on the ground. The bottom two thirds is brown soil completely filled with glowing roots all the way to the edges, with a few small blue water pools. Strong saturated greens, browns and glowing white-gold, never grey.
+
+TEXT: none. No letters, numbers or words anywhere.
+
+AVOID (negative prompt): any text, letters, numbers, words, photorealism, 3D render, realistic skin, realistic hands, photo, DSLR, cinematic lighting, grey or muddy colors, white gloves, extra fingers, more than two hands, fake logos, watermarks, signatures, the YouTube logo, a mascot or logo stamp in any corner, borders, frames, small inset image boxes in any corner, split screens, arrows, emoji, radial lines, plain empty background, tiny details, many small objects competing with the center object, blurry colors.
+```
 
 ## Recording script
 
@@ -212,19 +250,53 @@ No girlfriend joke. No cat joke.
 
 ## Chapters
 
-```
-00:00 
-```
+Times from the transcript of the final export (1:35:27), Sat 7 Nov 2026. Check against YouTube auto-captions after publish.
 
-(Make with `/finish-video` from the real captions.)
+```
+00:00 I Became One Tiny Mushroom
+07:45 The Hedgehog Took My Mushroom
+26:34 First Magic Mushroom
+32:23 A Giant Boar Shows Up
+46:20 Infinite Water Underground
+52:38 Second Magic Mushroom
+1:07:26 My Roots Start to Glow
+1:21:06 Squirrels Scared Away Forever
+1:23:26 Every Skill Maxed
+1:32:05 The Great Migration
+```
 
 ## Description
 
-(Make with `/finish-video` after recording.)
+```
+I was one tiny mushroom. Then I built a mushroom army. Help Brimlo reach 100 subs :)
+I played Mycelarium, a calm mushroom incremental game. Grow roots under the forest, drink water, eat salt and leaves, and build mushrooms on the ground while hedgehogs, crows, squirrels and a giant boar try to eat them. My roots grew from 839 cm to 918,999 cm, I maxed every skill, found 4 magic mushrooms on camera and started the great migration.
+Sad news: my recording stopped in the last few minutes, so you don't see the last magic mushroom. But I did finish the game.
+CURRENT SUBS: 3
+
+Calm, full-length gameplay to relax or fall asleep to. You rest. I'll keep going.
+Which game should I play next? Tell me in the comments.
+
+🎮 Mycelarium on Steam: https://store.steampowered.com/app/5181520/
+Developer: PLAN KAPKAN
+
+Chapters
+00:00 I Became One Tiny Mushroom
+07:45 The Hedgehog Took My Mushroom
+26:34 First Magic Mushroom
+32:23 A Giant Boar Shows Up
+46:20 Infinite Water Underground
+52:38 Second Magic Mushroom
+1:07:26 My Roots Start to Glow
+1:21:06 Squirrels Scared Away Forever
+1:23:26 Every Skill Maxed
+1:32:05 The Great Migration
+
+#Mycelarium #IncrementalGame #MushroomGame
+```
 
 ## Tags
 
-mycelarium, mushroom game, incremental game, idle game, fungus game, relaxing gameplay, brimlo
+mycelarium, mycelarium gameplay, mycelarium full game, mycellarium, mycelium game, mushroom game, fungus game, incremental game, idle game, relaxing gameplay, gameplay to fall asleep to, brimlo
 
 ## Results
 
