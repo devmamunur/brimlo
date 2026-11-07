@@ -69,12 +69,14 @@ What both did that we don't do: "Welcome back… I don't know anything about thi
 
 ```
 A (main): I Grew One Tiny Mushroom Under an Entire Forest
-B: I Reincarnated as a Mushroom and Built an Army
-C: I 100%'d This Mushroom Game and Then My Recording Died
+B: I Became a Mushroom and Took Over the Earth
+C: I 100%'d a Mushroom Game and Built a Fungal Empire
 ```
 - A = P1 tiny → huge. True: roots cover the whole ground at 1:32 (918,999 cm).
-- B = P2 crazy thing + result. Same words as the first line of the video; mushroom army all video.
-- C = P2 with a twist. True: game finished 100% (Mamunur, 7 Nov 2026); the recording stopped before the end and he says so at 1:34. The test shows if "100%" brings clicks. No "100%" badge on the thumbnail (not on screen).
+- B = P2 crazy thing + result. True: "I reincarnated as a mushroom" (0:00) + great migration, "the whole earth is now around the mushrooms" (1:32).
+- C = P5-style finish + "100%" + "empire". True: game finished 100% (Mamunur, 7 Nov 2026; last mushroom off camera, said at 1:34). No "100%" badge on the thumbnail.
+- **Why B + C (changed Sat 7 Nov 2026, Mamunur):** the best Mycelarium videos (vidIQ search, 7 Nov 2026) use "take over the earth" (MOBIK RU 80K, Yusterday "consumed the Earth" 23K), "100%" (MOBIK 80K, FungalBrainRot 43.8K) and "fungal empire" (Yusterday 147.7K with 898 subs). Same ideas, our own words.
+- Scores (brimlo_score_title, estimate): B 78 · C 78.
 
 `brimlo_score_title` (estimate, 7 Nov 2026): A 78 · B 78 · (old C "These Mushrooms Aren't Going to Grow Themselves" 67). Spare true title (P1 number): "I Grew One Mushroom Into 9 Kilometers of Roots" (78).
 Old drafts dropped: "…Until It Ate the Forest" (no tree eaten on screen), "…Find 5 Magic Mushrooms" (only 4 on screen).
