@@ -70,7 +70,7 @@ What both did that we don't do: "Welcome back… I don't know anything about thi
 ```
 A (main): I Grew One Tiny Mushroom Under an Entire Forest
 B: I Became a Mushroom and Took Over the Earth
-C: I 100%'d a Mushroom Game and Built a Fungal Empire
+C: I 100%'d Mycelarium and Built a Fungal Empire
 ```
 - A = P1 tiny → huge. True: roots cover the whole ground at 1:32 (918,999 cm).
 - B = P2 crazy thing + result. True: "I reincarnated as a mushroom" (0:00) + great migration, "the whole earth is now around the mushrooms" (1:32).
@@ -81,7 +81,8 @@ C: I 100%'d a Mushroom Game and Built a Fungal Empire
 `brimlo_score_title` (estimate, 7 Nov 2026): A 78 · B 78 · (old C "These Mushrooms Aren't Going to Grow Themselves" 67). Spare true title (P1 number): "I Grew One Mushroom Into 9 Kilometers of Roots" (78).
 Old drafts dropped: "…Until It Ate the Forest" (no tree eaten on screen), "…Find 5 Magic Mushrooms" (only 4 on screen).
 
-**A/B test in Studio:** not yet · check report 7 days after publish
+**A/B test (vidIQ A/B Testing, title + thumbnail), set Sat 7 Nov 2026:** variant 1 = A + thumbnail without text · variant 2 = C (game name exception, see playbook/titles.md) + thumbnail with "100%" top-right · variant 3 (optional) = B + thumbnail without text.
+**Status:** set up, not checked yet · check report 7 days after publish
 **Winner:**
 
 ## Thumbnail idea

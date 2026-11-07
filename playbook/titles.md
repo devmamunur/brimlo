@@ -48,6 +48,8 @@ Rare extra (max 1 in 10 videos): "This Is the Most Satisfying Game of the Year" 
 8. **Funny is good, mean is not.** A small joke or twist ("And I Regret Nothing", "…Before It Ate Me", "…and the Cats Were Not Happy") from this game's real events.
 9. **Thumbnail text never repeats the title** (see thumbnails.md).
 
+**Exception: game name in ONE test title (Mamunur, Sat 7 Nov 2026).** For a new or hot game that people search for by name (launch, demo wave), one of the A/B/C test titles (B or C, never A) may have the game name for search. Still our own words, never another channel's title (e.g. not "I Played 100% Of Mycelarium"). No "|" and no "Demo". The test result decides if we keep doing it. First test: Mycelarium, C = "I 100%'d Mycelarium and Built a Fungal Empire".
+
 ### How to make a title (step by step)
 
 1. Write in one line what really happened in the video (the biggest number, the funniest moment, the end result).
