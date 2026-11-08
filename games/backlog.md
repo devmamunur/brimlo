@@ -1,6 +1,6 @@
 # Game backlog
 
-Last updated: Sat 7 Nov 2026 (scout section).  Mac info for owned games is from Steam store data (6 Oct 2026) unless marked "?". **Always do your own 10-minute test before planning.**
+Last updated: Sun 8 Nov 2026 (dark scout section).  Mac info for owned games is from Steam store data (6 Oct 2026) unless marked "?". **Always do your own 10-minute test before planning.**
 
 Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md](checklist.md) passes. Free first.
 
@@ -19,7 +19,7 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 | Cast n Chill | Mac | Medium (relaxing format) | Fri 27 Nov (moved 7 Nov) | 📝 |
 | Scratch the Ticket | CrossOver | High (Azrilich 956K) → need a fresh angle | Buffer (moved from Fri 6 Nov on 28 Oct) | 📝 |
 | Keep on Mining! | CrossOver | Low–medium (competition 29/100) | Fri 4 Dec (moved 7 Nov) | 📝 |
-| Nodebuster | ? — test | Medium | Fri 13 Nov | 📝 |
+| Nodebuster | ? — test | Medium | Sun 6 Dec | 📝 |
 | Sandustry | Mac | Medium, cooling down | Sun 29 Nov (moved 7 Nov) | 📝 |
 | Another Game About Digging a Hole | CrossOver | Medium | Tue 17 Nov | 📝 |
 | Supermarket Simulator | Mac | Very high (different audience) | Tue 24 Nov — **one video only** | 📝 |
@@ -52,6 +52,29 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 | FEED THE AI | Big outlier, but already covered by Idle Cub and others | Windows only | Paid | Only with a fresh angle (100% run) |
 | My Fire Is Bigger Than Yours | 100% video got 174K | ? | Paid | Covered; fresh angle needed |
 
+### Dark scout, Sun 8 Nov 2026 (game-scout + Chrome YouTube check; no run tests yet)
+
+Nov game spend so far: $2.39. No developer video policy found for any of these.
+
+| Game | Status / date | Price | Speed (checked 8 Nov) | Notes |
+|---|---|---|---|---|
+| **Wait, They Can Climb?!** (5484330, demo 5484870) | Free demo out ~Sun 1 Nov (~7 days → launch window passed); full game Wed 6 Jan 2027 | Free demo | 🔥 FAST → **Mon 9 Nov** (record Sun 8 Nov; [file](../videos/2026-11-09-wait-they-can-climb.md)) | Incremental zombie tower defense: one man on a roof, zombies climb the walls, 5 days in the demo (500 → 8,000 zombies). **Check 8 Nov:** Ash Swoon (3.5K subs) 36.2K in ~18 h (11x); Erdem (TR) 33.7K; BokouChan (TR) 18.2K; only 1 real English video. Demo run ~50–70 min. Windows only → CrossOver, run test pending |
+| **Zombie Incremental: The Last Outpost** (5348360, demo 5357550) | Free demo out Sat 7 Nov (time not found, ~1–2 days ago → launch window passed ⛔ on paper); full game "November 2026" | Free demo | 🔥 FAST → **Tue 10 Nov** | One pistol at the last outpost, zombie horde waves, gold → upgrades. **Re-check 8 Nov:** no gameplay videos yet, only the trailer (the Ash Swoon 7.3K video was a different game, Wait, They Can Climb?! — corrected). Active aim-and-dodge shooter (less idle). Some AI assets (store page). Windows only → CrossOver |
+| **Frankenmine** (4481330) | Full launch Mon 9 Nov, ~19:00 UTC = **~1 AM Dhaka Tue 10 Nov** (estimate from Steam countdown); demo removed | Not shown yet | 🔥 if the price fits → backup for Wed 11 Nov | Dig cursed tombs, build a monster from bones. **Chrome check 8 Nov:** Azrilich (81K) "I dug up body parts to pay off my debt" **60K**, 1 month (demo) · CG Grows (6.4K) 21K, 1 month · Idle Niv (5.9K) 11K, 3 months · trailer 1.3K. Proven demand; Azrilich may post the full game too. No demo to test first: read the first Steam reviews before buying. Win + Mac. Buy only one of The Big Suck / Frankenmine unless both are cheap |
+| Your Suffering Is Important to Us (5017960, demo 5147990) | Free demo since 6 Sep; full launch Mon 9 Nov, ~8 PM Dhaka (estimate) | Not shown yet | 🟢 low demand | Junior demon in a Hell office: torture sinners for profit (comedy-dark). **Chrome check 8 Nov:** trailer 142 views, a 904-sub review, playtest video 44 views; vidIQ volume Very low. No competition but no demand |
+| **Cult of the Yellow King** (3928030, demo 4097050) | Full 1.0 out Mon 12 Oct (27 days ago) | $3.99 | 🟢 RELAXED → **Tue 8 Dec** | Cosmic-horror cult idle, living mold, sky full of eyes. 74% of 136. **Chrome check 8 Nov:** LetsTryGG 1.9K (demo, 10 months), early-access review 1.8K, Indie Enjoyer 1.1K, MicBeMac (6.6K) ~1K, 1.0-release video 318. vidIQ volume Medium, competition Low. 5 prestige paths: check it fits one video. Windows → CrossOver |
+| Into the Planet's Flesh (4724190, demo 4797850) | Free demo (~2 h); full "coming soon" (<5 h) | Free | 🟢 watch → launch-day video | Parasites infest a living planet. Demo already covered by JustPatrick-Idle and CG Grows (views not checked). Plan a launch-day video when it gets a date |
+| Sam, We Talked About This (5145340, demo 5273770) | Demo out Fri 6 Nov; full game Wed 2 Dec | Free demo | 🟡 backup / launch 2 Dec | AI eats the internet (satire, not horror). Not browser-checked |
+| Other dark games seen | Tenebrarium (out 6 Nov, $3.89, 97%) · Abyssal Elevator: Idle Breaker (launch Tue 10 Nov, demo) · Sentient Core: Nanite Idle (EA 7 Nov, $1.99, pacing "days and weeks") | — | 🟢 not browser-checked | Rejected: 100K ZOMBIES (Mixed), A Dark Cave (text), Let It Consume / Necromancer Idle (old), Billionth Soul (deckbuilder) |
+
+Status changes (8 Nov): Unharvest still Mon 7 Dec — Dex 120.8K on the demo (23 Oct), so expect big channels on day 0. The Idle Undead F2P not launched yet.
+
+### Check, Sun 8 Nov 2026 (Mamunur asked; Steam data + Chrome YouTube search)
+
+| Game | Status / date | Price | Speed (checked 8 Nov) | Notes |
+|---|---|---|---|---|
+| **Outliers: Incrementum** (4563740, demo 4697990) | Free demo (Next Fest, Oct); full game "2026", no date; 2,500 wishlists (31 Oct) | Free demo | 🔥 FAST → **Fri 13 Nov** | Incremental ARPG by ipponi: your mouse cursor is an assassin's blade, slash monster waves, loot, skill upgrades, bosses. Demo 100% ≈ 1 hour (videos 58 min–1:21). **Chrome YouTube check 8 Nov:** Sifd (149K) "In This Incremental You are an Assassin that Slashes EVERYTHING!" 1:02, **posted 3h ago**, 1.7K, 379 VPH · 리키리킹 (KR, 11.4K) 27K, 2 wk · Ash Swoon (3.47K) 1.7K, 3 wk, 2.7x · KarmaRave 443 · JTM (18.4K) 177 · MinorSetbackGaming "100%" 84. vidIQ: competition Low, volume Medium. Angle must not copy Sifd's 0%→100%. Mac + Windows; run test pending |
+
 ### Scout, Sat 7 Nov 2026 (game-scout + game wave check + vidIQ YouTube search; no run tests yet)
 
 Steam data via the fixed `brimlo_steam_game` (CLI). US prices. Nov game spend so far: $2.39.
@@ -65,7 +88,7 @@ Steam data via the fixed `brimlo_steam_game` (CLI). US prices. Nov game spend so
 | Frankenmine (4481330) | Full launch Mon 9 Nov; no demo | Not shown | 🟢 watch | Dig cursed tombs, build a monster. Mac ✓. No demo to test before buying |
 | Mine It All! (3941350) | Full launch Sun 8 Nov | Not shown | 🟢 backup | Mining again |
 | Poopcremental Farm (5243300) | Full launch Tue 10 Nov | Not shown | 🟢 watch | Short by its own page |
-| **Round and Round Inc.** (5455960, demo 5520370) | Free demo out ~2 Nov; **full game Thu 12 Nov 2026** | Free demo | 🔥 FAST → **Mon 9 Nov** | Black-and-white incremental: one revolving door grows until it swallows the city; goal = all 8.2 billion people. **Chrome YouTube check 7 Nov:** no English video; Hultutigamer (JP, 48.5K subs) 13K in 2 days, 22 min, 2.0x. Demo length unknown (maybe ~30–40 min). Windows → CrossOver |
+| **Round and Round Inc.** (5455960, demo 5520370) | Free demo out ~2 Nov; **full game Thu 12 Nov 2026** | Free demo | ❌ **Dropped Sun 8 Nov**: demo does not open in CrossOver (Unity 7 alpha; all graphics options failed). Maybe try on the Windows PC for the full game (Thu 12 Nov) | Black-and-white incremental: one revolving door grows until it swallows the city; goal = all 8.2 billion people. **Chrome YouTube check 7 Nov:** no English video; Hultutigamer (JP, 48.5K subs) 13K in 2 days, 22 min, 2.0x. Demo length unknown (maybe ~30–40 min). Windows → CrossOver |
 | Feed The Pond (5347210 / demo 5389450) | Free demo out 3 Nov, 100% of 10 reviews; full "coming soon" | Free | 🟡 backup for Mon 9 Nov | Hire frogs, brew potions, feed a Wart that is never full. Chrome YouTube check 7 Nov: only the trailer (514 views) |
 | Marchling Idle (demo 5483660) | Free demo out 3 Nov | Free | 🟢 backup | Army grows and crushes the enemy. Chrome YouTube check 7 Nov: no video |
 | Other free demos seen 7 Nov (not checked) | Zombie Incremental: The Last Outpost · Island Crusade · Smash & Settle · Particle Collectotron · Pigeon Idle · Sam, We Talked About This (AI eats the internet, Mac ✓, 2 Dec) | Free | — | Free-to-play full games found were idle RPG/cultivation/desktop pets: skip |

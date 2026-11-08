@@ -26,18 +26,19 @@ Plays classic incrementals **and** satisfying job-sims (carpet cleaning, junkyar
 | [Idle Gamer](https://www.youtube.com/@idleclicker) | AU | 4.0K | Small, 77–90 min, +29% / 30d |
 | [FungalBrainRot](https://www.youtube.com/@fungalbrainrot) | US | 4.0K | 127 min, 37/month |
 | [Sifd](https://www.youtube.com/@sifd) | GR | 148K | Non-native leader, but stalled |
-| [Typical Tea](https://www.youtube.com/@typicalteagames) | GB | 5.5K | Calm, ~1/week, city builders — proof calm can grow (other genre) |
+| [Typical Tea](https://www.youtube.com/@typicalteagames) | GB | 5.5K | Calm, ~1/week, city builders — proof calm can grow (other genre) — **untracked Sun 8 Nov 2026** (Mamunur: off-niche, 3 uploads in 30 days) |
 | [JonnyBebop](https://www.youtube.com/@JonnyBebop) | US | 6.35K | Started 22 Jul 2026. Every title "I Played 100% of [Game]", same cartoon face + "100%" badge on every thumb, ~2/week, 35–99 min. Viral full games (Dishwashing 112K, Bug Fighting 83K). Not our format to copy. |
 | [marqujj](https://www.youtube.com/@marqujj) | DE (Turkish) | 4.26K | Started 24 Jul 2026. "%100 bitirdim!" titles, realistic thumbs. Same games as JonnyBebop. |
 | [LuckyLemon](https://www.youtube.com/@LuckyLemonGames) | US | 467 (5 Nov 2026) | **Created 16 Oct 2026.** 14 videos in 19 days, 124K total views, median 2,346. Hits: 1M Coins 46K, Quadrillion Carrots 45K (same game + same day as ours: 85), Moon Dust 10.7K, Paper Shredding 7.9K, 1,234,563 ft Tree 5K in 2 days. Misses (277–630): titles with no big number (cable, crops, cake, balls). No game name in any title, titles ~45 chars, one object + yellow POV glove + number thumbs. Studies: [reports/2026-10-28-head-to-head-review.md](reports/2026-10-28-head-to-head-review.md), gaps check 6 Nov 2026 in chat. |
-| [ksyliki / 리키리킹](https://www.youtube.com/@ksyliki/videos) | KR (Korean) | 11.2K | **Early radar, not a model.** One long video a day (many are 3–11 h stream recordings). Plays almost every new incremental demo, often 1–3 weeks before English channels (Outbreak Z 6 Oct, Rust & Shine 7 Oct). Views 10–20K come from the Korean language moat (links Korean translation patches). Best recent: DreadHaven 56K, The Woodman 41K, Unharvest 40K, IncreTop 39K. Check English coverage before copying a pick. |
+| [ksyliki / 리키리킹](https://www.youtube.com/@ksyliki/videos) | KR (Korean) | 11.2K | **Early radar, not a model. Tracked from Sun 8 Nov 2026** (Mamunur: plays new games before most channels). One long video a day (many are 3–11 h stream recordings). Plays almost every new incremental demo, often 1–3 weeks before English channels (Outbreak Z 6 Oct, Rust & Shine 7 Oct). Views 10–20K come from the Korean language moat (links Korean translation patches). Best recent: DreadHaven 56K, The Woodman 41K, Unharvest 40K, IncreTop 39K. Check English coverage before copying a pick. |
+| [Ash Swoon](https://www.youtube.com/@ashswoon) | ? | 3.51K (8 Nov 2026) | **Tracked from Sun 8 Nov 2026** (Mamunur). Early radar for new demo waves: Wait, They Can Climb?! demo got 7.3K views in 9 h (714 per hour) with a 1:10:31 video on 8 Nov. Check before picking a hot demo. |
 | [Ridiculously Random](https://www.youtube.com/@Ridiculously-Random) | GB | 1.02K | 118 → 1,020 subs in 20 days (5–25 Oct 2026). ~1 long video/day, middle length 38 min, tiny itch.io/Steam games, "I did X until BILLIONS!!!" titles, big number + red arrow thumbnails. Beat our Quadrillion Carrots (7.2K vs 57) while publishing 4 days later. Full study: [reports/2026-10-25-ridiculously-random-study.md](reports/2026-10-25-ridiculously-random-study.md) |
 
 ## Warning cases
 
 | Channel | What happened | Lesson |
 |---|---|---|
-| [Idle Niv](https://www.youtube.com/@idleniv) | AT, started Feb 2026, 5.8K subs, then a 15-part roguelike series (3.6K–12K views/episode), stopped 8 Sep | No long series. Keep one title shape. |
+| [Idle Niv](https://www.youtube.com/@idleniv) | AT, started Feb 2026, 5.8K subs, then a 15-part roguelike series (3.6K–12K views/episode), stopped 8 Sep | No long series. Keep one title shape. — **untracked Sun 8 Nov 2026** (Mamunur: no uploads since 8 Sep) |
 | Benji LongPlay | 238 subs, 291 no-commentary videos | No-commentary doesn't grow |
 | Gaming Ghost / PirroGaming | 444 / 275 videos, ~150 subs | Volume without good games + packaging fails |
 

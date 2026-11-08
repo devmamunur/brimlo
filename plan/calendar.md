@@ -6,7 +6,7 @@
 - "Scout pick" = a free demo, playtest, free-to-play game or developer key chosen with `/pick-game` that week.
 - Status: ✅ published · 🕒 scheduled · 🎬 recorded · 📝 planned · ❓ open slot
 
-Last updated: Sat 7 Nov 2026 (/pick-game) · Sim games are a "later" queue: owned + planned games first (see games/backlog.md)
+Last updated: Sun 8 Nov 2026 (Round and Round dropped: the demo does not open in CrossOver; Wait, They Can Climb?! → Mon 9 Nov, Cult of the Yellow King → Tue 8 Dec) · Sim games are a "later" queue: owned + planned games first (see games/backlog.md)
 
 ## Phase 1 — Launch + Next Fest
 
@@ -75,13 +75,15 @@ Last updated: Sat 7 Nov 2026 (/pick-game) · Sim games are a "later" queue: owne
 
 | Upload | Video | Game source | Status |
 |---|---|---|---|
-| **Mon 9 Nov** | **Round and Round Inc. (demo)** 🔥 FAST (checked Sat 7 Nov: free demo out ~2 Nov, full game Thu 12 Nov; only a Japanese video, Hultutigamer 13K in 2 days (22 min, 2.0x); no English video in Chrome YouTube search). One revolving door swallows the whole city — goal: let in all 8.2 billion people. **Record Sun 8 Nov · Publish Mon 9 Nov, 10 PM Dhaka**. Risk: the demo may be short (~30–40 min); if it ends in under 30 min, switch to the backup. Backup: Feed The Pond demo (cozy frogs, no coverage) | Free demo (5520370). Windows → CrossOver, run test pending | 📝 |
+| **Mon 9 Nov** | **Wait, They Can Climb?! (demo)** 🔥 FAST (checked Sun 8 Nov: Ash Swoon 36.2K in ~18 h, only 1 real English video; demo out ~1 Nov → the launch window has passed, but the English wave started 7 Nov). One man on a roof, zombies climb the walls, 5 days, 500 → 8,000 zombies. **Record Sun 8 Nov · Publish Mon 9 Nov, 10 PM Dhaka**. Script card ready Sun 8 Nov. Replaces Round and Round (does not open in CrossOver). Backup: Zombie Incremental. [file](../videos/2026-11-09-wait-they-can-climb.md) | Free demo (5484870). Windows only → CrossOver, run test pending | 📝 |
+| **Tue 10 Nov** | **Zombie Incremental: The Last Outpost (demo)** 🔥 FAST (re-checked Sun 8 Nov: **no gameplay videos yet**, only the official trailer. The Ash Swoon 7.3K video is a different game (Wait, They Can Climb?!) — corrected 8 Nov). ⏱️ Demo out Sat 7 Nov, exact time not found (~1–2 days ago) → **the launch window has passed ⛔**. No wave yet. Dark theme: one pistol at the last outpost, zombie horde waves, gold → upgrades. Less idle (aim + dodge shooter); record only if the upgrades visibly snowball. **Record Mon 9 Nov · Publish Tue 10 Nov, 10 PM Dhaka** (or as soon as the edit is done). Full game 'November 2026' → a later full-release video is OK. Re-check the wave before recording. Backup: Feed The Pond demo | Free demo (5357550). Windows only → CrossOver, run test pending | 📝 |
 | ~~Tue 10 Nov~~ | Keep on Mining! → moved to Fri 4 Dec on 7 Nov (keeps this week at 4 videos) | Owned (CrossOver) | — |
-| **Wed 11 Nov** | **The Big Suck — full launch** 🔥 FAST (checked Sat 7 Nov: full game Mon 9 Nov; demo proven — JustPatrick-Idle 4K subs got 67K, trailer 89K; no full-game video yet). **Record Tue 10 Nov · Publish as soon as the edit is done, Wed 11 Nov 10 PM Dhaka at the latest** (fast lane). Angle: full game, eat the whole planet. Run test the free demo (5191500) first. Backup: Wreck & Profit demo | Paid at launch (price not shown yet; buy only if ≤ ~$7). Windows → CrossOver | 📝 |
-| Fri 13 Nov | Nodebuster | Owned | 📝 |
+| **Wed 11 Nov** | **The Big Suck — full launch** 🔥 FAST (checked Sat 7 Nov: full game Mon 9 Nov; demo proven — JustPatrick-Idle 4K subs got 67K, trailer 89K; no full-game video yet). **Record Tue 10 Nov · Publish as soon as the edit is done, Wed 11 Nov 10 PM Dhaka at the latest** (fast lane). Angle: full game, eat the whole planet. Run test the free demo (5191500) first. Backup: Wreck & Profit demo, or **Frankenmine** full launch (dark; launches ~1 AM Dhaka Tue 10 Nov, estimate; demo proven: Azrilich 60K, CG Grows 21K, Idle Niv 11K; no demo to test now; buy only one of the two launch games — budget) | Paid at launch (price not shown yet; buy only if ≤ ~$7). Windows → CrossOver | 📝 |
+| **Fri 13 Nov** | **Outliers: Incrementum (demo)** 🔥 FAST (checked Sun 8 Nov in Chrome: **Sifd (149K) posted a 1:02 "0% → 100%" video 3 hours ago**, 1.7K views, 379 VPH = wave starting; Korean 리키리킹 27K; all English videos under 2K). Incremental ARPG: a mouse-cursor assassin slashes monster waves, loot + skill upgrades; demo 100% ≈ 1 hour. **Record Thu 12 Nov · Publish Fri 13 Nov, 10 PM Dhaka**. Angle must differ from Sifd's 0→100%. Nodebuster moved to Sun 6 Dec. Backup: Feed The Pond demo | Free demo (4697990). Mac + Windows (CrossOver fine), run test pending | 📝 |
 | **Sat 14 Nov** | **Bottle Flip Inc — full release** 🔥 FAST (checked Thu 5 Nov: full game Thu 12 Nov; Azrilich demo video 4 Nov, 31K). Launch-day 100% run, not a copy of his demo video. **Record Fri 13 Nov · Publish Sat 14 Nov, 10 PM Dhaka**. Test the free demo (4966120) first. Backup: Bean in a Ball Pit (also launches Thu 12 Nov) | Paid at launch (price not shown yet). Windows → CrossOver | 📝 |
 | ~~Sun 15 Nov~~ | Sandustry → moved to Sun 29 Nov on 7 Nov (keeps this week at 4 videos) | Owned (Mac) | — |
 
+- **Week 5 has 5 videos** (Mon–Sat) because of hot waves (Zombie Incremental added 8 Nov). Back to 3–4 next week.
 - Sat 14: two videos — **Another Game About Digging a Hole** + scout pick. Sun 15: one scout pick.
 
 ### Week 6 · 16–22 Nov
@@ -109,7 +111,7 @@ Last updated: Sat 7 Nov 2026 (/pick-game) · Sim games are a "later" queue: owne
 |---|---|---|---|
 | Tue 1 Dec | **Diversion — full release** (launches Mon 30 Nov) 🟢 RELAXED for now; re-check on launch | Demo free now / paid at launch | 📝 |
 | Fri 4 Dec | Keep on Mining! 🟢 RELAXED (moved from Tue 10 Nov on 7 Nov) | Owned (CrossOver) | 📝 |
-| Sun 6 Dec | Scout pick | | ❓ |
+| Sun 6 Dec | Nodebuster 🟢 RELAXED (moved from Fri 13 Nov on 8 Nov) | Owned | 📝 |
 
 - **Checkpoint Sun 6 Dec.**
 
@@ -119,7 +121,7 @@ Last updated: Sat 7 Nov 2026 (/pick-game) · Sim games are a "later" queue: owne
 
 | Upload | Video | Status |
 |---|---|---|
-| Tue 8 Dec | Scout pick | ❓ |
+| Tue 8 Dec | **Cult of the Yellow King** 🟢 RELAXED (checked Sun 8 Nov in Chrome: full 1.0 out Mon 12 Oct; top English videos only 1.9K, 1.8K, 1.1K; vidIQ volume Medium, competition Low). Dark cosmic-horror idle: build the cult, spread the mold until the sky opens its eyes. $3.99, Windows → CrossOver, run test pending. 5 prestige paths: check it fits one video | 📝 |
 | Fri 11 Dec | Scout pick | ❓ |
 | Sun 13 Dec | Scout pick | ❓ |
 
@@ -168,7 +170,7 @@ Last updated: Sat 7 Nov 2026 (/pick-game) · Sim games are a "later" queue: owne
 | Cast n Chill | Fri 27 Nov |
 | Scratch the Ticket | Fri 6 Nov |
 | Keep on Mining! | Fri 4 Dec |
-| Nodebuster | Fri 13 Nov |
+| Nodebuster | Sun 6 Dec |
 | Sandustry | Sun 29 Nov |
 | Another Game About Digging a Hole | Tue 17 Nov |
 | Supermarket Simulator | Tue 24 Nov (one video) |
