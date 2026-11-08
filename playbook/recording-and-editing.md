@@ -46,7 +46,7 @@ New to Resolve? Watch the short video list in [learn-davinci.md](learn-davinci.m
 6. Audio: Fairlight → Presets Library → apply **Brimlo Voice B Warm** to Audio 1 and **Brimlo Master** to Bus 1 (see [voice-presets.md](voice-presets.md)). Check A2 (game) is not muted. Voice clear over game sound (lower the game track if needed).
 7. Write chapters from your markers.
 8. **First 2 minutes check before export:** watch 0:00–2:00 once. ✅ The goal with a number is in the first sentence. ✅ The first real action is by 0:05 (0:10 with a cold open). ✅ No menu, no reading aloud, no tour. ✅ The subscribe line is near 2:00. If any check fails, cut more.
-9. Export: render preset **Brimlo YouTube** (YouTube loudness -14 LUFS), H.264/H.265, 1080p60.
+9. Export: render preset **Brimlo YouTube** (YouTube loudness -14 LUFS): QuickTime, **H.265, Quality "Restrict to" 12000 Kb/s**, hardware acceleration on (updated Mon 9 Nov 2026; before it was H.264 "Automatic" = ~24 Mbps, 16 GB for 89 min, bigger file with no extra quality). ~8.5 GB for 79 min. **Before you render, check the timeline frame rate matches the recording** (Deliver → Frame rate line). Wait, They Can Climb?! was recorded at 30 fps but "New Project 6" timeline is 24 fps.
 
 Silence removal: one source says Resolve 20.2+/21 free has *Clip → Audio Operations → Ripple Delete Silence* — check your version. Run it on the voice track (Audio 1) so it finds the gaps in your talking, then watch the result for jumpy cuts in the middle of a big moment. If it is not in your version, cut gaps by hand with the blade tool (B). CapCut's auto silence removal is mostly a paid feature.
 

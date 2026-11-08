@@ -2,16 +2,16 @@
 
 | | |
 |---|---|
-| Status | 📝 planned (script card ready Sun 8 Nov 2026) |
-| Upload | Mon 9 Nov 2026, 10 PM Dhaka (record Sun 8 Nov) |
+| Status | 🕒 scheduled Mon 9 Nov 2026, 10:00 PM Dhaka (checked in Studio, Chrome, Mon 9 Nov) |
+| Upload | Mon 9 Nov 2026, 10 PM Dhaka (11 AM ET) |
 | Upload speed | 🔥 FAST — checked Sun 8 Nov 2026: Ash Swoon (3.5K subs) 36.2K views in ~18 h, 11x his normal. Only 1 real English video. Demo out ~Sun 1 Nov (~7 days) → **the launch window has passed**, but the English wave started on 7 Nov. Full game Wed 6 Jan 2027 |
 | Game | Wait, They Can Climb?! by babia — https://store.steampowered.com/app/5484330/ (demo app 5484870) |
 | Source | Free demo |
-| End screen | Best for viewer + Incremental Games: Numbers Go UP + Subscribe — set: no |
-| Playlists | Incremental Games: Numbers Go UP + New Steam Demos Played to 100% |
-| Runs on | CrossOver Steam (Windows only). 10-minute run test: not told yet (8 Nov) |
+| End screen | Best for viewer + Incremental Games: Numbers Go UP + Subscribe — imported from Mycelarium, saved Mon 9 Nov 2026 (last 20 s, 1:18:51–1:19:11) |
+| Playlists | Incremental Games: Numbers Go UP + New Steam Demos Played to 100% (added in Studio Mon 9 Nov 2026) |
+| Runs on | CrossOver Steam ✅ (recorded Sun 8–Mon 9 Nov 2026) |
 | Target length | 50–70 min (demo = days 1–5) |
-| YouTube link | |
+| YouTube link | https://youtu.be/Vo1xETN8mqo (Studio: https://studio.youtube.com/video/Vo1xETN8mqo/edit) |
 
 ## Game in one sentence
 
@@ -61,22 +61,48 @@ What they did that we don't do: "Hello everyone, this is Ash…", reading every 
 
 ## Titles
 
-| Test | Pattern (P1–P7) | Title | Needs to be true |
-|---|---|---|---|
-| A (main, live title) | P5 — I had to [goal] | I Had to Survive 8,000 Zombies on One Roof | You clear day 5 (8,000 zombies) |
-| B | P2 — I [did X] until [result] | I Upgraded My Roof Until 8,000 Zombies Couldn't Climb It | Same: day 5 cleared |
-| C | P1 + game name (hot game exception) | Wait, They Can Climb?! 8,000 Zombies vs One Roof | Day 5 reached |
+What really happened (transcript of the final export, read Mon 9 Nov 2026):
+- Opening (0:00): "I am alone in this roof, 500 zombies are coming and I have one small little gun." Goal + action in the first 10 s ✅.
+- Lost day 1 many times, bought machine guns, auto fire, then the first mortar (8:44). Day 1 won at 10:33 (1,127 points).
+- Day 2 (1,000 zombies) won at 20:02 → day 3 opens a second road (20:17). Walls (24:27), helmet zombies (31:01), electric shots (38:40), shockwave (50:09).
+- Day 3 (2,000) won at ~55:20, assault rifle bought. Day 4 (4,000) at 57:57, won at 1:06:25 → third road opens, big blue-head zombies (1:07:52).
+- Day 5 (8,000 zombies): **demo complete at 1:18:33. Zombies killed 7,994, about 14,000 points** (end screen: 7,994 killed / 14,494 points).
+- Running joke used: mostly none ("Stay down" was not said). Funny real moments: "500 zombies are now like mosquito to me" (34:00), "I am the greedy one here" (39:50), can't undo a misplaced wall (46:30, 1:13:00).
+- Ending: the planned 4 lines, said at 1:18:40.
 
-brimlo_score_title (estimate, 8 Nov): A 82 · B 82 · C 72. If you don't clear day 5, change "Survive" to "Fight" and tell me.
+| Test | Pattern (P1–P7) | Title | Why true |
+|---|---|---|---|
+| A (main, live title) | P5 — I had to [goal] | I Had to Survive 8,000 Zombies on One Roof | Day 5 = 8,000 zombies, demo complete at 1:18:33 (Mamunur kept this title) |
+| B | P1 — I did [big number] | I Killed 7,994 Zombies From One Small Roof | Day 5 end screen: 7,994 zombies killed |
+| C | P1 + game name (hot game exception) | Wait, They Can Climb?! 8,000 Zombies vs One Roof | Same; game name for search |
+
+brimlo_score_title (estimate, 9 Nov): A 83 · B 83 · C 73.
 
 **A/B test in Studio:** not yet
 **Winner:**
 
 ## Thumbnail idea
 
-- Type: hero object + a huge crowd
-- Words: none (house style v3)
-- Picture: POV hands (navy sleeves, gold rifle) on the roof edge, looking down a tall building wall. Hundreds of zombies climb up the wall toward the camera. The street below is full of zombies. Night, orange fire light, gold muzzle flash.
+**Final:** [thumbnails/2026-11-09-wait-they-can-climb.jpg](thumbnails/2026-11-09-wait-they-can-climb.jpg) (1280x720 JPG, v2 with both hands on the gun, checked Mon 9 Nov 2026: passes the 10-second check).
+
+- Type: hero object + a huge crowd (house style v3, no text)
+- Attach frames: `tools/transcribe/out/2026-11-09-wait-they-can-climb/frames/22_01-10-56.jpg` (day 5, zombies on all roads) and `14_00-44-32.jpg` (zombies climbing the building)
+
+```
+Create a YouTube thumbnail, exactly 1280x720 pixels (16:9).
+
+STYLE: bright 2D cartoon vector illustration. Thick bold black ink outlines on everything, flat cel-shaded colors, very high saturation, clean shapes, low detail, and a thin white edge around the hands and the main object so they pop. Use the attached Wait, They Can Climb screenshots only as a reference for the shape and colors of the dark square apartment tower and the yellow zombie crowd on the crossroads, and redraw them in this cartoon style. Do not copy any text, numbers or menus from the screenshots.
+
+HANDS: first-person view from the top of the roof, looking down the side of the tower. Two big cartoon hands come in from the bottom-left and bottom-right corners. The hands wear dark navy blue sleeves (#0B1023) with a thin gold cuff (#FFC83D). They hold a small gold rifle and are shooting straight down the wall right now, with a bright gold muzzle flash.
+
+CENTER: the dark grey-blue brick wall of the tower goes straight down from the camera, very close and taking up about half of the image. Dozens of cartoon yellow-green zombies are climbing up the wall toward the camera, stacked on each other like a ladder. The top zombie is almost at the hands, with a surprised open mouth. One small funny detail: one zombie wears a blue helmet.
+
+BACKGROUND: far below, the four roads of a crossroads at night are completely filled with thousands of yellow-green zombies, all the way to the edges of the image. Small orange explosion blasts in the crowd. Strong dark purple and deep red night colors, still clear and saturated, warm orange street lights.
+
+TEXT: none. No letters, numbers or words anywhere.
+
+AVOID (negative prompt): any text, letters, numbers, words, photorealism, 3D render, realistic skin, realistic hands, photo, DSLR, cinematic lighting, grey or muddy colors, white gloves, extra fingers, more than two hands, blood, gore, fake logos, watermarks, signatures, the YouTube logo, a mascot or logo stamp in any corner, borders, frames, small inset image boxes in any corner, split screens, arrows, emoji, radial lines, plain empty background, tiny details, many small objects competing with the center object, blurry colors.
+```
 
 ## Recording script
 
@@ -229,33 +255,58 @@ Use it 4–5 times, not more. Don't reuse: the animals (Mycelarium), the cats (W
 
 ## Chapters
 
-```
-00:00 
-```
+From the final export's captions (Mon 9 Nov 2026). Final, as long as the export does not change.
 
-(Make from real captions after recording, max 10.)
+```
+00:00 Alone on a Roof With One Small Gun
+08:44 My First Mortar
+10:33 Day 1 Done: 500 Zombies
+11:40 Day 2: 1,000 Zombies
+20:17 A Second Road Opens
+38:40 Electric Bullets
+55:20 Day 3 Done: 2,000 Zombies
+57:57 Day 4: 4,000 Zombies
+1:06:25 Third Road Opens for Day 5
+1:18:33 Demo Complete: 7,994 Zombies
+```
 
 ## Description
 
 ```
-[First line after recording: one short personal line.]
-Wait, They Can Climb?! is an incremental zombie tower defense game. One man on a roof, thousands of zombies, and they can climb. I played the whole free demo, all 5 days.
-CURRENT SUBS: [real number from Studio]
+I was one man with one small gun, and 8,000 zombies wanted my roof. Help Brimlo reach 100 subs :)
+I played the Wait, They Can Climb?! demo, an incremental zombie tower defense game. You are alone on a roof, and the zombies climb the walls. I bought machine guns, mortars, walls, electric bullets and a shockwave, and I cleared all 5 days of the demo: 500, 1,000, 2,000, 4,000 and finally 8,000 zombies.
+Free Steam demo, played to the end. The full game comes out 6 January 2027 and goes to day 10.
+CURRENT SUBS: 3
 
-🎮 Game: Wait, They Can Climb?! on Steam (free demo): https://store.steampowered.com/app/5484330/
+Calm, full-length gameplay to relax or fall asleep to. You rest. I'll keep going.
+
+🎮 Wait, They Can Climb?! on Steam (free demo): https://store.steampowered.com/app/5484330/
 Developer: babia
 
 Chapters
-00:00 ...
+00:00 Alone on a Roof With One Small Gun
+08:44 My First Mortar
+10:33 Day 1 Done: 500 Zombies
+11:40 Day 2: 1,000 Zombies
+20:17 A Second Road Opens
+38:40 Electric Bullets
+55:20 Day 3 Done: 2,000 Zombies
+57:57 Day 4: 4,000 Zombies
+1:06:25 Third Road Opens for Day 5
+1:18:33 Demo Complete: 7,994 Zombies
 
-#incremental #zombies #waittheycanclimb
+#incrementalgame #WaitTheyCanClimb #zombies
 ```
+
+(CURRENT SUBS: 3 = public count, 9 Nov 2026. Check Studio before you paste.)
 
 ## Tags
 
-Wait They Can Climb, Wait They Can Climb demo, Wait They Can Climb gameplay, zombie tower defense, incremental tower defense, zombie game, incremental game, idle game, relaxing gameplay, brimlo
+Wait They Can Climb, Wait They Can Climb demo, Wait They Can Climb gameplay, Wait They Can Climb full demo, wait they can climb game, zombie tower defense, incremental tower defense, zombie incremental game, incremental game, idle game, relaxing gameplay, gameplay to fall asleep to, brimlo
 
 ## Results
+
+Check dates: 7 days = Mon 16 Nov 2026 · 28 days = Mon 7 Dec 2026. Final length 1:19:11.
 
 | Check | 7 days | 28 days |
 |---|---|---|
