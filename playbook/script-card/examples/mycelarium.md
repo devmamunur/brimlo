@@ -1,6 +1,6 @@
 # Example script card — Mycelarium (approved Fri 6 Nov 2026)
 
-A frozen copy of an approved card. **Learn the shape and the English level from it. Never copy its lines, hero name or jokes into another video.** Template: [../template.md](../template.md). Live file: [videos/2026-11-06-mycelarium.md](../../../videos/2026-11-06-mycelarium.md).
+A frozen copy of an approved card. **Learn the shape and the English level from it. **Old rule:** it names the hero "Kevin". Since Sun 8 Nov 2026 the hero is always "I" (Mamunur), with no named character. Never copy its lines, hero name or jokes into another video.** Template: [../template.md](../template.md). Live file: [videos/2026-11-06-mycelarium.md](../../../videos/2026-11-06-mycelarium.md).
 
 Why it is good: a named hero with a small story ("Kevin" the mushroom), a goal with a number in the first 10 seconds, something new every 15–20 seconds in the first 2 minutes, "Not yet" promises paid off later, facts and timings from two real playthrough transcripts, a Bangla word list, very simple English.
 
