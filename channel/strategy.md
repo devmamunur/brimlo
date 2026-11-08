@@ -8,7 +8,7 @@ Long, calm, live-commentary videos of **new incremental games**, posted **early*
 
 Growth in this niche comes from **hits**: 1–3 videos that do 10–40x better than normal. You can't predict which one. So:
 1. Make **more good chances** (more videos, each with a good game + title + thumbnail).
-2. Be **early** on new games (demos, playtests, launches — first 1–10 days).
+2. Be **early** on new games (demos, playtests, launches). For a launch, "early" means **the first 24 hours** (Mycelarium lesson, 8 Nov 2026 — see "24-hour launch check").
 3. Make each video **easy to click**: one strange idea, one clear promise.
 
 ## Niche (decided 13 Oct 2026)
@@ -41,13 +41,18 @@ Every time a video is planned or picked, Claude gives it **one** label so Mamunu
 
 | Label | Publish | When |
 |---|---|---|
-| 🔥 **FAST** | Within **1–2 days** after recording, even the day right after another video | The game/demo/playtest/launch came out in the last ~2 weeks **and** YouTube has few videos on it (about 10 or fewer English videos, or no big channel yet); **or** a demo/playtest/sale ends soon; **or** Next Fest is running. Others are starting to post → every day counts. |
+| 🔥 **FAST** | Within **1–2 days** after recording, even the day right after another video. For a launch: within ~48 h **of the launch** | The launch is **≤ 24 hours old** (see "24-hour launch check"); **or** the game/demo/playtest came out in the last ~2 weeks **and** YouTube has few videos on it (about 10 or fewer English videos, or no big channel yet); **or** a demo/playtest/sale ends soon; **or** Next Fest is running. Others are starting to post → every day counts. |
 | 🟡 **SOON** | Within about **1 week** | New-ish game (2–6 weeks), some videos already but no big channel; or a demo that ends in more than 2 weeks. |
 | 🟢 **RELAXED** | Any free slot; can wait in the buffer | Owned or older games, full games out for months, many videos already. Evergreen. |
 
 **How to decide (check, don't guess):** release or demo date and any end date (Steam / itch page), then search YouTube for the game name (`vidiq_youtube_search` with `publishedAfter` 14 days ago, or `brimlo_keyword_research`): count the videos and note the biggest channel and views. Write the label, the date checked and the reason in one line (e.g. "🔥 FAST — itch release 17 Oct, 3 videos, biggest 3.9K views (27 Oct 2026)").
 
-**Game wave check (28 Oct 2026, [study](../research/reports/2026-10-28-four-channels-success-study.md)).** A big channel posting a game is **not** a reason to skip it. In the first ~7 days after a big video, small channels still got 9K–38K on the same game (LuckyLemon posted One Million Coins 8 h after Azrilich: 38K; Ridiculously Random posted Quadrillion Carrots the same day as Azrilich: 9.4K). About 4 weeks later the same game gets only 1–3K. So: **new incremental game on Azrilich / JonnyBebop in the last 7 days + it runs in CrossOver or Mac Steam → 🔥 FAST.** Older than ~3 weeks → no wave, judge it normally.
+**24-hour launch check (Mamunur, 8 Nov 2026 — Mycelarium lesson).** For every new launch, early access, new demo or new playtest, first check **how many hours ago it came out** (Steam release date/time; if Steam shows no time, count from 00:00 UTC of the release day, and look at the time of the first YouTube video on it). Say it in the reply in one line:
+- **≤ 24 hours** → `⏱️ Launched <date, time> = ~N hours ago → inside the 24-hour window ✅`. This is the real 🔥 FAST case: record **today or tomorrow**, publish **within ~48 hours of the launch** (not 48 h after recording). Shorter video is OK here (45–60 min) if a full run takes too long — a day-0 video beats a perfect video on day 4.
+- **> 24 hours** → `⏱️ Launched <date> = N days ago → the launch window has passed ⛔`. Say it clearly, every time. Do not call it a launch-wave video. It can still be 🔥 FAST only if YouTube is still nearly empty (≤ 5 English videos and none over ~5K views) or it is a demo/playtest with a near end date; otherwise label it 🟡 SOON or 🟢 RELAXED, and put the **game name in the A title** (late viewers come from search).
+- Proof (vidIQ search, 8 Nov 2026): Mycelarium launched Tue 3 Nov. Videos on day 0–2 got 2.8K–186K (A D C, 117 subs, day 0: 2,854). Small English channels on day 3 (Fri 6 Nov) got 128–360. Brimlo on day 4 (Sat 7 Nov): 47 views after 17 h.
+
+**Game wave check (28 Oct 2026, [study](../research/reports/2026-10-28-four-channels-success-study.md)).** A big channel posting a game is **not** a reason to skip it. In the first ~7 days after a big video, small channels still got 9K–38K on the same game (LuckyLemon posted One Million Coins 8 h after Azrilich: 38K; Ridiculously Random posted Quadrillion Carrots the same day as Azrilich: 9.4K). About 4 weeks later the same game gets only 1–3K. So: **new incremental game on Azrilich / JonnyBebop in the last 7 days + it runs in CrossOver or Mac Steam → 🔥 FAST.** Older than ~3 weeks → no wave, judge it normally. **Check that the wave is still alive (8 Nov 2026):** look at small English channels that posted the game 1–2 days ago. If they got under ~500 views, the wave is over even inside 7 days (Mycelarium ended on day 3).
 
 Example: Scrapecremental (27 Oct 2026) was 🔥 FAST → published the same night it was finished, the day after Seabun.
 

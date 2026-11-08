@@ -20,7 +20,7 @@ Plan one video end to end and save it in the repo. Write in **simple English, sh
    - Web search the Steam page: one-sentence idea, release status (demo / playtest / early access / full), price, developer video policy, any end date.
    - If Mac status is unknown or not tested → tell him to do the 10-minute test from `games/checklist.md` **before** recording.
    - If the game fails a "Must" in `games/checklist.md`, say so and suggest the next backlog game instead.
-   - **Upload speed label** (CLAUDE.md rule 11, thresholds in `channel/strategy.md` → "Upload speed label"): check the release/demo date and end date, then search YouTube for the game name (last 14 days): how many videos, the biggest channel and its views. Decide 🔥 FAST / 🟡 SOON / 🟢 RELAXED. If FAST, pick the earliest free upload date (the day after the last video is fine).
+   - **Upload speed label** (CLAUDE.md rule 11, thresholds in `channel/strategy.md` → "Upload speed label"): check the release/demo date and end date, then search YouTube for the game name (last 14 days): how many videos, the biggest channel and its views. **24-hour launch check:** if it is a new launch / demo / playtest, count the hours since it came out (channel/strategy.md → "24-hour launch check"). ≤ 24 h → record today or tomorrow, publish within ~48 h of the launch. > 24 h → say "the launch window has passed" and do not plan it as a launch-wave video; use the game name in the A title. Decide 🔥 FAST / 🟡 SOON / 🟢 RELAXED. If FAST, pick the earliest free upload date (the day after the last video is fine).
 
 3. **Write the plan** using `videos/_template.md`. Save as `videos/YYYY-MM-DD-game-slug.md` (upload date, lowercase, hyphens). Fill:
    - Header table (including the **Upload speed** and **Playlists** rows) and "Game in one sentence". **Playlists:** pick them by the rule in `playbook/upload-checklist.md` → Settings (1 genre list + "New Steam Demos Played to 100%" if it is a demo, playtest or itch.io game). Exact names only, never new ones. Fill the **Playlists** row of the video file.
@@ -40,7 +40,7 @@ Plan one video end to end and save it in the repo. Write in **simple English, sh
    - Update the slot in `plan/calendar.md` (game name, status 📝).
    - Update the game's row in `games/backlog.md` (planned slot).
 
-5. **Reply** briefly: **the upload speed label first** (e.g. "🔥 FAST — publish within 1–2 days after recording, because …"), then the **A/B/C titles in one code block** (ready for Studio → A/B Testing), the **playlist(s)** in one line, the hook to practice, what to test before recording, and the file path. Don't paste the whole file.
+5. **Reply** briefly: **the launch check line first** for a new launch/demo/playtest (e.g. "⏱️ Launched Tue 3 Nov 2026 = 4 days ago → the launch window has passed ⛔" or "⏱️ Launched today 6 PM Dhaka = 5 hours ago → inside the 24-hour window ✅"), **then the upload speed label** (e.g. "🔥 FAST — publish within ~48 h of the launch, because …"), then the **A/B/C titles in one code block** (ready for Studio → A/B Testing), the **playlist(s)** in one line, the hook to practice, what to test before recording, and the file path. Don't paste the whole file.
 
 ## Rules
 

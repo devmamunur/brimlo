@@ -20,5 +20,5 @@ description: Tell Mamunur what to do now — what is due today and this week, wh
    - **This week** — table: date · what · command.
    - **Later** — max 3 lines.
    - **One recommendation** with the reason.
-   Give the upload speed label (🔥/🟡/🟢) for each planned video (CLAUDE.md rule 11).
+   Give the upload speed label (🔥/🟡/🟢) for each planned video (CLAUDE.md rule 11). For a planned new launch/demo/playtest, also say the hours since launch and, if over 24 h, "the launch window has passed".
 5. Do not edit files unless something is clearly wrong (e.g. a published video still shows 📝); then fix it and say so.
