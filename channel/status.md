@@ -6,7 +6,7 @@ Update this every Sunday (`/weekly-review`) and after big events.
 
 **Last updated:** Mon 9 Nov 2026
 
-- **Wait, They Can Climb?! scheduled Mon 9 Nov 2026, 10 PM Dhaka** ("I Had to Survive 8,000 Zombies on One Roof", 1:19:11, https://youtu.be/Vo1xETN8mqo). Check 7-day results Mon 16 Nov. Next: Zombie Incremental (Tue 10 Nov), The Big Suck launch (Wed 11 Nov).
+- **Wait, They Can Climb?! published Mon 9 Nov 2026, 10 PM Dhaka** ("I Had to Survive 8,000 Zombies on One Roof", 1:19:11, https://youtu.be/Vo1xETN8mqo). Check 7-day results Mon 16 Nov. Next: Zombie Incremental (Tue 10 Nov), The Big Suck launch (Wed 11 Nov).
 
 - Channel renamed to **Brimlo (@BrimloIdle)**.
 - **9 videos public + 1 private** (Cookie Clicker set to private Sun 1 Nov 2026). Full list: [videos/log.md](../videos/log.md).

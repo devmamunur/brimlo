@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| Status | 🕒 scheduled Mon 9 Nov 2026, 10:00 PM Dhaka (checked in Studio, Chrome, Mon 9 Nov) |
+| Status | ✅ published Mon 9 Nov 2026, 8:00 PM Dhaka (14:00 UTC, YouTube API) |
 | Upload | Mon 9 Nov 2026, 10 PM Dhaka (11 AM ET) |
 | Upload speed | 🔥 FAST — checked Sun 8 Nov 2026: Ash Swoon (3.5K subs) 36.2K views in ~18 h, 11x his normal. Only 1 real English video. Demo out ~Sun 1 Nov (~7 days) → **the launch window has passed**, but the English wave started on 7 Nov. Full game Wed 6 Jan 2027 |
 | Game | Wait, They Can Climb?! by babia — https://store.steampowered.com/app/5484330/ (demo app 5484870) |
@@ -78,7 +78,7 @@ What really happened (transcript of the final export, read Mon 9 Nov 2026):
 
 brimlo_score_title (estimate, 9 Nov): A 83 · B 83 · C 73.
 
-**A/B test in Studio:** not yet
+**A/B test in Studio:** none (rule 10 Nov 2026: hand swaps). **Title changed Tue 10 Nov 2026 (~6 h after publish, 6 views) in Studio by Claude:** "I Had to Survive 8,000 Zombies on One Roof" → **"Alone on One Roof vs 8,000 Zombies - Wait, They Can Climb?!"** (59 chars, vidIQ score 97). Shape copied from the top search results (hook first, game name last: Erdem 64K, Ash Swoon 40K, Serossin), own words. Swap check: Thu 12 Nov 2026 (next: B "I Killed 7,994 Zombies From One Small Roof").
 **Winner:**
 
 ## Thumbnail idea

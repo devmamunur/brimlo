@@ -15,10 +15,10 @@ Run through this before every upload. After uploading, run `/publish`.
 ## Title
 
 - [ ] Uses a pattern P1–P7 from the Brimlo title system in [titles.md](titles.md)
-- [ ] No game name, no "|", no "incremental", no "Demo" in the title (game name + "demo" go in the description and tags)
+- [ ] Game name by game type (`titles.md`): survivor/horde/action → hook first, " | Game Name" or " - Game Name" at the end; cozy/sim/clicker → no game name. Never the name first. No "incremental", no "Demo" (game name + "demo" always go in the description and tags)
 - [ ] True to the video (every number/claim happens on screen)
 - [ ] Title Case, 30–55 characters, max one CAPS word, no emoji
-- [ ] Title A/B test set up in Studio (A = live title, B + C from the video file)
+- [ ] Go live with title A, no Studio A/B test (10 Nov 2026). Note the 2–3 day swap-check date in the video file (B + C are swap titles)
 - [ ] No other creators' names
 
 ## Thumbnail

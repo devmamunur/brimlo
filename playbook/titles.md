@@ -38,7 +38,7 @@ Rare extra (max 1 in 10 videos): "This Is the Most Satisfying Game of the Year" 
 
 ### Brimlo rules (our own look, not a copy)
 
-1. **Never the game name in the title.** It goes in the first description line + tags.
+1. **Game name: decide by game type** (see "Game name: decide by game type" below). Never the game name first. The game name always goes in the first description line + tags.
 2. **Never "Demo", "incremental", "|" or "100%"** (unless you really finished the full game).
 3. **Title Case**, not all lowercase (lowercase is Azrilich's signature). **No CAPS words**, or max one.
 4. **Short:** aim for **30–55 characters, 5–9 words.**
@@ -48,7 +48,19 @@ Rare extra (max 1 in 10 videos): "This Is the Most Satisfying Game of the Year" 
 8. **Funny is good, mean is not.** A small joke or twist ("And I Regret Nothing", "…Before It Ate Me", "…and the Cats Were Not Happy") from this game's real events.
 9. **Thumbnail text never repeats the title** (see thumbnails.md).
 
-**Exception: game name in ONE test title (Mamunur, Sat 7 Nov 2026).** For a new or hot game that people search for by name (launch, demo wave), one of the A/B/C test titles (B or C, never A) may have the game name for search. Still our own words, never another channel's title (e.g. not "I Played 100% Of Mycelarium"). No "|" and no "Demo". The test result decides if we keep doing it. First test: Mycelarium, C = "I 100%'d Mycelarium and Built a Fungal Empire".
+**Game name: decide by game type (market check Tue 10 Nov 2026, 24 games — replaces the 7 Nov and 10 Nov exceptions).** Data: [research/reports/2026-11-10-game-name-in-title-check.md](../research/reports/2026-11-10-game-name-in-title-check.md).
+
+| Game type | Title shape | Real examples that won on small English channels |
+|---|---|---|
+| **Survivor / horde / zombie / roguelite / action** (people search it by name: playtest, hot demo, launch) | **Hook first, game name at the end** after " \| " or " - ", or the name inside the sentence | Ash Swoon (3.6K subs) "This is an Auto-Battler About Surviving Zombie Hordes! \| Outbreak Z" 53K · BryBry (1.1K) "…\| I am Plague Playtest" 22.7K · Sharkinbear (2.3K) "The Only Thing Your Rats Remember Is The Taste Of Flesh And Bone - I Am Plague" 18.6K · our I Am Plague / Outbreak Z / Seabun |
+| **Cozy / satisfying / sim / clicker** | **Story title, no game name** (P1–P7) | Haikrazon (4.2K) "We Start With 1 Ant, Then Grow The Colony To Thousands To Consume Everything" 212K · JustPatrick-Idle (4.1K) "Growing a Mushroom Network Until It Takes Over EVERYTHING!" 70K · Slow Mo (2K) "I Ripped Packs Until I Got the Legendary Ones" 13K |
+
+- **Never the game name first:** 0 wins in 24 games (best: 3.5K).
+- **Hook first, always.** The first ~40 characters must make a stranger curious; the name comes last.
+- **Never copy a winner's title:** SB Atomic used Ash Swoon's exact title → 118 views.
+- Shape alone does not make a hit: every shape also has flops under 1K. Timing (launch wave) and thumbnail matter more.
+- Our own data: cozy videos got about the same small search traffic with or without the name (description + tags already do it); only the survivor-likes got real search traffic.
+- No "Demo" in the title. Review this rule at each /weekly-review with search traffic per video.
 
 ### How to make a title (step by step)
 
@@ -56,24 +68,31 @@ Rare extra (max 1 in 10 videos): "This Is the Most Satisfying Game of the Year" 
 2. Pick 2–3 patterns that fit (P1/P2 first).
 3. Write 5 titles, each under ~55 characters.
 4. Read each out loud: would a stranger who never heard of the game click it? If it needs the game name to make sense, rewrite it.
-5. Check: true? short? no game name? not the same pattern as the last 2 videos?
+5. Check: true? short? game name only for a searched survivor/horde/action game, and only at the end? not the same pattern as the last 2 videos?
 6. Score with `brimlo_score_title` (and vidIQ if useful) **only to compare** — the truth and the pattern win over a score.
 
-### A/B/C test set (every video)
+### A/B/C title set (every video) + hand swaps
 
-**Always give 3 titles as an A/B/C test set** (Mamunur, 6 Nov 2026) — ready to paste into YouTube Studio → title → A/B Testing (Test & Compare):
+**Always give 3 titles as an A/B/C set** (Mamunur, 6 Nov 2026). **Since 10 Nov 2026 they are swap titles, not a Studio A/B test:**
 
 ```
 A (main): …
 B: …
 C: …
 ```
-- A = the best pick; it is the title the video goes live with. B and C are the test titles.
-- **Each one a different pattern** (P1–P7), so the test tells us which *shape* wins, not 3 copies of one idea.
+- A = the best pick; it is the title the video goes live with. B and C are **swap titles** for later.
+- **Each one a different pattern** (P1–P7), so a swap really tries a new idea, not 3 copies of one idea.
 - All 3 true to the video, all follow the rules above, each under 100 characters (YouTube limit), aim 30–55.
 - One line under each: the pattern + why.
 
-After about 7 days, open Studio → video → "View test report" and log the winner in the Title test log below.
+**Hand swap (instead of a Studio A/B test):**
+1. Go live with A. Do not start a Studio A/B test.
+2. After 2–3 days, check views and impressions CTR in Studio. If the video is below the channel median (or CTR is clearly low), change the title to B by hand.
+3. Write the swap date and the old/new title in the video file and in the Title test log below. Wait 2–3 more days before judging B. Swap to C only if B is also weak.
+
+**Why no Studio A/B test now (research, 10 Nov 2026):** YouTube's help page says the most common reason for "Inconclusive" is too few impressions; with no clear winner the first title stays anyway, and changing the title stops the test. Guides say ~1,000–5,000 impressions per title are needed (Derral Eves: 10K+). Tintin Smith (How to YouTube) says test only at ~10,000+ views per video and change titles by hand before that. Our videos get ~30–1,000 views. Sources: [YouTube Help](https://support.google.com/youtube/answer/16391400?hl=en), [Gyre](https://gyre.pro/blog/youtubes-new-title-ab-testing-tool-everything-creators-need-to-know), [ThumbnailCreator](https://www.thumbnailcreator.com/blog/thumbnail-a-b-testing-why-results-mislead), [Tintin Smith](https://youtubehowto.substack.com/p/is-ab-testing-useful).
+
+**When to use Studio A/B tests again:** on a video that gets ~1,000+ impressions a week (check Studio), older videos first (YouTube's own advice). Make the titles very different and do not touch the title during the test. Review this rule when videos reach ~10,000 views each.
 
 ### Brimlo examples (made with this system)
 
@@ -156,9 +175,10 @@ MILLIONS · BILLIONS · 10,000 · 1 TRILLION · per SECOND · INFINITE
 
 Track which template wins. Update after 7 days.
 
-| Video | Template | 7-day views | CTR |
+| Video | Titles (live → swap, with dates) | 7-day views | CTR |
 |---|---|---|---|
 | Way Too Many Fish (A/B from 6 Nov) | A: P1-ish "I Sorted WAY TOO MANY Fish…" · B: P5 "…Until I Had $2,000…" · C: curiosity "16 of 18 Fish…" | check 12 Nov | winner? |
+| Wait, They Can Climb?! | "I Had to Survive 8,000 Zombies on One Roof" (Mon 9 Nov) → "Alone on One Roof vs 8,000 Zombies - Wait, They Can Climb?!" (Tue 10 Nov, 6 views at swap; game name added for search) | check Mon 16 Nov | |
 | | | | |
 
 ---
