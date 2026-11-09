@@ -31,7 +31,7 @@ This repo is the brain of the YouTube channel **Brimlo** (@BrimloIdle). It holds
 | Uploads | **3–4 long videos per week** and **no fixed days** (Mamunur, 25 Oct 2026). Long videos are fine for him; do not push shorter videos. Make a video on one day, publish it on another day. **Publish time is always 10 PM Dhaka** (= 12 PM ET until 31 Oct 2026, **11 AM ET from 1 Nov 2026** until US DST starts in March 2027). **Never write upload days** ("every Tuesday and Friday") in descriptions or on the channel. **Fast lane:** hot demo/playtest/launch → publish within 1–2 days. **Launches: check if it came out ≤ 48 hours ago (day 0–2); if more, say "the launch window has passed"** (rule 11). Every planned video gets an **upload speed label** (🔥 FAST / 🟡 SOON / 🟢 RELAXED, rule 11). |
 | Workflow | Make (record + edit) a video on one day, publish it on another day at 10 PM Dhaka. Other evenings: scout, test games, comments. |
 | Goal | YPP: 1,000 subs + **8,000 watch hours** (new rule for applicants from 1 Feb 2027). Then long-term income. |
-| Game budget | Max **$10–15/month**. Free first: demos, playtests, free-to-play, developer keys. |
+| Game budget | **No buying for now (Mamunur, 10 Nov 2026):** only free demos, playtests, free-to-play, developer keys, and games he already owns but has not played. Buy premium games again only after the channel grows; he decides when. (Old cap when buying: $10–15/month.) |
 | Brand | Navy #0B1023, gold #FFC83D→#FF8A00, teal #2EE6D6. Tagline: "You rest. I'll keep going." |
 
 Full details: [channel/profile.md](channel/profile.md), [channel/strategy.md](channel/strategy.md), current numbers: [channel/status.md](channel/status.md).

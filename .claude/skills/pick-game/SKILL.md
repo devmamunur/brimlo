@@ -38,7 +38,7 @@ Drop a candidate if any is true:
 - Reviews under ~80% positive when there are 10+ reviews (demo or full). Under 10 reviews → judge by the trailer, the screenshots and the first creator videos (comments liking it).
 - Anti-cheat, or it cannot run in CrossOver Steam / Mac Steam (rule 6). Windows-only is fine.
 - Too long for one video (demo or a full run must fit ~60–120 min, or have a clear stop point).
-- Price over budget (max $10–15/month; say this month's spend so far). Free first.
+- **Not free and not owned → drop it** (no-buy rule since 10 Nov 2026, `CLAUDE.md` → Game budget: only free demos, playtests, free-to-play, developer keys and owned-unplayed games). A paid launch can still be played through its **free demo** if the demo is still up.
 - Already used (`videos/log.md`) — unless it is the full launch of a game we played as a demo (allowed: rule 4).
 
 Note: reviews do not decide views (Hay! One Billion! is Mixed 65% and still huge), so the gate is about Mamunur enjoying it and the video being honest — not about views.
@@ -61,7 +61,7 @@ Tie-break: free > paid · the type that works for us (survivor/horde: our top 3 
 **Nothing fresh passes the gate?** Say so in one line ("No fresh game today that passes the gate — checked <time>") and fall back to the **normal scout** below.
 
 ### Normal scout (fallback)
-The older system: time-sensitive free demos/playtests (end dates, Next Fest) > launches in the last ~2 weeks with few YouTube videos > owned unused games in `games/backlog.md` > paid on sale. Score with `games/checklist.md` (Must = pass/fail, Strong = count). Upload speed labels by `channel/strategy.md` → "Upload speed label". Still validate the pick in Chrome (Step 3). Still one game.
+The older system: time-sensitive free demos/playtests (end dates, Next Fest) > free demos of games launched in the last ~2 weeks with few YouTube videos > owned unused games in `games/backlog.md`. (No paid games while the no-buy rule is on.) Score with `games/checklist.md` (Must = pass/fail, Strong = count). Upload speed labels by `channel/strategy.md` → "Upload speed label". Still validate the pick in Chrome (Step 3). Still one game.
 
 ## Step 5 — Reply (short, simple English)
 
