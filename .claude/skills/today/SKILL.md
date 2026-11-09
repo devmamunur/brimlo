@@ -19,5 +19,5 @@ description: Tell Mamunur what to do now — the ONE next game to play (checked 
    - **Now (today)** — max 3 items, most important first.
    - **Next game** — ONE game to record next + the publish date, with its upload speed label (🔥/🟡/🟢, CLAUDE.md rule 11), the date/time you checked and the reason. One backup game in one line.
    - **Also open** — max 3 short lines (overdue checks, title swap check, weekly review).
-   - **No week table, no list of later games** (Mamunur, 9 Nov 2026). For a planned new launch/demo/playtest, also say the hours since launch and, if over 24 h, "the launch window has passed".
+   - **No week table, no list of later games** (Mamunur, 9 Nov 2026). For a planned new launch/demo/playtest, also say the hours since launch and, if over 48 h, "the launch window has passed".
 5. Do not edit files unless something is clearly wrong (e.g. a published video still shows 📝); then fix it and say so.

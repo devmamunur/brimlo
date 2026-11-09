@@ -62,14 +62,40 @@ Rare extra (max 1 in 10 videos): "This Is the Most Satisfying Game of the Year" 
 - Our own data: cozy videos got about the same small search traffic with or without the name (description + tags already do it); only the survivor-likes got real search traffic.
 - No "Demo" in the title. Review this rule at each /weekly-review with search traffic per video.
 
+### Title recipe by game type (Tue 10 Nov 2026 — from the 24-game / 10-channel study)
+
+**Every title starts here.** First fill this card (from the video file, Steam page or recording):
+
+```
+Game name:        ...
+Game type:        (one row from the table below)
+Concept (1 line): I [main action] to [goal]
+Hot right now?:   launch/playtest ≤ 48 h, or YouTube wave started ≤ 48 h ago? yes/no
+Core fact:        biggest TRUE number · tiny tool vs huge job · end result · funniest moment
+```
+
+| Game type (how to know it) | Game name in title? | Hook that wins (pattern) | Real winning titles (channel subs → views) |
+|---|---|---|---|
+| **Survivor / horde / zombie / tower defense / roguelite / action** (enemies, waves, guns, bosses) | **Yes, at the end**: " \| Game Name" or " - Game Name" | **1 me vs BIG NUMBER enemies** · "This is a … About …!" · "How long can I survive" (P1, P5) | Ash Swoon 3.6K → 41K "This is an Incremental Game About Holding Off Climbing Zombies! \| Wait, They Can Climb?!" · Erdem 42K → 64K "1 vs 10,000 Zombies - How Many Days Can I Survive? - Wait, They Can Climb?!" · Sharkinbear 2.3K → 18.6K "The Only Thing Your Rats Remember Is The Taste Of Flesh And Bone - I Am Plague" · (no name also works: IdleAlex 629 → 14K "I Tried to Become a Billionaire by Killing Zombies") |
+| **Cleaning / restoring / tidy-up job** | No | **Tiny tool vs huge dirty place** (P3, P4) | FungalBrainRot 8.4K → 129K "They Gave Me A Toothbrush And Told Me To Clean The Moon" · IdleAlex 629 → 52K "I Have to Clean Up a Bank Buried in Cash" · GrayStillPlays → 297K "if you clean it you keep it" · ⚠ plain "Tidy Up Game about…" titles got 100–650 (Ash) |
+| **Big-number collect / clicker** (coins, carrots, hay, pixels) | No | **"I Had To [verb] [ABSURD NUMBER] [thing] To [goal]"** (P1, P5) | DangerouslyFunny → 767K "I Had To Collect A Million Coins To Find The Bottom", 731K "I Have To Find A Single Golden Pixel" · mcveety 34K → 150K "I Have To Harvest A Quadrillion Carrots" · Slow Mo 2K → 57K "I Pushed Coins Until I Became a Millionaire" |
+| **Colony / army / swarm growth** | No | **"Start with 1 X → thousands → consume everything"** (P1) | Haikrazon 4.2K → 212K "We Start With 1 Ant, Then Grow The Colony To Thousands To Consume Everything" · Dex → 104K "I Conquered EVERYTHING with an Army of Ants" · Slow Mo 2K → 37K "Building an Unstoppable Army One Fusion at a Time" |
+| **Dark / weird / horror incremental** (cult, gods, body parts, monsters) | No | **Shocking job + dark twist** · "A Game Where I…" (P3, P6, P7) | mcveety 34K → 326K "My company made me recycle my coworkers" · JustPatrick-Idle 4.1K → 73K "A Game Where I Run a Cult That Feeds Brains to a God!", 68K "…Evolve a Pigeon Into a Cosmic Horror!" · Azrilich → 61K "I dug up body parts to pay off my debt" |
+| **Card packs / luck / gambling** | No | **Huge count + rarest card** (P1) | DangerouslyFunny → 601K "I Opened 10,000 Packs To Find The Rarest Cards" · Waligug → 210K "i opened 1,000,000 packs until i got a 0.001% card" · Slow Mo 2K → 48K "I Opened Enough Packs to 100% the Game" |
+| **Grow / nature / cozy builder** (mushrooms, forest, farm, desert) | No | **Tiny thing takes over EVERYTHING** (P1, P2) | JustPatrick-Idle 4.1K → 70K "Growing a Mushroom Network Until It Takes Over EVERYTHING!" · Slow Mo 2K → 6.2K "I Turned a Desert Into a Forest" |
+| **⭐ Launch day (0–2 days) of a hyped game — any type** | **Allowed** at the end or inside the sentence | the type's hook + the name | Yusterday 1.6K → 245K "I Built a Fungal EMPIRE.. \| Let's Try Out: Mycelarium" (day 0) · FungalBrainRot → 80K "I Played 100% Of Mycelarium" (day 2) · Yusterday → 53K "I BEAT Mycelarium and CONSUMED the Earth.." |
+
+If a game fits two rows, use the row of its **main loop** (what you do 80% of the time). Not sure → the no-name story title is the safe default (most small-channel breakouts).
+
 ### How to make a title (step by step)
 
-1. Write in one line what really happened in the video (the biggest number, the funniest moment, the end result).
-2. Pick 2–3 patterns that fit (P1/P2 first).
-3. Write 5 titles, each under ~55 characters.
-4. Read each out loud: would a stranger who never heard of the game click it? If it needs the game name to make sense, rewrite it.
-5. Check: true? short? game name only for a searched survivor/horde/action game, and only at the end? not the same pattern as the last 2 videos?
-6. Score with `brimlo_score_title` (and vidIQ if useful) **only to compare** — the truth and the pattern win over a score.
+1. Fill the card above and pick the **game type row**.
+2. Write the core fact in one line (biggest true number, tiny tool vs huge job, end result, funniest moment).
+3. **A (live title)** = the row's winning hook with our own words and the core fact. Name only if the row says so.
+4. **B** = a different pattern (P1–P7) of the same row. **C** = the name version if the row allows a name (survivor/horde or launch day); otherwise a third pattern.
+5. Hook check: the **first ~40 characters** must make a stranger curious without knowing the game (number, absurd tool, dark twist).
+6. Check: true on screen? 30–55 characters (a " \| Game Name" tail may go up to ~70)? Title Case, max one CAPS word? Not the same pattern as the last 2 videos? Never the game name first? Not a copy of a real title?
+7. Score with `brimlo_score_title` (and vidIQ if useful) **only to compare** — the truth and the row win over a score.
 
 ### A/B/C title set (every video) + hand swaps
 
