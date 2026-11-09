@@ -83,7 +83,7 @@ brimlo_score_title (estimate, 9 Nov): A 83 · B 83 · C 73.
 
 ## Thumbnail idea
 
-**Final:** [thumbnails/2026-11-09-wait-they-can-climb.jpg](thumbnails/2026-11-09-wait-they-can-climb.jpg) (1280x720 JPG, v2 with both hands on the gun, checked Mon 9 Nov 2026: passes the 10-second check).
+**Final:** [thumbnails/2026-11-09-wait-they-can-climb.jpg](thumbnails/2026-11-09-wait-they-can-climb.jpg) (1280x720 JPG, v3 zoomed-in GPT edit, set in Studio by Mamunur Mon 9 Nov 2026 before publish. Big faces clear on phone; only one hand on the gun).
 
 - Type: hero object + a huge crowd (house style v3, no text)
 - Attach frames: `tools/transcribe/out/2026-11-09-wait-they-can-climb/frames/22_01-10-56.jpg` (day 5, zombies on all roads) and `14_00-44-32.jpg` (zombies climbing the building)
