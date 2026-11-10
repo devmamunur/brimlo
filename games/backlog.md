@@ -1,6 +1,6 @@
 # Game backlog
 
-Last updated: Sun 8 Nov 2026 (dark scout section).  Mac info for owned games is from Steam store data (6 Oct 2026) unless marked "?". **Always do your own 10-minute test before planning.**
+Last updated: Wed 11 Nov 2026 (/pick-game: SHRED A BILLION) · Sun 8 Nov 2026 (dark scout section).  Mac info for owned games is from Steam store data (6 Oct 2026) unless marked "?". **Always do your own 10-minute test before planning.**
 
 Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md](checklist.md) passes. Free first.
 
@@ -51,6 +51,15 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 | Needle In A Haystack Simulator | Huge Sep 2026 wave; full release "later this year" | ? | ? | Only on full release — the wave is over |
 | FEED THE AI | Big outlier, but already covered by Idle Cub and others | Windows only | Paid | Only with a fresh angle (100% run) |
 | My Fire Is Bigger Than Yours | 100% video got 174K | ? | Paid | Covered; fresh angle needed |
+
+### /pick-game, Wed 11 Nov 2026 ~1:10 AM Dhaka (Steam new/popular/demos + vidIQ 48-h YouTube scan + Chrome check)
+
+Fresh result: **no game passes the strict 48-hour rule** (no free launch/playtest ≤ 48 h; the free-demo waves found started 3+ days ago). Fresh paid games skipped by the no-buy rule: Booster Pack Heroes ($6.99, Idle cub 216K), Stick A Fork ($3.99, DangerouslyFunny 346K), Dirt Clicker ($5.59, Mixed 65%, Azrilich 10 Nov), What the Buck?! ($4.89), Potato Please ($8.99).
+
+| Game | Status / date | Price | Speed (checked 11 Nov) | Notes |
+|---|---|---|---|---|
+| **SHRED A BILLION** (5472080, demo 5472090) | Free demo out ~Tue 3 Nov; full game Tue 24 Nov 2026 | Free demo | 🟡 SOON → **✅ /pick-game pick, record Wed 11 Nov** | First-person incremental: grab cash by hand → bucket → vacuum, feed 3,929,120,202 bills to a shredder, find the golden key. 7,000 wishlists (3 Nov). **Proven demand:** Coffi (RU, 8.2M) 423K (4 Nov), Japanese Nagami (3.3K subs) 74K (20x), El Magnum (ES) 56K, trailer short 64K. **English (Chrome, 11 Nov 1 AM Dhaka):** Idle Gamer (4.8K subs) 18K in ~1.5 days (2.9x), ShadesOfNate 14K (2 d), RossBoomsocks 11K (4 d), Vey 771, Cozy Coffee (no commentary) 421 → English wave started ~6–7 Nov = **over 48 h, the launch window has passed**, but only ~4 English commentary videos and all are 11–18K = room for one more. Risks: Vey's demo crashed twice (dev patch 7 Nov). Demo run ~45–70 min. Windows only → CrossOver, run test pending. A full-launch video on 24 Nov is allowed later (rule 4) |
+| Zombie Incremental: The Last Outpost (backup) | see Dark scout row | Free demo | 🟡 backup | Re-check 11 Nov 1 AM: still only Ash Swoon (9.2K), wave cooling (49 views/hour) |
 
 ### Dark scout, Sun 8 Nov 2026 (game-scout + Chrome YouTube check; no run tests yet)
 
