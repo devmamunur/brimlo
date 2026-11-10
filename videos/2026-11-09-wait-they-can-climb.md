@@ -304,6 +304,10 @@ Chapters
 
 Wait They Can Climb, Wait They Can Climb demo, Wait They Can Climb gameplay, Wait They Can Climb full demo, wait they can climb game, zombie tower defense, incremental tower defense, zombie incremental game, incremental game, idle game, relaxing gameplay, gameplay to fall asleep to, brimlo
 
+## Copyright claim (seen Wed 11 Nov 2026)
+
+Content ID claim: "Stranded Alone" by Tim Kulig (audio). Studio says: no impact on reach, no strike. Most likely the game's own music: Ash Swoon's Wait, They Can Climb?! video credits the same track as Creative Commons BY 4.0 (guess, not confirmed with the developer). Action: add the credit line to the description; no dispute for now (no impact while the channel is not monetized). Review if it ever blocks or monetizes the video.
+
 ## Results
 
 Check dates: 7 days = Mon 16 Nov 2026 · 28 days = Mon 7 Dec 2026. Final length 1:19:11.
