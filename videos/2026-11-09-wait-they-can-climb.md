@@ -306,7 +306,7 @@ Wait They Can Climb, Wait They Can Climb demo, Wait They Can Climb gameplay, Wai
 
 ## Copyright claim (seen Wed 11 Nov 2026)
 
-Content ID claim: "Stranded Alone" by Tim Kulig (audio). Studio says: no impact on reach, no strike. Most likely the game's own music: Ash Swoon's Wait, They Can Climb?! video credits the same track as Creative Commons BY 4.0 (guess, not confirmed with the developer). Action: add the credit line to the description; no dispute for now (no impact while the channel is not monetized). Review if it ever blocks or monetizes the video.
+Content ID claim: "Stranded Alone" by Tim Kulig (audio). Studio says: no impact on reach, no strike. Most likely the game's own music: Ash Swoon's Wait, They Can Climb?! video credits the same track as Creative Commons BY 4.0 (guess, not confirmed with the developer). Action: credit line added to the description in Studio under "Developer: babia" (Wed 11 Nov 2026, saved): `Music in the game: "Stranded Alone" by Tim Kulig (timkulig.com), licensed under Creative Commons BY 4.0: http://creativecommons.org/licenses/by/4.0/`; no dispute for now (no impact while the channel is not monetized). Review if it ever blocks or monetizes the video.
 
 ## Results
 
