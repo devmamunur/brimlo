@@ -230,3 +230,16 @@ I Am Plague, I Am Plague gameplay, I Am Plague playtest, I Am Plague 100%, I Am 
 | Watch hours | | |
 
 **Lessons:** 
+
+## Results — weekly review Wed 11 Nov 2026
+
+| Check | ~7 days (public views) | Studio, 13 Oct – 9 Nov 2026 |
+|---|---|---|
+| Views | ~540 ⭐ | 1,091 |
+| Impressions | | 4,671 |
+| Impressions CTR | | 6.5% |
+| Average view duration | | 7:10 |
+| Subs gained | | 3 |
+| Watch hours | | 52.4 |
+
+Hit: playtest during its YouTube wave. Still ~45 views/day at day 24.

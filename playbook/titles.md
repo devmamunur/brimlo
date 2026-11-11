@@ -61,6 +61,8 @@ Rare extra (max 1 in 10 videos): "This Is the Most Satisfying Game of the Year" 
 - Shape alone does not make a hit: every shape also has flops under 1K. Timing (launch wave) and thumbnail matter more.
 - Our own data: cozy videos got about the same small search traffic with or without the name (description + tags already do it); only the survivor-likes got real search traffic.
 - No "Demo" in the title. Review this rule at each /weekly-review with search traffic per video.
+- **Exception — old video with a proven name search (Wed 11 Nov 2026):** when you swap the title of an older video (past its first ~7 days) that ranks in the top 3 of YouTube search for the game name, or gets a clear share of its views from Search, **keep " - Game Name" at the end**, whatever the game type. After week 1, Home stops pushing a small video and search is what keeps it alive. Example: Scrapecremental (#2 for its name) → "I Scraped a Dinosaur Skull Clean With My Fingernail - Scrapecremental".
+- **These rules are not fixed (Mamunur, 11 Nov 2026).** They are our best guess from today's data. Change a rule only after new market research (20+ games, small and big channels) or our own clear data, and write the date and the reason here.
 
 ### Title recipe by game type (Tue 10 Nov 2026 — from the 24-game / 10-channel study)
 
@@ -203,9 +205,12 @@ Track which template wins. Update after 7 days.
 
 | Video | Titles (live → swap, with dates) | 7-day views | CTR |
 |---|---|---|---|
-| Way Too Many Fish (A/B from 6 Nov) | A: P1-ish "I Sorted WAY TOO MANY Fish…" · B: P5 "…Until I Had $2,000…" · C: curiosity "16 of 18 Fish…" | check 12 Nov | winner? |
-| Wait, They Can Climb?! | "I Had to Survive 8,000 Zombies on One Roof" (Mon 9 Nov) → "Alone on One Roof vs 8,000 Zombies - Wait, They Can Climb?!" (Tue 10 Nov, 6 views at swap; game name added for search) | check Mon 16 Nov | |
-| | | | |
+| Way Too Many Fish (A/B from 6 Nov) | A: P1-ish "I Sorted WAY TOO MANY Fish…" · B: P5 "…Until I Had $2,000…" · C: curiosity "16 of 18 Fish…" | 145 (day 5) | 3.0% (28 d) |
+| Wait, They Can Climb?! | "I Had to Survive 8,000 Zombies on One Roof" (Mon 9 Nov) → "Alone on One Roof vs 8,000 Zombies - Wait, They Can Climb?!" (Tue 10 Nov, 6 views at swap; game name added for search) | check Mon 16 Nov | 5.6% (71 impressions, too early) |
+| Pack Ripper | A: "I Spent My Rent on Card Packs to Find the GOLDEN TICKET \| Pack Ripper" (1 Nov) → "I Ripped 225 Card Packs to Find One Golden Ticket" (Wed 11 Nov, CTR 1.0% before) | ~110 | 1.0% |
+| Scrapecremental | "They Gave Me ONE Fingernail…\| Scrapecremental" → "I Scraped a Dinosaur Skull Clean With My Fingernail - Scrapecremental" (Wed 11 Nov; name kept: we rank #2 for it) | ~39 | 1.5% before |
+| Digging a Hole | "Bought a House for $10 and Dug for DIAMONDS \| A Game About Digging a Hole" → "I Found a Big Red X in My Garden and Started Digging" (Wed 11 Nov) | ~23 | 1.7% before |
+| Review 11 Nov 2026 | Best CTR: Rust & Shine 7.3%, I Am Plague 6.5% ("I 100%…"), Outbreak Z 6.2%, Deforest 5.7%. Worst: Pack Ripper 1.0%, Cookie Clicker 1.3%, Scrapecremental 1.5%, Digging a Hole 1.7%. Search CTR 11.7% vs Browse 3.3%: the game name in the title helps search. | | |
 
 ---
 

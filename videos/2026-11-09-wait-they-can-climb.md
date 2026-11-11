@@ -321,3 +321,16 @@ Check dates: 7 days = Mon 16 Nov 2026 · 28 days = Mon 7 Dec 2026. Final length 
 | Watch hours | | |
 
 **Lessons:**
+
+## Results — weekly review Wed 11 Nov 2026
+
+| Check | ~7 days (public views) | Studio, 13 Oct – 9 Nov 2026 |
+|---|---|---|
+| Views | 77 (day 1.5) | 18 |
+| Impressions | | 71 |
+| Impressions CTR | | 5.6% |
+| Average view duration | | 23:35 |
+| Subs gained | | 0 |
+| Watch hours | | 2.4 |
+
+Too early.

@@ -214,3 +214,16 @@ Chapters
 **Lessons:** Late by 2 days on a FAST game: the small channel that came out first got the wave. Very few impressions (171) at 2 subs, and a low CTR (2.9%) gave YouTube no reason to show it more. Viewers left fast (1:11 average).
 
 Sources (checked 3 Nov 2026): [Steam full game](https://store.steampowered.com/app/4564070/) · [Steam demo](https://store.steampowered.com/app/5400640/) · YouTube search via vidIQ (videos since 15 Oct 2026).
+
+## Results — weekly review Wed 11 Nov 2026
+
+| Check | ~7 days (public views) | Studio, 13 Oct – 9 Nov 2026 |
+|---|---|---|
+| Views | 145 (day 5) | 129 |
+| Impressions | | 939 |
+| Impressions CTR | | 3.0% |
+| Average view duration | | 11:28 |
+| Subs gained | | 0 |
+| Watch hours | | 8.3 |
+
+Longest avg view on the channel.

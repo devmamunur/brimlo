@@ -31,3 +31,16 @@ _fill in the published title_
 | Watch hours | | |
 
 **Lessons:** 
+
+## Results — weekly review Wed 11 Nov 2026
+
+| Check | ~7 days (public views) | Studio, 13 Oct – 9 Nov 2026 |
+|---|---|---|
+| Views | ~65 | 35 |
+| Impressions | | 386 |
+| Impressions CTR | | 1.3% |
+| Average view duration | | 0:14 |
+| Subs gained | | 0 |
+| Watch hours | | 0.0 |
+
+

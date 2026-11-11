@@ -349,3 +349,19 @@ Check dates: 7 days = **Sun 8 Nov 2026**, 28 days = **Sun 29 Nov 2026**.
 | Watch hours | | |
 
 **Lessons:** 
+
+## Results — weekly review Wed 11 Nov 2026
+
+| Check | ~7 days (public views) | Studio, 13 Oct – 9 Nov 2026 |
+|---|---|---|
+| Views | ~110 | 111 |
+| Impressions | | 952 |
+| Impressions CTR | | 1.0% |
+| Average view duration | | 1:56 |
+| Subs gained | | 0 |
+| Watch hours | | 0.6 |
+
+Weakest CTR on the channel (1.0%). Swap title + thumbnail.
+
+**Title swap Wed 11 Nov 2026 (weekly review, CTR 1.0%):** "I Spent My Rent on Card Packs to Find the GOLDEN TICKET | Pack Ripper" → **"I Ripped 225 Card Packs to Find One Golden Ticket"** (P1, card-pack row: huge count + rarest card, no game name; 225 packs + ticket true, end screen). Judge Sat 14 – Mon 16 Nov.
+**Thumbnail: needs a new one.** The text "GOLDEN TICKET" repeats the title (rule 9) and the green pack in the middle hides the ticket. Idea: hands holding the last card over an almost full binder (31/32 glowing slots), golden ticket shining out of a pack, text "1 CARD LEFT". Mamunur makes it.

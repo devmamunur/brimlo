@@ -49,3 +49,16 @@ YouTube Studio A/B test (Test & Compare), running with 3 thumbnails in house sty
 3. Gemini (flatter cartoon, smaller text): `playbook/thumbnail-examples/2026-10-28-digging-hole-v2-gemini.jpg`
 
 The old "GOT RICH!" thumbnail (CTR 1.6%) was already replaced before the test, so it is not part of it. Low traffic: check the result in 1–2 weeks (Studio → video → Analytics or the thumbnail test). Write the winner and its watch-time share here.
+
+## Results — weekly review Wed 11 Nov 2026
+
+| Check | ~7 days (public views) | Studio, 13 Oct – 9 Nov 2026 |
+|---|---|---|
+| Views | ~23 | 30 |
+| Impressions | | 1,360 |
+| Impressions CTR | | 1.7% |
+| Average view duration | | 0:35 |
+| Subs gained | | 0 |
+| Watch hours | | 0.3 |
+
+**Title swap Wed 11 Nov 2026 (weekly review, CTR 1.7% on 1,360 impressions, avg view 0:35):** "Bought a House for $10 and Dug for DIAMONDS | A Game About Digging a Hole" → **"I Found a Big Red X in My Garden and Started Digging"** (P2 story, cozy dig row: no game name; the red X is the game's start, see description). Thumbnail "$10 HOUSE" kept (won the 28 Oct test; it adds a fact, does not repeat the title). The bigger problem here is the 0:35 average view (the start of the video), not only the title.

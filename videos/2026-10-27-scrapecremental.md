@@ -203,3 +203,17 @@ Numbers (vidIQ, ~27 h after publish): 19 views, 1 like. Too early to judge (7-da
 | Watch hours | | |
 
 **Lessons:**
+
+## Results — weekly review Wed 11 Nov 2026
+
+| Check | ~7 days (public views) | Studio, 13 Oct – 9 Nov 2026 |
+|---|---|---|
+| Views | ~39 | 45 |
+| Impressions | | 327 |
+| Impressions CTR | | 1.5% |
+| Average view duration | | 3:57 |
+| Subs gained | | 0 |
+| Watch hours | | 1.4 |
+
+**Title swap Wed 11 Nov 2026 (weekly review, CTR 1.5% on 327 impressions):** "They Gave Me ONE Fingernail and Told Me to Clean a Whole Town | Scrapecremental" (80 chars) → **"I Scraped a Dinosaur Skull Clean With My Fingernail"** (P2, cleaning row: no game name; skull 100% at ~30:00). Thumbnail "100% CLEAN" kept: clear and does not repeat the title.
+**Game name added back Wed 11 Nov 2026 (same day):** now **"I Scraped a Dinosaur Skull Clean With My Fingernail - Scrapecremental"** (69 chars). Reason: we were #2 in YouTube search for "Scrapecremental"; the video is 2 weeks old, so search is its main traffic now (new rule in playbook/titles.md: "Old video with a proven name search").

@@ -313,3 +313,16 @@ mycelarium, mycelarium 100%, mycelarium gameplay, mycelarium full game, mycellar
 | Watch hours | | |
 
 **Lessons:**
+
+## Results — weekly review Wed 11 Nov 2026
+
+| Check | ~7 days (public views) | Studio, 13 Oct – 9 Nov 2026 |
+|---|---|---|
+| Views | 344 (day 3) | 288 |
+| Impressions | | 1,454 |
+| Impressions CTR | | 3.9% |
+| Average view duration | | 3:26 |
+| Subs gained | | 0 |
+| Watch hours | | 5.0 |
+
+On track for a hit (~100 views/day). 34% left at ~2 min.

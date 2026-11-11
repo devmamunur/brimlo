@@ -260,3 +260,16 @@ Why it is weak (Studio + vidIQ, 28 Oct): 22 views in 3 days, only **39 impressio
 | Watch hours | | |
 
 **Lessons:** 
+
+## Results — weekly review Wed 11 Nov 2026
+
+| Check | ~7 days (public views) | Studio, 13 Oct – 9 Nov 2026 |
+|---|---|---|
+| Views | ~44 | 71 |
+| Impressions | | 328 |
+| Impressions CTR | | 7.3% |
+| Average view duration | | 2:26 |
+| Subs gained | | 0 |
+| Watch hours | | 2.0 |
+
+Best CTR, but YouTube showed it very little (328 impressions).

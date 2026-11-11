@@ -95,3 +95,16 @@ Quadrillion Carrots, Quadrillion Carrots demo, Quadrillion Carrots gameplay, Qua
 | Watch hours | | |
 
 **Lessons:**
+
+## Results — weekly review Wed 11 Nov 2026
+
+| Check | ~7 days (public views) | Studio, 13 Oct – 9 Nov 2026 |
+|---|---|---|
+| Views | ~60 | 88 |
+| Impressions | | 739 |
+| Impressions CTR | | 3.7% |
+| Average view duration | | 4:11 |
+| Subs gained | | 0 |
+| Watch hours | | 2.7 |
+
+

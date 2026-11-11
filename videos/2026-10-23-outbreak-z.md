@@ -81,3 +81,16 @@ Make a YouTube thumbnail, 1280x720 (16:9), using the attached Outbreak Z images 
 - The problem was reach, not packaging: CTR was good, but a 2-sub channel got only 56 impressions.
 - We came late: the demo was out from 5 Oct, and one English video (Ash Swoon, 22K views) already owned "Outbreak Z" search. Publish fast-lane games in the first 1–3 days.
 - Slow start: from about 1:41 to 2:50 I read the game's story text aloud. Next time, start with the hook and an exciting moment instead.
+
+## Results — weekly review Wed 11 Nov 2026
+
+| Check | ~7 days (public views) | Studio, 13 Oct – 9 Nov 2026 |
+|---|---|---|
+| Views | ~314 ⭐ | 691 |
+| Impressions | | 2,933 |
+| Impressions CTR | | 6.2% |
+| Average view duration | | 5:43 |
+| Subs gained | | 0 |
+| Watch hours | | 24.4 |
+
+Hit: Next Fest demo during the wave.

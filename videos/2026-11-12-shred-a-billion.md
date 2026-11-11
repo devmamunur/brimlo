@@ -2,16 +2,16 @@
 
 | | |
 |---|---|
-| Status | ✂️ recorded + edited Wed 11 Nov 2026 (final export 1:11:25, `WD Black/Videos/da-vinci/SHRED A BILLION.mov`, re-exported 6:28 AM with the hook fix) — ready to upload |
-| Upload | Thu 12 Nov 2026, 10 PM Dhaka (11 AM ET) |
+| Status | ✅ published Wed 11 Nov 2026, ~6:50 AM Dhaka (00:49 UTC) — earlier than the planned Thu 12 Nov 10 PM slot |
+| Upload | Wed 11 Nov 2026, ~6:50 AM Dhaka (= Tue 10 Nov, 7:50 PM ET). Planned was Thu 12 Nov 10 PM Dhaka |
 | Upload speed | 🟡 SOON — checked Wed 11 Nov 2026 in Chrome: English wave started ~6–7 Nov (RossBoomsocks 11K) → **the launch window has passed**. Only ~4 English videos with commentary (Idle Gamer 18K, ShadesOfNate 14K, RossBoomsocks 11K, Vey 771). Big demand in other languages (Russian 423K, Japanese 74K, Spanish 56K, trailer Short 64K). Full game Tue 24 Nov 2026 |
 | Game | SHRED A BILLION by ImSoTiredStudio — https://store.steampowered.com/app/5472080/ (demo app 5472090) |
 | Source | Free demo |
-| End screen | Best for viewer + Incremental Games: Numbers Go UP + Subscribe (import from Mycelarium) — set: no |
-| Playlists | Incremental Games: Numbers Go UP + New Steam Demos Played to 100% |
+| End screen | Best for viewer + Incremental Games: Numbers Go UP + Subscribe (imported from Mycelarium) — set: ✅ Wed 11 Nov 2026 by Claude in Studio |
+| Playlists | Incremental Games: Numbers Go UP + New Steam Demos Played to 100% (added in Studio Wed 11 Nov 2026 by Claude) |
 | Runs on | CrossOver Steam ✅ (recorded the full demo, Wed 11 Nov 2026) |
 | Length | 1:11:25 (final export) |
-| YouTube link | |
+| YouTube link | https://youtu.be/G6vW4qxS_R8 |
 
 ## Game in one sentence
 
@@ -77,7 +77,7 @@ brimlo_score_title (estimate, 11 Nov 2026): A 73 · B 83 · C 76. A changed to "
 
 **Claims checked against the video (Wed 11 Nov 2026):** A ✅ start with $0, first shred $6.45 (0:15), $1 billion at 59:14, $6.97 billion at the end · B ✅ counter 104,562,797 at the start, 100% at 1:10:36 · C ✅ same counter.
 
-**A/B test in Studio:** no (rule: go live with A; swap check **Sun 15 Nov 2026** → B by hand if weak)
+**A/B test in Studio:** no. **Live title: A** (Wed 11 Nov 2026). Swap check **Sat 14 Nov 2026** → B by hand if weak.
 **Winner:** 
 
 ## Thumbnail idea
@@ -298,9 +298,16 @@ Chapters
 
 SHRED A BILLION, shred a billion demo, shred a billion gameplay, shred a billion full demo, shred a billion game, shred billion, shredding money game, money shredder game, incremental game, idle game, clicker game, relaxing gameplay, gameplay to fall asleep to, brimlo
 
+## Studio set-up (Wed 11 Nov 2026, by Claude)
+
+- Description: "CURRENT SUBS: [real number from Studio]" fixed to **3**.
+- Playlists, end screen (import from Mycelarium), English subtitles, game title "SHRED A BILLION" set. Video language already English.
+- Pinned comment posted by Claude (Mamunur's text, Wed 11 Nov 2026): "My favorite moment: “I don’t look like a thief… because I am the thief here” 😄"
+- vidIQ "Videos to gain views from" at publish: ShadesOfNate long 15K (2 d), RossBoomsocks 12K (5 d), Idle Gamer 21K (2 d), Cloyyd "I threw $1,000,000,000 into a shredder" 4.2K (4 d), Der Cozy Unc (DE) 1.1K (2 d); new same-day small uploads: Ash Swoon 106 (9 h), WrongZ 12 (13 h), Gaming Ghost 184 (1 d). vidIQ peak time hint: 12–2 PM.
+
 ## Subtitles
 
-**Ready (Wed 11 Nov 2026):** `WD Black/Videos/da-vinci/SHRED A BILLION.srt` (1,183 lines, timings from the final export). Made from our Whisper transcript, not YouTube's auto captions, so it can go up **during the upload** (Upload → Subtitles → Upload file → With timing).
+**Uploaded + published in Studio (Wed 11 Nov 2026, by Claude, With timing):** `WD Black/Videos/da-vinci/SHRED A BILLION.srt` (1,183 lines, timings from the final export). Made from our Whisper transcript, not YouTube's auto captions, so it can go up **during the upload** (Upload → Subtitles → Upload file → With timing).
 - Opening = the fixed line: "…we have total 104 million bundles of cash."
 - Bundles-left lines fixed billion → million (17:57, 50:26, 52:01, 56:34, 1:00:36, 1:00:56, 1:04:17, 1:04:31, 1:09:14). Money lines stay billion ($1 billion at 59:14, $6.97 billion at the end).
 - Misheard words fixed (257): share → shred, shader → shredder, spread/spirit → speed, back → bag, bottomless back → bottomless bag, polish → police, packet/bracket → bucket, golden palette → golden pallet, uh/um removed.
@@ -308,7 +315,7 @@ SHRED A BILLION, shred a billion demo, shred a billion gameplay, shred a billion
 
 ## Results
 
-Check dates: 7 days = Thu 19 Nov 2026 · 28 days = Thu 10 Dec 2026. Final length 1:11:25.
+Check dates: 7 days = Wed 18 Nov 2026 · 28 days = Wed 9 Dec 2026. Final length 1:11:25.
 
 | Check | 7 days | 28 days |
 |---|---|---|

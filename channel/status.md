@@ -4,7 +4,9 @@ Update this every Sunday (`/weekly-review`) and after big events.
 
 ## Right now
 
-**Last updated:** Mon 9 Nov 2026
+**Last updated:** Wed 11 Nov 2026 (weekly review)
+
+- **SHRED A BILLION published Wed 11 Nov 2026, ~6:50 AM Dhaka** ("Turning $0 Into $1,000,000,000 - Shred a Billion", 1:11:25, https://youtu.be/G6vW4qxS_R8). Playlists, end screen, subtitles set in Studio. Swap check Sat 14 Nov; 7-day results Wed 18 Nov. Subs: 3. Next: one game, picked fresh (`/pick-game`).
 
 - **Wait, They Can Climb?! published Mon 9 Nov 2026, 10 PM Dhaka** ("I Had to Survive 8,000 Zombies on One Roof", 1:19:11, https://youtu.be/Vo1xETN8mqo). Check 7-day results Mon 16 Nov. Next: Zombie Incremental (Tue 10 Nov), The Big Suck launch (Wed 11 Nov).
 
@@ -27,6 +29,7 @@ Update this every Sunday (`/weekly-review`) and after big events.
 | Date | Subs | Total views | Watch hours (365 days) | Videos | Notes |
 |---|---|---|---|---|---|
 | 13 Oct 2026 | ? | ? | ? | 1 public + 1 scheduled | Fill from YouTube Studio |
+| 11 Nov 2026 | 3 | 3,187 | **75 qualified** (Studio Earn, data 5 Nov) · 99.4 (API, to 10 Nov) | 14 public + 1 private | Last 7 days (4–10 Nov): 840 views, 29.6 h, +1 sub. 28 days (Studio): 19,181 impressions, CTR 4.5% (Search 11.7%, Browse 3.3%). Hits = wave games. See [weekly review](../analytics/weekly-reviews.md). |
 | 6 Nov 2026 | 2 (3 gained, 1 lost in 365 days) | 2,310 | **69.6** (365 days, vidIQ / YouTube Analytics) | 11 public | Engaged views 812 (35%). Avg view 5:04. Traffic 1 Oct–6 Nov: Home/Browse 1,562 views but only 317 engaged (avg 3:35); Search 450 (avg 6:34, **1/3 of all watch time**); Suggested 200 (avg 6:26). Pack Ripper: Home viewers avg **15 seconds**; only 20% left at ~2:15. |
 | 26 Oct 2026 | 2 (own accounts) | 1,074 | 25.4 (lifetime) | 7 public + 1 scheduled | Studio lifetime: 6,128 impressions, CTR 3.3% (Browse 2.5%), avg view 4:41. Retention falls to 17–45% by ~1:10. See [research/reports/2026-10-28-head-to-head-review.md](../research/reports/2026-10-28-head-to-head-review.md) |
 
@@ -37,6 +40,7 @@ Update this every Sunday (`/weekly-review`) and after big events.
 | 13 Oct 2026 | ? | | ? | |
 | 26 Oct 2026 | 2 | 0.2% | 25.4 | 0.3% |
 | 6 Nov 2026 | 2 | 0.2% | 69.6 | 0.9% |
+| 11 Nov 2026 | 3 | 0.3% | 75 (Studio, 5 Nov) / 99.4 (API, 10 Nov) | 0.9–1.2% |
 
 ## Open to-dos
 
