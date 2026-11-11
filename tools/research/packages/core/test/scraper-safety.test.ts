@@ -1,6 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { getDb, pruneCache, useMemoryDb } from "../src/db/client.ts";
-import { BlockedError, getText } from "../src/providers/http.ts";
+import { BlockedError, getJson, getText } from "../src/providers/http.ts";
 
 beforeEach(() => {
   process.env.BRIMLO_HTTP_GAP_MS = "0";
@@ -67,5 +67,27 @@ describe("cache cleanup", () => {
     db.prepare("INSERT INTO cache (key, value, fetched_at, ttl_sec, source) VALUES (?,?,?,?,?)").run("fresh", "1", now, 86400, "t");
     expect(pruneCache(db, now)).toBe(1);
     expect((db.prepare("SELECT key FROM cache").all() as any[]).map((r) => r.key)).toEqual(["fresh"]);
+  });
+});
+
+describe("429 backoff", () => {
+  it("retries twice after a 429, waits Retry-After, and pushes the shared gate forward", async () => {
+    process.env.BRIMLO_HTTP_GAP_MS = "1";
+    let n = 0;
+    const requested = fakeWeb({
+      "https://8.8.8.8/api": () => (++n <= 2 ? new Response("slow down", { status: 429, headers: { "retry-after": "1" } }) : new Response('{"ok":1}', { status: 200 })),
+    });
+    const t0 = Date.now();
+    await expect(getJson("https://8.8.8.8/api", { robots: false })).resolves.toEqual({ ok: 1 });
+    expect(requested.length).toBe(3);
+    expect(Date.now() - t0).toBeGreaterThanOrEqual(1900);
+    const row = getDb().prepare("SELECT next_ms FROM http_gate WHERE host = ?").get("8.8.8.8") as { next_ms: number };
+    expect(row.next_ms).toBeGreaterThan(t0);
+  });
+  it("gives up after the retries and reports the 429", async () => {
+    process.env.BRIMLO_HTTP_GAP_MS = "1";
+    const requested = fakeWeb({ "https://8.8.8.8/api": () => new Response("no", { status: 429, headers: { "retry-after": "0.01" } }) });
+    await expect(getJson("https://8.8.8.8/api", { robots: false })).rejects.toThrow(/HTTP 429/);
+    expect(requested.length).toBe(3);
   });
 });

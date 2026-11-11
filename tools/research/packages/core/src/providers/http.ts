@@ -154,6 +154,23 @@ async function waitTurn(host: string) {
   if (at > Date.now()) await sleep(at - Date.now());
 }
 
+/** Waits after a 429 (seconds) when the host sends no Retry-After. Steam's store search limits short bursts. */
+const RETRY_429_SEC = [8, 20];
+
+/**
+ * After a 429, push the host's next turn forward for EVERY caller (shared gate), so parallel calls
+ * and the other process back off too instead of hitting the limit again.
+ */
+function cooldown(host: string, ms: number) {
+  const until = Date.now() + ms;
+  lastHit.set(host, Math.max(lastHit.get(host) ?? 0, until));
+  try {
+    getDb().prepare("INSERT INTO http_gate (host, next_ms) VALUES (?, ?) ON CONFLICT(host) DO UPDATE SET next_ms = MAX(next_ms, excluded.next_ms)").run(host, until);
+  } catch {
+    // database busy or unavailable: the in-process value above still applies
+  }
+}
+
 /**
  * Follows redirects ourselves, one hop at a time, so EVERY hop is checked (public address + robots.txt)
  * BEFORE it is requested. Node's automatic redirects would request a private address first and check later.
@@ -172,9 +189,10 @@ async function safeFetch(url: string, init: RequestInit, o: { robots: boolean; t
       return fetch(current, { ...init, method, body, headers: { "user-agent": USER_AGENT, "accept-language": "en-US,en;q=0.8", ...(init.headers as Record<string, string>) }, signal: AbortSignal.timeout(o.timeoutMs), redirect: "manual" });
     };
     let res = await once();
-    if (res.status === 429) {
-      const after = Math.min(10, Number(res.headers.get("retry-after")) || 5);
-      await sleep(after * 1000);
+    for (let retry = 0; res.status === 429 && retry < RETRY_429_SEC.length; retry++) {
+      const after = Math.min(30, Number(res.headers.get("retry-after")) || RETRY_429_SEC[retry]!);
+      await res.body?.cancel().catch(() => {});
+      cooldown(current.hostname, after * 1000);
       res = await once();
     }
     const len = Number(res.headers.get("content-length"));
