@@ -33,7 +33,7 @@ Mamunur's decision (6 Nov 2026), after studying 12 Azrilich thumbnails (median 9
 ### The rules (v3)
 
 1. **Style:** 2D cartoon vector, thick bold black outlines, flat cel-shaded colors, very bright and saturated, a thin white edge around the hands and the main object. Never photorealistic, never 3D render.
-2. **Hands doing the job:** two big first-person cartoon hands from the bottom corners, wearing **navy (#0B1023) sleeves with a thin gold (#FFC83D) cuff**. They do the game's main action **right now**: peel, sort, crack, dig, feed, scrape, open. Not just holding a tool in the air. One hand is fine for a close-up of one item.
+2. **Hands doing the job:** two big first-person cartoon hands from the bottom corners, wearing **navy (#0B1023) sleeves with a thin gold (#FFC83D) cuff**. **Bare peach-skin hands, never gloves** (11 Nov 2026: the AI copied SHRED A BILLION's black gloves from the screenshot; every other Brimlo thumbnail has bare hands, keep the look the same). They do the game's main action **right now**: peel, sort, crack, dig, feed, scrape, open. Not just holding a tool in the air. One hand is fine for a close-up of one item.
 3. **One big object, close to the camera** (40–60% of the image): the thing the game is about. It must look like the real game's object.
 4. **Background = the game's world or an absurd amount of the resource** (a sea of fish, a mountain of coins, the planet surface). No radial lines, no plain color.
 5. **Colors:** bright for normal games. Dark or horror games may use dark red, purple or deep blue, but always strong and clear, never grey.
@@ -65,7 +65,7 @@ Create a YouTube thumbnail, exactly 1280x720 pixels (16:9).
 
 STYLE: bright 2D cartoon vector illustration. Thick bold black ink outlines on everything, flat cel-shaded colors, very high saturation, clean shapes, low detail, and a thin white edge around the hands and the main object so they pop. Use the attached [GAME] screenshots only as a reference for the shape and colors of [MAIN OBJECT] and [THE WORLD / RESOURCE], and redraw them in this cartoon style. Do not copy any text, numbers or menus from the screenshots.
 
-HANDS: first-person view. Two big cartoon hands come in from the bottom-left and bottom-right corners. The hands wear dark navy blue sleeves (#0B1023) with a thin gold cuff (#FFC83D). They are [DOING THE MAIN ACTION RIGHT NOW, e.g. peeling a giant potato with a red peeler].
+HANDS: first-person view. Two big cartoon hands come in from the bottom-left and bottom-right corners. The hands are bare cartoon hands with warm peach skin (no gloves) and wear dark navy blue sleeves (#0B1023) with a thin gold cuff (#FFC83D). They are [DOING THE MAIN ACTION RIGHT NOW, e.g. peeling a giant potato with a red peeler].
 
 CENTER: [MAIN OBJECT, e.g. one giant potato] very close to the camera, taking up about half of the image. It is the brightest and clearest thing in the picture. One small funny detail: [e.g. the potato looks scared].
 
@@ -73,7 +73,7 @@ BACKGROUND: the whole background is [THE GAME'S WORLD OR AN ABSURD AMOUNT OF THE
 
 TEXT: none. No letters, numbers or words anywhere.
 
-AVOID (negative prompt): any text, letters, numbers, words, photorealism, 3D render, realistic skin, realistic hands, photo, DSLR, cinematic lighting, grey or muddy colors, white gloves, extra fingers, more than two hands, fake logos, watermarks, signatures, the YouTube logo, a mascot or logo stamp in any corner, borders, frames, small inset image boxes in any corner, split screens, arrows, emoji, radial lines, plain empty background, tiny details, many small objects competing with the center object, blurry colors.
+AVOID (negative prompt): any text, letters, numbers, words, photorealism, 3D render, realistic skin, realistic hands, photo, DSLR, cinematic lighting, grey or muddy colors, gloves of any color, extra fingers, more than two hands, fake logos, watermarks, signatures, the YouTube logo, a mascot or logo stamp in any corner, borders, frames, small inset image boxes in any corner, split screens, arrows, emoji, radial lines, plain empty background, tiny details, many small objects competing with the center object, blurry colors.
 ```
 
 **With a progress number** (only when rule 7 allows): replace the TEXT line with `TEXT: at the top center, write exactly "[0 TREES LEFT]" in big bold yellow-gold cartoon letters (gold to orange gradient) with a thick black outline and a small drop shadow, readable when the image is shrunk to 160 px wide. This is the only text in the image.` and remove `any text, letters, numbers, words` from AVOID.

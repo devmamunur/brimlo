@@ -2,15 +2,15 @@
 
 | | |
 |---|---|
-| Status | 📝 planned (script card ready Wed 11 Nov 2026) |
+| Status | ✂️ recorded + edited Wed 11 Nov 2026 (final export 1:11:25, `WD Black/Videos/da-vinci/SHRED A BILLION.mov`, re-exported 6:28 AM with the hook fix) — ready to upload |
 | Upload | Thu 12 Nov 2026, 10 PM Dhaka (11 AM ET) |
 | Upload speed | 🟡 SOON — checked Wed 11 Nov 2026 in Chrome: English wave started ~6–7 Nov (RossBoomsocks 11K) → **the launch window has passed**. Only ~4 English videos with commentary (Idle Gamer 18K, ShadesOfNate 14K, RossBoomsocks 11K, Vey 771). Big demand in other languages (Russian 423K, Japanese 74K, Spanish 56K, trailer Short 64K). Full game Tue 24 Nov 2026 |
 | Game | SHRED A BILLION by ImSoTiredStudio — https://store.steampowered.com/app/5472080/ (demo app 5472090) |
 | Source | Free demo |
-| End screen | Best for viewer + Incremental Games: Numbers Go UP + Subscribe — set: no |
+| End screen | Best for viewer + Incremental Games: Numbers Go UP + Subscribe (import from Mycelarium) — set: no |
 | Playlists | Incremental Games: Numbers Go UP + New Steam Demos Played to 100% |
-| Runs on | CrossOver Steam (10-minute run test: not yet) |
-| Target length | 50–70 min (the demo = one vault, ~45–65 min in their videos) |
+| Runs on | CrossOver Steam ✅ (recorded the full demo, Wed 11 Nov 2026) |
+| Length | 1:11:25 (final export) |
 | YouTube link | |
 
 ## Game in one sentence
@@ -55,27 +55,53 @@ What they did that we don't do: "Welcome, welcome, welcome everybody…", "I hav
 
 ## Titles
 
+What really happened (transcript of the final export, read Wed 11 Nov 2026):
+- Opening (0:00): "Today I am going to heist a bank vault… I will shred all the money from this bank… we have total 104 million bundle of cash. I will shred all of them." Goal + action in the first 15 s ✅ (first shred at 0:15). Screen counter: 104,562,797 bundles (the game uses dots: 104.562.797). **Fixed Wed 11 Nov 2026:** the first export said "104 billions of money"; Mamunur re-recorded that line and swapped it in Resolve (new export 6:28 AM, same length 1:11:25, checked by transcript). Later lines like "71 billion left" are really millions: fix them in the subtitles.
+- First shred paid **$6.45** (0:15). Hands only: 5 bundles at a time at first.
+- Upgrade menu (1:00–2:00) and points tree (3:10–4:40) read aloud early. Subscribe line at 11:33 ("Want to see if I can empty this whole vault? Subscribe and stay with me").
+- Money rain 26:38 → **first $1 million at 27:03** → **bucket bought at 29:32** ($2.2M in hand, cost $1.76M) → bottomless bag 32:19 → **jetpack, "I can fly now" 35:35** → $100 million 45:55.
+- **$1 BILLION at 59:14** ("one billion completed"). New area unlocked 1:07:00.
+- **Vault 100% clean at 1:10:36.** End: "I had only my hand and a vault full of cash… I made now **6.97 billion**." Real play time ~1 h 48 min (said in the video).
+- Funny real moments: "I don't look like a thief… because I am the thief here" (57:57), "People gonna be mad at me, I am shredding all of their life savings" (42:01), "before the police comes" (1:04:37, 1:09:25), someone keeps depositing money and doesn't know (41:07). Running joke "my shredder is always hungry": not said.
+- No quiet stretch of 20 s or more (talk 83%).
+
 | Test | Pattern (P1–P7) | Title |
 |---|---|---|
-| A (main, live title) | P1 big number ("I Had To [verb] [ABSURD NUMBER] [thing]") | I Had to Shred 104 MILLION Bundles of Cash |
-| B (swap) | P2 tiny → huge ("I Turned [tiny] Into [HUGE]") | I Turned $6 Into $1 BILLION by Shredding Money |
-| C (swap) | P3 tiny tool vs huge job | They Gave Me Bare HANDS and a Vault Full of Cash |
+| A (main, live title) | P2 tiny → huge, full number written out + game name at the end | Turning $0 Into $1,000,000,000 - Shred a Billion |
+| B (swap) | P1 big number, exact counter + game name | I Shredded 104,562,797 Bundles - Shred a Billion |
+| C (swap, no name) | P1 big number | I Had to Shred 104 MILLION Bundles of Cash |
 
-brimlo_score_title (estimate, 11 Nov 2026): B 76 · A ~70 · C ~55. All say "no game name" (title recipe: big-number collect / clicker row). No "Demo" in the title.
+**Why the written-out number (Mamunur asked for a bold, high-CTR title, Wed 11 Nov 2026):** vidIQ search 11 Nov, money incremental games: MOREQUIS (66K subs) "Turning $0 into $374,400,000,000,000,000 per Second" 708K (outlier 19.9x) · mcveety (34K) "I got paid to destroy $1,000,000,000" 380K (10.7x) · Blitz "When you destroy $1,000,000,000" 152K · Idle Gamer (4.8K) "How Fast Can I Collect 3,929,120,202 Bills!" 20.5K (the top English SHRED A BILLION video). Full digits with commas + tiny → huge = the strongest shape in this genre. Note: none of those winners has the game name; the name stays at the end for search (this game's wave), and C is the no-name test.
+**Game name (Mamunur, 11 Nov 2026, for search):** big SHRED A BILLION videos in other languages use the name (Coffi RU 430K, Nagami JP 75K).
+brimlo_score_title (estimate, 11 Nov 2026): A 73 · B 83 · C 76. A changed to "$0" by Mamunur (11 Nov). A chosen over B: "$0 → $1,000,000,000" is a clearer promise than "bundles" (a word strangers don't picture).
 
-**Claims each title needs (check after recording):**
-- A: the start counter really says ~104 million bundles (change the number if yours is different) and you reach 100%.
-- B: your first drop pays about $6 and "$ earned" at the end is $1 billion or more.
-- C: you start with only your hands (true in the demo).
+**Claims checked against the video (Wed 11 Nov 2026):** A ✅ start with $0, first shred $6.45 (0:15), $1 billion at 59:14, $6.97 billion at the end · B ✅ counter 104,562,797 at the start, 100% at 1:10:36 · C ✅ same counter.
 
-**A/B test in Studio:** no (rule: go live with A; swap to B by hand after 2–3 days if weak)
+**A/B test in Studio:** no (rule: go live with A; swap check **Sun 15 Nov 2026** → B by hand if weak)
 **Winner:** 
 
 ## Thumbnail idea
 
-- Type: tiny tool vs huge job (house style v3: POV hands DOING the job)
-- Words: none (house style)
-- Picture: first-person view, two navy-sleeved hands grabbing a fat stack of green cash bundles; in front, a huge glowing gold shredder spitting paper strips; behind, a giant mountain of money filling a big steel bank vault, warm gold light, teal shine on the shredder metal. Make the prompt with `/titles` after the recording (no counts that are not true).
+**Final:** [thumbnails/2026-11-12-shred-a-billion.jpg](thumbnails/2026-11-12-shred-a-billion.jpg) (1280x720 JPG, made from Mamunur's GPT result .webp, Wed 11 Nov 2026). Checked: 2 hands, no text, no corner boxes, readable at phone size (blue shredder + red bucket pop on the green). Gloves fixed (Wed 11 Nov 2026): first version had black gloves copied from the game screenshot; GPT hand-only edit → bare peach hands like all other Brimlo thumbnails.
+
+- Type: tiny tool vs huge job (house style v3: POV hands DOING the job), no text
+- Attach frames: `tools/transcribe/out/2026-11-12-shred-a-billion/frames/04_00-10-24.jpg` (full vault, counter 104.562.797) and `17_00-49-05.jpg` (the shredder + bucket)
+
+```
+Create a YouTube thumbnail, exactly 1280x720 pixels (16:9).
+
+STYLE: bright 2D cartoon vector illustration. Thick bold black ink outlines on everything, flat cel-shaded colors, very high saturation, clean shapes, low detail, and a thin white edge around the hands and the main object so they pop. Use the attached SHRED A BILLION screenshots only as a reference for the shape and colors of the bright green cash bundles, the red-and-yellow bucket and the blue-and-gold shredder machine, and redraw them in this cartoon style. Do not copy any text, numbers or menus from the screenshots.
+
+HANDS: first-person view. Two big cartoon hands come in from the bottom-left and bottom-right corners. The hands are bare cartoon hands with warm peach skin (no gloves) and wear dark navy blue sleeves (#0B1023) with a thin gold cuff (#FFC83D). They hold a red bucket with a yellow rim, overflowing with green cash bundles, and are pouring it right now into the mouth of the shredder; bundles fly out of the bucket in mid-air.
+
+CENTER: a huge blue shredder machine with a glowing gold frame and a wide open mouth, very close and taking up about half of the image. Green bills go in at the top and come out as a fountain of thin green paper strips, with a teal shine (#2EE6D6) on the metal. One small funny detail: one bundle is stuck sideways in the shredder's mouth.
+
+BACKGROUND: a giant steel bank vault with red pipes on the walls, completely filled with a mountain of bright green cash bundles, all the way to the edges of the image and up to the ceiling. Warm gold ceiling lights, strong rich colors, still clear and saturated.
+
+TEXT: none. No letters, numbers or words anywhere.
+
+AVOID (negative prompt): any text, letters, numbers, words, photorealism, 3D render, realistic skin, realistic hands, photo, DSLR, cinematic lighting, grey or muddy colors, gloves of any color, extra fingers, more than two hands, fake logos, watermarks, signatures, the YouTube logo, a mascot or logo stamp in any corner, borders, frames, small inset image boxes in any corner, split screens, arrows, emoji, radial lines, plain empty background, tiny details, many small objects competing with the center object, blurry colors, real dollar bills with faces.
+```
 
 ## Recording script
 
@@ -225,31 +251,64 @@ Use it 4–5 times, not more. Don't reuse: the zombies "Stay down!" (Wait, They 
 
 ## Chapters
 
+From the final export's captions (Wed 11 Nov 2026). Final, as long as the export does not change.
+
 ```
-00:00 
+00:00 Only My Hands vs 104 Million Bundles
+11:33 Can I Empty This Whole Vault?
+18:01 My First Golden Pallet
+27:03 My First $1 Million
+29:32 I Bought the Bucket
+32:19 Bottomless Bag
+35:35 Jetpack: Now I Can Fly
+45:55 $100 Million
+59:14 $1 BILLION
+1:10:36 Vault 100% Clean
 ```
 
 ## Description
 
 ```
-[First line: one short personal line]
-SHRED A BILLION incremental game: [hook]
+I started with only my hands and a vault full of cash. Help Brimlo reach 100 subs :)
+I played the SHRED A BILLION demo, an incremental money game. The vault had 104,562,797 bundles of cash, and my job was to shred every last one. My first shred paid $6.45. Then I bought a bucket, a bottomless bag and a jetpack, made my first billion, and cleaned the vault to 100%. At the end I had made $6.97 billion.
+Free Steam demo, played to the end. The full game comes out 24 November 2026.
 CURRENT SUBS: [real number from Studio]
 
-🎮 Game: SHRED A BILLION on Steam (free demo): https://store.steampowered.com/app/5472080/
+Calm, full-length gameplay to relax or fall asleep to. You rest. I'll keep going.
+
+🎮 SHRED A BILLION on Steam (free demo): https://store.steampowered.com/app/5472080/
 Developer: ImSoTiredStudio
 
 Chapters
-00:00 ...
+00:00 Only My Hands vs 104 Million Bundles
+11:33 Can I Empty This Whole Vault?
+18:01 My First Golden Pallet
+27:03 My First $1 Million
+29:32 I Bought the Bucket
+32:19 Bottomless Bag
+35:35 Jetpack: Now I Can Fly
+45:55 $100 Million
+59:14 $1 BILLION
+1:10:36 Vault 100% Clean
 
-#incremental #idlegame #shredabillion
+#incrementalgame #ShredABillion #idlegame
 ```
 
 ## Tags
 
-shred a billion, shred a billion demo, incremental game, idle game, clicker game, money game, satisfying game, relaxing gameplay, gameplay to fall asleep to, brimlo
+SHRED A BILLION, shred a billion demo, shred a billion gameplay, shred a billion full demo, shred a billion game, shred billion, shredding money game, money shredder game, incremental game, idle game, clicker game, relaxing gameplay, gameplay to fall asleep to, brimlo
+
+## Subtitles
+
+**Ready (Wed 11 Nov 2026):** `WD Black/Videos/da-vinci/SHRED A BILLION.srt` (1,183 lines, timings from the final export). Made from our Whisper transcript, not YouTube's auto captions, so it can go up **during the upload** (Upload → Subtitles → Upload file → With timing).
+- Opening = the fixed line: "…we have total 104 million bundles of cash."
+- Bundles-left lines fixed billion → million (17:57, 50:26, 52:01, 56:34, 1:00:36, 1:00:56, 1:04:17, 1:04:31, 1:09:14). Money lines stay billion ($1 billion at 59:14, $6.97 billion at the end).
+- Misheard words fixed (257): share → shred, shader → shredder, spread/spirit → speed, back → bag, bottomless back → bottomless bag, polish → police, packet/bracket → bucket, golden palette → golden pallet, uh/um removed.
+- Not sure: 1:05:19 "more than 47 billion" (left as it is).
 
 ## Results
+
+Check dates: 7 days = Thu 19 Nov 2026 · 28 days = Thu 10 Dec 2026. Final length 1:11:25.
 
 | Check | 7 days | 28 days |
 |---|---|---|
