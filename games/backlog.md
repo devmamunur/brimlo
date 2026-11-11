@@ -1,6 +1,6 @@
 # Game backlog
 
-Last updated: Wed 11 Nov 2026 (/pick-game: SHRED A BILLION) · Sun 8 Nov 2026 (dark scout section).  Mac info for owned games is from Steam store data (6 Oct 2026) unless marked "?". **Always do your own 10-minute test before planning.**
+Last updated: Wed 11 Nov 2026 (/pick-game ~1:40 PM: Wipe Them Out! demo; earlier ~1:10 AM: SHRED A BILLION) · Sun 8 Nov 2026 (dark scout section).  Mac info for owned games is from Steam store data (6 Oct 2026) unless marked "?". **Always do your own 10-minute test before planning.**
 
 Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md](checklist.md) passes. Free first.
 
@@ -51,6 +51,15 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 | Needle In A Haystack Simulator | Huge Sep 2026 wave; full release "later this year" | ? | ? | Only on full release — the wave is over |
 | FEED THE AI | Big outlier, but already covered by Idle Cub and others | Windows only | Paid | Only with a fresh angle (100% run) |
 | My Fire Is Bigger Than Yours | 100% video got 174K | ? | Paid | Covered; fresh angle needed |
+
+### /pick-game, Wed 11 Nov 2026 ~1:40 PM Dhaka (Steam new/popular/demos/playtest scan + vidIQ 48-h YouTube scan + Chrome check)
+
+Fresh result: no free launch or live playtest ≤ 48 h in our tags (playtest scan: 0 announcements in 7 days, 40 coming-soon games). One **non-English YouTube wave ≤ 48 h old** on a free zombie demo → pick. Dropped: Into the Planet's Flesh (ViteC RU 99K on 10 Nov, but old big coverage: CG Grows 682K, GrayStillPlays 415K, Blitz 71K → not fresh), Empty The Lake! (paid, 28% reviews), What the Buck?! / Potato Please / Booster Pack Heroes / Can 'Em All / Hamstr Protocol (paid, no-buy rule).
+
+| Game | Status / date | Price | Speed (checked 11 Nov ~1:40 PM Dhaka) | Notes |
+|---|---|---|---|---|
+| **Wipe Them Out!** (5154590, demo 5402280) | Free demo since ~23 Oct (patch v1.0.1); full game Mon 12 Jan 2027 | Free demo | 🔥 FAST → **record Wed 11 / Thu 12 Nov, publish Thu 12 Nov 10 PM Dhaka** | Hand-drawn zombie incremental: hold the wall, shoot hordes, scrap → weapon/defense upgrades, hire defenders, final boss. **Wave started Mon 9 Nov 16:00 UTC (10 PM Dhaka) = ~40 h ago ✅**: Vicio ONE MORE TIME (ES, 1.81M) 51K in 1 day (2.1x, 597 VPH). Chrome "this week": Play With Jake (Indonesian, 8.5K subs) 4.5K · Baran Öden (TR) 404 · Monter PlayGames (PT) premiere · Radioactive Leper's Dungeon 164. **Correction (11 Nov ~2:30 PM, vidIQ search without the week filter): English demand IS proven, but 2 weeks old:** Yippee Ki Yay Mr Falcon (487K) 108K (29 Oct, 3.1x) · Ash Swoon (3.6K) 34.6K (26 Oct, 13.6x) · Japanese Hultutigamer 75K (21 Oct) · CaptainCigar (218K) 1.6K + 492 · SB Atomic 288. The Chrome "this week" filter hid the older ones. Demo clears in ~35–62 min. vidIQ keyword score 31, volume very low, competition low. No Steam reviews (demo). Act 1 ≈ 48 min (SB Atomic "Full Act Completed") → full demo should fit 60–90 min. Windows only → **10-minute CrossOver test first** |
+| Zombie Incremental: The Last Outpost (backup) | see Dark scout row | Free demo | 🟡 backup | Still unrecorded. 11 Nov 1 AM: only Ash Swoon (9.2K), wave cooling |
 
 ### /pick-game, Wed 11 Nov 2026 ~1:10 AM Dhaka (Steam new/popular/demos + vidIQ 48-h YouTube scan + Chrome check)
 

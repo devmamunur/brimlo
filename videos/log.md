@@ -21,6 +21,7 @@ Status: ✅ published · 🕒 scheduled · 🎬 recorded · 📝 planned · 🔒
 | 13 | Sat 7 Nov 2026 | Mycelarium | I Grew One Tiny Mushroom Under an Entire Forest | 1:35:27 | ✅ published Sat 7 Nov, 10 PM Dhaka · [youtu.be/yQRl1LxMz7s](https://youtu.be/yQRl1LxMz7s) | Paid $2.39 (CrossOver, demo ✅) | 344 (day 3) | 3.9% | 3:26 | 0 | [file](2026-11-06-mycelarium.md) |
 | 14 | Mon 9 Nov 2026 | Wait, They Can Climb?! (demo) | Alone on One Roof vs 8,000 Zombies - Wait, They Can Climb?! (renamed Tue 10 Nov 2026, ~6 h after publish; was "I Had to Survive 8,000 Zombies on One Roof") ([link](https://youtu.be/Vo1xETN8mqo)) | 1:19:11 | ✅ published Mon 9 Nov, 8 PM Dhaka | Free demo (CrossOver ✅) | 77 (day 1.5) | 5.6% | 23:35 | 0 | [file](2026-11-09-wait-they-can-climb.md) |
 | 15 | Wed 11 Nov 2026 | SHRED A BILLION (demo) | Turning $0 Into $1,000,000,000 - Shred a Billion | 1:11:25 | ✅ published Wed 11 Nov 2026 ~6:50 AM Dhaka · [youtu.be/G6vW4qxS_R8](https://youtu.be/G6vW4qxS_R8) | Free demo (CrossOver ✅) | | | | | [file](2026-11-12-shred-a-billion.md) |
+| 16 | Thu 12 Nov 2026 | Wipe Them Out! (demo) | I Upgraded One Pistol Until It Shot LIGHTNING - Wipe Them Out! (planned A) | | 📝 planned (script ready Wed 11 Nov) | Free demo (CrossOver, run test pending) | | | | | [file](2026-11-12-wipe-them-out.md) |
 
 ## Medians (update every Sunday)
 
