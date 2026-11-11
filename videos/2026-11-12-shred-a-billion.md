@@ -82,7 +82,7 @@ brimlo_score_title (estimate, 11 Nov 2026): A 73 · B 83 · C 76. A changed to "
 
 ## Thumbnail idea
 
-**Final:** [thumbnails/2026-11-12-shred-a-billion.jpg](thumbnails/2026-11-12-shred-a-billion.jpg) (1280x720 JPG, made from Mamunur's GPT result .webp, Wed 11 Nov 2026). Checked: 2 hands, no text, no corner boxes, readable at phone size (blue shredder + red bucket pop on the green). Gloves fixed (Wed 11 Nov 2026): first version had black gloves copied from the game screenshot; GPT hand-only edit → bare peach hands like all other Brimlo thumbnails.
+**Final:** [thumbnails/2026-11-12-shred-a-billion.jpg](thumbnails/2026-11-12-shred-a-billion.jpg) (1280x720 JPG, made from Mamunur's GPT result .webp, Wed 11 Nov 2026). Checked: 2 hands, no text, no corner boxes, readable at phone size (blue shredder + red bucket pop on the green). Gloves fixed (Wed 11 Nov 2026): first version had black gloves copied from the game screenshot; GPT hand-only edit → bare peach hands like all other Brimlo thumbnails. Then a money-only edit with sharp video frames as reference (`thumbnails/refs/shred-00-07-26.jpg`, `shred-00-49-05.jpg`) → crisp outlined bundles with the game's $ band.
 
 - Type: tiny tool vs huge job (house style v3: POV hands DOING the job), no text
 - Attach frames: `tools/transcribe/out/2026-11-12-shred-a-billion/frames/04_00-10-24.jpg` (full vault, counter 104.562.797) and `17_00-49-05.jpg` (the shredder + bucket)
