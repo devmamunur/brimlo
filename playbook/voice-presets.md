@@ -35,6 +35,7 @@ Do **not** turn on Leveler / Pitch / EQ in the Inspector for the clip. Everythin
 | **Brimlo Voice C Deep** | Global Track Preset | Deepest. Only if B still sounds young |
 | **Brimlo Master** | Global Bus Preset (Presets Library) | Whole Bus 1 setup = master limiter |
 | **Brimlo YouTube** | Render preset (Deliver page) | Export with YouTube loudness |
+| **Brimlo YouTube Shorts** | Render preset (Deliver page) | Same as Brimlo YouTube but **1080×1920** for Shorts (made 13 Nov 2026: QuickTime H.265, Linear PCM, Normalize Audio on) |
 
 All 3 voice presets were applied one by one and checked on 24 Oct 2026: leveler, pitch, EQ and compressor all load correctly.
 

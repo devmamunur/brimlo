@@ -94,3 +94,22 @@ Make a YouTube thumbnail, 1280x720 (16:9), using the attached Outbreak Z images 
 | Watch hours | | 24.4 |
 
 Hit: Next Fest demo during the wave.
+
+## Short: minigun moment (13 Nov 2026)
+
+| | |
+|---|---|
+| Status | scheduled (time set by Mamunur in Studio) |
+| Link | https://youtube.com/shorts/Jv2oZCN4vxg |
+| Length | 0:55, 1080×1920, 1.1× speed, captions burned in |
+| Made from | 2:02:36–2:10:07 of this video (the part with the highest rewatch: 92–94% retention spike). ffmpeg cut → DaVinci (Warm voice, Brimlo YouTube Shorts preset) |
+| Plan | `tools/shorts/plans/2026-10-23-outbreak-z.json` (rebuild: `tools/hook/.venv/bin/python tools/shorts/make_short.py <plan> --check`) |
+| Related video | this video (vvTQe_qjxjI) |
+| Playlists | none (Shorts never go in playlists) |
+| Tags | Outbreak Z, Outbreak Z gameplay, Outbreak Z minigun, Outbreak Z demo, zombie auto battler, auto battler, autobattler, zombie game, zombie games, zombie survival, minigun, idle rpg, new indie games, steam demo, incremental games |
+
+```
+A (live): I Waited the Whole Game for This MINIGUN | Outbreak Z
+B (swap): A Zombie Child Beat Me, So I Got a MINIGUN | Outbreak Z
+C (swap): My Squad Kept Losing… Then I Found a MINIGUN | Outbreak Z
+```

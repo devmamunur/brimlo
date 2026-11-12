@@ -17,7 +17,7 @@ This repo is the brain of the YouTube channel **Brimlo** (@BrimloIdle). It holds
 - For anything about the present day (game releases, prices, YouTube policy, trends), **search first**. Do not trust memory.
 - When he asks something you already answered in a file, point to the file.
 - **Titles always come as an A/B/C set** (6 Nov 2026; changed 10 Nov 2026): whenever you write a title, description or script for a video, give 3 titles (A = live title, B + C = **swap titles**, each a different pattern) in one code block. **No Studio A/B test for now** (too few impressions to get a winner): go live with A, and if the video is weak after 2–3 days, swap to B by hand. Studio A/B tests only for videos with ~1,000+ impressions a week (older videos first). Rules: `playbook/titles.md` → "A/B/C title set".
-- **Playlists always come with it** (6 Nov 2026): every title/description answer also says which playlist(s) to pick, using the exact names in `playbook/upload-checklist.md` → Settings (Incremental Games: Numbers Go UP · Satisfying Upgrade Games · Survivor-Like Games: Weak to OP · New Steam Demos Played to 100%). Save it in the video file's **Playlists** row. The **end screen** uses the genre playlist (Best for viewer + genre playlist + Subscribe, same checklist).
+- **Playlists always come with it** (6 Nov 2026): every title/description answer also says which playlist(s) to pick, using the exact names in `playbook/upload-checklist.md` → Settings (Incremental Games: Numbers Go UP · Satisfying Upgrade Games · Survivor-Like Games: Weak to OP · New Steam Demos Played to 100%). Save it in the video file's **Playlists** row. **Shorts never go in a playlist** (13 Nov 2026): a Short gets the long video as its Related video instead. The **end screen** uses the genre playlist (Best for viewer + genre playlist + Subscribe, same checklist).
 - Ask for his latest stats (views, watch time, subs, CTR, retention) when reviewing performance.
 
 ## The channel in one screen
@@ -74,6 +74,8 @@ Mamunur often writes in plain English without a slash command. **Match his reque
 | "title ideas", "is this title good", "thumbnail idea/prompt", "A/B titles" (no recording to read) | `/titles` |
 | "make the hook", "fix the first seconds", "intro", "cold open" | `/hook` |
 | "I uploaded", "I scheduled", "video is live", "I changed the title", a YouTube link | `/publish` |
+| "make a short", "short from [video]", a final video file name + "short" | `/make-short` |
+| a Studio edit link of a **Short**, "short title/description/tags", "fill the short in studio" | `/short-details` |
 | "weekly review", "check my stats", "how did my videos do", "why no views", Sunday | `/weekly-review` |
 | "check competitors", "analyze this channel", "find my gaps", "keyword research", "outliers" | agent `channel-analyst` (or do it inline for one quick channel) |
 
@@ -96,6 +98,7 @@ After a skill, keep the repo true (rule 1). Every title/description/script answe
 | Read a recording | `tools/transcribe/run.sh "<path>" --game "<game>" --name <video-file-name>` (~5 min per hour; run in background) → `tools/transcribe/out/<name>/` | local |
 | Subtitles cleanup | `tools/subtitles/` ([README](tools/subtitles/README.md)) | local |
 | Hook text image | `tools/hook/make_text.py` (used by `/hook`) | local |
+| Short from a long video | `tools/shorts/` ([README](tools/shorts/README.md)): `words.py` (word times) + `make_short.py` (cut, 1.1×, 1080×1920, captions) — used by `/make-short` | local |
 | Daily update (our channel, competitors, watched games) | `brimlo_daily_update` (`dry_run` to read the last run first); track something with `brimlo_watch_add` | budget 300 |
 
 MCP servers are set in `.mcp.json` (`brimlo`, `playwright`); vidIQ is a claude.ai connector. If `brimlo_*` tools are missing, use ToolSearch ("brimlo") — the server may still be starting. Tool details: [tools/research/README.md](tools/research/README.md).
