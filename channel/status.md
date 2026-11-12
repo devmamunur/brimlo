@@ -4,7 +4,9 @@ Update this every Sunday (`/weekly-review`) and after big events.
 
 ## Right now
 
-**Last updated:** Wed 11 Nov 2026 (weekly review)
+**Last updated:** Thu 12 Nov 2026 (Wipe Them Out! scheduled)
+
+- **Wipe Them Out! scheduled Thu 12 Nov 2026, 4:15 AM Dhaka** ("I Upgraded One Pistol Until It Shot LIGHTNING - Wipe Them Out!", 57:46, https://youtu.be/kBdck1vLZ0g). Playlists, captions and end screen set in Studio. Swap check Sun 15 Nov; 7-day results Thu 19 Nov. Next: one game, picked fresh (`/pick-game`).
 
 - **SHRED A BILLION published Wed 11 Nov 2026, ~6:50 AM Dhaka** ("Turning $0 Into $1,000,000,000 - Shred a Billion", 1:11:25, https://youtu.be/G6vW4qxS_R8). Playlists, end screen, subtitles set in Studio. Swap check Sat 14 Nov; 7-day results Wed 18 Nov. Subs: 3. Next: one game, picked fresh (`/pick-game`).
 

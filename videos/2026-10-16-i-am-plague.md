@@ -10,7 +10,7 @@
 | Source | Free open playtest. **Ends Mon 19 Oct.** |
 | Runs on | **Windows only** → CrossOver. **Works with CrossOver Graphics = DXMT** (13 Oct 2026). Crashed with Auto and with `-force-d3d11`. Keep DXMT for this game. |
 | Target length | 60–90 min (final length: 1:53:37, seen in YouTube Studio 18 Oct) |
-| YouTube link | |
+| YouTube link | https://youtu.be/1atL4tbDTcc |
 
 ## Game in one sentence
 
@@ -243,3 +243,24 @@ I Am Plague, I Am Plague gameplay, I Am Plague playtest, I Am Plague 100%, I Am 
 | Watch hours | | 52.4 |
 
 Hit: playtest during its YouTube wave. Still ~45 views/day at day 24.
+
+## Short: floor 1 to floor 50 (13 Nov 2026)
+
+| | |
+|---|---|
+| Status | scheduled (time set by Mamunur in Studio). Details filled 13 Nov 2026 |
+| Link | https://youtube.com/shorts/DQrzFny0gek |
+| File | `/Volumes/WD Black/Videos/da-vinci/shorts/2026-10-16-i-am-plague-short.mp4` (also in DaVinci New Project 10, timeline "I Am Plague Short") |
+| Length | 0:45, 1080×1920, 1.1× speed, 11 clips, captions burned in |
+| Made from | 0:01:32 → 1:51:46 of this video: floor 1 goblin, lost before floor 30, two bosses at once (1:25:22, rewatch spike 76–77%), died to Son of Adam on floor 41, floor 50, "floor 50 is the last level… I completed everything" (1:51:40, rewatch spike 96–97%) |
+| Plan | `tools/shorts/plans/2026-10-16-i-am-plague.json` |
+| Related video | this video (1atL4tbDTcc) |
+| Playlists | none (Shorts never go in playlists) |
+| Game title | I Am Plague |
+| Tags | I Am Plague, I Am Plague gameplay, I Am Plague playtest, I Am Plague boss, I Am Plague floor 50, incremental roguelite, roguelite, rat swarm game, rats game, incremental game, auto battler, idle game, new indie games, steam playtest |
+
+```
+A (live): I Lost Before Floor 30, Then Beat ALL 50 Floors | I Am Plague
+B (swap): TWO Bosses at the Same Time on Floor 30 | I Am Plague
+C (swap): From a Goblin on Floor 1 to the LAST Floor | I Am Plague
+```

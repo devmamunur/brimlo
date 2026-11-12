@@ -19,6 +19,7 @@ Used by the `/make-short` skill (then `/short-details` fills YouTube Studio).
  "timeline_name": "Outbreak Z Short",
  "speed": 1.1,
  "title": [{"text": "ONE KNIFE", "gold": false}, {"text": "TO MINIGUN", "gold": true}],
+ "hook": {"start": 5124.95, "end": 5126.38, "caption": "TWO BOSSES AT ONCE!", "zoom": 1.3},
  "clips": [
   {"start": "2:02:36.3", "end": "2:02:43.1",
    "captions": [["2:02:36.3", "2:02:40.3", "This single zombie child"],
@@ -28,6 +29,8 @@ Used by the `/make-short` skill (then `/short-details` fills YouTube Studio).
 ```
 
 All times are in the **source** video (seconds or `H:MM:SS.s`). A caption with a 4th item `"gold"` is drawn in gold.
+
+`hook` (optional, but `/make-short` always uses it) adds a 1–1.5 s flash before the first clip. The picture is zoomed in by `zoom` (default 1.3) and gets one gold caption. Any clip can also have its own `"zoom": 1.3`.
 
 ## What it makes
 

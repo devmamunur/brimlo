@@ -137,15 +137,26 @@ def main():
     cap_dir = os.path.splitext(out)[0] + "-caps"
     os.makedirs(cap_dir, exist_ok=True)
 
+    clips = list(plan["clips"])
+    hook = plan.get("hook")
+    if hook:  # 1-1.5 s flash of the best action, zoomed in, before the story
+        clips.insert(0, {"start": hook["start"], "end": hook["end"], "zoom": hook.get("zoom", 1.3),
+                         "captions": [[hook["start"], hook["end"], hook["caption"], "gold"]]})
+    sw, sh = map(int, subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
+                                      "stream=width,height", "-of", "csv=p=0", src],
+                                     capture_output=True, text=True).stdout.strip().split(",")[:2])
+
     inputs, fc, caps = [], [], []
     offset = 0.0
-    for i, clip in enumerate(plan["clips"]):
+    for i, clip in enumerate(clips):
         s, e = secs(clip["start"]), secs(clip["end"])
         dur = e - s
         if dur <= 0.3:
             sys.exit(f"clip {i}: end must be after start")
         inputs += ["-ss", f"{s:.3f}", "-t", f"{dur:.3f}", "-i", src]
-        fc.append(f"[{i}:v]setpts=PTS-STARTPTS[v{i}]")
+        z = float(clip.get("zoom", 1))
+        zoom = f",crop=iw/{z}:ih/{z},scale={sw}:{sh}" if z > 1 else ""
+        fc.append(f"[{i}:v]setpts=PTS-STARTPTS{zoom},setsar=1[v{i}]")
         fc.append(f"[{i}:a]asetpts=PTS-STARTPTS,afade=t=in:d=0.04,"
                   f"afade=t=out:st={max(dur - 0.06, 0):.3f}:d=0.06[a{i}]")
         for c in clip.get("captions", []):
@@ -155,7 +166,7 @@ def main():
             b = (offset + min(ce, e) - s) / speed
             caps.append((a, b, txt, gold))
         offset += dur
-    n = len(plan["clips"])
+    n = len(clips)
     total = offset / speed
 
     fc.append("".join(f"[v{i}][a{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=1[cv][ca]")

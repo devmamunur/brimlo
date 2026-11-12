@@ -1,0 +1,191 @@
+{
+ "video_file": "videos/2026-10-16-i-am-plague.md",
+ "transcript": "2026-10-16-i-am-plague",
+ "youtube_id": "1atL4tbDTcc",
+ "source": "/Volumes/WD Black/Videos/da-vinci/I 100% the I Am Plague Playtest and the Rats Got OUT OF HAND.mp4",
+ "output": "/Volumes/WD Black/Videos/da-vinci/shorts/2026-10-16-i-am-plague-short.mp4",
+ "timeline_name": "I Am Plague Short",
+ "speed": 1.1,
+ "title": [
+  {
+   "text": "FLOOR 1",
+   "gold": false
+  },
+  {
+   "text": "TO FLOOR 50",
+   "gold": true
+  }
+ ],
+ "clips": [
+  {
+   "start": 92.0,
+   "end": 98.2,
+   "captions": [
+    [
+     92.0,
+     95.8,
+     "First, a goblin."
+    ],
+    [
+     95.8,
+     98.2,
+     "Let's defeat this goblin!"
+    ]
+   ]
+  },
+  {
+   "start": 4297.4,
+   "end": 4303.2,
+   "captions": [
+    [
+     4297.4,
+     4300.5,
+     "Who is the boss on level 30?"
+    ],
+    [
+     4300.5,
+     4303.2,
+     "Oh my god."
+    ]
+   ]
+  },
+  {
+   "start": 4303.9,
+   "end": 4307.9,
+   "captions": [
+    [
+     4303.9,
+     4307.9,
+     "I lost before level 30."
+    ]
+   ]
+  },
+  {
+   "start": 4309.5,
+   "end": 4315.6,
+   "captions": [
+    [
+     4309.5,
+     4311.1,
+     "What will I do?"
+    ],
+    [
+     4311.1,
+     4312.9,
+     "Upgrade my claw."
+    ],
+    [
+     4312.9,
+     4315.6,
+     "I need more HP."
+    ]
+   ]
+  },
+  {
+   "start": 5123.3,
+   "end": 5130.1,
+   "captions": [
+    [
+     5123.3,
+     5124.95,
+     "Two... oh my god!"
+    ],
+    [
+     5124.95,
+     5127.2,
+     "TWO BOSSES at the same time!",
+     "gold"
+    ],
+    [
+     5127.2,
+     5130.1,
+     "How can I defeat them?"
+    ]
+   ]
+  },
+  {
+   "start": 5133.3,
+   "end": 5136.05,
+   "captions": [
+    [
+     5133.3,
+     5136.05,
+     "I think I'll die. I'll die!"
+    ]
+   ]
+  },
+  {
+   "start": 5160.8,
+   "end": 5163.6,
+   "captions": [
+    [
+     5160.8,
+     5163.6,
+     "I finally defeated them!",
+     "gold"
+    ]
+   ]
+  },
+  {
+   "start": 5589.3,
+   "end": 5593.35,
+   "captions": [
+    [
+     5589.3,
+     5591.25,
+     "What is this? Son of Adam?"
+    ],
+    [
+     5591.25,
+     5593.35,
+     "Oh my god!"
+    ]
+   ]
+  },
+  {
+   "start": 5596.6,
+   "end": 5600.0,
+   "captions": [
+    [
+     5596.6,
+     5600.0,
+     "I didn't even see when I died"
+    ]
+   ]
+  },
+  {
+   "start": 6518.7,
+   "end": 6520.95,
+   "captions": [
+    [
+     6518.7,
+     6520.95,
+     "I am on floor 50 now!"
+    ]
+   ]
+  },
+  {
+   "start": 6700.6,
+   "end": 6706.0,
+   "captions": [
+    [
+     6700.6,
+     6701.4,
+     "Oh my god!"
+    ],
+    [
+     6701.4,
+     6704.85,
+     "Floor 50 is the last level",
+     "gold"
+    ],
+    [
+     6704.85,
+     6706.0,
+     "I completed EVERYTHING!",
+     "gold"
+    ]
+   ]
+  }
+ ]
+}

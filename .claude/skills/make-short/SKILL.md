@@ -24,7 +24,7 @@ Tool: `tools/shorts/` ([README](../../../tools/shorts/README.md)). The first Sho
    - **Transcript**: read `by-minute.md` around those times. Look for: a big reveal ("what is this, a minigun?"), a fail or a funny line, a huge number, an upgrade that changes everything, a win ("region cleared!").
 4. **Build one story** of 6–10 clips, in time order: **problem → find/upgrade → power → payoff**.
    - **Final length 45–58 s.** Raw clips total ≤ ~63 s at speed 1.1. Never over 60 s.
-   - **The first second must move:** start on action or a strong line, not a menu or a still screen (Studio: "start on a cut, zoom or move" = high impact).
+   - **The first second must move: always add a hook flash** (Mamunur, 13 Nov 2026). Before the story, 1–1.5 s of the **best action in the whole Short** (the peak fight, crits, the big number on screen), zoomed in 1.3×, with one gold caption (2–4 words, true: "TWO BOSSES AT ONCE!"). Then cut hard to the story's start. In the plan this is the `"hook"` field. Pick a hook window where the audio is a short word or game sound, not half a sentence (use `words.py`). Why: both first Shorts got Studio's "start on a cut, zoom or move" high-impact fix because they opened on a slow screen.
    - End on the payoff (win screen, biggest number), not on talking afterwards.
    - Keep only lines a stranger understands with no context. Drop menu-only stretches unless the line is great.
 5. **Exact cut points.** `python3 tools/shorts/words.py <slug> --from H:MM:SS --to H:MM:SS` prints every word with its time.
