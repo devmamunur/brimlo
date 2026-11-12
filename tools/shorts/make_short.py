@@ -142,9 +142,10 @@ def main():
     if hook:  # 1-1.5 s flash of the best action, zoomed in, before the story
         clips.insert(0, {"start": hook["start"], "end": hook["end"], "zoom": hook.get("zoom", 1.3),
                          "captions": [[hook["start"], hook["end"], hook["caption"], "gold"]]})
-    sw, sh = map(int, subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
-                                      "stream=width,height", "-of", "csv=p=0", src],
-                                     capture_output=True, text=True).stdout.strip().split(",")[:2])
+    probe = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
+                            "stream=width,height", "-of", "csv=p=0", src], capture_output=True, text=True).stdout
+    # .mov files can print extra stream-group lines; take the first "W,H" line
+    sw, sh = next(map(int, l.split(",")[:2]) for l in probe.splitlines() if l.count(",") >= 1)
 
     inputs, fc, caps = [], [], []
     offset = 0.0
@@ -171,7 +172,8 @@ def main():
 
     fc.append("".join(f"[v{i}][a{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=1[cv][ca]")
     fc.append(f"[cv]setpts=PTS/{speed},fps=30,split[bgsrc][fgsrc]")
-    fc.append(f"[ca]atempo={speed}[aout]")
+    # The Short is uploaded as-is (no DaVinci step), so set YouTube loudness here: -14 LUFS, peaks under -1.5 dB
+    fc.append(f"[ca]atempo={speed},loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[aout]")
     fc.append("[bgsrc]scale=-2:1920,crop=1080:1920,boxblur=25:2,eq=brightness=-0.25[bg]")
     fc.append("[fgsrc]scale=1080:-2[fg]")
     fc.append(f"[bg][fg]overlay=0:{GAME_Y}[base]")

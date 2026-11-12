@@ -12,7 +12,7 @@
 | Source | Free Steam demo. No end date found. Full game Fri 18 Dec 2026. |
 | Runs on | Windows only → CrossOver Steam. Full demo recorded on Mon 2 Nov 2026. |
 | Target length | 45–60 min if you can keep it interesting. **The demo is short:** another player reached the end in about 27 min, and another "100%" video is 37 min. After the end you can keep playing, spawn the old bosses and buy more upgrades. Do not pad it with silence. |
-| YouTube link | |
+| YouTube link | https://youtu.be/IeO2BRlggBU |
 
 ## Edit notes (Tue 3 Nov 2026)
 
@@ -222,3 +222,24 @@ Check dates: 7 days = **Tue 10 Nov 2026**, 28 days = **Tue 1 Dec 2026**.
 | Watch hours | | 5.0 |
 
 Hit, but short avg view: 38% left at ~40 s.
+
+## Short: feed the worm, save my ants (13 Nov 2026)
+
+| | |
+|---|---|
+| Status | scheduled (time set by Mamunur in Studio). Details filled 13 Nov 2026 |
+| Link | https://youtube.com/shorts/FlAHQaMN6q8 |
+| File | `/Volumes/WD Black/Videos/da-vinci/shorts/2026-11-03-ant-mill-inc-short.mp4` |
+| Length | 0:55, 1080×1920, 1.1× speed, -14 LUFS, hook flash + 9 clips, captions burned in |
+| Made from | Hook: giant worm (9:21). Story: girlfriend joke (0:00), nest shaking (9:10), "This is a GIANT WORM!" (9:21), "I don't want to give you a single ant, take the food and go" (9:35), big beetle (17:15), "this worm monster again" (17:34), only ~500 ants left (18:58, rewatch bump 54–63%), snail 50% HP (31:51), "YES! We defeated it!" + Thank you for playing (32:13) |
+| Plan | `tools/shorts/plans/2026-11-03-ant-mill-inc.json` (transcript reused, not made again) |
+| Related video | this video (IeO2BRlggBU) |
+| Playlists | none (Shorts never go in playlists) |
+| Game title | Ant Mill Inc |
+| Tags | Ant Mill Inc, Ant Mill Inc demo, Ant Mill Inc gameplay, Ant Mill Inc worm, Ant Mill Inc boss, ant mill game, ant colony game, ant game, ant incremental game, swarm game, giant worm, incremental game, idle game, steam demo, new indie games |
+
+```
+A (live): My Ants NEVER Listen to Me | Ant Mill Inc
+B (swap): Only 500 Ants Left After the Worm Came BACK | Ant Mill Inc
+C (swap): A Giant WORM Wants My Ants, So I Feed It Food | Ant Mill Inc
+```

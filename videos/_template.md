@@ -10,6 +10,7 @@
 | End screen | Best for viewer + [genre playlist] + Subscribe — set: yes / no |
 | Playlists | [1 genre list] + New Steam Demos Played to 100% (if demo/playtest/itch) — exact names: playbook/upload-checklist.md |
 | Runs on | CrossOver Steam / Mac Steam (10-minute run test: yes/no, date) |
+| Mascot | yes (v4, corner br) / no — playbook/mascot.md |
 | Target length | 60–120 min |
 | YouTube link | |
 

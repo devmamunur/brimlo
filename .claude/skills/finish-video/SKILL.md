@@ -24,4 +24,5 @@ Turns a finished recording into everything needed for upload. Everything must be
 10. **Playlists:** pick them by the rule in `playbook/upload-checklist.md` → Settings (1 genre list + "New Steam Demos Played to 100%" if it is a demo, playtest or itch.io game). Exact names only, never new ones. Fill the **Playlists** row of the video file. Check the genre against what really happens in the video.
 11. **Tags:** per the checklist (game name forms, genre words, "relaxing gameplay", "gameplay to fall asleep to", brimlo).
 12. Save it all in the video file (Titles, Playlists, Thumbnail, Description, Chapters, Tags) and reply with: A/B/C block, **playlist(s) in one line** (+ "End screen: import from [a video in the same genre playlist]"), thumbnail prompt, description (with chapters) ready to paste, quiet parts to fix. Plain text, no HTML.
-13. Remind him: after upload run `/publish`. No Studio A/B test; check the title after 2–3 days and swap to B by hand if the video is weak.
+13. **Mascot (test phase, from 13 Nov 2026):** offer `/add-mascot` on this same export (it reuses the transcript from step 2). Upload the "- mascot.mov" file; the Short comes from the normal export. Guide: `playbook/mascot.md`.
+14. Remind him: after upload run `/publish`. No Studio A/B test; check the title after 2–3 days and swap to B by hand if the video is weak.

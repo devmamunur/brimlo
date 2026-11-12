@@ -43,5 +43,5 @@ All times are in the **source** video (seconds or `H:MM:SS.s`). A caption with a
 
 - This ffmpeg has no `drawtext`/`subtitles` filter, so captions are PNGs made with Pillow (from `tools/hook/.venv`).
 - Speed uses `atempo`, so the voice pitch stays the same. 1.1 is the default; above ~1.15 the game sound gets strange.
-- Final exports downloaded from YouTube are loud (Outbreak Z Short: about -8 LUFS). That's fine: the DaVinci export (**Brimlo YouTube Shorts** preset, Normalize Audio on) and YouTube both turn it down.
+- Audio is set to **-14 LUFS** (YouTube loudness) by `loudnorm`, because the Short is uploaded as it is, with no DaVinci step (13 Nov 2026). Sources differ a lot: Outbreak Z was about -8 LUFS, Seabun about -22.
 - The source voice and game sound are one mixed track, so silence detection does not find gaps. Cut between words using `words.py`.

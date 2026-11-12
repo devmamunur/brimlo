@@ -54,6 +54,7 @@ Full details: [channel/profile.md](channel/profile.md), [channel/strategy.md](ch
 | `playbook/script-card/` | **Script card format**: `template.md` (fill for every video) + `examples/` (approved cards, shape only) |
 | `playbook/upload-checklist.md` | Description format, chapters, tags, settings, after-publish steps |
 | `playbook/recording-and-editing.md` · `voice-presets.md` · `learn-davinci.md` | OBS, Resolve edit, audio presets, DaVinci learning list |
+| `playbook/mascot.md` | **Moving mascot guide**: how it works, video process with it, rules, test plan, future plan (`/add-mascot`) |
 | `playbook/monetization-and-policy.md` | YPP, money, Bangladesh tax, policy risks |
 | `research/competitors.md` · `keywords.md` | Channels to learn from (with numbers) · keyword data |
 | `research/reports/` · `research/notes/` | Dated studies (newest decide) · Azrilich voice notes |
@@ -74,6 +75,7 @@ Mamunur often writes in plain English without a slash command. **Match his reque
 | "title ideas", "is this title good", "thumbnail idea/prompt", "A/B titles" (no recording to read) | `/titles` |
 | "make the hook", "fix the first seconds", "intro", "cold open" | `/hook` |
 | "I uploaded", "I scheduled", "video is live", "I changed the title", a YouTube link | `/publish` |
+| "add the mascot", "mascot to [video]", "avatar", "mascot version" — **after export** | `/add-mascot` |
 | "make a short", "short from [video]", a final video file name + "short" | `/make-short` |
 | a Studio edit link of a **Short**, "short title/description/tags", "fill the short in studio" | `/short-details` |
 | "weekly review", "check my stats", "how did my videos do", "why no views", Sunday | `/weekly-review` |
@@ -99,6 +101,7 @@ After a skill, keep the repo true (rule 1). Every title/description/script answe
 | Subtitles cleanup | `tools/subtitles/` ([README](tools/subtitles/README.md)) | local |
 | Hook text image | `tools/hook/make_text.py` (used by `/hook`) | local |
 | Short from a long video | `tools/shorts/` ([README](tools/shorts/README.md)): `words.py` (word times) + `make_short.py` (cut, 1.1×, 1080×1920, captions) — used by `/make-short` | local |
+| Moving mascot in the corner (after export, from transcript word times; v4 approved 13 Nov 2026, test phase) | `tools/avatar/` ([README](tools/avatar/README.md)): `add_avatar.py "<final video>" --best-preview` then without it — used by `/add-mascot`, guide `playbook/mascot.md` | local |
 | Daily update (our channel, competitors, watched games) | `brimlo_daily_update` (`dry_run` to read the last run first); track something with `brimlo_watch_add` | budget 300 |
 
 MCP servers are set in `.mcp.json` (`brimlo`, `playwright`); vidIQ is a claude.ai connector. If `brimlo_*` tools are missing, use ToolSearch ("brimlo") — the server may still be starting. Tool details: [tools/research/README.md](tools/research/README.md).

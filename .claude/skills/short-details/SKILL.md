@@ -50,7 +50,7 @@ Studio UI notes (they worked on 13 Nov 2026):
 - **Game title:** type the name, wait 2 s, and click the exact match in the dropdown (the first item, without a year).
 - **Related video:** click the "Related video" card (right column), wait, and click the long video's tile in the grid. Typing in the search box did not work. Check that the card shows the long video's title.
 - **Playlists:** leave it at "Select". If a playlist is ticked, untick it.
-- **Save** (top right). Wait 3 s, then check: a "Changes saved" toast, and a JS read-back of the title (`document.querySelector('#textbox').innerText`), the playlist box (`ytcp-video-metadata-playlists` innerText = "Select"), and `#save` `aria-disabled="true"`.
+- **Save** (top right). Wait 3 s (6 s if `#save` is still active — saving can be slow), then check: a "Changes saved" toast, and a JS read-back of the title (`document.querySelector('#textbox').innerText`), the playlist box (`ytcp-video-metadata-playlists` innerText = "Select"), and `#save` `aria-disabled="true"`.
 - Close the tab you opened.
 
 If a step fails twice, stop and tell him what is left to do by hand. Do not keep trying.

@@ -1,0 +1,179 @@
+{
+ "video_file": "videos/2026-11-03-ant-mill-inc.md",
+ "transcript": "2026-11-03-ant-mill-inc",
+ "youtube_id": "IeO2BRlggBU",
+ "source": "/Volumes/WD Black/Videos/da-vinci/ant-mill.mov",
+ "output": "/Volumes/WD Black/Videos/da-vinci/shorts/2026-11-03-ant-mill-inc-short.mp4",
+ "timeline_name": "Ant Mill Short",
+ "speed": 1.1,
+ "title": [
+  {
+   "text": "FEED THE WORM",
+   "gold": false
+  },
+  {
+   "text": "SAVE MY ANTS",
+   "gold": true
+  }
+ ],
+ "hook": {
+  "start": 561.6,
+  "end": 563.5,
+  "caption": "GIANT WORM!",
+  "zoom": 1.3
+ },
+ "clips": [
+  {
+   "start": 0.0,
+   "end": 8.2,
+   "captions": [
+    [
+     0.0,
+     2.8,
+     "My girlfriend says I never listen to her."
+    ],
+    [
+     2.8,
+     5.8,
+     "Now I have ants. They never listen to me."
+    ],
+    [
+     5.8,
+     8.2,
+     "Now I know how she feels."
+    ]
+   ]
+  },
+  {
+   "start": 550.4,
+   "end": 556.1,
+   "captions": [
+    [
+     550.4,
+     553.4,
+     "Oh my god, the nest is shaking again!"
+    ],
+    [
+     553.4,
+     556.1,
+     "Something is under there!"
+    ]
+   ]
+  },
+  {
+   "start": 557.1,
+   "end": 563.0,
+   "captions": [
+    [
+     557.1,
+     560.7,
+     "Oh my god, what is this?"
+    ],
+    [
+     560.7,
+     563.0,
+     "This is a GIANT WORM!",
+     "gold"
+    ]
+   ]
+  },
+  {
+   "start": 575.2,
+   "end": 585.4,
+   "captions": [
+    [
+     575.2,
+     578.3,
+     "I must sacrifice my ants or my food"
+    ],
+    [
+     578.3,
+     583.3,
+     "I don't want to give you a single ant!"
+    ],
+    [
+     583.3,
+     585.4,
+     "Take the food and go!"
+    ]
+   ]
+  },
+  {
+   "start": 1035.6,
+   "end": 1039.2,
+   "captions": [
+    [
+     1035.6,
+     1039.2,
+     "Oh my god, what is this? A big beetle!"
+    ]
+   ]
+  },
+  {
+   "start": 1054.1,
+   "end": 1062.5,
+   "captions": [
+    [
+     1054.1,
+     1057.4,
+     "This beetle is killing my ants!"
+    ],
+    [
+     1057.4,
+     1062.5,
+     "Oh my god, this worm monster again!"
+    ]
+   ]
+  },
+  {
+   "start": 1138.0,
+   "end": 1143.9,
+   "captions": [
+    [
+     1138.0,
+     1140.1,
+     "Only about 500 ants left!",
+     "gold"
+    ],
+    [
+     1140.1,
+     1143.9,
+     "The beetle and the worm killed them"
+    ]
+   ]
+  },
+  {
+   "start": 1911.2,
+   "end": 1914.1,
+   "captions": [
+    [
+     1911.2,
+     1914.1,
+     "Okay, 50% of its HP is gone!"
+    ]
+   ]
+  },
+  {
+   "start": 1933.3,
+   "end": 1941.0,
+   "captions": [
+    [
+     1933.3,
+     1935.0,
+     "I think we defeated it..."
+    ],
+    [
+     1935.0,
+     1938.6,
+     "YES! We defeated it!",
+     "gold"
+    ],
+    [
+     1938.6,
+     1941.0,
+     "Thank you for playing."
+    ]
+   ]
+  }
+ ]
+}

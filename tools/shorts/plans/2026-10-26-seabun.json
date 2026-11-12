@@ -1,0 +1,186 @@
+{
+ "video_file": "videos/2026-10-26-seabun.md",
+ "transcript": "2026-10-26-seabun",
+ "youtube_id": "1DX3Xl_XbXI",
+ "source": "/Volumes/WD Black/Videos/da-vinci/seabun-game.mov",
+ "output": "/Volumes/WD Black/Videos/da-vinci/shorts/2026-10-26-seabun-short.mp4",
+ "timeline_name": "Seabun Short",
+ "speed": 1.1,
+ "title": [
+  {
+   "text": "ONE HARPOON",
+   "gold": false
+  },
+  {
+   "text": "VS GIANT CRAB",
+   "gold": true
+  }
+ ],
+ "hook": {
+  "start": 4620.45,
+  "end": 4621.55,
+  "caption": "GIANT CRAB BOSS!",
+  "zoom": 1.3
+ },
+ "clips": [
+  {
+   "start": 9.4,
+   "end": 18.1,
+   "captions": [
+    [
+     9.4,
+     14.6,
+     "Right now I only have a submarine"
+    ],
+    [
+     14.6,
+     18.1,
+     "and a harpoon gun."
+    ]
+   ]
+  },
+  {
+   "start": 30.7,
+   "end": 34.2,
+   "captions": [
+    [
+     30.7,
+     34.2,
+     "Oh my god, I just died!"
+    ]
+   ]
+  },
+  {
+   "start": 4213.8,
+   "end": 4217.3,
+   "captions": [
+    [
+     4213.8,
+     4215.3,
+     "Oh, a baby white shark!"
+    ],
+    [
+     4215.3,
+     4217.3,
+     "Now I get something!"
+    ]
+   ]
+  },
+  {
+   "start": 4234.5,
+   "end": 4236.1,
+   "captions": [
+    [
+     4234.5,
+     4236.1,
+     "This is a LEGENDARY!",
+     "gold"
+    ]
+   ]
+  },
+  {
+   "start": 4380.8,
+   "end": 4390.1,
+   "captions": [
+    [
+     4380.8,
+     4384.6,
+     "Oh, this is the boss monster!",
+     "gold"
+    ],
+    [
+     4384.6,
+     4390.1,
+     "I need to run and play carefully"
+    ]
+   ]
+  },
+  {
+   "start": 4412.5,
+   "end": 4416.4,
+   "captions": [
+    [
+     4412.5,
+     4414.3,
+     "This one is very hard to kill."
+    ],
+    [
+     4414.3,
+     4416.4,
+     "Oh my god!"
+    ]
+   ]
+  },
+  {
+   "start": 4419.9,
+   "end": 4422.3,
+   "captions": [
+    [
+     4419.9,
+     4422.3,
+     "Oh, I died. I think I died."
+    ]
+   ]
+  },
+  {
+   "start": 4512.7,
+   "end": 4518.0,
+   "captions": [
+    [
+     4512.7,
+     4515.1,
+     "This time I'm using the cowfish."
+    ],
+    [
+     4515.1,
+     4518.0,
+     "I think I can defeat the boss!"
+    ]
+   ]
+  },
+  {
+   "start": 4585.2,
+   "end": 4587.7,
+   "captions": [
+    [
+     4585.2,
+     4587.7,
+     "It also uses a laser beam!"
+    ]
+   ]
+  },
+  {
+   "start": 4592.8,
+   "end": 4594.85,
+   "captions": [
+    [
+     4592.8,
+     4594.85,
+     "Okay, one hand down!"
+    ]
+   ]
+  },
+  {
+   "start": 4616.0,
+   "end": 4624.1,
+   "captions": [
+    [
+     4616.0,
+     4618.45,
+     "Can I win? Can I win?"
+    ],
+    [
+     4618.45,
+     4620.45,
+     "Is it possible to win?"
+    ],
+    [
+     4620.45,
+     4624.1,
+     "YES! I defeated it, finally!",
+     "gold"
+    ]
+   ]
+  }
+ ]
+}
