@@ -52,6 +52,30 @@ In Wipe Them Out (58 min) the face changed 99 times, about 1–2 times per minut
 The same face waits a little before it can show again (wow 4 s, happy/sad 6 s, think 25 s),
 so it never changes too often.
 
+### Cheat sheet: every trigger word (exact list in the tool)
+
+Keep this next to you while recording. Say these when you **really** feel it. Natural is best.
+Small words like "great" or "nice" also count inside a longer sentence ("this is great").
+
+**😮 WOW** (surprise, big moment)
+> oh my god · my god · oh god · wow · whoa · amazing · huge · insane · crazy · incredible · what happened · what the · holy · massive
+
+**😄 HAPPY** (good upgrade, win, nice moment)
+> let's go · perfect · great · beautiful · finally · awesome · nice · cool · yes yes · oh yes · yay · love it · satisfying · easy
+
+**😢 SAD** (you die, lose, fail)
+> I died · died · dead · I lost · lost · oh no · no no · not good · failed · damn · sad · too bad · missed
+
+**🤔 THINK** (choosing an upgrade, reading something new)
+> let's see · let me see · let me think · what is this · should I · hmm · interesting · which one
+
+**Good to know**
+- "yes" alone does **not** count (you say it ~50 times an hour). Say "yes yes" or "oh yes" for happy.
+- If two words come close together, the first one wins. The order is wow → sad → happy → think.
+- The same face can't come back too fast: wow after 4 s, happy and sad after 6 s, think after 25 s.
+- Laughing ("haha") does not work: the transcript never writes laughs.
+- Want a new word? Tell the AI. It checks your real transcripts first, then adds it to the tool and this list.
+
 ### The 18 face pictures
 
 `channel/brand/avatar/`: 6 normal faces (mouth closed / half / open, each with a blink version) +
