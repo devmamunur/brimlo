@@ -51,6 +51,7 @@ The targets below are **guesses** for a brand-new channel. Replace them with you
 - Developer relationships: after 5–10 incremental videos, ask developers for early keys ("Early creator preview" titles broke out for Nerfed Reflexes).
 - Live streams: skip for now (US prime time = 5–8 AM Dhaka).
 - Shorts: optional for discovery only; they don't count toward watch hours.
+  - **Test (Mamunur, 12 Nov 2026):** 1 Short per hit video only — I Am Plague, Outbreak Z, Seabun, Ant Mill Inc, Mycelarium. 30–45 s of the best moment, "Related video" set to the full video, post 1 a day, never instead of a long video. Check Thu 26 Nov 2026 (subs + related-video clicks per Short); ~10+ subs from all 5 (guess) → make more, else stop.
 
 
 ## Update 13 Oct 2026 — sim games added
