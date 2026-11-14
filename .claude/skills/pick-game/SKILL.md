@@ -12,6 +12,31 @@ argument-hint: "[optional: a game name to check, or 'next fest']"
 
 **Why the search was changed (14 Nov 2026):** Drink the Ocean (a free browser game, great for us) was only found on the 3rd /pick-game that day. It was missed because (1) it is not on Steam or itch, (2) the hit video's title had no game name — the name was only in the description, (3) the videos were young and low in the view-sorted list. The steps below fix all three: one wave scan over many searches, game names read from links and descriptions, and browser game sources.
 
+## Step 0 — Check the tools first, fix what is broken, then start (Mamunur, 15 Nov 2026)
+
+Before any research, check that every tool works. Fix what you can yourself. Then show **one short status line** and start Step 1. Do not ask him to fix things you can fix.
+
+Run these together (all cheap):
+1. **MCP servers:** `session_connectors_status` (load it with ToolSearch "select:mcp__ccd_connectors__session_connectors_status,mcp__ccd_connectors__reconnect_session_connector"). Need `brimlo`, `vidiq` and `playwright` = connected.
+   - `failed` → `reconnect_session_connector` (it works at the end of the turn). Meanwhile use the CLI fallback below, so research does not wait.
+   - `needs_auth` (vidIQ) → he must sign in with `/mcp`. Say it in one line and go on without vidIQ.
+2. **brimlo tools are current:** ToolSearch `"+brimlo wave_scan"`. If `brimlo_wave_scan` is missing, the MCP server runs old code (tools were changed in this session). **Do not stop:** run the same code through the **CLI fallback**, and tell him once: "Restart the session or `/mcp` → brimlo → Reconnect to load the new tools."
+3. **Data sources:** `brimlo_health_check` (~1 unit): YouTube API, Steam, itch, yt-dlp, database. `brimlo_quota_status`: mode must be `live` (not `demo`), and enough units left for the scan (~1,700).
+   - YouTube API fails → check `tools/research/.env` has `YOUTUBE_API_KEY`; quota at 90% → wait for the reset (midnight Pacific = 2 PM Dhaka) and use vidIQ meanwhile.
+   - yt-dlp fails → run `tools/research/.venv/bin/yt-dlp -U` (or `pipx upgrade yt-dlp`).
+   - `node_modules` missing → `cd tools/research && pnpm install`.
+4. **Chrome:** `tabs_context_mcp` (Claude in Chrome). Not connected → `list_connected_browsers`; if none, ask him to open Chrome with the Claude extension. Until then do everything else; do Step 3 last.
+
+**CLI fallback** (same code as the MCP tools, works any time):
+```
+cd tools/research && pnpm -s research:cli wave_scan --json 2>/dev/null > <scratchpad>/wave.json
+cd tools/research && pnpm -s research:cli youtube_search "<game>" --hours 0 --order relevance --duration any --json
+cd tools/research && pnpm -s research:cli health_check
+```
+Read the JSON with a short python script (summary, shortlist, games with status + history.note, unknown_game_signals).
+
+Status line in the reply, e.g.: `Tools: brimlo ✅ (CLI — restart to load new tools) · vidIQ ✅ · YouTube API ✅ 1,761/10,000 · Steam ✅ · Chrome ✅`
+
 ## Step 1 — Fresh search (always first, all parts, in one go)
 
 Get the real time now (UTC and Dhaka). Run A–D in parallel where you can.
@@ -86,6 +111,7 @@ Time-sensitive free demos/playtests (end dates, Next Fest) > free demos of games
 ## Step 5 — Reply (short, simple English)
 
 ```
+Tools: <status line from Step 0>
 Checked: <date, time Dhaka> · wave scan <N> searches, <units> units
 
 ⭐ BEST: <Game> (<free demo / launch / playtest / browser game>, <price>)
