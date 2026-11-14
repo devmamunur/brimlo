@@ -78,6 +78,8 @@ Free limit: **10,000 units per day**, reset at midnight Pacific time.
 | `title_patterns` | Which title shapes win in a niche | ~102 |
 | `description_and_tags` | Common tags (≤500 chars), hashtags, description keywords | ~102 |
 | `trending` | Fast-growing videos in a niche | ~102 |
+| `youtube_search` | One search like vidIQ: last N hours (`hours: 0` = all time), sort by views/date, long/medium/short, Gaming category, English bias. Each video: subs, age in hours, views per hour, outlier score (estimate), language, live yes/no and the **game name** (from Steam/itch/browser-game links → "The game is called …" / "I played 100% of X" in the description → title). Cached 2 h | ~102 |
+| `wave_scan` | For /pick-game: 7 searches (last 48 h) grouped **by game**; each game gets OPEN / CROWDED / OLD / NO_ENGLISH_SIGNAL, hours since the English wave started, English long videos, best outlier, English views per hour. Then a **history check** (game name, all time) for every OPEN or CROWDED game (up to 10): older videos of the same game → OLD; same name but maybe another game (Roblox…) → `possible_name_clash`. Signal videos with no game name are listed in `unknown_game_signals`. `shortlist` = up to 3 OPEN games. `estimate_only` first | ~102 per search (≈700–1,700) |
 | `idea_engine` | Evidence pack for a game/topic. Claude writes the ideas | ~204 cold |
 | `ideas_list / idea_save / idea_update` | Saved ideas (idea → planned → recorded) | 0 |
 | `own_channel` | Your channel's subs, views, recent uploads, YPP progress; watch hours with Google connected | ~3 |

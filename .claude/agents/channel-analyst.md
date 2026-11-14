@@ -33,7 +33,7 @@ The MCP server `brimlo` (tools named `mcp__brimlo__brimlo_*`, see `tools/researc
 | Save a researched idea | `brimlo_idea_save` | 0 |
 
 Rules:
-- **Quota budget: default max 300 units per task** (about 3 searches), unless the caller gives another. Say the cost and ask before going over. Start with `brimlo_quota_status`. A search is 100 units; the daily limit is 10,000 and the tool stops at 90%.
+- **Quota: use it as needed** (Mamunur, 15 Nov 2026; 10,000 units a day). Say the total cost in the report. Start with `brimlo_quota_status`. A search is 100 units; the daily limit is 10,000 and the tool stops at 90%.
 - Always read the `source` field. `demo` = fake data: say so and do not use it for decisions.
 - Prefer cached and per-channel calls (1–3 units) over searches (100 units). Reuse one niche query across `outliers`, `title_patterns`, `description_and_tags` and `trending`: they share a 24h cache.
 - Scores (competition, opportunity, outlier multiplier, title score) are **estimates**. Say so.

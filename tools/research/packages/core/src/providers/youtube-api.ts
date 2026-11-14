@@ -50,9 +50,12 @@ export const youtubeApi: YouTubeProvider = {
       maxResults: String(Math.min(50, opts.maxResults ?? 50)),
       order: opts.order ?? "relevance",
       regionCode: "US",
-      relevanceLanguage: "en",
+      relevanceLanguage: opts.relevanceLanguage ?? "en",
     };
+    if (!params.relevanceLanguage) delete params.relevanceLanguage;
     if (opts.publishedAfter) params.publishedAfter = opts.publishedAfter;
+    if (opts.videoDuration && opts.videoDuration !== "any") params.videoDuration = opts.videoDuration;
+    if (opts.videoCategoryId) params.videoCategoryId = opts.videoCategoryId;
     const body = await call("search", params);
     return (body.items ?? []).map((i: any) => i.id?.videoId).filter(Boolean);
   },
@@ -60,7 +63,7 @@ export const youtubeApi: YouTubeProvider = {
   async getVideos(ids: string[]) {
     const out: VideoInfo[] = [];
     for (const batch of chunk([...new Set(ids)], 50)) {
-      const body = await call("videos", { part: "snippet,statistics,contentDetails", id: batch.join(",") });
+      const body = await call("videos", { part: "snippet,statistics,contentDetails,liveStreamingDetails", id: batch.join(",") });
       for (const v of body.items ?? []) {
         out.push({
           id: v.id,
@@ -74,6 +77,9 @@ export const youtubeApi: YouTubeProvider = {
           likes: Number(v.statistics?.likeCount ?? 0),
           comments: Number(v.statistics?.commentCount ?? 0),
           thumbnail: v.snippet.thumbnails?.medium?.url ?? v.snippet.thumbnails?.default?.url ?? "",
+          language: v.snippet.defaultAudioLanguage ?? v.snippet.defaultLanguage ?? null,
+          categoryId: v.snippet.categoryId ?? null,
+          live: Boolean(v.liveStreamingDetails) || (v.snippet.liveBroadcastContent ?? "none") !== "none",
         });
       }
     }

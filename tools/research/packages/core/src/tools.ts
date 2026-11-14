@@ -18,6 +18,7 @@ import { watchAdd, watchAddInput, watchList, watchListInput, watchRemove, watchR
 import { outliers, outliersInput } from "./features/outliers.ts";
 import { similarChannels, similarChannelsInput, similarVideos, similarVideosInput } from "./features/similar.ts";
 import { videoComments, videoCommentsInput, videoStats, videoStatsInput, videoTags, videoTagsInput, videoTranscript, videoTranscriptInput } from "./features/videos.ts";
+import { waveScan, waveScanInput, youtubeSearch, youtubeSearchInput } from "./features/youtubeSearch.ts";
 import { quotaStatus } from "./quota/guard.ts";
 import type { Envelope } from "./result.ts";
 
@@ -137,6 +138,23 @@ export const tools: ToolDef[] = [
     primary: "keyword",
     schema: descriptionAndTagsInput,
     run: descriptionAndTags,
+  },
+  {
+    name: "youtube_search",
+    title: "YouTube search (like vidIQ)",
+    description:
+      "YouTube search like vidIQ's: last N hours (default 48), sorted by views, long videos only by default, English bias. Each video has channel subs, age in hours, views per hour, outlier score (views ÷ channel average, estimate), language and the GAME NAME read from Steam/itch/browser-game links and the description ('The game is called …'), not only the title. ~102 units, 0 if the same search ran in the last 2 hours.",
+    primary: "query",
+    schema: youtubeSearchInput,
+    run: youtubeSearch,
+  },
+  {
+    name: "wave_scan",
+    title: "Game wave scan",
+    description:
+      "For /pick-game: runs several YouTube searches (default 7: incremental, idle, satisfying upgrades, zombie, survivor, browser game, free game) for the last 48 h, groups every video by GAME and judges each wave: OPEN (first English signal ≤ 48 h, ≤ 5 English long videos, no big channel yet), CROWDED, OLD or NO_ENGLISH_SIGNAL, with hours since the English wave started. Also lists signal videos whose game name it could not find (open them!). ~102 units per search (≈714 for the default list), 0 for searches cached in the last 2 hours. Use estimate_only first. Estimates; confirm the pick in Chrome.",
+    schema: waveScanInput,
+    run: waveScan,
   },
   {
     name: "trending",

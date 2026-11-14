@@ -19,7 +19,7 @@ argument-hint: "[game name or title to review]"
 
 ## Optional: what is winning in the niche (costs YouTube API units)
 
-If he wants fresh shapes, run `brimlo_title_patterns` for the genre (about 102 units; say the cost and ask if the task total goes over 300). Use the shapes, never the exact words.
+If he wants fresh shapes, run `brimlo_title_patterns` for the genre (about 102 units; quota can be used as needed, CLAUDE.md rule 2). Use the shapes, never the exact words.
 
 ## vidIQ (the subscription runs until November 2026; use it freely for a cross-check on the final 2–3 titles)
 

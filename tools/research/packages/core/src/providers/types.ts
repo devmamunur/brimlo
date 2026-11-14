@@ -21,6 +21,12 @@ export interface VideoInfo {
   likes: number;
   comments: number;
   thumbnail: string;
+  /** snippet.defaultAudioLanguage ?? defaultLanguage (often missing). */
+  language?: string | null;
+  /** YouTube category id ("20" = Gaming). */
+  categoryId?: string | null;
+  /** true when the video is or was a live stream. */
+  live?: boolean;
 }
 
 export interface CommentInfo {
@@ -38,6 +44,12 @@ export interface SearchOptions {
   maxResults?: number;
   publishedAfter?: string;
   order?: "relevance" | "viewCount" | "date";
+  /** YouTube filter: short < 4 min, medium 4–20 min, long > 20 min. */
+  videoDuration?: "any" | "short" | "medium" | "long";
+  /** Default "en". Empty string = no language bias. */
+  relevanceLanguage?: string;
+  /** "20" = Gaming. */
+  videoCategoryId?: string;
 }
 
 export interface YouTubeProvider {
