@@ -76,6 +76,14 @@ def make_sprites(scale):
         d.ellipse([c - S * 0.3, S * 0.3, c + S * 0.3, S * 0.92], fill=(140, 215, 255, 255), outline=(30, 90, 160, 255), width=max(1, S // 16))
         d.ellipse([c - S * 0.14, S * 0.5, c - S * 0.02, S * 0.64], fill=(255, 255, 255, 230))
     sp["drop"] = _sprite(drop, s(26))
+
+    def coin(d, S):
+        d.ellipse([S * 0.06, S * 0.06, S * 0.94, S * 0.94], fill=GOLD, outline=NAVY, width=max(2, S // 14))
+        d.ellipse([S * 0.2, S * 0.2, S * 0.8, S * 0.8], outline=ORANGE, width=max(1, S // 18))
+        d.text((S / 2, S / 2), "$", font=_font(int(S * 0.5)), fill=ORANGE, anchor="mm")
+    sp["coin"] = _sprite(coin, s(30))
+    sp["?!"] = _text("?!", s(60), TEAL)
+    sp["haha"] = _text("HA", s(52), GOLD)
     return sp
 
 
@@ -108,6 +116,16 @@ class Effects:
                 self.p.append(dict(k="sparkle", x=head_x + R.uniform(-0.2, 0.2) * size, y=head_y + size * 0.25, vx=v * math.cos(a), vy=v * math.sin(a), g=300 * self.sc, life=R.uniform(0.7, 1.0), pop=True, twinkle=True))
         elif expr == "think":
             self.p.append(dict(k="?", x=head_x + size * 0.38, y=head_y + size * 0.12, vx=6, vy=-28 * self.sc, g=0, life=1.5, pop=True, rot=10, sway=True))
+        elif expr == "money":
+            for _ in range(6):
+                a = math.radians(R.uniform(-160, -20))
+                v = R.uniform(120, 230) * self.sc
+                self.p.append(dict(k="coin", x=head_x + R.uniform(-0.2, 0.2) * size, y=head_y + size * 0.2, vx=v * math.cos(a), vy=v * math.sin(a), g=420 * self.sc, life=R.uniform(0.8, 1.1), pop=True, rot=R.uniform(-30, 30), spin=R.uniform(-300, 300)))
+        elif expr == "confused":
+            self.p.append(dict(k="?!", x=head_x - size * 0.36, y=head_y + size * 0.08, vx=-4, vy=-12 * self.sc, g=0, life=1.4, pop=True, rot=-10, sway=True))
+        elif expr == "laugh":
+            for k, (ox, oy) in enumerate(((0.36, 0.05), (-0.34, 0.15))):
+                self.p.append(dict(k="haha", x=head_x + size * ox, y=head_y + size * oy, vx=0, vy=-30 * self.sc, g=0, life=1.2, pop=True, rot=12 if ox > 0 else -12, sway=True, age=-0.25 * k))
         elif expr == "sad":
             self.p.append(dict(k="drop", x=head_x - size * 0.32, y=head_y + size * 0.30, vx=0, vy=10, g=60 * self.sc, life=1.4, pop=True))
 
@@ -116,6 +134,9 @@ class Effects:
         for q in self.p:
             q.setdefault("age", 0.0)
             q["age"] += dt
+            if q["age"] < 0:
+                alive.append(q)
+                continue
             u = q["age"] / q["life"]
             if u >= 1:
                 continue

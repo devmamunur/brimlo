@@ -1,10 +1,11 @@
 # /// script
 # dependencies = ["numpy", "pillow", "scipy"]
 # ///
-"""Make the 4 avatar faces (mouth closed/open x eyes open/blink) from the channel logo.
+"""Make all mascot pictures from the channel logo: 6 normal faces (mouth closed/half/open x blink),
+6 expressions x 3 mouth sizes (wow, happy, sad, think, money, confused) and the plain body (no face).
 
-Run once (already done 13 Nov 2026): uv run tools/avatar/make_faces.py
-Input: channel/brand/logo-v3-2026-11-05.png  Output: channel/brand/avatar/brimlo-mouth-*.png
+Run again after changing a face (last run 14 Nov 2026): uv run tools/avatar/make_faces.py
+Input: channel/brand/logo-v3-2026-11-05.png  Output: channel/brand/avatar/brimlo-*.png
 Pixel positions are tuned for this logo; a new logo needs new positions.
 """
 import os
@@ -223,9 +224,38 @@ def face(expr, lvl):
         else:
             rx,ry={0.5:(12,9),1:(15,14)}[lvl]
             im.alpha_composite(o_mouth(440,513,rx,ry))
+    elif expr=='money':
+        a=erase(a,smile,eyes,brows_m); im=Image.fromarray(a.clip(0,255).astype(np.uint8),'RGBA')
+        im.alpha_composite(moved(BL,0,-14,-4)); im.alpha_composite(moved(BR,0,-14,4))
+        im.alpha_composite(dollar_eyes())
+        im.alpha_composite(draw_open_mouth({0:0.6,0.5:0.9,1:1.15}[lvl]))
+    elif expr=='confused':
+        a=erase(a,smile,brows_m); im=Image.fromarray(a.clip(0,255).astype(np.uint8),'RGBA')
+        im.alpha_composite(moved(BL,0,10,12)); im.alpha_composite(moved(BR,0,-20,-6))
+        if lvl==0:
+            im.alpha_composite(stroke([(385,520),(398,512),(411,520),(424,512),(437,520),(450,512),(463,518)],7))
+        else:
+            rx,ry={0.5:(13,9),1:(17,15)}[lvl]
+            im.alpha_composite(o_mouth(430,516,rx,ry))
     return im
 
-for expr in ('wow','happy','sad','think'):
+def dollar_eyes():
+    from PIL import ImageFont
+    l=layer(); d=ImageDraw.Draw(l)
+    try: f=ImageFont.truetype("/System/Library/Fonts/Supplemental/Arial Black.ttf",86*S)
+    except OSError: f=ImageFont.load_default(86*S)
+    for cx,cy in ((327,440),(503,434)):
+        d.ellipse([(cx-50)*S,(cy-44)*S,(cx+50)*S,(cy+44)*S],fill=(255,255,255,255),outline=(0,0,0,255),width=8*S)
+        d.text((cx*S,(cy+2)*S),"$",font=f,fill=(34,170,80,255),anchor="mm",stroke_width=4*S,stroke_fill=(10,70,30,255))
+        d.ellipse([(cx-34)*S,(cy-34)*S,(cx-20)*S,(cy-20)*S],fill=(255,255,255,235))
+    return down(l)
+
+for expr in ('wow','happy','sad','think','money','confused'):
     for lvl,name in ((0,'closed'),(0.5,'half'),(1,'open')):
         face(expr,lvl).crop((130,85,670,670)).save(f'brimlo-{expr}-{name}.png')
+# plain body (no eyes, brows, mouth, cheeks): the "mini rig" slides the face over it
+blank_m=eyes|ndimage.binary_dilation(brow_L|brow_R,iterations=3)|smile|ndimage.binary_dilation(blush,iterations=3)
+NOBLEED[:]=False
+bb=inpaint(arr.copy(),blank_m)
+Image.fromarray(bb.clip(0,255).astype(np.uint8),'RGBA').crop((130,85,670,670)).save('brimlo-body-blank.png')
 os.remove("cut.png")

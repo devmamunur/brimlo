@@ -210,6 +210,7 @@ Track which template wins. Update after 7 days.
 | Pack Ripper | A: "I Spent My Rent on Card Packs to Find the GOLDEN TICKET \| Pack Ripper" (1 Nov) → "I Ripped 225 Card Packs to Find One Golden Ticket" (Wed 11 Nov, CTR 1.0% before) | ~110 | 1.0% |
 | Scrapecremental | "They Gave Me ONE Fingernail…\| Scrapecremental" → "I Scraped a Dinosaur Skull Clean With My Fingernail - Scrapecremental" (Wed 11 Nov; name kept: we rank #2 for it) | ~39 | 1.5% before |
 | Digging a Hole | "Bought a House for $10 and Dug for DIAMONDS \| A Game About Digging a Hole" → "I Found a Big Red X in My Garden and Started Digging" (Wed 11 Nov) | ~23 | 1.7% before |
+| Mycelarium (vidIQ/Studio A/B 7–14 Nov) | A "I Grew One Tiny Mushroom Under an Entire Forest" (no text thumb) 24.2% vs C "I Played 100% Of Mycelarium and Built a Fungal Empire" (+ "100%" thumb) **75.8%** watch time share, 642 views, "They all performed well" (not proven). Swapped to C by hand Sat 14 Nov 2026. Another sign: game name + "100%" wins. | 642 (test) | check Studio |
 | Review 11 Nov 2026 | Best CTR: Rust & Shine 7.3%, I Am Plague 6.5% ("I 100%…"), Outbreak Z 6.2%, Deforest 5.7%. Worst: Pack Ripper 1.0%, Cookie Clicker 1.3%, Scrapecremental 1.5%, Digging a Hole 1.7%. Search CTR 11.7% vs Browse 3.3%: the game name in the title helps search. | | |
 
 ---

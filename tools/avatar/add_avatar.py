@@ -1,20 +1,20 @@
 # /// script
 # dependencies = ["numpy", "pillow"]
 # ///
-"""Put the moving Brimlo mascot in the corner of a FINISHED video (after editing).
+"""Put the moving Brimlo mascot in a corner of a FINISHED video (after editing). v5, 14 Nov 2026.
 
 How it moves (no camera, only the audio + transcript):
-  - Mouth: opens/closes only while Mamunur says words (Whisper word times),
-    in syllable steps, and stays shut on quiet sounds inside a word.
-  - Eyes: random blinks every 2-6 s.
-  - Body: soft breathing when quiet, small bob + sway while talking,
-    a little stretch with the voice. No jumps (they looked random).
-  - Expressions: trigger words in the transcript ("oh my god" -> wow, "perfect" -> happy,
-    "I died" -> sad, "let's see" -> think) change the face for ~2 s with a small pop.
+  - Mouth: only while Mamunur says words (Whisper word times); voice loudness -> closed / half / open.
+  - Eyes: random blinks every 3-7 s.
+  - Body: springs (soft, a little overshoot): breathing, sway, bob + stretch while talking.
+  - Mini rig: the face slides on the body (looks around); the crown swings on its own.
+  - Expressions: trigger words (EXPR below) -> wow / sad / money / happy / confused / think for ~2 s,
+    each with its own move, gaze and effect. Optional experimental laugh finder (--laugh).
+  - Corner: auto = the corner with the least game HUD.
 
 Usage:
-  uv run tools/avatar/add_avatar.py "<final video>" [--transcript <name>]
-        [--start 10:00 --duration 30] [--corner br|bl|tr|tl] [--size 0.26] [--out file]
+  uv run tools/avatar/add_avatar.py "<final video>" [--best-preview | --start 10:00 --duration 30]
+        [--corner auto|br|bl|tr|tl] [--size 0.22] [--laugh] [--overlay-only] [--transcript <name>] [--out file]
 
   --transcript  folder in tools/transcribe/out/ made from THIS final file. If left out,
                 it is found by the video path in summary.json. No transcript → run
@@ -139,16 +139,25 @@ def mouth_track(words, start, fps, n, energy):
     return talk, mouth
 
 
-# Trigger phrases (from 11 transcripts, 13 Nov 2026). First match wins: wow > sad > happy > think.
+# Trigger phrases, checked against 12 of Mamunur's transcripts (~16 h, 14 Nov 2026).
+# At the same word, the first face in this order wins: wow > sad > money > happy > confused > think.
+# Longer phrases first inside a list. Very common words ("what", "no", "good", "yes", "money") are left out on purpose.
 EXPR = {
-    "wow":   dict(hold=1.6, cool=4,  words=["oh my god", "my god", "oh god", "wow", "whoa", "amazing", "huge", "insane",
-                                           "crazy", "incredible", "what happened", "what the", "holy", "massive"]),
-    "sad":   dict(hold=2.2, cool=6,  words=["i died", "died", "dead", "i lost", "lost", "oh no", "no no", "not good",
-                                           "failed", "damn", "sad", "too bad", "missed"]),
-    "happy": dict(hold=1.8, cool=6,  words=["let's go", "lets go", "perfect", "great", "beautiful", "finally", "awesome",
-                                           "nice", "cool", "yes yes", "oh yes", "yay", "love it", "satisfying", "easy"]),
-    "think": dict(hold=1.6, cool=25, words=["let's see", "lets see", "what is this", "should i", "hmm", "interesting",
-                                           "which one", "let me think", "let me see"]),
+    "wow":      dict(hold=1.6, cool=4,  words=["oh my god", "my god", "oh god", "oh wow", "oh my", "wow", "whoa", "amazing",
+                                              "huge", "insane", "crazy", "incredible", "what the", "holy", "massive",
+                                              "powerful", "too many", "so many", "very fast", "look at this", "look at that"]),
+    "sad":      dict(hold=2.2, cool=6,  words=["i died", "i'm dead", "game over", "died", "dead", "i lost", "lost", "oh no",
+                                              "no no", "not good", "failed", "damn", "sad", "too bad", "missed", "broke"]),
+    "money":    dict(hold=2.0, cool=8,  words=["lots of money", "so much money", "million dollars", "thousand dollars",
+                                              "million", "billion", "trillion", "max out", "maxed out", "maxed", "max level",
+                                              "level up", "profit", "dollars", "rich"]),
+    "happy":    dict(hold=1.8, cool=6,  words=["let's go", "lets go", "perfect", "great", "beautiful", "finally", "awesome",
+                                              "nice", "cool", "yes yes", "oh yes", "yay", "love it", "i love", "satisfying",
+                                              "easy", "completed", "complete", "i win", "we win", "cleared", "very good", "fun"]),
+    "confused": dict(hold=1.8, cool=8,  words=["what happened", "i don't know", "too expensive", "not enough", "can't afford",
+                                              "come on", "why", "wait", "weird", "strange", "how is this"]),
+    "think":    dict(hold=1.6, cool=25, words=["let's see", "lets see", "let me see", "let me think", "what is this",
+                                              "should i", "hmm", "interesting", "which one"]),
 }
 
 
@@ -213,29 +222,128 @@ def smooth(x, k):
     return np.convolve(x, w, mode="same")
 
 
-def load_faces(size_px):
+# Mini rig. Positions are in the 540x585 face pictures (channel/brand/avatar).
+CROWN_POLY = [(174, 38), (243, 55), (263, 10), (307, 46), (360, 20), (368, 94), (364, 104), (208, 123)]
+CROWN_CUT_Y = 96          # above this line the crown is lifted off the body (so it can wobble)
+CROWN_PIVOT = (286, 112)  # the crown swings around this point (its bottom middle)
+PAD = 24
+
+
+def _face_names():
     names = {("", 0.0, 0): "mouth-closed", ("", 0.5, 0): "mouth-half", ("", 1.0, 0): "mouth-open",
              ("", 0.0, 1): "mouth-closed-blink", ("", 0.5, 1): "mouth-half-blink", ("", 1.0, 1): "mouth-open-blink"}
     for e in EXPR:
         for lv, ln in ((0.0, "closed"), (0.5, "half"), (1.0, "open")):
             names[(e, lv, 0)] = f"{e}-{ln}"
-    faces = {}
-    for key, name in names.items():
+    for lv, ln in ((0.0, "closed"), (0.5, "half"), (1.0, "open")):   # laugh uses the happy pictures
+        names[("laugh", lv, 0)] = f"happy-{ln}"
+    return names
+
+
+def load_rig(size_px):
+    """Body (no face, crown top cut), face layer per picture, crown layer, shadow. All on one padded canvas."""
+    from PIL import ImageDraw
+    k = size_px / 585
+    def ld(name):
         im = Image.open(os.path.join(FACES, f"brimlo-{name}.png")).convert("RGBA")
-        h = size_px
-        w = round(im.width * h / im.height)
-        im = im.resize((w, h), Image.LANCZOS)
-        # soft shadow so it reads on any game
-        pad = 24
-        canvas = Image.new("RGBA", (w + pad * 2, h + pad * 2), (0, 0, 0, 0))
-        sh = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
-        alpha = im.split()[3].point(lambda v: int(v * 0.55))
-        sh.paste(Image.new("RGBA", im.size, (0, 0, 0, 255)), (pad + 4, pad + 8), alpha)
-        sh = sh.filter(ImageFilter.GaussianBlur(7))
-        canvas.alpha_composite(sh)
-        canvas.alpha_composite(im, (pad, pad))
-        faces[key] = canvas
-    return faces
+        return im.resize((round(im.width * k), size_px), Image.LANCZOS)
+    blank = ld("body-blank")
+    w, h = blank.size
+    cw, ch = w + PAD * 2, h + PAD * 2
+    def canvas(im):
+        c = Image.new("RGBA", (cw, ch), (0, 0, 0, 0)); c.alpha_composite(im, (PAD, PAD)); return c
+    # crown mask (soft) on the canvas
+    cm = Image.new("L", (cw, ch), 0)
+    ImageDraw.Draw(cm).polygon([(PAD + x * k, PAD + y * k) for x, y in CROWN_POLY], fill=255)
+    cm = cm.filter(ImageFilter.MaxFilter(max(3, int(16 * k) | 1))).filter(ImageFilter.GaussianBlur(0.8))
+    B = canvas(blank)
+    crown = Image.new("RGBA", (cw, ch), (0, 0, 0, 0))
+    crown.paste(B, (0, 0), Image.fromarray(np.minimum(np.array(B)[..., 3], np.array(cm)).astype(np.uint8)))
+    cut = np.array(cm).astype(np.float32) / 255
+    cut[int(PAD + CROWN_CUT_Y * k):, :] = 0
+    body = np.array(B).astype(np.float32)
+    body[..., 3] *= 1 - cut
+    body = Image.fromarray(body.clip(0, 255).astype(np.uint8), "RGBA")
+    # shadow from the full shape
+    sh = Image.new("RGBA", (cw, ch), (0, 0, 0, 0))
+    al = B.split()[3].point(lambda v: int(v * 0.55))
+    sh.paste(Image.new("RGBA", (cw, ch), (0, 0, 0, 255)), (4, 8), al)
+    shadow = sh.filter(ImageFilter.GaussianBlur(7))
+    # face layers = what differs from the plain body
+    Bn = np.array(B).astype(np.int16)
+    feats = {}
+    for key, name in _face_names().items():
+        F = canvas(ld(name))
+        Fn = np.array(F).astype(np.int16)
+        diff = np.abs(Fn[..., :3] - Bn[..., :3]).max(-1) > 14
+        mk = Image.fromarray((diff * 255).astype(np.uint8)).filter(ImageFilter.MaxFilter(5)).filter(ImageFilter.GaussianBlur(1.2))
+        a2 = np.minimum(np.array(mk), Fn[..., 3]).astype(np.uint8)
+        f = np.array(F); f[..., 3] = a2
+        feats[key] = Image.fromarray(f, "RGBA")
+    pivot = (PAD + CROWN_PIVOT[0] * k, PAD + CROWN_PIVOT[1] * k)
+    return dict(body=body, crown=crown, shadow=shadow, feats=feats, pivot=pivot, size=(cw, ch))
+
+
+def pick_corner(video, total, BW, BH, W, H):
+    """Corner with the least fixed game HUD: sample 12 frames, find edges that stay in place."""
+    sw, shh = 480, 270
+    fr = []
+    for j in range(12):
+        t = total * (0.05 + 0.9 * j / 11)
+        raw = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{t:.2f}", "-i", video, "-frames:v", "1",
+                              "-vf", f"scale={sw}:{shh},format=gray", "-f", "rawvideo", "-"], capture_output=True).stdout
+        if len(raw) == sw * shh:
+            g = np.frombuffer(raw, np.uint8).reshape(shh, sw).astype(np.float32)
+            fr.append(np.abs(np.diff(g, axis=1))[:-1, :] + np.abs(np.diff(g, axis=0))[:, :-1])
+    if not fr:
+        return "br", {}
+    static = np.median(np.stack(fr), 0)            # edges that are there in most frames = HUD / UI
+    rw, rh = int(BW / W * sw * 0.8), int(BH / H * shh * 0.8)
+    reg = {"br": static[-rh:, -rw:], "bl": static[-rh:, :rw], "tr": static[:rh, -rw:], "tl": static[:rh, :rw]}
+    score = {c: float((r > 25).mean() * 100) for c, r in reg.items()}
+    best = min(score, key=lambda c: score[c] - (0.6 if c == "br" else 0))   # tiny bonus: bottom-right is home
+    return best, score
+
+
+def laugh_hits(video, start, dur, words):
+    """Experimental: laughs (Whisper never writes them). Voice-heavy, rhythmic (3-7 bursts/s), outside words."""
+    sr, hz = 16000, 100
+    def dec(af):
+        raw = subprocess.run(["ffmpeg", "-v", "error", "-ss", str(start), "-t", str(dur), "-i", video, "-vn",
+                              "-af", af, "-ac", "1", "-ar", str(sr), "-f", "s16le", "-"], capture_output=True).stdout
+        a = np.frombuffer(raw, np.int16).astype(np.float32) / 32768
+        m = len(a) // (sr // hz)
+        return np.sqrt((a[:m * (sr // hz)].reshape(m, -1) ** 2).mean(1) + 1e-10)
+    v = dec("highpass=f=250,lowpass=f=3500")
+    f = dec("anull")
+    m = min(len(v), len(f))
+    v, f = v[:m], f[:m]
+    busy = np.zeros(m, bool)
+    for ws, we in words:
+        a0, a1 = int((ws - start - 0.2) * hz), int((we - start + 0.2) * hz)
+        if a1 > 0 and a0 < m:
+            busy[max(0, a0):min(m, a1)] = True
+    vdb = 20 * np.log10(v)
+    talk_lvl = np.median(vdb[busy]) if busy.any() else np.median(vdb)
+    hits, last, win = [], -99.0, int(0.8 * hz)
+    for i in range(0, m - win, 10):
+        if busy[i:i + win].any():
+            continue
+        seg = v[i:i + win]
+        if 20 * np.log10(seg.mean()) < talk_lvl - 4 or (seg ** 2).sum() / ((f[i:i + win] ** 2).sum() + 1e-12) < 0.55:
+            continue
+        x = seg - seg.mean()
+        ac = np.correlate(x, x, "full")[win - 1:]
+        if ac[0] <= 0:
+            continue
+        ac = ac / ac[0]
+        lo, hi = int(0.14 * hz), int(0.3 * hz)
+        if ac[lo:hi].max() >= 0.45:
+            t = start + i / hz
+            if t - last > 10:
+                hits.append(t)
+                last = t
+    return hits
 
 
 def main():
@@ -244,7 +352,11 @@ def main():
     ap.add_argument("--transcript")
     ap.add_argument("--start", default="0")
     ap.add_argument("--duration")
-    ap.add_argument("--corner", default="br", choices=["br", "bl", "tr", "tl"])
+    ap.add_argument("--corner", default="auto", choices=["auto", "br", "bl", "tr", "tl"],
+                    help="auto = pick the corner with the least game HUD (bottom-right if free)")
+    ap.add_argument("--laugh", action="store_true", help="EXPERIMENTAL: find laughs in the sound (can be wrong)")
+    ap.add_argument("--overlay-only", action="store_true",
+                    help="make only the mascot as a transparent ProRes 4444 .mov to place by hand in Resolve")
     ap.add_argument("--size", type=float, default=0.22, help="mascot height as part of video height")
     ap.add_argument("--margin", type=int, default=12)
     ap.add_argument("--out")
@@ -280,6 +392,16 @@ def main():
     talk, mouth = mouth_track(words, start, fps, n, energy)
     blink = blink_track(n, fps)
     expr, used = expression_track(segs, start, fps, n)
+    if args.laugh:
+        lh = laugh_hits(args.video, start, dur, words)
+        used["laugh"] = 0
+        for t in lh:
+            f0, f1 = int((t - start) * fps), int((t - start + 1.6) * fps)
+            if 0 <= f0 < n and not any(expr[f0:min(n, f1)]):
+                expr[f0:min(n, f1)] = "laugh"
+                used["laugh"] += 1
+                for j in range(f0, min(n, f1)):          # laughing mouth: open / half at ~6 per second
+                    mouth[j] = 1.0 if int((j - f0) / fps * 12) % 2 == 0 else 0.5
     # smooth talking presence (eases in/out over ~0.4 s) and smooth mouth level
     talk_s = np.zeros(n, np.float32)
     mouth_s = np.zeros(n, np.float32)
@@ -291,17 +413,23 @@ def main():
         talk_s[i], mouth_s[i] = ts, ms
 
     size_px = int(H * args.size)
-    faces = load_faces(size_px)
-    fw, fh = faces[("", 0.0, 0)].size
+    rig = load_rig(size_px)
+    feats = rig["feats"]
+    fw, fh = rig["size"]
     BW, BH = fw + 100, fh + 110          # extra room for effects above and beside the head
+    corner = args.corner
+    if corner == "auto":
+        corner, score = pick_corner(args.video, total, BW, BH, W, H)
+        print("corner auto:", corner, "(HUD score, lower = emptier):", {k: round(v, 1) for k, v in score.items()})
     m = args.margin
-    x = {"br": W - BW - m + 40, "tr": W - BW - m + 40, "bl": m - 40, "tl": m - 40}[args.corner]
-    y = {"br": H - BH - m + 20, "bl": H - BH - m + 20, "tr": m - 60, "tl": m - 60}[args.corner]
+    x = {"br": W - BW - m + 40, "tr": W - BW - m + 40, "bl": m - 40, "tl": m - 40}[corner]
+    y = {"br": H - BH - m + 20, "bl": H - BH - m + 20, "tr": m - 60, "tl": m - 60}[corner]
     x, y = max(0, min(W - BW, x)), max(0, min(H - BH, y))
     ax, ay = BW / 2, BH - 30             # anchor: bottom middle of the bag (stays on the ground)
     sx0, sy0 = fw / 2, fh - 30 + 4
     scale = size_px / 240
     fx = Effects(make_sprites(scale), scale)
+    GX, GY = 0.028 * size_px, 0.018 * size_px   # how far the face can look sideways / up-down (px)
 
     def frame(img, sx, sy, dy, rot):
         # inverse affine around the bottom anchor: scale + lean + lift, sub-pixel smooth
@@ -311,6 +439,14 @@ def main():
                   s_ / sy, c / sy, sy0 - (s_ * ax + c * Y) / sy)
         return img.transform((BW, BH), Image.AFFINE, coeffs, resample=Image.BICUBIC)
 
+    def compose(feat, gx, gy, crot, cdy):
+        """Mini rig: shadow + body + face (slid by gaze) + crown (swings on its own)."""
+        cv = rig["shadow"].copy()
+        cv.alpha_composite(rig["body"])
+        cv.alpha_composite(feat.transform(rig["size"], Image.AFFINE, (1, 0, -gx, 0, 1, -gy), resample=Image.BICUBIC))
+        cv.alpha_composite(rig["crown"].rotate(crot, resample=Image.BICUBIC, center=rig["pivot"], translate=(0, cdy)))
+        return cv
+
     out = args.out
     if not out:
         name = os.path.splitext(os.path.basename(args.video))[0]
@@ -318,22 +454,44 @@ def main():
             out = os.path.join(HERE, "out", name + " - mascot preview.mp4")
         else:                                    # the full video goes next to the final export
             out = os.path.splitext(args.video)[0] + " - mascot.mov"
-    vcodec = ["-c:v", "hevc_videotoolbox", "-b:v", "12M", "-tag:v", "hvc1"]
-    acodec = ["-c:a", "aac", "-b:a", "192k"] if out.endswith(".mp4") else ["-c:a", "copy"]
-    cmd = ["ffmpeg", "-v", "error", "-stats", "-y",
-           "-ss", str(start), "-t", str(dur), "-i", args.video,
-           "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{BW}x{BH}", "-framerate", f"{fps}", "-i", "-",
-           "-filter_complex", f"[0:v][1:v]overlay={x}:{y}:format=auto,format=yuv420p[v]",
-           "-map", "[v]", "-map", "0:a?", *vcodec, *acodec, out]
+    if args.overlay_only:
+        out = os.path.splitext(out)[0].replace(" - mascot preview", " - mascot").replace(" - mascot", "") + " - mascot overlay.mov"
+        cmd = ["ffmpeg", "-v", "error", "-stats", "-y",
+               "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{BW}x{BH}", "-framerate", f"{fps}", "-i", "-",
+               "-c:v", "prores_ks", "-profile:v", "4444", "-qscale:v", "14", "-pix_fmt", "yuva444p10le", "-alpha_bits", "8", out]
+        # Resolve: Inspector > Transform > Position is measured from the centre, Y goes up
+        rx, ry = x + BW / 2 - W / 2, -(y + BH / 2 - H / 2)
+        note = (f"Overlay for: {os.path.basename(args.video)}\nPut it on V2 at the start of the timeline (it starts at {start:.2f} s).\n"
+                f"Inspector > Transform > Position X = {rx:.0f}, Y = {ry:.0f} (zoom 1.0) -> {corner} corner.\n"
+                f"In other apps: top-left of the box at x={x}, y={y} on a {W}x{H} frame.\n")
+        os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
+        open(os.path.splitext(out)[0] + ".txt", "w").write(note)
+        print(note)
+    else:
+        vcodec = ["-c:v", "hevc_videotoolbox", "-b:v", "12M", "-tag:v", "hvc1"]
+        acodec = ["-c:a", "aac", "-b:a", "192k"] if out.endswith(".mp4") else ["-c:a", "copy"]
+        cmd = ["ffmpeg", "-v", "error", "-stats", "-y",
+               "-ss", str(start), "-t", str(dur), "-i", args.video,
+               "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{BW}x{BH}", "-framerate", f"{fps}", "-i", "-",
+               "-filter_complex", f"[0:v][1:v]overlay={x}:{y}:format=auto,format=yuv420p[v]",
+               "-map", "[v]", "-map", "0:a?", *vcodec, *acodec, out]
     os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
     p = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     dt = 1 / fps
     sp_dy, sp_sy, sp_rot = Spring(0, 3.0, 0.35), Spring(1, 4.0, 0.30), Spring(0, 2.0, 0.45)
-    w_e = {e: 0.0 for e in EXPR}           # smooth weight of each expression (0..1)
+    sp_gx, sp_gy = Spring(0, 2.6, 0.8), Spring(0, 2.6, 0.8)        # gaze: quick but soft
+    sp_cr, sp_cdy = Spring(0, 3.2, 0.22), Spring(0, 4.5, 0.25)     # crown: wobbly, lags the body
+    allx = list(EXPR) + ["laugh"]
+    w_e = {e: 0.0 for e in allx}           # smooth weight of each expression (0..1)
     kw = 1 - math.exp(-1 / (0.12 * fps))
     shown_key, fade_from, fade_k = None, None, 0
     FADE = max(2, int(0.12 * fps))
-    KICK = {"wow": (-300, 1.4, 0), "happy": (-220, 0.9, 0), "sad": (60, -0.9, -30), "think": (-40, 0.3, 70)}
+    KICK = {"wow": (-300, 1.4, 0), "happy": (-220, 0.9, 0), "sad": (60, -0.9, -30), "think": (-40, 0.3, 70),
+            "money": (-260, 1.1, 0), "confused": (-60, 0.4, -60), "laugh": (-160, 0.8, 30)}
+    GAZE = {"think": (0.8, -0.9), "sad": (-0.2, 0.9), "wow": (0, -0.4), "money": (0, -0.2), "confused": (-0.7, 0.1)}
+    rnd = random.Random(5)
+    look, look_until = (0.0, 0.0), 0.0
+    prev_vdy, prev_vrot = 0.0, 0.0
     for i in range(n):
         t = i * dt
         e = expr[i]
@@ -342,36 +500,59 @@ def main():
         breathe = math.sin(2 * math.pi * t / 3.4)
         bob = talk_s[i] * (0.5 - 0.5 * math.cos(2 * math.pi * t / 0.9))
         sway = 1.3 * math.sin(2 * math.pi * t / 5.3) + 0.6 * math.sin(2 * math.pi * t / 2.1)
-        # targets
+        # body targets
         sy_t = 1 + 0.010 * breathe + 0.012 * mouth_s[i] + 0.010 * bob
         dy_t = -3.0 * bob
         rot_t = sway * (1 - 0.5 * talk_s[i])
         hp = abs(math.sin(2 * math.pi * t / 0.55))
-        dy_t += w_e["wow"] * -6 + w_e["happy"] * (-6 * hp) + w_e["sad"] * 6 + w_e["think"] * -2
-        sy_t += w_e["wow"] * 0.035 + w_e["happy"] * 0.02 * hp - w_e["sad"] * 0.05
-        rot_t += w_e["happy"] * 5 * math.sin(2 * math.pi * t / 0.55) - w_e["sad"] * 4 + w_e["think"] * 8
+        lp = abs(math.sin(2 * math.pi * t / 0.33))
+        dy_t += (w_e["wow"] * -6 + w_e["happy"] * (-6 * hp) + w_e["sad"] * 6 + w_e["think"] * -2
+                 + w_e["money"] * (-5 * hp) + w_e["laugh"] * (-5 * lp))
+        sy_t += w_e["wow"] * 0.035 + w_e["happy"] * 0.02 * hp - w_e["sad"] * 0.05 + w_e["laugh"] * 0.02 * lp
+        rot_t += (w_e["happy"] * 5 * math.sin(2 * math.pi * t / 0.55) - w_e["sad"] * 4 + w_e["think"] * 8
+                  + w_e["money"] * 3 * math.sin(2 * math.pi * t / 0.3) + w_e["confused"] * 5 * math.sin(2 * math.pi * t / 0.7)
+                  + w_e["laugh"] * 3 * math.sin(2 * math.pi * t / 0.33))
         rot_t *= 1 - 0.7 * w_e["wow"]
+        # gaze target: the face's look for this expression, else calm random glances
+        if e in GAZE:
+            g = GAZE[e]
+        else:
+            if t >= look_until:
+                look = rnd.choice([(0, 0), (0, 0), (0.7, 0), (-0.7, 0), (0.5, -0.5), (-0.5, -0.4), (0.3, 0.4)])
+                if talk_s[i] > 0.5:
+                    look = (look[0] * 0.4, look[1] * 0.4)       # while talking, mostly at the viewer
+                look_until = t + rnd.uniform(2.5, 6.0)
+            g = look
         # new expression: kick the springs + start its effect
         if e and (i == 0 or expr[i - 1] != e):
             kd, ks, kr = KICK[e]
             sp_dy.kick(kd * scale)
             sp_sy.kick(ks)
             sp_rot.kick(kr)
+            sp_cr.kick(rnd.choice((-1, 1)) * 90)
             fx.spawn(e, ax, ay - size_px * 1.0 + sp_dy.x, size_px)
         dy = sp_dy.step(dy_t * scale, dt)
         sy = sp_sy.step(sy_t, dt)
         rot = sp_rot.step(rot_t, dt)
         sx = 1 - 0.006 * breathe - 0.006 * mouth_s[i] - 0.6 * (sy - 1 - 0.010 * breathe)   # keep volume: taller = thinner
-        # face picture, with a quick cross-fade when the expression changes
+        gx = sp_gx.step(g[0] * GX, dt)
+        gy = sp_gy.step(g[1] * GY, dt)
+        # crown: pushed by the body's changes in speed (secondary motion)
+        sp_cdy.kick(-(sp_dy.v - prev_vdy) * 0.35)
+        sp_cr.kick(-(sp_rot.v - prev_vrot) * 0.6)
+        prev_vdy, prev_vrot = sp_dy.v, sp_rot.v
+        cdy = max(-8 * scale, min(3 * scale, sp_cdy.step(0, dt)))
+        crot = max(-9, min(9, sp_cr.step(0, dt)))
+        # face layer, with a quick cross-fade when the expression changes
         key = (e, float(mouth[i]), int(blink[i]) if not e else 0)
         if shown_key is not None and key[0] != shown_key[0]:
-            fade_from, fade_k = faces[shown_key], 0
+            fade_from, fade_k = feats[shown_key], 0
         shown_key = key
-        img = faces[key]
+        feat = feats[key]
         if fade_from is not None and fade_k < FADE:
             fade_k += 1
-            img = Image.blend(fade_from, img, fade_k / FADE)
-        box = frame(img, sx, sy, dy, rot)
+            feat = Image.blend(fade_from, feat, fade_k / FADE)
+        box = frame(compose(feat, gx, gy, crot, cdy), sx, sy, dy, rot)
         fx.draw(box, dt)
         p.stdin.write(box.tobytes())
     p.stdin.close()

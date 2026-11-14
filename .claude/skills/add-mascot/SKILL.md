@@ -1,7 +1,7 @@
 ---
 name: add-mascot
-description: Add the moving Brimlo mascot (gold bag with crown) to the corner of a FINISHED long video — find the final export, reuse or make its transcript, check the corner is free of game HUD, make a 90-second preview, then render the full "<name> - mascot.mov" (mouth from voice, blinks, spring motion, wow/happy/sad/think faces from trigger words) and check it. Use when Mamunur says "add the mascot", "add mascot to [video]", "add avatar", "put the mascot on", "mascot version", "/add-mascot", or after /finish-video when the mascot test is running.
-argument-hint: "[final video file name or path] [optional: corner br|bl|tr|tl]"
+description: Add the moving Brimlo mascot (gold bag with crown) to the corner of a FINISHED long video — find the final export, reuse or make its transcript, check the corner is free of game HUD, make a 90-second preview, then render the full "<name> - mascot.mov" (mouth from voice, blinks, spring motion, look-around + crown wobble, wow/happy/sad/money/confused/think faces from trigger words, auto corner) and check it. Use when Mamunur says "add the mascot", "add mascot to [video]", "add avatar", "put the mascot on", "mascot version", "/add-mascot", or after /finish-video when the mascot test is running. Also "overlay only" / "mascot to place in Resolve", and "mascot with laugh".
+argument-hint: "[final video file name or path] [optional: corner br|bl|tr|tl | overlay only | laugh]"
 ---
 
 # /add-mascot
@@ -24,16 +24,20 @@ rules, test plan, future plan) is [playbook/mascot.md](../../../playbook/mascot.
    If the edit changed after the transcript, or there is none, run in the background (~5 min per hour):
    `tools/transcribe/run.sh "<path>" --game "<Game>" --name <video-file-slug>`
    Never make a transcript twice for the same file.
-3. **Check the corner.** Grab 4 frames (10%, 35%, 60%, 85% of the length), crop the bottom-right 450×420 px,
-   look at them. If game money/HP/buttons/minimap sit there, pick another free corner (`--corner bl|tl|tr`)
-   and say why. If no corner is free, tell him and suggest no mascot for this video.
+3. **Corner:** the default `--corner auto` picks the emptiest corner (it prints the HUD scores). Then look at
+   1–2 frames of the preview in that corner. If game money/HP/buttons/minimap still sit there, force another
+   corner (`--corner bl|tl|tr|br`) and say why. If no corner is free, suggest no mascot for this video.
 4. **Preview (always first).**
-   `uv run tools/avatar/add_avatar.py "<export>" --best-preview [--corner xx]`
-   → `tools/avatar/out/<name> - mascot preview.mp4` (picks the 90 s with the most faces, ~15 s to make).
+   `uv run tools/avatar/add_avatar.py "<export>" --best-preview [--corner xx] [--laugh]`
+   → `tools/avatar/out/<name> - mascot preview.mp4` (picks the 90 s with the most faces, ~20 s to make).
+   `--laugh` only if he asks (experimental, off by default; see the guide).
    Check 1 s strips around 2–3 face changes (ffmpeg `fps=8,crop=...,tile=8x1`) for broken faces or effects
    cut off at the box edge. Send the preview with SendUserFile and wait for his OK.
-5. **Full render** (background, ~9 min per hour of video):
-   `uv run tools/avatar/add_avatar.py "<export>" [--corner xx]` → `<same folder>/<name> - mascot.mov`.
+5. **Full render** (background, ~10 min per hour of video):
+   `uv run tools/avatar/add_avatar.py "<export>" [--corner xx] [--laugh]` → `<same folder>/<name> - mascot.mov`.
+   Use the same corner as the approved preview (pass it with `--corner`, so a re-run can't pick a different one).
+   **Overlay only** (he wants to place it by hand in Resolve): add `--overlay-only` → `"<name> - mascot overlay.mov"`
+   (transparent ProRes 4444, ~4.4 GB/h) + `.txt` with the Resolve Position X/Y. Steps for Resolve: guide → "Option".
    Space needed: ~6.2 GB per hour on the WD Black drive (`df -h "/Volumes/WD Black"`).
 6. **Check the result:** `ffprobe` duration = the export's duration, audio stream present, frames at
    start / middle / end show the mascot. Report the expression counts the tool prints.
@@ -50,5 +54,5 @@ rules, test plan, future plan) is [playbook/mascot.md](../../../playbook/mascot.
 - Changing trigger words or faces = edit `EXPR` in `tools/avatar/add_avatar.py` / run `tools/avatar/make_faces.py`,
   then update the tables in `playbook/mascot.md` and `tools/avatar/README.md`. Check new words against
   real transcripts first (count per hour across `tools/transcribe/out/*/segments.json`), not from memory.
-- The look (v4) is approved. Don't change motion or faces without asking; new ideas go to
+- The look (v4, extended to v5 on 14 Nov 2026) is approved. Don't change motion or faces without asking; new ideas go to
   `playbook/mascot.md` → "Future improvement plan".
