@@ -293,4 +293,8 @@ Wipe Them Out, Wipe Them Out game, Wipe Them Out demo, Wipe Them Out gameplay, W
 | Subs gained | | |
 | Watch hours | | |
 
-**Lessons:** 
+**Lessons:**
+
+- **Early check, Sat 14 Nov 2026 (day 2.5):** 44 views (17/day, 0.4× the recent channel median, estimate), 0 likes, 0 subs. Traffic: Browse 15, Search 8. Avg view 16:27 for the views that stayed (good).
+- **Yes, it came out late.** The English YouTube wave was 23–31 Oct (CaptainCigar 23 Oct, Ash Swoon 26 Oct = 35K, Mr Falcon 29 Oct = 111K). We published Wed 11 Nov, ~16 days after Ash and ~13 days after Falcon. The launch window had passed. English videos after 1 Nov got only 49–324 views.
+- **Why the 🔥 FAST label was wrong:** it counted a *Spanish* wave (Vicio, 9 Nov) as fresh. Our audience is US/English. A wave in another language does not open a window for us. (Lesson, not a rule yet — check with more games first.) 

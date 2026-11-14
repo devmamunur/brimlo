@@ -84,7 +84,7 @@ Old drafts dropped: "…Until It Ate the Forest" (no tree eaten on screen), "…
 
 **A/B test (vidIQ A/B Testing, title + thumbnail), set Sat 7 Nov 2026:** variant 1 = A + thumbnail without text · variant 2 = C "I Played 100% Of Mycelarium and Built a Fungal Empire" (Mamunur's choice on purpose, 8 Nov 2026: game name + the proven "I Played 100% Of" wording for search; game-name exception in playbook/titles.md) + thumbnail with "100%" top-right · variant 3 (optional) = B + thumbnail without text.
 **Status:** set up Sat 7 Nov 2026. Check the report on Sat 14 Nov 2026 and log the winner in playbook/titles.md → Title test log. · check report 7 days after publish
-**Winner:**
+**Winner:** Report Sat 14 Nov 2026 (test 7 Nov 10:07 PM → 14 Nov 6:09 PM, 642 views): "They all performed well" = no proven winner, so YouTube kept variant 1 (A) live. Watch time share: variant 2 (C "I Played 100% Of Mycelarium…" + "100%" thumbnail) **75.8%** vs variant 1 (A) 24.2%. Decision: swap by hand to C + "100%" thumbnail (3:1 lean, too few views to be proven). Check again ~Tue 17 Nov 2026.
 
 ## Thumbnail idea
 

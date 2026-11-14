@@ -11,6 +11,7 @@
 | Game | Ant Mill Inc (NorthStarLight) — https://store.steampowered.com/app/3399660/ · Demo: https://store.steampowered.com/app/5343570/ |
 | Source | Free Steam demo. No end date found. Full game Fri 18 Dec 2026. |
 | Runs on | Windows only → CrossOver Steam. Full demo recorded on Mon 2 Nov 2026. |
+| Mascot | no on YouTube. Test file only (Sat 14 Nov 2026, v5, corner br): "/Volumes/WD Black/Videos/da-vinci/ant-mill - mascot.mov" — covers the right end of the bottom button bar in later parts |
 | Target length | 45–60 min if you can keep it interesting. **The demo is short:** another player reached the end in about 27 min, and another "100%" video is 37 min. After the end you can keep playing, spawn the old bosses and buy more upgrades. Do not pad it with silence. |
 | YouTube link | https://youtu.be/IeO2BRlggBU |
 

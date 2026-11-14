@@ -22,6 +22,8 @@ Status: ✅ published · 🕒 scheduled · 🎬 recorded · 📝 planned · 🔒
 | 14 | Mon 9 Nov 2026 | Wait, They Can Climb?! (demo) | Alone on One Roof vs 8,000 Zombies - Wait, They Can Climb?! (renamed Tue 10 Nov 2026, ~6 h after publish; was "I Had to Survive 8,000 Zombies on One Roof") ([link](https://youtu.be/Vo1xETN8mqo)) | 1:19:11 | ✅ published Mon 9 Nov, 8 PM Dhaka | Free demo (CrossOver ✅) | 77 (day 1.5) | 5.6% | 23:35 | 0 | [file](2026-11-09-wait-they-can-climb.md) |
 | 15 | Wed 11 Nov 2026 | SHRED A BILLION (demo) | Turning $0 Into $1,000,000,000 - Shred a Billion | 1:11:25 | ✅ published Wed 11 Nov 2026 ~6:50 AM Dhaka · [youtu.be/G6vW4qxS_R8](https://youtu.be/G6vW4qxS_R8) | Free demo (CrossOver ✅) | | | | | [file](2026-11-12-shred-a-billion.md) |
 | 16 | Thu 12 Nov 2026 | Wipe Them Out! (demo) | I Upgraded One Pistol Until It Shot LIGHTNING - Wipe Them Out! (A) | 57:46 | 📅 scheduled Thu 12 Nov 2026, 4:15 AM Dhaka · [youtu.be/kBdck1vLZ0g](https://youtu.be/kBdck1vLZ0g) | Free demo (CrossOver ✅) | | | | | [file](2026-11-12-wipe-them-out.md) |
+| 17 | Sat 14 Nov 2026 | One's Trash Another's Treasure (demo) | I Spent All My Money on 99,380 MYSTERY Boxes (A, planned) | | ⛔ on hold — black screen in CrossOver (Sat 14 Nov) | Free demo (CrossOver ❌ so far) | | | | | [file](2026-11-14-ones-trash-anothers-treasure.md) |
+| 18 | Sun 15 Nov 2026 | Drink the Ocean (free browser game) | I Got Lost on an Island, So I Drank the Whole OCEAN (A, planned) | | 📝 planned — script card ready Sat 14 Nov | Free browser game (Chrome, test pending) | | | | | [file](2026-11-15-drink-the-ocean.md) |
 
 ## Medians (update every Sunday)
 
