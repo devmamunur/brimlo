@@ -4,7 +4,9 @@ Update this every Sunday (`/weekly-review`) and after big events.
 
 ## Right now
 
-**Last updated:** Thu 12 Nov 2026 (Wipe Them Out! scheduled)
+**Last updated:** Tue 17 Nov 2026 (Big Ice scheduled)
+
+- **Big Ice scheduled Tue 17 Nov 2026, 2:30 PM Dhaka** ("I Found a Frozen MAMMOTH Inside a Mountain of Ice", 1:16:08, https://youtu.be/3skd_SKteAI). Playlist, subtitles and end screen set in Studio. Swap check Fri 20 Nov; 7-day results Tue 24 Nov. Subs: 6. Next: one game, picked fresh (`/pick-game`).
 
 - **Wipe Them Out! scheduled Thu 12 Nov 2026, 4:15 AM Dhaka** ("I Upgraded One Pistol Until It Shot LIGHTNING - Wipe Them Out!", 57:46, https://youtu.be/kBdck1vLZ0g). Playlists, captions and end screen set in Studio. Swap check Sun 15 Nov; 7-day results Thu 19 Nov. Next: one game, picked fresh (`/pick-game`).
 
