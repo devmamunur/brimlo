@@ -57,34 +57,55 @@ Scores are from our free checker (estimates, not a promise of views). Our resear
 | 2 | B | I Turned One Ant Into a Swarm That Ate a GIANT Snail \| Ant Mill Inc | 72 |
 | 3 | A | The Ant Incremental Game Where a Giant WORM Wants Your Colony \| Ant Mill Inc | 67 |
 
-**Chosen:** #1. The worm is the strange part, and the other English videos I saw lead with the ants, not the worm. It has the game name for search. **Check it after recording:** keep it only if the worm really comes and you pay it. If the snail is the best moment, use #2.
+### New A/B/C set (Mon 16 Nov 2026, with thumbnail v3)
+
+Old live title: "I Feed a Giant WORM So It Will Not Eat My Ants | Ant Mill Inc" — 430 views in 13 days, CTR 4.1% (above channel 3.7%). Search is only ~6% of views (25 of 413, vidIQ 3–16 Nov), Related videos ~27%, Browse ~64%. So no proven name search → no game name; the new thumbnail shows the logo.
+
+```
+A (main): I Grew 3,000 Ants Just to Feed a Giant Worm
+B: I Started With 1 Ant and Woke Up a Giant Worm
+C: The Giant Worm Under My Ants Must Be Fed
+```
+- A — P1 (true big number: about 3,000 ants before the worm cut it down). Matches the thumbnail: the hand feeds the worm. Score 76 (estimate).
+- B — P2 (tiny start → a monster wakes up). True: started with 1 ant, the worm came at 9:14. Score 74.
+- C — P7 (one strange command). Score 57, a checklist only; keep as last swap.
+- **Swapped in Studio by Mon 16 Nov 2026** (seen in Studio's video picker): live title is now A. Thumbnail v3 upload not checked.
+- Swap to A together with the new thumbnail. Check after 3 days (Thu 19 Nov 2026). If views/CTR do not improve, swap to B. When the full game launches (Fri 18 Dec 2026), add " - Ant Mill Inc" at the end for name search.
+
+**Chosen (3 Nov):** #1. The worm is the strange part, and the other English videos I saw lead with the ants, not the worm. It has the game name for search. **Check it after recording:** keep it only if the worm really comes and you pay it. If the snail is the best moment, use #2.
 
 ## Thumbnail idea
 
-- Type: hands + tool on the object
-- Words: **FEED THE WORM**
-- Picture: two hands in navy sleeves hold out a huge red berry to a giant worm rising from a big ant hill, with a river of tiny black ants around it.
-- Attach: `/Volumes/WD Black/Videos/da-vinci/ant-mill-thumb-worm.png` and `ant-mill-thumb-colony.png` (from the final video).
-- Check after making it: spelling, and the worm looks like the game's worm. Test it against a version with an arrow if Test & Compare is available.
+**New version (Mon 16 Nov 2026, Mamunur):** house style v3 + the real game logo in the top-left corner. **No other text** (no "FEED THE WORM"). The old v2 prompt with "FEED THE WORM" was replaced.
 
-**Master prompt (copy, attach the 2 screenshots):**
+**Saved (Mon 16 Nov 2026):** [thumbnails/2026-11-03-ant-mill-inc-v3.jpg](thumbnails/2026-11-03-ant-mill-inc-v3.jpg) (1280x720 JPG, first GPT result). Checked at phone size: logo readable, worm mouth + apple clear, 1 hand. Accepted. Not uploaded to Studio yet.
+
+- Type: POV hand doing the job — one hand feeds the giant worm.
+- Attach these images:
+  1. `videos/thumbnails/refs/ant-mill-logo-crop.png` (the real game logo, cut from the Steam header)
+  2. `videos/thumbnails/refs/ant-mill-steam-header.jpg` (the giant worm's look: tan ringed body, huge round red mouth with rings of teeth)
+  3. `tools/transcribe/out/2026-11-03-ant-mill-inc/frames/08_00-10-08.jpg` (the colony: ant hill, green-brown ground, black ants)
+- If the AI draws the logo letters wrong: ask for the image with no logo, then put `ant-mill-logo-crop.png` on top in Canva, top-left.
+- Check at phone size: logo readable, only 1 hand, worm looks like the game's worm.
+
+**Master prompt (copy, attach the 3 images):**
 
 ```
 Create a YouTube thumbnail, exactly 1280x720 pixels (16:9).
 
-STYLE: bright 2D cartoon vector illustration, like a flash game. Thick bold black ink outlines on everything, flat cel-shaded colors, very high saturation, glossy highlights, clean shapes, low detail. Use the attached Ant Mill Inc screenshots only as a reference for the shape and colors of the giant worm, the ant hill and the ants, and redraw them in this cartoon style. Do not copy any text, numbers, menus or version labels from the screenshots.
+STYLE: bright 2D cartoon vector illustration. Thick bold black ink outlines on everything, flat cel-shaded colors, very high saturation, clean shapes, low detail, and a thin white edge around the hand and the worm so they pop. Use the attached Ant Mill Inc images only as a reference for the shape and colors of the giant worm, the ant hill and the ants, and redraw them in this cartoon style. Do not copy any text, numbers or menus from the gameplay screenshot. The attached logo image is the real game logo: copy it exactly for the logo below.
 
-COMPOSITION: first-person view. Two cartoon hands come in from the bottom-left and bottom-right corners. The hands wear dark navy blue sleeves (#0B1023) with a thin gold cuff (#FFC83D). Together they are holding out one huge shiny red apple, as if offering it.
+HANDS: first-person view. ONE big cartoon hand comes in from the bottom-right corner: a bare peach-skin hand (no gloves) in a dark navy blue sleeve (#0B1023) with a thin gold cuff (#FFC83D). The hand is holding out one huge shiny red apple and pushing it toward the worm's mouth right now, as if feeding it. The fingers stay a little away from the teeth.
 
-CENTER: one huge, oversized brown segmented worm with a big round open mouth full of sharp teeth rising out of a large brown ant hill in the exact center, taking up about 50% of the image. It looks hungry and is leaning toward the apple. It is the brightest and clearest thing in the picture.
+CENTER: one giant segmented worm with a tan, ringed body, like the worm in the attached Steam image, bursts up out of a big brown ant hill in the center-right and bends toward the apple. Its huge round mouth is wide open: bright red-pink inside with rings of sharp white teeth. It takes up about half of the image and is the brightest and clearest thing in the picture. One small funny detail: a few tiny black ants on the ant hill look up at the worm in shock.
 
-AROUND IT: a thick winding river of hundreds of tiny black ants flows around the ant hill, carrying small seeds, so it looks like an absurd amount of ants.
+BACKGROUND: the whole background is the ant colony world: green and brown ground covered with an absurd amount of tiny black ants, hundreds of them, in long lines carrying small seeds and food to the ant hill, with flying dirt and rocks around the worm. Warm golden daylight. No radial lines, no plain color.
 
-BACKGROUND: simple, bright and clean light green grass under a light teal sky, with soft white radial lines pointing to the worm. Daylight colors, no dark areas.
+TEXT (only this, nothing else):
+TOP-LEFT CORNER: the game logo "ANT MILL INC", copied exactly from the attached logo image: big blocky cream-white letters with a thick dark brown outline, "ANT" on top with a black ant drawn inside the "A", "MILL" below with brown dirt at the bottom of the letters, and a small brown wooden "INC" tag tilted on the right. About 30% of the image width. Spelled exactly A-N-T M-I-L-L I-N-C.
+Keep the hand, the apple and the worm's mouth clear of the logo.
 
-TEXT: at the top center, write exactly "FEED THE WORM" in big bold yellow-gold cartoon letters (gold to orange gradient) with a thick black outline and a small drop shadow, readable when the image is shrunk to 160 px wide. This is the only text in the image.
-
-AVOID (negative prompt): photorealism, 3D render, realistic skin, realistic hands, photo, DSLR, cinematic lighting, dark background, black or dark navy areas, gloomy colors, blood, gore, white gloves, extra fingers, more than two hands, any other text, extra words, small text in the corners, version numbers, game menu text, misspelled text, fake logos, watermarks, signatures, the YouTube logo, a mascot or logo stamp in any corner, borders, frames, small inset image boxes in any corner, split screens, arrows, emoji, crowded scenes, tiny details, many small objects competing with the center object, blurry or muddy colors.
+AVOID (negative prompt): any other text, letters, numbers or words, misspelled logo letters, photorealism, 3D render, realistic skin, realistic hands, photo, DSLR, cinematic lighting, grey or muddy colors, gloves of any color, extra fingers, a second hand, an extra unused hand in a corner, fingers inside the worm's mouth, blood, gore, fake logos other than the real game logo, watermarks, signatures, the YouTube logo, a mascot or channel logo stamp, borders, frames, small inset image boxes in any corner, split screens, arrows, emoji, radial lines, plain empty background, tiny details, many small objects competing with the worm, blurry colors.
 ```
 
 ## Recording script
@@ -240,7 +261,8 @@ Hit, but short avg view: 38% left at ~40 s.
 | Tags | Ant Mill Inc, Ant Mill Inc demo, Ant Mill Inc gameplay, Ant Mill Inc worm, Ant Mill Inc boss, ant mill game, ant colony game, ant game, ant incremental game, swarm game, giant worm, incremental game, idle game, steam demo, new indie games |
 
 ```
-A (live): My Ants NEVER Listen to Me | Ant Mill Inc
+A (live): My Ants NEVER Listen to Me #AntMillInc #IncrementalGame
+(was "My Ants NEVER Listen to Me | Ant Mill Inc" until Mon 16 Nov 2026: 2 hashtags added, game name moved from the sentence to the first hashtag — Shorts title system in playbook/titles.md)
 B (swap): Only 500 Ants Left After the Worm Came BACK | Ant Mill Inc
 C (swap): A Giant WORM Wants My Ants, So I Feed It Food | Ant Mill Inc
 ```

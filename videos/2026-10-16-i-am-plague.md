@@ -260,7 +260,8 @@ Hit: playtest during its YouTube wave. Still ~45 views/day at day 24.
 | Tags | I Am Plague, I Am Plague gameplay, I Am Plague playtest, I Am Plague boss, I Am Plague floor 50, incremental roguelite, roguelite, rat swarm game, rats game, incremental game, auto battler, idle game, new indie games, steam playtest |
 
 ```
-A (live): I Lost Before Floor 30, Then Beat ALL 50 Floors | I Am Plague
+A (live): I Lost Before Floor 30, Then Beat ALL 50 Floors #IAmPlague #SurvivorLike
+(was "I Lost Before Floor 30, Then Beat ALL 50 Floors | I Am Plague" until Mon 16 Nov 2026: 2 hashtags added, game name moved from the sentence to the first hashtag — Shorts title system in playbook/titles.md)
 B (swap): TWO Bosses at the Same Time on Floor 30 | I Am Plague
 C (swap): From a Goblin on Floor 1 to the LAST Floor | I Am Plague
 ```

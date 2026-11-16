@@ -2,6 +2,10 @@
 
 Used by the `/make-short` skill (then `/short-details` fills YouTube Studio).
 
+**Length:** up to 120 s, **max 2:00** (Mamunur, 15 Nov 2026); shorter is fine. The tool warns if the final length is over 120 s.
+
+**Style (v2, 15 Nov 2026):** big square game crop (1080×1080) under the title, centered on each clip's `focus`; captions 1–3 words at a time with the spoken word highlighted and a small pop, timed from the transcript word times; optional slow `push` zoom on big moments; 30 fps, 16 Mb/s, -14 LUFS. Only the video's own sound: no music, no sound effects.
+
 | File | What it does |
 |---|---|
 | `words.py` | Prints every word with its time from a transcript, to pick exact cut points: `python3 tools/shorts/words.py <transcript-name> --from 2:02:00 --to 2:10:00` |
@@ -18,10 +22,11 @@ Used by the `/make-short` skill (then `/short-details` fills YouTube Studio).
  "output": "/Volumes/WD Black/Videos/da-vinci/shorts/<slug>-short.mp4",
  "timeline_name": "Outbreak Z Short",
  "speed": 1.1,
+ "game_aspect": 1.0,
  "title": [{"text": "ONE KNIFE", "gold": false}, {"text": "TO MINIGUN", "gold": true}],
  "hook": {"start": 5124.95, "end": 5126.38, "caption": "TWO BOSSES AT ONCE!", "zoom": 1.3},
  "clips": [
-  {"start": "2:02:36.3", "end": "2:02:43.1",
+  {"start": "2:02:36.3", "end": "2:02:43.1", "focus": 0.5, "push": 0.12,
    "captions": [["2:02:36.3", "2:02:40.3", "This single zombie child"],
                 ["2:02:40.3", "2:02:43.1", "defeated me. Oh my god!"]]}
  ]

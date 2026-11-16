@@ -1,6 +1,6 @@
 ---
 name: make-short
-description: Make one ~55-second vertical YouTube Short from a finished long Brimlo video — find the file on the WD Black drive, transcribe it, pick the best moments (rewatch spikes + transcript), cut between words with ffmpeg at 1.1x speed, 1080x1920 with title and burned captions, check it, and send the final file (no DaVinci step). Use when Mamunur says "make a short", "short from [video]", "cut a short", "make shorts from this video", "/make-short", or gives a final video file name and asks for a Short.
+description: Make one vertical YouTube Short of up to 2 minutes (target 90–120 s) from a finished long Brimlo video — find the file on the WD Black drive, transcribe it, pick the best moments (rewatch spikes + transcript), cut between words with ffmpeg at 1.1x speed, 1080x1920 with title and burned captions, check it, and send the final file (no DaVinci step). Use when Mamunur says "make a short", "short from [video]", "cut a short", "make shorts from this video", "/make-short", or gives a final video file name and asks for a Short.
 argument-hint: "[final video file name or path] [optional: moment or idea]"
 ---
 
@@ -23,34 +23,40 @@ Tool: `tools/shorts/` ([README](../../../tools/shorts/README.md)). The first Sho
 3. **Find the best moments.** Use both sources:
    - **Rewatch spikes** (if the video is published): `vidiq_channel_analytics` with `report: audience_retention`, `filters: video==<ID>` and dates from publish day to today. Skip the first 1–2% (intro). A point where `audienceWatchRatio` goes **up** compared with its neighbors = people skip there or rewatch it = the best moment. Multiply the ratio by the length to get the time.
    - **Transcript**: read `by-minute.md` around those times. Look for: a big reveal ("what is this, a minigun?"), a fail or a funny line, a huge number, an upgrade that changes everything, a win ("region cleared!").
-4. **Build one story** of 6–10 clips, in time order: **problem → find/upgrade → power → payoff**.
-   - **Final length 45–58 s.** Raw clips total ≤ ~63 s at speed 1.1. Never over 60 s.
+4. **Build one story** of 10–18 clips, in time order: **problem → find/upgrade → power → payoff**.
+   - **Final length: up to 120 s, never over 2:00. Shorter is fine when that tells the story better (my choice per video)** (Mamunur, 15 Nov 2026: 60 s was too short to show the important moments of a 1-hour video). Raw clips total ≤ ~132 s at speed 1.1. YouTube allows Shorts up to 3 min, but our max is 2 min.
+   - The extra time is for **more important moments** (a second upgrade, a second fight, the big number growing), not for slow parts. Every clip must earn its place: no menu stretches, no pauses, no "um" lines. If the video has only ~60 s of strong moments, make a 60 s Short; never stretch to reach 90 s.
+   - Keep something moving on screen every 2–3 seconds. A longer Short loses viewers faster if one clip is slow.
    - **The first second must move: always add a hook flash** (Mamunur, 13 Nov 2026). Before the story, 1.5–2.5 s of the **best action in the whole Short** (the peak fight, crits, the big number on screen), zoomed in 1.3×, with one gold caption (2–4 words, true: "TWO BOSSES AT ONCE!"). Then cut hard to the story's start. In the plan this is the `"hook"` field. Pick a hook window where the audio is a short word or game sound, not half a sentence (use `words.py`). Why: the first two Shorts got Studio's "start on a cut, zoom or move" high-impact fix (slow first screen), and the Seabun Short, with only a 1.1 s hook, got "start with the boss fight". Make the hook real action, long enough to see.
    - End on the payoff (win screen, biggest number), not on talking afterwards.
+   - **Loop ending** (15 Nov 2026): when it is true to the video, end on a line or screen that leads back to the first clip (the first clip's problem is now solved, or the last line answers the first line). A Short that loops gets rewatched. Never fake it.
    - Keep only lines a stranger understands with no context. Drop menu-only stretches unless the line is great.
 5. **Exact cut points.** `python3 tools/shorts/words.py <slug> --from H:MM:SS --to H:MM:SS` prints every word with its time.
    - Start a clip ~0.1–0.3 s before its first word. End it just after the last word's `end`. **Never cut inside a word or sentence** (memory: cut only in real silence).
    - Game sound is mixed into the voice in the final export, so silence detection does not work. Word times are the rule.
-6. **Captions** (in the plan, one per 2–6 words, matching the speech times):
+6. **Captions** (in the plan, one line per sentence or half sentence, matching the speech times). The tool shows each line **1–3 words at a time**, big, with the word being said in teal (white inside a gold line), and each group pops in. Word times come from the transcript (`"transcript"` in the plan), so the text must stay close to his real words or the timing falls back to an estimate:
    - His **real words**. Fix only grammar and Whisper mistakes ("his damage are 105" → "Damage: 105", "Influencer" → "Enforcer"). Never add claims he did not say, and never change the meaning.
    - Simple English, short. Gold (`"gold"`) for 2–4 key moments only (the item name, the big number, the win).
    - The hero is always "I" (memory). No new jokes he did not say.
-7. **Title on top** (2 lines, up to ~12 characters each): the long video's promise in a few words, true for what the Short shows (example: "ONE KNIFE / TO MINIGUN"). Line 2 in gold.
-8. **Write the plan** to `tools/shorts/plans/<video-file-slug>.json` (format: README). Output:
+7. **Game crop** (15 Nov 2026): the game is shown as a big square (1080×1080, `"game_aspect": 1.0`), not the full 16:9 picture. For each clip, look at a frame (`tools/transcribe/out/<slug>/frames/` or an ffmpeg grab) and set `"focus"` (0.0 = left, 0.5 = middle, 1.0 = right) to where the action is: the boss, the big number, the upgrade panel. If an important number sits at the far edge, move the focus to it. For a game that needs the whole width (wide UI), use `"game_aspect": 1.33`.
+   **Push-in:** add `"push": 0.12` (slow 12% zoom-in over the clip) to the 2–4 biggest moments only (reveal, boss, big number, win). Not on every clip.
+8. **Title on top** (2 lines, up to ~12 characters each): the long video's promise in a few words, true for what the Short shows (example: "ONE KNIFE / TO MINIGUN"). Line 2 in gold.
+9. **Write the plan** to `tools/shorts/plans/<video-file-slug>.json` (format: README). Output:
    `/Volumes/WD Black/Videos/da-vinci/shorts/<video-file-slug>-short.mp4`. Speed **1.1** (OK range 1.08–1.12; above 1.15 the game sound gets strange).
-9. **Render and check:**
+10. **Render and check:**
    `tools/hook/.venv/bin/python tools/shorts/make_short.py tools/shorts/plans/<slug>.json --check`
-   Look at the `-check.jpg` sheet: are the captions under the game, readable, and matching the moment? Is the length right? Loudness should print about -14 LUFS. Fix the plan and run again if not. If `tools/hook/.venv` is missing: `python3 -m venv tools/hook/.venv && tools/hook/.venv/bin/pip install pillow`.
-10. **Send the file** with SendUserFile (display: render).
-11. **No DaVinci step** (Mamunur, 13 Nov 2026): the final export already has his voice preset and good audio, so the Short file is **final**. Do not open DaVinci, do not import, do not ask him to apply Warm or export. The tool sets loudness to -14 LUFS itself. The `-resolve.lua` file is still written in case he ever wants to edit by hand.
-12. **Log it** in the video file: add a `## Short` section (status "made", file path, source times, length, plan path). Titles come later with `/short-details`.
-13. **Reply in simple English:** the file path, the story of the Short in 5–7 bullet lines (each moment + the line said), one weak point if any, and the next step: "Upload this file to YouTube as it is, then `/short-details <Studio edit link>`."
+   Look at the `-check.jpg` sheet (12 frames): is the action inside the square crop (fix `focus` if not), are the captions readable and matching the moment, is no important number hidden behind a caption? Is the length right? Loudness should print about -14 LUFS. Fix the plan and run again if not. If `tools/hook/.venv` is missing: `python3 -m venv tools/hook/.venv && tools/hook/.venv/bin/pip install pillow`.
+11. **Send the file** with SendUserFile (display: render).
+12. **No DaVinci step** (Mamunur, 13 Nov 2026): the final export already has his voice preset and good audio, so the Short file is **final**. Do not open DaVinci, do not import, do not ask him to apply Warm or export. The tool sets loudness to -14 LUFS itself. The `-resolve.lua` file is still written in case he ever wants to edit by hand.
+13. **Log it** in the video file: add a `## Short` section (status "made", file path, source times, length, plan path). Titles come later with `/short-details`.
+14. **Reply in simple English:** the file path, the story of the Short in 5–7 bullet lines (each moment + the line said), one weak point if any, and the next step: "Upload this file to YouTube as it is, then `/short-details <Studio edit link>`."
 
 ## Rules
 
 - **One Short per long video** unless he asks for more. Do not plan a Shorts schedule; long videos stay the focus.
 - Everything shown must be **true to the video** (memory: titles must match the video). No fake text, no counts that are not on screen.
-- No music added, no voice-over (he does not want voice-over). His live voice only.
+- **Only the sound of the video** (Mamunur, 15 Nov 2026): no music, no sound effects, no whooshes, no voice-over. The final export's audio (game sound + his live voice, mixed together) is the only sound.
+- 30 fps output (he does not need 60 fps). No progress bar.
 - Do not change the long video or its file. Write only new files in the `shorts/` folder.
 - A Short of a game whose launch wave is still on (≤ 48 h, rule 11) is worth doing fast; say so. Otherwise there is no rush.
 - Cost: transcript is local and free. Retention is one vidIQ call (free to use). No `brimlo_*` quota needed.

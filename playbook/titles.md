@@ -199,6 +199,59 @@ MILLIONS · BILLIONS · 10,000 · 1 TRILLION · per SECOND · INFINITE
 | I Played 100% of My Fire Is Bigger Than Yours | 174K | 6.4K |
 | INCREDIBLE new incremental roguelike where you control a vicious rat swarm \| I am Plague Playtest | 20K | 1.1K |
 
+## Shorts title system (Mamunur, Mon 16 Nov 2026) — separate from long videos
+
+**Use this for every Short. The long-video rules above (P1–P7, game name by type, no hashtags) do not apply to Shorts.**
+
+Why different: a Short is seen in the Shorts feed, where the picture plays first and the title is a small line at the bottom. The title must match the first 2 seconds, be short, and carry the game name as a hashtag. Long-video titles are for Home/Search thumbnails, where the title tells a story.
+
+**Data (Mon 16 Nov 2026, brimlo_youtube_search, ~230 Shorts):** "incremental game" (30 days and 6 months), "idle game steam", "satisfying indie game", "survivors like game". Only gameplay Shorts by creators were used for the patterns (dev logs, trailers, Roblox and news skipped).
+
+| Short title (gameplay creators) | Views | Channel subs | Shape |
+|---|---|---|---|
+| Potato peeling games go head to head | 4.5M | 22.6K | compare |
+| Moon Sweepers 100% Completion Cutscene #moonsweepers #indiegames … | 2.5M | 54.8K | game + 100% + tags |
+| would you watch the full vid?? #imawizardbutidig #incrementalgame … | 1.6M | 33.5K | question + tags |
+| HOW BIG IS THIS GAME?! #gaming #moonsweepers … | 1.5M | 54.8K | question + tags |
+| Why Am I Addicted to Kicking Rocks? | 585K | 18.4K | question |
+| Can You Survive This Horde? 😱🧟 \| Doomsday: Last Survivors #Shorts … | 688K | 122K | question (survivor) |
+| Clean the Moon with a TOOTHBRUSH #gaming | 290K | 87.7K | tiny tool vs huge job |
+| Vampire Survivors Just Accidentally Made An Expansion | 264K | 44.9K | "game did X" |
+| We had to cut EVERY blade of grass with NAIL CLIPPERS #gaming #indiegame | 179K | 125K | tiny tool vs huge job |
+| This Game Takes 400 Real Days to Beat | 134K | **493** | "This Game…" |
+| Farm ONE QUADRILLION CARROTS #gaming | 53K | 87.7K | big number command |
+| This Game Makes You Paint The Moon | 16K | **691** (2.8×) | "This Game…" |
+| is this the most satisfying incremental game ever? 👀 | 16K | **18** (2×) | question |
+
+**What the data says:**
+1. **Shorter than long titles:** most winners are 25–45 characters before the hashtags (long videos: 30–55).
+2. **Questions and "This Game…" lines are common** in Shorts, rare in long titles. The viewer is asked or told something about the game ("HOW BIG IS THIS GAME?!", "This Game Takes 400 Real Days to Beat").
+3. **1–2 CAPS words** on the key object or number (TOOTHBRUSH, NAIL CLIPPERS, ONE QUADRILLION). More CAPS than in long titles.
+4. **The game name is rarely in the sentence.** It sits in a hashtag (#moonsweepers, #kickrocks). Exception: a famous game people search by name (Vampire Survivors).
+5. **Hashtags:** most gameplay Shorts have 1–5 in the title; the common shape is game tag + genre tag. Hashtags alone do not make a hit (harryponderslive uses 5 on every Short, most at 0.2–0.7× their average).
+6. Small channels (18–700 subs) got 16K–134K with a plain question or "This Game…" line. The shape works without a big channel.
+
+### Brimlo Shorts rules
+
+1. **Shape: pick one of S1–S4.** The A/B/C set uses 3 different shapes.
+
+| # | Shape | Brimlo example (true to that Short) | Use when |
+|---|---|---|---|
+| **S1** | **Question** — "How Big Is This…?!", "Why Am I Addicted to…?", "Can You…?" | Can One Tiny Mushroom Cover the WHOLE Earth? | The Short has a clear answer at the end (loop) |
+| **S2** | **"This Game…"** — This Game Makes You [huge/odd job] / Takes [big number] / Lets You [crazy thing] | This Game Makes You Drink the WHOLE Ocean | The game's idea is strange or funny on its own |
+| **S3** | **Tiny tool vs huge job / big number, as a command or short fact** | Drink the OCEAN With One Straw | One tool, one huge job, or one huge number on screen |
+| **S4** | **"I" story, short** (our long-video voice, cut down) | I Waited the Whole Game for This MINIGUN | A personal moment: fail, comeback, long wait |
+
+2. **Length:** 25–45 characters before the hashtags. Whole title under 75.
+3. **First words = the first 2 seconds of the Short** (the hook flash and the first clip). If the hook shows glowing roots, the title must not promise a boss fight.
+4. **1–2 CAPS words** (the object or the number). Title Case for the rest.
+5. **No game name in the sentence**, for every game type (survivor games too). The name goes in the first hashtag. Exception: a famous game people already search by name.
+6. **Exactly 2 hashtags at the end:** `#GameNameNoSpaces #GenreTag`. Genre tag: `#IncrementalGame` (incremental/clicker/cleaning/job-sim), `#IdleGame` (pure idle), `#SurvivorLike` (survivor-like/horde/roguelite), `#ZombieGame` (zombie games). Never more than 2, never `#shorts`.
+7. **Still true to the Short** (memory: titles must match the video). No "Demo", no emoji, no creator names, no "full vid out now".
+8. **Simple English** words he can say. Questions must have a real answer in the Short (no fake "you won't believe").
+
+**Check:** the 2-hashtag rule and shapes are a test from Mon 16 Nov 2026. After 3–4 new Shorts, compare 7-day views with the older Shorts (I Am Plague, Seabun, Outbreak Z, Ant Mill, Drink the Ocean) and keep or change these rules. Tags were added to those 5 older Shorts on Mon 16 Nov 2026 too, so compare **before vs after the change** for them.
+
 ## Title test log
 
 Track which template wins. Update after 7 days.
@@ -211,6 +264,7 @@ Track which template wins. Update after 7 days.
 | Scrapecremental | "They Gave Me ONE Fingernail…\| Scrapecremental" → "I Scraped a Dinosaur Skull Clean With My Fingernail - Scrapecremental" (Wed 11 Nov; name kept: we rank #2 for it) | ~39 | 1.5% before |
 | Digging a Hole | "Bought a House for $10 and Dug for DIAMONDS \| A Game About Digging a Hole" → "I Found a Big Red X in My Garden and Started Digging" (Wed 11 Nov) | ~23 | 1.7% before |
 | Mycelarium (vidIQ/Studio A/B 7–14 Nov) | A "I Grew One Tiny Mushroom Under an Entire Forest" (no text thumb) 24.2% vs C "I Played 100% Of Mycelarium and Built a Fungal Empire" (+ "100%" thumb) **75.8%** watch time share, 642 views, "They all performed well" (not proven). Swapped to C by hand Sat 14 Nov 2026. Another sign: game name + "100%" wins. | 642 (test) | check Studio |
+| Ant Mill Inc | "I Feed a Giant WORM So It Will Not Eat My Ants \| Ant Mill Inc" (3 Nov) → "I Grew 3,000 Ants Just to Feed a Giant Worm" (Mon 16 Nov 2026, with new logo thumbnail; name dropped, search was ~6% of views) | 430 at swap | 4.1% before |
 | Review 11 Nov 2026 | Best CTR: Rust & Shine 7.3%, I Am Plague 6.5% ("I 100%…"), Outbreak Z 6.2%, Deforest 5.7%. Worst: Pack Ripper 1.0%, Cookie Clicker 1.3%, Scrapecremental 1.5%, Digging a Hole 1.7%. Search CTR 11.7% vs Browse 3.3%: the game name in the title helps search. | | |
 
 ---

@@ -326,3 +326,26 @@ mycelarium, mycelarium 100%, mycelarium gameplay, mycelarium full game, mycellar
 | Watch hours | | 5.0 |
 
 On track for a hit (~100 views/day). 34% left at ~2 min.
+
+## Short: one mushroom, whole Earth (16 Nov 2026)
+
+| | |
+|---|---|
+| Status | scheduled (time set by Mamunur in Studio). Details filled Mon 16 Nov 2026 |
+| Link | https://youtube.com/shorts/863wG5v9HbA |
+| File | `/Volumes/WD Black/Videos/da-vinci/shorts/2026-11-06-mycelarium-short.mp4` |
+| Length | 1:32, 1080×1920, 30 fps, 1.1× speed, -14.4 LUFS, hook flash + 16 clips, push-in on 4 moments |
+| Made from | Hook: glowing roots with purple lightning (1:07:40). Story: "This small mushroom is me" (0:00), king or mushroom army (0:09), two mushrooms (6:17), big boar "will destroy my mushrooms" (32:30), "really dangerous" (32:47), found the ocean (46:40), "infinite water" (47:02), bomb mushroom "this is beautiful" (1:01:09), Power of Cosmos (1:07:29), glowing roots "this is stunning" (1:07:37), "too bright now" (1:15:27), boar again "how much can you eat?" (1:19:46), all skills maxed (1:23:29), Great Migration ready (1:32:08), spores cover the whole Earth (1:32:14–1:32:33). Retention spikes used: ~32 min (boar), ~81 min (late game), 93–99% (migration). Loop ending: one small mushroom at the start → the whole Earth covered at the end |
+| Plan | `tools/shorts/plans/2026-11-06-mycelarium.json` |
+| Related video | the full Mycelarium video (yQRl1LxMz7s) — set in Studio |
+| Playlists | none (Shorts never go in playlists) |
+| Game title | Mycelarium (set in Studio) |
+| Tags | Mycelarium, mycelarium gameplay, mycelarium 100%, mycelarium ending, mycelarium great migration, mycelium game, mushroom game, fungus game, incremental game, idle game, cozy game, relaxing game, incremental games, new indie games |
+
+```
+A (live): I Started as One Mushroom and Covered the WHOLE Earth #Mycelarium #IncrementalGame
+B: My Mushroom Roots Got So Bright I Couldn't See
+C: A Boar Kept Eating My Mushrooms, So I Built an Army
+```
+Scores (estimate): A 74, B 67, C 61. If the Short is weak after 2–3 days, swap to B by hand (keep the 2 hashtags).
+**Hashtag test (Mon 16 Nov 2026):** first Short with 2 hashtags in the title (game name + genre). See `playbook/titles.md` → "Shorts: 2 hashtags in the title (test)".

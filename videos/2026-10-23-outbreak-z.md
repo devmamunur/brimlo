@@ -109,7 +109,8 @@ Hit: Next Fest demo during the wave.
 | Tags | Outbreak Z, Outbreak Z gameplay, Outbreak Z minigun, Outbreak Z demo, zombie auto battler, auto battler, autobattler, zombie game, zombie games, zombie survival, minigun, idle rpg, new indie games, steam demo, incremental games |
 
 ```
-A (live): I Waited the Whole Game for This MINIGUN | Outbreak Z
+A (live): I Waited the Whole Game for This MINIGUN #OutbreakZ #ZombieGame
+(was "I Waited the Whole Game for This MINIGUN | Outbreak Z" until Mon 16 Nov 2026: 2 hashtags added, game name moved from the sentence to the first hashtag — Shorts title system in playbook/titles.md)
 B (swap): A Zombie Child Beat Me, So I Got a MINIGUN | Outbreak Z
 C (swap): My Squad Kept Losing… Then I Found a MINIGUN | Outbreak Z
 ```

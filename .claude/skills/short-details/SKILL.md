@@ -16,9 +16,9 @@ The Short is already uploaded (scheduled or private). Running this command with 
 
 ## 2. Write the details
 
-**Titles: an A/B/C set** (CLAUDE.md, `playbook/titles.md` → "A/B/C title set"). A = live; B and C are swap titles in different patterns.
-- Game name **by game type** (`playbook/titles.md` → "Game name: decide by game type"): survivor/horde/zombie/action → hook first, ` | Game Name` at the end. Cozy/satisfying/sim/clicker → a story title with no game name.
-- Built from the moment the Short shows: the reveal, the fail, the big number, the win. Every claim is true in the Short (memory: titles must match the video). Title Case, one CAPS word, ≤ ~60 characters with the name. No "Demo" in the title, no emoji, no "#shorts" in the title, no other creators.
+**Titles: an A/B/C set, using the Shorts title system** (`playbook/titles.md` → "Shorts title system", 16 Nov 2026 — **not** the long-video P1–P7 rules). A = live; B and C are swap titles, each a different shape (S1 question · S2 "This Game…" · S3 tiny tool vs huge job / big number · S4 short "I" story).
+- 25–45 characters before the hashtags, 1–2 CAPS words, first words = what the first 2 seconds show. True to the Short (memory: titles must match the video). No game name in the sentence (any game type; famous games excepted), no "Demo", no emoji, no "#shorts", no other creators.
+- **Exactly 2 hashtags at the end:** ` #GameNameNoSpaces #GenreTag` (#IncrementalGame, #IdleGame, #SurvivorLike or #ZombieGame). In Studio: type `#`, press Escape to close the hashtag menu, click the page heading before Save.
 - Score the 3 titles with `brimlo_score_title` (keyword = the main word, e.g. the item or the game). It is an **estimate**, and the truth wins over the score.
 
 **Description** (short, simple English):

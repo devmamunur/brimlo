@@ -2,17 +2,17 @@
 
 | | |
 |---|---|
-| Status | 📝 planned (script card ready Sat 14 Nov 2026) |
+| Status | 📅 scheduled — **Sun 15 Nov 2026, 4:15 AM Dhaka** (Studio schedule, set by Mamunur; = Sat 14 Nov 5:15 PM ET). Fast lane: English wave ~30 h old |
 | Upload | Sun 15 Nov 2026, 10 PM Dhaka at the latest (earlier if the edit is done) |
 | Upload speed | 🔥 FAST — English YouTube wave started Fri 13 Nov 2026, 10 PM Dhaka (~23 h before the check). Only 3 English long videos: Jayify 19.6K, Malakye G 18K, KitGain (26 subs) 10.5K. Checked Sat 14 Nov 2026 ~9:10 PM Dhaka (Chrome) |
 | Game | Drink the Ocean — free browser game, https://mana.gs/drink-the-ocean |
 | Source | Free browser game (not Steam) |
-| End screen | Best for viewer + Satisfying Upgrade Games + Subscribe — set: no |
-| Playlists | Satisfying Upgrade Games + New Steam Demos Played to 100% (free browser game, same as Scrapecremental) |
-| Runs on | Chrome on the Mac (no CrossOver). 10-minute test: not yet |
+| End screen | Best for viewer + Satisfying Upgrade Games + Subscribe — set: yes (Sun 15 Nov 2026, by Claude, last 20 s 1:36:02–1:36:22) |
+| Playlists | Satisfying Upgrade Games + New Steam Demos Played to 100% (free browser game, same as Scrapecremental; checked against the video: drink → treasure → sell → upgrades = satisfying upgrade game) |
+| Runs on | Chrome on the Mac (no CrossOver). Played to 100% ✅ |
 | Mascot | decide after the edit (test phase) — playbook/mascot.md |
 | Target length | 60–90 min (Jayify's full run: 1 h 40 min game time, 54 min after his edit) |
-| YouTube link | |
+| YouTube link | https://youtu.be/HpeLCQoVhNk (Studio: https://studio.youtube.com/video/HpeLCQoVhNk/edit) |
 
 ## Game in one sentence
 
@@ -72,26 +72,71 @@ saving money with no goal ("it's not telling me what to buy"), he spent minutes 
 missed items with nothing to say, and he ended with a long "like, subscribe, live streams" ad.
 ```
 
+## What really happened (from the transcript, Sun 15 Nov 2026)
+
+- Length 1:36:22 · 12,144 words · talk 86.9% · **no quiet stretch of 20 s or more** (rule 5 ✅).
+- First line (0:00): "Today I'm going to drink the whole ocean using a single straw." At 0:20: "I'm going to this little island and my boat is broken." "Lost" was never said, and the map calls the island "home" → the "lost on an island" title is dropped.
+- Straws: plastic → super straw 5:57 ("like a tornado") → mega straw 37:12 ($2,000) → giga straw 52:55. **Ultra straw ($9,000) was never bought** (saved for it at 1:21, gave up at 1:26). Don't claim it.
+- Big moments: first toilet 2:10 ("don't look!") · broken ship found 20:38 · first chest $90 at 25:22 · first gold bar $150 at 30:24 · ship shop + ship toilet 33:00 · old temple 43:31 · magic gate 51:37 · underwater city 57:44 (jade idol $132, golden mask $240, royal crown 59:57) · sea pump 1:09:31 · second gate pulls me in, Midnight Sea 1:14:41 · giant bones + lighthouse 1:19:41 · two eyes at the bottom + 100% at 1:34:40.
+- **End screen (frame 1:35:00): Water drunk 55,994,400 L (about 373,296 bathtubs) · Ocean drained 100.0% · Time 1:59:18 · Money earned $23,458 · 345 treasures found.** "You drank the ocean. Something at the bottom is awake."
+- Running joke that happened: the toilet ("don't look, guys" 2:10 and 9:30, "I need to run like Usain Bolt" 22:50, toilets on the ship and in the city).
+- Funniest moment: "Please don't look… okay, it's done" at the first toilet (2:10).
+- Subscribe lines at 15:50 and 1:06:00.
+
+### First 15 seconds check
+
+- ✅ Goal in the first sentence (0:00).
+- ⚠️ The screen shows the **game menu until ~0:20**, then the map; the **first drink is at ~0:55**. Home viewers leave after ~15 s. Fix (pick one): (1) **/hook mode B**: a 10 s cold open of the giant whirlpool + the 100% end screen, then the video; or (2) cut 0:05–0:20 ("this is the game named… the new game always starts soon") so the island shows sooner. Best: both.
+
 ## Titles
 
-| Test | Pattern (P1–P7) | Title |
-|---|---|---|
-| A (main, live title) | P2 — crazy thing + result (lost-island story) | I Got Lost on an Island, So I Drank the Whole OCEAN |
-| B (swap) | P1 — true big number | I Drank 55 MILLION Liters of Ocean With One Straw |
-| C (swap) | P4 — one huge boring job | This Ocean Isn't Going to Drink Itself |
+```
+A (live):  I Drank 100% of the OCEAN With a Straw
+B (swap):  I Drank 56 MILLION Liters of Ocean With a Straw
+C (swap):  My Boat Broke, So I Drank 100% of the OCEAN
+```
 
-- A (changed Sat 14 Nov after Mamunur's lost-island hook): the first 10 seconds now say "lost on an island", so A matches them. True if I drink 100%. "Lost on an island" is my story, not a game fact — fine, it's a joke framing like a hook, and the island start is real. Old A ("They Gave Me a Coconut Straw…") dropped: nobody "gives" me anything in the new story.
-- B: **change 55 MILLION to your real number** from the end screen. If you don't finish 100%, don't use B.
-- C: same shape as "this lake isn't going to empty itself" (316K). No search words, so keep it for a swap.
-- brimlo_score_title (estimate): B 70, A 64, C 53. The truth and the title row (cleaning / tiny tool → no game name needed) win over the score.
+| Test | Pattern (P1–P7) | Claim it needs | Proof |
+|---|---|---|---|
+| A | 100% result (Mamunur, 15 Nov: "100%" works best on our channel) | 100% of the ocean, a straw | End screen "Ocean drained 100.0%" at 1:35:00 |
+| B | P1 — true big number | 56 million liters, a straw | End screen 55,994,400 L (rounds to 56M) |
+| C | P2 — crazy thing + result | boat broke, 100% | 0:20 "my boat is broken" + 100% at 1:34:40 |
+
+- Changed Sun 15 Nov after reading the video: old A ("I Got Lost on an Island…") dropped — I never said "lost", and the map calls the island "home". "With One Straw" changed to "With a Straw": I used 4 straws.
+- Changed again Sun 15 Nov: Mamunur says "100%" titles work best on our channel → A is the 100% title. brimlo_score_title (estimate): 100% title 65 · 56 MILLION 77 · boat 57. His channel data beats the tool score. The tool wants "drink the ocean" in the title; we don't use the game name for cozy/tiny-tool games (title rules), and it is in the description + tags.
 
 **A/B test in Studio:** no (too few impressions). Go live with A; swap to B by hand if weak after 2–3 days.
 
 ## Thumbnail idea
 
-- Type: tiny tool vs huge job (house style v3: POV hands doing the job)
-- Words: none
-- Picture: my POV hands hold a red-and-white straw into a giant blue whirlpool. The island is behind; the sea is half gone, with gold coins and a shipwreck on the wet sand. Navy sky, gold light.
+**Saved (Sun 15 Nov 2026):** [thumbnails/2026-11-15-drink-the-ocean.jpg](thumbnails/2026-11-15-drink-the-ocean.jpg) (1280x720 JPG, 4th GPT result: deep whirlpool with a dark center). Checked at phone size: logo + 100% readable, 1 hand, water visible inside the straw. The hand rests on the straw more than it grips it — fine at phone size, accepted.
+
+- Type: tiny tool vs huge job (house style v3: POV hands doing the job).
+- **Text (Mamunur, Sun 15 Nov 2026):** "100%" in the top-right corner + the real game logo "DRINK THE OCEAN" in the top-left corner. Exception to house style rule 7 (top-center only, never repeat title words) — his choice for this video.
+- Attach these images: `videos/thumbnails/refs/drink-the-ocean-logo-crop.png` (the real game logo) + `tools/transcribe/out/2026-11-15-drink-the-ocean/frames/12_00-46-10.jpg` (big whirlpool from the straw) + `frames/13_00-50-11.jpg` (sand + broken ship) + `frames/24_01-34-21.jpg` (giant night whirlpool).
+- If the AI draws the logo letters wrong: ask for the image with no logo, then put `drink-the-ocean-logo-crop.png` (or the full menu frame `refs/drink-the-ocean-menu-logo.jpg`) on top in Canva, top-left, with a thin navy outline so it shows on the blue sky.
+- Prompt (master prompt, filled):
+
+```
+Create a YouTube thumbnail, exactly 1280x720 pixels (16:9).
+
+STYLE: bright 2D cartoon vector illustration. Thick bold black ink outlines on everything, flat cel-shaded colors, very high saturation, clean shapes, low detail, and a thin white edge around the hands and the main object so they pop. Use the attached Drink the Ocean screenshots only as a reference for the shape and colors of the red-and-white striped straw, the whirlpool and the sandy seabed, and redraw them in this cartoon style. Do not copy any text, numbers or menus from the gameplay screenshots. The attached logo image is the real game logo: copy it exactly for the logo below.
+
+HANDS: first-person view. ONE big cartoon hand comes in from the bottom-right corner: a bare peach-skin closed fist (no gloves) in a dark navy blue sleeve (#0B1023) with a thin gold cuff (#FFC83D), wrapped around a long red-and-white striped straw. The hand stays dry, far above the water. The straw tip goes into the center of the whirlpool; a spiral of water is sucked up into the straw and flows up inside it toward the camera, and the bottom end of the straw comes toward the camera as if it goes to my mouth.
+
+CENTER: a giant spinning blue-and-white whirlpool where the straw touches the water, very close to the camera, taking up about half of the image. Water swirls up into the straw. It is the brightest and clearest thing in the picture. One small funny detail: a small orange fish flies up toward the straw with a shocked face.
+
+BACKGROUND: the ocean is half gone. Around the whirlpool the water level is far lower than the beach, showing wet golden sand full of gold coins, pearls and an open treasure chest, and a broken old wooden ship lying on the dry seabed. A small palm-tree island and bright blue sky behind. Bright daylight colors, deep blue water, gold treasure.
+
+TEXT (only these two, nothing else):
+1. TOP-LEFT CORNER: the game logo "DRINK THE OCEAN", copied exactly from the attached logo image: white bold rounded cartoon letters with a blue 3D shadow, "DRINK THE" small on top, "OCEAN" big below, a white water splash on the right and a white wave under it. Add a thin dark navy (#0B1023) outline around the logo so it stands out on the sky. About 30% of the image width. Spelled exactly D-R-I-N-K T-H-E O-C-E-A-N.
+2. TOP-RIGHT CORNER: exactly "100%" in big bold yellow-gold cartoon letters (gold #FFC83D to orange #FF8A00 gradient) with a thick black outline and a small drop shadow, readable when the image is shrunk to 160 px wide.
+Keep the hands, the straw and the whirlpool clear of both texts.
+
+AVOID (negative prompt): any other text, letters, numbers or words, misspelled logo letters, photorealism, 3D render, realistic skin, realistic hands, photo, DSLR, cinematic lighting, grey or muddy colors, gloves of any color, yellow sleeves, extra fingers, a second hand, any hand or finger touching the water, fake logos other than the real game logo, watermarks, signatures, the YouTube logo, a mascot or channel logo stamp, borders, frames, small inset image boxes in any corner, split screens, arrows, emoji, radial lines, plain empty background, tiny details, many small objects competing with the center object, blurry colors.
+```
+
+- **Fix (Sun 15 Nov 2026):** the first GPT result had fingers in the water (looked like drinking with the hand). Edit prompt sent: one closed fist around the straw (like the game, frame 0:02), only the straw tip in the whirlpool, water spiraling up into the straw, hand far above the water. Rule for this game: **the straw drinks, the hand never touches the water.** Second GPT result (15 Nov): extra left hand + no water going up the straw → edit prompt: one hand only, water spiraling up into the straw. Master prompt in the file now says ONE hand.
 
 ## Recording script
 
@@ -243,15 +288,64 @@ Use it 4–5 times, not more. Don't reuse: "Please be treasure" (One's Trash), z
 
 ## Chapters
 
+From the transcript of the final export (Sun 15 Nov 2026). Final only if the edit does not change (a /hook cold open shifts every time by its length).
+
 ```
-00:00 
+00:00 One Straw vs the Whole Ocean
+05:57 Super Straw: Now It's a Tornado
+20:38 I Found a Broken Ship
+30:24 Gold Bars Inside the Ship
+37:12 Mega Straw
+43:31 An Old Temple Under the Sea
+51:37 Through the Magic Gate
+57:44 A Lost City Full of Gold
+1:14:41 The Midnight Sea
+1:34:40 100% of the Ocean Is Gone
 ```
 
 ## Description
 
 ```
-(write with /finish-video after recording)
+I had one straw and a broken boat. So I drank the whole ocean. Help Brimlo reach 100 subs :)
+I played Drink the Ocean, a free browser game where you drink the sea with a straw, find treasure on the sand, sell it and buy bigger straws. I found a broken ship full of gold bars, an old temple, a lost city with a golden mask and a royal crown, and the Midnight Sea. At the end I drank 55,994,400 liters (about 373,296 bathtubs) and drained 100% of the ocean. I made $23,458 and found 345 treasures.
+Free browser game, played to the end.
+CURRENT SUBS: [real number from Studio]
+
+Calm, full-length gameplay to relax or fall asleep to. You rest. I'll keep going.
+
+🎮 Drink the Ocean (free, plays in the browser): https://mana.gs/drink-the-ocean
+
+Chapters
+00:00 One Straw vs the Whole Ocean
+05:57 Super Straw: Now It's a Tornado
+20:38 I Found a Broken Ship
+30:24 Gold Bars Inside the Ship
+37:12 Mega Straw
+43:31 An Old Temple Under the Sea
+51:37 Through the Magic Gate
+57:44 A Lost City Full of Gold
+1:14:41 The Midnight Sea
+1:34:40 100% of the Ocean Is Gone
+
+#DrinkTheOcean #incrementalgame #browsergame
 ```
+
+## Tags
+
+Drink the Ocean, drink the ocean game, drink the ocean gameplay, drink the ocean full game, drink the ocean 100%, drinking the ocean game, drink ocean game, straw game, mana.gs, browser game, free browser game, incremental game, upgrade game, relaxing gameplay, gameplay to fall asleep to, brimlo
+
+## Studio set-up (Sun 15 Nov 2026 ~4:05 AM Dhaka, by Claude)
+
+- Title A was set by Mamunur: "I Drank 100% of the OCEAN With a Straw". Thumbnail set by Mamunur (GPT image 2, real grip).
+- Description pasted (CURRENT SUBS: 3), 10 chapters, 16 tags, playlists Satisfying Upgrade Games + New Steam Demos Played to 100%.
+- Checked: not made for kids, no age limit, Gaming, English (US), comments on. Game title: Drink the Ocean is not in YouTube's game list → left empty.
+- English subtitles uploaded With timing + published (`WD Black/Videos/da-vinci/Drink the Ocean.srt`).
+- End screen: Best for viewer (top-left) + Satisfying Upgrade Games playlist (top-right) + Subscribe (bottom-left), 1:36:02–1:36:22. The new Studio end screen menu has no "Import from video"; built by hand.
+- ⚠️ vidIQ showed Jayify's top video "I drank 100% of the ocean with a straw" (27K, 1 day). Our title A is almost the same words. **Decision (Mamunur, Sun 15 Nov 2026): keep A.** It is a generic title pattern, not a copy, and being close to the top video can help us show up next to it (suggested + search).
+
+## Subtitles
+
+**Uploaded + published (Sun 15 Nov 2026):** `WD Black/Videos/da-vinci/Drink the Ocean.srt`, 1,856 lines, 85 fixes — only sure ones (Mamunur: "only fix spelling you are sure about"): blender/binder/blader → bladder, billy → belly, sheep → ship, sheep carriage → ship cargo, she shall → seashell, the she went down → the sea went down, movement spread/spirit/street → movement speed, zest/set box → chest box, drone city → drowned city, AC monster → sea monster, lotion → ocean, quick flash → quick flush, see/c pump → sea pump, spawns bomb → sponge bomb, engine/internal artifact → ancient artifact, basslet → bracelet, mega star/strong/store → mega straw, giga strong → giga straw, reins → range, artstorm → ultra straw, p/fee/pea → pee, uh/um removed. Left as they were (not sure): "points", "destroy", "giant toothpaste", "seek this shape". Old note: "blender/binder" → bladder, "sheep" → ship, "sheep carriage/carries" → ship cargo, "she shall" → seashell, "spread/spirit" → speed, "AC monster" → (check), "pee"/"p" spelling. Only valid if the export does not change.
 
 ## Results
 
@@ -261,3 +355,58 @@ Use it 4–5 times, not more. Don't reuse: "Please be treasure" (One's Trash), z
 | CTR | |
 | Avg view | |
 | Subs | |
+
+**Check Mon 16 Nov 2026, ~8:30 PM Dhaka (~40 h after publish, Studio "Since published"):**
+
+| | |
+|---|---|
+| Views | **837** (Studio "typical" for this age: 20–90) — biggest start ever; already beats I Am Plague's 7-day ~540 |
+| Watch time | 19.5 h |
+| Impressions / CTR | 3,543 / **8.0%** (channel record; old best 7.3% Rust & Shine) |
+| Traffic | YouTube search 655 views (78%), 2,196 impr, CTR 11.2%, avg 3:00 · Browse 112, 525 impr, CTR 3.2%, avg 1:29 · Suggested 33, 814 impr, CTR 2.6%, avg 4:49 |
+| Top search terms | "drink the ocean game" 11.9%, "drink the ocean" 3.1%, "drinking the ocean game" 2.9% |
+| Avg view | 3:06 (typical 4:35–6:12) · 2% viewed |
+| Start | **only 14.3% still watching at 0:30** — the big leak |
+| Subs / likes / comments | 0 / 2 / 1 |
+
+Why: the wave bet worked (fast lane, search traffic) and the title + thumbnail work (11.2% CTR in search). The start loses people: the game menu shows until ~0:20 and the first drink is at ~0:55 (warning written before upload, line ~89; the /hook cold open was not done). 0 subs from 837 views: no subscribe ask after a big moment (the one ask is at ~15:00).
+Decision: keep title A (no swap — CTR is the best ever).
+
+**Other channels, same game (brimlo_youtube_search, Mon 16 Nov 2026 ~8:40 PM Dhaka; long videos, views at that time):**
+
+| Posted (UTC) | Channel (subs) | Views | Note |
+|---|---|---|---|
+| Fri 13 Nov 16:00 | KitGain (187) | 50,925 | **first** long video of the wave |
+| Fri 13 Nov 17:23 | Jayify (29.3K) | 38,763 | + 4 Shorts before it |
+| Sat 14 Nov 00:46 | Malakye G (72.6K) | 71,403 | his Short "Drink The Ocean Ending" 288K |
+| Sat 14 Nov 16:00 | Bonus (168K) | 11,425 | |
+| Sat 14 Nov 22:15 | **Brimlo (6)** | 837 (Studio) | 30 h after KitGain |
+| Sun 15 Nov 00:40 | Malakye G speedrun | 10,543 | |
+| Sun 15 Nov 06:39 | bigtimebingus (3,850) | 2 | after us |
+| Sun 15 Nov 18:40 | Idle John (75.6K) | 3,904 | after us |
+| Mon 16 Nov 13:00 | DrooziPlays (203) | 7 | after us |
+
+Lesson: the small channel that won (KitGain, 187 subs, description full of typos) was the **first** one, not the one with better English. Small channels that posted after us got 2 and 7 views. From day 2 on, search goes to big channels and to the first videos. Being first (hours, not days) is the biggest lever.
+
+## Short: one straw, whole ocean (15 Nov 2026)
+
+| | |
+|---|---|
+| Status | scheduled (time set by Mamunur in Studio). Details filled 15 Nov 2026 |
+| Link | https://youtube.com/shorts/c9-1CluQnRc |
+| File | `/Volumes/WD Black/Videos/da-vinci/shorts/2026-11-15-drink-the-ocean-short.mp4` |
+| Length | 1:14, 1080×1920, 30 fps, 1.1× speed, -13.9 LUFS, hook flash + 18 clips. First Short in style v2 (square game crop, word-by-word captions, push-in on 4 moments) |
+| Made from | Hook: mega straw swirl (37:40). Story: "drink the whole ocean using a single straw" (0:00), belly full + toilet + "please don't look" (2:09–2:24), sell $154 (5:42), super straw (6:03), "like a tornado in this ocean" (6:14), gold bar (30:28), $2,000 → mega straw (37:09), "it's really mega" (37:42), "like a tsunami" (39:38), ancient artifact (44:18), jade idol + golden mask (58:54), royal crown "maybe I am the king now" (1:00:00), two eyes (1:34:34), "game complete, ocean drained 100%" (1:34:54). Loop ending: the last line (100% of the ocean) answers the first line |
+| Moments picked from | transcript only (no retention data yet: the video was a few hours old) |
+| Plan | `tools/shorts/plans/2026-11-15-drink-the-ocean.json` |
+| Related video | this video (HpeLCQoVhNk) |
+| Playlists | none (Shorts never go in playlists) |
+| Game title | none (Drink the Ocean is not in YouTube's game list; picked "None") |
+| Tags | Drink the Ocean, drink the ocean game, drink the ocean gameplay, drink the ocean 100%, drink the ocean straw, drink the ocean ending, drinking the ocean game, straw game, browser game, free browser game, mana.gs, upgrade game, satisfying games, incremental game, brimlo |
+
+```
+A (live): I Drank 100% of the OCEAN With One Straw #DrinkTheOcean #IncrementalGame
+(was "I Drank 100% of the OCEAN With One Straw" until Mon 16 Nov 2026: 2 hashtags added, game name moved from the sentence to the first hashtag — Shorts title system in playbook/titles.md)
+B (swap): My Straw Found a Royal CROWN Under the Ocean
+C (swap): From One Tiny Straw to a MEGA Tornado
+```
