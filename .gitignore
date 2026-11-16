@@ -8,3 +8,4 @@ tools/transcribe/out/
 tools/avatar/out/
 tools/transcribe/.venv/
 __pycache__/
+tools/mana-watch/out/

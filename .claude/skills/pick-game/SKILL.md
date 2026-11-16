@@ -39,7 +39,12 @@ Status line in the reply, e.g.: `Tools: brimlo ✅ (CLI — restart to load new 
 
 ## Step 1 — Fresh search (always first, all parts, in one go)
 
-Get the real time now (UTC and Dhaka). Run A–D in parallel where you can.
+Get the real time now (UTC and Dhaka). Run M first, then A–D in parallel where you can.
+
+**M. Mana games first (Mamunur, 17 Nov 2026).** Run `python3 -I tools/mana-watch/check.py` (free, no quota; [README](../../../tools/mana-watch/README.md)). It lists every game on mana.gs with its status and says NEW GAME / NOW PLAYABLE since the last run. Also read `x.com/playonmana` in Chrome for the "is out now" post date (= launch time → hours since launch).
+- Candidate = a Mana game that is **playable**, **not in `videos/log.md`**, and fits the niche (numbers/upgrades grow: Incremental, or a Simulation with clear upgrades). Horror / co-op survival with no upgrade loop → skip, one line why.
+- **A fitting Mana candidate goes to the top of the list and is ⭐ BEST**, unless the Chrome check (Step 3) shows the English wave is already over (3+ English long videos, newest ones under ~500 views). Being first matters most here: KitGain was the first Drink the Ocean video (~1 day after launch) → 55K views; we came ~2 days later → ~900. Big Ice: nobody posted for 7 days, then KitGain → 13K.
+- Mana games need **no** earlier YouTube signal (the D rule below does not apply to them): Mana's track record is the signal. Speed label: 🔥 FAST — record today, publish within 24 h.
 
 **A. Wave scan — the main tool: `brimlo_wave_scan`** (our own tool, works like vidIQ search).
 - Default call: no arguments = 7 searches over the last 48 h ("incremental game", "idle game", "satisfying game upgrades", "zombie incremental", "survivor incremental", "browser game", "free game"), long videos, Gaming category, live streams removed. Then a **history check** (search of the game name with no time limit) for every OPEN or CROWDED game (up to 10).
@@ -96,6 +101,7 @@ API searches miss videos. For each game on the list, open the real YouTube searc
 ## Step 4 — Rank, list up to 3, mark one ⭐ BEST
 
 Rank the games that passed Steps 2–3:
+0. **A new Mana game** (Step 1 M) that fits the niche and has no wave yet → always first and ⭐ BEST.
 1. Full launch / playtest of a game **people already want** ≤ 48 h old.
 2. A YouTube wave that started **≤ 48 h** ago, with few English videos, in a hot type.
 3. A brand-new demo (≤ 48 h) with clear demand signals.
