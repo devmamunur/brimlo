@@ -103,6 +103,7 @@ After a skill, keep the repo true (rule 1). Every title/description/script answe
 | Hook text image | `tools/hook/make_text.py` (used by `/hook`) | local |
 | Short from a long video (max 2:00, target 90–120 s, 15 Nov 2026) | `tools/shorts/` ([README](tools/shorts/README.md)): `words.py` (word times) + `make_short.py` (cut, 1.1×, 1080×1920, captions) — used by `/make-short` | local |
 | Moving mascot in the corner (after export, from transcript word times; v4 approved 13 Nov 2026, test phase) | `tools/avatar/` ([README](tools/avatar/README.md)): `add_avatar.py "<final video>" --best-preview` then without it — used by `/add-mascot`, guide `playbook/mascot.md` | local |
+| OBS check before/after recording (game sound + screen alive, keeps display awake 5 h) | `python3 tools/obs-check/check.py` (before) · `--last` (after a test or real recording) — see `playbook/recording-and-editing.md` → "Before EVERY recording" | local |
 | Daily update (our channel, competitors, watched games) | `brimlo_daily_update` (`dry_run` to read the last run first); track something with `brimlo_watch_add` | budget 300 |
 
 MCP servers are set in `.mcp.json` (`brimlo`, `playwright`); vidIQ is a claude.ai connector. If `brimlo_*` tools are missing, use ToolSearch ("brimlo") — the server may still be starting. Tool details: [tools/research/README.md](tools/research/README.md).

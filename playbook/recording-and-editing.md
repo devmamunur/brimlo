@@ -15,6 +15,18 @@ Full, checked OBS + Resolve audio setup: **[voice-presets.md](voice-presets.md)*
 6. Test once: record 2 minutes, press the marker, check in DaVinci that the marker is in the right place (one user saw markers ~65 s late).
 7. **Stop recording cleanly.** If OBS crashes, markers are lost.
 
+## Before EVERY recording (2 minutes) — added 18 Nov 2026
+
+Why: on Tue 17 Nov 2026 at 22:51 the display went to sleep (Mac display sleep = 30 min). macOS stopped both OBS captures: the screen and **macOS Audio Capture** (game sound). They do not come back by themselves. We lost one recording with only the wallpaper and one with no game sound (Night of the Idle Horde, 18 Nov).
+
+1. Open OBS and the game.
+2. Run: `python3 tools/obs-check/check.py`. It checks the OBS log and **keeps the display awake for 5 hours**. If it says "lost its capture", quit OBS (Cmd+Q) and open it again.
+3. Play the game: the **macOS Audio Capture** bar must move in the Audio Mixer.
+4. Record 10 seconds with game sound playing, stop, then run: `python3 tools/obs-check/check.py --last`. You need two ✅ (voice + game sound).
+5. Record for real. After it ends, run `--last` again to check the full file before you edit.
+
+If the display sleeps anyway, or you change monitors: **quit and reopen OBS**. Re-selecting the display brings back the video only, not the game sound.
+
 ## SSD folders
 
 ```
