@@ -9,6 +9,7 @@ Use `/script [game]` to make a card for a specific game. More ready-made sentenc
 | Part | Time | What happens |
 |---|---|---|
 | **Cold open** (optional) | 0:00–0:10 | `/hook` picture hook, **max 10 s**. The voice-over says the goal with a number. No logo, no intro. |
+| **2-moment preview** (TEST from Pawn It!, 17 Nov 2026) | 0:00–0:45 | Mamunur: 10–15 s is too short to show real emotion. Instead: goal line (3 s) + **2 full moments, 15–20 s each** (start at the peak, real voice + reaction, what is happening is clear) + "This is how I got there" → game. **Max 45 s.** Keep it if retention at 2:00 beats Ocean's 14%. **Workflow:** Claude reads the recording and gives only the timestamps (start–end of 2–3 moments, total 45–60 s, landscape); Mamunur cuts them himself in DaVinci. Then "But it started like this…" → game from 0:00. |
 | **Goal line** | first sentence | The goal with a big number, **said while already playing**: "There are 1 quadrillion carrots here. I'm going to get all of them." |
 | **First action** | by 0:05 (0:10 after a cold open) | Click, dig, shoot, harvest. Real gameplay, never a menu. |
 | **Where it ends** | 0:10–0:30 | "In one hour I'll have [X]. This is how I got there." (Seabun opening.) |
