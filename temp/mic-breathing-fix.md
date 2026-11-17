@@ -9,9 +9,10 @@ Delete this file after the setup is done and tested.
 ## Step 1 — Mic position (free, do first)
 
 - [ ] Keep my mouth **4 to 6 inches** from the mic (about one hand wide).
-- [ ] Turn the mic **a little to the side**. Point it at the corner of my mouth, not straight at it.
-- [ ] Put the **foam cover** on the mic, if I have it.
-- [ ] If the mic has a gain knob: turn the gain **down a little** and sit a little closer.
+- [ ] Talk into the **top end** of the mic (the black foam part), not the front with the knobs.
+- [ ] Tilt the mic **a little to the side**. The top should point at the corner of my mouth, not straight at it.
+- [ ] Foam cover: already on the AM8 (the black top). Nothing to buy.
+- [ ] Gain knob = the knob with the **mic icon** (the upper one, check the small icon). Turn it **down a little** (about 1/8 turn) and sit a little closer. The other knob is headphone volume. The top button is mute.
 
 ## Step 2 — Find my voice level
 
