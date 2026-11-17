@@ -7,7 +7,7 @@
 | Upload speed | 🔥 FAST — English YouTube wave started Fri 13 Nov 2026, 10 PM Dhaka (~23 h before the check). Only 3 English long videos: Jayify 19.6K, Malakye G 18K, KitGain (26 subs) 10.5K. Checked Sat 14 Nov 2026 ~9:10 PM Dhaka (Chrome) |
 | Game | Drink the Ocean — free browser game, https://mana.gs/drink-the-ocean |
 | Source | Free browser game (not Steam) |
-| End screen | Best for viewer + Satisfying Upgrade Games + Subscribe — set: yes (Sun 15 Nov 2026, by Claude, last 20 s 1:36:02–1:36:22) |
+| End screen | **Specific video: Big Ice** ("I Spent an Hour Destroying a GIANT Mountain of ICE!", changed from Best for viewer on Tue 17 Nov 2026 by Claude, Mamunur's request: send Drink the Ocean viewers to Big Ice) + Satisfying Upgrade Games + Subscribe, 1:36:02–1:36:22. Switch back to Best for viewer later (~1–2 weeks). |
 | Playlists | Satisfying Upgrade Games + New Steam Demos Played to 100% (free browser game, same as Scrapecremental; checked against the video: drink → treasure → sell → upgrades = satisfying upgrade game) |
 | Runs on | Chrome on the Mac (no CrossOver). Played to 100% ✅ |
 | Mascot | decide after the edit (test phase) — playbook/mascot.md |
