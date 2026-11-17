@@ -40,6 +40,7 @@ Style: simple, natural, lively. Not corporate (Mamunur's choice, 23 Oct 2026).
 - Mamunur Rashid, Dhaka, Bangladesh (UTC+6). Full-time job.
 - English is a second language. Talks slower, which fits calm long videos.
 - Mac mini M4 (16 GB) + 1 TB SSD. Windows PC (no GPU) as backup.
+- Mic: FIFINE AmpliGame AM8 RGB (USB, dynamic). Better mic only after income starts.
 - Software: OBS, DaVinci Resolve free / CapCut, Canva, Steam + CrossOver, vidIQ.
 
 ## Accounts and tools

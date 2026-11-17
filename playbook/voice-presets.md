@@ -99,7 +99,7 @@ Q: Band 2 and 5 = 0.8 (gentle shelf), Band 3 and 4 = 1.0.
 | Video | 1920×1080 canvas and output, 60 fps |
 | Audio | 48 kHz, stereo. Global audio devices disabled (sources used instead) |
 | Advanced | NV12, Rec.709, Limited (standard) |
-| Mic "Audio Input Capture" (fifine) | Track 1 only, **Mono**, fader -5 dB |
+| Mic "Audio Input Capture" (FIFINE AmpliGame AM8, USB) | Track 1 only, **Mono**, fader -5 dB |
 | Mic filters | Noise Suppression (**RNNoise**) → **Limiter -3 dB** |
 | Game "macOS Audio Capture" | Desktop Audio Capture (all Mac sound), Track 2 only, fader -10 dB, no filters |
 | Screen "Left Display Full" | No audio tracks |
