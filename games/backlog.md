@@ -67,7 +67,7 @@ All 3 are paid games that launched Mon 16 Nov 2026 (exact hour unknown → ~25�
 
 | Game | Wave / Chrome 17 Nov ~11:55 PM | Quality | Runs |
 |---|---|---|---|
-| ⭐ **Night of the Idle Horde** demo ([Steam](https://store.steampowered.com/app/4775430/), demo 5154010) | Only 1 English commentary video: Haikrazon 4.1K in 23 h. Japanese Hultutigamer 3.4K in 5 h. Trailer 17K. Idle cub's 200K video is a different game (Here Comes the Horde). | $4.99, 1 review so far; Next Fest demo. Zombie horde idle (you are the horde) = our best type | Windows → CrossOver, 10-min test pending |
+| ⭐ **Night of the Idle Horde** demo ([Steam](https://store.steampowered.com/app/4775430/), demo 5154010) — ✅ **chosen by Mamunur, planned Wed 18 Nov** ([file](../videos/2026-11-18-night-of-the-idle-horde.md)) | Only 1 English commentary video: Haikrazon 4.1K in 23 h. Japanese Hultutigamer 3.4K in 5 h. Trailer 17K. Idle cub's 200K video is a different game (Here Comes the Horde). | $4.99, 1 review so far; Next Fest demo. Zombie horde idle (you are the horde) = our best type | Windows → CrossOver, 10-min test pending |
 | **ScopeCreep** demo ([Steam](https://store.steampowered.com/app/3595710/), demo 3955580) | 2 English: Rizzoli "100%" 10K in 16 h, ImCade 6.7K in 1 h (strong demand). Name clash: many "scope creep" gamedev videos. | $4.79, 94% of 74. "Short active incremental" → demo may be too short for 60 min | Windows → CrossOver, test pending |
 | **My Dirty Little Lake** demo ([Steam](https://store.steampowered.com/app/5375170/), demo 5426290) | 1 real English: Fun Under Five 7.3K in 17 h (+2 tiny). Japanese 11K + 11K. | $4.24, 80% of 36. Cleaning + upgrades, "short" game | Windows → CrossOver, test pending |
 
