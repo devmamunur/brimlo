@@ -63,11 +63,11 @@ Fresh result: no free launch or live playtest ≤ 48 h in our tags (playtest sca
 
 ### /pick-game, Tue 17 Nov 2026 ~3:35 PM Dhaka (09:35 UTC) — mana-watch + wave_scan 9 searches + 5 history checks (1,428 units) + vidIQ 48-h check + Steam new/popular/demos/playtest + itch + Azrilich/JonnyBebop + Chrome check
 
-Mana: playable and not used = Pawn It! (already planned), Feeding Time, Motel 9 (both co-op horror, no upgrade loop → skip), Tornado Watch (storm-chasing co-op survival; upgrades are only gear → weak fit, skip for now).
+Mana: playable and not used = Pawn It! (skipped 17 Nov: feels boring), Feeding Time, Motel 9 (both co-op horror, no upgrade loop → skip), Tornado Watch (storm-chasing co-op survival; upgrades are only gear → weak fit, skip for now).
 
 | Game | Status / date | Price | Speed (checked 17 Nov ~3:35 PM Dhaka) | Notes |
 |---|---|---|---|---|
-| ⭐ **Pawn It!** (mana.gs/pawn-it) | Mana browser game, already planned (video file 2026-11-17-pawn-it.md) | Free (browser) | 🔥 FAST — record today, publish Tue 17 Nov 10 PM Dhaka | **Chrome 17 Nov 3:35 PM:** still only tannges (12 views, 13 h). No wave → we can be first. Mana rule 0 = BEST |
+| ~~Pawn It!~~ (mana.gs/pawn-it) | Mana browser game — ❌ **skipped Tue 17 Nov 2026 (Mamunur: feels boring)** | Free (browser) | — | **Chrome 17 Nov 3:35 PM:** still only tannges (12 views, 13 h). No wave → we can be first. Mana rule 0 = BEST |
 | **Pure Skill** (5501560, demo 5503090) | Free demo; full game "coming soon" | Free demo | 🔥 FAST — only if recorded today; English wave closes ~10 PM Dhaka today (48 h) | Incremental FPS: buy aimbot/wallhack, bots in chat react. **English wave started Sun 15 Nov 16:00 UTC (10 PM Dhaka) = ~41.5 h ago:** Nerfed Reflexes (14.3K subs) 184K in 1.7 days (outlier ~12x, est.). **Chrome 17 Nov:** other English long videos tiny — shirlierox 1.2K (4 d, before the hit), TheOtherFrame 48 (6 d), IdleMenace 53, Arian Play Games 6 views in 9 h (23 subs). TR BokouChan 14K. vidIQ keyword 19, volume very low (name clash: "pure skill" shorts). Demo clear ~1 h (Arian). Windows only → 10-min CrossOver test first (FPS, mouse look). |
 | **Wreck the Deck** (5219370, demo 5235700) | Free demo; full launch Mon 24 Nov 2026 | Free demo | 🟡 SOON — demo wave ~43 h old; full launch 24 Nov is a 2nd chance only with a key | Pirate cannon destroys ship decks, cash → upgrades, shockwaves. **Chrome 17 Nov:** Azrilich 34K (1 d, 15 Nov 14:41 UTC), Nerfed Reflexes 7.7K (5 d, 48-min 100%), HushPlaythroughs 129, C0ffeeBreak 15. Demo ~50 min = short video. Windows only → CrossOver test. |
 
