@@ -249,7 +249,8 @@ Hit, but short avg view: 38% left at ~40 s.
 
 | | |
 |---|---|
-| Status | scheduled (time set by Mamunur in Studio). Details filled 13 Nov 2026 |
+| Status | **private** (Wed 18 Nov 2026: all 7 Shorts set to Private in Studio — Shorts test stopped, Mamunur not happy with quality). Was: scheduled (time set by Mamunur in Studio). Details filled 13 Nov 2026 |
+| Result (Studio, 18 Nov 2026) | 490 views · stayed to watch 27.5% · 0 subscribers |
 | Link | https://youtube.com/shorts/FlAHQaMN6q8 |
 | File | `/Volumes/WD Black/Videos/da-vinci/shorts/2026-11-03-ant-mill-inc-short.mp4` |
 | Length | 0:55, 1080×1920, 1.1× speed, -14 LUFS, hook flash + 9 clips, captions burned in |

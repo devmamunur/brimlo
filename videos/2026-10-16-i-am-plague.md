@@ -248,7 +248,8 @@ Hit: playtest during its YouTube wave. Still ~45 views/day at day 24.
 
 | | |
 |---|---|
-| Status | scheduled (time set by Mamunur in Studio). Details filled 13 Nov 2026 |
+| Status | **private** (Wed 18 Nov 2026: all 7 Shorts set to Private in Studio — Shorts test stopped, Mamunur not happy with quality). Was: scheduled (time set by Mamunur in Studio). Details filled 13 Nov 2026 |
+| Result (Studio, 18 Nov 2026) | 166 views · stayed to watch 31.5% · 0 subscribers |
 | Link | https://youtube.com/shorts/DQrzFny0gek |
 | File | `/Volumes/WD Black/Videos/da-vinci/shorts/2026-10-16-i-am-plague-short.mp4` (also in DaVinci New Project 10, timeline "I Am Plague Short") |
 | Length | 0:45, 1080×1920, 1.1× speed, 11 clips, captions burned in |

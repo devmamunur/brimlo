@@ -331,7 +331,8 @@ On track for a hit (~100 views/day). 34% left at ~2 min.
 
 | | |
 |---|---|
-| Status | scheduled (time set by Mamunur in Studio). Details filled Mon 16 Nov 2026 |
+| Status | **private** (Wed 18 Nov 2026: all 7 Shorts set to Private in Studio — Shorts test stopped, Mamunur not happy with quality). Was: scheduled (time set by Mamunur in Studio). Details filled Mon 16 Nov 2026 |
+| Result (Studio, 18 Nov 2026) | 58 views · stayed to watch 60.5% · 0 subscribers |
 | Link | https://youtube.com/shorts/863wG5v9HbA |
 | File | `/Volumes/WD Black/Videos/da-vinci/shorts/2026-11-06-mycelarium-short.mp4` |
 | Length | 1:32, 1080×1920, 30 fps, 1.1× speed, -14.4 LUFS, hook flash + 16 clips, push-in on 4 moments |
