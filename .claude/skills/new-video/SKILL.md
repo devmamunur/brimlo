@@ -40,7 +40,7 @@ Plan one video end to end and save it in the repo. Write in **simple English, sh
    - Update the slot in `plan/calendar.md` (game name, status 📝).
    - Update the game's row in `games/backlog.md` (planned slot).
 
-5. **Reply** briefly: **the launch check line first** for a new launch/demo/playtest (e.g. "⏱️ Launched Tue 3 Nov 2026 = 4 days ago → the launch window has passed ⛔" or "⏱️ Launched today 6 PM Dhaka = 5 hours ago → inside the 48-hour window ✅"), **then the upload speed label** (e.g. "🔥 FAST — publish within ~48 h of the launch, because …"), then the **A/B/C titles in one code block** (ready for Studio → A/B Testing), the **playlist(s)** in one line, the hook to practice, what to test before recording, and the file path. Don't paste the whole file.
+5. **Reply** briefly: **the launch check line first** for a new launch/demo/playtest (e.g. "⏱️ Launched Tue 3 Nov 2026 = 4 days ago → the launch window has passed ⛔" or "⏱️ Launched today 6 PM Dhaka = 5 hours ago → inside the 48-hour window ✅"), **then the upload speed label** (e.g. "🔥 FAST — publish within ~48 h of the launch, because …"), then the **A/B/C titles in one code block** (A = live, B + C = swap titles; each passes the 3 MUST checks in `playbook/titles.md` rule 4), the **playlist(s)** in one line, the hook to practice, what to test before recording, and the file path. Don't paste the whole file.
 
 ## Rules
 
