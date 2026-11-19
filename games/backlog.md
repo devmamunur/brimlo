@@ -52,6 +52,18 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 | FEED THE AI | Big outlier, but already covered by Idle Cub and others | Windows only | Paid | Only with a fresh angle (100% run) |
 | My Fire Is Bigger Than Yours | 100% video got 174K | ? | Paid | Covered; fresh angle needed |
 
+### /pick-game, Thu 19 Nov 2026 ~12:00 PM Dhaka (06:00 UTC) — first run of the simplified skill: wave_scan 7 searches + 3 history checks (1,020 units, CLI) + Steam new/demos/playtest + mana-watch (no change) + Chrome check of 3
+
+Scan was full of GTA 6 noise (launched 18 Nov). Only niche games kept.
+
+| Game | Type / price | Label | Chrome (19 Nov, newest first) | Verdict |
+|---|---|---|---|---|
+| ⭐ **No Asteroids** — https://store.steampowered.com/app/5527800 (demo 5541510) | Free demo; full launch Mon 24 Nov 2026; 50K wishlists | CROWDED + OLD (wave started ~8–10 days ago) — **but still hot** | Walkrman (126K) 14K in 18 h (683 VPH) · Grillmastah (126K) 28K in 1 d · OutbackBiff (6.5K) 6.6K in 13 h + 31K/16K/16K/10K earlier · 2.4K-sub channel 6.4K in 1 d · GameEdged 93K (6 d) · Z1 118K (3 d). Idle cub 362K is a different game (Space Rock Breaker) | BEST. First-person asteroid mining, ore → upgrades/ship guns. Mac build listed, Windows in CrossOver also fine. Publish before the 24 Nov launch |
+| **My Dirty Little Lake** — https://store.steampowered.com/app/5375170 (demo 5426290) | Full game out Mon 16 Nov ($4.24, 80% of 45); free demo listed — check it still downloads | Launch window passed (~3 days); English almost empty | English: Fun Under Five 11K (2 d), Shirlz 12 (7 h), no-commentary 52. JP 20K + 15K + 20K, RU MOBIK 20K (20 h) | Option 2. Cozy lake cleanup, net upgrades. Short game (others ran 37–44 min) → may be under 60 min |
+| **Super Hole** — https://store.steampowered.com/app/4868890 (demo 4888610) | Free demo since 19 Sep; full game Q4 2026 | RE_WAVE (big wave 1 month ago) | IdleAlex (803 subs) 10.9K in 34 h. Old: GrayStillPlays 616K, Azrilich 64K, PyarSM 8.9K, LadyShelab 5.9K (all 1 mo). Search full of Hole.io / other hole games | Option 3, weakest. Hole collects farm goods → cards, shop, upgrades |
+
+Dropped: Round and Round Inc. (Idle cub 139K in 13 h, but the demo did not open in CrossOver on 8 Nov — retest only if he wants), Don't Drain the Lake (no demo), Here Comes the Horde / Booster Pack Heroes / Melvor Idle 2 (paid), MoSimulator (robotics sim, not niche), Drink the Ocean (used).
+
 ### /pick-game, Wed 11 Nov 2026 ~1:40 PM Dhaka (Steam new/popular/demos/playtest scan + vidIQ 48-h YouTube scan + Chrome check)
 
 Fresh result: no free launch or live playtest ≤ 48 h in our tags (playtest scan: 0 announcements in 7 days, 40 coming-soon games). One **non-English YouTube wave ≤ 48 h old** on a free zombie demo → pick. Dropped: Into the Planet's Flesh (ViteC RU 99K on 10 Nov, but old big coverage: CG Grows 682K, GrayStillPlays 415K, Blitz 71K → not fresh), Empty The Lake! (paid, 28% reviews), What the Buck?! / Potato Please / Booster Pack Heroes / Can 'Em All / Hamstr Protocol (paid, no-buy rule).
