@@ -152,7 +152,7 @@ export const tools: ToolDef[] = [
     name: "wave_scan",
     title: "Game wave scan",
     description:
-      "For /pick-game: runs several YouTube searches (default 7: incremental, idle, satisfying upgrades, zombie, survivor, browser game, free game) for the last 48 h, groups every video by GAME and judges each wave: OPEN (first English signal ≤ 48 h, ≤ 5 English long videos, no big channel yet), CROWDED, OLD or NO_ENGLISH_SIGNAL, with hours since the English wave started. Also lists signal videos whose game name it could not find (open them!). ~102 units per search (≈714 for the default list), 0 for searches cached in the last 2 hours. Use estimate_only first. Estimates; confirm the pick in Chrome.",
+      "For /pick-game: runs several YouTube searches (default 7: incremental, idle, satisfying upgrades, zombie, survivor, browser game, free game) for the last 48 h, groups every video by GAME and labels each wave (labels, not filters): OPEN (first English signal ≤ 48 h, ≤ 5 English long videos, no big channel yet), CROWDED (proven demand), OLD (+ re_wave when new English signal videos are in the window) or NO_ENGLISH_SIGNAL, with hours since the English wave started. Shortlist = up to 3 live English waves, hottest first; history check on those 3 by default. Also lists signal videos whose game name it could not find (open them!). ~102 units per search (≈714 for the default list), 0 for searches cached in the last 2 hours. Use estimate_only first. Estimates; confirm the pick in Chrome.",
     schema: waveScanInput,
     run: waveScan,
   },

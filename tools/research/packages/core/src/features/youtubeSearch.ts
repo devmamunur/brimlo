@@ -290,10 +290,10 @@ export const waveScanInput = z.object({
   queries: z.array(z.string().min(2)).min(1).max(12).default(DEFAULT_WAVE_QUERIES).describe("Searches to run. Each costs ~102 units (0 if run in the last 2 hours)"),
   hours: z.number().int().min(6).max(24 * 14).default(48).describe("Window. 48 = the Brimlo launch/wave window"),
   duration: z.enum(["any", "medium", "long"]).default("long"),
-  min_outlier: z.number().min(0).default(3).describe("A video counts as a wave signal at outlier_score ≥ N (or very high views per hour on a small channel)"),
+  min_outlier: z.number().min(0).default(2).describe("A video counts as a wave signal at outlier_score ≥ N (or very high views per hour on a small channel)"),
   gaming_only: z.boolean().default(true).describe("Search only the YouTube Gaming category"),
   include_live: z.boolean().default(false),
-  history_check: z.number().int().min(0).max(15).default(10).describe("Up to N OPEN/CROWDED candidates (all of them by default), search the game name with NO time limit (~102 units each) to find when the English wave really started and how many English videos exist in total. A 48-h search alone cannot see older videos"),
+  history_check: z.number().int().min(0).max(15).default(3).describe("For the top N candidates with a live English wave (the shortlist size by default), search the game name with NO time limit (~102 units each) to find when the English wave really started and how many English videos exist in total. A 48-h search alone cannot see older videos"),
   limit: z.number().int().min(1).max(40).default(15),
   estimate_only: z.boolean().default(false),
   refresh: z.boolean().default(false),
@@ -318,6 +318,8 @@ export interface WaveGame {
   inside_48h: boolean;
   crowded: boolean;
   status: "OPEN" | "CROWDED" | "OLD" | "NO_ENGLISH_SIGNAL";
+  /** OLD by history, but English signal videos in the window: a second wave (e.g. Diversion, 14 Nov 2026). A label, not a drop. */
+  re_wave: boolean;
   /** Filled by the history check (all time, not only the window). */
   history?: { checked: boolean; english_long_videos_all_time: number; first_english_signal_days_ago: number | null; oldest_english_video_days_ago: number | null; biggest_english_channel_subs: number; note: string; possible_name_clash: { title: string; channel: string; channel_subs: number; views: number; days_ago: number | null; url: string }[] };
   top: Pick<SearchRow, "title" | "channel" | "channel_subs" | "views" | "age_hours" | "outlier_score" | "views_per_hour" | "language" | "url">[];
@@ -387,6 +389,7 @@ export function groupWaves(rows: (SearchRow & { query: string })[], minOutlier: 
       english_wave_age_hours: firstEnglish,
       inside_48h: inside,
       crowded,
+      re_wave: false,
       status: firstEnglish === null ? "NO_ENGLISH_SIGNAL" : !inside ? "OLD" : crowded ? "CROWDED" : "OPEN",
       top: [...list]
         .sort((a, b) => b.views - a.views)
@@ -450,8 +453,13 @@ export function judgeHistory(g: WaveGame, rows: SearchRow[], minOutlier: number,
   } else history.note = `Fresh: ${en.length} English long videos of this game in total, first signal ${days(firstSignalH) ?? "-"} days ago.`;
   if (olderWeak.length) history.note += ` ${olderWeak.length} older video(s) share the name but may be a different game (name clash) — check in Chrome.`;
   const firstH = Math.max(firstSignalH ?? 0, g.english_wave_age_hours ?? 0);
-  return { ...g, status, english_wave_age_hours: firstH || g.english_wave_age_hours, inside_48h: status !== "OLD" && g.inside_48h, crowded: status === "CROWDED", history };
+  const reWave = status === "OLD" && g.inside_48h;
+  if (reWave) history.note += " But English signal videos are in the window now: a re-wave (label, not a drop).";
+  return { ...g, status, re_wave: reWave, english_wave_age_hours: firstH || g.english_wave_age_hours, inside_48h: status !== "OLD" && g.inside_48h, crowded: status === "CROWDED", history };
 }
+
+/** A game with English signal videos in the scan window right now (OPEN, CROWDED or a re-wave). Status is a label, not a drop. */
+const isLive = (g: WaveGame) => g.status === "OPEN" || g.status === "CROWDED" || g.re_wave;
 
 export async function waveScan(input: z.infer<typeof waveScanInput>, deps: Deps = {}): Promise<Envelope> {
   const i = waveScanInput.parse(input);
@@ -486,8 +494,8 @@ export async function waveScan(input: z.infer<typeof waveScanInput>, deps: Deps 
   const grouped = groupWaves(rows, i.min_outlier, i.hours);
   let games = grouped.games;
   const unknown = grouped.unknown;
-  // history check: every OPEN/CROWDED candidate (OPEN first), up to history_check
-  const candidates = games.filter((g) => g.status === "OPEN" || g.status === "CROWDED");
+  // history check: the hottest live candidates first, up to history_check
+  const candidates = games.filter(isLive).sort((a, b) => b.english_views_per_hour - a.english_views_per_hour);
   const toCheck: WaveGame[] = [];
   for (const g of candidates) {
     if (toCheck.length >= i.history_check) break;
@@ -502,10 +510,9 @@ export async function waveScan(input: z.infer<typeof waveScanInput>, deps: Deps 
       if (e instanceof Error && /quota/i.test(e.message)) break;
     }
   }
-  // fill the shortlist from checked games first; refill if the check pushed some out
-  const rank = { OPEN: 0, CROWDED: 1, NO_ENGLISH_SIGNAL: 2, OLD: 3 } as const;
-  games.sort((a, b) => rank[a.status] - rank[b.status] || Number(Boolean(b.history)) - Number(Boolean(a.history)) || b.english_views_per_hour - a.english_views_per_hour);
-  const open = games.filter((g) => g.status === "OPEN");
+  // live English waves first, hottest first; status is only a label
+  games.sort((a, b) => Number(isLive(b)) - Number(isLive(a)) || b.english_views_per_hour - a.english_views_per_hour);
+  const live = games.filter(isLive);
   const warnings = warningsFor(source);
   if (failed.length) warnings.push(`Some searches failed: ${failed.join(" | ")}`);
   if (unknown.length) warnings.push(`${unknown.length} signal videos have no game name found. Open them (description / first minute) — a hit game can hide here.`);
@@ -515,14 +522,14 @@ export async function waveScan(input: z.infer<typeof waveScanInput>, deps: Deps 
       window_hours: i.hours,
       queries,
       rules:
-        "status OPEN = first English signal video ≤ window AND ≤ 5 English long videos AND no English long video from a channel over 100K. CROWDED = inside the window but many/big English videos. OLD = first English signal older than the window. Signal = ≥ 1,000 views AND (outlier_score ≥ min_outlier, or a channel under 50K with ≥ 300 views/hour). All scores are estimates. Only searched videos are seen: always confirm the pick with the real YouTube search in Chrome.",
-      shortlist_note: "Up to 3 OPEN games by wave numbers only (English views per hour). Claude still runs the quality gate (free/owned, niche, runs in CrossOver/Chrome) before calling one BEST.",
-      shortlist: games.filter((g) => g.status === "OPEN").slice(0, 3).map((g) => ({ game: g.game, history_checked: Boolean(g.history), english_wave_age_hours: g.english_wave_age_hours, english_long_videos: g.history?.english_long_videos_all_time ?? g.english_long_videos, link: g.link })),
+        "Status is a LABEL, not a filter. OPEN = first English signal video ≤ window AND ≤ 5 English long videos AND no English long video from a channel over 100K. CROWDED = inside the window but many/big English videos (= proven demand). OLD = first English signal older than the window; re_wave = OLD but new English signal videos in the window now. Signal = ≥ 1,000 views AND (outlier_score ≥ min_outlier, or a channel under 50K with ≥ 300 views/hour). All scores are estimates. Only searched videos are seen: always confirm the pick with the real YouTube search in Chrome.",
+      shortlist_note: "Up to 3 games with a live English wave (OPEN, CROWDED or re-wave), hottest first (English views per hour). Claude runs the hard gates (free/owned, niche, runs, not used) before calling one BEST.",
+      shortlist: live.slice(0, 3).map((g) => ({ game: g.game, label: g.re_wave ? "RE_WAVE" : g.status, history_checked: Boolean(g.history), english_wave_age_hours: g.english_wave_age_hours, english_views_per_hour: g.english_views_per_hour, english_long_videos: g.history?.english_long_videos_all_time ?? g.english_long_videos, link: g.link })),
       history_note: i.history_check ? `History checked for the top ${toCheck.length} candidates. Games without 'history' were only seen in the ${i.hours}-h window: run wave_scan again with more history_check or check them in Chrome.` : "No history check: a game can look fresh but have older videos.",
       games: games.slice(0, i.limit),
       unknown_game_signals: unknown.slice(0, 10).map((r) => ({ title: r.title, channel: r.channel, channel_subs: r.channel_subs, views: r.views, age_hours: r.age_hours, outlier_score: r.outlier_score, language: r.language, url: r.url, description_start: r.description_start })),
     },
-    summary: `Wave scan (${queries.length} searches + ${toCheck.length} history checks, last ${i.hours} h): ${games.length} games with signals, ${open.length} OPEN${open.length ? `: ${open.slice(0, 3).map((g) => `${g.game} (wave ${g.english_wave_age_hours} h, ${g.history ? `${g.history.english_long_videos_all_time} EN long all time` : "history not checked"})`).join("; ")}` : ""}. ${unknown.length} signal videos without a game name.`,
+    summary: `Wave scan (${queries.length} searches + ${toCheck.length} history checks, last ${i.hours} h): ${games.length} games with signals, ${live.length} with a live English wave${live.length ? `: ${live.slice(0, 3).map((g) => `${g.game} [${g.re_wave ? "RE_WAVE" : g.status}] (wave ${g.english_wave_age_hours} h, ${g.history ? `${g.history.english_long_videos_all_time} EN long all time` : "history not checked"})`).join("; ")}` : ""}. ${unknown.length} signal videos without a game name.`,
     source,
     fetched_at: now.toISOString(),
     cached: allCached,
