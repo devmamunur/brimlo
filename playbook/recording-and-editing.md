@@ -24,6 +24,7 @@ Why: on Tue 17 Nov 2026 at 22:51 the display went to sleep (Mac display sleep = 
 3. Play the game: the **macOS Audio Capture** bar must move in the Audio Mixer.
 4. Record 10 seconds with game sound playing, stop, then run: `python3 tools/obs-check/check.py --last`. You need two ✅ (voice + game sound).
 5. Record for real. After it ends, run `--last` again to check the full file before you edit.
+6. Done recording for the day: run `python3 tools/obs-check/check.py --stop`. Without this, the display stays on for the full 5 hours, even after you choose Sleep (you only see the lock screen).
 
 If the display sleeps anyway, or you change monitors: **quit and reopen OBS**. Re-selecting the display brings back the video only, not the game sound.
 

@@ -11,6 +11,7 @@ Usage:
   python3 tools/obs-check/check.py           # before recording: check OBS + keep display awake 5 h
   python3 tools/obs-check/check.py --file X  # after recording: check video + both audio tracks of X
   python3 tools/obs-check/check.py --last    # same, for the newest recording
+  python3 tools/obs-check/check.py --stop    # done for the day: let the display sleep again
 """
 import argparse
 import glob
@@ -58,6 +59,12 @@ def keep_awake(hours=5):
     subprocess.Popen(["caffeinate", "-d", "-i", "-t", str(hours * 3600)],
                      stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, start_new_session=True)
     print(f"{OK} Display will stay awake for {hours} hours (caffeinate).")
+    print("   When you finish recording: python3 tools/obs-check/check.py --stop")
+
+
+def stop_awake():
+    subprocess.run(["pkill", "-f", "caffeinate -d -i -t"], capture_output=True)
+    print(f"{OK} Keep-awake stopped. The display and Mac can sleep normally again.")
 
 
 def mean_db(path, track, start, dur=60):
@@ -108,7 +115,11 @@ def main():
     ap.add_argument("--file")
     ap.add_argument("--last", action="store_true")
     ap.add_argument("--hours", type=int, default=5)
+    ap.add_argument("--stop", action="store_true")
     a = ap.parse_args()
+    if a.stop:
+        stop_awake()
+        return
     if a.file or a.last:
         path = a.file or newest(os.path.join(REC_DIR, "*.mov"))
         if not path:

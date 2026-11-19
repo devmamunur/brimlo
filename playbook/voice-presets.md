@@ -100,7 +100,10 @@ Q: Band 2 and 5 = 0.8 (gentle shelf), Band 3 and 4 = 1.0.
 | Audio | 48 kHz, stereo. Global audio devices disabled (sources used instead) |
 | Advanced | NV12, Rec.709, Limited (standard) |
 | Mic "Audio Input Capture" (FIFINE AmpliGame AM8, USB) | Track 1 only, **Mono**, fader -5 dB |
-| Mic filters | Noise Suppression (**RNNoise**) → **Limiter -3 dB** |
+| Mic filters | Noise Suppression (**RNNoise**) → **Noise Gate** → **Limiter -3 dB** (release 60 ms) |
+| Noise Gate (set + tested Tue 17 Nov 2026) | Close **-41 dB** · Open **-31 dB** · Attack 25 ms · Hold **250 ms** · Release 150 ms. Test: mouth breaths fully silent; normal and soft talk pass; a real whisper is cut (fine, don't whisper on camera). Normal voice peaks about -23 to -30 dB. Breaths come through → raise both by 3 dB. Soft words cut → lower both by 3 dB. OBS default (-26/-32) cut soft words, so don't use it. |
+| Mic gain knob (AM8) | About **50%**, mouth 4–6 inches from the top foam end, mic tilted a little to the side |
+| Old recordings (before the gate) | Resolve → Fairlight → Mixer → A1 **Dynamics** → Expander/Gate on, Gate mode, threshold about **-40 dB** |
 | Game "macOS Audio Capture" | Desktop Audio Capture (all Mac sound), Track 2 only, fader -10 dB, no filters |
 | Screen "Left Display Full" | No audio tracks |
 
