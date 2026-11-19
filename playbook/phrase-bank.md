@@ -182,13 +182,11 @@ Stay positive. Never complain about your luck.
 
 ## Part 10: Talking to viewers
 
-- If you like watching numbers go up, subscribe.
-- I finish a new game every few days.
+- Look at this.
 - What would you buy here? Tell me in the comments.
-- Which game should I play next?
 - You suggested this game, so thank you.
-- Let me explain this part. It's important.
 - So how does this work? When you [do X], you get [Y].
+- Want to see how big I get? Subscribe and stay with me. *(only after the first big upgrade, ~5–10 min, never in the first 5 min)*
 
 ## Part 11: Calm jokes for any game
 
@@ -213,24 +211,18 @@ Say them slowly, as if they are normal. Use one or two in each video.
 
 ## Part 12: Starting and ending
 
-**Starting. Say it while you are already playing:**
+**Starting = Reason → Goal → Go.** Say it while you are already playing. Full rules: [hooks-and-scripts.md](hooks-and-scripts.md).
 
-- So, [strange thing that happened to me].
-- Now I have to [the game's job].
-- I start with only [one] [thing].
-- The goal is simple: [get all of them].
-- You rest. I'll [the game's job].
-- Okay, let's start.
+- **Reason:** [Silly thing that happened to me]. *("My grandpa left me his old shop." / "I was locked in a room with a giant pile of hay.")*
+- **Goal:** So, to [get out / fix it], I have to [goal with a number].
+- **Go:** Right now I have only [one tiny tool]. Let's get [verb]-ing.
+- **Backup (no story fits):** There are [1,000,000 coins] here. I'm going to get every single one.
 
-**Don't say these in the first 2 minutes:** "Hello, welcome" · "Today I'm going to…" followed by a tour · "What is this?" about a menu · reading upgrade or story text.
+**Don't say these in the first 2 minutes:** "Hello, welcome" · "This is the game named…" · the goal twice · reading the store page · a map or menu tour · "What is this? Maybe…" with no action.
 
-**Ending:**
+**Ending (4 lines, good part only):**
 
-- So that's it for this game.
-- The best part is [X]. The weak part is [Y].
-- If you like [X], try this one.
-- It's free on Steam. The link is in the description.
-- Thanks for watching.
-- You've done enough today. Rest well.
-- You rest. I'll keep going.
-- See you in the next one.
+- And that's it! I was just [tiny start]. And look at me now. [Result with numbers].
+- My favorite part? [X].
+- If you like calm games where something small gets really big, you'll like this one.
+- Thanks for watching. See you next time.

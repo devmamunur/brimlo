@@ -3,8 +3,8 @@
 The format for every Brimlo recording script. `/script` and `/new-video` copy this into the video file's "Recording script" section and fill it for one game.
 
 - Filled examples (approved by Mamunur): [examples/](examples/). Copy their **shape and English level**, never their lines or jokes.
-- Simple-word rules: [../hooks-and-scripts.md](../hooks-and-scripts.md) → "Simple words".
-- Format approved Fri 6 Nov 2026.
+- Rules: [../hooks-and-scripts.md](../hooks-and-scripts.md) ("The start: Reason → Goal → Go", "The loop", "Simple words").
+- Format approved Fri 6 Nov 2026. Start, first 2 minutes and subscribe line updated Thu 19 Nov 2026 ([5-minute study](../../research/reports/2026-11-19-first-5-minutes/README.md)).
 
 ## How to fill it
 
@@ -23,9 +23,9 @@ Simple words only. Short lines. Say them slowly. Small mistakes are fine.
 
 ### The story of this video
 
-*3–5 short lines. Me, a small problem, a big end. Always first person: I am the one in the game. No named character (Mamunur, 8 Nov 2026).*
+*3–5 short lines. Me, a silly reason, a big end. Always first person: I am the one in the game. No named character (Mamunur, 8 Nov 2026). The reason here becomes Line 1 of the start.*
 
-I'm [tiny thing / alone in a place]. [Problem: who/what is against me]. I'm small, but I want to be big. At the end, [big result]. Calm and kind.
+[Silly thing that happened to me]. So I have to [goal with a number]. Right now I have [tiny tool]. At the end, [big result]. Calm and kind.
 
 ### Words you will use (with Bangla)
 
@@ -43,47 +43,44 @@ I'm [tiny thing / alone in a place]. [Problem: who/what is against me]. I'm smal
 2. Start a **new save**. [Naming screen: type **[Name]**.] Do this **before** OBS.
 3. Set graphics, sound and language now.
 4. Start OBS when [first gameplay screen] is on screen.
-5. **Don't read the help text** on screen. Just do it.
-6. Don't open the upgrade menu in the first 2 minutes.
+5. **Don't read the help text** or the store page. Just do it.
+6. Know your **first upgrade** (from the test play). Buy it before 1:30. Say its name once, then buy.
 7. Take screenshots: [start], [first big moment], [each goal], [the end].
 
-### Cold open (optional, for `/hook` after the edit — max 10 s)
+### The start: Reason → Goal → Go (0:00–0:15)
 
-Show the end: [late-game picture].
-Voice-over: "This was [tiny start]. [Time] later… [result]."
-
-### First 10 seconds (say this while you already play)
+*3 lines. Say them while you already play. Start the first action on line 2. Never "This is the game named…", never a tour. A new reason every video. Ideas: [../hooks-and-scripts.md](../hooks-and-scripts.md) → "Reason ideas". If no story fits, use the backup: goal + number.*
 
 | Time | On screen | Say |
 |---|---|---|
-| 0:00 | [Point the mouse at the start: me / my start object] | "I'm [tiny thing / alone in a place]." |
-| 0:03 | **[First action: click / dig / grow]** | "[The goal with a number from this game.]" |
-| 0:07 | [What changes on screen] | "[The big dream in one line.]" |
+| 0:00 | [Start screen, me / my tiny tool] | **Line 1 — reason:** "[Silly thing that happened to me]." |
+| 0:04 | **[First action: click / dig / drink]** | **Line 2 — goal:** "So, [to do X], I have to [goal with a number]." |
+| 0:09 | [Still doing the action] | **Line 3 — journey + go:** "Right now I have [tiny tool]. [Big thing later]. Let's get [verb]-ing." |
 
-### 0:10 – 0:30
+### First loop (0:15–1:30)
 
-> "Right now, I'm very small. At the end of this video, I will [result]. I'll play the whole game today, all the way to the end."
-> ([Action again.]) "[The main cost or rule in one sentence.] Let's go."
-
-### First 2 minutes (keep moving)
-
-Do something new every 15–20 seconds. Say one short line.
+Do → say the number → first upgrade → test it. Something new every 15–20 seconds.
 
 | When | Do | Say |
 |---|---|---|
-| First [resource] | [action] | "[short line]" |
-| First [build / buy] | [action] | "[short line]" |
-| First [blocker] | [what stops you] | "Oh no, [it]. I can't [do it]. Not yet." |
-| First [thing you can't use yet] | [see it] | "Hey, [thing]. We don't [use it]. …Not yet." |
+| First [resource / money] | [action] | "[X]. [short reaction]" |
+| **First upgrade (before 1:30)** | buy it | "[Upgrade in 2–3 words]. [What it does, simple]. Buying it." |
+| Test it | [action again] | "Before: [X]. Now: [Y]. Much better." |
+| First [blocker] | [what stops you] | "Oh no, [it]. I can't [do it]. …Not yet." |
 | First [bonus event, from the timing table] | [action] | "[short excited line]" |
 | If [bonus event] is late | [keep doing the main action] | "[calm filler line]" |
-| ~2:00 | [keep playing] | Subscribe line (below) |
 
 "Not yet" is a small promise. Later you pay it off with "Remember…?" (big moments table). This keeps people watching.
 
-### Subscribe line (~2:00)
+### The loop (1:30 → end)
 
-> "Want to see how big I get? Subscribe and stay with me."
+do → number → choose upgrade + **why** → buy → test → before/after → remind the goal. A short reaction every 20–30 s.
+
+- Goal reminder for this game: "[Still X to go / one day this will be Y]."
+
+### Subscribe line (after the first big upgrade, ~5–10 min, never in the first 5 min)
+
+> "Want to see [how big I get / if I can do X]? Subscribe and stay with me."
 
 *Keep it this short. No upload-plan sentence ("I finish a new game every few days" ✗).*
 
@@ -168,5 +165,6 @@ When things happened in their videos (your times will differ):
 | [big unlock] | | |
 | [ending] | | |
 
-What they did that we don't do: [e.g. "Welcome…", reading help text, reading the whole upgrade menu, stopping halfway].
+How they started (their first line) and how fast their first upgrade came: [channel: "…" · first upgrade at m:ss].
+What they did that we don't do: [e.g. "Welcome…", reading the store page, a map tour, reading the whole upgrade menu, stopping halfway].
 ```

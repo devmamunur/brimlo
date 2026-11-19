@@ -129,11 +129,7 @@ This means our "big gold hook text + before→after" house style needs a test. I
 
 ### A. Every video: the first 30 seconds (most important)
 
-1. **0:00** — Say the goal with a number, while already playing. Script:
-   > "There are [1 quadrillion carrots / 1 million coins] in this game. I'm going to get all of them. Let's go."
-2. **0:05** — Click / dig / shoot. No menus, no tour, no settings. Start the recording after the menus, or cut them.
-3. **0:20** — Show where it ends (Seabun style): "In one hour I'll have [X]. This is how I got there."
-4. Then the 10-second picture hook from `/hook` is **optional** — put it after the goal line, not before. (Guess: a still-picture intro before gameplay may make Browse viewers leave. Test it.)
+**Replaced on Thu 19 Nov 2026** by the [5-minute study](2026-11-19-first-5-minutes/README.md) (50 videos): start with **Reason → Goal → Go**, first action by 0:05, no menus or tour, no "this is how I got there" line, no cold open. Rules: [playbook/hooks-and-scripts.md](../../playbook/hooks-and-scripts.md).
 
 ### B. Every video: the edit
 
@@ -141,7 +137,7 @@ This means our "big gold hook text + before→after" house style needs a test. I
 2. Speed up grinding 4–8×, and say one live line before it: "Let me skip ahead a bit."
 3. Don't aim for a length. The length is whatever is left after the cuts. Long is fine if it stays busy (your rule: long videos are OK).
 4. Say the counter every few minutes: "We have 2 million now. Next goal: 1 billion."
-5. Say one subscribe line near minute 2: "If you like watching numbers go up, subscribe. I finish a new one every few days."
+5. Subscribe line: **after the first big upgrade (~5–10 min), never in the first 5 min**, no upload-plan sentence (replaced 19 Nov 2026, [5-minute study](2026-11-19-first-5-minutes/README.md)).
 6. One running joke per video. Plan it before recording. Simple English is fine (example: a name for your character, a "rival", or a sentence you repeat when something goes wrong).
 
 ### C. Titles: one steady formula (your own)

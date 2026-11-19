@@ -111,7 +111,7 @@ Our Quadrillion Carrots video: people who came from impressions watched **only 0
 
 | # | Copy this | How for Brimlo |
 |---|---|---|
-| 1 | **Start in second 0 with the goal + a number** | First line: "I have one knife. In 2 hours I want a minigun." No intro, no story text. |
+| 1 | **Start in second 0, already playing** | Replaced 19 Nov 2026: use **Reason → Goal → Go** ([5-minute study](2026-11-19-first-5-minutes/README.md)). "Goal + number" is now only the backup start. |
 | 2 | **Titles a stranger wants to click** | Put the result first, game name last: "I Pulled Carrots Until I Had a QUADRILLION \| Quadrillion Carrots Demo". New channel = we still need the game name for search, so keep it at the end. |
 | 3 | **Thumbnail: keep the house style, make it brighter** | Bright game colors, not dark navy. Big number on top when you **saw** the number in the video (our rule). One arrow. Before → after split. |
 | 4 | **Never stretch a short game** | Long videos stay (Mamunur, 25 Oct 2026). Play until the game is done or stops being fun; don't pad a 40-min game to 2 hours. |

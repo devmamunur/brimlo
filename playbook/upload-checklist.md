@@ -4,13 +4,13 @@ Run through this before every upload. After uploading, run `/publish`.
 
 ## Video
 
-- [ ] First sentence = the goal with a big number (cold open, if any, max 10 s)
-- [ ] Real gameplay by 0:05 (0:10 with a cold open)
-- [ ] No menus, story text or "what is this?" tour in the first 2 minutes
-- [ ] Subscribe line near 2:00
+- [ ] Start = Reason → Goal → Go (goal said once, in the first ~10 s)
+- [ ] Real gameplay by 0:05
+- [ ] No menus, store page, story text or "what is this?" tour in the first 2 minutes
+- [ ] Subscribe line after the first big upgrade (not before 5:00)
 - [ ] No silence longer than ~3 s; grind sped up or cut
 - [ ] Voice clear over game sound
-- [ ] Short honest verdict at the end
+- [ ] Ending = the 4 warm lines (good part only)
 
 ## Title
 

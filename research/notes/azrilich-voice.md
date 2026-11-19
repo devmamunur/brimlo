@@ -53,7 +53,7 @@ The story connects to the game's job. It is not random. The title often matches 
 
 ## Subscribe and ending
 
-- **Subscribe:** 9 of the 13 ask in the middle, between 1:10 and about 8 minutes. It comes quickly, then he goes back to the game.
+- **Subscribe:** (31 Oct) 9 of the 13 asked in the middle, between 1:10 and about 8 minutes. **Newer data (19 Nov 2026, [5-minute study](../reports/2026-11-19-first-5-minutes/README.md)):** only 1 of his 5 latest videos asks in the first 5 minutes (at 4:31). Brimlo rule: after the first big upgrade, never in the first 5 min.
 - **Ending:** short and plain. Often he reacts to the demo ending, asks if people want the full game, and then asks for a like and subscribe. No long review. In some videos he simply stops when the game stops.
 
 ## What Brimlo should copy

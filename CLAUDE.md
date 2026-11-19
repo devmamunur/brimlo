@@ -50,7 +50,7 @@ Full details: [channel/profile.md](channel/profile.md), [channel/strategy.md](ch
 | `games/backlog.md` · `checklist.md` | Owned/free/candidate games with run status · score a game before recording |
 | `playbook/titles.md` | **Title recipe by game type** + Brimlo title system P1–P7 + A/B/C title set + hand swaps |
 | `playbook/thumbnails.md` | **Thumbnail house style v3 + master prompt** (`thumbnail-examples/` = references) |
-| `playbook/hooks-and-scripts.md` · `phrase-bank.md` | First 15 seconds rules · simple sentences for live commentary |
+| `playbook/hooks-and-scripts.md` · `phrase-bank.md` | **Start = Reason → Goal → Go**, the upgrade loop, subscribe timing, ending, simple words (from the [5-minute study](research/reports/2026-11-19-first-5-minutes/README.md), 50 videos, 19 Nov 2026) · simple sentences for live commentary |
 | `playbook/script-card/` | **Script card format**: `template.md` (fill for every video) + `examples/` (approved cards, shape only) |
 | `playbook/upload-checklist.md` | Description format, chapters, tags, settings, after-publish steps |
 | `playbook/recording-and-editing.md` · `voice-presets.md` · `learn-davinci.md` | OBS, Resolve edit, audio presets, DaVinci learning list |
