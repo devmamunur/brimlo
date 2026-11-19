@@ -4,7 +4,9 @@ Update this every Sunday (`/weekly-review`) and after big events.
 
 ## Right now
 
-**Last updated:** Tue 17 Nov 2026 (Big Ice scheduled)
+**Last updated:** Wed 18 Nov 2026 (Shorts stopped)
+
+- **Shorts stopped Wed 18 Nov 2026.** 7 Shorts got ~1,170 views and 0 subscribers. Mamunur was not happy with the quality, so all 7 are now **Private** (not deleted). Long videos only from now on. Details: [plan/roadmap.md](../plan/roadmap.md).
 
 - **Big Ice scheduled Tue 17 Nov 2026, 2:30 PM Dhaka** ("I Found a Frozen MAMMOTH Inside a Mountain of Ice", 1:16:08, https://youtu.be/3skd_SKteAI). Playlist, subtitles and end screen set in Studio. Swap check Fri 20 Nov; 7-day results Tue 24 Nov. Subs: 6. Next: one game, picked fresh (`/pick-game`).
 

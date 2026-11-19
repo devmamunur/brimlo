@@ -108,6 +108,9 @@ describe("judgeHistory", () => {
     const j = judgeHistory(g, hist, 3, 48);
     expect(j.status).toBe("OLD");
     expect(j.history!.first_english_signal_days_ago).toBe(8);
+    // new English signal in the window → a re-wave label, not a drop
+    expect(j.re_wave).toBe(true);
+    expect(j.history!.note).toMatch(/re-wave/);
   });
   it("does not mark OLD for a different game with the same name (Roblox / other link)", () => {
     const chans = new Map([["a", ch("a", 28_700, 28_700 * 5)], ["r", ch("r", 5_950_000, 5_950_000 * 50)]]);

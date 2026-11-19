@@ -50,7 +50,9 @@ The targets below are **guesses** for a brand-new channel. Replace them with you
 - If one format clearly wins → 4 videos/week of it.
 - Developer relationships: after 5–10 incremental videos, ask developers for early keys ("Early creator preview" titles broke out for Nerfed Reflexes).
 - Live streams: skip for now (US prime time = 5–8 AM Dhaka).
-- Shorts: optional for discovery only; they don't count toward watch hours.
+- **Shorts: STOPPED (Mamunur, Wed 18 Nov 2026).** Brimlo is a long-video channel. Do not suggest Shorts in plans, /today or after-publish steps. Only Mamunur can restart them.
+  - **Result (Studio, 18 Nov 2026):** 7 Shorts, ~1,170 views, **0 subscribers**, no related-video clicks seen; stayed to watch 21–40% (Mycelarium 60.5%). Mamunur was not happy with the quality → all 7 set to **Private** (not deleted) on 18 Nov 2026.
+- **TikTok + Instagram clips (Mamunur, Wed 18 Nov 2026):** goal = grow an audience on those apps (clicks to YouTube are a bonus, not the target). Clips are cut by AI, so almost no time cost. TikTok main, same clean file on Instagram Reels (never a TikTok-watermarked file). Same name/look: @BrimloIdle, gold bag logo, "You rest. I'll keep going." Clip rules: 30–45 s, biggest moment in the first second, one story (Mycelarium Short = model, 60.5% stayed). Watch each clip once before posting. Long videos always come first. Check after 4 weeks (Wed 16 Dec 2026): followers + average watch time; nothing grows → stop. Mamunur creates the accounts himself.
   - **Test (Mamunur, 12 Nov 2026):** 1 Short per hit video only — I Am Plague, Outbreak Z, Seabun, Ant Mill Inc, Mycelarium. 30–45 s of the best moment, "Related video" set to the full video, post 1 a day, never instead of a long video. Check Thu 26 Nov 2026 (subs + related-video clicks per Short); ~10+ subs from all 5 (guess) → make more, else stop.
 
 

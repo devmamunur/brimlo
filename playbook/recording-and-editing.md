@@ -52,13 +52,13 @@ Storage: ~5.4 GB per recorded hour at H.264 12000 Kbps (~4.5 GB/h at HEVC 10000 
 New to Resolve? Watch the short video list in [learn-davinci.md](learn-davinci.md) first (~50 min, only what we need).
 
 1. Import. Markers appear on the clip.
-2. **Cut the first 2 minutes hard** (see "The first 2 minutes rule" in [hooks-and-scripts.md](hooks-and-scripts.md)). Remove every menu, settings screen, language screen, story text and "what is this?" tour before the first real action. The video must start on gameplay plus the goal line.
+2. **Cut the first 2 minutes hard** (see "The start: Reason → Goal → Go" in [hooks-and-scripts.md](hooks-and-scripts.md)). Remove every menu, settings screen, language screen, story text, store page and "what is this?" tour before the first real action. The video must start on gameplay plus your reason line.
 3. **Cut:** loading screens, menus, mistakes, and **every silence longer than ~3 seconds**, in the whole video. Winners have no gaps; our videos had 9–20 gaps each (28 Oct review). You don't need to talk faster. Just remove the quiet parts.
 4. **Speed up the grind and idle waits** 4x–16x and add a small "x8" label. Say "Let me skip ahead a bit" live before it. Never leave minutes of silent waiting (monetization risk).
-5. **Cold open (optional):** run `/hook` with 4–5 timecodes of the best moments. It builds a 10 s picture hook (stills, zoom, dissolves, gold text) and gives you a short voice-over script to record on Audio 1. **Max 10 s.** The voice-over must say the goal with a number. Right after it: gameplay, not a menu.
+5. **Cold open (optional, usually skip):** none of the 50 videos in the 5-minute study use one (19 Nov 2026). If you want something, use `/hook` mode A (a ~2 s gold text pop over your goal line). Max 10 s, gameplay right after.
 6. Audio: Fairlight → Presets Library → apply **Brimlo Voice B Warm** to Audio 1 and **Brimlo Master** to Bus 1 (see [voice-presets.md](voice-presets.md)). Check A2 (game) is not muted. Voice clear over game sound (lower the game track if needed).
 7. Write chapters from your markers.
-8. **First 2 minutes check before export:** watch 0:00–2:00 once. ✅ The goal with a number is in the first sentence. ✅ The first real action is by 0:05 (0:10 with a cold open). ✅ No menu, no reading aloud, no tour. ✅ The subscribe line is near 2:00. If any check fails, cut more.
+8. **First 2 minutes check before export:** watch 0:00–2:00 once. ✅ Reason → goal in the first ~10 s, said once. ✅ The first real action is by 0:05. ✅ No menu, no store page, no tour. ✅ First upgrade before ~1:30. ✅ No subscribe line before 5:00. If any check fails, cut more.
 9. Export: render preset **Brimlo YouTube** (YouTube loudness -14 LUFS): QuickTime, **H.265, Quality "Restrict to" 12000 Kb/s**, hardware acceleration on (updated Mon 9 Nov 2026; before it was H.264 "Automatic" = ~24 Mbps, 16 GB for 89 min, bigger file with no extra quality). ~8.5 GB for 79 min. **Before you render, check the timeline frame rate matches the recording** (Deliver → Frame rate line). Wait, They Can Climb?! was recorded at 30 fps but "New Project 6" timeline is 24 fps.
 
 10. **Mascot (test phase, 13 Nov 2026):** after `/finish-video`, run `/add-mascot` on this export and upload the "- mascot.mov" file. Guide: [mascot.md](mascot.md).

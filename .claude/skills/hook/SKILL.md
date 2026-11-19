@@ -6,15 +6,17 @@ argument-hint: "[game or videos/ file] [timecodes]"
 
 # /hook
 
-Mamunur edits the hook himself first; this skill is the backup (28 Oct 2026). Follow "The first 2 minutes rule" in `playbook/hooks-and-scripts.md`: the hook is **max 10 s**, the goal with a number is said in it, and real gameplay follows right after (no menus).
+Mamunur edits the hook himself first; this skill is the backup (28 Oct 2026). Follow "The start: Reason → Goal → Go" in `playbook/hooks-and-scripts.md`: the hook is **max 10 s**, and real gameplay follows right after (no menus).
+
+**Update Thu 19 Nov 2026 ([5-minute study](../../../research/reports/2026-11-19-first-5-minutes/README.md), 50 videos):** none of the top niche videos use a cold open, a clip preview or a picture intro. They start straight on gameplay with a story line. So: **mode A (text pop over his goal line) is the only recommended mode.** Use B or C only if Mamunur asks for them by name.
 
 ## 0. Pick the mode (ask him if he didn't say)
 
 | Mode | What it is | When | Steps |
 |---|---|---|---|
-| **A — Text pop** (simplest, default) | The video starts on gameplay with his goal sentence; a big gold text ("1,000,000 TREES") pops on screen for ~2 s | Every video, as the minimum | Section 7 |
-| **B — Clip preview** | A 10 s preview of 3–4 **real video clips** from the end (2.5–3.3 s each), slow zoom, short dissolves, optional gold text, then his line "This is how I got there", then the start | When the end looks very different from the start (bald planet, boss, huge numbers) | Section 8 (uses sections 1–4 for setup) |
-| **C — Still pictures** (original, tested with Seabun) | 4–5 frozen frames with zoom, dissolves and gold text + voice-over | When short clips look too busy | Sections 1–6 |
+| **A — Text pop** (simplest, default, the only recommended mode) | The video starts on gameplay with his goal sentence; a big gold text ("1,000,000 TREES") pops on screen for ~2 s | Every video, as the minimum | Section 7 |
+| **B — Clip preview** (only if he asks) | A 10 s preview of 3–4 **real video clips** from the end (2.5–3.3 s each), slow zoom, short dissolves, optional gold text, then his line "This is how I got there", then the start | When the end looks very different from the start (bald planet, boss, huge numbers) | Section 8 (uses sections 1–4 for setup) |
+| **C — Still pictures** (only if he asks; tested with Seabun) | 4–5 frozen frames with zoom, dissolves and gold text + voice-over | When short clips look too busy | Sections 1–6 |
 
 Modes A and B were written on 28 Oct 2026 and are **not tested yet** on his Mac. Go slowly: check after every step, and Undo if something looks wrong. Write what worked back into this file.
 

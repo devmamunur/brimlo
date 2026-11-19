@@ -6,28 +6,20 @@ argument-hint: "[game name or title to review]"
 
 # /titles
 
+All title rules live in `playbook/titles.md`. This skill is only the steps; do not repeat rules here.
+
 ## Steps
 
-1. Read `playbook/titles.md`, `playbook/thumbnails.md`, and the last 5 rows of `videos/log.md` (plus the "Title test log" in titles.md if it has data — prefer winning templates).
-2. Understand the game and **fill the title card** in `playbook/titles.md` → "Title recipe by game type": game name, **game type row**, concept in one line, hot right now (launch/playtest or YouTube wave ≤ 48 h?), core fact. Sources: the video file in `videos/`, `games/backlog.md`, the Steam page (`brimlo_steam_game`).
-3. Write **6 titles** with the **Brimlo title system** in `playbook/titles.md`, using the **winning hook of the game type row** first (patterns P1–P7), at least 3 different patterns. For each: pattern + one-line reason. Game name only as the row says (survivor/horde/action or launch day: at the end after " | " or " - ", or inside the sentence; never first). Never "Demo" or "incremental" in the title. Title Case, 30–55 characters. Only facts that really happen in the video (ask or check the transcript if it is recorded).
-4. **Score all 6 with `brimlo_score_title`** (free, no quota; pass up to 5 titles per call, so call twice or score your best 5). Use the `keyword` argument if the video has a target keyword. Keep the real score and the top fixes. Then output the **A/B/C test set** (see `playbook/titles.md` → "A/B/C test set"): A = best pick (the live title), B and C = test titles, **each a different pattern**, in one code block he can paste into Studio → A/B Testing, plus one line per title (pattern + why). The score is a checklist from `playbook/titles.md`, not a prediction of views: say so, and trust the playbook and the title test log over a 5-point difference.
-5. Give **2 thumbnail concepts** in **house style v3** from `playbook/thumbnails.md` (2D cartoon, POV hands in navy sleeves with a gold cuff **doing the job**, one big object close up, background full of the game world/resource, **no text by default**; text only for a true progress number or an in-game word, never the title's words; which screenshot). **No inset boxes, no corner stamps, no "100%" badge for demos**, and no counts he did not read on screen. If he asks for an AI image prompt, give **one single filled master prompt including the AVOID (negative prompt) part** from `playbook/thumbnails.md`, and list the files to attach.
-6. If he gave a title to review: say what works, what to fix, and give a better version. Check against the Brimlo title system rules (the game type row's hook and name rule, P1–P7, never the game name first, no "incremental", Title Case with max one CAPS word, true to the video, **never the word "Demo" in a title** (put it in the description and tags), no creator names, short — aim 30–55 characters).
-7. If a video file exists, update its Titles section (the A/B/C set) + Thumbnail section.
-8. **Reply format:** always end with the A/B/C block, even for a title review (the improved title becomes A), then one line with the **playlist(s)** (exact names from `playbook/upload-checklist.md` → Settings; also fill the video file's Playlists row).
+1. Read `playbook/titles.md`, `playbook/thumbnails.md`, and the last 5 rows of `videos/log.md` (and the "Title test log" in titles.md — prefer shapes that won there).
+2. **Fill the title card** (titles.md → "Title recipe by game type"): game name, game type row, concept, hot right now (≤ 48 h?), core fact. Sources: the video file in `videos/`, `games/backlog.md`, the Steam page (`brimlo_steam_game`). Only facts that really happen in the video (check the transcript if it is recorded).
+3. Write **6 titles**: the game type row's winning hook first, at least 3 different patterns (P1–P7), game name only as the row says. **Every title must pass the 3 MUST checks** (titles.md → Rules, rule 4): a true number of 1,000,000+ in digits (only when the video reaches one; under 1,000,000 the number is not needed), one clear goal, 30–55 characters. Drop any title that fails.
+4. **Score all 6 with `brimlo_score_title`** (free; up to 5 per call). Note: the scorer still checks the old A–I templates, so its "template" part is out of date — use the score only to compare, never to pick. Cross-check the final 2–3 with `vidiq_score_title`. vidIQ scores click appeal, not honesty: never pick a title the video does not deliver.
+5. Output the **A/B/C title set** (titles.md → "A/B/C title set"): A = live title, B + C = **swap titles** for a hand swap after 2–3 days (no Studio A/B test), each a different pattern, in one code block, with one line per title (pattern + why).
+6. Give **2 thumbnail concepts** in house style v3 (`playbook/thumbnails.md`). If he asks for an AI image prompt, give one filled master prompt **including the AVOID part**, and list the files to attach.
+7. **Title review:** say what works and what to fix against titles.md → Rules (name rule, 3 MUST checks, hook first, Title Case, true to the video), then give a better version as A.
+8. If a video file exists, update its Titles (A/B/C) + Thumbnail sections and the **Playlists** row.
+9. **Reply format:** always end with the A/B/C block, then one line with the **playlist(s)** (exact names from `playbook/upload-checklist.md` → Settings).
 
-## Optional: what is winning in the niche (costs YouTube API units)
+## Optional: fresh shapes from the niche
 
-If he wants fresh shapes, run `brimlo_title_patterns` for the genre (about 102 units; quota can be used as needed, CLAUDE.md rule 2). Use the shapes, never the exact words.
-
-## vidIQ (the subscription runs until November 2026; use it freely for a cross-check on the final 2–3 titles)
-
-Use `vidiq_score_title` on the final titles. Do not count or report credits (see CLAUDE.md rule 2). **vidIQ scores click appeal, not honesty:** its suggestions often promise a "secret" or "broke the game" that the video never shows. Only pick a title the video really delivers (check the transcript or his notes). A 97 true title beats a 99 misleading one.
-
-## Rules
-
-- The title must match what the first 30 seconds and the thumbnail show.
-- Never copy another channel's exact title. Copy the shape.
-- Never include other creators' names.
-- Simple English words he can say out loud.
+`brimlo_title_patterns` for the genre (~102 units, CLAUDE.md rule 2) or `vidiq_outliers`. Use the shapes, never the exact words. Big-entertainment shapes (MrBeast "vs", "Win $X", "Every…") are only for a B swap test, never A (titles.md, 19 Nov 2026).

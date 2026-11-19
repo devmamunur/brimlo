@@ -16,7 +16,7 @@ This repo is the brain of the YouTube channel **Brimlo** (@BrimloIdle). It holds
 - Keep answers short and practical unless he asks for depth.
 - For anything about the present day (game releases, prices, YouTube policy, trends), **search first**. Do not trust memory.
 - When he asks something you already answered in a file, point to the file.
-- **Titles always come as an A/B/C set** (6 Nov 2026; changed 10 Nov 2026): whenever you write a title, description or script for a video, give 3 titles (A = live title, B + C = **swap titles**, each a different pattern) in one code block. **No Studio A/B test for now** (too few impressions to get a winner): go live with A, and if the video is weak after 2–3 days, swap to B by hand. Studio A/B tests only for videos with ~1,000+ impressions a week (older videos first). Rules: `playbook/titles.md` → "A/B/C title set". **Shorts use their own title rules** (16 Nov 2026): `playbook/titles.md` → "Shorts title system" (shapes S1–S4, 25–45 characters, no game name in the sentence, exactly 2 hashtags at the end: `#GameName #GenreTag`).
+- **Titles always come as an A/B/C set** (6 Nov 2026; changed 10 Nov 2026): whenever you write a title, description or script for a video, give 3 titles (A = live title, B + C = **swap titles**, each a different pattern) in one code block. **No Studio A/B test for now** (too few impressions to get a winner): go live with A, and if the video is weak after 2–3 days, swap to B by hand. Studio A/B tests only for videos with ~1,000+ impressions a week (older videos first). Rules: `playbook/titles.md` → "A/B/C title set". **Shorts are stopped (18 Nov 2026, all 7 set Private; see `plan/roadmap.md`)** — never suggest making Shorts. If he restarts them, they use their own title rules (16 Nov 2026): `playbook/titles.md` → "Shorts title system" (shapes S1–S4, 25–45 characters, no game name in the sentence, exactly 2 hashtags at the end: `#GameName #GenreTag`).
 - **Playlists always come with it** (6 Nov 2026): every title/description answer also says which playlist(s) to pick, using the exact names in `playbook/upload-checklist.md` → Settings (Incremental Games: Numbers Go UP · Satisfying Upgrade Games · Survivor-Like Games: Weak to OP · New Steam Demos Played to 100%). Save it in the video file's **Playlists** row. **Shorts never go in a playlist** (13 Nov 2026): a Short gets the long video as its Related video instead. The **end screen** uses the genre playlist (Best for viewer + genre playlist + Subscribe, same checklist).
 - Ask for his latest stats (views, watch time, subs, CTR, retention) when reviewing performance.
 
@@ -50,7 +50,7 @@ Full details: [channel/profile.md](channel/profile.md), [channel/strategy.md](ch
 | `games/backlog.md` · `checklist.md` | Owned/free/candidate games with run status · score a game before recording |
 | `playbook/titles.md` | **Title recipe by game type** + Brimlo title system P1–P7 + A/B/C title set + hand swaps |
 | `playbook/thumbnails.md` | **Thumbnail house style v3 + master prompt** (`thumbnail-examples/` = references) |
-| `playbook/hooks-and-scripts.md` · `phrase-bank.md` | First 15 seconds rules · simple sentences for live commentary |
+| `playbook/hooks-and-scripts.md` · `phrase-bank.md` | **Start = Reason → Goal → Go**, the upgrade loop, subscribe timing, ending, simple words (from the [5-minute study](research/reports/2026-11-19-first-5-minutes/README.md), 50 videos, 19 Nov 2026) · simple sentences for live commentary |
 | `playbook/script-card/` | **Script card format**: `template.md` (fill for every video) + `examples/` (approved cards, shape only) |
 | `playbook/upload-checklist.md` | Description format, chapters, tags, settings, after-publish steps |
 | `playbook/recording-and-editing.md` · `voice-presets.md` · `learn-davinci.md` | OBS, Resolve edit, audio presets, DaVinci learning list |
@@ -76,7 +76,7 @@ Mamunur often writes in plain English without a slash command. **Match his reque
 | "make the hook", "fix the first seconds", "intro", "cold open" | `/hook` |
 | "I uploaded", "I scheduled", "video is live", "I changed the title", a YouTube link | `/publish` |
 | "add the mascot", "mascot to [video]", "avatar", "mascot version" — **after export** | `/add-mascot` |
-| "make a short", "short from [video]", a final video file name + "short" | `/make-short` |
+| "make a short", "short from [video]", a final video file name + "short" | `/make-short` — **Shorts are stopped (18 Nov 2026)**: only if Mamunur asks himself; never suggest it |
 | a Studio edit link of a **Short**, "short title/description/tags", "fill the short in studio" | `/short-details` |
 | "weekly review", "check my stats", "how did my videos do", "why no views", Sunday | `/weekly-review` |
 | "check competitors", "analyze this channel", "find my gaps", "keyword research", "outliers" | agent `channel-analyst` (or do it inline for one quick channel) |
@@ -95,7 +95,7 @@ After a skill, keep the repo true (rule 1). Every title/description/script answe
 | Outliers in the niche | `brimlo_outliers` (query ~102 units, channels ~3 each), `vidiq_outliers` | |
 | Keywords | `brimlo_keyword_research`, `vidiq_keyword_research` | |
 | Title score (estimate) | `brimlo_score_title` (free), `vidiq_score_title` | |
-| Fresh game waves on YouTube (for /pick-game) | `brimlo_wave_scan` (7 searches, last 48 h, groups by game, OPEN/CROWDED/OLD, history check) · one search like vidIQ: `brimlo_youtube_search` | ~102 per search (≈700–1,700 a scan) |
+| Fresh game waves on YouTube (for /pick-game) | `brimlo_wave_scan` (7 searches, last 48 h, groups by game, labels OPEN/CROWDED/OLD/RE_WAVE — labels, not drops; history check on the top 3) · one search like vidIQ: `brimlo_youtube_search` | ~102 per search (≈1,000 a scan) |
 | Steam / itch game facts, demos, reviews | `brimlo_steam_game`, `brimlo_steam_discover`, `brimlo_steam_reviews`, `brimlo_itch_new` | free |
 | Read a web page | `brimlo_web_fetch` (robots.txt) → `playwright` MCP for JavaScript pages | free |
 | Read a recording | `tools/transcribe/run.sh "<path>" --game "<game>" --name <video-file-name>` (~5 min per hour; run in background) → `tools/transcribe/out/<name>/` | local |

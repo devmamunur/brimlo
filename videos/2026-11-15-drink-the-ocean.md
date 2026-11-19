@@ -392,7 +392,8 @@ Lesson: the small channel that won (KitGain, 187 subs, description full of typos
 
 | | |
 |---|---|
-| Status | scheduled (time set by Mamunur in Studio). Details filled 15 Nov 2026 |
+| Status | **private** (Wed 18 Nov 2026: all 7 Shorts set to Private in Studio — Shorts test stopped, Mamunur not happy with quality). Was: scheduled (time set by Mamunur in Studio). Details filled 15 Nov 2026 |
+| Result (Studio, 18 Nov 2026) | 136 views · stayed to watch 40.0% · 0 subscribers |
 | Link | https://youtube.com/shorts/c9-1CluQnRc |
 | File | `/Volumes/WD Black/Videos/da-vinci/shorts/2026-11-15-drink-the-ocean-short.mp4` |
 | Length | 1:14, 1080×1920, 30 fps, 1.1× speed, -13.9 LUFS, hook flash + 18 clips. First Short in style v2 (square game crop, word-by-word captions, push-in on 4 moments) |

@@ -2,7 +2,7 @@
 
 A frozen copy of an approved card. **Learn the shape and the English level from it. **Old rule:** it names the hero "Kevin". Since Sun 8 Nov 2026 the hero is always "I" (Mamunur), with no named character. Never copy its lines, hero name or jokes into another video.** Template: [../template.md](../template.md). Live file: [videos/2026-11-06-mycelarium.md](../../../videos/2026-11-06-mycelarium.md).
 
-Why it is good: a named hero with a small story ("Kevin" the mushroom), a goal with a number in the first 10 seconds, something new every 15–20 seconds in the first 2 minutes, "Not yet" promises paid off later, facts and timings from two real playthrough transcripts, a Bangla word list, very simple English.
+Why it is still good: "Not yet" promises paid off later, a running joke from the game's real events, score lines, facts and timings from two real playthrough transcripts, a Bangla word list, very simple English.
 
 ## Research block
 
@@ -78,47 +78,12 @@ Kevin is one tiny mushroom. The forest animals want to eat his mushrooms. Kevin 
 3. Set graphics and sound now.
 4. Start OBS when the small red mushroom is on screen.
 5. **Don't read the help text** on screen ("Eat salt to build nodes…"). Just do it.
-6. Don't open the upgrade menu in the first 2 minutes.
+6. Know the first upgrade and buy it before 1:30. *(updated 19 Nov 2026)*
 7. Take screenshots: the tiny mushroom, the first rain, the first tree eaten, each magic mushroom, the big map at the end.
 
-### Cold open (optional, for `/hook` after the edit — max 10 s)
+### Start, first 2 minutes, subscribe line — removed (Thu 19 Nov 2026)
 
-Show the end: Kevin's roots under the whole forest.
-Voice-over: "This was one tiny mushroom. Two hours later… look at him."
-
-### First 10 seconds (say this while you already play)
-
-| Time | On screen | Say |
-|---|---|---|
-| 0:00 | Move the mouse in a small circle around the small red mushroom | "This is Kevin. Kevin is one tiny mushroom." |
-| 0:03 | **Grow the first root** into the ground | "Under this forest, there are five magic mushrooms." |
-| 0:07 | Root goes down, food number goes down | "Kevin wants all five. Then he wants the whole forest." |
-
-### 0:10 – 0:30
-
-> "Right now, Kevin is very small. At the end of this video, his roots will be everywhere. I'll play the whole game today, all the way to the end."
-> (Grow again.) "Growing costs food. So first, let's find some food. Let's go, Kevin."
-
-### First 2 minutes (keep moving)
-
-Do something new every 15–20 seconds. Say one short line.
-
-| When | Do | Say |
-|---|---|---|
-| First water | Grow into the blue water | "Oh, water! Drink up, Kevin. Good boy." |
-| First salt | Grow into the white salt | "See this white stuff? That's salt. For Kevin, salt is food." |
-| First node | Click ADD NODE | "Okay, a new node. Now Kevin can grow from here too." |
-| First rock | Root stops at a rock | "Oh no, a rock. Kevin can't go through rock. Not yet." |
-| First worm | See a worm | "Hey, a worm. Don't worry, little worm. We don't eat worms. …Not yet." |
-| First rain | Grow a lot, fast | "It's raining! Now growing is free. Go, Kevin, go!" |
-| If no rain yet | Keep growing | "Grow, eat, drink. Kevin has a nice, easy life." |
-| ~2:00 | Keep growing | Subscribe line (below) |
-
-"Not yet" is a small promise. Later, Kevin eats worms and goes through rock. Then you say "Remember?" (lines below). This keeps people watching.
-
-### Subscribe line (~2:00)
-
-> "Want to see how big Kevin gets? Subscribe and stay with me."
+These parts used old rules (goal-number first line, "Kevin", subscribe at ~2:00, no upgrades in the first 2 minutes). The new research replaced them. Use the template: "The start: Reason → Goal → Go", "First loop", "The loop" and the new subscribe timing. Only the sections below are still good examples.
 
 ### Running joke: the animals want Kevin's mushrooms
 
@@ -178,8 +143,5 @@ No girlfriend joke. No cat joke.
 
 ### Practice lines (say each 3 times before recording)
 
-1. This is Kevin. Kevin is one tiny mushroom.
-2. Under this forest, there are five magic mushrooms.
-3. Kevin wants all five. Then he wants the whole forest.
-4. A rock. Kevin can't go through rock. Not yet.
-5. It's raining! Now growing is free.
+1. A rock. Kevin can't go through rock. Not yet.
+2. It's raining! Now growing is free.

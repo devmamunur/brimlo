@@ -80,7 +80,7 @@ Free whoosh sounds: YouTube Studio → Audio Library → Sound effects → searc
 4. **Speed up repeats** 4–8× and **dead air** 8–16×. Say "Let me skip ahead a bit" live before it.
 5. Apply the voice presets ([voice-presets.md](voice-presets.md)).
 6. Optional: `/hook` 10-second picture intro.
-7. Watch 0:00–2:00 once (goal sentence, action by 0:05, no menus, subscribe line).
+7. Watch 0:00–2:00 once (reason + goal once, action by 0:05, no menus or tour, no subscribe line yet).
 8. Export with the **Brimlo YouTube** preset.
 
 More detail: [recording-and-editing.md](recording-and-editing.md).

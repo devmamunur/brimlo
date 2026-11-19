@@ -99,7 +99,8 @@ Hit: Next Fest demo during the wave.
 
 | | |
 |---|---|
-| Status | scheduled (time set by Mamunur in Studio) |
+| Status | **private** (Wed 18 Nov 2026: all 7 Shorts set to Private in Studio — Shorts test stopped, Mamunur not happy with quality). Was: scheduled (time set by Mamunur in Studio) |
+| Result (Studio, 18 Nov 2026) | 42 views · stayed to watch 23.5% · 0 subscribers |
 | Link | https://youtube.com/shorts/Jv2oZCN4vxg |
 | Length | 0:55, 1080×1920, 1.1× speed, captions burned in |
 | Made from | 2:02:36–2:10:07 of this video (the part with the highest rewatch: 92–94% retention spike). ffmpeg cut → DaVinci (Warm voice, Brimlo YouTube Shorts preset) |
