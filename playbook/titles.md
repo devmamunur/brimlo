@@ -24,7 +24,7 @@ The title is a **tiny story or a joke about what happened**, not a description o
 
 | # | Pattern | Real examples (views, theirs) | Use when |
 |---|---|---|---|
-| **P1** | **I [did] [BIG NUMBER] [thing] [short twist]** | I can't leave until I pick up 1,000,000 coins (200K) · I got paid to destroy 100 quintillion dollars (274K) · I Pressed This Button 1 MILLION Times! (4.8×, 2.8K subs) | A true big number on screen. **Default for simple games** |
+| **P1** | **I [did] [BIG NUMBER] [thing] [short twist]** | I can't leave until I pick up 1,000,000 coins (200K) · I got paid to destroy 100 quintillion dollars (274K) · I Pressed This Button 1 MILLION Times! (4.8×, 2.8K subs) | A true number of **1,000,000+** on screen. **Default for simple games** |
 | **P2** | **I [did a crazy thing] [funny result]** / **I [did X] Until I [funny result]** | i flipped bottles until i lost my mind · I made the grim reaper look unemployed (604K) · I printed so much money I scared the king (408K) | Something in the game reacts, breaks or gets absurd. **Default for complex games** |
 | **P3** | **They Made Me [huge job]** / **They Gave Me [tiny tool] and Told Me to [huge job]** | they made me sort the entire ocean (123K) · They Gave Me A Toothbrush And Told Me To Clean The Moon (126K) | Job-sim, cleaning, sorting: a boss gives you the work |
 | **P4** | **This [Thing] Isn't Going to [Verb] Itself** | this lake isn't going to empty itself (316K) | One huge boring job: dig, empty, peel, clean |
@@ -40,7 +40,7 @@ Rare extra (max 1 in 10 videos): "This Is the Most Satisfying Game of the Year" 
 2. **Never "Demo" or "incremental" in the title.** "100%" only if you really finished it.
 3. **Title Case**, not all lowercase (that is Azrilich's look). Max **one** CAPS word.
 4. **MUST — the 3 MrBeast checks** (Mamunur, Thu 19 Nov 2026; every A, B and C title passes all 3):
-   - **A true big number** from the video, in digits ("1,000,000 Blocks", "1 MILLION Times", "7,066 Trees", not "a million"). Only skip it when the game truly shows no number; then the title needs a clear end result instead.
+   - **A true big number — at least 1,000,000** — from the video, in digits ("1,000,000 Blocks", "1 MILLION Times", "100 Quintillion Dollars", not "a million"). **If the biggest true number in the video is under 1,000,000** (e.g. 7,066 trees, 3,000 ants), this check does **not** apply (Mamunur, Thu 19 Nov 2026): the title does not need a number, and the clear goal or result carries it. A small number may still be used if it helps the story, but it does not count as the "big number".
    - **One clear goal or result** a stranger understands in one second ("…to Find One Golden Ticket", "…to Feed a Giant Worm").
    - **Short:** 30–55 characters, 5–9 words (a " - Game Name" tail may go up to ~70).
 5. **First person past tense** ("I fed…", "I sorted…") in most titles. Do not use the same pattern 3 videos in a row.
@@ -74,7 +74,7 @@ Core fact:        biggest TRUE number · tiny tool vs huge job · end result · 
 
 | Game type (how to know it) | Name in title? | Hook that wins | Real winning titles (channel subs → views) |
 |---|---|---|---|
-| **Survivor / horde / zombie / tower defense / roguelite / action** | **Yes, at the end** | **1 me vs BIG NUMBER enemies** · "This is a … About …!" · "How long can I survive" (P1, P5) | Ash Swoon 3.6K → 41K "This is an Incremental Game About Holding Off Climbing Zombies! \| Wait, They Can Climb?!" · Erdem 42K → 64K "1 vs 10,000 Zombies - How Many Days Can I Survive?" · Sharkinbear 2.3K → 18.6K "The Only Thing Your Rats Remember Is The Taste Of Flesh And Bone - I Am Plague" |
+| **Survivor / horde / zombie / tower defense / roguelite / action** | **Yes, at the end** | **1 me vs HUGE NUMBER of enemies** · "This is a … About …!" · "How long can I survive" (P1, P5) | Ash Swoon 3.6K → 41K "This is an Incremental Game About Holding Off Climbing Zombies! \| Wait, They Can Climb?!" · Erdem 42K → 64K "1 vs 10,000 Zombies - How Many Days Can I Survive?" · Sharkinbear 2.3K → 18.6K "The Only Thing Your Rats Remember Is The Taste Of Flesh And Bone - I Am Plague" |
 | **Cleaning / restoring / tidy-up job** | No | **Tiny tool vs huge dirty place** (P3, P4) | FungalBrainRot 8.4K → 129K "They Gave Me A Toothbrush And Told Me To Clean The Moon" · IdleAlex 629 → 52K "I Have to Clean Up a Bank Buried in Cash" · Mon EvenStar 25K → 63K "I'm Getting Paid to Drain a Lake…" · ⚠ plain "Tidy Up Game about…" got 100–650 |
 | **Big-number collect / clicker** | No | **"I Had To [verb] [ABSURD NUMBER] [thing] To [goal]"** (P1, P5) | DangerouslyFunny → 767K "I Had To Collect A Million Coins To Find The Bottom" · mcveety 34K → 150K "I Have To Harvest A Quadrillion Carrots" · Ridiculously Random 1.6K → 78K "I Didn't Know Numbers Went This High..." |
 | **Colony / army / swarm growth** | No | **"Start with 1 X → thousands → consume everything"** (P1) | Haikrazon 4.2K → 212K "We Start With 1 Ant, Then Grow The Colony To Thousands To Consume Everything" · Dex → 104K "I Conquered EVERYTHING with an Army of Ants" |
@@ -91,7 +91,7 @@ If a game fits two rows, use the row of its **main loop** (what you do 80% of th
 2. Write the core fact in one line.
 3. **A (live title)** = the row's winning hook, our own words, the core fact. Name only if the row says so.
 4. **B** = a different pattern (P1–P7) of the same row. **C** = the name version if the row allows a name; otherwise a third pattern.
-5. Check against the **Rules** (true, **the 3 MUST checks: big true number, one clear goal, short**, Title Case, hook first, not the same pattern as the last 2 videos, never the name first, not a copy).
+5. Check against the **Rules** (true, **the 3 MUST checks: true number of 1,000,000+ (only if the video has one), one clear goal, short**, Title Case, hook first, not the same pattern as the last 2 videos, never the name first, not a copy).
 6. Score with `brimlo_score_title` (and vidIQ if useful) **only to compare** — the truth and the row win over a score.
 
 ## A/B/C title set (every video) + hand swaps
@@ -121,7 +121,7 @@ C (swap): …
 |---|---|
 | Ant Mill Inc | I Grew 3,000 Ants Just to Feed a Giant Worm (P1) |
 | Scrapecremental | I Scraped a Dinosaur Skull Clean With My Fingernail - Scrapecremental (P2 + name, old-video exception) |
-| Deforest a Planet | I Cut Down All 7,066 Trees on One Planet (P1) |
+| Deforest a Planet | I Cut Down All 7,066 Trees on One Planet (made before 19 Nov; under 1,000,000, so today the number is optional) |
 | Pack Ripper | I Ripped 225 Card Packs to Find One Golden Ticket (P1) |
 | Mycelarium | I Played 100% Of Mycelarium and Built a Fungal Empire (launch day, name allowed) |
 
