@@ -52,6 +52,180 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 | FEED THE AI | Big outlier, but already covered by Idle Cub and others | Windows only | Paid | Only with a fresh angle (100% run) |
 | My Fire Is Bigger Than Yours | 100% video got 174K | ? | Paid | Covered; fresh angle needed |
 
+### /pick-game, Thu 26 Nov 2026 ~12:15 AM Dhaka (Wed 25 Nov 18:15 UTC) — wave_scan (1,020 units) + Steam new/demos/playtest + mana-watch (no change) + Chrome check of 4
+
+| Game | Type / price | Label | Chrome (26 Nov ~12:20 AM, newest first) | Verdict |
+|---|---|---|---|---|
+| ⭐ **Kick Rocks** — https://store.steampowered.com/app/5517930 (demo 5520360) | Free demo | CROWDED, wave still running | Not re-checked (checked 2 h before: Azrilich 42K in 1 d, still growing) | BEST — unchanged. Record + publish Thu 26 Nov 10 PM Dhaka as planned |
+| **Heroll: IF** — https://store.steampowered.com/app/4838670 (demo 5094300) | Free demo (since 8 Oct); full game Q1 2027; Windows | OPEN (scan) · English wave ~4 days old | Dabble (17.7K) 43K in 1 d · Beelz 26K (4 d) · dev trailer. Only 2 English long videos. vidIQ 29, competition low | Option 2 (new). Board-game roguelite with incremental upgrades. Launch window passed (first English video 4 d ago), but demand is proven and there are few videos |
+| **Legendum** — https://store.steampowered.com/app/4512440 (demo 4694760) | Free demo; Windows | CROWDED (1 big), wave ~26 h | Wanderbots (522K) 33K in 1 d, 420 VPH · Campfire Quest 126 (1 mo). vidIQ 59, competition low | Option 3. Inside the window until ~Fri 27 Nov 4 AM Dhaka. Slow, menu-heavy life-sim RPG |
+| Drain It All (demo, out 25 Nov) | Free demo | NO WAVE | Only a dev Short (1.4K). 0 creator long videos | Watch only. Same theme as Ocean/Desert, but no wave = Pool Problem risk. Re-check Fri 27 Nov |
+
+Dropped: No Asteroids (Mamunur said no, 20 Nov; also CROWDED, 100% video exists), No Blink Allowed / Golfcremental (paid, no demo), Booster Pack Heroes / SHRED A BILLION full launch (paid), Round and Round Inc (demo did not open in CrossOver, 8 Nov), JP/RU-only waves.
+
+### /pick-game, Thu 26 Nov 2026 ~4:00 AM Dhaka (21:55 UTC) — Mamunur: "many satisfying games in a row, try dark incremental / survivor like I Am Plague / Outbreak Z": wave_scan (2 dark/survivor searches + default 7, ~1,220 units) + Steam new/demos (bullet heaven, roguelite, tower defense, incremental) + mana-watch (no change) + Chrome check of 6
+
+No dark/survivor game has a fresh (≤ 48 h) English wave. The new dark demos (The Deep Horde, Mortis Survivors, HYPERINFLATION, Gideon Unleashed) have 0 creator videos (trailers 5–14 views) = no demand signal.
+
+| Game | Source | Label | Chrome (newest first) | Verdict |
+|---|---|---|---|---|
+| ⭐ **Here Comes the Horde** — https://store.steampowered.com/app/5066010 (demo 5322720) | Free demo (full game $4.89 since 16 Nov, not bought); Windows | CROWDED, wave still running; launch window passed (10 days) | Dex 120K (6 d) · Splattercat 181K (8 d) · Idle cub 340K (9 d) · Singleplayer Squad 6.8K (1 d) · Worth A Buy 1.1K (1 h). Steam 84% of 1,875, 2,385 playing | BEST — undead horde army incremental, the hottest dark game. Check the demo still downloads + 10-min CrossOver test. 🟡 SOON |
+| **Horde Below** — https://store.steampowered.com/app/5408930 (demo 5419430) | Free demo; full game Tue 12 Jan 2027; Windows | OPEN-ish, small wave | Ash Swoon 11K (5 d) · Balota SZ 9.4K (PT, 5 d) · Ahtee 2.6K (2 d) · gamezplay 729 | Option 2 — zombie tower defense incremental. 🟢 RELAXED |
+| **Night of the Idle Horde** — https://store.steampowered.com/app/4775430 (demo 5154010) | Free demo; script card ready since 18 Nov (never recorded) | OLD, small | Haikrazon 6.6K (9 d) · Roy Martini 537 (4 d) | Option 3 — zombie horde incremental, prep already done. 🟢 RELAXED |
+
+Asked by Mamunur: **The Subminer** (3240110, demo 4622390; free demo since 1 Oct, Next Fest Oct; full game 2027; Yogscast publisher) — underwater mining roguelite with horror. No wave: biggest English videos 485 / 241 / 178 views (1 mo); Korean 리키리킹 2.9K (10 h). Verdict: 🟢 RELAXED, below Here Comes the Horde (low demand; more horror-action than numbers-go-up). Keep for the full launch.
+
+Watch: Siege of Incrementalia (undead army; Wanderbots 35K 1 mo ago; full launch December 2026 → launch-day video). Dropped: TOO MANY CLANKERS ($5.39, no demo), The Deep Horde / Mortis Survivors / HYPERINFLATION / Gideon Unleashed (0 videos, no demand yet), No Blink Allowed (paid, no demo).
+
+### /pick-game, Wed 25 Nov 2026 ~10:10 PM Dhaka (16:10 UTC) — "is Kick Rocks too late? compare with new games": wave_scan (1,020 units) + Steam new/demos/playtest + mana-watch (no change) + Chrome check of 4
+
+| Game | Type / price | Label | Chrome (25 Nov ~10 PM) | Verdict |
+|---|---|---|---|---|
+| ⭐ **Kick Rocks** — https://store.steampowered.com/app/5517930 (demo 5520360) | Free demo; full game 4 Mar 2027 | CROWDED, wave still running (~6 days) | Azrilich 42K in 1 d (1.3K VPH) · mcveety 94K (2 d) · Normalhs 202K (5 d, still 1.3K VPH) · small channel "Trying to Get the PERFECT Rock" 8.9K in 17 h (5x) · ImCade new video 8 min ago. vidIQ 64, volume High, competition Medium (was 31 on 24 Nov) | BEST — **not too late**, keep the plan (record Wed 25, publish Thu 26 Nov). Dev patched the demo 24 Nov ("it shines now"). ✅ **USED** — scheduled Thu 26 Nov 2026 4:00 AM Dhaka, https://youtu.be/sBxmm2Rwb5s |
+| **Drain It All** — https://store.steampowered.com/app/5538810 (demo 5561170) | Free demo, out Wed 25 Nov 2026 (≤ 24 h); full game 20 Jan 2027; Windows | OPEN, no wave yet | Only the dev trailer (20 views). 0 creator videos | Option 2 (early bet). "Drain a 10,000-ton dam with a paper cup" = first-person incremental, same family as Drink the Ocean. Demand not proven yet. Re-check tomorrow |
+| **Legendum** — https://store.steampowered.com/app/4512440 (demo 4694760) | Free demo (since 7 Oct); full game 2027; Windows | CROWDED (1 big) | Wanderbots (522K) 31K in 23 h · Nerfed Reflexes 20K (2 w) · rest under 600 | Option 3. Incremental life-sim RPG; slow, menu-heavy, less "satisfying" |
+
+Dropped: No Blink Allowed ($4.49, no demo), Golfcremental ($2.69, no demo), Booster Pack Heroes / Sardoinky / SHRED A BILLION full launch (paid), Put Out The Sun demo (0 videos, co-op focus, full launch 26 Nov), JP/DE/RU-only waves.
+
+### /pick-game, Tue 24 Nov 2026 ~9:55 PM Dhaka (15:55 UTC) — 2nd run: wave_scan (1,020 units) + Steam new/demos/playtest (cached) + mana-watch (no change) + Chrome check of 2
+
+| Game | Type / price | Label | Chrome (24 Nov ~10 PM, newest first) | Verdict |
+|---|---|---|---|---|
+| ⭐ **Kick Rocks** — https://store.steampowered.com/app/5517930 (demo 5520360) | Free demo; full game March 2027; Windows | CROWDED + RE_WAVE, growing again | Azrilich (92K) 2.7K in 2 h · Krojak (157K) 1.2K in 18 h · JacobG (40 subs) 857 in 18 h · mcveety (42K) 78K in 1 d · Normalhs (996 subs) 169K in 4 d · Dead Squirrel 44K (4 d) · rolanbymyself (249 subs) 11K (4 d) · Christoph 6.5K (4 d) · Jkbys (91 subs) 633 (2 d). Shorts 648K + 153K. vidIQ 31 | BEST. Wave is getting bigger, and small channels still get 600–11K. Offered 3× before; much hotter now. Risk: short demo, many videos. **Chosen by Mamunur Tue 24 Nov ~10:15 PM → planned: record Wed 25 Nov, publish Thu 26 Nov 2026 10 PM Dhaka ([file](../videos/2026-11-26-kick-rocks.md)).** |
+| **That Mountain Needs To Fall** — https://store.steampowered.com/app/5356450 (demo 5408720) | Free demo; full 10 Dec; Mac build | CROWDED, wave ~51 h (window passed ~11 PM) | Idle cub 145K (1 d) · ItsFallen 594 (1 d). No new long video since 5:50 PM. vidIQ 53 | Option 2. Still only one other English video |
+| **Clanker Town** — https://store.steampowered.com/app/5510630 (demo 5516790) | Free demo; full 3 Dec; Windows | OPEN, weak | Not re-checked (Idle Gamer 12.8K) | Option 3. Survivor type, small demand |
+
+Dropped: Every Last Grain (used today), No Asteroids (Mamunur said no), Sardoinky / Bomb Them Ores / Bamboo Ronin / BALL PICKER (paid; launch windows passed), JP/DE-only waves.
+
+### /pick-game, Tue 24 Nov 2026 ~5:50 PM Dhaka (11:50 UTC) — wave_scan (1,020 units) + Steam new/demos/playtest + mana-watch (no change) + Chrome check of 3
+
+| Game | Type / price | Label | Chrome (24 Nov, newest first) | Verdict |
+|---|---|---|---|---|
+| ⭐ **Every Last Grain** — https://oliver-kuso.itch.io/every-last-grain | Free itch.io demo (~30 min per dev; creator videos 1:13–1:54); full game later | OPEN, English wave ~2 days, first signal 16 h ago | Ridiculously Random (1.7K subs) 15K in 16 h (1.1K VPH, 7.6x) · BonsaiBroz (55K) 7.5K in 13 h + 3.8K · BAYAERAE 436 (2 d) · guide 213 · Shorts from a 38.8K channel 1.1K–1.4K. vidIQ 30 (keyword new, very low volume) | BEST. **Used: recorded + scheduled Tue 24 Nov 2026 10:15 PM, https://youtu.be/u-EyMDPwIWY ([file](../videos/2026-11-25-every-last-grain.md)).** Browser game (Unity WebGL, runs only on its itch.io page). Lot Edge = 10,000 kg, 14 finds, first clear ~40 min, then sandstorm replays. 🔥 FAST |
+| **That Mountain Needs To Fall** — https://store.steampowered.com/app/5356450 (demo 5408720) | Free demo; full game Wed 10 Dec 2026; Mac build | CROWDED (1 big video), wave 42.8 h → 48 h at ~11 PM Dhaka today | Idle cub 143K (1 d, 546 VPH, 1:11) · ItsFallen 587 (1 d, 1:13). Only 2 English long videos. vidIQ 53, Medium/Medium | Option 2. Dwarves mine a mountain, prestige. Proven demand, almost no second video yet |
+| **Clanker Town** — https://store.steampowered.com/app/5510630 (demo 5516790) | Free demo; full game Thu 3 Dec 2026; Windows | OPEN, weak | Idle Gamer 11.8K (1 d) · HordelinGames 12 (3 d) · Shorts only. vidIQ 30, very low volume | Option 3. First-person horde shooter + incremental tree (survivor type). Small demand |
+
+Also seen: Sardoinky (paid $4.24, demo listed; launch Thu 19 Nov → launch window passed; Skoottie 159K, Idle cub 124K), Bomb Them Ores (paid, demo; Nerfed Reflexes 7.2K), Kick Rocks (offered 3× before). Dropped: BALL PICKER (paid, no demo), Bamboo Ronin (wave 4.5 days, 2.78M-sub channel), JP/DE/RU-only waves (Digbound, Potato Factory, Drill Rover, Divinestead).
+
+### /pick-game, Sat 21 Nov 2026 ~12:05 PM Dhaka — 2nd run, Mamunur: "easy to play incremental new demo" (Steam demos 19–21 Nov + Chrome, 0 units; itch.io gave HTTP 429)
+
+Easy = simple mouse play, clear goal, no menus or inventory puzzles.
+
+| Game | Type | Label | Chrome (21 Nov) | Verdict |
+|---|---|---|---|---|
+| ⭐ ✅ CHOSEN (script Sat 21 Nov, [file](../videos/2026-11-22-starfuse.md)) **Starfuse** — https://store.steampowered.com/app/5579170 (demo 5580420) | Free demo out Sat 21 Nov ~11 AM Dhaka, 30–50 min (dev post); full game Q2 2027 ("about 3 hours"); Windows only | OPEN, 0 videos | Only the auto "Topic" channel | BEST easy pick: launch firework shells, pop lanterns, chain reactions; each upgrade = a star, light the dead Sun. Demo = first 3 places, length unknown. 🟡 SOON |
+| **Astro Riches** — https://store.steampowered.com/app/5287110 (demo 5515830) | Free demo out Wed 19 Nov; Windows only | OPEN, 0 gameplay videos | Topic channel + dev Shorts (3.9K "$10 quintillion", 341, 61) | Option 2: blast asteroids for money, upgrade a fleet of ships. Dev calls it "a short incremental" → demo may be too short. 🟢 RELAXED |
+| **Beetle Island** — https://store.steampowered.com/app/4785500 (demo 5566160) | Free demo out Wed 19 Nov; Mac + Windows | OPEN, 0 gameplay videos | Dev trailer only (3 views) | Option 3: buy, raise and sell beetles, decorate the island. Pure idle → risk of waiting gaps (speed up in edit). 🟢 RELAXED |
+
+Not easy (skipped): Myriadgen (text-only), Consume p/pixelplace (complex hacking sim), Depthforged (inventory puzzle), Last Salaryman (taskbar idle RPG, co-op), Idle Cultivator / Catfinity (menu idle RPG).
+
+### /pick-game, Sat 21 Nov 2026 ~12:00 PM Dhaka (05:50 UTC) — wave_scan (1,018 units) + Steam new/demos/playtest + mana-watch (no change) + Chrome
+
+No new Mana game, no live playtest. Scan = GTA 6 noise + old waves. No fresh (≤ 48 h) English wave passes the gates.
+
+| Game | Type / price | Label | Chrome (21 Nov, newest first) | Verdict |
+|---|---|---|---|---|
+| ⭐ **Graveyard Orbit** — https://store.steampowered.com/app/4654120 (demo 4821730) | Full game out Wed 18 Nov ($2.99, Mixed 66% of 80); demo still listed in Steam data — check the Download Demo button (20 Nov notes said "no demo") | RE_WAVE / CROWDED; launch window passed (~2.5 days) | Idle cub 155K (1 d, 2:58) · Wanderbots 25K (2 d) · JustPatrick-Idle 2.5K (2 d) · KillrobPlays 2.1K (4 d). Demo wave 2 mo ago: Idle cub 244K, Blitz 82K, CG Grows 48K | BEST: the only hot English wave that may be free. Space mining: build your ship, break giant wrecks. Windows → CrossOver test. 🟢 RELAXED |
+| **Starfuse** — https://store.steampowered.com/app/5579170 (demo 5580420) | Free demo out Sat 21 Nov (today; demo = first 3 places); full game Q2 2027, "about 3 hours" | OPEN, no wave (0 videos) | Only the auto "Topic" channel | Option 2: cozy fireworks incremental, chain reactions, light the dead Sun. First-mover gamble; demo length unknown. 🟡 SOON |
+| **The Long Mine** — https://store.steampowered.com/app/4434640 (demo 5620930) | Free demo out Fri 20 Nov; full game Q1 2027 | OPEN, no wave | Only dev videos (Cold Lynx, 18 subs): trailer 1.2K (Short), 4–25 views | Option 3: mining with fully destructible caves, sell ore, equipment + curses. No demand signal. 🟢 RELAXED |
+
+Dropped: 100,000 Tickets (demo = 150 tickets, Mamunur skipped 20 Nov; now 2 videos: 0 and 8 views), BALL PICKER (paid $4.79, no demo; OPEN wave 39 h), How They Built the Pyramids / Potato Please / Sea to Land (paid, no demo), Here Comes the Horde (same zombie-army theme as Night of the Idle Horde; offered 3× already), My Dirty Little Lake (offered 3×; no English wave), GTA 6 (not niche), Drink the Ocean / SHRED A BILLION (used).
+
+### /pick-game, Fri 20 Nov 2026 ~3:15 AM Dhaka — 9th run, Mamunur: "new incremental with good visuals, YouTube videos not needed" (Steam new/demos/playtest + mana-watch no change + store screenshots + Chrome, 0 units)
+
+| Game | Type / price | Label | Chrome (20 Nov) | Verdict |
+|---|---|---|---|---|
+| ✅ USED (video 21 Nov 2026) **The Pool Problem** — https://store.steampowered.com/app/5550040 (demo 5575100) | Free demo out Mon 17 Nov (~2.5 days); full game TBA; Windows only, 3D (min GTX 1060) | OPEN, no wave (0 gameplay videos) | No video at all | BEST. Bright 3D first person: fill a lake-size pool with a spoon, drain the neighbor's sea (shows shipwrecks + treasure), spoon → bucket → pipes → waterfalls, robots, chlorine factory. Same shape as Drink the Ocean (our best video). Skip the optional casino and pool bar in the recording. 10-min CrossOver test first (3D). 🟡 SOON |
+| **DeCube** — https://store.steampowered.com/app/5478190 (demo 5479000) | Free demo out Tue 18 Nov (~1.5 days); full game Thu 11 Dec 2026; Mac build + Windows | OPEN, no gameplay wave | Only trailers: dev 11K (13 d), Indie Games Hub demo trailer 10K (1 d) | Option 2. Beautiful voxel cube planet floating in space; mine it down to the core, hire workers. Trailer views = real interest. Demo length unknown. 🟡 SOON |
+| **Bouncery** — https://store.steampowered.com/app/5373840 (demo 5477940) | Free demo out Wed 19 Nov (~1 day); full game Q1 2027; Windows only | OPEN, no wave | Nothing (search shows other things) | Option 3. Neon balls, saws, lasers, black holes smash shapes with big numbers; ascend. Lively, but 2D shapes are less "real world" for thumbnails. 🟢 RELAXED |
+
+Dropped: Hooking the Leviathan (UI in Chinese), PLACER-1 (mostly a skill-tree screen), HAPPYGoMine (factory sandbox, no store tags/info), Pop Dynasty (menu idle), Haste Makes Waste (paid demo exists but plain 2D idle).
+
+### /pick-game, Fri 20 Nov 2026 ~3:10 AM Dhaka — 8th run, Mamunur: "find a hot game" (wave_scan 6 new searches, 72 h, 918 units + Chrome)
+
+Hot = a live English wave with real views now. Fresh ≤ 48 h waves: none that pass the gates. These 3 are hot and free (demo).
+
+| Game | Type / price | Label | Chrome (20 Nov, newest first) | Verdict |
+|---|---|---|---|---|
+| ⭐ **Here Comes the Horde** — https://store.steampowered.com/app/5066010 (demo 5322720) | Full game out Mon 16 Nov ($4.89); free demo listed — check it still downloads | CROWDED, hottest; launch window passed (~4 days) | Dex "I 100%…" 2.8K (new, 1:56) · Splattercat 121K (525/h) · Sifd 13K · Idle cub 288K (3 d) · Cohh 54K (3 d) · Zish (no commentary) 5.6K (1 d) | BEST for "hot". Late videos still get thousands. Survivor/horde → name allowed at the end. Label: same zombie-army theme as Night of the Idle Horde. 🟡 SOON (crowded, so publish fast) |
+| **Paystreak: A Gold Mining Tycoon** — https://store.steampowered.com/app/4809710 (demo 5152740) | Early access out Thu 12 Nov ($10.99, 90% of 73); free demo (updated 14 Nov) | RE_WAVE (English wave started ~39 days ago) | Orbital Potato 50K in 21 h (new) · Orbital Potato 613K (1 mo, demo) · QuadThumb 14K (7 d) + 13K (5 d) · renovate 22K (1 mo) | Option 2. Gold mining with machines and crews = mining + upgrades. Windows → CrossOver. 🟡 SOON |
+| **Pinata Smash: Incremental Circus** — https://store.steampowered.com/app/4918810 (demo 4941930) | Full game out Mon 16 Nov; free demo | Launch window passed (~4 days) | FonFon "100%" 29K (2.7 d) · Nerfed Reflexes 2K (1 d) | Option 3. 🟢 RELAXED |
+
+Dropped: How They Built the Pyramids (Rizzoli 46K in 46 h, but paid $4.19, no demo), Punch The Walls (Fox Clicks Again 56K in 22 h, but paid, no demo), Trees Hate You (paid), Sol One / Lightyear Frontier / For The King II / SurrounDead (not niche), Way Too Many Fish / Drink the Ocean (used).
+
+### /pick-game, Fri 20 Nov 2026 ~3:00 AM Dhaka — 7th run, Mamunur: "skip 100,000 Tickets" (3 new searches: clicker / cleaning / simulator upgrades, 510 units + itch newest + Chrome)
+
+❌ **100,000 Tickets skipped** (Mamunur): the Steam page says "the free demo covers the first 150 tickets" → too short. No script written. The new searches found no new English wave (only Round and Round Inc. re-wave and Mycelarium, both out).
+
+| Game | Type / price | Label | Chrome (20 Nov, newest first) | Verdict |
+|---|---|---|---|---|
+| ⭐ **Lift a House with Balloons** — https://barhe.itch.io/lift-a-house-with-balloons | Free browser demo (itch), out Thu 19 Nov 12:04 UTC (~9 h) | OPEN, no wave | Only the dev trailer (6 views) | BEST. Goal on screen: 250 tonnes → 0 (= 24 million balloons). Helpers, auto-fillers, balloon factories; lever → house flies. Itch page says "demo": length unknown → play 10 min + check it lasts 60 min. 🟡 SOON |
+| **Pinata Smash: Incremental Circus** — https://store.steampowered.com/app/4918810 (demo 4941930) | Full game out Mon 16 Nov ($3.99); free demo | CROWDED; launch window passed (~4 days) | Nerfed Reflexes 2K (1 d, 1:17) · FonFon "100%" (2 d, 1:51; ~28K earlier) · mcveety 15K (2 mo) · a Hungarian live stream | Option 2: proven demand. Runs with a crash-style "casino piñata". Windows → CrossOver. 🟢 RELAXED |
+| **Pan to Riches** — https://steamkensui.itch.io/pan-to-riches | Free browser game (itch), out Thu 19 Nov 13:00 UTC (~8 h) | OPEN, no wave | 0 gameplay videos (search shows only unrelated videos) | Option 3: dig dirt, pan, smelt gold bars, build a gold rush empire. No demand signal, length unknown. 🟢 RELAXED |
+
+Dropped: 100,000 Tickets (demo = 150 tickets, too short), No Asteroids (Mamunur said no), Round and Round Inc. (did not run in CrossOver), Oddments (paid $2.99), Mycelarium / Ant Mill Inc / SHRED A BILLION / Drink the Ocean (used), GTA 6 / Okishima (not niche).
+
+### /pick-game, Fri 20 Nov 2026 ~2:50 AM Dhaka (Thu 19 Nov 20:50 UTC) — 6th run: wave_scan (1,018 units) + Steam new/demos/playtest + mana-watch (no change) + Chrome
+
+Almost the same as 12:35 AM. Scan still GTA 6 noise. One new fresh demo: 100,000 Tickets.
+
+| Game | Type / price | Label | Chrome (20 Nov, newest first) | Verdict |
+|---|---|---|---|---|
+| ⭐ **100,000 Tickets** — https://store.steampowered.com/app/5523250 (demo 5576070) | Free demo out Thu 19 Nov (≤ ~21 h ago); full game "coming soon"; Mac build + Windows | OPEN, no wave (0 gameplay videos) | Only dev Shorts: 1.7K, 1.4K, 273, 200, 195, 83. vidIQ 25, volume very low | BEST. First-person scratch-ticket incremental: scratch 100,000 tickets, scanners pay, buy tools + robot scratchers, clear the pile → open the vault. Clear goal, proven theme (scratch games). Demo length unknown → 10-min test + check it lasts 60 min. 🟡 SOON (first mover, no proven demand yet) |
+| **Lift a House with Balloons** — https://barhe.itch.io/lift-a-house-with-balloons | Free browser demo (itch), out Thu 19 Nov 12:04 UTC (~9 h) | OPEN, no wave | Still only the dev trailer (6 views) | Option 2 (was BEST at 12:35 AM). Number goes DOWN (250 t → 0). 🟡 SOON |
+| **Pinata Smash: Incremental Circus** — https://store.steampowered.com/app/4918810 (demo 4941930) | Full game out Mon 16 Nov; free demo | CROWDED-ish; launch window passed (~4 days) | Not re-checked (12:35 AM: FonFon 28K, Nerfed Reflexes 1.8K) | Option 3: proven demand. 🟢 RELAXED |
+
+Dropped / not listed: Grow It! demo (drug-cooking theme = ad/policy risk), Bottle King (idle, released 14 Nov, 0 videos, weak), Hammer the Nails (paid, no demo), Round and Round Inc. (no CrossOver), Mycelarium / SHRED A BILLION / Drink the Ocean / Ant Mill Inc (used), GTA 6 (not niche).
+
+### Check: Nock Nock Loose — Fri 20 Nov 2026 ~2:45 AM Dhaka
+App 4764490, free demo 5060340 (out Tue 17 Nov, ~55 h ago → launch window has passed). Full game Q1 2027. Windows only → CrossOver test. Active incremental tower defense (archers, big skill tree) — fits niche. YouTube (17 English long videos): Sifd 47K (13 Nov, before demo), Ash Swoon 11K (6 Nov, 57 min). Since the demo came out, new videos get 6–387 views → wave is cooling. Verdict: OK backup, 🟢 RELAXED; not before Lift a House. Option: wait and do the full game at launch (Q1 2027).
+
+### /pick-game, Fri 20 Nov 2026 ~12:35 AM Dhaka — 5th run, Mamunur: "other categories, send 3 games" (wave_scan cached 0 units + Steam + itch + Chrome)
+
+| Game | Type / price | Label | Chrome (20 Nov, newest first) | Verdict |
+|---|---|---|---|---|
+| ⭐ **Lift a House with Balloons** — https://barhe.itch.io/lift-a-house-with-balloons | Free browser demo (itch), published Thu 19 Nov 12:04 UTC (~6 h before check); first person | OPEN, no wave | Only the dev trailer (4 views). vidIQ 29, very low | BEST. Same shape as Drink the Ocean / Big Ice: a huge number goes DOWN (250 tonnes → 0), blow balloons → helium → machines → house flies. Check it reaches an end in 60+ min. 🟡 SOON |
+| **Pinata Smash: Incremental Circus** — https://store.steampowered.com/app/4918810 (demo 4941930) | Full game out Mon 16 Nov ($3.99, 80% of 50); free demo | CROWDED-ish; launch window passed (~4 days) | Nerfed Reflexes 1.8K (1 d, 1:17) · FonFon "100%" 28K (2.6 d) · Dead Squirrel 46.7K (demo, Sep) | Option 2. Numbers-go-up clicker, proven demand. Windows → CrossOver. 🟢 RELAXED |
+| **Stick A Fork** — https://store.steampowered.com/app/5345040 (demo 5373350) | Full game out 28 Oct ($4.99, 98% of 224); free demo; Mac build | OLD + small re-wave | Idle cub 323K (3 wk) · FungalBrainRot 6.4K (1 d) · JP 18K (1.4 d) | Option 3. Proven big demand but old. Demo length unknown (full 100% = ~4 h). 🟢 RELAXED |
+
+Dropped: Punch The Walls ($2.99, no demo; LuckyLemon 143K), Sea to Land (paid, no demo), Trees Hate You (paid; demo is old and not clearly incremental), Chip Away (roulette, 0 videos), Round and Round Inc. (did not run in CrossOver 8 Nov), Hammer the Nails (paid, no demo), GTA 6 (not niche).
+
+### /pick-game, Fri 20 Nov 2026 ~12:25 AM Dhaka — 4th run, Mamunur: "no No Asteroids; new demos, horror / zombie / dark incremental" (wave_scan 6 dark/zombie/horror searches, 72 h, 916 units + 4 name searches 408 units + Steam new/demos + itch + mana-watch no change + Chrome)
+
+No horror/zombie/dark incremental has a live English wave right now. The new dark demos have zero videos (first-mover gamble).
+
+| Game | Type / price | Label | Chrome (20 Nov) | Verdict |
+|---|---|---|---|---|
+| ⭐ **Horde Below** — https://store.steampowered.com/app/5408930 (demo 5419430) | Free demo out Thu 19 Nov; full game Tue 9 Dec 2026; Windows only | OPEN, no wave (0 videos) | Only the auto "Topic" channel; no gameplay video at all. vidIQ 38, volume very low | BEST for the dark/zombie ask. Zombie incremental tower defense + own weapon + permanent upgrades. 🟡 SOON (first video, no proven demand). 10-min CrossOver test first. Note: 4th zombie video in ~10 days |
+| **Necromancer Incremental Graveyard** — https://store.steampowered.com/app/5033440 (demo 5226000) | Full game out Thu 19 Nov ($2.39); free demo listed — check it still downloads | OPEN, no wave (0 videos) | Only pirate "free download" spam playlists. vidIQ 38 | Option 2. Dark theme: raise undead, sell for souls, pay debt. Demo may be short. 🟢 RELAXED |
+| **Here Comes the Horde** — https://store.steampowered.com/app/5066010 (demo 5322720) | Full game out Mon 16 Nov; free demo | CROWDED, launch window passed (~3.5 days) | Earlier today: Idle cub 284K, Splattercat 115K, Sifd 12.9K | Option 3: proven demand but late + same theme as Night of the Idle Horde |
+
+Dropped: No Asteroids (Mamunur said no), Uncanny Valley: Checkpoint (horror papers-check sim, not incremental), Farm The Swarm (aliens, not dark; 0 videos), How Many Cockroaches Can You Kill? (0 videos, Q1 2027 — keep for later), Grave Ambition / Let Me Die / Graveyard Orbit (paid, no demo).
+
+### /pick-game, Fri 20 Nov 2026 ~12:15 AM Dhaka (Thu 19 Nov 18:15 UTC) — 3rd run: wave_scan (1,018 units) + Steam new/demos/playtest + mana-watch (no change) + Chrome check
+
+Almost nothing new since 8:45 PM. Scan still full of GTA 6 noise. No new Mana game, no live playtest.
+
+| Game | Type / price | Label | Chrome (20 Nov, newest first) | Verdict |
+|---|---|---|---|---|
+| ⭐ **No Asteroids** — https://store.steampowered.com/app/5527800 (demo 5541510) | Free demo; full launch Mon 24 Nov 2026; Mac build | CROWDED + OLD, still hot | OutbackBiff "32 Days…" 9.2K in 1 d (199 VPH, 7.3x) · OutbackBiff 17K (6 d) · Z1 121K. vidIQ 64, volume High, competition Medium | BEST again. 🔥 FAST: publish before 24 Nov |
+| **Kick Rocks** — https://store.steampowered.com/app/5517930 (demo 5520360) | Free demo; full game March 2027 | OLD + small re-wave | Not re-checked (Chrome 8:45 PM numbers stand). Dev patched demo 18 + 19 Nov | Option 2. Short demo risk |
+| **My Dirty Little Lake** — https://store.steampowered.com/app/5375170 (demo 5426290) | Full game out Mon 16 Nov ($4.24, 81% of 49); free demo listed | OPEN (scan); launch window passed (~4 days) | English weak: Sleepy Fon (sleep video) 39K · Shirtz 30 (19 h) · Bug-Eyed Bird 67 (2 d). Big ones are not English: RU MOBIK 24K "100%" 44 min, JP 17K + 8.3K. vidIQ volume Medium, competition Very low | Option 3, weak. Cleaning incremental fits; full 100% is only ~44 min, demo shorter → hard to fill 60 min |
+
+Dropped: Hammer these nails! (paid, no demo), Round and Round Inc. (demo did not open in CrossOver 8 Nov), Mycelarium + Drink the Ocean (used), Here Comes the Horde (same zombie-army theme as Night of the Idle Horde), GTA 6 (not niche).
+
+### /pick-game, Thu 19 Nov 2026 ~8:45 PM Dhaka (14:45 UTC) — re-run: wave_scan 7 searches + 3 history checks (1,020 units) + Steam new/demos/playtest + mana-watch (no change) + Chrome check of 3
+
+Scan still full of GTA 6 noise. No new Mana game, no live playtest, no new free demo with demand.
+
+| Game | Type / price | Label | Chrome (19 Nov, newest first) | Verdict |
+|---|---|---|---|---|
+| ⭐ **No Asteroids** — https://store.steampowered.com/app/5527800 (demo 5541510) | Free demo; full launch Mon 24 Nov 2026 | CROWDED + OLD, still hot | OutbackBiff "32 Days…" 8.5K in 22 h · Grillmastah 31K (1 d) · OutbackBiff 32K (8 d) | BEST again (same as noon). 🔥 FAST: publish before 24 Nov. **Length (checked 19 Nov, Chrome + Steam):** the 6-hour / 4-part videos are the FULL game from developer keys (ZeroSim "NOT DEMO Full Game", Al3xium "no longer a demo", stenwick "FULL GAME + ENDING" 6.7 h; Steam: main contract 6–9 h). The free demo is short: Z1 36 min, NiFRiN "100% demo" 32 min, RU "100% demo" 1 h 54 min, Grillmastah 66 min, GameEdged 63 min → fits one 60–90 min video |
+| **Here Comes the Horde** — https://store.steampowered.com/app/5066010 (demo 5322720) | Full game out Mon 16 Nov ($4.89, 82% of 678); free demo listed — check it still downloads | CROWDED, very hot; launch window passed (~3 days) | Splattercat 115K (1 d) · Sifd 12K (22 h) · Idle cub 284K (2 d) · sponsored 53K (2 d) | Option 2. Demo only (no-buy). Same zombie-army theme as Night of the Idle Horde (planned 18 Nov) |
+| **Kick Rocks** — https://store.steampowered.com/app/5517930 (demo 5520360) | Free demo; full game March 2027 | OLD (~12 days) + small re-wave | harrypondershive 13K (12 d) · Kyle 7.5K (5 d) · Short 610K (4 d) · Lumynestra 2.4K (~1.6 d) · TacDrake 132 (2 d). JP Hultutigamer 16.5K (~1.3 d) | Option 3. Kick rock round → sell → better shoes. Short demo? may be under 60 min |
+
+Dropped: Round and Round Inc. (Idle cub 213K in 22 h, but demo did not open in CrossOver on 8 Nov), Don't Drain the Lake (no demo), The Big Suck / Booster Pack Heroes / Incremental Traffic (paid), Drink the Ocean (used), GTA 6 (not niche).
+
 ### /pick-game, Thu 19 Nov 2026 ~12:00 PM Dhaka (06:00 UTC) — first run of the simplified skill: wave_scan 7 searches + 3 history checks (1,020 units, CLI) + Steam new/demos/playtest + mana-watch (no change) + Chrome check of 3
 
 Scan was full of GTA 6 noise (launched 18 Nov). Only niche games kept.

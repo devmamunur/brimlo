@@ -45,6 +45,7 @@ Rare extra (max 1 in 10 videos): "This Is the Most Satisfying Game of the Year" 
    - **Short:** 30–55 characters, 5–9 words (a " - Game Name" tail may go up to ~70).
 5. **First person past tense** ("I fed…", "I sorted…") in most titles. Do not use the same pattern 3 videos in a row.
 6. **True to the video:** every number and claim must happen on screen. Write the final title **after** recording (or check it after). A score never beats the truth.
+   - **Joke exaggeration is OK when it suits the game** (Mamunur, Thu 26 Nov 2026; Azrilich "I kicked a rock so hard it broke reality", 45K in 1 day; our P2 examples "I made the grim reaper look unemployed", "I printed so much money I scared the king"). The line: an **obvious joke nobody takes literally** (broke reality, made my boss cry, it became my career) = OK. A **fake fact a viewer could believe** (a number, a rank, an item, "I got rich", "100%" when not finished, a boss fight that did not happen) = never. The joke must grow from a real thing in the video (the kick, the boss story, the job). Not for every video: only when the game has a funny idea to stretch.
 7. **Own words:** never copy a title. Copy the *shape*. (SB Atomic used Ash Swoon's exact title → 118 views.)
 8. **Funny is good, mean is not.** A small twist from this game's real events ("…And I Regret Nothing", "…Before It Ate Me").
 9. **Hook first:** the first ~40 characters must make a stranger curious without knowing the game.
@@ -145,6 +146,8 @@ Update 7 days after publish (and after each swap).
 | Mycelarium (vidIQ/Studio A/B 7–14 Nov) | A "I Grew One Tiny Mushroom Under an Entire Forest" (no text thumb) 24.2% vs C "I Played 100% Of Mycelarium and Built a Fungal Empire" (+ "100%" thumb) **75.8%** watch time share, 642 views, "They all performed well" (not proven). Swapped to C by hand Sat 14 Nov 2026. Another sign: game name + "100%" wins on launch games. | 642 (test) | check Studio |
 | Ant Mill Inc | "I Feed a Giant WORM So It Will Not Eat My Ants \| Ant Mill Inc" (3 Nov) → "I Grew 3,000 Ants Just to Feed a Giant Worm" (Mon 16 Nov 2026, with new logo thumbnail; name dropped, search was ~6% of views) | 430 at swap | 4.1% before |
 | Review 11 Nov 2026 | Best CTR: Rust & Shine 7.3%, I Am Plague 6.5% ("I 100%…"), Outbreak Z 6.2%, Deforest 5.7%. Worst: Pack Ripper 1.0%, Cookie Clicker 1.3%, Scrapecremental 1.5%, Digging a Hole 1.7%. Search CTR 11.7% vs Browse 3.3%: the game name in the title helps search. | | |
+| The Pool Problem | "I Filled an 80,000 Liter Pool Starting With One SPOON" (Sat 21 Nov) → "I Drained HALF the Sea to Fill One GIANT Pool" (Tue 24 Nov; day 3: 76 impressions, CTR 6.6%, avg view 0:15 — reach problem, not CTR) | check Sat 28 Nov | 6.6% before |
+| Review 26 Nov 2026 | 28 d CTR: Every Last Grain 7.7% (day 0), Drink the Ocean 6.5% (20K impressions), Wait 4.9%, Shred 4.8%, Wipe 4.1%, Mycelarium 3.7%, Big Ice 2.9%. Pack Ripper still 1.4% after the 11 Nov swap → needs a new thumbnail, not another title. "I [did] 100% of [HUGE thing] With a [tiny tool]" works twice now (Ocean, Desert). | Ocean ~3,800 | |
 
 **These rules are not fixed (Mamunur, 11 Nov 2026).** Change a rule only after new market research (20+ games, small and big channels) or our own clear data, and write the date and the reason here.
 

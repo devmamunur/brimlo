@@ -28,6 +28,43 @@ Decision for next week:
 
 <!-- Reviews go below, newest first -->
 
+## Week 6–7 · Wed 11 – Tue 24 Nov 2026 (full audit, done Thu 26 Nov 2026)
+
+Sources: YouTube Studio Advanced mode (28 Oct – 24 Nov), Studio Earn tab (data as of 20 Nov), vidIQ / YouTube Analytics API (to 22 Nov), daily public-view snapshots (brimlo tool, to 25 Nov).
+
+Channel (28 days, Studio): **11,444 views** · **360.3 watch hours** · **+9 subs** · 60,097 impressions · CTR **5.4%** · avg view 4:28
+Channel (last 7 API days, 16–22 Nov): 5,674 views · **183 h** · +4 subs. Week before (9–15 Nov): 3,131 views · 89 h. Week before that (2–8 Nov): 1,110 views · 35 h.
+Total subs **11** · qualified watch hours **306** (Studio Earn, 20 Nov) · 365-day API hours 368 (incl. now-private Shorts)
+Videos in these 2 weeks: 6 long (Shred a Billion, Wipe Them Out!, Drink the Ocean, Big Ice, The Pool Problem, Every Last Grain). Shorts stopped 18 Nov.
+
+| Video | ~7-day views | Impressions (28 d) | CTR | Avg view | Ret. ~2 min | Subs | Note |
+|---|---|---|---|---|---|---|---|
+| Drink the Ocean ⭐ | ~3,800 | 20,014 | 6.5% | 4:17 | 17% at 1:55 | 2 | wave game, best ever; 133 h = 37% of all watch time |
+| Every Last Grain (day 1) | 810 | 2,183 (day 0) | 7.7% | ? | too early | ? | wave game, best start ever |
+| Mycelarium ⭐ | 636 | 5,458 | 3.7% | 4:06 | | 0 | launch wave |
+| Wait, They Can Climb?! | 468 | 3,563 | 4.9% | 6:15 | | 0 | |
+| Big Ice | ~425 | 2,686 | 2.9% | 3:18 | 20% at 1:31 | 0 | CTR lowest of the new ones |
+| Wipe Them Out! | ~200 (est.) | 2,740 | 4.1% | 4:29 | | 0 | grew late (442 by day 12) |
+| Shred a Billion | ~160 (est.) | 2,149 | 4.8% | 2:28 | | 1 | |
+| The Pool Problem | 14 (day 4) | **79** | 5.1% | 0:15 | | 0 | no wave → YouTube barely showed it |
+
+Traffic, 28 days (Studio): **Suggested 1,039 views but 140 h (39% of watch time), avg 8:04, CTR 4.5%** · Search 3,878 views, 92 h, avg 3:03, CTR 8.9% · Browse 5,262 views, 82 h, avg 3:48, CTR 3.7% · Shorts feed 844 views, 1.6 h, 0 subs (confirms the stop).
+After the Drink the Ocean spike (19–22 Nov), views fell to ~250/day but watch time **rose** to ~1,400 min/day (~23 h/day): suggested viewers watch long.
+
+Best video & why: **Drink the Ocean** — free browser game with a fresh English YouTube wave (~23 h old at pick), a clear "100%" goal in the title, 6.5% CTR on 20K impressions.
+Worst video & why: **The Pool Problem** — 79 impressions in 4 days. No YouTube wave (0 videos on the game), published at 1 PM Dhaka, viewers left in 15 s. Title swap could not help: the problem is reach, not CTR.
+Pattern (now sure, 18 videos): **wave = views.** Every top video had a live YouTube wave. No-wave videos: 14–160 views.
+Pattern 2 (sure): **~80% leave in the first 2 minutes** on every video. This is still the biggest leak.
+Pattern 3 (new): **subs are very low** — 9 subs from 11,444 views (~0.8 per 1,000 views).
+YPP pace: ~150–180 h/week in the last week (was ~30). 8,000 h needs ~154 h/week for a full year. For the first time we are near pace — but only because of one hit. 306 qualified hours now (3.8%).
+Hours worked: ? · Energy (1–5): ?
+
+Decision for next week:
+1. **Wave games only** (keep rule 12). The Pool Problem proved it again. No "first video on a quiet game" picks.
+2. **Fix the first 2 minutes** (`/hook` on every video): show the end result in the first 10 s; goal in one sentence by 0:20; first upgrade by 1:00. Target: 30% still watching at 2 min (now ~17–20%).
+3. **Ask for the subscribe once, at the first big win** (not at the start), and pin a comment that links the next wave video. Track subs per video.
+4. **Publish time review due ~27 Nov** (Drink the Ocean and Every Last Grain both went out late night Dhaka and did well — check before changing).
+
 ## Week 5 · Wed 4 – Tue 10 Nov 2026 (first review, done Wed 11 Nov 2026)
 
 Sources: vidIQ / YouTube Analytics API (whole days, ~2 days behind), YouTube Studio Advanced mode (13 Oct – 9 Nov 2026), Studio Earn tab (data as of 5 Nov), public view snapshots (brimlo tool).

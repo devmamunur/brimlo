@@ -4,7 +4,13 @@ Update this every Sunday (`/weekly-review`) and after big events.
 
 ## Right now
 
-**Last updated:** Wed 18 Nov 2026 (Shorts stopped)
+**Last updated:** Thu 26 Nov 2026 (full audit, see [weekly review](../analytics/weekly-reviews.md))
+
+- **Kick Rocks scheduled Thu 26 Nov 2026, 4:00 AM Dhaka** ("My Boss Said Go Kick Rocks, So I Made It My CAREER", 46:20, https://youtu.be/sBxmm2Rwb5s). Playlists, game title, subtitles, end screen set in Studio. Swap check Sun 29 Nov (to B if weak); 7-day results Thu 3 Dec. Subs: 11. Next: one game, picked fresh (`/pick-game`).
+
+- **Audit Thu 26 Nov 2026:** 11 subs, 306 qualified watch hours (Studio Earn, 20 Nov). 28 days: 11,444 views, 360 h, CTR 5.4%. Drink the Ocean (~3,800 views in 7 days) is the best video ever; Every Last Grain (published Tue 24 Nov, 810 views day 1) is the next one. The Pool Problem got only 79 impressions (no wave). Open: Night of the Idle Horde + Starfuse still "planned" in the log (recorded or dropped?), Kick Rocks planned for tonight.
+
+- **The Pool Problem scheduled Sat 21 Nov 2026, 1:00 PM Dhaka** ("I Filled an 80,000 Liter Pool Starting With One SPOON", 41:15, https://youtu.be/eCtoI_ADLjM). Playlists, end screen, subtitles set. Swap check Tue 24 Nov; 7-day results Sat 28 Nov. Subs: 10. Next: one game, picked fresh (`/pick-game`).
 
 - **Shorts stopped Wed 18 Nov 2026.** 7 Shorts got ~1,170 views and 0 subscribers. Mamunur was not happy with the quality, so all 7 are now **Private** (not deleted). Long videos only from now on. Details: [plan/roadmap.md](../plan/roadmap.md).
 
@@ -35,6 +41,7 @@ Update this every Sunday (`/weekly-review`) and after big events.
 | Date | Subs | Total views | Watch hours (365 days) | Videos | Notes |
 |---|---|---|---|---|---|
 | 13 Oct 2026 | ? | ? | ? | 1 public + 1 scheduled | Fill from YouTube Studio |
+| 26 Nov 2026 | 11 | 11,457 | **306 qualified** (Studio Earn, data 20 Nov) · 368 (API, to 22 Nov) | 18 public long + 7 private Shorts | 28 days (Studio): 60,097 impressions, CTR 5.4% (Search 8.9%, Suggested 4.5%, Browse 3.7%), 11,444 views, 360 h, +9 subs. Last API week (16–22 Nov): 183 h. Drink the Ocean = 37% of watch time. |
 | 11 Nov 2026 | 3 | 3,187 | **75 qualified** (Studio Earn, data 5 Nov) · 99.4 (API, to 10 Nov) | 14 public + 1 private | Last 7 days (4–10 Nov): 840 views, 29.6 h, +1 sub. 28 days (Studio): 19,181 impressions, CTR 4.5% (Search 11.7%, Browse 3.3%). Hits = wave games. See [weekly review](../analytics/weekly-reviews.md). |
 | 6 Nov 2026 | 2 (3 gained, 1 lost in 365 days) | 2,310 | **69.6** (365 days, vidIQ / YouTube Analytics) | 11 public | Engaged views 812 (35%). Avg view 5:04. Traffic 1 Oct–6 Nov: Home/Browse 1,562 views but only 317 engaged (avg 3:35); Search 450 (avg 6:34, **1/3 of all watch time**); Suggested 200 (avg 6:26). Pack Ripper: Home viewers avg **15 seconds**; only 20% left at ~2:15. |
 | 26 Oct 2026 | 2 (own accounts) | 1,074 | 25.4 (lifetime) | 7 public + 1 scheduled | Studio lifetime: 6,128 impressions, CTR 3.3% (Browse 2.5%), avg view 4:41. Retention falls to 17–45% by ~1:10. See [research/reports/2026-10-28-head-to-head-review.md](../research/reports/2026-10-28-head-to-head-review.md) |
@@ -47,6 +54,7 @@ Update this every Sunday (`/weekly-review`) and after big events.
 | 26 Oct 2026 | 2 | 0.2% | 25.4 | 0.3% |
 | 6 Nov 2026 | 2 | 0.2% | 69.6 | 0.9% |
 | 11 Nov 2026 | 3 | 0.3% | 75 (Studio, 5 Nov) / 99.4 (API, 10 Nov) | 0.9–1.2% |
+| 26 Nov 2026 | 11 | 1.1% | 306 (Studio, 20 Nov) | 3.8% |
 
 ## Open to-dos
 
