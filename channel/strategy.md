@@ -15,8 +15,9 @@ Growth in this niche comes from **hits**: 1–3 videos that do 10–40x better t
 
 **One clear type: simple one-goal incrementals, chore games first.** Collect / clean / dig / empty / destroy / punch / shred a **giant amount** of something, with upgrades that make the numbers explode. A viewer must understand the video in one second (Drink the Ocean, Every Last Grain, Punch The Walls, One Million Coins, Bean In A Ball Pit).
 
-- Simple horde games where numbers explode are OK sometimes (Wait, They Can Climb).
-- **Out:** roguelike, RPG, deck builders, complex survivor or management sims, plain sims with no progression.
+- **Swarm / horde games** (I Am Plague 1,740 views + 3 subs, Wait They Can Climb, Ant Mill Inc): OK, 1–2 a week.
+- **"Weak → OP" combat upgrade games** (Outbreak Z 840, Heroll): only as a GO game (early), max ~1 a week, never FOLLOW.
+- **Out:** games that need long menus, story or deck building to understand; plain sims with no progression. Judge how the game plays, not its store genre label.
 - **Why:** [four-channel study](../research/reports/2026-11-27-four-channel-study/README.md) (27 Nov 2026). LuckyLemon, IdleAlex, Ridiculously Random and KitGain started Sep–Oct 2026 like Brimlo; most of their videos are simple one-goal games (57–76% chore games by title), and YouTube recommends them next to every big video of the game, even days late. On the same games Brimlo got 10–100× fewer views, even when earlier: the mixed niche (Heroll, Seabun, Outbreak Z, Pack Ripper…) means YouTube does not know Brimlo's audience. Brimlo's two best videos (Ocean 3,991, Desert 1,974) are exactly this type.
 - Old niche (13 Oct – 27 Nov 2026): incremental / idle / survivor-like + satisfying job-sim, 60/40.
 
