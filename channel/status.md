@@ -30,7 +30,7 @@ Update this every Sunday (`/weekly-review`) and after big events.
 - **Rust & Shine demo published Sun 25 Oct 2026** (1:21:18). Check 7-day results Sun 1 Nov.
 - **Seabun published Mon 26 Oct 2026, 10:28 PM Dhaka** ("I Beat the GIANT Crab Boss in Seabun and Got a LEGENDARY Shark", 1:17:38, https://youtu.be/1DX3Xl_XbXI). 10 chapters from captions added Tue 27 Oct. Check 7-day results Mon 2 Nov.
 - **Scrapecremental published Tue 27 Oct 2026** ("They Gave Me ONE Fingernail and Told Me to Clean a Whole Town | Scrapecremental", 30:31, https://youtu.be/XdfTIK_jv9U). Check 7-day results Tue 3 Nov.
-- Publish time stays 10 PM Dhaka until ~27 Nov 2026, then review (Studio shows viewers most active ~8 PM Dhaka).
+- Publish time reviewed 27 Nov 2026: now the **2:30–4:00 AM Dhaka** window (3:30–5 PM ET), publish as soon as ready (fits his evening routine; IdleAlex posts daily at 2 AM Dhaka).
 - **Deforest a Planet published Fri 30 Oct 2026** ("I Cut Down All 7,066 TREES on One Planet | Deforest a Planet", game name added Sun 1 Nov, 56:04, https://youtu.be/jTXAVEs0CQA). Check 7-day results Fri 6 Nov.
 - **Rust & Shine renamed Sun 1 Nov 2026:** "I Cleaned Rusty Junk Until I Made $1,000,000 | Rust & Shine" (game name added back).
 - **Pack Ripper published Sun 1 Nov 2026** ("I Spent My Rent on Card Packs to Find the GOLDEN TICKET | Pack Ripper", 1:50:53, https://youtu.be/56WpR7ubEHY). Check 7-day results Sun 8 Nov.

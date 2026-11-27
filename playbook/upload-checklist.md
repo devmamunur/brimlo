@@ -76,7 +76,7 @@ Chapters
   - **Survivor-Like Games: Weak to OP** — survivor-like, bullet heaven (rarely used from 27 Nov 2026: the niche is chore incrementals; keep the list, do not delete it)
   - **New Steam Demos Played to 100%** — every demo, playtest or itch.io game (extra list, on top of the genre list)
 - [ ] Test & Compare (if available): 2–3 thumbnails or titles
-- [ ] **Scheduled for 10 PM Dhaka** (12 PM ET until 31 Oct 2026; 11 AM ET from 1 Nov 2026)
+- [ ] **Published in the 2:30–4:00 AM Dhaka window** (3:30–5 PM ET), as soon as the video is ready. Ready before 2:30 → schedule 2:30 AM. FOLLOW video for a rest day → schedule the next night 2:30 AM
 
 ## After it's live
 

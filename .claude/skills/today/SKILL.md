@@ -10,7 +10,7 @@ description: Tell Mamunur what to do now — the ONE next game to play (checked 
 1. Get today's real date (from the system, not memory).
 2. Read `plan/calendar.md` (published/scheduled rows + the next planned video), the last 6 rows of `videos/log.md`, `channel/status.md` (Numbers + Open to-dos).
 3. Find:
-   - **Due today / next 3 days:** record, publish (10 PM Dhaka), run tests.
+   - **Due today / next 3 days:** record, publish (2:30–4:00 AM Dhaka window), run tests.
    - **Overdue:** a planned slot that passed without a ✅, a game not run-tested before its record date, a title swap check that is due (publish + 2–3 days, video below median → swap to B).
    - **Result checks due:** any video whose upload + 7 days is today or past and has no 7-day numbers in the log (pull them with `vidiq_channel_analytics`, channel `UCXf8abbaSiOThD3YhX8nGjQ`; ask him only for CTR/impressions from Studio). Any title A/B test older than 7 days → ask for the Studio test report.
    - **Next game (one only):** hype and search change every day. If the next planned game was not checked **today**, re-check it now (hours since launch, YouTube search for the game in his Chrome with scroll + screenshots — the "Chrome YouTube check" in `.claude/skills/pick-game/SKILL.md` → Step 3; only English waves count; big channels) or run `/pick-game`. If another game is clearly hotter today, say so and pick it instead. Only a GO game (before the big channels, see /pick-game Step 2) can be the next game; if none is GO, say "No game now, rest" with a re-check time.

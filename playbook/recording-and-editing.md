@@ -76,5 +76,5 @@ Silence removal: one source says Resolve 20.2+/21 free has *Clip → Audio Opera
 ## Upload
 
 - Big files can take hours on slow internet → start in the evening, let it run overnight.
-- Always **schedule** in Studio for **10 PM Dhaka** (12 PM ET until 31 Oct 2026, 11 AM ET from 1 Nov 2026).
+- Publish in the **2:30–4:00 AM Dhaka window** (3:30–5 PM ET) as soon as the video is ready; ready before 2:30 → schedule 2:30 AM.
 - After it is live: fix the English subtitles in Studio (see [upload-checklist.md](upload-checklist.md) → "After it's live").

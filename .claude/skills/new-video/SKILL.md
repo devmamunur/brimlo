@@ -39,11 +39,11 @@ Plan one video end to end and save it in the repo. Write in **simple English, sh
    - Update the slot in `plan/calendar.md` (game name, status 📝).
    - Update the game's row in `games/backlog.md` (planned slot).
 
-5. **Reply** briefly: **the GO / FOLLOW line first** (e.g. "✅ GO — first English outlier 18 h ago, 0 big videos → publish tonight 10 PM Dhaka" or "🥈 FOLLOW — 3 videos ≥ 100K this week, small channel got 4K → 100% angle"), then the **A/B/C titles in one code block** (A = live, B + C = swap titles; each passes the 3 MUST checks in `playbook/titles.md` rule 4), the **playlist(s)** in one line, the hook to practice, what to test before recording, and the file path. Don't paste the whole file.
+5. **Reply** briefly: **the GO / FOLLOW line first** (e.g. "✅ GO — first English outlier 18 h ago, 0 big videos → publish tonight in the 2:30–4 AM Dhaka window" or "🥈 FOLLOW — 3 videos ≥ 100K this week, small channel got 4K → 100% angle"), then the **A/B/C titles in one code block** (A = live, B + C = swap titles; each passes the 3 MUST checks in `playbook/titles.md` rule 4), the **playlist(s)** in one line, the hook to practice, what to test before recording, and the file path. Don't paste the whole file.
 
 ## Rules
 
 - One game = one video. Never plan a "Part 2".
 - If the game is a demo/playtest with an end date, put the deadline in bold at the top; that usually makes it 🔥 FAST (publish within 1–2 days).
-- Publish time: always 10 PM Dhaka (12 PM ET before Sun 1 Nov 2026, 11 AM ET after). No fixed upload days, and never write upload days in the description.
+- Publish time: the 2:30–4:00 AM Dhaka window (3:30–5 PM ET), as soon as the video is ready. No fixed upload days, and never write upload days in the description.
 - Score the title options with `brimlo_score_title` (free, no quota) and note the score next to each option. Do not spend vidIQ credits here unless he asks. For a deeper check use `brimlo_idea_engine` (about 204 units, say the cost first).

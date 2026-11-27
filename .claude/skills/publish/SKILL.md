@@ -25,5 +25,5 @@ Keep the log true. Ask only for what's missing (title, date, status, YouTube lin
 
 ## Rules
 
-- Dates as "Day DD Mon YYYY". Upload time 12 PM ET (10 PM Dhaka before 1 Nov 2026, 11 PM after).
+- Dates as "Day DD Mon YYYY". Publish window 2:30–4:00 AM Dhaka (3:30–5 PM ET, from 27 Nov 2026); before that 10 PM Dhaka.
 - If a planned slot is now empty because a video moved, say so and suggest filling it (`/pick-game`).

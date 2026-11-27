@@ -5,7 +5,7 @@ About 10–12 hours a week. Most of it on Saturday and Sunday.
 | Day | Time | Task | Command |
 |---|---|---|---|
 | **Mon** | 30 min, evening | **Scout.** Steam Upcoming + New & Trending (tags: Incremental, Idler, Clicker), SteamDB, r/incremental_games, last 7 days of uploads from **ksyliki (Korean, plays new demos 1–3 weeks before English channels: early radar, always check English YouTube coverage after)**, Azrilich, JonnyBebop, LuckyLemon, Ridiculously Random, CG Grows, Nerfed Reflexes, MOREQUIS, Idle Cub, Dex (**game wave check**: a new incremental game on a big channel in the last 7 days → 🔥 FAST, see [strategy.md](../channel/strategy.md)). Add game suggestions from comments. Write 3–5 candidates in `games/backlog.md`. | `/pick-game` |
-| **Any publish day** (3–4 a week, no fixed days) | — | Video goes live at 10 PM Dhaka. Start the A/B/C title test, pin your comment, fix subtitles, reply to first comments. | `/publish` |
+| **Any publish day** (3–4 a week, no fixed days) | — | Video goes live in the 2:30–4:00 AM Dhaka window, as soon as it is ready. Start the A/B/C title test, pin your comment, fix subtitles, reply to first comments. | `/publish` |
 | **Wed** | 30–40 min | **Run test** the top 2 candidates in CrossOver Steam (main) or Mac Steam: launch, one upgrade loop, OBS capture. Pick the weekend games and one backup. | |
 | **Thu** | 20–30 min | Reply to every comment. Prepare the weekend videos: A/B/C titles, thumbnail idea, recording script. **Practice the opening out loud 2–3 times.** | `/new-video`, `/script` |
 | **Fri** | — | Install the weekend games. Charge/check mic. | |

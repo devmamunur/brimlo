@@ -34,7 +34,7 @@ Growth in this niche comes from **hits**: 1–3 videos that do 10–40x better t
 
 | Period | Videos / week | How |
 |---|---|---|
-| From 28 Nov 2026 | **6–7** | Mamunur's decision (27 Nov 2026). 1–2 rest days are fine. Same time every day: 10 PM Dhaka. GO games published the same night; FOLLOW videos may wait 1 day to cover a rest day |
+| From 28 Nov 2026 | **6–7** | Mamunur's decision (27 Nov 2026). 1–2 rest days are fine. Publish window **2:30–4:00 AM Dhaka** (3:30–5 PM ET), as soon as the video is ready; FOLLOW videos may be scheduled for the next night to cover a rest day |
 | 26 Oct – 27 Nov 2026 | 3–4 | old rule |
 
 ## GO / FOLLOW (replaces the 🔥/🟡/🟢 upload speed labels, 27 Nov 2026)
