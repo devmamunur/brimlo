@@ -327,6 +327,8 @@ export interface WaveGame {
   first_big_video_hours_ago: number | null;
   /** Small English channels (< 10K subs) that posted 24–96 h ago all got < 500 views → the wave is cooling. */
   cooling: boolean;
+  huge_videos_14d: number;
+  small_win_7d: boolean;
   /** GO = record now (EARLY / BIG_JUST_POSTED, wave ≤ window, not cooling). LATE = only with a "more than them" plan (100% / full ending), expect ~400 views. NO = old or cooling. */
   verdict: Verdict;
   verdict_reason: string;
@@ -337,25 +339,33 @@ export interface WaveGame {
 }
 
 export type Stage = "EARLY" | "BIG_JUST_POSTED" | "LATE";
-export type Verdict = "GO" | "LATE" | "NO";
+export type Verdict = "GO" | "FOLLOW" | "LATE" | "NO";
+export const HUGE_VIDEO_VIEWS = 100_000;
 export const BIG_VIDEO_VIEWS = 30_000;
 const BIG_JUST_POSTED_HOURS = 24;
 
 /** Pure: wave stage of one game from its English long videos (wave-timing study, research/reports/2026-11-27-wave-timing-study.md).
  * Brimlo before the big channels: avg ~1,800 views; after 2+ big videos: avg ~400; no wave: ~110. */
-export function stageOf(list: SearchRow[]): { stage: Stage; big_videos: number; first_big_video_hours_ago: number | null; cooling: boolean } {
+export function stageOf(list: SearchRow[]): { stage: Stage; big_videos: number; first_big_video_hours_ago: number | null; cooling: boolean; huge_videos_14d: number; small_win_7d: boolean } {
   const en = list.filter((r) => r.english && r.duration_min >= 10 && !r.live);
   const big = en.filter((r) => r.views >= BIG_VIDEO_VIEWS);
   const firstBig = big.length ? Math.max(...big.map((r) => r.age_hours)) : null;
   const stage: Stage = big.length === 0 ? "EARLY" : big.length === 1 && firstBig! <= BIG_JUST_POSTED_HOURS ? "BIG_JUST_POSTED" : "LATE";
   const recentSmall = en.filter((r) => r.channel_subs < 10_000 && r.age_hours >= 24 && r.age_hours <= 96);
   const cooling = recentSmall.length >= 2 && recentSmall.every((r) => r.views < 500);
-  return { stage, big_videos: big.length, first_big_video_hours_ago: firstBig === null ? null : Math.round(firstBig), cooling };
+  // huge live wave: English long videos ≥ 100K posted in the last 14 days (channel study 27 Nov 2026: LuckyLemon / IdleAlex got 27K–352K by following such waves 1–10 days late)
+  const huge = en.filter((r) => r.views >= HUGE_VIDEO_VIEWS && r.age_hours <= 14 * 24).length;
+  // a small English channel (< 10K subs) got ≥ 2,000 views in the last 7 days → small channels still win here
+  const smallWin = en.some((r) => r.channel_subs < 10_000 && r.age_hours <= 7 * 24 && r.views >= 2_000);
+  return { stage, big_videos: big.length, first_big_video_hours_ago: firstBig === null ? null : Math.round(firstBig), cooling, huge_videos_14d: huge, small_win_7d: smallWin };
 }
 
 /** Pure: the GO / LATE / NO verdict for a game. */
-export function verdictOf(g: Pick<WaveGame, "status" | "re_wave" | "stage" | "cooling" | "english_wave_age_hours" | "big_videos" | "first_big_video_hours_ago">, windowHours = 48): { verdict: Verdict; verdict_reason: string } {
+export function verdictOf(g: Pick<WaveGame, "status" | "re_wave" | "stage" | "cooling" | "english_wave_age_hours" | "big_videos" | "first_big_video_hours_ago"> & Partial<Pick<WaveGame, "huge_videos_14d" | "small_win_7d">>, windowHours = 48): { verdict: Verdict; verdict_reason: string } {
   const age = g.english_wave_age_hours;
+  // FOLLOW first: a huge live wave counts even when its first signal is older than the window
+  if (g.stage === "LATE" && !g.cooling && (g.huge_videos_14d ?? 0) >= 2 && g.small_win_7d)
+    return { verdict: "FOLLOW", verdict_reason: `Huge live wave (${g.huge_videos_14d} English videos ≥ 100K in 14 days) and small channels still got ≥ 2K this week: follow it with a different angle (100% / ending). Brimlo now ~300–900; channels with authority get 10K+.` };
   if (g.status === "NO_ENGLISH_SIGNAL")
     return g.big_videos > 0
       ? { verdict: "LATE", verdict_reason: `Big English channels posted it (${g.big_videos} video(s) ≥ 30K, normal views for them, first ${g.first_big_video_hours_ago} h ago) but no small-channel outliers: we would come after them.` }
@@ -561,18 +571,20 @@ export async function waveScan(input: z.infer<typeof waveScanInput>, deps: Deps 
     }
   }
   // live English waves first, hottest first; status is only a label
-  const vRank = { GO: 0, LATE: 1, NO: 2 } as const;
+  const vRank = { GO: 0, FOLLOW: 1, LATE: 2, NO: 3 } as const;
   games.sort((a, b) => Number(isLive(b)) - Number(isLive(a)) || vRank[a.verdict] - vRank[b.verdict] || b.english_views_per_hour - a.english_views_per_hour);
   const live = games.filter(isLive);
   const found = (g: WaveGame) => Boolean(g.history && g.history.english_long_videos_all_time > 0);
   const go = live.filter((g) => g.verdict === "GO" && found(g));
   // GO without a history check, or the history search could not find the game itself (bad name read) → check by hand
   const goUnchecked = live.filter((g) => g.verdict === "GO" && !found(g));
+  const follow = games.filter((g) => g.verdict === "FOLLOW");
   const late = live.filter((g) => g.verdict === "LATE");
-  const overall = go.length ? "GO" : goUnchecked.length ? "CHECK" : late.length ? "ONLY_LATE" : "NO_GAME";
+  const overall = go.length ? "GO" : goUnchecked.length ? "CHECK" : follow.length ? "FOLLOW" : late.length ? "ONLY_LATE" : "NO_GAME";
   const overallText =
     overall === "GO" ? `GO: ${go.map((g) => g.game).join(", ")} — before the big channels. Record now.`
     : overall === "CHECK" ? `Maybe: ${goUnchecked.map((g) => g.game).join(", ")} look early but their history was not checked — check in Chrome before calling one GO.`
+    : overall === "FOLLOW" ? `No early wave. Follow a huge wave: ${follow.map((g) => g.game).join(", ")} (different angle, 100% / ending). Good for a daily upload; an early GO game is still better.`
     : overall === "ONLY_LATE" ? `No early wave. Only late waves (${late.map((g) => g.game).join(", ")}): play one only with a 'more than them' plan, or rest and scan again in ~6–12 h.`
     : "NO GAME NOW: no live English wave. Rest, and scan again in ~6–12 h.";
   const warnings = warningsFor(source);
@@ -588,8 +600,8 @@ export async function waveScan(input: z.infer<typeof waveScanInput>, deps: Deps 
       shortlist_note: "Up to 3 games with a live English wave (OPEN, CROWDED or re-wave), hottest first (English views per hour). Claude runs the hard gates (free/owned, niche, runs, not used) before calling one BEST.",
       verdict: overall,
       verdict_text: overallText,
-      verdict_rules: "GO = live English wave ≤ window AND (0 big English videos ≥ 30K, or exactly 1 that is ≤ 24 h old) AND not cooling, history checked. LATE = 2+ big videos or the first > 24 h old. NO = old or cooling. From the wave-timing study 27 Nov 2026 (Brimlo before big channels ~1,800 avg, after ~400, no wave ~110). Claude still runs the hard gates and the Brimlo fit gate.",
-      shortlist: live.slice(0, 3).map((g) => ({ game: g.game, verdict: g.verdict, verdict_reason: g.verdict_reason, stage: g.stage, big_videos: g.big_videos, first_big_video_hours_ago: g.first_big_video_hours_ago, cooling: g.cooling, label: g.re_wave ? "RE_WAVE" : g.status, history_checked: Boolean(g.history), english_wave_age_hours: g.english_wave_age_hours, english_views_per_hour: g.english_views_per_hour, english_long_videos: g.history?.english_long_videos_all_time ?? g.english_long_videos, link: g.link })),
+      verdict_rules: "GO = live English wave ≤ window AND (0 big English videos ≥ 30K, or exactly 1 that is ≤ 24 h old) AND not cooling, history checked. FOLLOW = after the big channels, but the wave is huge (2+ English videos ≥ 100K in 14 days) and a small channel (< 10K subs) got ≥ 2K this week. LATE = 2+ big videos or the first > 24 h old. NO = old or cooling. From the wave-timing study 27 Nov 2026 (Brimlo before big channels ~1,800 avg, after ~400, no wave ~110). Claude still runs the hard gates and the Brimlo fit gate.",
+      shortlist: live.slice(0, 3).map((g) => ({ game: g.game, verdict: g.verdict, verdict_reason: g.verdict_reason, stage: g.stage, big_videos: g.big_videos, huge_videos_14d: g.huge_videos_14d, small_win_7d: g.small_win_7d, first_big_video_hours_ago: g.first_big_video_hours_ago, cooling: g.cooling, label: g.re_wave ? "RE_WAVE" : g.status, history_checked: Boolean(g.history), english_wave_age_hours: g.english_wave_age_hours, english_views_per_hour: g.english_views_per_hour, english_long_videos: g.history?.english_long_videos_all_time ?? g.english_long_videos, link: g.link })),
       history_note: i.history_check ? `History checked for the top ${toCheck.length} candidates. Games without 'history' were only seen in the ${i.hours}-h window: run wave_scan again with more history_check or check them in Chrome.` : "No history check: a game can look fresh but have older videos.",
       games: games.slice(0, i.limit),
       unknown_game_signals: unknown.slice(0, 10).map((r) => ({ title: r.title, channel: r.channel, channel_subs: r.channel_subs, views: r.views, age_hours: r.age_hours, outlier_score: r.outlier_score, language: r.language, url: r.url, description_start: r.description_start })),

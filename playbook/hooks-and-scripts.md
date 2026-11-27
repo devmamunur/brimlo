@@ -8,7 +8,7 @@ You talk live. A script is **not** something to read word for word. It is a **ca
 - [First 5 minutes study](../research/reports/2026-11-19-first-5-minutes/README.md) (Thu 19 Nov 2026): 10 channels, 50 videos, with all transcripts.
 - Our own retention: [head-to-head review](../research/reports/2026-10-28-head-to-head-review.md) (28 Oct 2026), and Drink the Ocean (Nov 2026): 96% still watching at ~1:00, only **14% at 2:00**.
 
-## Video structure (60–120 min)
+## Video structure (40–70 min, from 27 Nov 2026)
 
 | Part | Time | What happens |
 |---|---|---|

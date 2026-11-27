@@ -10,7 +10,18 @@ Mamunur records **live commentary** in English. English is his second language (
 
 **Format:** [playbook/script-card/template.md](../../../playbook/script-card/template.md) — copy it and fill every `[ … ]`. **Approved examples** (learn the shape and English level, never copy lines or jokes): [playbook/script-card/examples/](../../../playbook/script-card/examples/). Format approved by Mamunur on Fri 6 Nov 2026.
 
-## Steps
+## Short card (default from 27 Nov 2026)
+
+With 6–7 videos a week, the full card takes too long. **Default = short card** (about 15 lines), written into the "Recording script" section:
+1. The 3 start lines (Reason → Goal → Go, rules below).
+2. The first upgrade to buy before 1:30.
+3. 3–4 lines for this game's big moments (`[X]` numbers), including one "Remember…?" payoff.
+4. The subscribe line (after the first big upgrade, never in the first 5 min).
+5. The 4 ending lines.
+6. A word list only for hard words (game name + 3–5 words, with Bangla).
+Skip the research block, timing table, running-joke list and practice drills. **Full card** (all steps below) only for a GO game that looks big, or when Mamunur asks for it.
+
+## Steps (full card)
 
 1. **Find the video file** in `videos/` (by game name or path). If none exists, create it from `videos/_template.md` and add it to `videos/log.md` and `plan/calendar.md` (or suggest `/new-video` if the whole plan is missing).
 2. **Read** `playbook/hooks-and-scripts.md` (all of it: it is short) and `playbook/phrase-bank.md`.

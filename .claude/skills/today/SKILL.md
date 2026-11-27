@@ -17,7 +17,7 @@ description: Tell Mamunur what to do now — the ONE next game to play (checked 
    - Sunday → `/weekly-review`.
 4. Reply in short simple English:
    - **Now (today)** — max 3 items, most important first.
-   - **Next game** — up to 3 games, one marked ⭐ BEST (CLAUDE.md rule 12; full search = /pick-game), each with its upload speed label (🔥/🟡/🟢, CLAUDE.md rule 11), the date/time you checked and the reason. If a game is already chosen and planned, show only that one + its publish date.
+   - **Next game** — up to 3 games, one marked ⭐ BEST (CLAUDE.md rule 12; full search = /pick-game), each with its GO / FOLLOW label (CLAUDE.md rule 11), the date/time you checked and the reason. If a game is already chosen and planned, show only that one + its publish date.
    - **Also open** — max 3 short lines (overdue checks, title swap check, weekly review).
    - **No week table, no list of later games** (Mamunur, 9 Nov 2026). For a planned new launch/demo/playtest, also say the hours since launch and, if over 48 h, "the launch window has passed".
 5. Do not edit files unless something is clearly wrong (e.g. a published video still shows 📝); then fix it and say so.

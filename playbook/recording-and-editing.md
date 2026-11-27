@@ -69,7 +69,7 @@ Silence removal: one source says Resolve 20.2+/21 free has *Clip → Audio Opera
 
 ## Length guide
 
-- 60–120 minutes. Shorter is fine if the game is short. **Never stretch.**
+- **40–70 minutes** (27 Nov 2026; was 60–120). Stop when the game's main goal is done. **Never stretch.**
 - The length is whatever is left **after** the cuts above. Do not keep quiet parts just to reach a length. A busy 50 min video is better than a 90 min video with gaps.
 - From 9 Nov: the Saturday session makes **two** 60–90 min videos on **two different games**.
 

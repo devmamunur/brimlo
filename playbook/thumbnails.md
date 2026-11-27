@@ -56,6 +56,10 @@ Mamunur's decision (6 Nov 2026), after studying 12 Azrilich thumbnails (median 9
 | Open / gamble | Hands tear a pack or scratch a ticket | Hands rip a card pack, one golden card glows |
 | Survivor / fight | Hand holds the weapon, the swarm or boss fills the back | Hand holds a minigun, a wave of zombies behind |
 
+## Text test (from 28 Nov 2026, 5 videos)
+
+The four growing channels split: IdleAlex and KitGain put **2–3 big words at the top** ("FIND THE BEANS!", "DRINK THE OCEAN", white + yellow, thick black outline); LuckyLemon uses no text ([four-channel study](../research/reports/2026-11-27-four-channel-study/README.md), sheets in `research/data/channels/sheet_*.jpg`). The data is mixed, so **test it**: the next 5 videos get 2–3 words at the top (the chore, not the title: "EMPTY THE LAKE"), using the TEXT line below with those words. Then compare their CTR with the last 5 no-text videos in `/weekly-review` and keep the winner. Text must never repeat the title word for word.
+
 ## The master prompt (one prompt for GPT or Gemini)
 
 Attach 1–2 screenshots of the game (the main object and the world) so the AI copies the real shapes and colors. Fill the `[ ]` parts. Keep the "AVOID" part every time: it is the negative prompt.

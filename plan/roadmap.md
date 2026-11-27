@@ -1,6 +1,6 @@
 # Roadmap: Oct 2026 – Jan 2027
 
-Last updated: 13 Oct 2026. Week-by-week details: [calendar.md](calendar.md).
+Last updated: 27 Nov 2026 (new phase 3b after the [four-channel study](../research/reports/2026-11-27-four-channel-study/README.md)). First version 13 Oct 2026. Week-by-week details: [calendar.md](calendar.md).
 
 ## Goal for these 3 months
 
@@ -18,8 +18,9 @@ The targets below are **guesses** for a brand-new channel. Replace them with you
 |---|---|---|---|
 | **1. Launch + Next Fest** | 12 Oct – 1 Nov | 2–4 | I Am Plague playtest, Next Fest demos, first owned games. Learn OBS markers + light edit. |
 | **2. Rhythm** | 2 – 8 Nov | 3–4 | Owned games. First review. Keymailer + developer emails. |
-| **3. Keep 3–4/week** | 9 Nov – 6 Dec | 3–4 | Two videos from the Saturday session. Test every title template at least twice. Steam Autumn Sale purchases. |
-| **4. Holidays** | 7 Dec – 10 Jan | 3–4 | Repeat winners. "Best Incremental Games of 2026" + "Games to Watch in 2027". 12-week decision. |
+| **3. Keep 3–4/week** | 9 – 27 Nov | 3–4 | Done: 26 videos by 27 Nov; hits Drink the Ocean 3,991, Every Last Grain 1,974. |
+| **3b. Tight niche, daily** | 28 Nov 2026 – ~early Jan 2027 | **6–7** | **30 "one simple, crazy chore" videos** (GO first, else FOLLOW, else rest). Title A house pattern. Thumbnail text test (5 videos). Budget $10–15/month for ≤ $5 GO/FOLLOW games. Do not change the niche before the 30 are done. |
+| **4. Judge** | after the 30 chore videos (~early Jan 2027) | 6–7 | Compare with the four channels at their video 30–42 (1–2K subs). Decide what to keep. "Best Incremental Games of 2026" video. |
 
 ## Checkpoints
 

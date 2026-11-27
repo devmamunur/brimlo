@@ -36,7 +36,8 @@ Rare extra (max 1 in 10 videos): "This Is the Most Satisfying Game of the Year" 
 
 ## Rules
 
-1. **Game name: decide by game type** (next section). Never the game name first. The name always goes in the first description line + tags.
+0. **Title A = the Brimlo house pattern** (27 Nov 2026, [four-channel study](../research/reports/2026-11-27-four-channel-study/README.md)): **"I [did the chore] [100% of] [GIANT THING] With [tiny tool]"** — our two best videos: "I Drank 100% of the OCEAN With a Straw" (3,991), "I Emptied 100% of a DESERT With a Spoon" (1,974). Each growing channel has one fixed style people recognize (IdleAlex "I Get Paid to…", LuckyLemon "…7,455,642 Times…"). Use "100%" only when it is true; else "I [did the chore] a GIANT [thing] With [tiny tool]". If the game has no tiny tool, use rule 6 (bold joke) for A. B and C always use other patterns.
+1. **No game name in titles** (27 Nov 2026; replaces "decide by game type"). The four growing channels used it in 4 of 119 videos, and Drink the Ocean got 78% search traffic without it. The name always goes in the first description line, tags and chapters. One exception stays: an **old video (past ~7 days) that ranks top 3 in search for the game name** keeps " - Game Name" at the end when its title is swapped.
 2. **Never "Demo" or "incremental" in the title.** "100%" only if you really finished it.
 3. **Title Case**, not all lowercase (that is Azrilich's look). Max **one** CAPS word.
 4. **MUST — the 3 MrBeast checks** (Mamunur, Thu 19 Nov 2026; every A, B and C title passes all 3):
@@ -53,7 +54,7 @@ Rare extra (max 1 in 10 videos): "This Is the Most Satisfying Game of the Year" 
 9. **Hook first:** the first ~40 characters must make a stranger curious without knowing the game.
 10. Thumbnail text never repeats the title (see thumbnails.md). No emoji, no creator names, simple English he can say.
 
-## Game name: decide by game type
+## Game name: decide by game type — REPLACED 27 Nov 2026 by rule 1 (no game name). Kept for history.
 
 Market check Tue 10 Nov 2026 (24 games). Data: [game-name report](../research/reports/2026-11-10-game-name-in-title-check.md).
 

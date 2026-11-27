@@ -1,6 +1,6 @@
 # Strategy — how Brimlo wins
 
-Last updated: 13 Oct 2026. Based on [the deep research report](../research/reports/Idle%20gaming%20channel%20playbook.md) (vidIQ data 12–13 Oct 2026).
+Last updated: 27 Nov 2026 (niche, length, frequency, GO/FOLLOW). First version 13 Oct 2026. Based on [the deep research report](../research/reports/Idle%20gaming%20channel%20playbook.md) (vidIQ data 12–13 Oct 2026).
 
 ## The big idea
 
@@ -11,56 +11,47 @@ Growth in this niche comes from **hits**: 1–3 videos that do 10–40x better t
 2. Be **early** on new games (demos, playtests, launches). For a launch or playtest, "early" means **day 0–2 (≤ 48 hours)** (Mycelarium lesson 8 Nov, widened 10 Nov 2026 — see "48-hour launch check"). For a demo, the clock starts when its YouTube wave starts ([study](../research/reports/2026-11-10-fresh-game-timing.md)).
 3. Make each video **easy to click**: one strange idea, one clear promise.
 
-## Niche (decided 13 Oct 2026)
+## Niche (changed 27 Nov 2026)
 
-One channel, two game types. Both must have **upgrades and growing numbers**:
-1. **Classic incremental / idle / survivor-like** (rat swarm, mining, tower defense).
-2. **Satisfying job-sim with upgrades** (cleaning, restoring, junkyard, metal detector, organizing) — what Azrilich plays; Mamunur loves these and viewers want both.
+**One clear type: "one simple, crazy chore" incrementals.** Collect / clean / dig / empty / destroy / punch / shred a **giant amount** of something, with upgrades that make the numbers explode. A viewer must understand the video in one second (Drink the Ocean, Every Last Grain, Punch The Walls, One Million Coins, Bean In A Ball Pit).
 
-Aim for roughly 60% type 1 and 40% type 2 at first; shift to whichever gets more views after 10–20 videos. No second channel (see strategy: one clear idea, double work, double watch-hour bar). Plain simulators with no progression (e.g. Supermarket Simulator) stay at one video.
+- Simple horde games where numbers explode are OK sometimes (Wait, They Can Climb).
+- **Out:** roguelike, RPG, deck builders, complex survivor or management sims, plain sims with no progression.
+- **Why:** [four-channel study](../research/reports/2026-11-27-four-channel-study/README.md) (27 Nov 2026). LuckyLemon, IdleAlex, Ridiculously Random and KitGain started Sep–Oct 2026 like Brimlo; ~90% of their videos are this type, and YouTube recommends them next to every big video of the game, even days late. On the same games Brimlo got 10–100× fewer views, even when earlier: the mixed niche (Heroll, Seabun, Outbreak Z, Pack Ripper…) means YouTube does not know Brimlo's audience. Brimlo's two best videos (Ocean 3,991, Desert 1,974) are exactly this type.
+- Old niche (13 Oct – 27 Nov 2026): incremental / idle / survivor-like + satisfying job-sim, 60/40.
+
+**First 30 videos goal:** 30 chore videos by ~early January 2027, then judge with real numbers. Do not change the niche again before that. (The four channels reached 1–2K subs after 30–42 tight-niche videos.)
 
 ## Format rules
 
-- **One game per video.** 60–120 minutes. Never stretch to fill time.
+- **One game per video, 40–70 min** (27 Nov 2026; was 60–120). Stop when the game's main goal is done. Never stretch. The four channels' median is 44–59 min; shorter also makes daily uploads possible.
 - **Live commentary.** Talk about what's on screen and why you choose things. Silence is fine for a few seconds, not minutes.
 - **Light edit:** cut loading, menus, mistakes, dead time. Speed up idle waits (x4–x16) with a small label.
-- **No multi-part series.** (Idle Niv stalled after a 15-part series.)
+- **No multi-part series.** (Idle Niv stalled after a 15-part series; none of the four channels make series.)
 - Second video from one game only if it's different: demo now → "100% full release" later, or a big update.
 
 ## Frequency
 
 | Period | Videos / week | How |
 |---|---|---|
-| From 26 Oct 2026 | **3–4** | Mamunur's decision (25 Oct 2026): long videos, 3–4 a week. No fixed days: make a video one day, publish it another day at 10 PM Dhaka |
-| After 12-week review | Test 5 only if energy is good | Decide on 3 Jan 2027 |
-| Any time | +1 "fast lane" | Hot demo/playtest/launch → publish in 1–2 days (🔥 FAST label, see below) |
+| From 28 Nov 2026 | **6–7** | Mamunur's decision (27 Nov 2026). 1–2 rest days are fine. Same time every day: 10 PM Dhaka. GO games published the same night; FOLLOW videos may wait 1 day to cover a rest day |
+| 26 Oct – 27 Nov 2026 | 3–4 | old rule |
 
-### Upload speed label (every planned video)
+## GO / FOLLOW (replaces the 🔥/🟡/🟢 upload speed labels, 27 Nov 2026)
 
-Every time a video is planned or picked, Claude gives it **one** label so Mamunur knows if he must hurry (Mamunur, 27 Oct 2026):
+Every pick gets one label (CLAUDE.md rules 11–12, `/pick-game`, tool `brimlo_wave_scan`):
 
-| Label | Publish | When |
+| Label | When | Publish |
 |---|---|---|
-| 🔥 **FAST** | Within **1–2 days** after recording, even the day right after another video. For a launch: within ~48 h **of the launch** | The launch/playtest is **≤ 48 hours old**, or a demo's YouTube wave started ≤ 48 h ago (see "48-hour launch check"); **or** the game/demo/playtest came out in the last ~2 weeks **and** YouTube has few videos on it (about 10 or fewer English videos, or no big channel yet); **or** a demo/playtest/sale ends soon; **or** Next Fest is running. Others are starting to post → every day counts. |
-| 🟡 **SOON** | Within about **1 week** | New-ish game (2–6 weeks), some videos already but no big channel; or a demo that ends in more than 2 weeks. |
-| 🟢 **RELAXED** | Any free slot; can wait in the buffer | Owned or older games, full games out for months, many videos already. Evergreen. |
+| ✅ **GO** | Live English wave, first outlier ≤ 48 h (best ≤ 24 h), **0 big English videos (≥ 30K)** or exactly 1 that is ≤ 24 h old, not cooling | **The same night** |
+| 🥈 **FOLLOW** | After the big channels, but the wave is **huge**: 2+ English videos ≥ 100K in 14 days, and a small channel (< 10K subs) still got ≥ 2K this week. Needs a new angle (100% / ending / full game) | Tonight or tomorrow |
+| ❌ LATE / NO | Big videos in a small or niche wave (Heroll), cooling, old, or no wave | Do not record. No GO/FOLLOW → "No game now, rest" |
 
-**How to decide (check, don't guess):** release or demo date and any end date (Steam / itch page), then search YouTube for the game name **in his Chrome, scrolling down with 3–4 screenshots, by relevance and by upload date** (Mamunur, 14 Nov 2026; steps in `.claude/skills/pick-game/SKILL.md` → "Chrome YouTube check"; `vidiq_youtube_search` only if Chrome is not connected): count the videos and note the biggest channel and views. **Only English videos count for a wave** (Wipe Them Out!, 14 Nov 2026: labelled FAST because of a new Spanish wave; the English wave was 13–16 days old → 44 views in 2.5 days). Write the label, the date checked and the reason in one line (e.g. "🔥 FAST — itch release 17 Oct, 3 videos, biggest 3.9K views (27 Oct 2026)").
+**Data:** [wave timing study](../research/reports/2026-11-27-wave-timing-study.md): Brimlo before the big channels avg ~1,800 views, after 2+ big videos ~400, no wave ~110. [Four-channel study](../research/reports/2026-11-27-four-channel-study/README.md): their hits came from GO (KitGain first on Drink the Ocean 105K) **and** FOLLOW (LuckyLemon Punch The Walls 353K four days after the first big video; IdleAlex AMMO DUMP 93K). Brimlo gets ~300–900 from FOLLOW now; it should grow once the niche is tight.
 
-**48-hour launch check (Mamunur, 8 Nov 2026 as 24 h; changed to 48 h on 10 Nov 2026 after the [timing study](../research/reports/2026-11-10-fresh-game-timing.md): day-2 videos still got 6.8K–80K).** For every new launch, early access, new demo or new playtest, first check **how many hours ago it came out** (Steam release date/time; if Steam shows no time, count from 00:00 UTC of the release day, and look at the time of the first YouTube video on it). Say it in the reply in one line:
-- **≤ 48 hours (day 0–2)** → `⏱️ Launched <date, time> = ~N hours ago → inside the 48-hour window ✅`. This is the real 🔥 FAST case: record **today or tomorrow**, publish **within ~48 hours of the launch** (not 48 h after recording). Shorter video is OK here (45–60 min) if a full run takes too long — a day-0 video beats a perfect video on day 4.
-- **> 48 hours (day 3+)** → `⏱️ Launched <date> = N days ago → the launch window has passed ⛔`. (Demo exception: if its YouTube wave only started ≤ 48 h ago with few English videos, it is inside the window — say "wave started N h ago ✅".) Say it clearly, every time. Do not call it a launch-wave video. It can still be 🔥 FAST only if YouTube is still nearly empty (≤ 5 English videos and none over ~5K views) or it is a demo/playtest with a near end date; otherwise label it 🟡 SOON or 🟢 RELAXED, and put the **game name in the A title** (late viewers come from search).
-- Proof (vidIQ search, 8 Nov 2026): Mycelarium launched Tue 3 Nov. Videos on day 0–2 got 2.8K–186K (A D C, 117 subs, day 0: 2,854). Small English channels on day 3 (Fri 6 Nov) got 128–360. Brimlo on day 4 (Sat 7 Nov): 47 views after 17 h.
+Always say the hours since the first English outlier video; over 48 h → "the launch window has passed". Only English waves count.
 
-**Updated 27 Nov 2026 ([wave timing study](../research/reports/2026-11-27-wave-timing-study.md)):** count the **big English videos (≥ 30K)**. 0, or exactly 1 that is ≤ 24 h old → GO, 🔥 FAST (record now, publish tonight). 2+ big videos, or the first one > 24 h old → LATE: not a BEST pick; only with a 100% / full-ending plan, expect ~400 (Heroll 26 Nov: 29 views). No wave → not a pick (~110). The 28 Oct rule below is still true for **one fresh** big video only.
-
-**Game wave check (28 Oct 2026, [study](../research/reports/2026-10-28-four-channels-success-study.md)).** A big channel posting a game is **not** a reason to skip it. In the first ~7 days after a big video, small channels still got 9K–38K on the same game (LuckyLemon posted One Million Coins 8 h after Azrilich: 38K; Ridiculously Random posted Quadrillion Carrots the same day as Azrilich: 9.4K). About 4 weeks later the same game gets only 1–3K. So: **new incremental game on Azrilich / JonnyBebop in the last 7 days + it runs in CrossOver or Mac Steam → 🔥 FAST.** Older than ~3 weeks → no wave, judge it normally. **Check that the wave is still alive (8 Nov 2026):** look at small English channels that posted the game 1–2 days ago. If they got under ~500 views, the wave is over even inside 7 days (Mycelarium ended on day 3).
-
-Example: Scrapecremental (27 Oct 2026) was 🔥 FAST → published the same night it was finished, the day after Seabun.
-
-FAST videos jump the queue; RELAXED videos fill quiet days and build a 2–3 video buffer. This does **not** mean a video every day: 3–4 a week stays the base.
-
-**Why 3–4?** Every growing small channel in this niche posts 4–7 long videos a week. None was found growing on 1–3. Ridiculously Random went 118 → 1,020 subs in 20 days with ~1 video/day (study 25 Oct 2026). **Why not 5 now?** Full-time job + burnout risk (52–62% of creators report burnout). A channel that stops gets nothing.
+**Sources of FOLLOW games:** what Azrilich, ImCade, DangerouslyFunny, Idle cub and the four channels played in the last 10 days (weekly `channel_dump` in `/weekly-review`), kept in the FOLLOW list in `games/backlog.md`.
 
 ## Who to learn from
 
@@ -69,21 +60,24 @@ FAST videos jump the queue; RELAXED videos fill quiet days and build a 2–3 vid
 - **MOREQUIS** — "I 100% …" and giant-number titles; 1.5–2h videos tripled the channel.
 - **Idle Niv** — warning: drifted into long series, stalled.
 
+- **The four growing small channels (27 Nov 2026 study)** — LuckyLemon (huge exact numbers), IdleAlex (daily, calm story titles, fixed time), Ridiculously Random (CAPS + numbers), KitGain (first on browser games). Same start date as Brimlo; tracked every Sunday with `channel_dump`.
+
 Full list: [research/competitors.md](../research/competitors.md).
 
 ## Packaging
 
+- **Title A house pattern (27 Nov 2026):** "I [did the chore] [100% of] [GIANT THING] With [tiny tool]" — our two best videos ("I Drank 100% of the OCEAN With a Straw", "I Emptied 100% of a DESERT With a Spoon"). Each growing channel has one fixed title style people recognize. B/C use other patterns.
 - **Titles from 6 Nov 2026 (Mamunur): the Brimlo title system** — short first-person story or joke titles like Azrilich and LuckyLemon (patterns P1–P7), **no game name, no "incremental", no "|"**, Title Case, 30–55 characters. Game name in the description and tags. Test on the next 3 videos, then review. Details: [playbook/titles.md](../playbook/titles.md).
 - **Never the word "Demo" in a title** (Mamunur, 26 Oct 2026); "demo" goes in the description and tags.
-- Thumbnails: one idea, 2–4 words or one big number, before→after or 0%→100%.
+- Thumbnails: one idea, POV hand + giant pile. **Test from 28 Nov 2026:** 2–3 big words at the top on 5 videos (IdleAlex/KitGain style, "DRINK THE OCEAN"), then compare CTR with the no-text videos.
 
 Details: [playbook/titles.md](../playbook/titles.md), [playbook/thumbnails.md](../playbook/thumbnails.md).
 
 ## Games
 
-- Themes that break out: **dark/horror**, **swarm/army from nothing**, **cozy satisfying cleanup**, **mining/digging/fishing**.
-- Free first: Steam demos, playtests, free-to-play incrementals, developer keys (Keymailer, email).
-- Buy max **$10–15/month**, on sale, only after the checklist passes.
+- Themes that break out: **a giant amount of one thing** (ocean, desert, 1,000,000 coins, 10,000 nails, a wall you punch 7 million times), **cozy satisfying cleanup**, **mining/digging**.
+- Free first: Steam demos, playtests, browser games, developer keys (Keymailer, email).
+- **Budget (27 Nov 2026): up to $10–15/month**, only for a GO or FOLLOW game that costs ≤ $5 and passes the run test.
 
 Details: [games/backlog.md](../games/backlog.md), [games/checklist.md](../games/checklist.md).
 
@@ -102,7 +96,7 @@ Azrilich is the **game-choice and title-shape model**, not the copy target. Brim
 
 | Azrilich | Brimlo (my way) |
 |---|---|
-| Fast edit, jokes, ~20–50 min, ~1 video/day | Calm live commentary, 60–120 min, 3–4 videos/week |
+| Fast edit, jokes, ~20–50 min, ~1 video/day | Calm live commentary, 40–70 min, 6–7 videos/week |
 | Skits and fast-talking | Explain what's on screen, why I choose, honest verdict |
 | Shows the "wow" result | Shows the **whole journey** and tells viewers if the game is worth buying |
 

@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { channelStats, channelStatsInput, channelVideos, channelVideosInput } from "./features/channels.ts";
+import { channelDump, channelDumpInput } from "./features/channelDump.ts";
 import { competitorsAdd, competitorsAddInput, competitorsList, competitorsListInput, competitorsRefresh, competitorsRefreshInput, competitorsRemove, competitorsRemoveInput, competitorsSeed, competitorsSeedInput } from "./features/competitors.ts";
 import { ideaEngine, ideaEngineInput } from "./features/ideaEngine.ts";
 import { ideaSave, ideaSaveInput, ideasList, ideasListInput, ideaUpdate, ideaUpdateInput } from "./features/ideas.ts";
@@ -73,6 +74,14 @@ export const tools: ToolDef[] = [
     primary: "channel",
     schema: channelVideosInput,
     run: channelVideos,
+  },
+  {
+    name: "channel_dump",
+    title: "Channel dump (all uploads)",
+    description: "EVERY upload of a channel (up to 3,000, not only the last 50) with views, likes, length, the GAME read from links/description/title, publish time in UTC + Dhaka + US Eastern, weekday, title features (length, CAPS words, number, game name in title) and the thumbnail URL. Saves research/data/channels/<handle>.json so studies keep the data. ~2 units per 50 videos.",
+    primary: "channel",
+    schema: channelDumpInput,
+    run: channelDump,
   },
   {
     name: "channel_stats",

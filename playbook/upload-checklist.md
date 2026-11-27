@@ -14,8 +14,8 @@ Run through this before every upload. After uploading, run `/publish`.
 
 ## Title
 
-- [ ] Uses a pattern P1–P7 from the Brimlo title system in [titles.md](titles.md)
-- [ ] Game name by game type (`titles.md`): survivor/horde/action → hook first, " | Game Name" or " - Game Name" at the end; cozy/sim/clicker → no game name. Never the name first. No "incremental", no "Demo" (game name + "demo" always go in the description and tags)
+- [ ] Title A uses the house pattern "I [did the chore] [100% of] [GIANT THING] With [tiny tool]" (titles.md rule 0); B/C use P1–P7
+- [ ] **No game name in the title** (titles.md rule 1, 27 Nov 2026). No "incremental", no "Demo". Game name + "demo" always go in the first description line and tags
 - [ ] True to the video (every number/claim happens on screen)
 - [ ] Title Case, 30–55 characters, max one CAPS word, no emoji
 - [ ] Go live with title A, no Studio A/B test (10 Nov 2026). Note the 2–3 day swap-check date in the video file (B + C are swap titles)
@@ -73,7 +73,7 @@ Chapters
 - [ ] Add to playlists — the video file's **Playlists** row says which. Use the 4 names below **exactly** (made in Studio 6 Nov 2026). Never rename them and never invent a new one; if a game fits none, ask Mamunur before making a 5th. Rule: **1 genre list** + the demo list if it is a demo, playtest or itch.io game:
   - **Incremental Games: Numbers Go UP** — idle, incremental, clicker
   - **Satisfying Upgrade Games** — cleaning, restoring, digging, sorting, job sims with upgrades
-  - **Survivor-Like Games: Weak to OP** — survivor-like, bullet heaven
+  - **Survivor-Like Games: Weak to OP** — survivor-like, bullet heaven (rarely used from 27 Nov 2026: the niche is chore incrementals; keep the list, do not delete it)
   - **New Steam Demos Played to 100%** — every demo, playtest or itch.io game (extra list, on top of the genre list)
 - [ ] Test & Compare (if available): 2–3 thumbnails or titles
 - [ ] **Scheduled for 10 PM Dhaka** (12 PM ET until 31 Oct 2026; 11 AM ET from 1 Nov 2026)

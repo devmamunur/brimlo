@@ -37,6 +37,18 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 | New-release lists | SteamDB, r/incremental_games, topincrementalgames.com, Steam250 incremental tag |
 | **itch.io browser games** | itch.io → Games → HTML5 → tag "incremental" / "clicker", sort by newest. Free, run in the Mac browser, no CrossOver, little competition. Ridiculously Random's main source (study 25 Oct 2026). Check the developer allows videos. |
 
+## FOLLOW list (chore games in a huge wave, for days with no GO game) — from 27 Nov 2026
+
+Filled every Sunday in `/weekly-review` from the five tracked channels (LuckyLemon, IdleAlex, Ridiculously Random, KitGain, Azrilich). Re-check in `/pick-game` before recording (needs 2+ English videos ≥ 100K in the last 14 days + a small channel ≥ 2K this week). Budget: ≤ $5 games, $10–15 a month. Data: `research/data/channels/game-searches/` (checked Fri 27 Nov 2026).
+
+| Game | Price | Huge videos (≥ 100K) in the last 14 days | Small channel win | Angle for Brimlo | Status |
+|---|---|---|---|---|---|
+| Punch The Walls | $2.99 | LuckyLemon 353K (16 Nov), Fox Clicks Again 416K (18 Nov), Azrilich 162K (26 Nov) | Fox Clicks Again (9.5K subs) 416K | "I Punched 100% of the Walls With My Bare Fists" | ✅ FOLLOW — buy? |
+| AMMO DUMP | $2.49 | IdleAlex 93K (16 Nov, near), ImCade 288K (18 Nov) | Idle Enns (220 subs) 5.2K (17 Nov) | "I Destroyed a 90 TRILLION HP Cube With One Pistol" | 🟡 check: only 1 clear ≥ 100K |
+| Hammer These Nails | $3.99 | GrayStillPlays 589K (16 Nov) | IdleRocky (1.6K subs) 21K (18 Nov) | 100% house | 🟡 wave older (4–16 Nov) |
+| Find The Clover | free demo | Azrilich 203K (19 Nov) | Rantster 2.1K (21 Nov) | "I Found the 1 in 1,000,000 Clover" | 🟡 only 1 ≥ 100K |
+| SHRED A BILLION (full game) | $5.59 (20% off) | GrayStillPlays 336K (22 Nov), DangerouslyFunny 235K (25 Nov), Z1 115K, FonFon 110K | Fox Clicks Again 60K | full game 100% (we did the demo) | ❌ over $5 now; ✅ if ≤ $5 on sale |
+
 ## Candidates (not owned)
 
 | Game | Why | Mac | Cost | Notes |
@@ -51,6 +63,22 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 | Needle In A Haystack Simulator | Huge Sep 2026 wave; full release "later this year" | ? | ? | Only on full release — the wave is over |
 | FEED THE AI | Big outlier, but already covered by Idle Cub and others | Windows only | Paid | Only with a fresh angle (100% run) |
 | My Fire Is Bigger Than Yours | 100% video got 174K | ? | Paid | Covered; fresh angle needed |
+
+### /pick-game, Fri 27 Nov 2026 ~9:10 PM Dhaka (15:10 UTC) — wave_scan (cached, 0 units) + 1 name search (100 units) + Steam demos/playtest + mana-watch (no change). No Chrome check (no GO game).
+
+**Verdict: 😴 NO GAME NOW. Scan again Sat 28 Nov ~7–9 AM Dhaka.** wave_scan = ONLY_LATE; no GO game.
+
+| Game | Stage / big videos | Gate | Result |
+|---|---|---|---|
+| Fleshborn (demo 4379950) | LATE: Idle cub 241K (46 h), demo wave 10 months old | Full game paid; only old demo | Late option only (100% demo plan, expect ≤ ~400) |
+| Beellionaire | LATE: 3 big, first 15 days ago | Paid, no demo | Dropped |
+| Round And Round Inc | LATE: 5 big (Dex 103K) | Paid; demo did not open in CrossOver (8 Nov) | Dropped |
+| No Asteroids | LATE: 7 big | Mamunur said no | Dropped |
+| SHRED A BILLION (full) | LATE: Idle cub 96K + Z1 48K (22 h) | Used 11 Nov; full game paid | Dropped |
+| Bamboo Ronin | LATE: mcveety 39K (43 h) | Paid | Dropped |
+| For What Remains demo | NO: JP 9.9K only, 1 English video (0 views, 1 h) | — | Watch |
+| Cell Eats City demo (5462670) | No video yet (search 72 h = 0) | Free demo, out today; one simple goal | Watch ⭐ (best fit) |
+| Pay Up, Piggy / Goblin Must Clean / Mine a Little demos | No wave | Free demos, out 26–27 Nov | Watch |
 
 ### /pick-game, Thu 26 Nov 2026 ~8:45 PM Dhaka (14:45 UTC) — wave_scan (1,020 units) + Steam new/demos/playtest + mana-watch (no change) + Chrome check of 3
 

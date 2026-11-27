@@ -180,3 +180,17 @@ describe("live-test fixes (27 Nov 2026)", () => {
     expect(verdictOf({ status: "NO_ENGLISH_SIGNAL", re_wave: false, stage: "LATE", cooling: false, english_wave_age_hours: null, big_videos: 2, first_big_video_hours_ago: 22 }).verdict).toBe("LATE");
   });
 });
+
+describe("FOLLOW: huge live waves (channel study 27 Nov 2026)", () => {
+  const row = (id: string, subs: number, views: number, hoursAgo: number) => toRow(vid(id, id, "x", "", views, hoursAgo, 60, "en"), ch(id, subs), now);
+  const live = { status: "OPEN" as const, re_wave: false };
+  it("Kick Rocks on 25 Nov: 3 huge videos + a small channel win → FOLLOW", () => {
+    const st = stageOf([row("imcade", 1_200_000, 150_000, 10), row("normalhs", 1_180, 225_000, 140), row("mcveety", 44_400, 104_000, 70), row("lemon", 2_340, 5_800, 50)]);
+    expect(st.huge_videos_14d).toBe(3);
+    expect(verdictOf({ ...live, ...st, english_wave_age_hours: 40 }).verdict).toBe("FOLLOW");
+  });
+  it("Heroll on 26 Nov: big but not huge (86K, 71K) → LATE, not FOLLOW", () => {
+    const st = stageOf([row("gohjoe", 202_000, 86_000, 46), row("dabble", 18_000, 71_000, 46), row("moon", 15, 6_000, 20)]);
+    expect(verdictOf({ ...live, ...st, english_wave_age_hours: 40 }).verdict).toBe("LATE");
+  });
+});
