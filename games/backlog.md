@@ -37,17 +37,17 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 | New-release lists | SteamDB, r/incremental_games, topincrementalgames.com, Steam250 incremental tag |
 | **itch.io browser games** | itch.io → Games → HTML5 → tag "incremental" / "clicker", sort by newest. Free, run in the Mac browser, no CrossOver, little competition. Ridiculously Random's main source (study 25 Oct 2026). Check the developer allows videos. |
 
-## FOLLOW list (chore games in a huge wave, for days with no GO game) — from 27 Nov 2026
+## FOLLOW list (simple one-goal games in a proven live wave, for days with no GO game) — from 27 Nov 2026
 
-Filled every Sunday in `/weekly-review` from the five tracked channels (LuckyLemon, IdleAlex, Ridiculously Random, KitGain, Azrilich). Re-check in `/pick-game` before recording (needs 2+ English videos ≥ 100K in the last 14 days + a small channel ≥ 2K this week). Budget: ≤ $5 games, $10–15 a month. Data: `research/data/channels/game-searches/` (checked Fri 27 Nov 2026).
+Filled every Sunday in `/weekly-review` from the five tracked channels (LuckyLemon, IdleAlex, Ridiculously Random, KitGain, Azrilich). Re-check in `/pick-game` before recording (FOLLOW needs 1+ English video ≥ 50K in the last 21 days, not cooling). Budget: ≤ $5 games (one GO game a month up to $10), $10–15 a month. Data: `research/data/channels/game-searches/` (checked Fri 27 Nov 2026).
 
-| Game | Price | Huge videos (≥ 100K) in the last 14 days | Small channel win | Angle for Brimlo | Status |
+| Game | Price | Big videos (≥ 50K) in the last 21 days | Small channel win | Angle for Brimlo | Status |
 |---|---|---|---|---|---|
 | Punch The Walls | $2.99 | LuckyLemon 353K (16 Nov), Fox Clicks Again 416K (18 Nov), Azrilich 162K (26 Nov) | Fox Clicks Again (9.5K subs) 416K | "I Punched 100% of the Walls With My Bare Fists" | ✅ FOLLOW — buy? |
-| AMMO DUMP | $2.49 | IdleAlex 93K (16 Nov, near), ImCade 288K (18 Nov) | Idle Enns (220 subs) 5.2K (17 Nov) | "I Destroyed a 90 TRILLION HP Cube With One Pistol" | 🟡 check: only 1 clear ≥ 100K |
-| Hammer These Nails | $3.99 | GrayStillPlays 589K (16 Nov) | IdleRocky (1.6K subs) 21K (18 Nov) | 100% house | 🟡 wave older (4–16 Nov) |
-| Find The Clover | free demo | Azrilich 203K (19 Nov) | Rantster 2.1K (21 Nov) | "I Found the 1 in 1,000,000 Clover" | 🟡 only 1 ≥ 100K |
-| SHRED A BILLION (full game) | $5.59 (20% off) | GrayStillPlays 336K (22 Nov), DangerouslyFunny 235K (25 Nov), Z1 115K, FonFon 110K | Fox Clicks Again 60K | full game 100% (we did the demo) | ❌ over $5 now; ✅ if ≤ $5 on sale |
+| AMMO DUMP | $2.49 | IdleAlex 93K (16 Nov, near), ImCade 288K (18 Nov) | Idle Enns (220 subs) 5.2K (17 Nov) | "I Destroyed a 90 TRILLION HP Cube With One Pistol" | ✅ FOLLOW — buy? |
+| Hammer These Nails | $3.99 | GrayStillPlays 589K (16 Nov) | IdleRocky (1.6K subs) 21K (18 Nov) | 100% house | ✅ FOLLOW (GrayStillPlays 16 Nov is inside 21 days) — buy? |
+| Find The Clover | free demo | Azrilich 203K (19 Nov) | Rantster 2.1K (21 Nov) | "I Found the 1 in 1,000,000 Clover" | ✅ FOLLOW (free demo) |
+| SHRED A BILLION (full game) | $5.59 (20% off) | GrayStillPlays 336K (22 Nov), DangerouslyFunny 235K (25 Nov), Z1 115K, FonFon 110K | Fox Clicks Again 60K | full game 100% (we did the demo) | ❌ over $5 and not a GO game; ✅ if ≤ $5 on sale |
 
 ## Candidates (not owned)
 

@@ -13,11 +13,11 @@ Growth in this niche comes from **hits**: 1–3 videos that do 10–40x better t
 
 ## Niche (changed 27 Nov 2026)
 
-**One clear type: "one simple, crazy chore" incrementals.** Collect / clean / dig / empty / destroy / punch / shred a **giant amount** of something, with upgrades that make the numbers explode. A viewer must understand the video in one second (Drink the Ocean, Every Last Grain, Punch The Walls, One Million Coins, Bean In A Ball Pit).
+**One clear type: simple one-goal incrementals, chore games first.** Collect / clean / dig / empty / destroy / punch / shred a **giant amount** of something, with upgrades that make the numbers explode. A viewer must understand the video in one second (Drink the Ocean, Every Last Grain, Punch The Walls, One Million Coins, Bean In A Ball Pit).
 
 - Simple horde games where numbers explode are OK sometimes (Wait, They Can Climb).
 - **Out:** roguelike, RPG, deck builders, complex survivor or management sims, plain sims with no progression.
-- **Why:** [four-channel study](../research/reports/2026-11-27-four-channel-study/README.md) (27 Nov 2026). LuckyLemon, IdleAlex, Ridiculously Random and KitGain started Sep–Oct 2026 like Brimlo; ~90% of their videos are this type, and YouTube recommends them next to every big video of the game, even days late. On the same games Brimlo got 10–100× fewer views, even when earlier: the mixed niche (Heroll, Seabun, Outbreak Z, Pack Ripper…) means YouTube does not know Brimlo's audience. Brimlo's two best videos (Ocean 3,991, Desert 1,974) are exactly this type.
+- **Why:** [four-channel study](../research/reports/2026-11-27-four-channel-study/README.md) (27 Nov 2026). LuckyLemon, IdleAlex, Ridiculously Random and KitGain started Sep–Oct 2026 like Brimlo; most of their videos are simple one-goal games (57–76% chore games by title), and YouTube recommends them next to every big video of the game, even days late. On the same games Brimlo got 10–100× fewer views, even when earlier: the mixed niche (Heroll, Seabun, Outbreak Z, Pack Ripper…) means YouTube does not know Brimlo's audience. Brimlo's two best videos (Ocean 3,991, Desert 1,974) are exactly this type.
 - Old niche (13 Oct – 27 Nov 2026): incremental / idle / survivor-like + satisfying job-sim, 60/40.
 
 **First 30 videos goal:** 30 chore videos by ~early January 2027, then judge with real numbers. Do not change the niche again before that. (The four channels reached 1–2K subs after 30–42 tight-niche videos.)
@@ -44,8 +44,8 @@ Every pick gets one label (CLAUDE.md rules 11–12, `/pick-game`, tool `brimlo_w
 | Label | When | Publish |
 |---|---|---|
 | ✅ **GO** | Live English wave, first outlier ≤ 48 h (best ≤ 24 h), **0 big English videos (≥ 30K)** or exactly 1 that is ≤ 24 h old, not cooling | **The same night** |
-| 🥈 **FOLLOW** | After the big channels, but the wave is **huge**: 2+ English videos ≥ 100K in 14 days, and a small channel (< 10K subs) still got ≥ 2K this week. Needs a new angle (100% / ending / full game) | Tonight or tomorrow |
-| ❌ LATE / NO | Big videos in a small or niche wave (Heroll), cooling, old, or no wave | Do not record. No GO/FOLLOW → "No game now, rest" |
+| 🥈 **FOLLOW** | After the big channels, but the wave is **proven and live**: 1+ English video ≥ 50K in the last 21 days, not cooling. Needs a new angle (100% / ending / full game) | Same night, or the next night for a rest day |
+| ❌ LATE / NO | Old or small wave (no ≥ 50K video in 21 days), cooling (3+ channels with 500–50K subs from the last 1–4 days all < 500 views), or no English wave. A new Mana game that fits is GO right away | Do not record. No GO/FOLLOW → "No game now, rest" |
 
 **Data:** [wave timing study](../research/reports/2026-11-27-wave-timing-study.md): Brimlo before the big channels avg ~1,800 views, after 2+ big videos ~400, no wave ~110. [Four-channel study](../research/reports/2026-11-27-four-channel-study/README.md): their hits came from GO (KitGain first on Drink the Ocean 105K) **and** FOLLOW (LuckyLemon Punch The Walls 353K four days after the first big video; IdleAlex AMMO DUMP 93K). Brimlo gets ~300–900 from FOLLOW now; it should grow once the niche is tight.
 
@@ -77,7 +77,7 @@ Details: [playbook/titles.md](../playbook/titles.md), [playbook/thumbnails.md](.
 
 - Themes that break out: **a giant amount of one thing** (ocean, desert, 1,000,000 coins, 10,000 nails, a wall you punch 7 million times), **cozy satisfying cleanup**, **mining/digging**.
 - Free first: Steam demos, playtests, browser games, developer keys (Keymailer, email).
-- **Budget (27 Nov 2026): up to $10–15/month**, only for a GO or FOLLOW game that costs ≤ $5 and passes the run test.
+- **Budget (27 Nov 2026): up to $10–15/month**, for GO or FOLLOW games ≤ $5, plus one GO game a month up to $10.
 
 Details: [games/backlog.md](../games/backlog.md), [games/checklist.md](../games/checklist.md).
 

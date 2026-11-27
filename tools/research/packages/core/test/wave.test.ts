@@ -147,10 +147,10 @@ describe("isSignal floor", () => {
 describe("stageOf + verdictOf (wave-timing study 27 Nov 2026)", () => {
   const row = (id: string, subs: number, views: number, hoursAgo: number, min = 60) => toRow(vid(id, id, "x", "", views, hoursAgo, min, "en"), ch(id, subs), now);
   const live = { status: "OPEN" as const, re_wave: false };
-  it("Heroll on 26 Nov: two big videos ~46 h old → LATE", () => {
+  it("Heroll on 26 Nov: two big videos ~46 h old → LATE stage; views say FOLLOW, the fit gate (not a chore game) drops it", () => {
     const st = stageOf([row("gohjoe", 202_000, 77_000, 46), row("dabble", 18_000, 61_000, 46), row("beelz", 100_000, 28_000, 120), row("moon", 15, 1_000, 18)]);
     expect(st).toMatchObject({ stage: "LATE", big_videos: 2 });
-    expect(verdictOf({ ...live, ...st, english_wave_age_hours: 40 }).verdict).toBe("LATE");
+    expect(verdictOf({ ...live, ...st, english_wave_age_hours: 40 }).verdict).toBe("FOLLOW");
   });
   it("Every Last Grain on 24 Nov: one big video 6 h old → BIG_JUST_POSTED, GO", () => {
     const st = stageOf([row("bonsai", 56_000, 35_000, 6), row("rr", 1_780, 15_000, 16), row("yummy", 175, 3_000, 30)]);
@@ -163,7 +163,7 @@ describe("stageOf + verdictOf (wave-timing study 27 Nov 2026)", () => {
     expect(verdictOf({ ...live, ...st, english_wave_age_hours: 23 }).verdict).toBe("GO");
   });
   it("small channels from the last days all under 500 views → cooling, NO", () => {
-    const st = stageOf([row("a", 200, 3_000, 110), row("b", 300, 120, 40), row("c", 50, 60, 30)]);
+    const st = stageOf([row("a", 2_000, 3_000, 110), row("b", 3_000, 120, 40), row("c", 900, 60, 30), row("d", 5_000, 300, 70)]);
     expect(st.cooling).toBe(true);
     expect(verdictOf({ ...live, ...st, english_wave_age_hours: 70 }).verdict).toBe("NO");
   });
@@ -181,16 +181,20 @@ describe("live-test fixes (27 Nov 2026)", () => {
   });
 });
 
-describe("FOLLOW: huge live waves (channel study 27 Nov 2026)", () => {
+describe("FOLLOW: proven live waves (channel study 27 Nov 2026)", () => {
   const row = (id: string, subs: number, views: number, hoursAgo: number) => toRow(vid(id, id, "x", "", views, hoursAgo, 60, "en"), ch(id, subs), now);
   const live = { status: "OPEN" as const, re_wave: false };
-  it("Kick Rocks on 25 Nov: 3 huge videos + a small channel win → FOLLOW", () => {
-    const st = stageOf([row("imcade", 1_200_000, 150_000, 10), row("normalhs", 1_180, 225_000, 140), row("mcveety", 44_400, 104_000, 70), row("lemon", 2_340, 5_800, 50)]);
-    expect(st.huge_videos_14d).toBe(3);
-    expect(verdictOf({ ...live, ...st, english_wave_age_hours: 40 }).verdict).toBe("FOLLOW");
+  it("Punch The Walls on 16 Nov: one 107K video 4 days old → FOLLOW (LuckyLemon got 353K)", () => {
+    const st = stageOf([row("fungal", 10_900, 107_000, 96), row("other", 3_000, 4_000, 60)]);
+    expect(st.proven_videos_21d).toBe(1);
+    expect(verdictOf({ ...live, ...st, english_wave_age_hours: 96 }).verdict).toBe("FOLLOW");
   });
-  it("Heroll on 26 Nov: big but not huge (86K, 71K) → LATE, not FOLLOW", () => {
-    const st = stageOf([row("gohjoe", 202_000, 86_000, 46), row("dabble", 18_000, 71_000, 46), row("moon", 15, 6_000, 20)]);
-    expect(verdictOf({ ...live, ...st, english_wave_age_hours: 40 }).verdict).toBe("LATE");
+  it("big videos only 30–49K and old → LATE", () => {
+    const st = stageOf([row("a", 100_000, 40_000, 200), row("b", 20_000, 35_000, 600)]);
+    expect(verdictOf({ ...live, ...st, english_wave_age_hours: 600 }).verdict).toBe("LATE");
+  });
+  it("cooling ignores tiny channels (< 500 subs)", () => {
+    const st = stageOf([row("big", 200_000, 80_000, 100), row("t1", 15, 40, 30), row("t2", 50, 90, 50)]);
+    expect(st.cooling).toBe(false);
   });
 });

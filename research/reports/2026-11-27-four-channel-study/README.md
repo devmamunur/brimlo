@@ -53,7 +53,7 @@ They are **fast followers of huge waves**, not first movers. Their best hits:
 | KitGain — Drink the Ocean / Big Ice (free browser) | 13 / 15 Nov | nobody (first) | 105,627 / 36,804 |
 
 Patterns:
-1. **Almost every hit is a "one simple, crazy chore" game:** collect 1,000,000 coins, punch walls, hammer 10,000 nails, shred money, find one clover, empty a ball pit, clean the moon. Almost no RPG, roguelike or deck game.
+1. **Almost every hit is a simple one-goal game, mostly a "crazy chore":** collect 1,000,000 coins, punch walls, hammer 10,000 nails, shred money, find one clover, empty a ball pit, clean the moon. Almost no RPG, roguelike or deck game.
 2. **They play what the big incremental channels (Azrilich, ImCade, DangerouslyFunny, Idle cub) just played, 0–10 days later**, while the wave is still huge. They also play the same games as each other (One Million Coins, Unharvest, Toss Office, Leaf It Alone, Coin Maker…).
 3. **Being first works too**, mostly for the smallest channel (KitGain: first = 105K and 37K; late = 500–1,100).
 4. **About half of the big hits were cheap paid games ($2.49–$8.99):** Punch The Walls, AMMO DUMP, Bean In A Ball Pit, Too Many Balls, Moon Sweepers, Hammer These Nails, One Million Coins, Leaf It Alone, The Woodman. The other half were free demos/browser games. Brimlo's no-buy rule blocks half of the best games.
@@ -81,7 +81,7 @@ All 5 use the same kind: bright AI art, first-person hand doing the job, one hug
 
 ## 6. What Brimlo is missing (in order)
 
-1. **One clear niche.** Their channels are 90%+ "one simple chore" games, so YouTube knows exactly who to show them to and recommends them next to every big video of that game, even days late. Brimlo mixed in roguelike/RPG/survivor games (Heroll, Seabun, Outbreak Z, Wipe Them Out, Pack Ripper, I Am Plague), so YouTube does not know the audience: same game → 10–100× fewer views.
+1. **One clear niche.** Their channels are mostly **simple one-goal incrementals** (chore games are 57–76% of titles by a keyword count: LuckyLemon 76%, KitGain 70%, Ridiculously Random 62%, IdleAlex 57%; the rest are other simple games like bowling, card packs, Mars digging — almost no roguelike/RPG), so YouTube knows exactly who to show them to and recommends them next to every big video of that game, even days late. Brimlo mixed in roguelike/RPG/survivor games (Heroll, Seabun, Outbreak Z, Wipe Them Out, Pack Ripper, I Am Plague), so YouTube does not know the audience: same game → 10–100× fewer views.
 2. **Volume.** They post 5–7 long videos a week (IdleAlex every day, same minute). Brimlo ~3.5. More videos = more chances for a 50K+ hit, and a hit is what brought them their subscribers.
 3. **Fast following.** They do not wait for a perfect early game. When a chore game is in a huge wave, they play it within 0–10 days.
 4. **Game budget.** Half of their hits cost $2.49–$8.99.
@@ -91,8 +91,8 @@ What is **not** the problem: thumbnails, title style, video length, being late b
 
 ## 7. Decision (27 Nov 2026)
 
-1. **Niche:** Brimlo = "one simple, crazy chore" incrementals (collect / clean / dig / empty / destroy / punch / shred a giant amount). Stop roguelike / RPG / deck / complex survivor games for now. Survivor/horde games only if they are this simple (Wait, They Can Climb was OK).
-2. **/pick-game gets 3 levels:** 🥇 **GO** (early, before the big channels) → 🥈 **FOLLOW** (huge live wave: 2+ English videos ≥ 100K in 14 days, and a small channel got ≥ 2K this week; play it with a different angle such as 100%) → otherwise **rest**. LATE in a small or niche wave (Heroll) = no.
+1. **Niche:** Brimlo = simple one-goal incrementals, **chore games first** (collect / clean / dig / empty / destroy / shred a giant amount). Stop roguelike / RPG / deck / complex sim games. Simple horde games are OK.
+2. **/pick-game gets 3 levels:** 🥇 **GO** (early, before the big channels) → 🥈 **FOLLOW** (proven live wave: **1+ English video ≥ 50K in the last 21 days**, not cooling; play it with a new angle such as 100%) → otherwise **rest**. *Corrected in the review the same night:* the first draft said "2+ videos ≥ 100K in 14 days"; tested on this data, that would have blocked Punch The Walls (353K), Quadrillion Carrots (152K), AMMO DUMP (93K), Cozy Banker (66K) and Shred (65K), which had 0–1 videos ≥ 100K before them. The game-type fit gate (simple one-goal games) does the filtering, not a high view bar.
 3. **Uploads:** move from 3–4 to **6–7 a week** at one fixed time (10 PM Dhaka), if energy allows. FOLLOW games make daily uploads possible.
 4. **Game budget:** suggest a small budget (e.g. $10–15 a month = 3–5 cheap hit games). Mamunur decides.
 5. Expect: FOLLOW videos give Brimlo ~300–900 now; the channel needs ~30–60 tight-niche videos before YouTube trusts it like LuckyLemon/IdleAlex (they reached 1–2K subs in ~6 weeks with 30–42 videos and 1–2 big hits).

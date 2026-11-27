@@ -151,6 +151,7 @@ Update 7 days after publish (and after each swap).
 | Review 11 Nov 2026 | Best CTR: Rust & Shine 7.3%, I Am Plague 6.5% ("I 100%…"), Outbreak Z 6.2%, Deforest 5.7%. Worst: Pack Ripper 1.0%, Cookie Clicker 1.3%, Scrapecremental 1.5%, Digging a Hole 1.7%. Search CTR 11.7% vs Browse 3.3%: the game name in the title helps search. | | |
 | The Pool Problem | "I Filled an 80,000 Liter Pool Starting With One SPOON" (Sat 21 Nov) → "I Drained HALF the Sea to Fill One GIANT Pool" (Tue 24 Nov; day 3: 76 impressions, CTR 6.6%, avg view 0:15 — reach problem, not CTR) | check Sat 28 Nov | 6.6% before |
 | Review 26 Nov 2026 | 28 d CTR: Every Last Grain 7.7% (day 0), Drink the Ocean 6.5% (20K impressions), Wait 4.9%, Shred 4.8%, Wipe 4.1%, Mycelarium 3.7%, Big Ice 2.9%. Pack Ripper still 1.4% after the 11 Nov swap → needs a new thumbnail, not another title. "I [did] 100% of [HUGE thing] With a [tiny tool]" works twice now (Ocean, Desert). | Ocean ~3,800 | |
+| Big Ice | "I Spent an Hour Destroying a GIANT Mountain of ICE!" (17 Nov) → "I Attacked a GIANT Ice Mountain With a Stone Hammer" (Fri 27 Nov 2026; house pattern, no "100%": the run stopped at 35%) | 431 | 2.9% before (2,721 impressions, 28 d) |
 
 **These rules are not fixed (Mamunur, 11 Nov 2026).** Change a rule only after new market research (20+ games, small and big channels) or our own clear data, and write the date and the reason here.
 
