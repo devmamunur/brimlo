@@ -341,3 +341,5 @@ Check dates: 7 days = Sat 28 Nov 2026 · 28 days = Sat 19 Dec 2026.
 | Watch hours | | |
 
 **Lessons:** 
+
+**Check, Thu 26 Nov 2026 (day 5, Studio + brimlo_youtube_search):** 111 impressions · CTR 6.3% · 17 views (6 unique) · avg view 0:16 · 0 subs. Traffic: Search 53%, Browse 18%, Channel pages 12%, Suggested 12%. No wave: no other long English video about this game in the last 14 days. Title is fine (6.3% is our best CTR) → no change. Problem: YouTube barely shows it (no demand for this game) + people leave in 16 s. Retention curve: not enough data yet.

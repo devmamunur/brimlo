@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { gameFromVideo, groupWaves, judgeHistory, keepRow, toRow, videoLanguage } from "../src/features/youtubeSearch.ts";
+import { gameFromVideo, groupWaves, judgeHistory, keepRow, stageOf, toRow, verdictOf, videoLanguage } from "../src/features/youtubeSearch.ts";
 import type { ChannelInfo, VideoInfo } from "../src/providers/types.ts";
 
 const now = new Date("2026-11-14T15:00:00Z");
@@ -141,5 +141,42 @@ describe("isSignal floor", () => {
     const chans = new Map([["z", ch("z", 3, 10, 10)]]);
     const rows = [vid("z1", "z", "I Tried to Collect Coins | One Million Coins", "", 5, 30)].map((v) => ({ ...toRow(v, chans.get(v.channelId), now), query: "q" }));
     expect(groupWaves(rows, 3).games).toHaveLength(0);
+  });
+});
+
+describe("stageOf + verdictOf (wave-timing study 27 Nov 2026)", () => {
+  const row = (id: string, subs: number, views: number, hoursAgo: number, min = 60) => toRow(vid(id, id, "x", "", views, hoursAgo, min, "en"), ch(id, subs), now);
+  const live = { status: "OPEN" as const, re_wave: false };
+  it("Heroll on 26 Nov: two big videos ~46 h old → LATE", () => {
+    const st = stageOf([row("gohjoe", 202_000, 77_000, 46), row("dabble", 18_000, 61_000, 46), row("beelz", 100_000, 28_000, 120), row("moon", 15, 1_000, 18)]);
+    expect(st).toMatchObject({ stage: "LATE", big_videos: 2 });
+    expect(verdictOf({ ...live, ...st, english_wave_age_hours: 40 }).verdict).toBe("LATE");
+  });
+  it("Every Last Grain on 24 Nov: one big video 6 h old → BIG_JUST_POSTED, GO", () => {
+    const st = stageOf([row("bonsai", 56_000, 35_000, 6), row("rr", 1_780, 15_000, 16), row("yummy", 175, 3_000, 30)]);
+    expect(st.stage).toBe("BIG_JUST_POSTED");
+    expect(verdictOf({ ...live, ...st, english_wave_age_hours: 30 }).verdict).toBe("GO");
+  });
+  it("Drink the Ocean on 14 Nov: no big video yet → EARLY, GO", () => {
+    const st = stageOf([row("jayify", 28_000, 19_600, 21), row("kit", 26, 10_500, 23), row("short", 75_000, 500_000, 13, 2)]);
+    expect(st).toMatchObject({ stage: "EARLY", big_videos: 0 });
+    expect(verdictOf({ ...live, ...st, english_wave_age_hours: 23 }).verdict).toBe("GO");
+  });
+  it("small channels from the last days all under 500 views → cooling, NO", () => {
+    const st = stageOf([row("a", 200, 3_000, 110), row("b", 300, 120, 40), row("c", 50, 60, 30)]);
+    expect(st.cooling).toBe(true);
+    expect(verdictOf({ ...live, ...st, english_wave_age_hours: 70 }).verdict).toBe("NO");
+  });
+  it("old wave with no re-wave → NO", () => {
+    expect(verdictOf({ status: "OLD", re_wave: false, stage: "EARLY", cooling: false, english_wave_age_hours: 300, big_videos: 0, first_big_video_hours_ago: null }).verdict).toBe("NO");
+  });
+});
+
+describe("live-test fixes (27 Nov 2026)", () => {
+  it("a line of dashes is not a game name", () => {
+    expect(gameFromVideo({ title: "I 100%'d Your Party Died Again and It Was Amazing", description: "Game: --------------------------------------------------\nmore" }).name ?? "").not.toMatch(/^-+$/);
+  });
+  it("big English channels with no small outliers → LATE, not 'no wave'", () => {
+    expect(verdictOf({ status: "NO_ENGLISH_SIGNAL", re_wave: false, stage: "LATE", cooling: false, english_wave_age_hours: null, big_videos: 2, first_big_video_hours_ago: 22 }).verdict).toBe("LATE");
   });
 });

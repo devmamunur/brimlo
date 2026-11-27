@@ -83,7 +83,7 @@ export function gameFromVideo(v: Pick<VideoInfo, "title" | "description">): Game
   // 4. "The game is called X" / "Game: X" in the description
   const dp = DESC_PHRASES.exec(d);
   const fromDesc = (dp?.[1] ?? dp?.[2])?.replace(/\s+(on steam|by .*|here.*|link.*)$/i, "").replace(/[.,:;]+$/, "").trim();
-  if (fromDesc && fromDesc.length >= 2 && !NOT_A_GAME.test(fromDesc) && !/^https?:/i.test(fromDesc)) {
+  if (fromDesc && fromDesc.length >= 2 && /[a-z]{2}/i.test(fromDesc) && !NOT_A_GAME.test(fromDesc) && !/^https?:/i.test(fromDesc)) {
     const name = stripEdition(titleCase(fromDesc));
     return { name, key: nameKey(name), link: null, source: "description" };
   }
@@ -293,7 +293,7 @@ export const waveScanInput = z.object({
   min_outlier: z.number().min(0).default(2).describe("A video counts as a wave signal at outlier_score ≥ N (or very high views per hour on a small channel)"),
   gaming_only: z.boolean().default(true).describe("Search only the YouTube Gaming category"),
   include_live: z.boolean().default(false),
-  history_check: z.number().int().min(0).max(15).default(3).describe("For the top N candidates with a live English wave (the shortlist size by default), search the game name with NO time limit (~102 units each) to find when the English wave really started and how many English videos exist in total. A 48-h search alone cannot see older videos"),
+  history_check: z.number().int().min(0).max(15).default(5).describe("For the top N candidates with a live English wave (the shortlist size by default), search the game name with NO time limit (~102 units each) to find when the English wave really started and how many English videos exist in total. A 48-h search alone cannot see older videos"),
   limit: z.number().int().min(1).max(40).default(15),
   estimate_only: z.boolean().default(false),
   refresh: z.boolean().default(false),
@@ -320,10 +320,54 @@ export interface WaveGame {
   status: "OPEN" | "CROWDED" | "OLD" | "NO_ENGLISH_SIGNAL";
   /** OLD by history, but English signal videos in the window: a second wave (e.g. Diversion, 14 Nov 2026). A label, not a drop. */
   re_wave: boolean;
+  /** Where the wave is for a small channel (wave-timing study 27 Nov 2026): EARLY = no big English video yet; BIG_JUST_POSTED = exactly 1 big video, ≤ 24 h old (its viewers now search the game: still GO); LATE = 2+ big videos or the first big one > 24 h old. */
+  stage: Stage;
+  /** Big = English long video (≥ 10 min) with ≥ 30K views. */
+  big_videos: number;
+  first_big_video_hours_ago: number | null;
+  /** Small English channels (< 10K subs) that posted 24–96 h ago all got < 500 views → the wave is cooling. */
+  cooling: boolean;
+  /** GO = record now (EARLY / BIG_JUST_POSTED, wave ≤ window, not cooling). LATE = only with a "more than them" plan (100% / full ending), expect ~400 views. NO = old or cooling. */
+  verdict: Verdict;
+  verdict_reason: string;
   /** Filled by the history check (all time, not only the window). */
   history?: { checked: boolean; english_long_videos_all_time: number; first_english_signal_days_ago: number | null; oldest_english_video_days_ago: number | null; biggest_english_channel_subs: number; note: string; possible_name_clash: { title: string; channel: string; channel_subs: number; views: number; days_ago: number | null; url: string }[] };
   top: Pick<SearchRow, "title" | "channel" | "channel_subs" | "views" | "age_hours" | "outlier_score" | "views_per_hour" | "language" | "url">[];
   found_by: string[];
+}
+
+export type Stage = "EARLY" | "BIG_JUST_POSTED" | "LATE";
+export type Verdict = "GO" | "LATE" | "NO";
+export const BIG_VIDEO_VIEWS = 30_000;
+const BIG_JUST_POSTED_HOURS = 24;
+
+/** Pure: wave stage of one game from its English long videos (wave-timing study, research/reports/2026-11-27-wave-timing-study.md).
+ * Brimlo before the big channels: avg ~1,800 views; after 2+ big videos: avg ~400; no wave: ~110. */
+export function stageOf(list: SearchRow[]): { stage: Stage; big_videos: number; first_big_video_hours_ago: number | null; cooling: boolean } {
+  const en = list.filter((r) => r.english && r.duration_min >= 10 && !r.live);
+  const big = en.filter((r) => r.views >= BIG_VIDEO_VIEWS);
+  const firstBig = big.length ? Math.max(...big.map((r) => r.age_hours)) : null;
+  const stage: Stage = big.length === 0 ? "EARLY" : big.length === 1 && firstBig! <= BIG_JUST_POSTED_HOURS ? "BIG_JUST_POSTED" : "LATE";
+  const recentSmall = en.filter((r) => r.channel_subs < 10_000 && r.age_hours >= 24 && r.age_hours <= 96);
+  const cooling = recentSmall.length >= 2 && recentSmall.every((r) => r.views < 500);
+  return { stage, big_videos: big.length, first_big_video_hours_ago: firstBig === null ? null : Math.round(firstBig), cooling };
+}
+
+/** Pure: the GO / LATE / NO verdict for a game. */
+export function verdictOf(g: Pick<WaveGame, "status" | "re_wave" | "stage" | "cooling" | "english_wave_age_hours" | "big_videos" | "first_big_video_hours_ago">, windowHours = 48): { verdict: Verdict; verdict_reason: string } {
+  const age = g.english_wave_age_hours;
+  if (g.status === "NO_ENGLISH_SIGNAL")
+    return g.big_videos > 0
+      ? { verdict: "LATE", verdict_reason: `Big English channels posted it (${g.big_videos} video(s) ≥ 30K, normal views for them, first ${g.first_big_video_hours_ago} h ago) but no small-channel outliers: we would come after them.` }
+      : { verdict: "NO", verdict_reason: "No English wave." };
+  if (g.status === "OLD" && !g.re_wave) return { verdict: "NO", verdict_reason: `English wave started ${age !== null ? Math.round(age / 24) + " days" : "long"} ago.` };
+  if (g.cooling) return { verdict: "NO", verdict_reason: "Wave is cooling: small English channels from the last 1–4 days got under 500 views." };
+  if (g.stage === "LATE") return { verdict: "LATE", verdict_reason: `${g.big_videos} big English video(s) (≥ 30K), the first ${g.first_big_video_hours_ago} h ago: we would come after the big channels (Brimlo avg ~400). Only with a 'more than them' plan (100% / full ending).` };
+  if (age !== null && age > windowHours) return { verdict: "LATE", verdict_reason: `Re-wave, but the first English signal is ${Math.round(age)} h old.` };
+  return {
+    verdict: "GO",
+    verdict_reason: g.stage === "BIG_JUST_POSTED" ? `One big video ${g.first_big_video_hours_ago} h ago: its viewers are searching the game now. Record now.` : `No big English video yet; wave ${age ?? "?"} h old. Before the big channels (Brimlo avg ~1,800).`,
+  };
 }
 
 /** A wave signal needs real views (≥ 1,000) AND a high outlier score or fast growth on a small channel. */
@@ -391,6 +435,9 @@ export function groupWaves(rows: (SearchRow & { query: string })[], minOutlier: 
       crowded,
       re_wave: false,
       status: firstEnglish === null ? "NO_ENGLISH_SIGNAL" : !inside ? "OLD" : crowded ? "CROWDED" : "OPEN",
+      ...stageOf(list),
+      verdict: "NO",
+      verdict_reason: "",
       top: [...list]
         .sort((a, b) => b.views - a.views)
         .slice(0, 4)
@@ -398,6 +445,7 @@ export function groupWaves(rows: (SearchRow & { query: string })[], minOutlier: 
       found_by: [...new Set(list.flatMap((r) => r.query.split(",")))],
     });
   }
+  for (const g of games) Object.assign(g, verdictOf(g, windowHours));
   const rank = { OPEN: 0, CROWDED: 1, NO_ENGLISH_SIGNAL: 2, OLD: 3 } as const;
   games.sort((a, b) => rank[a.status] - rank[b.status] || b.english_views_per_hour - a.english_views_per_hour || b.best_outlier - a.best_outlier);
   unknown.sort((a, b) => b.outlier_score - a.outlier_score);
@@ -455,7 +503,9 @@ export function judgeHistory(g: WaveGame, rows: SearchRow[], minOutlier: number,
   const firstH = Math.max(firstSignalH ?? 0, g.english_wave_age_hours ?? 0);
   const reWave = status === "OLD" && g.inside_48h;
   if (reWave) history.note += " But English signal videos are in the window now: a re-wave (label, not a drop).";
-  return { ...g, status, re_wave: reWave, english_wave_age_hours: firstH || g.english_wave_age_hours, inside_48h: status !== "OLD" && g.inside_48h, crowded: status === "CROWDED", history };
+  const st = stageOf(strong);
+  const out = { ...g, status, re_wave: reWave, english_wave_age_hours: firstH || g.english_wave_age_hours, inside_48h: status !== "OLD" && g.inside_48h, crowded: status === "CROWDED", history, ...st };
+  return { ...out, ...verdictOf(out, windowHours) };
 }
 
 /** A game with English signal videos in the scan window right now (OPEN, CROWDED or a re-wave). Status is a label, not a drop. */
@@ -511,8 +561,20 @@ export async function waveScan(input: z.infer<typeof waveScanInput>, deps: Deps 
     }
   }
   // live English waves first, hottest first; status is only a label
-  games.sort((a, b) => Number(isLive(b)) - Number(isLive(a)) || b.english_views_per_hour - a.english_views_per_hour);
+  const vRank = { GO: 0, LATE: 1, NO: 2 } as const;
+  games.sort((a, b) => Number(isLive(b)) - Number(isLive(a)) || vRank[a.verdict] - vRank[b.verdict] || b.english_views_per_hour - a.english_views_per_hour);
   const live = games.filter(isLive);
+  const found = (g: WaveGame) => Boolean(g.history && g.history.english_long_videos_all_time > 0);
+  const go = live.filter((g) => g.verdict === "GO" && found(g));
+  // GO without a history check, or the history search could not find the game itself (bad name read) → check by hand
+  const goUnchecked = live.filter((g) => g.verdict === "GO" && !found(g));
+  const late = live.filter((g) => g.verdict === "LATE");
+  const overall = go.length ? "GO" : goUnchecked.length ? "CHECK" : late.length ? "ONLY_LATE" : "NO_GAME";
+  const overallText =
+    overall === "GO" ? `GO: ${go.map((g) => g.game).join(", ")} — before the big channels. Record now.`
+    : overall === "CHECK" ? `Maybe: ${goUnchecked.map((g) => g.game).join(", ")} look early but their history was not checked — check in Chrome before calling one GO.`
+    : overall === "ONLY_LATE" ? `No early wave. Only late waves (${late.map((g) => g.game).join(", ")}): play one only with a 'more than them' plan, or rest and scan again in ~6–12 h.`
+    : "NO GAME NOW: no live English wave. Rest, and scan again in ~6–12 h.";
   const warnings = warningsFor(source);
   if (failed.length) warnings.push(`Some searches failed: ${failed.join(" | ")}`);
   if (unknown.length) warnings.push(`${unknown.length} signal videos have no game name found. Open them (description / first minute) — a hit game can hide here.`);
@@ -524,12 +586,15 @@ export async function waveScan(input: z.infer<typeof waveScanInput>, deps: Deps 
       rules:
         "Status is a LABEL, not a filter. OPEN = first English signal video ≤ window AND ≤ 5 English long videos AND no English long video from a channel over 100K. CROWDED = inside the window but many/big English videos (= proven demand). OLD = first English signal older than the window; re_wave = OLD but new English signal videos in the window now. Signal = ≥ 1,000 views AND (outlier_score ≥ min_outlier, or a channel under 50K with ≥ 300 views/hour). All scores are estimates. Only searched videos are seen: always confirm the pick with the real YouTube search in Chrome.",
       shortlist_note: "Up to 3 games with a live English wave (OPEN, CROWDED or re-wave), hottest first (English views per hour). Claude runs the hard gates (free/owned, niche, runs, not used) before calling one BEST.",
-      shortlist: live.slice(0, 3).map((g) => ({ game: g.game, label: g.re_wave ? "RE_WAVE" : g.status, history_checked: Boolean(g.history), english_wave_age_hours: g.english_wave_age_hours, english_views_per_hour: g.english_views_per_hour, english_long_videos: g.history?.english_long_videos_all_time ?? g.english_long_videos, link: g.link })),
+      verdict: overall,
+      verdict_text: overallText,
+      verdict_rules: "GO = live English wave ≤ window AND (0 big English videos ≥ 30K, or exactly 1 that is ≤ 24 h old) AND not cooling, history checked. LATE = 2+ big videos or the first > 24 h old. NO = old or cooling. From the wave-timing study 27 Nov 2026 (Brimlo before big channels ~1,800 avg, after ~400, no wave ~110). Claude still runs the hard gates and the Brimlo fit gate.",
+      shortlist: live.slice(0, 3).map((g) => ({ game: g.game, verdict: g.verdict, verdict_reason: g.verdict_reason, stage: g.stage, big_videos: g.big_videos, first_big_video_hours_ago: g.first_big_video_hours_ago, cooling: g.cooling, label: g.re_wave ? "RE_WAVE" : g.status, history_checked: Boolean(g.history), english_wave_age_hours: g.english_wave_age_hours, english_views_per_hour: g.english_views_per_hour, english_long_videos: g.history?.english_long_videos_all_time ?? g.english_long_videos, link: g.link })),
       history_note: i.history_check ? `History checked for the top ${toCheck.length} candidates. Games without 'history' were only seen in the ${i.hours}-h window: run wave_scan again with more history_check or check them in Chrome.` : "No history check: a game can look fresh but have older videos.",
       games: games.slice(0, i.limit),
       unknown_game_signals: unknown.slice(0, 10).map((r) => ({ title: r.title, channel: r.channel, channel_subs: r.channel_subs, views: r.views, age_hours: r.age_hours, outlier_score: r.outlier_score, language: r.language, url: r.url, description_start: r.description_start })),
     },
-    summary: `Wave scan (${queries.length} searches + ${toCheck.length} history checks, last ${i.hours} h): ${games.length} games with signals, ${live.length} with a live English wave${live.length ? `: ${live.slice(0, 3).map((g) => `${g.game} [${g.re_wave ? "RE_WAVE" : g.status}] (wave ${g.english_wave_age_hours} h, ${g.history ? `${g.history.english_long_videos_all_time} EN long all time` : "history not checked"})`).join("; ")}` : ""}. ${unknown.length} signal videos without a game name.`,
+    summary: `${overallText} | Wave scan (${queries.length} searches + ${toCheck.length} history checks, last ${i.hours} h): ${games.length} games with signals, ${live.length} with a live English wave${live.length ? `: ${live.slice(0, 3).map((g) => `${g.game} [${g.re_wave ? "RE_WAVE" : g.status}] (wave ${g.english_wave_age_hours} h, ${g.history ? `${g.history.english_long_videos_all_time} EN long all time` : "history not checked"}, ${g.verdict})`).join("; ")}` : ""}. ${unknown.length} signal videos without a game name.`,
     source,
     fetched_at: now.toISOString(),
     cached: allCached,

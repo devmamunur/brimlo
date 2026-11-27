@@ -174,6 +174,48 @@ TEXT: none. No letters, numbers or words anywhere.
 AVOID (negative prompt): any text, letters, numbers, words, watermarks, signatures, AI marks, logos, the YouTube logo, a mascot or stamp in any corner, photorealism, 3D render, realistic skin, photo, cinematic lighting, grey or muddy colors, a brown rock that blends into the road, angry face, hands, gloves, extra legs, more than one leg, bare feet, borders, frames, small inset boxes, split screens, arrows, emoji, many small objects, potholes, more than 2 bottles, clutter, blurry colors.
 ```
 
+### Thumbnail edit prompt v3 (Thu 26 Nov 2026) — attach the final image
+Mamunur: the leg looks like an arm/hand, the gold cuff belongs to the hand thumbnails, the shoe is hard to see. Fix: real leg (knee + thigh), all-navy trousers, full white sneaker side view.
+
+```
+Edit the attached thumbnail. Keep the style, the rock with its face, the grey/gold split, the impact star, the dust cloud, the road, the canyon, the sky and the composition exactly the same. Change only the leg and the shoe.
+
+LEG: it must clearly read as a LEG, not an arm. First-person view looking down at my own right leg. The thigh comes in from the very bottom-left edge of the image, the knee is slightly bent, and the lower leg goes up and to the right toward the rock in a strong diagonal kick. The leg is long and thick like a real leg, with a clear knee shape and soft fabric folds at the knee.
+
+TROUSERS: the whole trouser leg is ONE color, dark navy blue (#0B1023), from the thigh all the way to the shoe. NO gold cuff, NO gold or yellow band, NO sock showing. The trouser hem sits loosely over the top of the shoe.
+
+SHOE: one clean white sneaker, bigger and fully visible, seen from the side: the toe, the laces, the tongue, the heel and a thick white sole with a thin grey line. The toe of the sneaker hits the rock at the impact star. The sneaker must look like a shoe on a foot, not a glove or a hand.
+
+Keep the thin white edge around the leg and the shoe, thick black outlines, flat cartoon colors.
+
+AVOID: arm, hand, fingers, glove, sleeve, wrist, gold cuff, yellow band, sock, bare foot, second leg, text, letters, numbers, watermark, AI mark, logo.
+```
+
+**v4 result (Thu 26 Nov 2026):** after 4 edits (real leg, all-navy trousers, rock flies AWAY with a trail that gets thinner, rock 2x bigger, dust removed) → this replaces the live v2 thumbnail. Lesson: a big rock close to the camera reads as "coming back at me"; the trail must get thinner toward the rock.
+
+### Thumbnail prompt v4 (Thu 26 Nov 2026) — new layout from the top 2 videos
+Market check (screenshots from Mamunur): mcveety "S Tier Rock Kicking Incremental" 100K in 3 days, Azrilich "I kicked a rock so hard it broke reality" 51K in 2 days. Both: first-person view **down at my own leg**, shoe big at bottom-left, **rock small and flying far up the road**, road lines lead the eye. No face on the rock. Our v2 (giant rock with a face) reads as an emoji at small size (CTR 2.8%). Our own twist: the rock turns from ugly grey into a perfect golden ball while it flies. Not copied: no lava cracks (Azrilich), no purple trousers (mcveety).
+
+```
+Create a YouTube thumbnail, exactly 1280x720 pixels (16:9).
+
+STYLE: bright 2D cartoon vector illustration, thick bold black ink outlines, flat cel-shaded colors, very high saturation, clean simple shapes, low detail. Thin white edge around the leg and the rock so they pop.
+
+VIEW: first-person, I am looking DOWN at my own right leg while I stand on a long desert road. The road goes straight from the bottom of the image to the far horizon, with bright white dashed lines in the middle.
+
+LEG (bottom-left, big, about 40% of the image): my right leg seen from above, just after a hard kick. The thigh starts at the very bottom edge, the knee bends, and the leg swings forward and up. It must clearly be a leg, not an arm. Dark navy blue trousers (#0B1023), ONE color only, no gold cuff, no sock showing. One big clean white sneaker, toe pointing up toward the rock, laces and thick white sole clearly visible. White cartoon speed lines curve from the sneaker toward the sky.
+
+ROCK (top-center, small but clear): one rock flying far away up the road, high in the sky, with a curved trail behind it. The rock is changing in the air: the back half is ugly, grey and jagged; the front half is already a perfect round shiny golden ball (#FFC83D to #FF8A00) with a white shine spot. The trail is golden sparkles. No face on the rock.
+
+BACKGROUND: simple. Orange desert sand on both sides, low orange-red canyon walls far away, bright blue sky with 2 white clouds. A few small green desert bushes. Background less saturated than the leg and the rock.
+
+COMPOSITION: strong diagonal from the sneaker (bottom-left) to the flying rock (top-center). Big and readable at phone size. Nothing important in the bottom-right corner (time stamp area).
+
+TEXT: none. No letters, numbers or words anywhere.
+
+AVOID (negative prompt): arm, hand, fingers, glove, sleeve, gold cuff, yellow band, sock, bare foot, two legs, face on the rock, emoji, lava, fire, glowing cracks, purple trousers, any text, letters, numbers, watermark, AI mark, logos, photorealism, 3D render, borders, inset boxes, arrows, clutter, muddy colors.
+```
+
 ## Recording script
 
 Simple words only. Short lines. Say them slowly. Small mistakes are fine.

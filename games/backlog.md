@@ -52,6 +52,16 @@ Budget rule: max **$10–15/month** on games, on sale, only after [checklist.md]
 | FEED THE AI | Big outlier, but already covered by Idle Cub and others | Windows only | Paid | Only with a fresh angle (100% run) |
 | My Fire Is Bigger Than Yours | 100% video got 174K | ? | Paid | Covered; fresh angle needed |
 
+### /pick-game, Thu 26 Nov 2026 ~8:45 PM Dhaka (14:45 UTC) — wave_scan (1,020 units) + Steam new/demos/playtest + mana-watch (no change) + Chrome check of 3
+
+| Game | Type / price | Label | Chrome (26 Nov ~8:50 PM, newest first) | Verdict |
+|---|---|---|---|---|
+| ⭐ **Heroll: IF** — https://store.steampowered.com/app/4838670 (demo 5094300) | Free demo (since 8 Oct); full game Q1 2027; Windows (CrossOver untested) | OPEN → growing fast. Launch window passed (demo 7 weeks old; English wave ~5 days) | Gohjoe (201K) 77K in 1 d · Dabble (17.9K) 61K in 1 d · Zueljin 23K (4 d) · Beelz 28K (5 d) · small: Moonlit Quest 1K in 18 h (13.5x) · Slow Mo 104 in 1 h. vidIQ 61, competition Low | BEST — **Mamunur chose it (Thu 26 Nov ~9:50 PM); script card ready, publish Fri 27 Nov** ([file](../videos/2026-11-27-heroll-if.md)). Wave is getting bigger, small channels still get views. 🔥 FAST |
+| **Fleshborn** — https://store.steampowered.com/app/4193300 (demo 4379950) | Full game $6.29 out Wed 25 Nov (~1 day ago); free demo still listed; Windows | RE_WAVE (demo wave 10 months ago) | Idle cub 173K in 21 h · Ash Swoon 6.9K (4 d) · small after launch: AnxiGames "100%" 533 (1 d), WeeRascal 255 (18 h), GamerKittyChill 67 (9 h). Old demo videos: Real Civil Engineer 242K, Idle cub 229K, InterndotGif 94K. vidIQ 63 | Option 2. Dark flamethrower incremental (fits "dark" ask). But we can only play the old demo, and small channels get little. 🟡 SOON |
+| **Drain It All** — https://store.steampowered.com/app/5538810 (demo 5561170) | Free demo out Wed 25 Nov; full game 20 Jan 2027; Windows | NO WAVE yet | Still only the dev trailer (36 views). Theme proven (DrainSim, Empty the Lake, our Drink the Ocean) | Option 3 (early bet). 🟢 RELAXED unless a wave starts |
+
+Dropped: Beellionaire (paid $7.99, no demo), No Blink Allowed / Golfcremental / Round and Round Inc (paid or no CrossOver), SHRED A BILLION / Wait They Can Climb / Mycelarium (used), No Asteroids (Mamunur said no), Legendum (window passed, slow menu RPG), Debt Clicker demo (0 videos, 1 player), JP/RU-only waves (Digbound, Potato Factory, Desktop Guild, Siege of Incrementalia).
+
 ### /pick-game, Thu 26 Nov 2026 ~12:15 AM Dhaka (Wed 25 Nov 18:15 UTC) — wave_scan (1,020 units) + Steam new/demos/playtest + mana-watch (no change) + Chrome check of 4
 
 | Game | Type / price | Label | Chrome (26 Nov ~12:20 AM, newest first) | Verdict |
