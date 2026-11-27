@@ -16,10 +16,11 @@ argument-hint: "[optional: a game name to check, or 'next fest']"
 
 Get the time now (UTC + Dhaka).
 
-1. **`brimlo_wave_scan`** (no arguments; ≈ 1,200 units, 0 if cached). Read `verdict` + `verdict_text`, then the `shortlist` (each game: `verdict`, `verdict_reason`, `stage`, `big_videos`, `proven_videos_21d`, `cooling`, `english_wave_age_hours`). **Open `unknown_game_signals`** — a hit can hide in a title with no game name.
+1. **`brimlo_wave_scan`** (no arguments; ≈ 1,250 units, 0 if cached). Besides 7 searches it reads the newest uploads of ~24 niche channels (**channel watch**), so a game is found even when no search matches its title. Read `verdict` + `verdict_text`, then the `shortlist` (each game: `verdict`, `verdict_reason`, `stage`, `big_videos`, `proven_videos_21d`, `cooling`, `english_wave_age_hours`). **Open `unknown_game_signals`** — a hit can hide in a title with no game name.
 2. **`python3 -I tools/mana-watch/check.py`** (free). A **new, playable Mana game that fits = GO right away**, no YouTube signal needed (Mana's record is the proof: KitGain was first on Drink the Ocean → 105K and Big Ice → 37K; Mamunur 17 Nov 2026).
-3. **FOLLOW list** in `games/backlog.md` (filled every Sunday from the five tracked channels): re-check the top 2–3 with `brimlo_youtube_search` (hours 0) if no GO game was found.
-4. **`brimlo_steam_discover`** `kind: "demos"` + **`brimlo_steam_playtest`** — only to find names. A demo with no YouTube wave goes under "Watch" (no wave ≈ 110 views).
+3. **`python3 -I tools/itch-watch/check.py`** (free): new games on itch.io's "new and popular" list (incremental / idle / clicker, ≤ 14 days, ≤ $5). A fitting one with an English YouTube video that has outlier views = GO; without videos = "Watch" (unlike Mana, itch.io has no track record yet).
+4. **FOLLOW list** in `games/backlog.md` (refreshed Mon + Thu 8:30 PM Dhaka by the scheduled task `follow-list-refresh`, tool `follow_scan`): re-check the top 2–3 with `brimlo_youtube_search` (hours 0) if no GO game was found.
+5. **`brimlo_steam_discover`** `kind: "demos"` + **`brimlo_steam_playtest`** — only to find names. A demo with no YouTube wave goes under "Watch" (no wave ≈ 110 views).
 
 If `brimlo_wave_scan` is missing (old MCP code), run it by CLI: `cd tools/research && pnpm -s research:cli wave_scan --json > <scratchpad>/wave.json`. Only check tools when a call fails.
 

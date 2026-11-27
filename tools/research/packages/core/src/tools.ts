@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { channelStats, channelStatsInput, channelVideos, channelVideosInput } from "./features/channels.ts";
 import { channelDump, channelDumpInput } from "./features/channelDump.ts";
+import { followScan, followScanInput } from "./features/followScan.ts";
 import { competitorsAdd, competitorsAddInput, competitorsList, competitorsListInput, competitorsRefresh, competitorsRefreshInput, competitorsRemove, competitorsRemoveInput, competitorsSeed, competitorsSeedInput } from "./features/competitors.ts";
 import { ideaEngine, ideaEngineInput } from "./features/ideaEngine.ts";
 import { ideaSave, ideaSaveInput, ideasList, ideasListInput, ideaUpdate, ideaUpdateInput } from "./features/ideas.ts";
@@ -74,6 +75,14 @@ export const tools: ToolDef[] = [
     primary: "channel",
     schema: channelVideosInput,
     run: channelVideos,
+  },
+  {
+    name: "follow_scan",
+    title: "FOLLOW list scan",
+    description: "For the FOLLOW list (/weekly-review, scheduled refresh): reads the newest uploads of the channel-watch list (tracked small channels + big incremental channels), groups the last 21 days by GAME, and history-checks the top 10: FOLLOW = 1+ English long video ≥ 50K in 21 days and not cooling. Shows who played each game, views and days ago. Claude still checks price, fit, runs and 'not used'. ~50 units for channels + ~102 per game checked (≈ 1,070).",
+    primary: "days",
+    schema: followScanInput,
+    run: followScan,
   },
   {
     name: "channel_dump",

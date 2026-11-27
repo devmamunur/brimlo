@@ -6,7 +6,7 @@ import { COSTS, quotaStatus, unitsCounter } from "../quota/guard.ts";
 import type { Envelope } from "../result.ts";
 import { channelAverage, isShort } from "../scoring/outlier.ts";
 import { truncate } from "../scoring/text.ts";
-import type { Deps } from "./channels.ts";
+import { loadChannel, loadUploads, type Deps } from "./channels.ts";
 
 /**
  * YouTube search like vidIQ's: last N hours, sort by views, long only, with
@@ -39,7 +39,7 @@ const slugName = (slug: string) => {
   }
   return stripEdition(titleCase(raw.replace(/[_+-]+/g, " ")));
 };
-const nameKey = (n: string) =>
+export const nameKey = (n: string) =>
   "name:" +
   n
     .toLowerCase()
@@ -196,7 +196,7 @@ interface SearchPool {
   channels: ChannelInfo[];
 }
 
-async function searchPool(query: string, o: { hours: number; order: "viewCount" | "date" | "relevance"; duration: "any" | "short" | "medium" | "long"; english: boolean; gaming: boolean }, deps: Deps, refresh: boolean) {
+export async function searchPool(query: string, o: { hours: number; order: "viewCount" | "date" | "relevance"; duration: "any" | "short" | "medium" | "long"; english: boolean; gaming: boolean }, deps: Deps, refresh: boolean) {
   const yt = deps.yt ?? getYouTube();
   const q = query.trim().toLowerCase();
   return cached<SearchPool>(
@@ -286,6 +286,35 @@ export const DEFAULT_WAVE_QUERIES = [
   "free game",
 ];
 
+/** Channel watch (27 Nov 2026): niche channels whose new uploads show which games are waving, whatever the title says.
+ * The five tracked small channels, the big incremental channels, and small channels that had follower hits. ~2 units each per scan (2-h cache). */
+export const WATCH_CHANNELS: Record<string, string> = {
+  LuckyLemon: "UCFiYAfmsb0rDd-K9zmepKJg",
+  IdleAlex: "UCzGxm5yyLLed_4vgbHUzoNA",
+  "Ridiculously Random": "UCDKejJPw0vqH7dmsMNnWe6Q",
+  KitGain: "UCnsLYk1uwjsmgP-7j3YlDtw",
+  Azrilich: "UC-6l1LiHsSI67Q9xEXxjghg",
+  ImCade: "UCo8F0MWDvuVK21VMC2PHcZQ",
+  DangerouslyFunny: "UCudlnfkmb1LgK4tSgctPNOQ",
+  "Idle cub": "UCDD9T_c6VD6g1yRXPXW5stw",
+  mcveety: "UC2AZdI8C4RNBlE6vsG2_-fQ",
+  FungalBrainRot: "UCH7FyUuZS8g6rkjF6PPSRpA",
+  "Fox Clicks Again": "UCTRnLE6SbgB-OnL_10ZiNRg",
+  Normalhs: "UCUHXdlXWEuLisZYGP7DSIrg",
+  "Sonoket Gaming": "UCtnriB4rkC67ZFzOEBd96-g",
+  "Idle Gamer": "UCJ6ggxJbbJC_Pi614GcJQRQ",
+  "Ash Swoon": "UCqeMvLE3ngOlcpxy4SHRoMw",
+  "Malakye G": "UCw5VoRd90uW9DnLpc7DlxpQ",
+  Beevr: "UCrtfo988HVPj09yYriW1Kyw",
+  "Idle Enns": "UCZQ27fCt0UW8ygEhqMaRNbg",
+  "Jyku Plays": "UCBEk7I3mWTQ_24fE5_knOIQ",
+  GrayStillPlays: "UCzEy7pi3B7TIS9cn_sdKK9A",
+  Yusterday: "UCT7FUINjh296Tcz0SzUPFUg",
+  "Trey Tries Games": "UCPO-R0aGsHYVCdEY2SWwYaQ",
+  Floydsonson: "UCO9XZbb3iTp4l5dsLkW8Z1w",
+  Skoottie: "UCI_NMOUQwdBGLw-PlcdcWsw",
+};
+
 export const waveScanInput = z.object({
   queries: z.array(z.string().min(2)).min(1).max(12).default(DEFAULT_WAVE_QUERIES).describe("Searches to run. Each costs ~102 units (0 if run in the last 2 hours)"),
   hours: z.number().int().min(6).max(24 * 14).default(48).describe("Window. 48 = the Brimlo launch/wave window"),
@@ -293,6 +322,8 @@ export const waveScanInput = z.object({
   min_outlier: z.number().min(0).default(2).describe("A video counts as a wave signal at outlier_score ≥ N (or very high views per hour on a small channel)"),
   gaming_only: z.boolean().default(true).describe("Search only the YouTube Gaming category"),
   include_live: z.boolean().default(false),
+  watch_channels: z.array(z.string().min(2)).max(60).default(Object.values(WATCH_CHANNELS)).describe("Channel watch: channel ids (UC…) or @handles whose newest uploads join the scan, so a game is found even when no search query matches its title. ~2 units each (2-h cache). [] = off"),
+  channel_uploads: z.number().int().min(1).max(50).default(8).describe("Newest uploads read per watched channel"),
   history_check: z.number().int().min(0).max(15).default(5).describe("For the top N candidates with a live English wave (the shortlist size by default), search the game name with NO time limit (~102 units each) to find when the English wave really started and how many English videos exist in total. A 48-h search alone cannot see older videos"),
   limit: z.number().int().min(1).max(40).default(15),
   estimate_only: z.boolean().default(false),
@@ -526,7 +557,7 @@ export async function waveScan(input: z.infer<typeof waveScanInput>, deps: Deps 
   const yt = deps.yt ?? getYouTube();
   const queries = [...new Set(i.queries.map((q) => q.trim().toLowerCase()))];
   if (i.estimate_only) {
-    const units = (queries.length + i.history_check) * ONE_SEARCH_COST;
+    const units = (queries.length + i.history_check) * ONE_SEARCH_COST + i.watch_channels.length * 2;
     return { data: { queries, estimated_units: units, note: "Searches run in the last 2 hours cost 0 (cache)." }, summary: `Wave scan: ${queries.length} searches ≈ ${units} units (less if cached).`, source: yt.name, fetched_at: new Date().toISOString(), cached: false, quota_used: 0, warnings: [] };
   }
   const before = unitsCounter();
@@ -548,6 +579,27 @@ export async function waveScan(input: z.infer<typeof waveScanInput>, deps: Deps 
       }
     } catch (e) {
       failed.push(`${q}: ${e instanceof Error ? e.message : String(e)}`);
+      if (e instanceof Error && /quota/i.test(e.message)) break;
+    }
+  }
+  // channel watch: newest uploads of niche channels inside the window, grouped like search results
+  const watchSeen: string[] = [];
+  for (const ref of i.watch_channels) {
+    try {
+      const ch = await loadChannel(ref, deps, i.refresh);
+      const up = await loadUploads(ch, i.channel_uploads, deps, { refresh: i.refresh, ttlSec: 2 * 3600 });
+      allCached &&= up.cached;
+      let n = 0;
+      for (const v of up.value) {
+        if (isShort(v.durationSec)) continue;
+        const r = toRow(v, ch, now);
+        if (r.age_hours > i.hours || !keepRow(r, { includeLive: i.include_live })) continue;
+        rows.push({ ...r, query: `channel:${ch.title}` });
+        n++;
+      }
+      if (n) watchSeen.push(`${ch.title} (${n})`);
+    } catch (e) {
+      failed.push(`channel ${ref}: ${e instanceof Error ? e.message : String(e)}`);
       if (e instanceof Error && /quota/i.test(e.message)) break;
     }
   }
@@ -596,6 +648,7 @@ export async function waveScan(input: z.infer<typeof waveScanInput>, deps: Deps 
       checked_at: now.toISOString(),
       window_hours: i.hours,
       queries,
+      channel_watch: { channels: i.watch_channels.length, with_new_videos: watchSeen },
       rules:
         "Status is a LABEL, not a filter. OPEN = first English signal video ≤ window AND ≤ 5 English long videos AND no English long video from a channel over 100K. CROWDED = inside the window but many/big English videos (= proven demand). OLD = first English signal older than the window; re_wave = OLD but new English signal videos in the window now. Signal = ≥ 1,000 views AND (outlier_score ≥ min_outlier, or a channel under 50K with ≥ 300 views/hour). All scores are estimates. Only searched videos are seen: always confirm the pick with the real YouTube search in Chrome.",
       shortlist_note: "Up to 3 games with a live English wave (OPEN, CROWDED or re-wave), hottest first (English views per hour). Claude runs the hard gates (free/owned, niche, runs, not used) before calling one BEST.",
@@ -607,7 +660,7 @@ export async function waveScan(input: z.infer<typeof waveScanInput>, deps: Deps 
       games: games.slice(0, i.limit),
       unknown_game_signals: unknown.slice(0, 10).map((r) => ({ title: r.title, channel: r.channel, channel_subs: r.channel_subs, views: r.views, age_hours: r.age_hours, outlier_score: r.outlier_score, language: r.language, url: r.url, description_start: r.description_start })),
     },
-    summary: `${overallText} | Wave scan (${queries.length} searches + ${toCheck.length} history checks, last ${i.hours} h): ${games.length} games with signals, ${live.length} with a live English wave${live.length ? `: ${live.slice(0, 3).map((g) => `${g.game} [${g.re_wave ? "RE_WAVE" : g.status}] (wave ${g.english_wave_age_hours} h, ${g.history ? `${g.history.english_long_videos_all_time} EN long all time` : "history not checked"}, ${g.verdict})`).join("; ")}` : ""}. ${unknown.length} signal videos without a game name.`,
+    summary: `${overallText} | Wave scan (${queries.length} searches + ${i.watch_channels.length} watched channels + ${toCheck.length} history checks, last ${i.hours} h): ${games.length} games with signals, ${live.length} with a live English wave${live.length ? `: ${live.slice(0, 3).map((g) => `${g.game} [${g.re_wave ? "RE_WAVE" : g.status}] (wave ${g.english_wave_age_hours} h, ${g.history ? `${g.history.english_long_videos_all_time} EN long all time` : "history not checked"}, ${g.verdict})`).join("; ")}` : ""}. ${unknown.length} signal videos without a game name.`,
     source,
     fetched_at: now.toISOString(),
     cached: allCached,
