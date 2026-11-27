@@ -97,7 +97,7 @@ After a skill, keep the repo true (rule 1). Every title/description/script answe
 | Title score (estimate) | `brimlo_score_title` (free), `vidiq_score_title` | |
 | Fresh game waves on YouTube (for /pick-game) | `brimlo_wave_scan` (7 searches + **channel watch** of ~24 niche channels, last 48 h, groups by game, labels OPEN/CROWDED/OLD/RE_WAVE — labels, not drops; history check on the top 3) · one search like vidIQ: `brimlo_youtube_search` | ~102 per search (≈1,000 a scan) |
 | Steam / itch game facts, demos, reviews | `brimlo_steam_game`, `brimlo_steam_discover`, `brimlo_steam_reviews`, `brimlo_itch_new` | free |
-| FOLLOW list (games niche channels played in 21 days, FOLLOW check) | `follow_scan` (CLI `pnpm -s research:cli follow_scan`); scheduled task `follow-list-refresh` Mon + Thu 8:30 PM Dhaka | ~700–1,100 |
+| FOLLOW list (games niche channels played in 21 days, FOLLOW check) | `follow_scan` (CLI `pnpm -s research:cli follow_scan`); scheduled task `follow-list-refresh` Sat, Mon + Wed 8:30 PM Dhaka | ~700–1,100 |
 | New games on Mana / itch.io | `python3 -I tools/mana-watch/check.py` · `python3 -I tools/itch-watch/check.py` (scheduled `mana-watch` 9 AM + 7 PM, `itch-watch` 9:30 AM + 7:30 PM Dhaka) | free |
 | Read a web page | `brimlo_web_fetch` (robots.txt) → `playwright` MCP for JavaScript pages | free |
 | Read a recording | `tools/transcribe/run.sh "<path>" --game "<game>" --name <video-file-name>` (~5 min per hour; run in background) → `tools/transcribe/out/<name>/` | local |
