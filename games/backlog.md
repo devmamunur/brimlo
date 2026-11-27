@@ -64,6 +64,17 @@ Filled every Sunday in `/weekly-review` from the five tracked channels (LuckyLem
 | FEED THE AI | Big outlier, but already covered by Idle Cub and others | Windows only | Paid | Only with a fresh angle (100% run) |
 | My Fire Is Bigger Than Yours | 100% video got 174K | ? | Paid | Covered; fresh angle needed |
 
+### /pick-game, Fri 27 Nov 2026 ~10:30 PM Dhaka (16:30 UTC) — wave_scan (cached, 0 units) + 2 searches (~200 units) + Steam demos/playtest + mana-watch (no change). No Chrome check (no GO game).
+
+**Verdict: 😴 NO GAME NOW. Scan again Sat 28 Nov ~7–9 AM Dhaka.** wave_scan = FOLLOW (No Asteroids), but Mamunur said no to it earlier today.
+
+| Game | Stage / numbers | Gate | Result |
+|---|---|---|---|
+| No Asteroids | FOLLOW: 7 big, 2 huge in 14 d, small ch. 4K in 28–40 h | $6.39 (> $5), Mamunur said no (27 Nov) | Dropped |
+| Punch The Walls ($2.99) | Huge wave (Fox 416K, LuckyLemon 353K, Azrilich 166K at 27 h) | Small channels cooling: last 1–4 days 44 / 111 / 649 (Clunks "100%") | Late option only, expect ~300–600 |
+| SHRED A BILLION (full) / Beellionaire / Bamboo Ronin / Round And Round / Fleshborn | LATE | Paid or used | Dropped |
+| Cell Eats City demo | Still 0 videos (72 h search) | Free demo, best fit | Watch ⭐ |
+
 ### /pick-game, Fri 27 Nov 2026 ~9:10 PM Dhaka (15:10 UTC) — wave_scan (cached, 0 units) + 1 name search (100 units) + Steam demos/playtest + mana-watch (no change). No Chrome check (no GO game).
 
 **Verdict: 😴 NO GAME NOW. Scan again Sat 28 Nov ~7–9 AM Dhaka.** wave_scan = ONLY_LATE; no GO game.
